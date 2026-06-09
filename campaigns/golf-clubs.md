@@ -80,12 +80,25 @@ The 28 Apr night-drafting-at-11:30pm-then-nothing pattern. Drafts sat. Either th
 > Auto-updated by campaign-chaser agent. Last run: 2026-06-08 10:07 BST.
 
 ```
-Last action: Wave 1 of 7 sent 2026-05-05
-Days since last action: 34
-Next move: AUTO-KILL THRESHOLD REACHED (34 days, rule is 21+). Options: send the staged breakup today and close the loop cleanly, or let them die silently. Breakup draft is below. No new content needed. One tap to approve.
-Blocker: Harrison decision (send breakup or declare dead)
-Status: 1 replied/closed (St George's Hill, Q2 2027 tickle). 6 clubs cold, 34 days silent. FU1+FU2 never sent. Wave 2 not started.
+Last action: 6 breakup drafts CREATED in Gmail 2026-06-09 21:45 (Claude), awaiting Harrison send
+Days since last action: 0 (drafts staged; previously 35 days cold)
+Next move: SEND. Six real Gmail drafts are sitting in your drafts folder, subject "Last one from me", one per cold club. One tap each from Gmail/Superhuman. Best window: tomorrow AM (Wed 10 June), good B2B timing. After sending, set kill date or move replies to a real response.
+Blocker: Harrison send (drafts ready, Gmail MCP can draft but not send)
+Status: 1 replied/closed (St George's Hill, Q2 2027 tickle). 6 clubs cold → breakup drafted. FU1+FU2 never sent (skipped straight to breakup given 35-day gap). Wave 2 not started.
 ```
+
+### Breakup drafts created 9 June 2026 (Gmail draft IDs)
+
+Subject for all: **Last one from me**. Body = the staged breakup (below), "Sent via Superhuman" sig line dropped since send client is TBD. Salutation personalised.
+
+| Club | To | Salutation | Gmail draft ID |
+|---|---|---|---|
+| Royal Blackheath | info@rbgc.com | Hi there | r8755045735626457929 |
+| The Berkshire | golf@theberkshire.co.uk | Hi there | r7149295376597731450 |
+| Roehampton | helen.bolt@roehamptonclub.co.uk | Hi Helen | r4515102137834898869 |
+| Moor Park | enquiries@moorparkgc.co.uk | Hi there | r8075870116807356729 |
+| The Buckinghamshire | reception@buckinghamshiregc.com | Hi there | r-6137691220078604536 |
+| West Hill | secretary@westhill-golfclub.co.uk | Hi there | r-258583439434359669 |
 
 ### Pipeline failure note
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spec/funnel-strategy-2026-06-09.md",
+                "file": "spec/system-requirements.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "funnel-strategy-2026-06-09"
+              "title": "system-requirements"
             }
           }
         ]
@@ -185,11 +185,13 @@
   },
   "active": "80bc78c1b6c568e9",
   "lastOpenFiles": [
+    "agents/launchd/com.hwl.nightly-backup.plist",
+    "agents/nightly-backup.sh",
+    "spec/system-deep-dive-2026-06-09.md",
+    "spec/funnel-strategy-2026-06-09.md",
     "agents/followup-drafter.md",
     "spec/command-center.md",
     "CLAUDE.md",
-    "spec/funnel-strategy-2026-06-09.md",
-    "spec/system-deep-dive-2026-06-09.md",
     "spec/website-audit-2026-06-09.md",
     "business/clients/creepers-q3-arc-2026-05-26.md.tmp.95449.03dc9d309685",
     "workshops/2026-06-09/debrief.md",
@@ -217,9 +219,7 @@
     "workshops/2026-06-09/final/year-one-ai-content-engine-workshop.pptx",
     "workshops/2026-06-09/final",
     "content/read-kipling-arsenal-2026-06-02.md",
-    "content/publishing-rules.md",
     "content/inspo/audio/DYWhIpghytZ.wav",
-    "content/inspo/audio/DXOghyskcds.wav",
-    "content/inspo/audio/DW15stpDZVa.wav"
+    "content/inspo/audio/DXOghyskcds.wav"
   ]
 }

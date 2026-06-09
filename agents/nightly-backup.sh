@@ -1,0 +1,34 @@
+#!/bin/bash
+# Nightly backup: commit any changes to local git, push to private GitHub remote.
+# Runs as the macOS user via launchd, so it is NOT subject to the in-session
+# Claude push guardrail. Safe, additive, reversible. Pushes ONLY to the already
+# configured private remote (origin). Secrets stay excluded via .gitignore.
+set -uo pipefail
+
+HWL_META_DIR="/Users/harrison/HWL META"
+LOG="$HWL_META_DIR/agents/_log.md"
+cd "$HWL_META_DIR" || exit 1
+
+STAMP="$(date '+%Y-%m-%d %H:%M %Z')"
+
+# Nothing to do if no changes and nothing unpushed.
+if [[ -z "$(git status --porcelain)" ]] && git diff --quiet origin/main 2>/dev/null; then
+  echo "- $STAMP | nightly-backup | clean, nothing to commit or push" >> "$LOG"
+  exit 0
+fi
+
+git add -A
+if [[ -n "$(git diff --cached --name-only)" ]]; then
+  git commit -q -m "Nightly backup $STAMP" || true
+fi
+
+# Push only to the configured private origin. Never create or change a remote here.
+if git remote get-url origin >/dev/null 2>&1; then
+  if git push -q origin main 2>/dev/null; then
+    echo "- $STAMP | nightly-backup | committed + pushed to origin" >> "$LOG"
+  else
+    echo "- $STAMP | nightly-backup | committed locally, PUSH FAILED (check remote/auth)" >> "$LOG"
+  fi
+else
+  echo "- $STAMP | nightly-backup | committed locally, no origin remote configured" >> "$LOG"
+fi

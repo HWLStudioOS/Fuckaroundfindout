@@ -1,0 +1,33 @@
+# Secrets and credentials
+.config/
+.secrets/
+.tokens/
+*.env
+*.env.*
+!*.env.example
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Agent runtime artifacts (logs are kept in agents/_log.md, these are noise)
+agents/_stdout.log
+agents/_stderr.log
+
+# Backup files
+*.bak
+*~
+
+# Editor
+.vscode/
+.idea/
+
+# Python venv (in case anything reintroduces one)
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Frozen historical snapshots (each has its own internal .git)
+.archive/
+.playwright-mcp/

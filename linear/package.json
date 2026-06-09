@@ -1,0 +1,16 @@
+{
+  "name": "hwl-linear-sync",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Linear as a mobile-access layer over HWL META markdown.",
+  "scripts": {
+    "bootstrap": "node bootstrap.js",
+    "import": "node import.js",
+    "sync": "node sync.js",
+    "sync:dry": "DRY_RUN=1 node sync.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

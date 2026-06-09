@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "1ffed6d93776b045",
+    "type": "split",
+    "children": [
+      {
+        "id": "0593eebefea5f454",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80bc78c1b6c568e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLAUDE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "63fb57df4be536a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7e9828734132616",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3cb4594d9a5c547c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "63fcb3a3f512b53b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b46760ffcdf4dd4b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "783d3a4ff7c78517",
+    "type": "split",
+    "children": [
+      {
+        "id": "26bf2894e6323152",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fdd778abe84d3735",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "today.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for today"
+            }
+          },
+          {
+            "id": "dec83678879f567b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "today.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from today"
+            }
+          },
+          {
+            "id": "b204d89ac9c234f3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "625a6f112ff527b1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "09ff73de8db35645",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "today.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of today"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "80bc78c1b6c568e9",
+  "lastOpenFiles": [
+    "spec/website-audit-2026-06-09.md",
+    "business/clients/creepers-q3-arc-2026-05-26.md.tmp.95449.03dc9d309685",
+    "workshops/2026-06-09/debrief.md",
+    "content/waterfall.md",
+    "business/clients/creepers-q3-arc-2026-05-26.md",
+    "workshops/2026-06-09/final/live-demo-prompt.md",
+    "workshops/2026-06-09/laurence-prep-session-2026-06-08-transcript.txt",
+    "business/clients/creepers-f1-voice-memo-2026-05-27.md",
+    "business/clients/creepers-content-revival-2026-05-26.md",
+    "business/clients/creepers-content-strategy-2026-06-09.md",
+    "workshops/2026-06-09/final/rehearsal-card.md",
+    "workshops/2026-06-09/final/FIGMA-SOURCE.md",
+    "workshops/2026-06-09/final/demo-prompt-final.md",
+    "business/clients/creepers-reset-call-card-2026-06-09.md",
+    "business/clients/creepers.md",
+    "content/wisdom-canon.md",
+    "campaigns/lor-kerri-catchup-brief.md",
+    "today.md.tmp.81723.f3bc1b7ac9b8",
+    "workshops/2026-06-09/_superseded/talking-points.md",
+    "workshops/2026-06-09/_superseded",
+    "workshops/2026-06-09/final/slide-by-slide-speaker-notes.md",
+    "workshops/2026-06-09/final/research-notes.md",
+    "workshops/2026-06-09/final/workshop-run-of-show-final.md",
+    "workshops/2026-06-09/final/artifact-build-manifest.json",
+    "workshops/2026-06-09/final/year-one-ai-content-engine-workshop.pptx",
+    "workshops/2026-06-09/final",
+    "content/read-kipling-arsenal-2026-06-02.md",
+    "content/publishing-rules.md",
+    "content/pivot-review-2026-05-26.md",
+    "content/plan-2026-05-18.md",
+    "content/inspo/notes/hook-library-v1.md",
+    "content/inspo/audio/DYWhIpghytZ.wav",
+    "content/inspo/audio/DXOghyskcds.wav",
+    "content/inspo/audio/DW15stpDZVa.wav",
+    "content/platforms/instagram.md",
+    "content/references/frameworks.md"
+  ]
+}

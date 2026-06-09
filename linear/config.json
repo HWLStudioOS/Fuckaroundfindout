@@ -1,0 +1,49 @@
+{
+  "workspaceName": "HWL Studio",
+  "vaultRoot": "/Users/harrison/HWL META",
+  "stateFile": ".state.json",
+  "primaryTeamKey": "HWL",
+  "projectGroups": [
+    {
+      "name": "Campaign",
+      "label": "campaign",
+      "sources": [{ "glob": "campaigns/*.md" }]
+    },
+    {
+      "name": "Client",
+      "label": "client",
+      "sources": [{ "glob": "business/clients/*.md" }]
+    },
+    {
+      "name": "Agent",
+      "label": "agent",
+      "sources": [
+        { "glob": "agents/*.md", "exclude": ["agents/README.md", "agents/_log.md"] }
+      ]
+    },
+    {
+      "name": "Learning",
+      "label": "learning",
+      "sources": [{ "glob": "learning/*.md" }]
+    },
+    {
+      "name": "Money",
+      "label": "money",
+      "sources": [{ "glob": "money/*.md" }]
+    },
+    {
+      "name": "Life",
+      "label": "life",
+      "sources": [
+        { "glob": "life/*.md" },
+        { "glob": "health/*.md" }
+      ]
+    }
+  ],
+  "taskListSources": [
+    { "path": "today.md", "label": "today", "section": "Today" },
+    { "path": "this-week.md", "label": "this-week" }
+  ],
+  "syncEveryMinutes": 60,
+  "extraLabels": ["today", "this-week", "awaiting-response", "in-flight"]
+}

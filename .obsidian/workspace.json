@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spec/system-requirements.md",
+                "file": "agents/launchd/INSTALL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "system-requirements"
+              "title": "INSTALL"
             }
           }
         ]
@@ -185,6 +185,20 @@
   },
   "active": "80bc78c1b6c568e9",
   "lastOpenFiles": [
+    "agents/weekly-review.md",
+    "agents/README.md",
+    "agents/weekly-cfo.md",
+    "agents/morning-brief.md",
+    "agents/learning-brief.md",
+    "agents/followup-drafter.md",
+    "agents/evening-reflection.md",
+    "agents/discovery-scan.md",
+    "agents/content-engine.md",
+    "agents/campaign-chaser.md",
+    "agents/_review-log.md",
+    "agents/_log.md",
+    "agents/_evening-log.md",
+    "spec/system-requirements.md",
     "agents/launchd/com.hwl.health-sync.plist",
     "health/current.json",
     "health/data/garmin-2026-06-09.json",
@@ -195,7 +209,6 @@
     "agents/nightly-backup.sh",
     "spec/system-deep-dive-2026-06-09.md",
     "spec/funnel-strategy-2026-06-09.md",
-    "agents/followup-drafter.md",
     "spec/command-center.md",
     "CLAUDE.md",
     "spec/website-audit-2026-06-09.md",
@@ -207,19 +220,6 @@
     "workshops/2026-06-09/laurence-prep-session-2026-06-08-transcript.txt",
     "business/clients/creepers-f1-voice-memo-2026-05-27.md",
     "business/clients/creepers-content-revival-2026-05-26.md",
-    "business/clients/creepers-content-strategy-2026-06-09.md",
-    "workshops/2026-06-09/final/rehearsal-card.md",
-    "workshops/2026-06-09/final/FIGMA-SOURCE.md",
-    "workshops/2026-06-09/final/demo-prompt-final.md",
-    "business/clients/creepers-reset-call-card-2026-06-09.md",
-    "business/clients/creepers.md",
-    "content/wisdom-canon.md",
-    "campaigns/lor-kerri-catchup-brief.md",
-    "today.md.tmp.81723.f3bc1b7ac9b8",
-    "workshops/2026-06-09/_superseded/talking-points.md",
-    "workshops/2026-06-09/final/slide-by-slide-speaker-notes.md",
-    "workshops/2026-06-09/final/research-notes.md",
-    "workshops/2026-06-09/final/workshop-run-of-show-final.md",
-    "content/read-kipling-arsenal-2026-06-02.md"
+    "business/clients/creepers-content-strategy-2026-06-09.md"
   ]
 }

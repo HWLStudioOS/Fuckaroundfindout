@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.hwl.health-sync</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/harrison/HWL META/.venv-health/bin/python</string>
+        <string>/Users/harrison/HWL META/agents/health-sync.py</string>
+    </array>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key><integer>6</integer>
+        <key>Minute</key><integer>0</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/harrison/HWL META/agents/_stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/harrison/HWL META/agents/_stderr.log</string>
+</dict>
+</plist>

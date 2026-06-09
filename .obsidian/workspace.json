@@ -185,6 +185,11 @@
   },
   "active": "80bc78c1b6c568e9",
   "lastOpenFiles": [
+    "agents/launchd/com.hwl.health-sync.plist",
+    "health/current.json",
+    "health/data/garmin-2026-06-09.json",
+    "health/data",
+    "agents/_setup-garmin.py",
     "agents/health-sync.py",
     "agents/launchd/com.hwl.nightly-backup.plist",
     "agents/nightly-backup.sh",
@@ -212,14 +217,9 @@
     "campaigns/lor-kerri-catchup-brief.md",
     "today.md.tmp.81723.f3bc1b7ac9b8",
     "workshops/2026-06-09/_superseded/talking-points.md",
-    "workshops/2026-06-09/_superseded",
     "workshops/2026-06-09/final/slide-by-slide-speaker-notes.md",
     "workshops/2026-06-09/final/research-notes.md",
     "workshops/2026-06-09/final/workshop-run-of-show-final.md",
-    "workshops/2026-06-09/final/artifact-build-manifest.json",
-    "workshops/2026-06-09/final/year-one-ai-content-engine-workshop.pptx",
-    "workshops/2026-06-09/final",
-    "content/read-kipling-arsenal-2026-06-02.md",
-    "content/inspo/audio/DYWhIpghytZ.wav"
+    "content/read-kipling-arsenal-2026-06-02.md"
   ]
 }

@@ -4,6 +4,39 @@ Project-root append-only session capture. New entries at the top.
 
 ---
 
+## [2026-06-09 22:15] Evening: workshop debrief, system deep-dive, git+backup, golf drafts, Garmin health hub
+SESSLOG:[2026-06-09 22:15]
+
+**Project(s):** HWL META system, hwlstudio.com, funnel strategy, golf campaign, health automation
+**Duration:** Extended
+
+### Decisions
+- **System put under git version control** (382 files), secrets (.config/, *.env) + .archive/ excluded, FileVault covers at-rest. Pushed off-machine to PRIVATE repo github.com/HWLStudioOS/Fuckaroundfindout (Harrison ran the push; in-session push is hard-blocked by the harness). Nightly auto-backup job (com.hwl.nightly-backup, 22:30) loaded.
+- **Garmin is now the health spine.** Built agents/health-sync.py (venv .venv-health), pulls RHR/HRV/sleep/readiness/body-battery/stress/steps off the Forerunner 265 into health/current.json. Scheduled daily 06:00 (com.hwl.health-sync, loaded). read-health.sh rewritten Garmin-first; Apple Health kept ONLY for weight/body-fat (Renpho). Kills the 41-day-stale problem. First pull: RHR 48, sleep 8.4h/98, HRV 61 balanced, readiness 75. Whoop/Bevel deemed unnecessary (Garmin covers it).
+- **Filtered the audit agents' output** — several findings were wrong (voice-dna.md "missing" but exists; a memory-link called "dead"; GPG-encrypt recommendation redundant under FileVault). Verified before acting.
+- **Funnel: "build a world not a funnel" confirmed by research.** Case-study films = the one indispensable asset (proof + portfolio + highest-converting). Two-audience split: buyers (LinkedIn+films) vs peers (short-form/course, a 2027 layer). Website is the broken last inch.
+
+### Open Questions
+- hwlstudio.com source not in repo — needs host/repo location to fix dead CTAs + meta tags.
+- Garmin password rotation owed (transited chat in plaintext during setup). Reused-password risk flagged.
+- Apple Health weight still stale (29 Apr, 86.9kg) — Renpho/export side, lower priority.
+
+### Follow-ups
+- [ ] Harrison: change Garmin password (and anywhere reused).
+- [ ] Send the 6 golf breakup drafts (in Gmail, IDs in campaigns/golf-clubs.md) — tomorrow AM.
+- [ ] Read the 3 deep-dive docs in spec/ (system, website, funnel) with coffee.
+- [ ] Optional next builds: followup-drafter agent (spec'd), receivables-chaser, meeting-digest.
+- [ ] Export Apple Health for fresh weight, or wire a Renpho path, when convenient.
+
+### Artifacts
+- Created: spec/system-deep-dive-2026-06-09.md, spec/website-audit-2026-06-09.md, spec/funnel-strategy-2026-06-09.md, workshops/2026-06-09/debrief.md, agents/health-sync.py, agents/read-health.sh (rewritten), agents/followup-drafter.md, agents/nightly-backup.sh, agents/_setup-garmin.py, 2 launchd plists, 6 Gmail golf drafts, health/current.json
+- Modified: today.md, capture/inbox.md, campaigns/golf-clubs.md, business/clients/creepers-q3-arc-2026-05-26.md, .gitignore, memory (workshop + agent-pipeline-fixes)
+
+### Context
+Workshop delivered (smaller/more basic room than planned, B-grade self-read, debrief filed). Then a long autonomous build block on Harrison's invitation to "show the power of the new model": four parallel audit agents, git + off-machine backup stood up, golf breakups drafted, and a live Garmin health pipeline built and scheduled end-to-end. System is ~70% autonomous; the named next frontier is making agents ACT (send/chase), not just report. Do NOT rebuild the system (CLAUDE.md block-end: no changes before 18 July).
+
+---
+
 ## [2026-06-09 17:19] Operating day: workshop rebuild, Creepers reset, LOR confirmed, content engine fired
 SESSLOG:[2026-06-09 17:19]
 

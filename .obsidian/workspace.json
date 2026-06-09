@@ -185,6 +185,7 @@
   },
   "active": "80bc78c1b6c568e9",
   "lastOpenFiles": [
+    "agents/health-sync.py",
     "agents/launchd/com.hwl.nightly-backup.plist",
     "agents/nightly-backup.sh",
     "spec/system-deep-dive-2026-06-09.md",
@@ -219,7 +220,6 @@
     "workshops/2026-06-09/final/year-one-ai-content-engine-workshop.pptx",
     "workshops/2026-06-09/final",
     "content/read-kipling-arsenal-2026-06-02.md",
-    "content/inspo/audio/DYWhIpghytZ.wav",
-    "content/inspo/audio/DXOghyskcds.wav"
+    "content/inspo/audio/DYWhIpghytZ.wav"
   ]
 }

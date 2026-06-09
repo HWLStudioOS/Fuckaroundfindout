@@ -31,3 +31,6 @@ __pycache__/
 # Frozen historical snapshots (each has its own internal .git)
 .archive/
 .playwright-mcp/
+
+# Health-sync virtualenv
+.venv-health/

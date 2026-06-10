@@ -35,6 +35,12 @@ After processing, items either move or get a single-line "logged → action take
 
 ## Active items
 
+## 2026-06-10 14:07
+- **Fable 5, Anthropic Alignment, AI Tiers**, Stratechery / Ben Thompson, 10 Jun. Thompson's take on today's Fable 5 launch: a new Mythos-class tier above Opus, framed with "troubling new precedents" around alignment and safety routing. His capital-allocation lens on who wins the AI race when the tier above flagship goes public. Directly relevant to Harrison's Claude agent stack. Free on Pro through 22 Jun, then usage credits. [https://stratechery.com/2026/fable-5-anthropic-alignment-ai-tiers/]
+- **Claude Code's creator on the end of the software engineer**, Platformer / Casey Newton, 27 May. Boris Cherny (builder of Claude Code) says coding is effectively "solved," he hasn't written a line in six months, and the title "software engineer" starts disappearing by end of 2026. Hackathon winners were an electrician, a doctor, a carpenter. Maps straight to Harrison's Year One workshop content and the one-person studio thesis. [https://www.platformer.news/boris-cherny-interview-ai-jobs/]
+- **The Art of Ultrarunning**, Ian Sharman / Human Kinetics, releases 11 Jun. UK-born elite coach and multiple Western States winner on the mental, tactical, and longevity side of ultra distance: patience, discipline, pacing, what 200-mile racing adds to the frame. Practical coaching from someone who has run it at the sharp end. Queued to orders. [https://us.humankinetics.com/products/the-art-of-ultrarunning-epub]
+- **AI design backlash at Chelsea Flower Show 2026**, Greenhouse Management, 5 Jun. Three show gardens designed entirely via AI tool Spacelift; established Chelsea designers called it a "betrayal" of the RHS. Live debate about whether algorithmic design belongs at the most prestigious horticultural show in the world. Relevant intel for Creepers Q3 content positioning. [https://www.greenhousemag.com/article/rhs-chelsea-flower-show-2026-gardening-trends/]
+
 ## 2026-06-09 21:15
 - WORKSHOP FOLLOW-UPS owed to Year One (promised live on the call, debrief in `workshops/2026-06-09/debrief.md`):
   1. Loom series: install Claude, install Codex, folder-system setup, plus all prompts shown. Promised before agreeing it with Laurence, so confirm scope with him first. Keep short, operator posture.

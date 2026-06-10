@@ -1,3 +1,10 @@
+## 2026-06-10 evening
+- Shipped: David call done (Granola filed), Artlist login sent, morning run 5.3km easy, Strength A 57 min, payroll setup with Fazila (P45 sent, Brightpay live)
+- Missed: ET deck to Kerri (non-negotiable before 09:00, still unsent at 19:07), golf breakup emails (6 drafts staged, kill date 19 June), Creepers content plan (due Thu/Fri, not started)
+- Training: Easy run 5.3km 34 min (07:36) + Strength A 57 min (16:42). Planned: easy run + Strength A. Both done.
+- Campaigns moved: 0
+- Tomorrow's first action: Send ET deck to Kerri before 08:30. Friday walkthrough is 11:00.
+
 ## 2026-06-09 evening
 - Shipped: Creepers scope reset (Anna + Rob both attended), Kerri ET quote walkthrough (Sarah Garside also on), Year One workshop live (Granola note open, running now), AM run 6.0km/11 PRs (beat 4.1km plan)
 - Missed: Golf Wave 1 still cold (35d, fifth consecutive evening, no decision), post-call emails not sent (Creepers scope follow-up + LOR ET next steps both outstanding)

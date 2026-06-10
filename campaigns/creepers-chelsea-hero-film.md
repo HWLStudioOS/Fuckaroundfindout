@@ -8,14 +8,14 @@ client: Creepers
 
 ## Live state
 
-> Auto-updated by campaign-chaser agent. Last run: 2026-06-08 10:07 BST.
+> Auto-updated by campaign-chaser agent. Last run: 2026-06-10 10:07 BST.
 
 ```
-Last action: VO script, caption, and footage map created 2026-05-29 from Michael Buck voice notes
-Days since last action: 10
-Next move: Edit the film. Michael's VO is clean enough to cut against. Two factual checks needed before publish: (1) RHS award exact wording ("best in show category" is likely "Best [category] Garden" or "Best Construction", not Best in Show), (2) confirm garden name is "Killick Garden" not "A Seed In Time". Both checks can happen post-edit, pre-upload. Chelsea window is closing — every week without publish is a week off the news cycle.
-Blocker: Harrison edit time
-Status: ready to edit. No external contact needed. 10 days since assets ready.
+Last action: VO script, caption, and footage map created 2026-05-29
+Days since last action: 12
+Next move: DECISION NEEDED. Edit now, delegate to David, or formally defer. David started w/c 8 June (first jobs: Creepers hero film + BaW footage). Chelsea news cycle is 12 days past ready. Two factual checks before publish: (1) RHS award exact wording, (2) "Killick Garden" vs "A Seed In Time". Both checks take one email to Michael.
+Blocker: Harrison decision (edit / delegate to David / defer)
+Status: ready to edit. Chelsea window closing fast.
 ```
 
 # Creepers Chelsea — hero film

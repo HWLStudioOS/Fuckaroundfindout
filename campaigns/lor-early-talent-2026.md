@@ -4,13 +4,14 @@ Campaign architecture, content matrix, timeline, pricing. Built from the 20 May 
 
 ## Live state
 
-> Auto-updated by campaign-chaser agent. Last run: 2026-06-08 10:07 BST.
+> Auto-updated by campaign-chaser agent. Last run: 2026-06-10 10:07 BST.
 
 ```
-Last action: Harrison emailed Kerri + Sarah 8 June — ET "all planned and priced", will walk her through it on the call; kicking off July for roles going live September.
-Next move: Kerri call MOVED off Tue 9 June to Wed PM / Thu AM (Harrison rescheduled; awaiting Kerri, OOO till Tue). The £20,250 quote lands VERBALLY on that call, not pre-sent. Have the costed breakdown + ASpec links + Emma's-docs asks ready to walk through. See lor-kerri-catchup-brief.md.
-Blocker: rescheduled call landing (Kerri to confirm Wed/Thu)
-Status: on track. Quote walked through on the call, not pre-sent.
+Last action: Harrison emailed Kerri + Sarah 2026-06-08, ET "all planned and priced"
+Days since last action: 2
+Next move: Kerri/Harrison catch-up CONFIRMED 12 June 11:00 (Kerri sent new invite 9 June). Walk through £20,250 quote verbally on that call. Have costed breakdown + ASpec links + Emma's-docs asks ready. No pre-send of quote.
+Blocker: none (call confirmed for 12 June)
+Status: on track. 2 days to the call.
 ```
 
 Next Kerri/Harrison call: 9 June 16:00 (calendar confirmed). Quote and ghostwritten posts agenda items.

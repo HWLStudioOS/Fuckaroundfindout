@@ -34,14 +34,14 @@ Original mention: codex 02 business map. No formal brief from LOR yet.
 
 ## Live state
 
-> Auto-updated by campaign-chaser agent. Last run: 2026-06-08 10:07 BST.
+> Auto-updated by campaign-chaser agent. Last run: 2026-06-10 10:07 BST.
 
 ```
-Last action: Amanda Thompson replied 2026-05-07 (getting availability from locations)
-Days since last action: 32
-Next move: AUTO-KILL THRESHOLD (32 days). One exception applies: inbound from existing LOR client. Recommend sending the staged 3-line follow-up today — low cost, keeps the door open. If no reply in 14 days, kill permanently.
-Blocker: Harrison decision (send staged FU or kill)
-Status: cold (32 days). RE-OPENER STAGED AS A GMAIL DRAFT 8 June (reply on the "filming enquiry" thread to AmandaThompson@laingorourke.com, draft id r-2357566366531178370), awaiting Harrison's one-tap send. Offers to start with whichever location is ready, to unstick the availability blocker. Separate thread from Kerri/Korena, no volume issue.
+Last action: Amanda Thompson replied 2026-05-07
+Days since last action: 34
+Next move: FINAL CALL. Send or kill. Re-opener staged as Gmail draft (id r-2357566366531178370) on 8 June, unsent for 2 days. One tap from Gmail. If no reply in 14 days of sending, auto-kill. Separate thread from Kerri/Korena, no volume issue.
+Blocker: Harrison decision (send draft or kill)
+Status: cold (34 days). Auto-kill threshold hit. Exception: existing LOR client, low-cost re-opener.
 ```
 
 ### Follow-up draft (staged)

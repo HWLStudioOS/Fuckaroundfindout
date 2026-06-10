@@ -9,14 +9,14 @@ pairs_with: Figma carousel BAHHNFZnb7paY492PzhIMC (DfMA / 70:60:30)
 
 ## Live state
 
-> Auto-updated by campaign-chaser agent. Last run: 2026-06-08 10:07 BST.
+> Auto-updated by campaign-chaser agent. Last run: 2026-06-10 10:07 BST.
 
 ```
 Last action: Posts drafted 2026-06-02
-Days since last action: 6
-Next move: CRITICAL — Kerri call is TOMORROW 9 June 16:00. Gmail confirms nothing sent to Kerri since 2 June. Bundle ASpec posts + ET quote into one email today. Send before EOD.
-Blocker: Harrison send (TODAY)
-Status: drafting — unsent. Kerri call tomorrow makes this time-critical.
+Days since last action: 8
+Next move: Send to Kerri BEFORE 12 June 11:00 call. Today or tomorrow AM. Posts 1+2 send-ready. Post 3 needs real specialist detail (background, years, prior trade) before it ships — either get detail from Kerri on the call or send Posts 1+2 now as a preview.
+Blocker: Harrison send (TODAY or tomorrow AM)
+Status: drafting — unsent. Kerri call is 12 June 11:00. 2 days to send.
 ```
 
 # Ghostwritten leader posts — LOR Assembly Specialist

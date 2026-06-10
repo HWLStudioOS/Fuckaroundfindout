@@ -29,6 +29,9 @@ Estimated total: ~£60. Over £40 ceiling on a single basket. Splits into one un
 
 ISBN/price check needed before final order. Prices drift.
 
+## 2026-06-10
+- **The Art of Ultrarunning** (~£20), Ian Sharman / Human Kinetics. Mental, tactical, and longevity coaching from a UK-born elite ultra coach and multiple Western States winner. Releases 11 Jun. [https://us.humankinetics.com/products/the-art-of-ultrarunning-epub]. Status: auto-approved.
+
 ## 2026-06-05
 - **Inside the Box: How Constraints Make Us Better** (~£20), David Epstein, Pan Macmillan. NYT Bestseller on constraints driving creativity. From the Range author. Maps to HWL bootstrapped model and content work. [https://www.amazon.co.uk/Inside-Box-Constraints-Make-Better/dp/1035031752]. Status: auto-approved.
 

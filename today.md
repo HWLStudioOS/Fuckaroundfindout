@@ -1,60 +1,55 @@
 ---
-date: 2026-06-09
+date: 2026-06-10
 generated: auto 06:30 BST
 ---
 
-# Today, Tuesday 9 June 2026
+# Today, Wednesday 10 June 2026
 
 ## Pulse
 
-W22 Specific Build, RTTS 50K in 32 days (Sat 11 July). Three meetings stacked today. The Creepers reset at 11:00 is the one that matters most: June invoice held, scope conversation with Anna and Rob, and the frame going in is UP not down. LOR Kerri at 16:00 for the ET quote walkthrough. Year One workshop at 19:00, prep is fully done. David's contract is signed, which unblocks the Creepers hero film and BaW packaging after seven weeks of stall. Cash is tight (~£1,277) until LOR INV-0392 lands.
+W22 Specific Build, RTTS 50K in 31 days. Three clean wins from Tuesday: Creepers account saved with retainer held flat, LOR Early Talent confirmed at ~£14k, Year One workshop delivered. David is signed, editing is unblocked. Today has one non-negotiable before 09:00: the ET deck to Kerri. Everything else stacks behind it. Cash is still tight (~£1,277) until LOR INV-0392 lands. Sleep score 98, HRV 61 balanced last night. Good platform.
 
 ## Yesterday wrap
 
-Promised: workshop dry-run at 14:00, easy 6.1km run at 17:00.
+Promised: ET deck to Kerri first thing Wed, David intro call 09:45, easy run, Strength A.
 
-Done: sanitised demo folder confirmed built. Kerri ET email sent. Korena warm touch-base sent. David editor contract sent and signed.
+Done: Creepers reset call 11:00 landed clean (account saved, retainer held flat, hybrid brief, content plan owed Thu/Fri, full capture in creepers.md). Kerri/LOR call 16:00 confirmed ET go at ~£14k, deck to Kerri first thing today, Friday 11:00 walkthrough booked. Year One workshop delivered, ~9 attendees. AM run: 6km threshold done.
 
-Not confirmed: dry-run (HWL-79 not ticked). Training substituted: stair-stepper 50 min instead of easy 6.1km run.
-
-No Linear deltas overnight.
+Not done: Strength A (workshop ran long), moved to today. Granola notes filed for all three meetings.
 
 ## Today
 
-- [x] Creepers reset 11:00. DONE, account saved, hybrid brief, retainer held flat. Full capture in `business/clients/creepers.md`. Content plan owed Thu 11 / Fri 12. <!-- linear:HWL-83 -->
-- [x] Workshop tech check. DONE (workshop ran clean, demo fired live). <!-- linear:HWL-84 -->
-- [x] Kerri/LOR catch-up 16:00. DONE, **ET confirmed go at ~£14k**. Deck to Kerri first thing Wed, Friday 11:00 walkthrough. Full capture in `business/clients/lor.md`. <!-- linear:HWL-85 -->
-- [x] Year One workshop 19:00. DELIVERED. ~9 attendees, more basic room than planned, Harrison's read: okay not great. Debrief + owed follow-ups in `workshops/2026-06-09/debrief.md`. <!-- linear:HWL-86 -->
-- [x] AM run DONE, upgraded: 6km (10' warm-up, 18' threshold, 10' cooldown), felt good. PM Strength A NOT done (workshop ate the evening) → moved to Wed 10 June. Wed run = easy. <!-- linear:HWL-87 -->
-
-## Day wrap (21:15)
-
-LOR signed off ~£14k Early Talent (the morning's "everyone is leaving" fear inverted by lunchtime). Creepers reset landed, account saved. Workshop delivered, smaller and more basic room than planned, debrief filed. Tomorrow's spine: ET deck to Kerri first thing, David intro call 09:45, easy run, Strength A (moved from tonight), Creepers content plan due Thu/Fri.
+- [ ] ET deck to Kerri before 09:00. Quality-not-quantity statement in. Only to Kerri, not Emma yet. <!-- linear:HWL-88 -->
+- [ ] Send all 6 golf breakup emails from Gmail drafts (window: 09:00-09:45, before David call). <!-- linear:HWL-89 -->
+- [x] David intro call 09:45. Done. Podcast edit + 2 reels already complete, uploading to Frame.io tonight. £550/month flat, trial month. Harrison owes the handoff pack (links, fonts, palettes, references, Artlist invite). <!-- linear:HWL-90 -->
+- [ ] Easy run + Strength A (Wed swapped to easy, Strength A moved from Tue). <!-- linear:HWL-91 -->
+- [ ] Start Creepers content plan: pillars per ICP, posting model, fortnightly shoot cadence. Due Thu 11 / Fri 12 to Anna + Sarah. <!-- linear:HWL-92 -->
 
 ## Awaiting response
 
-- Creepers June invoice: held until post-reset call today. Do not raise until scope is agreed.
-- LOR INV-0392 (~£3,885): no confirmed landing date. Mention to Kerri at 16:00 if natural.
-- Korena V8 retainer: Council deliberation owed by Fri 14 June.
-- Golf Wave 1: 34 days cold, auto-kill threshold hit. Six clubs with zero follow-up. Decision: send staged breakup or declare dead.
+- Kerri Friday 11:00 call: Teams invite received yesterday, deck lands this morning. Raise LOR INV-0392 (~£3,885) if still outstanding.
+- Creepers June invoice: HELD. Do not raise until content plan agreed Thu/Fri.
+- Korena V8 retainer: Council deliberation owed by Fri 14 June (4 days). Posture decision needed.
 
 ## In flight
 
-- Year One workshop tonight 19:00. Everything built, nothing left to prepare.
-- Creepers hero film: routing to David now contract is signed.
-- BaW footage: in Dropbox for David, packaging unblocked.
-- Harrison x David intro call: Wed 10 June 09:45.
-- LOR Early Talent campaign: quote walks through on Kerri call today.
-- Creepers Q3 Royal Thread: re-anchor needed post-Sandringham cancellation. Handle after tonight.
+- Creepers content plan: written output due Thu 11 / Fri 12. Pillars per ICP (@creepersnursery B2B vs @creepersinstallation HNW end-clients), posting model (~3x/week target), fortnightly Surrey shoot cadence, Murray Street location in play.
+- Website: SHIPPED COMPLETE. www.hwlstudio.com serves the Quiet Frontier redesign from Vercel: 8 works with editorial film titles, client logo strip (LOR/Creepers/Saucony/Arsenal/MARCHON/BaW), and the living-mosaic hero (3k tiles assemble the h logo from noise, self-heal around the cursor, dissolve on scroll). Harrison signed off enthusiastically. SSL valid, email intact, DNS on Vercel nameservers. Repo HWLStudioOS/hwlstudio-site, main = production. Note: Harrison's own router DNS cache may show the old site until ~tomorrow; rest of world converged.
+- Creepers hero film: routed to David, briefed progressively over coming weeks. No hard deadline set.
+- BaW podcast: edit + 2 reels DONE by David (custom CEO-style open), uploading to Frame.io tonight. Delivery workflow is Frame.io, not Dropbox. Schedule for Monday evening once files land.
+- David handoff pack owed: client social links, fonts/palettes, video references for all three clients, Artlist team invite, Creepers + LOR footage upload. Goal: build 2-4 weeks ahead.
+- LOR ASpec ghostwritten posts: banked in folder, Kerri to schedule against annual report cadence.
+- Golf Wave 2 (11 emails): not started, blocked on original email body.
+- VAT threshold: ~£88k/£90k rolling 12-month. Breach fires when INV-0392 lands. Fazila to contact.
 
 ## Standing
 
-- Body: 86.9 kg (2026-04-29, 41 days stale). Re-export from iPhone now overdue.
-- RHR: 46 bpm (2026-04-28). HRV 43 ms (Dec 2025, very stale).
-- Training: W22 Specific Build. Today AM fasted 4.1km + PM Strength A. Sat 6 June long run 17km, 4 PRs. Sun 5.5km back-to-back done. RTTS in 32 days.
-- Money: cash ~£1,277 until LOR INV-0392 lands. No discretionary spend. Creepers June invoice held. VAT threshold breach expected this month per Litchfields.
-- Clients: David signed. Creepers reset 11:00. LOR Kerri 16:00. Workshop 19:00.
+- Body: 86.9 kg (2026-04-29, stale 42 days). Re-export from iPhone overdue.
+- Sleep: 7.5h, score 84. RHR 48 bpm. HRV 52 BALANCED. Readiness 78 HIGH. (Garmin, pulled 08:46 today. The 06:07 auto-pull was empty, watch had not synced.)
+- Training: W22 Specific Build. Sat 6 June 17km long run done. Sun 7 June 5.47km B2B done. Mon stair 50 min. Tue threshold 6km done. Today: easy run + Strength A. RTTS 50K in 31 days.
+- Money: cash ~£1,277. LOR INV-0392 (~£3,885) not yet landed. Creepers June invoice held. VAT breach imminent. Maya ~£2,200 owed, settles when Laing lands.
+- Clients: LOR ET ~£14k confirmed, deck to Kerri today, Friday walkthrough. Creepers account saved, plan owed Thu/Fri. David editing unblocked.
 
 ## Lens
 
-The Creepers 11:00 is the highest-leverage 30 minutes of the week. Rob handing off to Anna is a disengagement signal, and the three-week posting gap gave him cover to ask for a reduction. The real issue is expectation drift: he commissioned a premium brand-build and started measuring it like a daily-feed contract. Say that on the call, clearly, and frame the conversation around what the full scope should cost, not what you can cut. The workshop prep is done. The only thing standing between you and a clean Tuesday is that 11:00 framing.
+The 45 minutes between sending the ET deck and the David call is the most valuable window of the day. Do not waste it on email. Open Gmail, send all six golf breakup drafts in one pass. They have been sitting since 9 June. Kill date is 19 June. The Korena V8 Council deliberation is due Friday. That decision needs to happen before the window closes, not on the day.

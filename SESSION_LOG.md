@@ -4,6 +4,38 @@ Project-root append-only session capture. New entries at the top.
 
 ---
 
+---
+
+## [2026-06-10 11:19] — Year One workshop follow-up pack (docs + Figma PDF)
+SESSLOG:2026-06-10 11:19
+<!-- written by: Harrisons-Mac-mini.local at 2026-06-10T11:19:43 -->
+
+**Project(s):** HWL META / Year One workshop
+**Duration:** Medium
+
+### Decisions
+- Follow-up pack leads with a no-terminal path (Claude/ChatGPT Projects). The terminal demo overshot the room (actual level 2-4 per debrief), so Claude Code is positioned as the upgrade path, not the front door.
+- Handout designed in Figma with the HWL type system (Instrument Serif / Space Grotesk / Inter / Space Mono), 8 A4 pages, per-page PDF export merged with pypdf. Text stays selectable so prompts copy straight out of the PDF.
+- YouTube links verified against YouTube metadata before inclusion. Anthropic's official channel has no beginner-suitable Claude Code video; Futurepedia (Apr 2026) fills the slot.
+- Install commands verified against current Anthropic and OpenAI docs (claude.ai/install.sh, chatgpt.com/codex/install.sh).
+
+### Open Questions
+- Substack recap (due Thu 11 June 17:00 per spec): does the PDF + Loom series replace it, or does the recap become the public version of pages 2-3?
+- Distribution: which Year One Slack channel, and Laurence coordination (he distributes per the in-room agreement).
+
+### Follow-ups
+- [ ] Harrison records 3 Looms (shot list ready: install / interview+folder / cascade), under 6 min each.
+- [ ] One-tap send: PDF + cover post into Year One Slack.
+- [ ] Decide Substack recap by Thu 11 June 17:00.
+
+### Artifacts
+- Created `workshops/2026-06-09/follow-up/` — 00-slack-post, 01-06 docs, loom-shot-list.md
+- Created `workshops/2026-06-09/follow-up/The-AI-Content-Engine-Year-One.pdf` — 8-page A4 handout
+- Created Figma "Year One — AI Content Engine Handout" (key Tj9JFikqvn9XENFF2TDsHg, HARRISONLIVING drafts)
+
+### Context
+Granola verbatim transcript was unavailable (paid tier) but Granola meeting notes + workshops/2026-06-09/debrief.md confirmed all six owed deliverables, now covered. Content leak-checked: no client names, no em dashes. Only open actions are the Slack send (one tap) and the three Looms.
+
 ## [2026-06-09 22:15] Evening: workshop debrief, system deep-dive, git+backup, golf drafts, Garmin health hub
 SESSLOG:[2026-06-09 22:15]
 

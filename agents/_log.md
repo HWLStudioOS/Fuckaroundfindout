@@ -6,6 +6,7 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 
 ---
 
+2026-06-10 14:07 | discovery-scan | 4 items posted, 1 buyable queued (The Art of Ultrarunning, auto-approved)
 2026-06-07T09:00:00+01:00 | learning-brief | 5 items, 4 drills (pending/pre-read), telegram msg_id=430, file=learning/weekly-brief/2026-06-07-brief.md
 2026-04-29 12:33 | system | new folder scaffolded, agents drafted but not yet scheduled
 2026-04-30 18:46 | morning-brief | wrote today.md, telegram msg_id=384, sources=7/12 (skipped: Strava, Apple Health, Google Calendar, Gmail, Granola)
@@ -48,3 +49,7 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 2026-06-09T06:30:00+01:00 | morning-brief | wrote today.md, telegram msg_id=438, sources=5/5 (health-csv, strava, gmail, calendar, granola). health data stale 41 days (2026-04-29), re-export needed.
 - 2026-06-09 22:08  | health-sync | tokenstore login failed (401 Unauthorized (Invalid Username or Password)); fresh login
 - 2026-06-09 22:12  | health-sync | OK 2026-06-09: RHR 48, sleep 8.4h (score 98), HRV 61 BALANCED, readiness 75
+- 2026-06-09 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-06-10 06:07  | health-sync | OK 2026-06-10: RHR None, sleep Noneh (score None), HRV None None, readiness None
+2026-06-10T06:30:00+01:00 | morning-brief | wrote today.md, telegram msg_id=439, sources=4/5 (health-csv/gmail/calendar/granola pulled; strava not wired; linear-deltas absent=no changes)
+- 2026-06-10 08:46  | health-sync | OK 2026-06-10: RHR 48, sleep 7.5h (score 84), HRV 52 BALANCED, readiness 78

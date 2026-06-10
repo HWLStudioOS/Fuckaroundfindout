@@ -40,7 +40,11 @@
       "Bash(pkill -f mlx_whisper)",
       "Bash(pkill -f \"uvx --from mlx\")",
       "Bash(uv run --quiet --with soundfile python3 -c ' *)",
-      "mcp__claude_ai_Gmail__create_draft"
+      "mcp__claude_ai_Gmail__create_draft",
+      "mcp__claude_ai_Gmail__list_drafts",
+      "Bash(\".venv-health/bin/python\" agents/health-sync.py)",
+      "Bash(mdfind -name \"hwl\")",
+      "mcp__claude_ai_Granola__get_meeting_transcript"
     ]
   }
 }

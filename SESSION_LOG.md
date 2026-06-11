@@ -4,6 +4,117 @@ Project-root append-only session capture. New entries at the top.
 
 ---
 
+## [2026-06-11 21:45] — Creepers first-principles day: deck teardown, 13-week calendar shipped as a live site, plan sent
+SESSLOG:2026-06-11 21:45
+<!-- written by: Harrisons-Mac-mini at 2026-06-11T21:47:19.569824 -->
+
+**Project(s):** Creepers, HWL product (calendar template)
+**Duration:** Extended
+
+### Decisions
+- Travel charged at cost for Creepers (deck slide 11 + plan doc updated); retainer holds GBP3,500 flat. Be ready for Anna's question: travel was never priced in, has been absorbed, now bills at cost agreed per trip.
+- Calendar-as-product is real: every client gets a live content-calendar URL instead of a spreadsheet. Template at ~/hwl-content-calendar-template/, clone for BaW + LOR next.
+- LinkedIn answer (recon-backed): feed the in-house company page (2 video cuts/week via David), ghostwrite MICHAEL weekly (5.5k followers, out-reaches the company page), Rob gets ONE founder post in hero week. Availability lists never go on LinkedIn (proven dead, 3-4 reactions).
+- Yard reels killed as a format (Harrison: never works). Replacement anchor: "Order Out", one real order pulled/trolleyed/gone, modelled on the 11 May trolleys reel (109 likes, page's best).
+- Hero productions are opportunity-scoped (a show, a royal story, a major install), quoted per project. Not quarterly-by-default.
+- Morie Street (NOT Murray/Wonersh): Creepers' London cash & carry, 1 Morie Street Wandsworth SW18 1SL, Mon-Fri 6am-12pm. Standalone 90-min quick-hit Thu 9 Jul am. July = 3 full shoot days + that morning.
+- Shoot economics: 10 full days over 13 weeks for GBP10.5k retainer; taper lever logged (stretch Surrey to every 3 weeks from Sept if bank + team capture hold).
+
+### Open Questions
+- Did anyone at Creepers capture Royal Windsor (6 June)? Gates the August proof post.
+- Is Creepers at RHS Badminton (8-12 Jul) or RHS Sandringham (22-26 Jul)? Each = separately quoted production day. (Hampton Court does not run in 2026; Royal Windsor already happened.)
+- Rob + Michael nod on the LinkedIn pilot.
+- Which PDF went out? Slide 15 overflow (clipped "sales echoes" line) was fixed in Figma, but unclear if Harrison re-exported before sending. If the clipped one shipped, fix is live for any re-send.
+- Early signal positive ("seems like they like it"), no formal confirmation from Anna yet.
+
+### Follow-ups
+- [ ] Raise Creepers June invoice (GBP3,500) the moment Anna/Sarah confirm. NOT before.
+- [ ] Lock S1: Tue 16 June Surrey + iPhone capture session. W1 opens Mon 15 from bank regardless.
+- [ ] David handoff pack (HWL-88), now on the Creepers critical path (61 grid posts assume David on derivatives).
+- [ ] Fix @creepersnursery link-in-bio -> weekly availability-list signup (with Anna). Biggest single lever found in recon.
+- [ ] Pollyanna Wilkinson consent ask (first Designers We Supply, scheduled w/c 31 Aug).
+- [ ] Clone calendar template for BaW + LOR.
+
+### Artifacts
+- Deployed https://creepers-content-calendar.vercel.app (source ~/creepers-content-calendar/, 13 weeks, 39 nursery + 26 install + 11 LinkedIn posts, 11 shoots incl. quick-hit)
+- Created ~/hwl-content-calendar-template/ + README; memory entry reference-content-calendar-template.md
+- Created business/clients/creepers-deck-review-2026-06-11.md (full teardown + recon findings)
+- Created business/clients/creepers-calendar-2026-jun-sep.csv
+- Created ~/Documents/working-notes/2026-06-11_creepers-channel-recon.md (full recon digest)
+- Modified business/clients/creepers.md (channel ground truth, GRAINGER spelling, Sarah-Louise Pope, Morie Street)
+- Modified business/clients/creepers-content-plan-2026-06.md + creepers-content-strategy-2026-06-09.md (travel, Morie Street, Pollyanna confirmed)
+- Modified Figma deck page 281:2 (travel at cost, Hero productions card, Morie Street x4, calendar URL on slide 13, slide-15 overflow fix)
+- Merged ~/Downloads/"Creepers Content Plan — June 2026.pdf" (17 pages)
+
+### Context
+Creepers plan + live calendar emailed to Sarah-Louise Pope, Anna Blake and Rob Ryall; early signal positive, no formal sign-off yet. June invoice held on Anna's confirmation. Tomorrow is the double-header: Kerri 11:00 (LOR ET deck walkthrough, raise INV-0392) and Cathal 12:00. Channel recon ground truth now lives in creepers.md; the calendar site doubles as Harrison's shoot/edit reference.
+
+---
+
+## [2026-06-11 21:46] — Website: mobile fix + funnel build shipped to prod
+<!-- written by: Harrisons-Mac-mini.local at 2026-06-11T21:46:59.452901 -->
+
+**Decisions**
+- Mobile hero scroll bug fixed (address-bar resize jitter guard) and shipped same morning.
+- fable-vision funnel build shipped to production on Harrison's go: application gate as the only door (Calendly off the page), anonymised capacity roster with one open seat, field-notes capture, 10,000,000+ views formed in mosaic particles, custom cursor, section rail, full SEO pass (JSON-LD, robots, sitemap, search-intent title).
+- 10M+ framed as career-cumulative views; Arsenal cards now 550k+/340k+ per Harrison's figures.
+
+**Open Questions**
+- Apply gate is mailto until Vercel function + Resend. Field notes needs the Substack. Search Console needs Harrison.
+- Korona V8 posture still undecided, due before Friday's calls.
+
+**Follow-ups**
+- [ ] Korona Council before Kerri Fri 11:00.
+- [ ] Friday briefs tonight-or-Thursday: Kerri (ET + INV-0392), Cathal (BaW).
+- [ ] David handoff pack, golf breakup emails still open from board.
+
+**Artifacts**
+- ~/hwlstudio-site main @ 1ca49dd live on www.hwlstudio.com (verified).
+- Modified `capture/inbox.md` (+3 items: Substack, bios, content bottleneck).
+
+---
+
+## [2026-06-10 21:45] — Full delivery day: Creepers plan+deck, LOR deck review+pricing, David onboarding, BaW intro animation + thumbnail
+SESSLOG:2026-06-10 21:45
+<!-- written by: Harrisons-Mac-mini.local at 2026-06-11T09:03:31 -->
+
+**Project(s):** Creepers / Laing O'Rourke / BaW / HWL ops
+**Duration:** Extended
+
+### Decisions
+- Creepers content plan locked: nursery 3x/week + installation ramping 1x→2-3x by Aug, fortnightly Surrey shoot days + monthly New Forest + Murray Street (Wandsworth flower shop) quick-hits, team iPhone capture system, retainer flat with full-day-production boundary in writing. Commercial slide included in the client deck.
+- Creepers deck built by cloning the Retainer Proposals template (new page 281:2, all 17 slides reskinned). Written master plan at business/clients/creepers-content-plan-2026-06.md.
+- LOR ET deck (30pp, £14k, Jul-Mar): keep full-year story, stage the commitment. Phase 1 £14k Jul-Dec milestone-billed (£7k commission / £3.5k post-shoots ~1 Sept / £3.5k Oct window), Phase 2 trades wave ~£6k commissioned at December review. Unbundle internal line-manager pack ~£1,750 (was in original £20,250 quote). Never show Kerri a number above £14k; name the £1.5k delta over her verbal £12.5k on the call.
+- LOR deck must-fix before Friday: "70% offsite by 2032" is factually wrong (70:60:30 is current state), "unfilled"→"hard to fill", drop High Fliers co-credit, soften "nobody" competitor absolutes, unname line managers, mark windows "to confirm with Emma", strip payment/PO/asks apparatus from the talk-through version.
+- David (editor): £550/month flat trial, Frame.io not Dropbox, Premiere for pod / Resolve for client work, Artlist replacing Epidemic. BaW podcast edit + 2 reels already DONE day one. Filed business/david-editor.md.
+- Garmin 06:07 auto-pull returned nulls (watch unsynced); manual re-run 08:46 backfilled today.md. Pull timing needs a retry or later slot.
+
+### Open Questions
+- Creepers Sarah's surname (cover says "Anna & Sarah").
+- BaW thumbnail headline + guest name are placeholders; who is the red-haired guest, what's the episode topic?
+- Boundary card price: keep "Quoted per project" or print £950/day anchor?
+
+### Follow-ups
+- [ ] Send Creepers plan + deck to Anna + Sarah (owed Thu 11/Fri 12) → unblocks June £3,500 invoice
+- [ ] Revise LOR deck (investment slide, slate tags, next steps + fact fixes) before Friday 11:00 Kerri walkthrough; raise INV-0392 on the call
+- [ ] Ship banked AS posts on a schedule with Kerri → invoice against ~£6k open balance
+- [ ] David handoff pack: client links, fonts/palettes, references, Artlist invite, footage uploads
+- [ ] Swap BaW thumbnail placeholders; schedule podcast Monday evening once Frame.io files land
+- [ ] Fazila VAT conversation (breach fires when INV-0392 lands)
+- [ ] Korena V8 Council deliberation due Fri 14 June
+
+### Artifacts
+- Created `business/clients/creepers-content-plan-2026-06.md` — full hybrid content plan (pillars per ICP, posting model, 4-week calendar, shoot plan, commercial)
+- Created `business/david-editor.md` — editor terms, workflow, current jobs, Harrison-owes list
+- Modified `today.md` — Garmin backfill, David call capture, Frame.io workflow correction
+- Figma: "Creepers Content Plan — June 2026" page (Retainer Proposals file 5DSm3UBcnuhXBd2K8HM27q, page 281:2); "Youtube Thumbnail 23" (B@W file l5AZW9U1YF0Qe2P7cQdjzJ, node 717:14, Adobe bg-removed cutout)
+- ~/Downloads: `LOR ET — Existing Deck (combined).pdf`, `BaW_intro_card_1080p.mp4`, `BaW_intro_card_4K_fade-from-black.mp4`, `BaW_intro_card_4K_black-bg.mp4`, `BaW_intro_logo_ALPHA.mov` + 4K alpha
+- Saved `~/Documents/working-notes/2026-06-10_lor-et-deck-4lens-review.md` — full four-agent review (fit/pricing/fact-check/red-team)
+
+### Context
+Cash-maximisation strategy agreed: ~£29k Jun-Oct from existing accounts (INV-0392 £3,885 + AS ~£6k as posts ship + Creepers £3,500 + ET £14k milestones + manager pack £1,750) with no headline price increase to Kerri. The LOR four-lens review is the load-bearing artifact for Friday's walkthrough prep.
+
+
 ---
 
 ## [2026-06-10 11:19] — Year One workshop follow-up pack (docs + Figma PDF)

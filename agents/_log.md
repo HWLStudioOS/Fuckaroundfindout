@@ -53,3 +53,6 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 - 2026-06-10 06:07  | health-sync | OK 2026-06-10: RHR None, sleep Noneh (score None), HRV None None, readiness None
 2026-06-10T06:30:00+01:00 | morning-brief | wrote today.md, telegram msg_id=439, sources=4/5 (health-csv/gmail/calendar/granola pulled; strava not wired; linear-deltas absent=no changes)
 - 2026-06-10 08:46  | health-sync | OK 2026-06-10: RHR 48, sleep 7.5h (score 84), HRV 52 BALANCED, readiness 78
+- 2026-06-10 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-06-11 06:00  | health-sync | OK 2026-06-11: RHR 48, sleep Noneh (score None), HRV None None, readiness 68
+2026-06-11T06:30:00+01:00 | morning-brief | wrote today.md, telegram msg_id=442, sources=4/5 (health-csv/gmail/calendar/granola pulled; strava not wired; linear-deltas absent=no changes)

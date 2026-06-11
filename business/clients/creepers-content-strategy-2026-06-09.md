@@ -28,7 +28,7 @@ Royal Thread (Chelsea + Windsor) retained as a HERO over-arc only, not a weekly 
 
 **P3 — Grower Craft / Provenance (trust).** Sells quality and standards, removes the risk objection. Hands at work, hand-pruning, root-ball checks, "8 years in production," UK-grown vs bought-in plugs. Types: 20-40s no-narration craft clip, QC moment with the grower naming the standard.
 
-**P4 — Sourcing Trips / Hidden Sources (mystique + variety).** Sells the hunt and depth of range. New Forest runs, Murray Street (Wonersh) as the "secret warehouse designers don't know exists." Types: monthly sourcing mini-doc, Murray Street reveal, "this one's going to a project" specimen put-aside.
+**P4 — Sourcing Trips / Hidden Sources (mystique + variety).** Sells the hunt and depth of range. New Forest runs, Morie Street (Wandsworth, the London cash & carry, corrected 11 June from "Morie Street, Wonersh") as the little-promoted London site trade can collect from at 6am. Types: monthly sourcing mini-doc, Morie Street reveal, "this one's going to a project" specimen put-aside.
 
 ### @creepersinstallation (HNW end-clients + spec'ing designers, ~2.3K, NDA-limited)
 
@@ -85,10 +85,10 @@ Monthly New Forest yields a hero reel + 4-6 install clips + Story slides, feedin
 
 Items 1-4 are the non-negotiable deposit. 5-7 are surplus, shot only if time and light allow.
 
-### New Forest / Murray Street trip (monthly)
+### New Forest / Morie Street trip (monthly)
 
 - Hero specimen against sky; buyer's hand on bark; wide "lines of plants like soldiers"; the tag going on; the loaded trailer; one piece-to-camera, "why this one."
-- Murray Street as a one-off hero reveal: rows of perennials, the trade-only feel, "the bit of Creepers most people don't know exists." Recurring small-perennial close-ups thereafter.
+- Morie Street as a one-off hero reveal: rows of perennials, the trade-only feel, "the bit of Creepers most people don't know exists." Recurring small-perennial close-ups thereafter.
 
 ### Cast diversification — hard quota, not "let data decide"
 
@@ -96,7 +96,7 @@ Saves-first optimisation REINFORCES Michael, so performance data cannot be the d
 
 - Max **1 Michael-fronted post/week** on @nursery.
 - At least **1 faceless-hands or place-as-character post/week**.
-- Rotate a **second on-camera voice monthly** (a buyer on a sourcing trip, a propagator at Murray Street).
+- Rotate a **second on-camera voice monthly** (a buyer on a sourcing trip, a propagator at Morie Street).
 
 Keep Michael on Monday Minute and the odd One-Plant reel. He is an asset, not a problem. The quota stops the page reverting to "Michael's Instagram."
 

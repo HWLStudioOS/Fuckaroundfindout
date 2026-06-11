@@ -6,7 +6,7 @@ Deliverable owed Thu 11 / Fri 12 June to Anna + Sarah. Agreed on the 9 June rese
 
 ## 1. The reset in one paragraph
 
-Rob commissioned a luxury brand build. The sales team needs a sales channel. Both are right, and they are not the same job. This plan runs them as two lanes on two accounts: @creepersnursery becomes the working trade channel (stock, season, people, proof), @creepersinstallation stays the quiet luxury shopfront (detail, texture, process). The production model changes from big quarterly shoots to continuous light production: fortnightly Surrey shoot days, monthly New Forest, Murray Street quick-hits, and a team capture system that feeds Stories daily. Same retainer. Full-day crewed productions, Chelsea-style, are quoted separately.
+Rob commissioned a luxury brand build. The sales team needs a sales channel. Both are right, and they are not the same job. This plan runs them as two lanes on two accounts: @creepersnursery becomes the working trade channel (stock, season, people, proof), @creepersinstallation stays the quiet luxury shopfront (detail, texture, process). The production model changes from big quarterly shoots to continuous light production: fortnightly Surrey shoot days, monthly New Forest, Morie Street quick-hits, and a team capture system that feeds Stories daily. Same retainer. Full-day crewed productions, Chelsea-style, are quoted separately.
 
 ## 2. Two accounts, two ICPs
 
@@ -48,7 +48,7 @@ Grid stays clean and considered. Stories carry the daily volume. Everything sche
 
 - **Fortnightly Surrey shoot day** (Harrison, light solo kit). Banks roughly 8 grid pieces and 20+ story assets per visit, two weeks of nursery content per day.
 - **Monthly New Forest** (their biggest nursery). Scale and hero visuals: rows of stock, specimen fields, seasonal change. Feeds both accounts.
-- **Murray Street, Wandsworth** (small flower shop). Easy local quick-hits from East London, colour and retail-charm content, gap-filler between Surrey visits.
+- **Morie Street, Wandsworth** (Creepers' London cash & carry, 1 Morie Street SW18 1SL, open Mon-Fri 6am-12pm; verified creepersnursery.co.uk/london 11 June. Vault previously had "Morie Street, Wonersh" from the reset-call notes, both wrong). Easy local quick-hit from East London, mornings only. First visit Thu 9 July am. Content angle: the little-promoted London site where trade can collect same-day from 6am.
 - **Team capture system.** Install crews and nursery staff shoot iPhone material into a shared drop folder. Harrison delivers a 30-minute iPhone settings + standards session on the first Surrey visit, plus a one-page capture guide. Revive Rob's £5/post staff incentive.
 - **Edit and packaging.** David (HWL editor) processes batches, builds the queue, preps captions and carousels for review.
 - **Hero film.** "38 Years in the Ground" (2:45, in edit with David) lands as the brand anchor across both accounts when ready.
@@ -60,7 +60,7 @@ Grid stays clean and considered. Stories carry the daily volume. Everything sche
 **W1 (15 Jun):** Mon: Monday Minute, what to plant mid-June. Wed: Stock Walk #2, fresh-in perennials, sizes, ring the office. Fri: 6am dispatch morning reel.
 **W2 (22 Jun):** Mon: People, a sales team member on what designers are asking for in June. Wed: Specimen spotlight, semi-mature multi-stem. Fri: Chelsea proof post, the stock behind the medals, available now.
 **W3 (29 Jun):** Mon: Monday Minute. Wed: Fresh In + availability teaser. Fri: New Forest scale piece, the biggest nursery nobody has seen.
-**W4 (6 Jul):** Mon: People, a grower. Wed: Stock Walk #3. Fri: Murray Street colour piece.
+**W4 (6 Jul):** Mon: People, a grower. Wed: Stock Walk #3. Fri: Morie Street colour piece.
 
 ### @creepersinstallation
 
@@ -82,6 +82,6 @@ Shot list: 2x Monday Minute banked (Michael), 1x sales-team presenter piece, dis
 ## 9. Commercial (the slide Rob sees)
 
 - Retainer holds at £3,500/month. No change.
-- What changes is shape: quarterly big productions become continuous light production, fortnightly Surrey, monthly New Forest, Murray Street quick-hits, sourcing, scheduling, edit and packaging, capture-system training.
+- What changes is shape: quarterly big productions become continuous light production, fortnightly Surrey, monthly New Forest, Morie Street quick-hits, sourcing, scheduling, edit and packaging, capture-system training.
 - Hard boundary: any genuine full-day crewed production (Chelsea-style) is quoted separately, as before.
-- Travel and added cadence absorbed within the retainer. The boundary is the protection.
+- Travel charged at cost, agreed before each trip (Harrison decision 11 June, deck updated to match). Added cadence absorbed within the retainer; the full-day boundary is the protection.

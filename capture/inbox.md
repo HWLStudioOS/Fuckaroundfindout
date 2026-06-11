@@ -35,6 +35,25 @@ After processing, items either move or get a single-line "logged → action take
 
 ## Active items
 
+## 2026-06-11 09:20
+- Create the Substack (the owned centre of the funnel; site's field-notes capture is built and waiting to be wired to it)
+- Source: self, during fable-vision website session
+- Tag: task
+- Status: new
+
+## 2026-06-11 09:20
+- Point LinkedIn (and all platform bios) at the one destination once the Substack exists, per funnel-strategy-2026-06-09
+- Source: self, during fable-vision website session
+- Tag: task
+- Status: new
+
+## 2026-06-11 09:20
+- Named bottleneck: actually creating content. The funnel front door is now built; the constraint is feed volume. Route through content/waterfall.md weekly rhythm.
+- Source: self, during fable-vision website session
+- Tag: idea
+- Status: new
+
+
 ## 2026-06-10 14:07
 - **Fable 5, Anthropic Alignment, AI Tiers**, Stratechery / Ben Thompson, 10 Jun. Thompson's take on today's Fable 5 launch: a new Mythos-class tier above Opus, framed with "troubling new precedents" around alignment and safety routing. His capital-allocation lens on who wins the AI race when the tier above flagship goes public. Directly relevant to Harrison's Claude agent stack. Free on Pro through 22 Jun, then usage credits. [https://stratechery.com/2026/fable-5-anthropic-alignment-ai-tiers/]
 - **Claude Code's creator on the end of the software engineer**, Platformer / Casey Newton, 27 May. Boris Cherny (builder of Claude Code) says coding is effectively "solved," he hasn't written a line in six months, and the title "software engineer" starts disappearing by end of 2026. Hackathon winners were an electrician, a doctor, a carpenter. Maps straight to Harrison's Year One workshop content and the one-person studio thesis. [https://www.platformer.news/boris-cherny-interview-ai-jobs/]

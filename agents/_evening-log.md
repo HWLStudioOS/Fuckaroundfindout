@@ -1,3 +1,10 @@
+## 2026-06-11 evening
+- Shipped: Creepers content plan sent to Anna + Sarah + Rob (12:17), content calendar live on Vercel (linked in email), Creepers June invoice unblocked
+- Missed: Korona V8 posture decision (needed before Kerri 11:00 tomorrow, explicitly flagged for today), golf breakup emails (Day 37 cold, kill date 19 June), Strength B upper + mobility
+- Training: Afternoon walk 2.9km vs Strength B prescribed. Session not done.
+- Campaigns moved: 1 (Creepers content plan delivered, account back on track)
+- Tomorrow's first action: Decide Korona V8 posture before 10:00. Kerri call at 11:00, no time to think in the room.
+
 ## 2026-06-10 evening
 - Shipped: David call done (Granola filed), Artlist login sent, morning run 5.3km easy, Strength A 57 min, payroll setup with Fazila (P45 sent, Brightpay live)
 - Missed: ET deck to Kerri (non-negotiable before 09:00, still unsent at 19:07), golf breakup emails (6 drafts staged, kill date 19 June), Creepers content plan (due Thu/Fri, not started)

@@ -909,3 +909,52 @@
 [2026-06-10T20:00:36.836Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-06-10T21:00:36.815Z] INFO Sync start. Last: 2026-06-10T20:00:36.835Z
 [2026-06-10T21:00:40.504Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-10T22:00:40.673Z] INFO Sync start. Last: 2026-06-10T21:00:40.502Z
+[2026-06-10T22:00:41.160Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-10T23:00:41.247Z] INFO Sync start. Last: 2026-06-10T22:00:41.158Z
+[2026-06-10T23:00:41.667Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T00:00:41.732Z] INFO Sync start. Last: 2026-06-10T23:00:41.667Z
+[2026-06-11T00:00:42.489Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T01:00:42.572Z] INFO Sync start. Last: 2026-06-11T00:00:42.489Z
+[2026-06-11T01:00:46.030Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T02:00:46.074Z] INFO Sync start. Last: 2026-06-11T01:00:46.028Z
+[2026-06-11T02:00:46.887Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T03:00:46.974Z] INFO Sync start. Last: 2026-06-11T02:00:46.886Z
+[2026-06-11T03:00:47.500Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T04:00:47.614Z] INFO Sync start. Last: 2026-06-11T03:00:47.499Z
+[2026-06-11T04:00:50.482Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T05:00:50.541Z] INFO Sync start. Last: 2026-06-11T04:00:50.481Z
+[2026-06-11T05:00:51.119Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T06:00:51.209Z] INFO Sync start. Last: 2026-06-11T05:00:51.118Z
+[2026-06-11T06:00:51.708Z] INFO push + HWL-88 David handoff pack: client social links, fonts/palettes, vid
+[2026-06-11T06:00:51.807Z] INFO Sync done. push: +1 ~0. pull: ~0.
+[2026-06-11T07:00:51.935Z] INFO Sync start. Last: 2026-06-11T06:00:51.806Z
+[2026-06-11T07:00:52.485Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T08:00:52.579Z] INFO Sync start. Last: 2026-06-11T07:00:52.484Z
+[2026-06-11T08:00:53.462Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T09:00:53.531Z] INFO Sync start. Last: 2026-06-11T08:00:53.461Z
+[2026-06-11T09:00:54.292Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T10:00:54.337Z] INFO Sync start. Last: 2026-06-11T09:00:54.291Z
+[2026-06-11T10:00:55.071Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T11:00:55.166Z] INFO Sync start. Last: 2026-06-11T10:00:55.070Z
+[2026-06-11T11:00:55.609Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T12:00:55.684Z] INFO Sync start. Last: 2026-06-11T11:00:55.608Z
+[2026-06-11T12:00:56.811Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T13:00:56.860Z] INFO Sync start. Last: 2026-06-11T12:00:56.810Z
+[2026-06-11T13:00:58.202Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T14:00:58.244Z] INFO Sync start. Last: 2026-06-11T13:00:58.200Z
+[2026-06-11T14:00:59.543Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T15:00:59.515Z] INFO Sync start. Last: 2026-06-11T14:00:59.541Z
+[2026-06-11T15:01:00.335Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T16:01:00.531Z] INFO Sync start. Last: 2026-06-11T15:01:00.334Z
+[2026-06-11T16:01:01.302Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T17:01:01.386Z] INFO Sync start. Last: 2026-06-11T16:01:01.299Z
+[2026-06-11T17:01:03.390Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T18:01:03.466Z] INFO Sync start. Last: 2026-06-11T17:01:03.389Z
+[2026-06-11T18:01:04.130Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T19:01:04.190Z] INFO Sync start. Last: 2026-06-11T18:01:04.129Z
+[2026-06-11T19:01:05.716Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T20:01:05.794Z] INFO Sync start. Last: 2026-06-11T19:01:05.715Z
+[2026-06-11T20:01:06.263Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T21:01:06.372Z] INFO Sync start. Last: 2026-06-11T20:01:06.262Z
+[2026-06-11T21:01:06.872Z] INFO Sync done. push: +0 ~0. pull: ~0.

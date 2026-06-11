@@ -44,7 +44,10 @@
       "mcp__claude_ai_Gmail__list_drafts",
       "Bash(\".venv-health/bin/python\" agents/health-sync.py)",
       "Bash(mdfind -name \"hwl\")",
-      "mcp__claude_ai_Granola__get_meeting_transcript"
+      "mcp__claude_ai_Granola__get_meeting_transcript",
+      "Bash(env)",
+      "Read(//Users/harrison/hwlstudio-site/**)",
+      "Read(//Users/harrison/hwlstudio-site/src/**)"
     ]
   }
 }

@@ -42,14 +42,14 @@ Nudge sent 6 May. Korena replied: thanks for the follow-up, no updates yet, chan
 
 ## Live state
 
-> Auto-updated by campaign-chaser agent. Last run: 2026-06-10 10:07 BST.
+> Auto-updated by campaign-chaser agent. Last run: 2026-06-12 10:07 BST.
 
 ```
 Last action: Harrison sent Korena direct warm reopener 2026-06-08
-Days since last action: 2
-Next move: Hold. Wait for Korena reply. Kerri call is 12 June 11:00 — do NOT raise retainer there, it is Korena's decision. If Korena silent past mid-June, Council deliberation.
+Days since last action: 4
+Next move: Hold through today's Kerri call (13:30 BST — retainer stays OFF agenda, Korena's call). If Korena silent by Mon 15 June, trigger Council deliberation.
 Blocker: Korena reply
-Status: channel reopened 8 June. No reply yet. Council deferred pending response.
+Status: No reply from Korena. 4 days cold. Mid-June Council trigger imminent. Do not raise on Kerri call today.
 ```
 
 Context: Korena's 6 May reply confirmed receipt but gave no timeline. No contact since. LOR accounts payable received invoice INV-0392 on 29 May (Kerri was OOO, back 2 June). Kerri/Harrison recurring call next instance: 9 June 16:00. This is the natural moment to surface it, but the retainer question is above Kerri's authority — it needs Korena.

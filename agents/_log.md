@@ -4,6 +4,10 @@ Append-only. One line per agent run.
 
 Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 
+2026-06-12 14:07 | discovery-scan | 5 items posted, 0 buyable queued
+2026-06-12T10:07:00+01:00 | campaign-chaser | 5 campaigns checked. Gmail: no golf club replies, no Korena reply. Calendar: Kerri/Early Talent call confirmed 13:30 today (not 11:00). Urgent Telegram sent. Golf clubs: breakups 3 days unsent, kill date 7 days. Shell Beam: 36 days cold, send/kill decision pushed. Creepers hero film: David on it, no edit update, factual checks outstanding. LOR Retainer: 4 days cold, Council trigger approaching Mon 15 June.
+2026-06-12T06:30:00+01:00 | morning-brief | wrote today.md, telegram msg_id=444, sources=5/7 (skipped: granola no transcripts, linear no deltas file)
+
 ---
 
 2026-06-10 14:07 | discovery-scan | 4 items posted, 1 buyable queued (The Art of Ultrarunning, auto-approved)
@@ -56,3 +60,11 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 - 2026-06-10 22:30 BST | nightly-backup | committed + pushed to origin
 - 2026-06-11 06:00  | health-sync | OK 2026-06-11: RHR 48, sleep Noneh (score None), HRV None None, readiness 68
 2026-06-11T06:30:00+01:00 | morning-brief | wrote today.md, telegram msg_id=442, sources=4/5 (health-csv/gmail/calendar/granola pulled; strava not wired; linear-deltas absent=no changes)
+- 2026-06-11 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-06-12 06:00  | health-sync | OK 2026-06-12: RHR 50, sleep Noneh (score None), HRV None None, readiness None
+2026-06-12T09:55:00+01:00 | council | ET deck review pre-Kerri-call: 5 advisors + blind review + consensus alarm. Unanimous verdict: spine walkthrough not 30-page walk, verbal price bridge 12.5k->14k before money slide, Kerri=champion not approver, INV-0392 fused to PO logistics. Call card + follow-up draft staged (Gmail draft r6747803009622070179, needs PDF attached). Campaign file updated.
+2026-06-12T11:35:00+01:00 | content-review + figma-build | ET deck: 3-agent content-bias review (Creepers method). 22/42 slate lines were title-fluff, all priority lines rewritten with hooks. 15 net-new zero-cost ideas. Deck rebuilt in Figma 30->21pp (Gelasio/Carlito exact fonts, competitors de-named, 11:00->13:30 fixed, question-bank additions on s13). File 9sSfhDoiphDiEIbqa6YvCN. Production bible: campaigns/lor-et-content-review-2026-06-12.md. Kerri call moved to 13:30.
+2026-06-12T12:30:00+01:00 | deal-restructure | ET pricing re-cut per Harrison: window-gated. W1 GBP14k (Jul-Sept, 7k+7k invoicing), W2 GBP7k (gate 26 Sept), W3 GBP7k trades (gate Dec review, was 6k). Ceiling 28k + 1,750 pack (was 21,750). Slide 17 rebuilt, slate gates + next steps patched, new Kerri draft staged (old same-subject draft must be deleted). Scripts in campaign file.
+2026-06-12T13:10:00+01:00 | delivery-audit | ET deck max-effort cold-read audit: 4 parallel reviewers (budget holder, plain-language, recruitment director, hostile skeptic). Verdicts: approve-with-questions / clears Creepers bar / credible partner / 10 fix-before-send items. 25 fixes applied in Figma and verified (self-contradicting shoot-timing rule, 49-vs-50 count, commissioned-today presumption, two nobody-absolutes, ABPI mis-citation, Claire/Eve leakage, names+roles, T-Levels, parents-LinkedIn claim cut, jargon decode, slate key added, measured-on-applications). Deck delivery-worthy. Declined deliberately: asks slide, total-exposure line (documented in 10 June review + council).
+2026-06-12T14:15:00+01:00 | post-call | Kerri 13:30 debrief filed: ET landed (feedback Tue 16), Emma team meeting Thu 18 June 14:00 (conflict: Jess pickup 13:30, Kerri moving it), LM strand ASAP, Cambridge research stream captured, strategy-launch-soft intel filed, INV-0392+PO chase promised. Calendar site dates fixed + redeployed. Follow-up draft v3 staged (calendar link + budget line + Thursday note).
+2026-06-12T16:00:00+01:00 | weekly-cfo | Wrote money/weekly.md for w/c 9 June. Xero unreachable (MCP not wired). Starling ~£1,277 estimated, drops to ~£938 after HMRC PAYE £339 (P30 2025/26, Litchfields email 14:50 today, due immediately). LOR INV-0392 £3,885 now 7 days overdue, no remittance. Creepers June invoice £3,500 still held (content plan not delivered). VAT threshold ~£88k/£90k, Fazila contact 2 weeks overdue. Pipeline not raised: ~£23.5k (June comms + Creepers + ET £14k). Telegram msg_id=447 (flagged 🔴 HMRC liability + LOR overdue). Monday: pay HMRC, chase LOR, email Fazila re VAT.

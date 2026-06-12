@@ -1,3 +1,10 @@
+## 2026-06-12 evening
+- Shipped: LOR ET deck sent 11:44 + Kerri walkthrough done (feedback Tue, Emma session Thu 19:00), golf Wave 1 breakup emails sent and closed, Danny call done
+- Missed: Fazila payroll reply (held since Wed 10 June, blocking payroll release), David handoff pack
+- Training: Stair-stepper 40 min (08:42) vs Easy 5.3km + strides prescribed. Run skipped going into 25km long mountain tomorrow at 05:30.
+- Campaigns moved: 2 (LOR ET deck delivered + Kerri walkthrough, Golf Wave 1 closed)
+- Tomorrow's first action: Reply to Fazila on payroll Option 1 before 09:00. Long Mountain 25km is 05:30.
+
 ## 2026-06-11 evening
 - Shipped: Creepers content plan sent to Anna + Sarah + Rob (12:17), content calendar live on Vercel (linked in email), Creepers June invoice unblocked
 - Missed: Korona V8 posture decision (needed before Kerri 11:00 tomorrow, explicitly flagged for today), golf breakup emails (Day 37 cold, kill date 19 June), Strength B upper + mobility

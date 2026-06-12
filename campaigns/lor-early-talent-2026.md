@@ -4,17 +4,35 @@ Campaign architecture, content matrix, timeline, pricing. Built from the 20 May 
 
 ## Live state
 
-> Auto-updated by campaign-chaser agent. Last run: 2026-06-10 10:07 BST.
+> Auto-updated by campaign-chaser agent. Last run: 2026-06-12 10:07 BST.
 
 ```
-Last action: Harrison emailed Kerri + Sarah 2026-06-08, ET "all planned and priced"
-Days since last action: 2
-Next move: Kerri/Harrison catch-up CONFIRMED 12 June 11:00 (Kerri sent new invite 9 June). Walk through £20,250 quote verbally on that call. Have costed breakdown + ASpec links + Emma's-docs asks ready. No pre-send of quote.
-Blocker: none (call confirmed for 12 June)
-Status: on track. 2 days to the call.
+Last action: KERRI WALKTHROUGH DONE 12 June 13:30. Landed well: "she'll be really happy, I don't think she's going to take loads of convincing." Kerri feedback due Tue 16 June (16:00 standing call). EMMA TEAM MEETING Thu 18 June 14:00, Kerri trying to move earlier (Harrison has 13:30 airport pickup; before 14:00 works). Line manager strand wanted ASAP. Pricing unchallenged. Live calendar deployed: lor-early-talent-calendar.vercel.app (dates fixed, in follow-up email draft v3). Deck condense pass owed AFTER Tuesday feedback. Intro pack for Thursday if time doesn't move.
+Days since last action: 0
+Next move: 13:30 call TODAY. Deck: https://www.figma.com/design/9sSfhDoiphDiEIbqa6YvCN (screen-share Figma or export PDF). Spine: s2 decisions, s3 market, s4 theme, s8 year, s17 money, s19 Emma, s20 next steps. Bridge BEFORE s17: "twelve and a half loosely last time; the launch window lands at fourteen, then one decision per window with data in hand, seven in October, seven in January." If "I thought it was all-in": "All-in to March was heading past twenty as one blind commitment. I'd rather you approve windows with evidence. If September performs, October's seven is the easiest yes of your year." Close on Emma session (Wed 17 PM / Fri 19 AM) + PO route. INV-0392 fused to PO logistics, last 2 min. Safety net: standing Kerri catch-up Tue 16 June 16:00.
+Blocker: none
+Status: 21-page Figma deck final, window-gated pricing live. NEW Gmail draft staged (window structure); DELETE the older draft with the same subject ("£14,000 commissions windows one and two" body) so the wrong one can't go out. Attach exported PDF before send.
 ```
 
 Next Kerri/Harrison call: 9 June 16:00 (calendar confirmed). Quote and ghostwritten posts agenda items.
+
+## Council review, 12 June 2026 (pre-call)
+
+Full council ran on the master plan deck at 09:45, 75 min before the Kerri walkthrough. 5 advisors + blind review + consensus alarm.
+
+**Verdict:** deck stays as-is (it is the forwardable artefact), the call gets restructured. Unanimous: walk an 8-page spine in ~12 min, send full PDF immediately after, bridge the price verbally before the money slide.
+
+**Key points held:**
+- Kerri = champion, not approver. Win condition: she can retell the plan in 90 sec, £14k frame accepted, Emma session dated, PO route named.
+- Price bridge script: "Last time I said twelve and a half loosely. Built out properly it lands at fourteen for windows one and two. Trades wave (£6k) sits behind the December review, internal pack (£1,750) separate with L&D. Today's number is fourteen."
+- Cage the visible £21,750 before she finds it on p26.
+- INV-0392 chase fused to PO logistics (same AP pipe the £7k commissioning invoice must clear), last 2 min, admin tone.
+- Opening shaping question: is sign-off hers and Emma's, or does Claire/finance need a pass? Depth follows the answer.
+- Safety net: standing Kerri catch-up Tue 16 June 16:00 already on calendar.
+- Credibility watch: p6 "no competitor" claim is an absolute; if challenged, "in the channels we swept".
+- Deck fix for next version (not today): p10 pillar 5 text collides with the footer.
+
+**Spine:** p3 quality-over-quantity → p5 five decisions → p8 theme → p13 windows → p26 money (bridge FIRST) → p28 Emma questions → p29 next steps. Emma slots to offer: Wed 17 June PM or Fri 19 June AM (Tue = Creepers shoot + existing Kerri 16:00, Thu PM = Jess pickup).
 
 ## Status
 

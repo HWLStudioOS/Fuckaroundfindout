@@ -35,6 +35,13 @@ After processing, items either move or get a single-line "logged → action take
 
 ## Active items
 
+## 2026-06-12 14:07
+- **The iPhone's Last Stand**, Stratechery / Ben Thompson, 9 Jun. Apple's bet: iPhone as the personal context layer, not cloud-first agents. Thompson's clearest frame yet on why the two AI architectures diverge, relevant to Harrison's local-vs-cloud agent decisions. [https://stratechery.com/2026/the-iphones-last-stand/]
+- **Individual affect explains 73% of work environment wellbeing associations**, Scientific Reports, 11 Jun. Danish study, 3,970 employees: most of what people report as "bad work environment" is their own emotional disposition, not objective conditions. Flips the standard BaW intervention logic, strong source material for an episode. [https://www.nature.com/articles/s41598-026-55924-9]
+- **Glucose dynamics in ultramarathon running: three-phase CGM framework**, Frontiers in Sports, 28 May. Late-stage blood glucose elevations in ultras are not explained by carb intake or pace. Breaks the standard fuelling model, practical for anyone training long distance with a CGM. [https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1843846/full]
+- **Claude Code Workflows now in research preview**, Anthropic, 10 Jun. Multi-step agentic plans available to Max plan users. The next level above Harrison's existing scheduled scripts, worth trialling on the morning-brief flow. [https://platform.claude.com/docs/en/release-notes/overview]
+- **Work-hour shifts affect recovery far more than broad wellbeing**, PLOS One, 8 Jun. NZ longitudinal study, 24,579 adults, ML-adjusted: adding 10 hours/week clearly raises fatigue, removing 10 hours clearly reduces it. Most other wellbeing outcomes barely move. Stronger causal evidence than the usual correlation studies, good BaW source. [https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0350816]
+
 ## 2026-06-11 09:20
 - Create the Substack (the owned centre of the funnel; site's field-notes capture is built and waiting to be wired to it)
 - Source: self, during fable-vision website session
@@ -212,3 +219,8 @@ After processing, items either move or get a single-line "logged → action take
 - Source: 20 May Kerri catch-up.
 - Tag: client
 - Status: new
+
+- [ ] 2026-06-12 | David: Harrison has "a feeling about David I want to cover". Unspecified, raised mid-morning before Kerri call. Context ready when he wants it: the 10 June delivery-risk review flagged David as the August single point of failure (unproven editor at flagship-client stakes, Creepers + BaW backlog as his actual first jobs, handoff pack still owed). Talk through after the Kerri call or at weekly review.
+
+- [ ] 2026-06-12 | LOR Cambridge research stream: 10/yr Cambridge masters cohort + scholars, millions invested, zero content visibility, CEO-level push for ROI. Kerri meeting end of June. Papers submit July; learning team finding best 3-4 from this + last year. Formats pitched on call: research summary page, social seeding, exec-with-scholar sit-downs (podcast style), September Cambridge event coverage. Was in original strategy work. PREP: one-pager before Kerri's end-of-June meeting. Side channel: probe via the podcast client lane.
+- [ ] 2026-06-12 | LOR strategy launch is soft internally (Kerri frank: "nothing new", roadshows 26 June, external shape unclear, Korena silent). Implication: don't anchor V8 retainer re-approach to a strategy launch moment; the Cambridge stream + ET campaign are the live wedges instead.

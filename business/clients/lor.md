@@ -54,9 +54,25 @@ McKinsey-grade. Boardroom-ready. "Quiet Confidence" framework (Harrison built th
 - gp@invisiblehurdle.com (Invisible Hurdle consultancy)
 - bailyconsulting@gmail.com (Baily Consulting)
 
-## Active state, last refreshed 9 June 2026
+## Active state, last refreshed 12 June 2026
 
-The system maintains this section. Refreshed after Kerri catch-up 20 May.
+The system maintains this section.
+
+### 12 June 2026 — Kerri call (13:30): ET deck landed, three new threads
+
+**ET deck walkthrough: strong.** Kerri's read: "There's loads in here, I think she'll be really happy, I don't think she's going to take loads of convincing." She reads the full deck over the weekend, **feedback by Tuesday 16 June** (standing 16:00 catch-up already on calendar). Pricing accepted without challenge ("properly priced", "fine"); she'll check what budget early talent has, expects same as last year. Harrison offered production-level flexibility unprompted, parked, don't reoffer.
+
+**EMMA MEETING: Thursday 18 June 14:00** (early talent team weekly). Kerri invited Harrison to present the plan. CONFLICT: Jess airport pickup 13:30 (calendar). Anything before 14:00 works; Kerri trying to move it earlier. If it stays at 2, Kerri introduces it herself, Harrison to supply a tight intro pack. **They want the line manager strand QUICK, ASAP.**
+
+**Strategy launch intel (internal, sensitive).** 2032 strategy taken to Kerri's team 2 weeks ago while she was in France; nobody has walked her through it. Internal roadshows from 26 June. Her honest read: nothing new, 70:60:30 has been around since 2009/2010, long-serving staff will recognise it, she's "not sure how it's going to land". Leadership framing reads as "we don't know how to get there, you tell us". Vicky in the same camp; Krina too new to know the history. External strategy "will need to adjust", shape unclear. Korena still silent on V8. Read: the external launch they were all waiting on is soft, don't anchor HWL plans to it.
+
+**NEW STREAM — Cambridge masters / scholars / research (exciting, Kerri's word).** LOR sponsors a 10-person/year Cambridge masters cohort plus scholars/PhDs, millions invested, zero content visibility. The exec (CEO level) is now demanding ROI visibility; learning team challenged to surface the 3-4 best research papers from this year's + last year's cohorts (this year's papers submit in July). Wanted: research summary web page, social seeding ("did you know"), exec-with-scholar sit-down conversations (podcast format, Harrison's pitch on the call), September Cambridge launch/graduation event where the exec likely speaks, get him on camera. Harrison flagged this was already in his original strategy work, and that the business needs the exec on camera more ("whenever he's on a panel it goes mad", Kerri agrees: "he's been under the radar since Pete's been in post"). Kerri has a meeting end of June on it. SIDE CHANNEL: Harrison can probe via the podcast client relationship and feed it back to comms. Next: wait for Kerri's end-of-month meeting, have a one-pager ready.
+
+**Annual report:** Kerri + Vicky meet Tuesday to review last year / plan next. The report agency produces the document; HWL could take social assets. Kerri will report back what Vicky has priced in.
+
+**Money:** INV-0392 + comms PO raised at the end of the call. Kerri: "I'll chase it." She's hiring (three interviews this week, "someone to help me deliver").
+
+**Deck follow-ups owed by Harrison:** (1) he told Kerri he'd condense the deck's fluff a little, do it AFTER her Tuesday feedback, one pass not two; (2) live calendar link goes in the follow-up email (not shown on call, she had to jump); (3) intro pack for Thursday if the time doesn't move.
 
 ### 9 June 2026 — Kerri catch-up: Early Talent CONFIRMED GO
 

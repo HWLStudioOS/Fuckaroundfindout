@@ -8,14 +8,14 @@ client: Creepers
 
 ## Live state
 
-> Auto-updated by campaign-chaser agent. Last run: 2026-06-10 10:07 BST.
+> Auto-updated by campaign-chaser agent. Last run: 2026-06-12 10:07 BST.
 
 ```
-Last action: VO script, caption, and footage map created 2026-05-29
-Days since last action: 12
-Next move: DECISION NEEDED. Edit now, delegate to David, or formally defer. David started w/c 8 June (first jobs: Creepers hero film + BaW footage). Chelsea news cycle is 12 days past ready. Two factual checks before publish: (1) RHS award exact wording, (2) "Killick Garden" vs "A Seed In Time". Both checks take one email to Michael.
-Blocker: Harrison decision (edit / delegate to David / defer)
-Status: ready to edit. Chelsea window closing fast.
+Last action: VO script, caption, and footage map created 2026-05-29. David assigned w/c 8 June.
+Days since last action: 14
+Next move: Confirm David has started the edit. If not started, escalate to David directly. Two factual checks still needed before publish: (1) RHS award exact wording (not "Best in Show"), (2) "Killick Garden" vs "A Seed In Time". One email to Michael covers both. Chelsea window is 14 days post-ready and closing.
+Blocker: David edit status unknown. Factual checks outstanding (Harrison or David to action).
+Status: Delegated to David. No edit update received since 8 June. Telegram pushed 2026-06-12.
 ```
 
 # Creepers Chelsea — hero film

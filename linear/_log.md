@@ -958,3 +958,47 @@
 [2026-06-11T20:01:06.263Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-06-11T21:01:06.372Z] INFO Sync start. Last: 2026-06-11T20:01:06.262Z
 [2026-06-11T21:01:06.872Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T22:01:06.932Z] INFO Sync start. Last: 2026-06-11T21:01:06.870Z
+[2026-06-11T22:01:08.561Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-11T23:01:08.632Z] INFO Sync start. Last: 2026-06-11T22:01:08.560Z
+[2026-06-11T23:01:09.294Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-12T00:01:09.407Z] INFO Sync start. Last: 2026-06-11T23:01:09.293Z
+[2026-06-12T00:01:11.016Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-12T01:01:11.074Z] INFO Sync start. Last: 2026-06-12T00:01:11.015Z
+[2026-06-12T01:01:12.331Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-12T02:01:12.450Z] INFO Sync start. Last: 2026-06-12T01:01:12.330Z
+[2026-06-12T02:01:13.306Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-12T03:01:13.382Z] INFO Sync start. Last: 2026-06-12T02:01:13.305Z
+[2026-06-12T03:01:14.416Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-12T04:01:14.477Z] INFO Sync start. Last: 2026-06-12T03:01:14.414Z
+[2026-06-12T04:01:15.210Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-12T05:01:15.316Z] INFO Sync start. Last: 2026-06-12T04:01:15.209Z
+[2026-06-12T05:01:18.974Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-12T06:01:19.048Z] INFO Sync start. Last: 2026-06-12T05:01:18.972Z
+[2026-06-12T06:01:20.601Z] INFO push + HWL-89 Danny x HWL 10:00, 30 min (new contact, context not in syste
+[2026-06-12T06:01:20.758Z] INFO Sync done. push: +1 ~0. pull: ~0.
+[2026-06-12T07:01:20.884Z] INFO Sync start. Last: 2026-06-12T06:01:20.756Z
+[2026-06-12T07:01:21.396Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-12T08:01:21.475Z] INFO Sync start. Last: 2026-06-12T07:01:21.394Z
+[2026-06-12T08:01:21.815Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-12T09:01:21.907Z] INFO Sync start. Last: 2026-06-12T08:01:21.814Z
+[2026-06-12T09:01:22.988Z] INFO push + HWL-90 Reply to Fazila: pick a payroll option. She sent two options
+[2026-06-12T09:01:23.082Z] INFO Sync done. push: +1 ~0. pull: ~0.
+[2026-06-12T10:01:23.123Z] INFO Sync start. Last: 2026-06-12T09:01:23.080Z
+[2026-06-12T10:01:23.749Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-12T11:01:23.832Z] INFO Sync start. Last: 2026-06-12T10:01:23.749Z
+[2026-06-12T11:01:24.393Z] INFO push ~ HWL-89 → done
+[2026-06-12T11:01:24.481Z] INFO pull ~ HWL-89 → done
+[2026-06-12T11:01:24.481Z] INFO Sync done. push: +0 ~1. pull: ~1.
+[2026-06-12T12:01:24.554Z] INFO Sync start. Last: 2026-06-12T11:01:24.481Z
+[2026-06-12T12:01:25.063Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-12T13:01:25.107Z] INFO Sync start. Last: 2026-06-12T12:01:25.062Z
+[2026-06-12T13:01:26.083Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-12T14:01:26.175Z] INFO Sync start. Last: 2026-06-12T13:01:26.080Z
+[2026-06-12T14:01:26.885Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-12T15:01:26.966Z] INFO Sync start. Last: 2026-06-12T14:01:26.883Z
+[2026-06-12T15:01:27.740Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-12T18:38:40.142Z] INFO Sync start. Last: 2026-06-12T15:01:27.740Z
+[2026-06-12T18:38:40.525Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-12T19:38:40.586Z] INFO Sync start. Last: 2026-06-12T18:38:40.524Z
+[2026-06-12T19:38:41.228Z] INFO Sync done. push: +0 ~0. pull: ~0.

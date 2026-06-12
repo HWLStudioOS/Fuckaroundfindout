@@ -47,7 +47,8 @@
       "mcp__claude_ai_Granola__get_meeting_transcript",
       "Bash(env)",
       "Read(//Users/harrison/hwlstudio-site/**)",
-      "Read(//Users/harrison/hwlstudio-site/src/**)"
+      "Read(//Users/harrison/hwlstudio-site/src/**)",
+      "Bash(mdls -name kMDItemNumberOfPages \"/Users/harrison/Downloads/LOR_Early_Talent_2026_Campaign_Master_Plan.pdf\")"
     ]
   }
 }

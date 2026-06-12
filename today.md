@@ -1,57 +1,57 @@
 ---
-date: 2026-06-11
+date: 2026-06-12
 generated: auto 06:30 BST
 ---
 
-# Today, Thursday 11 June 2026
+# Today, Friday 12 June 2026
 
 ## Pulse
 
-W22 Specific Build, RTTS 50K in 30 days. The week has one hard deliverable: the Creepers content plan to Anna and Sarah, which is what unlocks the June invoice and closes the reset conversation from Monday. Tomorrow is a double-header (Kerri 11:00, Cathal 12:00) so today is prep day as much as delivery day. Readiness 68 moderate from this morning's Garmin pull. No unread Tier 1 emails overnight.
+W22 Specific Build, RTTS in 29 days. Three calls before lunch: Danny at 10:00, Kerri at 11:00, Cathal at 12:00. Kerri is the one that counts, ET deck walkthrough plus INV-0392 on the table. Creepers plan went out yesterday 12:17 (brief missed it), awaiting the nod from Anna and Sarah, June invoice unlocks on confirmation. RHR 50, body battery 32-64, stress avg 12. Easy run + strides at 17:00, Long Mountain 25km tomorrow at 05:30.
 
 ## Yesterday wrap
 
-Committed: ET deck to Kerri before 09:00, golf breakup emails, easy run + Strength A, Creepers content plan start.
-
-Confirmed done: David intro call 09:45. Podcast edit and 2 reels complete, uploading to Frame.io. £550/month flat, trial month confirmed.
-
-Status unknown (carry to today as needed): ET deck to Kerri (first and highest priority of the day, should be with her by now), golf breakup emails (6 Gmail drafts staged, kill date 19 June), Strength A (moved from Tuesday after workshop).
+Promised: Creepers content plan, golf breakup emails, Korona V8 posture decision, Strength B, David handoff pack. Confirmed from the week: David trial locked at £550/month, podcast edit and 2 reels complete on Frame.io. Strava shows a walk on Thursday, Strength B not logged. Creepers plan SHIPPED 12:17 to Anna, Sarah and Rob (Surrey shoot pencilled Tue 16, first post Monday either way). Golf emails carry forward.
 
 ## Today
 
-- [ ] Creepers content plan: write and send to Anna + Sarah. Two ICPs (@creepersnursery B2B trade vs @creepersinstallation HNW end-client), posting model (~3x/week), fortnightly Surrey + monthly New Forest shoot cadence, Murray Street location flagged. June invoice held until this lands. <!-- linear:HWL-92 -->
-- [ ] Golf breakup emails: send 6 Gmail drafts if not done yesterday. Subject "Last one from me". Kill date 19 June. <!-- linear:HWL-89 -->
-- [ ] Korona V8 posture decision: Council deliberation due by Fri 14 June. Decide today before the Kerri call tomorrow. Escalate, let lie, or reframe. <!-- linear:HWL-93 -->
-- [ ] Strength B: upper + mobility. Thursday session per plan. <!-- linear:HWL-91 -->
-- [ ] David handoff pack: client social links, fonts/palettes, video references for all three clients, Artlist team invite. Needed for him to build 2-4 weeks ahead. <!-- linear:HWL-88 -->
+- [x] Danny x HWL 10:00, 30 min (new contact, context not in system). <!-- linear:HWL-89 -->
+- [x] Kerri call 13:30 DONE: deck landed ("she'll be really happy"), feedback Tue, Emma team meeting Thu 18 June 14:00 (Kerri moving earlier, Jess pickup 13:30), line managers wanted ASAP, INV-0392 + PO chase promised. NEW: Cambridge research stream opportunity. Send follow-up email (draft v3, attach PDF). <!-- linear:HWL-93 -->
+- [x] Creepers content plan: sent 11 June 12:17 to Anna, Sarah, Rob with calendar site link. Awaiting nod. June invoice unlocks on confirmation, chase Monday if silent. <!-- linear:HWL-92 -->
+- [ ] Reply to Fazila: Option 1 recommended (£5,241 gross, £0 tax, £0 employee NI, £411.15 employer NI; matches minimum-draw structure). Reply draft staged in Gmail, one tap. Payroll is held until she hears back. <!-- linear:HWL-90 -->
+- [ ] ~~Cathal check-in 12:00~~ CANCELLED by Cathal, 12 June morning. <!-- linear:HWL-94 -->
+- [x] Golf breakup emails: SENT (Harrison confirmed 12 June, sent via Superhuman; stale drafts may linger in Gmail). Wave 1 closed unless replies come in. <!-- linear:HWL-89 -->
 
 ## Awaiting response
 
-- Kerri call Friday 12 June, 11:00-11:30, Teams. ET deck is with her. Raise LOR INV-0392 (~£3,885) if still outstanding.
-- Creepers June invoice: HELD until content plan agreed. Do not raise before Anna confirms.
-- Cathal check-in Friday 12 June, 12:00-12:30. BaW podcast edit done by David, frame.io upload tonight.
-- Korona V8 retainer (£8.5-12.5k/month): live but cold 30+ days. Council posture call today.
+- Kerri: INV-0392 (£3,885) invoiced 29 May, 7-day terms, due 5 June. A week overdue today. Raise on the call.
+- Fazila: payroll options sent Wed 10 June 15:40, waiting on Harrison's pick since then.
+- Anna + Sarah (Creepers): June invoice held, unlocks when plan confirmed.
+- Korona: V8 retainer (£8.5-12.5k/month), cold 30+ days. Posture decision still open.
+- Golf Wave 1: kill date 19 June (7 days). 6 breakup drafts staged in Gmail.
 
 ## In flight
 
-- LOR ET: deck with Kerri, Friday walkthrough at 11:00. Emma session to follow. ~£14k confirmed scope.
+- LOR ET 2026: deck with Kerri, walkthrough today 11:00. Emma session to follow. ~£14k scope.
 - LOR ASpec ghostwritten posts: banked, Kerri to schedule against annual report cadence.
-- Creepers content plan: delivery today is the priority. Written pillars + posting model for two ICPs.
-- Creepers hero film: routed to David, no hard deadline.
-- BaW: edit + 2 reels done by David, Frame.io tonight. Schedule Monday evening once files confirm.
-- David handoff pack: owed, needed to unblock the 2-4 week editorial runway.
-- Golf Wave 2 (11 emails): not started, blocked on original email body.
-- VAT: ~£88k of £90k rolling 12-month threshold. Breach fires when INV-0392 lands. Fazila to make contact.
-- Website: hwlstudio.com live on Vercel, Quiet Frontier design. Confirmed shipped.
+- Creepers content plan: sent 11 June, awaiting confirmation from Anna + Sarah.
+- Creepers hero film: with David, no hard deadline.
+- BaW: David on edits, Frame.io upload done. Cathal check-in today 12:00.
+- David handoff pack: still owed. Client links, fonts/palettes, video refs. Artlist login sent 10 June, done.
+- Golf Wave 2 (11 emails): not started.
+- VAT: ~£88k of £90k threshold. INV-0392 likely tips the breach. Fazila contact expected.
 
 ## Standing
 
-- Body: 86.9 kg (stale, 29 Apr). Re-export from iPhone is overdue. Body fat 18.7% same date.
-- Readiness: 68 MODERATE (Garmin, 06:00 pull). RHR 48 bpm. HRV not yet synced (watch syncs mid-morning). Body battery 34-59. Stress average 21.
-- Training: W22 Specific Build. Today is Strength B (upper + mobility). RTTS 50K in 30 days. Tomorrow: Easy 5.3km + strides (calendar confirmed).
-- Money: cash ~£1,277 (last updated 3 June). LOR INV-0392 (~£3,885) outstanding. Check Starling. Creepers June invoice held. VAT breach imminent. Maya ~£2,200 owed, clears when Laing lands.
-- Clients: LOR ET ~£14k confirmed, deck with Kerri, call tomorrow. Creepers account saved, plan owed today. BaW Cathal check-in tomorrow 12:00.
+- Body: 86.9 kg (stale, 29 Apr, re-export from iPhone overdue). RHR 50 bpm. Body battery 32-64. Stress 12 (low). HRV not syncing from CSV.
+- Training: W22 Specific Build. Easy 5.3km + strides at 17:00 (pre-long-run activation). Long Mountain 25km tomorrow at 05:30, 715m vert, 5 hrs. RTTS 50K in 29 days.
+- Money: cash last updated 3 June (~£1,277 post Cap on Tap DD on 5 June). INV-0392 (~£3,885) outstanding. Creepers June invoice held. VAT breach imminent on next LOR invoice.
+- Clients: LOR ET ~£14k scope, walkthrough today. Creepers reset open until plan lands. BaW Cathal today 12:00.
 
 ## Lens
 
-Creepers content plan out before lunch. It is the one thing that unblocks £3,500, closes the reset call, and proves the relationship is back on track. Every other item today is real but secondary to that. Tomorrow you have Kerri at 11:00 and Cathal at 12:00 back to back. Prep both briefs tonight, not Friday morning at 10:45.
+The afternoon is the only clear window. Calls done by 12:30, run at 17:00. Four hours, and the Creepers plan is already out the door, so the window is genuinely clear. Close the week empty: send the 6 golf breakups, answer Fazila on payroll, build the David handoff pack. On the Kerri call the number is ~£14k, said once, with confidence. Not £12.5k, not £20,250. And raise INV-0392 before you hang up, it is a week overdue.
+
+---
+
+*skipped: granola (no recent transcripts), strava today (no morning activity yet)*

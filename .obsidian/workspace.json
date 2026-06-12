@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workshops/2026-06-09/follow-up/01-start-here.md",
+                "file": "content/references/frameworks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-start-here"
+              "title": "frameworks"
             }
           }
         ]
@@ -185,6 +185,12 @@
   },
   "active": "3cb4594d9a5c547c",
   "lastOpenFiles": [
+    "business/david-handoff-pack-draft.md",
+    "linear/_deltas.md",
+    "campaigns/lor-et-content-review-2026-06-12.md",
+    "CLAUDE.md",
+    "workshops/2026-06-09/follow-up/01-start-here.md",
+    "health/data/garmin-2026-06-12.json",
     "business/clients/creepers-deck-review-2026-06-11.md",
     "calendar-top.png",
     "business/clients/creepers-calendar-2026-jun-sep.csv",
@@ -197,7 +203,6 @@
     "workshops/2026-06-09/follow-up/pdf-build/p2.pdf",
     "workshops/2026-06-09/follow-up/pdf-build/p8.pdf",
     "workshops/2026-06-09/follow-up/pdf-build/p5.pdf",
-    "workshops/2026-06-09/follow-up/pdf-build/p3.pdf",
     "business/david-editor.md",
     "workshops/2026-06-09/follow-up/00-slack-post.md",
     "agents/launchd/INSTALL.md",
@@ -208,7 +213,6 @@
     "workshops/2026-06-09/follow-up/04-connecting-mcps.md",
     "workshops/2026-06-09/follow-up/03-folder-system.md",
     "workshops/2026-06-09/follow-up/02-interview-prompt.md",
-    "workshops/2026-06-09/follow-up/01-start-here.md",
     "business/clients/creepers-content-plan-2026-06.md",
     "agents/weekly-review.md",
     "agents/README.md",
@@ -218,10 +222,6 @@
     "agents/followup-drafter.md",
     "agents/evening-reflection.md",
     "agents/discovery-scan.md",
-    "agents/content-engine.md",
-    "agents/campaign-chaser.md",
-    "agents/_review-log.md",
-    "agents/_log.md",
-    "agents/_evening-log.md"
+    "agents/content-engine.md"
   ]
 }

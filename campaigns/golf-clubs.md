@@ -77,13 +77,13 @@ The 28 Apr night-drafting-at-11:30pm-then-nothing pattern. Drafts sat. Either th
 
 ## Live state
 
-> Auto-updated by campaign-chaser agent. Last run: 2026-06-10 10:07 BST.
+> Auto-updated by campaign-chaser agent. Last run: 2026-06-12 10:07 BST.
 
 ```
-Last action: 6 breakup drafts CREATED in Gmail 2026-06-09 21:45, awaiting Harrison send
-Days since last action: 1
-Next move: SEND TODAY. Wed 10 June is the recommended send window. Six Gmail drafts ready, subject "Last one from me". One tap each from Gmail/Superhuman. Kill date if no reply: 19 June (day 45). No replies from any club.
-Blocker: Harrison send
+Last action: 6 breakup drafts staged in Gmail 2026-06-09 21:45, unsent for 3 days
+Days since last action: 3
+Next move: SEND BREAKUPS TODAY. Kill date is 19 June — 7 days away. Six Gmail drafts ready, subject "Last one from me". One tap each from Gmail/Superhuman. No replies from any club.
+Blocker: Harrison send (URGENT — send window was Wed 10 June, 2 days overdue)
 Status: 1 replied/closed (St George's Hill, Q2 2027 tickle). 6 clubs cold, breakup staged and ready. Wave 2 not started.
 ```
 

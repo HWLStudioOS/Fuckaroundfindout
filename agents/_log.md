@@ -4,6 +4,8 @@ Append-only. One line per agent run.
 
 Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 
+2026-06-14T18:00:00+01:00 | weekly-review | week W22 ended, 2/3 top-3 shipped, training 3/7 on spec, agents weekly-review+weekly-cfo hit acceptance, msg_id=450
+2026-06-14T09:00:00+01:00 | learning-brief | 5 items, 4 drills (pending/pre-read), telegram msg_id=449, file=learning/weekly-brief/2026-06-14-brief.md
 2026-06-12 14:07 | discovery-scan | 5 items posted, 0 buyable queued
 2026-06-12T10:07:00+01:00 | campaign-chaser | 5 campaigns checked. Gmail: no golf club replies, no Korena reply. Calendar: Kerri/Early Talent call confirmed 13:30 today (not 11:00). Urgent Telegram sent. Golf clubs: breakups 3 days unsent, kill date 7 days. Shell Beam: 36 days cold, send/kill decision pushed. Creepers hero film: David on it, no edit update, factual checks outstanding. LOR Retainer: 4 days cold, Council trigger approaching Mon 15 June.
 2026-06-12T06:30:00+01:00 | morning-brief | wrote today.md, telegram msg_id=444, sources=5/7 (skipped: granola no transcripts, linear no deltas file)
@@ -70,3 +72,5 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 2026-06-12T16:00:00+01:00 | weekly-cfo | Wrote money/weekly.md for w/c 9 June. Xero unreachable (MCP not wired). Starling ~£1,277 estimated, drops to ~£938 after HMRC PAYE £339 (P30 2025/26, Litchfields email 14:50 today, due immediately). LOR INV-0392 £3,885 now 7 days overdue, no remittance. Creepers June invoice £3,500 still held (content plan not delivered). VAT threshold ~£88k/£90k, Fazila contact 2 weeks overdue. Pipeline not raised: ~£23.5k (June comms + Creepers + ET £14k). Telegram msg_id=447 (flagged 🔴 HMRC liability + LOR overdue). Monday: pay HMRC, chase LOR, email Fazila re VAT.
 - 2026-06-12 22:30 BST | nightly-backup | committed + pushed to origin
 - 2026-06-13 06:12  | health-sync | OK 2026-06-13: RHR 53, sleep Noneh (score None), HRV None None, readiness None
+- 2026-06-13 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-06-14 06:00  | health-sync | OK 2026-06-14: RHR 52, sleep Noneh (score None), HRV None None, readiness None

@@ -105,3 +105,50 @@ Append-only. One section per Sunday review.
 - **Building systems to avoid obvious work:** Not this week. Workshop prep was real work. The avoidance pattern is cleaner to name: specific actions (golf breakup, Korena Council, Creepers edit) that have been in a "staged, not sent" or "ready to do, not done" state for weeks. The system is tracking the stalls but not forcing completion. That is a system design problem, not a human flaw.
 
 ---
+
+## 2026-06-14 Sunday review (training W22 Specific Build, week ending 14 June 2026)
+
+### Shipped
+
+- Workshop Year One delivered 9 June. (Y. Creepers reset call 9 June 11:00 confirmed with Anna + Rob. Workshop 7pm same evening. Deck rebuilt 30pp to 21pp with full council, content-bias, and delivery-audit passes. Went clean.)
+- LOR ET deck walkthrough done 12 June 13:30. (Y. Kerri: "she'll be really happy, I don't think she's going to take loads of convincing." Feedback due Tue 16 June. Window-gated £14k pricing unchallenged. Emma team meeting Thu 18 June 14:00. Cambridge research stream captured as new strand.)
+- Korona V8 Council deliberation by Fri 14 June. (No. Warm reopener sent 8 June. No Korona reply. Council trigger reset to Mon 15 June per campaign file. Not run this week.)
+
+Bonus ships: Golf Wave 1 breakups sent 12 June after 40+ days. David onboarded 10 June. Creepers content plan sent 11 June. Roger Martin recorded for BaW (Fri 12 June per Cathal email).
+
+### Missed
+
+- Korona V8 Council deliberation. (Deferred to Mon 15 June. 6 days since warm reopener, still cold.)
+- INV-0392 AP chase email. (Raised verbally on Kerri call 12 June. AP-thread email not sent. Invoice 14+ days overdue. Monday first thing.)
+- Fazila VAT email. (~£88k of £90k threshold. Breach imminent. Three weeks of "this week" running.)
+- Shell Beam follow-up to Amanda Thompson. (Staged since 3 June. Not sent. 5+ weeks cold. Same pattern as golf pre-12 June.)
+- BaW April monthly report. (Still owed, still blessed. 6+ weeks.)
+- Substack setup. (Inbox item 11 June. Not started.)
+- Cathal BaW check-in 12 June. (CANCELLED by Cathal that morning. Rescheduling not confirmed.)
+
+### Reality check
+
+- **Money:** Cash ~£938 (HMRC PAYE £339 due immediately per Litchfields 12 June; confirm paid Monday before anything else). INV-0392 £3,885 overdue (14+ days). Creepers June £3,500 held pending Anna/Sarah confirmation. Total near-term receivables ~£7,400. VAT breach imminent. Starlink activated 10 June (new recurring cost). No payment emails from LOR or Creepers this week. Week-over-week: effectively flat.
+- **Health:** W22 Specific Build. Tue run 6.0km HIT (over 4.1km fasted). Wed run 5.3km easy + Strength session (PARTIAL, run under 9km tempo, Strength present but wrong slot). Sat "Hackney Running" 21.2km overreaching tempo label (PARTIAL, substituted for prescribed 25km mountain at 05:30 with 715m vert, 228m actual vert). Mon: stair-stepper instead of run. Thu: walk only, no Strength B. Fri: stair-stepper + walk, no run. Sun B2B 16.4km: no Strava entry yet (in progress or pending). Training adherence: 3/7 sessions at or near spec. Sleep: 8.4h Tue (score 98), 7.5h Wed (score 84), unavailable other days. RHR 7-day avg 48 (Garmin). Today body battery 17-24 (depleted, overreaching Sat). RTTS 50K in 27 days. W23 is peak.
+- **Clients:** LOR ET: deck delivered, Kerri feedback Tue 16 June. Retainer/Korona: warm reopener 8 June, no reply, Council Monday. Creepers: reset call 9 June done, content plan sent 11 June, June invoice held, Surrey shoot pencilled Tue 16 June. BaW: Cathal check-in cancelled, Roger Martin recorded, April report still owed. Golf: Wave 1 breakups sent 12 June, kill date 19 June. David: onboarded 10 June, "feeling about David" flagged 12 June (unresolved).
+- **Content:** No personal posts this week. Workshop was the content moment. Build Week Chelsea footage: 8 weeks unedited.
+- **Capture inbox:** Items added, not processed. Oldest from 21 May. Third week running. The inbox is the problem (H11).
+- **Attention:** Not measured. Body battery confirms high week load.
+- **Maya:** No note in any source for the fourth consecutive week.
+
+### Risks
+
+- **RTTS 50K in 27 days, W23 is peak.** W22 adherence ~45% on spec. Sat long was local Hackney substitute for prescribed mountain run. Body battery 17-24 going into peak week. Quality sessions (Wed tempo, Sat vert) are the gaps.
+- **Cash ~£938, HMRC possibly due Monday.** Confirm payment first thing.
+- **INV-0392 £3,885 uncollected.** 14+ days overdue. AP chase email not sent. Everything else waits.
+- **Korona V8 Council not done.** 38 days since proposal. Council Monday. Do not push to a fifth week.
+- **David concern unresolved.** Flagged 12 June, not addressed. He is the August single point of failure.
+- **Shell Beam pattern.** Amanda Thompson 5+ weeks cold. Same position as golf was two weeks ago. Name a kill date this week.
+
+### Standards check (codex H17)
+
+- **Proactive comms:** Partial. Kerri call 12 June (Y), Creepers reset call 9 June (Y), David onboarding 10 June (Y), golf breakups sent 12 June after 40 days (Y, late but done). Misses: Shell Beam Amanda (staged, unsent), Fazila VAT (3 weeks overdue), INV-0392 AP email (verbal only). Active relationships handled. Cold comms and admin chase still slipping.
+- **Self-attack disguised as discipline:** Not visible.
+- **Building systems to avoid obvious work:** No new system-build this week. Real delivery work done. Inbox not draining and Substack not started remain the "built the door, haven't walked through it" pattern.
+
+---

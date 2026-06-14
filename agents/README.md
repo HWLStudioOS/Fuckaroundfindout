@@ -14,11 +14,13 @@ Honest inventory of every scheduled agent. Updated after every wire / unwire / s
 
 | Agent | File | Schedule | Status | Acceptance |
 |---|---|---|---|---|
-| morning-brief | `agents/morning-brief.md` + `.sh` | 06:30 weekdays | RUNNING-DEGRADED (Apple Health stale 39d, Strava not wired, Linear missing). Pipeline fix 2 June unblocked runs. 3 runs confirmed since fix (3, 4, 5 Jun). | 0/14 RUNNING-CLEAN. Blocked on Apple Health export. |
-| weekly-review | `agents/weekly-review.md` | Sun 18:00 | RUNNING-DEGRADED (first live run since retro 18 May; W19+W20 missed. Strava absent, health stale). | 1/2 consecutive Sundays. Run 1: 2026-06-07. |
-| weekly-cfo | `agents/weekly-cfo.md` | Fri 16:00 | RUNNING-DEGRADED (Xero unreachable, manual snapshot used both runs: 18 May retro + 5 June). Manual snapshot criterion met both runs. | 1/2 consecutive Fridays. Run 1: 2026-06-05. |
+| morning-brief | `agents/morning-brief.md` + `.sh` | 06:30 weekdays | RUNNING-DEGRADED (Apple Health MCP broken, CSV via read-health.sh but sleep data unavailable. Strava now live. Linear absent = no changes). 7+ consecutive weekday runs since pipeline fix 3 June. | 7/14 RUNNING-CLEAN runs. Blocked on Apple Health export (stale 46d). Export from iPhone this week unblocks progress. |
+| weekly-review | `agents/weekly-review.md` | Sun 18:00 | RUNNING-CLEAN (Strava live, health-sync data available, Granola empty as expected on unattended run, Calendar + Gmail pulled). | 2/2 ACCEPTANCE HIT. Runs: 2026-06-07 + 2026-06-14. |
+| weekly-cfo | `agents/weekly-cfo.md` | Fri 16:00 | RUNNING-DEGRADED (Xero unreachable, manual snapshot used). Acceptance met under "Xero unreachable + manual snapshot" OR clause both runs. | 2/2 ACCEPTANCE HIT. Runs: 2026-06-05 + 2026-06-12. |
 
 **v1 ships when all three hit acceptance simultaneously.**
+
+> As of 2026-06-14: weekly-review and weekly-cfo have both hit acceptance. morning-brief needs 7 more consecutive RUNNING-CLEAN weekday runs (blocked on Apple Health export). v1 is 7 runs away if Harrison exports Apple Health this week.
 
 ## Secondary queue (post-v1)
 

@@ -7,11 +7,11 @@ Campaign architecture, content matrix, timeline, pricing. Built from the 20 May 
 > Auto-updated by campaign-chaser agent. Last run: 2026-06-12 10:07 BST.
 
 ```
-Last action: KERRI WALKTHROUGH DONE 12 June 13:30. Landed well: "she'll be really happy, I don't think she's going to take loads of convincing." Kerri feedback due Tue 16 June (16:00 standing call). EMMA TEAM MEETING Thu 18 June 14:00, Kerri trying to move earlier (Harrison has 13:30 airport pickup; before 14:00 works). Line manager strand wanted ASAP. Pricing unchallenged. Live calendar deployed: lor-early-talent-calendar.vercel.app (dates fixed, in follow-up email draft v3). Deck condense pass owed AFTER Tuesday feedback. Intro pack for Thursday if time doesn't move.
-Days since last action: 0
-Next move: 13:30 call TODAY. Deck: https://www.figma.com/design/9sSfhDoiphDiEIbqa6YvCN (screen-share Figma or export PDF). Spine: s2 decisions, s3 market, s4 theme, s8 year, s17 money, s19 Emma, s20 next steps. Bridge BEFORE s17: "twelve and a half loosely last time; the launch window lands at fourteen, then one decision per window with data in hand, seven in October, seven in January." If "I thought it was all-in": "All-in to March was heading past twenty as one blind commitment. I'd rather you approve windows with evidence. If September performs, October's seven is the easiest yes of your year." Close on Emma session (Wed 17 PM / Fri 19 AM) + PO route. INV-0392 fused to PO logistics, last 2 min. Safety net: standing Kerri catch-up Tue 16 June 16:00.
-Blocker: none
-Status: 21-page Figma deck final, window-gated pricing live. NEW Gmail draft staged (window structure); DELETE the older draft with the same subject ("£14,000 commissions windows one and two" body) so the wrong one can't go out. Attach exported PDF before send.
+Last action: Kerri walkthrough + ET deck sent 2026-06-12 (call 13:30, deck emailed 11:44)
+Days since last action: 3
+Next move: (1) Send post-call follow-up email v3 if not sent (deck link, calendar link, budget bridge, Thursday note). Check Gmail drafts — staged but no evidence of send. (2) Kerri call tomorrow Tue 16 June 16:00: receive feedback, confirm Emma session date, chase INV-0392+PO route. (3) Emma team meeting Thu 18 June 14:00 NOT on Harrison's calendar. Conflict: Jess pickup 13:30. Confirm time on tomorrow's call.
+Blocker: Kerri feedback (expected Tue 16 June call)
+Status: sent, awaiting feedback. Follow-up email v3 unsent. Emma meeting unconfirmed on calendar.
 ```
 
 Next Kerri/Harrison call: 9 June 16:00 (calendar confirmed). Quote and ghostwritten posts agenda items.

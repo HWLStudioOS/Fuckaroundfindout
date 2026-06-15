@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Better at Work · Monthly Report · Issue 05 / 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FAF7F2; --paper:#FFFFFF; --ink:#1A1A1A; --terra:#C8553D; --forest:#1F4D3F;
+    --butter:#FEF8E7; --gold:#B8860B; --beige:#F3EEE2; --taupe:#D8D2C4; --grey:#6B6B6B; --grey2:#8C8780;
+    --line:#E6E0D6;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{ -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;}
+  body{ background:#D9D4CC; font-family:'Inter',sans-serif; color:var(--ink); }
+  .page{
+    width:210mm; min-height:297mm; background:var(--cream); margin:0 auto 14px;
+    padding:18mm 18mm 16mm; position:relative; overflow:hidden;
+    display:flex; flex-direction:column;
+  }
+  @page{ size:A4; margin:0; }
+  @media print{
+    body{background:none;}
+    .page{ margin:0; box-shadow:none; page-break-after:always; }
+  }
+  /* type */
+  .serif{ font-family:'Fraunces',serif; }
+  .mono{ font-family:'JetBrains Mono',monospace; }
+  h1,h2,h3{ font-family:'Fraunces',serif; font-weight:500; line-height:1.02; letter-spacing:-0.01em; }
+  .eyebrow{ font-size:10px; font-weight:600; letter-spacing:0.18em; text-transform:uppercase; color:var(--terra); }
+  .eyebrow.muted{ color:var(--grey2); }
+  .runhead{ display:flex; justify-content:space-between; align-items:center; font-size:9.5px; font-weight:600;
+    letter-spacing:0.16em; text-transform:uppercase; color:var(--grey2); padding-bottom:10px; border-bottom:1px solid var(--line); margin-bottom:26px;}
+  .runhead .sec{ color:var(--ink); }
+  .foot{ margin-top:auto; padding-top:14px; border-top:1px solid var(--line); display:flex; justify-content:space-between;
+    font-size:9px; color:var(--grey2); letter-spacing:0.04em; }
+  p{ font-size:11.5px; line-height:1.62; color:#2b2b2b; }
+  .lede{ font-size:13px; line-height:1.6; }
+  .dim{ color:var(--grey); }
+  strong{ font-weight:600; color:var(--ink); }
+  /* cover */
+  .brandrow{ display:flex; justify-content:space-between; align-items:flex-start; }
+  .brand{ display:flex; align-items:center; gap:9px; font-family:'Fraunces',serif; font-weight:600; font-size:16px; }
+  .dot{ width:11px; height:11px; border-radius:50%; background:var(--terra); display:inline-block;}
+  .brandmeta{ text-align:right; font-size:10px; color:var(--grey2); line-height:1.7; }
+  .cover-h{ font-size:62px; line-height:0.98; letter-spacing:-0.025em; margin-top:8mm; }
+  .cover-h .it{ font-style:italic; color:var(--terra); }
+  .cover-sub{ font-family:'Fraunces',serif; font-style:italic; font-size:18px; color:#3a3a3a; margin-top:20px; }
+  .heroline{ border-top:1px solid var(--ink); border-bottom:1px solid var(--line); margin-top:auto; padding:18px 0; display:grid; grid-template-columns:repeat(3,1fr); gap:16px;}
+  .hero .n{ font-family:'Fraunces',serif; font-size:44px; font-weight:500; letter-spacing:-0.02em; line-height:1;}
+  .hero .n small{ font-size:24px; }
+  .hero .l{ font-size:9.5px; font-weight:600; letter-spacing:0.13em; text-transform:uppercase; color:var(--grey); margin-top:9px; line-height:1.5;}
+  .preprow{ display:flex; justify-content:space-between; margin-top:16px; font-size:10px; color:var(--grey2); }
+  .preprow .k{ font-weight:600; color:var(--ink); letter-spacing:0.04em; }
+  /* section headers */
+  .sec-h{ font-size:34px; margin:2px 0 14px; }
+  .sec-h .it{ font-style:italic; }
+  /* stat callouts (pulse) */
+  .callouts{ background:var(--beige); border-left:3px solid var(--terra); padding:20px 22px; display:flex; flex-direction:column; gap:16px;}
+  .callout .n{ font-family:'Fraunces',serif; font-size:30px; font-weight:500; line-height:1; }
+  .callout .l{ font-size:10px; color:var(--grey); line-height:1.5; margin-top:5px; }
+  .two{ display:grid; grid-template-columns:1.45fr 1fr; gap:30px; align-items:start; }
+  .stack>*+*{ margin-top:13px; }
+  /* note box */
+  .note{ background:var(--butter); border-left:3px solid var(--gold); padding:14px 16px; margin-top:18px; }
+  .note .t{ font-size:9.5px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:var(--gold); margin-bottom:6px;}
+  .note p{ font-size:10.5px; line-height:1.55; }
+  /* metric cards */
+  .cards{ display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line); }
+  .card{ background:var(--cream); padding:15px 16px; }
+  .card .n{ font-family:'Fraunces',serif; font-size:30px; font-weight:500; line-height:1;}
+  .card .n .pct{ font-size:16px; color:var(--terra); }
+  .card .l{ font-size:9px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:var(--grey); margin-top:7px; line-height:1.5;}
+  .card .sub{ font-size:9px; color:var(--grey2); margin-top:3px;}
+  /* tables */
+  table{ width:100%; border-collapse:collapse; margin-top:6px;}
+  thead th{ font-size:8.5px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:var(--grey2);
+    text-align:left; padding:0 8px 8px; border-bottom:1px solid var(--ink);}
+  thead th.r{ text-align:right; }
+  tbody td{ font-size:10.5px; padding:9px 8px; border-bottom:1px solid var(--line); vertical-align:top;}
+  tbody td.r{ text-align:right; font-family:'JetBrains Mono',monospace; font-size:10.5px;}
+  tbody tr.hi td{ background:var(--beige); }
+  td .ti{ font-weight:500; }
+  td .meta{ font-size:8.5px; color:var(--grey2); margin-top:2px; }
+  .num{ font-family:'JetBrains Mono',monospace; }
+  .accent{ color:var(--terra); }
+  /* bars */
+  .bars{ display:flex; flex-direction:column; gap:11px; margin-top:4px;}
+  .bar{ display:grid; grid-template-columns:96px 1fr 54px; align-items:center; gap:10px; }
+  .bar .lab{ font-size:10px; }
+  .bar .track{ height:9px; background:var(--taupe); border-radius:5px; overflow:hidden; }
+  .bar .fill{ height:100%; background:var(--terra); border-radius:5px; }
+  .bar .fill.forest{ background:var(--forest); }
+  .bar .val{ font-family:'JetBrains Mono',monospace; font-size:10px; text-align:right; color:var(--grey); }
+  .small{ font-size:9px; color:var(--grey2); margin-top:9px; line-height:1.5; }
+  h3.block{ font-size:15px; margin:0 0 8px; }
+  .label-sm{ font-size:9.5px; font-weight:600; letter-spacing:0.13em; text-transform:uppercase; color:var(--grey); margin-bottom:10px;}
+  /* compare bars (spotify) */
+  .cmp{ display:flex; align-items:flex-end; gap:14px; height:120px; padding-top:6px;}
+  .cmp .col{ flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; height:100%; }
+  .cmp .colbar{ width:60%; border-radius:4px 4px 0 0; }
+  .cmp .cn{ font-family:'JetBrains Mono',monospace; font-size:11px; margin-bottom:6px; }
+  .cmp .cl{ font-size:8.5px; color:var(--grey2); margin-top:7px; text-align:center; letter-spacing:0.04em; }
+  /* working/needswork */
+  .grid2{ display:grid; grid-template-columns:1fr 1fr; gap:0; border-top:2px solid var(--ink);}
+  .col-w{ padding:16px 22px 4px 0; border-right:1px solid var(--line); }
+  .col-n{ padding:16px 0 4px 22px; }
+  .col-w{ border-top:3px solid var(--forest); }
+  .col-n{ border-top:3px solid var(--terra); }
+  .colhead{ font-size:9.5px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; margin-bottom:12px;}
+  .col-w .colhead{ color:var(--forest);} .col-n .colhead{ color:var(--terra);}
+  .item{ margin-bottom:13px; }
+  .item .h{ font-size:11px; font-weight:600; }
+  .item .b{ font-size:10px; color:var(--grey); line-height:1.5; margin-top:2px;}
+  /* plan list */
+  .plan{ counter-reset:p; margin-top:4px;}
+  .plan .row{ display:grid; grid-template-columns:30px 1fr; gap:10px; padding:11px 0; border-bottom:1px solid var(--line); align-items:start;}
+  .plan .num{ font-family:'Fraunces',serif; font-size:18px; color:var(--terra); line-height:1;}
+  .plan .row p{ font-size:10.5px; line-height:1.5; }
+  .donut-wrap{ display:flex; gap:18px; align-items:center; }
+  svg{ display:block; }
+  .legend{ display:flex; gap:14px; margin-top:8px; font-size:9px; color:var(--grey); }
+  .legend i{ width:9px; height:9px; border-radius:2px; display:inline-block; margin-right:5px; vertical-align:middle;}
+  .chartwrap{ margin-top:8px; }
+  .chart-cap{ font-size:9px; color:var(--grey2); margin-top:6px; letter-spacing:0.03em;}
+</style>
+</head>
+<body>
+
+<!-- ========== PAGE 1 ·COVER ========== -->
+<section class="page">
+  <div class="brandrow">
+    <div class="brand"><span class="dot"></span> Better at Work</div>
+    <div class="brandmeta">Monthly Report · Issue No. 05 / 2026<br>Prepared by HWL Studio</div>
+  </div>
+  <div class="eyebrow" style="margin-top:34mm;">May–June 2026 · Performance &amp; Pulse</div>
+  <h1 class="cover-h">Recovery,<br>and a month that<br>held its <span class="it">line.</span></h1>
+  <div class="cover-sub">For the period 1 May to 14 June 2026</div>
+
+  <div class="heroline">
+    <div class="hero"><div class="n">929</div><div class="l">May downloads<br>first clean full month</div></div>
+    <div class="hero"><div class="n">+31<small>%</small></div><div class="l">vs pre-HWL<br>baseline</div></div>
+    <div class="hero"><div class="n">5 / 5</div><div class="l">new episodes<br>over 100 downloads</div></div>
+  </div>
+  <div class="preprow">
+    <div><span class="k">Prepared for</span><br>Cathal Quinlan, Annette Sloan, Phoebe Adler-Ryan</div>
+    <div style="text-align:right;"><span class="k">HWL Studio</span><br>Harrison Living · 15 June 2026</div>
+  </div>
+</section>
+
+<!-- ========== PAGE 2 ·01 THE PULSE ========== -->
+<section class="page">
+  <div class="runhead"><span class="sec">01 / The Pulse</span><span>Better at Work · May–June 2026</span></div>
+  <div class="eyebrow muted">Executive Summary</div>
+  <h2 class="sec-h">The Pulse.</h2>
+  <div class="two">
+    <div class="stack">
+      <p class="lede">April raised one worry above all others: Spotify had broken its floor. <strong>May answered it.</strong> Plays are up 29%, consumption hours up 28%, and the platform-specific drop has reversed.</p>
+      <p>At the same time the show recorded its first clean full month on Acast at 929 downloads, and it held that number while running a week short on episodes. This was a strong month that also closed the open question from the last one.</p>
+      <p>The honest read up front: the recovery is real and broad, but two things April flagged are still open. Spotify follower growth stayed slow even as plays recovered, and the show missed an episode the week of 4 June. Neither dented the month. Both are worth protecting against.</p>
+    </div>
+    <div class="callouts">
+      <div class="callout"><div class="n accent">+29%</div><div class="l">Spotify plays vs April (216 → 279). The April floor was transient.</div></div>
+      <div class="callout" style="border-top:1px solid var(--taupe); padding-top:14px;"><div class="n">1,184</div><div class="l">views on the breakout YouTube short, "Your Office is Lying to You??", at 14.7% CTR.</div></div>
+      <div class="callout" style="border-top:1px solid var(--taupe); padding-top:14px;"><div class="n">+134</div><div class="l">LinkedIn followers on Cathal's profile, to 4,070.</div></div>
+    </div>
+  </div>
+  <div class="note">
+    <div class="t">A note on metrics</div>
+    <p>Spotify changed its definition of a "play" on 11 June 2026, moving to a 30-second standard. Every Spotify figure here sits before that change, so May is a clean like-for-like against April. From next month, plays are counted differently, and we will flag the discontinuity so the trend is not misread.</p>
+  </div>
+  <div class="foot"><span>Draft prepared by Harrison Living, HWL Studio · 15 June 2026</span><span>Issue No. 05</span></div>
+</section>
+
+<!-- ========== PAGE 3 ·02 THE NUMBERS (headline + chart) ========== -->
+<section class="page">
+  <div class="runhead"><span class="sec">02 / The Numbers</span><span>Better at Work · May–June 2026</span></div>
+  <div class="eyebrow muted">The Headline Data · Acast</div>
+  <h2 class="sec-h">A full month, <span class="it">in full.</span></h2>
+  <p style="max-width:150mm;">Total downloads across the 45 days were <strong>1,297</strong>. May on its own, the first complete calendar month on Acast, landed at <strong>929</strong>. That is <strong>+31% on the pre-HWL Omny baseline</strong> of 710 a month, and the first time we can compare a whole month like-for-like since the migration. April's 869 over 23 days extrapolated to a headline of ~1,133. May is the real thing, measured end to end.</p>
+
+  <div class="cards" style="margin-top:20px;">
+    <div class="card"><div class="n">710</div><div class="l">Pre-HWL baseline</div><div class="sub">Avg/mo · Omny · Nov 24–Aug 25</div></div>
+    <div class="card"><div class="n">869</div><div class="l">April (part month)</div><div class="sub">Acast · 23 days · Apr 8–30</div></div>
+    <div class="card" style="background:var(--beige);"><div class="n">929 <span class="pct">+31%</span></div><div class="l">May 2026 · full month</div><div class="sub">Acast · vs baseline</div></div>
+  </div>
+
+  <div class="chartwrap">
+    <div class="label-sm" style="margin-top:24px;">Daily downloads · 1 May – 14 June · the weekly launch pulse</div>
+    <svg id="dlchart" width="100%" viewBox="0 0 720 200" preserveAspectRatio="none"></svg>
+    <div class="chart-cap">Launch days marked. Spikes of 69–92 on drop day, an 11–44 back-catalogue baseline every other day. A healthy long tail.</div>
+  </div>
+  <div class="foot"><span>HWL Studio · Better at Work</span><span>Issue No. 05</span></div>
+</section>
+
+<!-- ========== PAGE 4 ·02 cont (episode + launch tables) ========== -->
+<section class="page">
+  <div class="runhead"><span class="sec">02 / The Numbers</span><span>Better at Work · May–June 2026</span></div>
+  <div class="eyebrow muted">Episode Performance</div>
+  <h2 class="sec-h">Every episode <span class="it">landed.</span></h2>
+  <p style="max-width:150mm;">Every new episode cleared 100 downloads in its window. That is the month-on-month signal: not one breakout, but a floor that holds across the slate.</p>
+  <table style="margin-top:14px;">
+    <thead><tr><th>Episode</th><th>Drop</th><th class="r">Acast downloads</th></tr></thead>
+    <tbody>
+      <tr class="hi"><td><div class="ti">The 3 Things Every Office Steals From You · Leidy Klotz</div><div class="meta">Top of period</div></td><td>28 May</td><td class="r accent">179</td></tr>
+      <tr><td><div class="ti">Why Smart Leaders Stop Making Clear Choices · Wendy Smith</div></td><td>14 May</td><td class="r">165</td></tr>
+      <tr><td><div class="ti">Pet Shop Rabbits, Hope, and Big Career Moves · Q&amp;A with Annette</div></td><td>7 May</td><td class="r">153</td></tr>
+      <tr><td><div class="ti">Why Doing Everything Means You Finish Nothing · Listener Questions</div></td><td>21 May</td><td class="r">135</td></tr>
+      <tr><td><div class="ti">We Can't Yoga Our Way Out of Bad Culture · Jennifer Moss</div><div class="meta">Carry-over from 30 Apr</div></td><td>30 Apr</td><td class="r">106</td></tr>
+      <tr><td><div class="ti">Why Your Office Feels Wrong · Listener Questions</div><div class="meta">3 days in, pacing</div></td><td>11 Jun</td><td class="r">105</td></tr>
+    </tbody>
+  </table>
+
+  <div class="label-sm" style="margin-top:26px;">Launch-day downloads</div>
+  <div class="bars">
+    <div class="bar"><span class="lab">Q&amp;A Annette · 7 May</span><div class="track"><div class="fill" style="width:100%"></div></div><span class="val">92</span></div>
+    <div class="bar"><span class="lab">Leidy Klotz · 28 May</span><div class="track"><div class="fill" style="width:95%"></div></div><span class="val">87</span></div>
+    <div class="bar"><span class="lab">LQ Office · 11 Jun</span><div class="track"><div class="fill" style="width:86%"></div></div><span class="val">79</span></div>
+    <div class="bar"><span class="lab">Wendy Smith · 14 May</span><div class="track"><div class="fill" style="width:84%"></div></div><span class="val">77</span></div>
+    <div class="bar"><span class="lab">LQ Finish · 21 May</span><div class="track"><div class="fill" style="width:75%"></div></div><span class="val">69</span></div>
+  </div>
+  <div class="foot"><span>HWL Studio · Better at Work</span><span>Issue No. 05</span></div>
+</section>
+
+<!-- ========== PAGE 5 ·02 cont (platform + geo) ========== -->
+<section class="page">
+  <div class="runhead"><span class="sec">02 / The Numbers</span><span>Better at Work · May–June 2026</span></div>
+  <div class="eyebrow muted">Audience &amp; Distribution</div>
+  <h2 class="sec-h">Where people <span class="it">listen.</span></h2>
+  <div class="two" style="grid-template-columns:1fr 1fr; gap:34px;">
+    <div>
+      <div class="label-sm">Platform · share of 1,297</div>
+      <div class="bars">
+        <div class="bar"><span class="lab">Apple Podcasts</span><div class="track"><div class="fill" style="width:100%"></div></div><span class="val">54%</span></div>
+        <div class="bar"><span class="lab">Spotify</span><div class="track"><div class="fill" style="width:41%"></div></div><span class="val">22%</span></div>
+        <div class="bar"><span class="lab">Other apps</span><div class="track"><div class="fill" style="width:17%"></div></div><span class="val">9%</span></div>
+        <div class="bar"><span class="lab">Other</span><div class="track"><div class="fill" style="width:13%"></div></div><span class="val">7%</span></div>
+        <div class="bar"><span class="lab">Chrome</span><div class="track"><div class="fill" style="width:9%"></div></div><span class="val">5%</span></div>
+        <div class="bar"><span class="lab">Overcast</span><div class="track"><div class="fill" style="width:5%"></div></div><span class="val">3%</span></div>
+      </div>
+      <p class="small">Apple still carries the show. Spotify's share rose from 19% in April to 22%, the download-side echo of the Spotify recovery overleaf.</p>
+    </div>
+    <div>
+      <div class="label-sm">Geography · share of 1,297</div>
+      <div class="bars">
+        <div class="bar"><span class="lab">Australia</span><div class="track"><div class="fill forest" style="width:100%"></div></div><span class="val">31%</span></div>
+        <div class="bar"><span class="lab">United Kingdom</span><div class="track"><div class="fill forest" style="width:68%"></div></div><span class="val">21%</span></div>
+        <div class="bar"><span class="lab">United States</span><div class="track"><div class="fill forest" style="width:65%"></div></div><span class="val">20%</span></div>
+        <div class="bar"><span class="lab">Ireland</span><div class="track"><div class="fill forest" style="width:20%"></div></div><span class="val">6%</span></div>
+        <div class="bar"><span class="lab">Hong Kong</span><div class="track"><div class="fill" style="width:16%"></div></div><span class="val">5%</span></div>
+        <div class="bar"><span class="lab">Canada / Taiwan</span><div class="track"><div class="fill forest" style="width:8%"></div></div><span class="val">2%</span></div>
+      </div>
+      <p class="small">The UK keeps closing on Australia. <strong>France</strong>, April's bright spot at 6%, fell under 1%, the one-off we suspected. <strong>Hong Kong</strong> (5%) and <strong>Taiwan</strong> (2%) emerged in its place. Worth watching whether they hold.</p>
+    </div>
+  </div>
+  <div class="foot"><span>HWL Studio · Better at Work</span><span>Issue No. 05</span></div>
+</section>
+
+<!-- ========== PAGE 6 ·03 SPOTIFY RECOVERED ========== -->
+<section class="page">
+  <div class="runhead"><span class="sec">03 / Spotify, Recovered</span><span>Better at Work · May–June 2026</span></div>
+  <div class="eyebrow muted">The Turnaround</div>
+  <h2 class="sec-h">The floor <span class="it">came back.</span></h2>
+  <p style="max-width:150mm;">April's loudest signal was a Spotify-specific drop: 216 plays, below the Season 4 floor. May reversed it. Plays are up 29% and back above the December floor of 249, tracking toward the Season 4 average. Consumption hours rose 28% in step.</p>
+
+  <div class="two" style="grid-template-columns:1fr 1fr; gap:34px; margin-top:18px;">
+    <div>
+      <div class="label-sm">Plays · May vs April vs S4 average</div>
+      <div class="cmp">
+        <div class="col"><div class="cn">279</div><div class="colbar" style="height:77%; background:var(--terra);"></div><div class="cl">May 2026</div></div>
+        <div class="col"><div class="cn">216</div><div class="colbar" style="height:59%; background:var(--taupe);"></div><div class="cl">April 2026</div></div>
+        <div class="col"><div class="cn">363</div><div class="colbar" style="height:100%; background:var(--taupe);"></div><div class="cl">S4 avg</div></div>
+      </div>
+    </div>
+    <div>
+      <div class="label-sm">Consumption hours · May vs April</div>
+      <div class="cmp">
+        <div class="col"><div class="cn">70.3</div><div class="colbar" style="height:100%; background:var(--forest);"></div><div class="cl">May 2026</div></div>
+        <div class="col"><div class="cn">54.7</div><div class="colbar" style="height:78%; background:var(--taupe);"></div><div class="cl">April 2026</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="two" style="grid-template-columns:1fr 1fr; gap:34px; margin-top:26px;">
+    <div class="note" style="margin-top:0; background:var(--beige); border-left-color:var(--forest);">
+      <div class="t" style="color:var(--forest);">The April data gap is closed</div>
+      <p>We can now see Spotify show-page impressions: roughly <strong>2,632</strong> over the 30 days Spotify retains. New episodes surface through the Home feed (Leidy Klotz 185, 139 from Home); the back catalogue earns impressions through Search (Tasha Eurich 72, 59 from Search). The integration is working as it should post-migration.</p>
+    </div>
+    <div class="note" style="margin-top:0;">
+      <div class="t">One honest caveat</div>
+      <p>Plays recovered. <strong>Followers did not.</strong> Net new followers held at +4, the same slow rate April flagged, against a typical +7 to +12. People are listening more, but not subscribing at the same pace. It is the clearest single thing to fix on Spotify, and the plan carries an action.</p>
+    </div>
+  </div>
+  <div class="foot"><span>HWL Studio · Better at Work</span><span>Issue No. 05</span></div>
+</section>
+
+<!-- ========== PAGE 7 ·04 WHO'S LISTENING ========== -->
+<section class="page">
+  <div class="runhead"><span class="sec">04 / Who's Listening</span><span>Better at Work · May–June 2026</span></div>
+  <div class="eyebrow muted">Audience</div>
+  <h2 class="sec-h">For the first time, <span class="it">we can see the room.</span></h2>
+  <p style="max-width:150mm;">The migration and the LinkedIn analytics together give us an audience picture we did not have in April. Two surfaces, two complementary readings.</p>
+
+  <div class="two" style="grid-template-columns:1fr 1fr; gap:34px; margin-top:20px;">
+    <div>
+      <h3 class="block">On Spotify, the core is clear.</h3>
+      <div class="label-sm" style="margin-top:6px;">Gender</div>
+      <div class="bars">
+        <div class="bar"><span class="lab">Female</span><div class="track"><div class="fill" style="width:100%"></div></div><span class="val">70%</span></div>
+        <div class="bar"><span class="lab">Male</span><div class="track"><div class="fill" style="width:31%"></div></div><span class="val">22%</span></div>
+      </div>
+      <div class="label-sm" style="margin-top:16px;">Age</div>
+      <div class="bars">
+        <div class="bar"><span class="lab">45–59</span><div class="track"><div class="fill forest" style="width:100%"></div></div><span class="val">68%</span></div>
+        <div class="bar"><span class="lab">35–44</span><div class="track"><div class="fill forest" style="width:28%"></div></div><span class="val">19%</span></div>
+        <div class="bar"><span class="lab">28–34</span><div class="track"><div class="fill forest" style="width:9%"></div></div><span class="val">6%</span></div>
+      </div>
+      <p class="small">The centre of the audience is <strong>women aged 45 to 59</strong>. A precise, usable profile for guest selection and any sponsor conversation. Spotify subset, so directional rather than the whole audience.</p>
+    </div>
+    <div>
+      <h3 class="block">On LinkedIn, senior and professional.</h3>
+      <div class="label-sm" style="margin-top:6px;">Location</div>
+      <div class="bars">
+        <div class="bar"><span class="lab">Sydney</span><div class="track"><div class="fill" style="width:100%"></div></div><span class="val">27%</span></div>
+        <div class="bar"><span class="lab">London</span><div class="track"><div class="fill" style="width:56%"></div></div><span class="val">15%</span></div>
+        <div class="bar"><span class="lab">Melbourne</span><div class="track"><div class="fill" style="width:22%"></div></div><span class="val">6%</span></div>
+      </div>
+      <div class="label-sm" style="margin-top:16px;">Seniority &amp; sector</div>
+      <p style="font-size:10.5px; line-height:1.6;">Around <strong>60% are Senior, Director or CXO</strong> level. They work in <strong>Financial Services (17%), Consulting (9%) and Banking (9%)</strong>, at firms like Westpac, Laing O'Rourke and Goldman Sachs.</p>
+      <p class="small">This mirrors the podcast geography and gives the brand a credible B2B audience to point at.</p>
+    </div>
+  </div>
+  <div class="foot"><span>HWL Studio · Better at Work</span><span>Issue No. 05</span></div>
+</section>
+
+<!-- ========== PAGE 8 ·05 THE SOCIAL ENGINE ========== -->
+<section class="page">
+  <div class="runhead"><span class="sec">05 / The Social Engine</span><span>Better at Work · May–June 2026</span></div>
+  <div class="eyebrow muted">YouTube · LinkedIn · Instagram</div>
+  <h2 class="sec-h">Three channels, <span class="it">three jobs.</span></h2>
+
+  <h3 class="block" style="margin-top:8px;">YouTube, compounding.</h3>
+  <div class="cards">
+    <div class="card"><div class="n">2,338</div><div class="l">Views</div><div class="sub">April 2,140</div></div>
+    <div class="card" style="background:var(--beige);"><div class="n">65.6</div><div class="l">Watch hours</div><div class="sub">April 33.8 · ~2×</div></div>
+    <div class="card" style="background:var(--beige);"><div class="n">+10</div><div class="l">Subscribers</div><div class="sub">April +5 · ~2×</div></div>
+  </div>
+  <div class="cards" style="border-top:0;">
+    <div class="card"><div class="n">6,068</div><div class="l">Impressions</div><div class="sub">April 4,729</div></div>
+    <div class="card"><div class="n">3.18<span class="pct">%</span></div><div class="l">Click-through rate</div><div class="sub">April 2.41%</div></div>
+    <div class="card"><div class="n">1,184</div><div class="l">Breakout short</div><div class="sub">"Office is Lying" · 14.7% CTR</div></div>
+  </div>
+  <p class="small">Watch hours and subscribers both roughly doubled. The shorts engine found another breakout, the highest since "Prisoners are happier". Long-form does the deep work (Jennifer Moss 16.3 hrs). Shorts win reach, longs win retention. Subscriber conversion is the gap to close.</p>
+
+  <div class="two" style="grid-template-columns:1fr 1fr; gap:34px; margin-top:18px;">
+    <div>
+      <h3 class="block">LinkedIn, the proof of work.</h3>
+      <div class="cards" style="grid-template-columns:1fr 1fr;">
+        <div class="card"><div class="n">21.9k</div><div class="l">Impressions</div><div class="sub">8,167 reached</div></div>
+        <div class="card" style="background:var(--beige);"><div class="n">+134</div><div class="l">Followers · to 4,070</div><div class="sub">+103 in May</div></div>
+      </div>
+      <p class="small">665 engagements at ~3%. Top by reach: the 7 May episode push (5,203). Top by engagement: the 5 June season wrap-up (114). And <strong>the newsletter is back</strong>. The 2 June post relaunched The Better Bits, closing an April open item.</p>
+    </div>
+    <div>
+      <h3 class="block">Instagram, early.</h3>
+      <div class="cards" style="grid-template-columns:1fr 1fr;">
+        <div class="card"><div class="n">9,433</div><div class="l">Views</div><div class="sub">1,628 reached</div></div>
+        <div class="card"><div class="n">+17</div><div class="l">Net followers</div><div class="sub">409 interactions</div></div>
+      </div>
+      <p class="small">Consistent but small. <strong>73.5% of views came from existing followers</strong> and bio-link taps numbered 4. Instagram is serving the base, not finding new people or sending traffic. A discovery lever to test, not a number to lean on yet.</p>
+    </div>
+  </div>
+  <div class="foot"><span>HWL Studio · Better at Work</span><span>Issue No. 05</span></div>
+</section>
+
+<!-- ========== PAGE 9 ·06 READ & PLAN ========== -->
+<section class="page">
+  <div class="runhead"><span class="sec">06 / The Read &amp; The Plan</span><span>Better at Work · May–June 2026</span></div>
+  <div class="eyebrow muted">The Honest Read</div>
+  <h2 class="sec-h">What's working. <span class="it">What needs work.</span></h2>
+  <div class="grid2">
+    <div class="col-w">
+      <div class="colhead">Working</div>
+      <div class="item"><div class="h">The Spotify recovery.</div><div class="b">Plays +29%, consumption +28%. April's worry is answered.</div></div>
+      <div class="item"><div class="h">A clean full month on Acast.</div><div class="b">929 downloads, +31% on baseline, held while a week short on episodes. Resilience, not luck.</div></div>
+      <div class="item"><div class="h">Every episode landed.</div><div class="b">All five new releases cleared 100; Leidy Klotz (179) and Wendy Smith (165) led.</div></div>
+      <div class="item"><div class="h">YouTube is compounding.</div><div class="b">Watch hours and subs doubled, and the shorts engine found another breakout.</div></div>
+      <div class="item"><div class="h">The newsletter is back.</div><div class="b">The Better Bits relaunched on 2 June.</div></div>
+      <div class="item"><div class="h">We can see the audience.</div><div class="b">Women 45–59 on the podcast, senior finance on LinkedIn.</div></div>
+    </div>
+    <div class="col-n">
+      <div class="colhead">Needs work</div>
+      <div class="item"><div class="h">Spotify follower velocity.</div><div class="b">Plays recovered, follower growth did not (+4, against a +7 to +12 norm). Fix: a clear follow prompt in the outro and show notes.</div></div>
+      <div class="item"><div class="h">Cadence.</div><div class="b">The week of 4 June had no episode. It cost nothing this month, but do not test it twice. Protect the weekly drop.</div></div>
+      <div class="item"><div class="h">Instagram discovery.</div><div class="b">Active but inward-facing (73.5% of views from followers, 4 bio-link taps). One reach lever to trial, likely Reels.</div></div>
+      <div class="item"><div class="h">YouTube subscriber conversion.</div><div class="b">View volume is not yet turning into subscribers at pace. Add an explicit subscribe ask to the shorts that travel.</div></div>
+    </div>
+  </div>
+
+  <div class="eyebrow muted" style="margin-top:24px;">June–July</div>
+  <h3 class="block serif" style="font-size:22px; margin-bottom:8px;">The plan.</h3>
+  <div class="plan">
+    <div class="row"><div class="num">01</div><p><strong>Roger Martin, recorded 12 June, is the next tentpole.</strong> Treat the launch as one coordinated day: Acast, YouTube long plus shorts, clips, LinkedIn and the newsletter on the same date.</p></div>
+    <div class="row"><div class="num">02</div><p><strong>Hold the weekly cadence.</strong> No more skipped weeks through the season close.</p></div>
+    <div class="row"><div class="num">03</div><p><strong>Newsletter.</strong> Hold the relaunched cadence and add the signup CTA to every episode description and Cathal's LinkedIn bio.</p></div>
+    <div class="row"><div class="num">04</div><p><strong>Spotify follow prompt.</strong> Ship the outro and show-note follow ask this month and read the follower line next report.</p></div>
+    <div class="row"><div class="num">05</div><p><strong>YouTube subscribe ask</strong> on the shorts that break out, and use the women 45–59 / senior-finance read to guide guest choices.</p></div>
+  </div>
+  <div class="foot"><span>Prepared by Harrison Living, HWL Studio · 15 June 2026</span><span>Better at Work · Issue No. 05</span></div>
+</section>
+
+<script>
+// Daily downloads line/area chart (1 May – 14 Jun)
+(function(){
+  var data=[44,24,10,13,15,19,92,26,15,31,33,35,26,77,36,20,15,28,20,25,69,28,14,8,25,14,21,87,37,9,13,
+            27,16,11,25,43,10,19,33,25,13,79,27,22,18];
+  var launches=[6,13,20,27,41]; // 7,14,21,28 May + 11 Jun (index from 1 May)
+  var W=720,H=200,padL=8,padR=8,padT=14,padB=22;
+  var max=Math.max.apply(null,data), n=data.length;
+  var iw=W-padL-padR, ih=H-padT-padB;
+  function x(i){ return padL + (iw*i/(n-1)); }
+  function y(v){ return padT + ih - (ih*v/max); }
+  var pts=data.map(function(v,i){return x(i)+','+y(v);}).join(' ');
+  var area='M'+x(0)+','+(padT+ih)+' L'+pts.split(' ').join(' L')+' L'+x(n-1)+','+(padT+ih)+' Z';
+  var svg=document.getElementById('dlchart');
+  var ns='http://www.w3.org/2000/svg';
+  // baseline
+  var base=document.createElementNS(ns,'line'); base.setAttribute('x1',padL);base.setAttribute('x2',W-padR);
+  base.setAttribute('y1',padT+ih);base.setAttribute('y2',padT+ih);base.setAttribute('stroke','#D8D2C4');base.setAttribute('stroke-width','1');
+  svg.appendChild(base);
+  var ap=document.createElementNS(ns,'path'); ap.setAttribute('d',area); ap.setAttribute('fill','rgba(200,85,61,0.10)'); svg.appendChild(ap);
+  var pl=document.createElementNS(ns,'polyline'); pl.setAttribute('points',pts); pl.setAttribute('fill','none');
+  pl.setAttribute('stroke','#C8553D'); pl.setAttribute('stroke-width','1.8'); pl.setAttribute('stroke-linejoin','round'); svg.appendChild(pl);
+  launches.forEach(function(i){
+    var c=document.createElementNS(ns,'circle'); c.setAttribute('cx',x(i));c.setAttribute('cy',y(data[i]));
+    c.setAttribute('r','3.4');c.setAttribute('fill','#1F4D3F'); svg.appendChild(c);
+  });
+  // labels
+  [['1 May',0],['22 May',21],['14 Jun',44-1]].forEach(function(p){
+    var t=document.createElementNS(ns,'text'); t.setAttribute('x',x(p[1])); t.setAttribute('y',H-6);
+    t.setAttribute('fill','#8C8780'); t.setAttribute('font-size','9'); t.setAttribute('font-family','JetBrains Mono, monospace');
+    if(p[1]===43)t.setAttribute('text-anchor','end'); else if(p[1]===0)t.setAttribute('text-anchor','start'); else t.setAttribute('text-anchor','middle');
+    t.textContent=p[0]; svg.appendChild(t);
+  });
+})();
+</script>
+</body>
+</html>

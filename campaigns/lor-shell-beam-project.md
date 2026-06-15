@@ -37,11 +37,11 @@ Original mention: codex 02 business map. No formal brief from LOR yet.
 > Auto-updated by campaign-chaser agent. Last run: 2026-06-12 10:07 BST.
 
 ```
-Last action: Amanda Thompson replied 2026-05-07. Re-opener staged as Gmail draft (id r-2357566366531178370) on 8 June, unsent for 4 days.
-Days since last action: 36
-Next move: SEND OR KILL TODAY. Draft is one tap (r-2357566366531178370). 36 days cold, 4 days past auto-kill threshold. Telegram push sent. If no reply in 14 days of sending, close the file.
-Blocker: Harrison decision (send draft or kill)
-Status: COLD — auto-kill threshold exceeded. Exception retained: existing LOR client. Telegram pushed 2026-06-12.
+Last action: Amanda Thompson replied 2026-05-07. Re-opener staged as Gmail draft (r-2357566366531178370) on 8 June, unsent for 7 days.
+Days since last action: 39 (since Amanda's reply). Draft sitting 7 days unsent.
+Next move: SEND OR KILL. Third consecutive agent run flagging this. No more holds. (A) Send r-2357566366531178370 now, (B) kill the contact, close the file. If sent and no reply in 14 days, auto-close.
+Blocker: Harrison decision (final flag)
+Status: COLD. Third flag. Telegram pushed 2026-06-15.
 ```
 
 ### Follow-up draft (staged)

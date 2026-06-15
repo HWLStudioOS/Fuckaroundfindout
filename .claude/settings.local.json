@@ -48,7 +48,9 @@
       "Bash(env)",
       "Read(//Users/harrison/hwlstudio-site/**)",
       "Read(//Users/harrison/hwlstudio-site/src/**)",
-      "Bash(mdls -name kMDItemNumberOfPages \"/Users/harrison/Downloads/LOR_Early_Talent_2026_Campaign_Master_Plan.pdf\")"
+      "Bash(mdls -name kMDItemNumberOfPages \"/Users/harrison/Downloads/LOR_Early_Talent_2026_Campaign_Master_Plan.pdf\")",
+      "Read(//Users/harrison/hwlstudio-codex/harrison-os/**)",
+      "Bash(mdls -name kMDItemNumberOfPages \"/Users/harrison/Downloads/Harrison Living - 34 Clifton Strengths_Mar 2020.pdf\")"
     ]
   }
 }

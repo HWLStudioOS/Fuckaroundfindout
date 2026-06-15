@@ -1078,3 +1078,36 @@
 [2026-06-14T18:58:38.960Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-06-14T19:58:39.059Z] INFO Sync start. Last: 2026-06-14T18:58:38.958Z
 [2026-06-14T19:58:39.546Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-15T08:18:20.293Z] INFO Sync start. Last: 2026-06-14T19:58:39.545Z
+[2026-06-15T08:18:20.897Z] INFO push + HWL-91 Pay HMRC £339 via Faster Payments to HMRC Cumbernauld. P30 2
+[2026-06-15T08:18:21.121Z] INFO push + HWL-92 Check Starling: LOR INV-0392 (£3,885) landed? If yes, sweep 
+[2026-06-15T08:18:21.274Z] INFO push + HWL-93 Email Fazila (fazila@litchfields.co.uk) on VAT: ask her to c
+[2026-06-15T08:18:21.453Z] INFO push + HWL-94 Nudge Anna + Sarah (Creepers): content plan sent Thursday 11
+[2026-06-15T08:18:21.914Z] INFO push + HWL-95 Reply Fazila payroll thread: confirm Option 1 (£5,241 gross,
+[2026-06-15T08:18:22.346Z] INFO Sync done. push: +5 ~0. pull: ~0.
+[2026-06-15T08:27:54.266Z] INFO Sync start. Last: 2026-06-15T08:18:22.344Z
+[2026-06-15T08:27:56.342Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-15T09:27:56.434Z] INFO Sync start. Last: 2026-06-15T08:27:56.341Z
+[2026-06-15T09:28:00.118Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-15T10:28:00.257Z] INFO Sync start. Last: 2026-06-15T09:28:00.117Z
+[2026-06-15T10:28:00.852Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-15T11:28:00.899Z] INFO Sync start. Last: 2026-06-15T10:28:00.851Z
+[2026-06-15T11:28:01.282Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-15T12:28:01.399Z] INFO Sync start. Last: 2026-06-15T11:28:01.280Z
+[2026-06-15T12:28:01.781Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-15T13:28:01.790Z] INFO Sync start. Last: 2026-06-15T12:28:01.780Z
+[2026-06-15T13:28:03.278Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-15T14:28:03.382Z] INFO Sync start. Last: 2026-06-15T13:28:03.277Z
+[2026-06-15T14:28:04.336Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-15T15:28:04.387Z] INFO Sync start. Last: 2026-06-15T14:28:04.330Z
+[2026-06-15T15:28:05.052Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-15T16:28:05.143Z] INFO Sync start. Last: 2026-06-15T15:28:05.050Z
+[2026-06-15T16:28:05.670Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-15T17:28:05.838Z] INFO Sync start. Last: 2026-06-15T16:28:05.669Z
+[2026-06-15T17:28:06.626Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-15T18:28:06.708Z] INFO Sync start. Last: 2026-06-15T17:28:06.625Z
+[2026-06-15T18:28:07.435Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-15T19:28:07.512Z] INFO Sync start. Last: 2026-06-15T18:28:07.435Z
+[2026-06-15T19:28:11.239Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-15T20:28:11.277Z] INFO Sync start. Last: 2026-06-15T19:28:11.238Z
+[2026-06-15T20:28:11.824Z] INFO Sync done. push: +0 ~0. pull: ~0.

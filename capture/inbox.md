@@ -4,6 +4,13 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-06-15 14:07
+- **Creepers pulls out of Chelsea 2027**, HortWeek. Published today: Creepers has formally paused Chelsea show-garden supply, citing the RHS peat-free policy. Only 3 of their 23 suppliers were fully peat-free in 2026. They're going into R&D mode from September. Directly changes the Q3 Royal Thread content arc and the @creepersinstallation narrative. Worth a call to Creepers before you publish anything that positions them as Chelsea stalwarts. [https://www.hortweek.com/horticulture-supply-chain-strained-rhs-chelsea-peat-ban-creepers-pulls/article/1961544]
+- **Claude Fable 5 and Mythos 5**, Anthropic. The Mythos-class model is now public: 1M context, always-on adaptive thinking, $10/$50 per M tokens. Free window on Pro/Max/Team closes 22 June, then moves to usage credits. Affects your stack decisions and anything you're quoting clients on AI capability. [https://www.anthropic.com/news/claude-fable-5-mythos-5]
+- **Fable 5, Anthropic Alignment, AI Tiers**, Stratechery. Thompson's read on the Fable 5 launch and what conservative safeguards plus tiered access (Mythos for government, Fable for public) signal about where AI infrastructure power is consolidating. The alignment framing is the interesting bit. [https://stratechery.com/2026/fable-5-anthropic-alignment-ai-tiers/]
+- **Return on Tokens (ROT)**, Not Boring (Markie Wagner). Argues tokenmaxxing never made sense and agents as improvising generalists are not the endgame. The right model is evolutionary software: tests, sticks, adapts. Sharp counter to current agent hype, directly relevant to how you think about your own OS pipeline. [https://www.notboring.co/p/return-on-tokens-rot]
+- **Glucose dynamics during ultramarathon running**, Frontiers in Sports and Active Living. CGM data shows a three-phase glucose pattern in ultras, with late-stage spikes that don't track carb intake or pace. Has direct implications for nutrition strategy in events over 100km, especially around the back half. Open access. [https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1843846/full]
+
 ## How items get in
 
 - Harrison adds them directly during a session.

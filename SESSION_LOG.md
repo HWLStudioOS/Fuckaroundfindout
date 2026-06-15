@@ -328,3 +328,34 @@ Harrison and Maya sat together for an end-of-month finance review. Pulled 7 stat
 **Artifacts**
 - Modified `money/index.md` (live state + debt list + Mackenzie line).
 - Modified `today.md` (money standing).
+
+---
+
+## [2026-06-15 15:30] — Product day: two products built, Baseline app scoped, scraper hardened, board cleared
+<!-- written by: HWL-META session -->
+
+**Decisions**
+- Open weekend brief (find and build a product). A 36-agent discovery + concept workflow picked the Legibility Diagnosis; Harrison had pointed at the content method. Built both, on opposite tracks on purpose. Both verified in-browser, deploy-ready, NOT deployed (his tap). They fill the empty bottom rung of the offer ladder (everything else is £8.5k+).
+- Decided to build Baseline, a personal native iOS training app (SwiftUI + HealthKit), as a fun/learning build. Scoped via an 11-agent research pass. Locked: Monster mode in v1, pay the £79 Apple account, full frontier stack. Its own repo and its own Claude session.
+- Portfolio thesis reached: small AI products for the people one step behind you, filtered by edge x reachable-buyer, run alongside the studio not instead of it. FROP / consumer-app lane killed (no moat, wrong buyer). Binding constraint named: distribution.
+- Hardened the Garmin scraper: it wrote nulls at the 06:00 run because that beats the watch sync. Added fallback to the last completed night, then to the weekly HRV average, plus date tags so a stale read is honest. Verified.
+
+**Open Questions / for Harrison**
+- Deploy the two products (commands in `spec/products-2026-06-15.md`).
+- Baseline open decisions at the foot of `PRODUCT.md` / `ARCHITECTURE.md` (taper auto-vs-suggest, the morning check-in, backend host).
+- The whole product lane is gated on distribution (consistent posting + an owned audience). Still unaddressed, and it is the real unlock.
+
+**Follow-ups**
+- [ ] Deploy Diagnosis to preview, then prod, then merge `legibility-diagnosis`.
+- [ ] Deploy Content Engine, then post the launch drafts (`spec/products-launch-drafts-2026-06-15.md`).
+- [ ] Tue 16 June 16:00: Kerri ET feedback call. Card at `campaigns/lor-et-call-prep-2026-06-16.md`. Send ASpec Posts 1+2 before/on the call.
+- [ ] Build session: Baseline Phase 0 in `~/baseline`.
+
+**Artifacts**
+- Repos: `~/hwl-content-engine` (new), `~/hwlstudio-site` (branch `legibility-diagnosis` + `LegibilityDiagnosis.tsx`), `~/baseline` (CLAUDE/VISION/PRODUCT/DESIGN/ARCHITECTURE).
+- Docs: `spec/products-2026-06-15.md`, `spec/products-launch-drafts-2026-06-15.md`, `spec/portfolio-thesis-2026-06-15.md`, `campaigns/lor-et-call-prep-2026-06-16.md`.
+- Hardened `agents/health-sync.py` (fallback + date tags).
+- Memory: `project-weekend-products-2026-06-15`, `project-baseline-app`.
+
+**Context**
+Full-day autonomous build session on Harrison's open creative/research remit. Two studio products taken to deploy-ready, a personal native app scoped and handed to its own session while Harrison set up Xcode and got a blank app onto his phone, then the board cleared: portfolio thesis, one-tap launch drafts, the Kerri call card, the scraper fix, and workspace housekeeping. Nothing client-facing was sent; all sends staged for his tap.

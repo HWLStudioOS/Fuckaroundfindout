@@ -1,3 +1,10 @@
+## 2026-06-15 evening
+- Shipped: Morning run 5.25km Z1-2 (07:55), stair stepper 21min + weights 11min (18:28 PM), Dad code session (Baseline iOS, 10:30)
+- Missed: Fazila VAT email (third Monday in a row, unconfirmed via hwlstudio.com), Creepers nudge to Anna+Sarah (Surrey shoot tomorrow TBC, no personal Gmail evidence), HMRC £339 payment (Faster Payments, unverifiable by agent)
+- Training: 5.25km morning run + stair stepper + weights vs prescribed 6.3km easy at 17:00. Session happened, 1km short, timing shifted to AM. W23 peak week, session broadly landed.
+- Campaigns moved: 0 confirmed (LOR ET: Kerri call tomorrow 16:00; Creepers: no nudge visible; Golf: breakups still staged, kill date 19 June)
+- Tomorrow's first action: Email Fazila on VAT before 09:00, then confirm/cancel Creepers Surrey shoot with Anna+Sarah before noon. Kerri call 16:00.
+
 ## 2026-06-12 evening
 - Shipped: LOR ET deck sent 11:44 + Kerri walkthrough done (feedback Tue, Emma session Thu 19:00), golf Wave 1 breakup emails sent and closed, Danny call done
 - Missed: Fazila payroll reply (held since Wed 10 June, blocking payroll release), David handoff pack

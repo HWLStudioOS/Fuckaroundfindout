@@ -13,10 +13,10 @@ pairs_with: Figma carousel BAHHNFZnb7paY492PzhIMC (DfMA / 70:60:30)
 
 ```
 Last action: Posts drafted 2026-06-02
-Days since last action: 8
-Next move: Send to Kerri BEFORE 12 June 11:00 call. Today or tomorrow AM. Posts 1+2 send-ready. Post 3 needs real specialist detail (background, years, prior trade) before it ships — either get detail from Kerri on the call or send Posts 1+2 now as a preview.
-Blocker: Harrison send (TODAY or tomorrow AM)
-Status: drafting — unsent. Kerri call is 12 June 11:00. 2 days to send.
+Days since last action: 13
+Next move: Send Posts 1+2 to Kerri now, before or during tomorrow's 16:00 call. Add a brief covering line. Post 3 still needs real specialist detail (background, years, prior trade) — ask Kerri on the call or hold Post 3 separately. The 12 June deadline passed without these going out.
+Blocker: Harrison send (13 days overdue)
+Status: drafting, unsent. Telegram pushed 2026-06-15.
 ```
 
 # Ghostwritten leader posts — LOR Assembly Specialist

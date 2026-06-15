@@ -102,7 +102,31 @@ if isinstance(tr, list) and tr:
     tr = tr[0]
 tr = tr or {}
 
+# Early-morning runs (06:00) often beat the watch sync, so today's sleep and HRV
+# come back empty even though readiness and activities are present. Fall back to
+# the most recent completed night, then to the weekly HRV average that always
+# sits inside the readiness block, and tag which date each metric is actually
+# from so a stale read is honest rather than silently wrong.
+yday = (today - datetime.timedelta(days=1)).isoformat()
+
 secs = sl.get("sleepTimeSeconds")
+sleep_date = d
+if not secs:
+    sl_y = dig(safe(lambda: g.get_sleep_data(yday)), "dailySleepDTO") or {}
+    if sl_y.get("sleepTimeSeconds"):
+        sl, secs, sleep_date = sl_y, sl_y.get("sleepTimeSeconds"), yday
+
+hrv_avg = dig(hv, "hrvSummary", "lastNightAvg")
+hrv_status = dig(hv, "hrvSummary", "status")
+hrv_date = d
+if hrv_avg is None:
+    hv_y = safe(lambda: g.get_hrv_data(yday)) or {}
+    y_avg = dig(hv_y, "hrvSummary", "lastNightAvg")
+    if y_avg is not None:
+        hrv_avg, hrv_status, hrv_date = y_avg, dig(hv_y, "hrvSummary", "status"), yday
+if hrv_avg is None:
+    hrv_avg, hrv_status, hrv_date = tr.get("hrvWeeklyAverage"), hrv_status or "WEEKLY_AVG", "weekly"
+
 snap = {
     "date": d,
     "pulled_at": out["pulled_at"],
@@ -114,8 +138,10 @@ snap = {
     "body_battery_low": sb.get("bodyBatteryLowestValue"),
     "sleep_hours": round(secs / 3600, 1) if secs else None,
     "sleep_score": dig(sl, "sleepScores", "overall", "value"),
-    "hrv_avg_last_night": dig(hv, "hrvSummary", "lastNightAvg"),
-    "hrv_status": dig(hv, "hrvSummary", "status"),
+    "sleep_date": sleep_date,
+    "hrv_avg_last_night": hrv_avg,
+    "hrv_status": hrv_status,
+    "hrv_date": hrv_date,
     "training_readiness": tr.get("score"),
     "training_readiness_level": tr.get("level"),
 }

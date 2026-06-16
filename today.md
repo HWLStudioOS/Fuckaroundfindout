@@ -1,57 +1,52 @@
 ---
-date: 2026-06-15
+date: 2026-06-16
 generated: auto 06:30 BST
 ---
 
-# Today, Monday 15 June 2026
+# Today, Tuesday 16 June 2026
 
 ## Pulse
 
-W23 Specific Build, RTTS 26 days out. This is peak week. The weekend was quiet on client comms: no Tier 1 emails, no Granola meetings. Three financial actions from Friday's CFO sit unresolved this morning: HMRC P30 £339 due immediately, INV-0392 £3,885 now 14 days overdue, and the Fazila VAT registration email still not sent (2 weeks late, most consequential item outstanding). Kerri's ET deck feedback lands on tomorrow's 16:00 standing call. Creepers content plan sent Thursday 11 June, no word back, June invoice blocked and Tuesday Surrey shoot TBC without their nod. Golf breakups went out Friday. Inbox clean. Morning is admin before anything else.
+W23 Specific Build, RTTS 25 days out. The Kerri call at 16:00 is the hinge of the day: ET deck feedback, Emma Thursday meeting logistics, and a verbal on the ~£14k price. Garmin flagged Saturday's 21.2km as OVERREACHING (avg HR 161, max 189). Today's RHR is 52 against a 7-day average of 49, which is the tell. Body battery came in at 39 overnight and recovered to 52. Monday's run and PM sessions are logged. Five financial and admin tasks from Monday remain unconfirmed in available data. Creepers is 5 days cold on the content plan. Golf Wave 1 kill date is 19 June, 3 days.
 
 ## Yesterday wrap
 
-Friday 12 June brief promised: golf breakup emails (SENT, Harrison confirmed via Superhuman), Kerri 13:30 call (DONE, deck landed strong per Kerri: "she'll be really happy", feedback by Tuesday), Fazila payroll reply (carry-forward, still open). W22 weekly review (Sunday 14 June): 2/3 top-3 shipped, training 3/7 on spec.
-
-Linear deltas overnight: HWL-89 → Done (Danny x HWL 10:00, marked 12 June 11:01).
+Monday's brief carried: HMRC £339 P30 payment, INV-0392 Starling check, Fazila VAT registration email, Anna + Sarah Creepers nudge, and Fazila payroll confirm. Garmin confirms the training side: 5.25km easy run + stair stepper (21 min) + strength session (11 min), full double day done. No Tier 1 email replies landed overnight, no confirmed digital signal on the five admin tasks. All carry forward.
 
 ## Today
 
-- [ ] Pay HMRC £339 via Faster Payments to HMRC Cumbernauld. P30 2025/26, penalty risk. Details in Litchfields payroll@litchfields.co.uk email 14:50 12 June. First action, before anything else. <!-- linear:HWL-91 -->
-- [ ] Check Starling: LOR INV-0392 (£3,885) landed? If yes, sweep 25% (£971) to tax reserve first. If not, one email to kwarner@laingorourke.com + accountspayable@laingorourke.com bundling INV-0392 + INV-0384 in a single chase. <!-- linear:HWL-92 -->
-- [ ] Email Fazila (fazila@litchfields.co.uk) on VAT: ask her to confirm rolling 12-month figure from Xero and initiate registration. 2 weeks overdue. Threshold crosses when INV-0392 clears, registration takes 2-3 weeks, penalty exposure from the day you breach without it. <!-- linear:HWL-93 -->
-- [ ] Nudge Anna + Sarah (Creepers): content plan sent Thursday 11 June (4 days, no reply). June invoice £3,500 blocked. Surrey shoot pencilled for tomorrow Tuesday 16 June. Need their word today or the shoot goes. <!-- linear:HWL-94 -->
-- [ ] Reply Fazila payroll thread: confirm Option 1 (£5,241 gross, £0 tax, £0 employee NI, £411.15 employer NI). Gmail draft staged. <!-- linear:HWL-95 -->
-
-Book Mams Flights on calendar 09:00 (calendar item, alongside the above).
+- [ ] Kerri catch-up 16:00, Teams. ET deck feedback, Emma Thu 18 conflict (Jess airport 13:30, meeting at 14:00), verbal price confirm ~£14k, line managers strand. Prep before the call: one-page Emma intro pack in case the time stays at 14:00. <!-- linear:HWL-97 -->
+- [ ] Pay HMRC £339 via Faster Payments to HMRC Cumbernauld. P30 2025/26, penalty risk, overdue from Monday. <!-- linear:HWL-91 -->
+- [ ] Email Fazila (fazila@litchfields.co.uk): ask her to confirm rolling 12-month figure from Xero and initiate VAT registration. 2+ weeks late. Penalty exposure from the day you breach £90k without a filed application. <!-- linear:HWL-93 -->
+- [ ] Chase Anna + Sarah (Creepers): content plan sent 11 June, 5 days no reply. June invoice £3,500 held. One message, nod or no by end of day. <!-- linear:HWL-94 -->
+- [ ] Golf Wave 1: kill date 19 June, 3 days. Check for replies. Decision: start Wave 2 drafting today or wait until after kill date. <!-- linear:HWL-96 -->
 
 ## Awaiting response
 
-- Kerri: INV-0392 (£3,885, 14 days overdue). ET deck feedback + verbal pricing confirm (~£14k W1). Standing call tomorrow Tue 16 June 16:00.
-- Anna + Sarah (Creepers): content plan confirmation. June invoice £3,500 held. Tue 16 shoot TBC.
-- Fazila: VAT registration (2 weeks cold). Payroll option (1 week cold, Option 1 recommended).
-- Korona: V8 retainer (£8.5-12.5k/month), cold 30+ days. No poke yet.
+- Kerri: INV-0392 (£3,885, 15 days overdue). Standing call today 16:00. Chase if not visible in Starling this morning.
+- Anna + Sarah (Creepers): content plan (5 days cold). June invoice £3,500 held. Poke today.
+- Fazila: VAT registration (2+ weeks cold). Payroll Option 1 confirm (1 week cold).
+- Korena: V8 retainer (£8.5-12.5k/month), 30+ days cold. Do not chase yet.
 
 ## In flight
 
-- LOR ET 2026: deck with Kerri, feedback tomorrow Tue 16:00. Emma team meeting Thu 18 June 14:00 (conflict: Jess airport pickup 13:30, Kerri moving it). Line managers strand flagged urgent by Kerri.
-- LOR Cambridge research stream: one-pager to prep before Kerri's end-of-June meeting. No rush today.
+- LOR ET 2026: Kerri feedback today 16:00. Emma team meeting Thu 18 June 14:00 (Jess airport conflict 13:30, Kerri trying to move earlier). Line managers strand flagged urgent. One pass on the deck after today's call, not before.
+- LOR Cambridge research: one-pager before Kerri's end-of-June meeting. Not urgent today.
 - LOR ASpec ghostwritten posts: banked, Kerri to schedule against annual report cadence.
-- Creepers: content plan sent 11 June. Surrey shoot possibly Tue 16 (pending today's reply).
-- Creepers hero film: with David, no hard deadline.
-- BaW: David on edits. Cathal check-in to reschedule (was cancelled 12 June).
-- David handoff pack: still owed. Client links, fonts, palettes, video refs.
-- Golf Wave 2 (11 emails): not started. Kill date Wave 1 is 19 June, 4 days.
-- VAT registration: not yet initiated. Fazila contact this morning.
+- Creepers: content plan 5 days cold. Surrey shoot unconfirmed, treat as not happening this week without Anna/Sarah nod. Hero film with David, no hard deadline.
+- BaW: David on edits. Cathal reschedule TBC.
+- David handoff pack: still owed (client links, fonts, palettes, video refs).
+- Golf Wave 2 (11 emails): not started.
+- VAT registration: not yet filed.
 - Soho House DD: reinstall on HWL Amex if not yet done.
 
 ## Standing
 
-- Body: 86.9 kg (stale, 29 Apr, re-export from iPhone overdue). RHR 48 bpm today, trending down from 53 Sat, 52 Sun. Readiness 50 (moderate). Body battery 48-57. Stress 14. No HRV or sleep score syncing.
-- Training: W23 Specific Build, peak week. Easy 6.3km at 17:00 today. RTTS 50K in 26 days (11 July).
-- Money: Starling ~£938 estimated. HMRC £339 due now. INV-0392 £3,885 14 days overdue. Creepers June £3,500 held. Pipeline not yet raised ~£23,500. Tax reserve £6,882, ahead of target.
-- Clients: LOR ET feedback tomorrow 16:00. Creepers plan + shoot both pending Anna/Sarah. BaW steady with David. Golf Wave 1 breakups sent, waiting.
+- Body: 86.9 kg (stale, 29 Apr, re-export from iPhone needed). RHR 52 bpm today, 7-day avg 49. HRV 61ms (balanced). Body battery 39-52. Stress avg 20, low.
+- Training: W23 Specific Build, peak week. Today: AM fasted 4.2km easy (underway) + PM Strength A. Sat 13 June: 21.2km pushed into OVERREACHING territory (avg HR 161, max HR 189, Garmin flagged). RHR elevation today is the lagged signal. RTTS 50K in 25 days (11 July).
+- Money: Starling ~£938 estimated (HMRC £339 may not have cleared). INV-0392 £3,885 from LOR, 15 days overdue. Creepers June £3,500 held. Tax reserve £6,882, ahead of target. Pipeline not raised ~£23,500.
+- Clients: LOR feedback call 16:00 today. Creepers plan 5 days cold, invoice held. BaW steady with David. Golf Wave 1 kill date 19 June.
 
 ## Lens
 
-The Fazila VAT email has been Monday's action for two weeks. It keeps sliding. If INV-0392 lands today it crosses the £90k threshold. Registration takes 2-3 weeks from application. You cannot invoice properly without it in motion. Send it this morning before client work, before the run, before anything. Three minutes.
+The Emma Thursday meeting is where this week's LOR work gets approved or delayed. If the 14:00 slot holds, Kerri presents without you. That means the intro pack is the whole deliverable. Write it before 14:00 today, not after the 16:00 call. The Kerri call is confirmation, not creation.

@@ -1,3 +1,10 @@
+## 2026-06-17 evening
+- Shipped: Run 6.49km 27 PRs (14:08), Kerri invoice chase acknowledged (she replied 09:37 asking for attachments)
+- Missed: Kerri invoice attachments not sent (10-hour gap, she is ready to pay now), Fazila VAT email (4th consecutive week, penalty exposure live), HMRC £339 (no payment signal)
+- Training: 6.49km afternoon run, 30m vert vs prescribed Tempo/Hills 9.2km 300m vert Z3-4. W23 peak week quality day not done. Run happened, hills did not.
+- Campaigns moved: 0. Morning brief did not regenerate for Wed (today.md stale at Tue 16 June). Creepers 6 days cold, Golf kill date 19 June in 48h, LOR ET call outcome unconfirmed (no Granola transcript).
+- Tomorrow's first action: Reply to Kerri with ASM + March Comms invoice attachments before 09:00. Then golf breakup emails, kill date is Friday.
+
 ## 2026-06-15 evening
 - Shipped: Morning run 5.25km Z1-2 (07:55), stair stepper 21min + weights 11min (18:28 PM), Dad code session (Baseline iOS, 10:30)
 - Missed: Fazila VAT email (third Monday in a row, unconfirmed via hwlstudio.com), Creepers nudge to Anna+Sarah (Surrey shoot tomorrow TBC, no personal Gmail evidence), HMRC £339 payment (Faster Payments, unverifiable by agent)

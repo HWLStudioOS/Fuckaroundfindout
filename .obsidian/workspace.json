@@ -185,6 +185,10 @@
   },
   "active": "3cb4594d9a5c547c",
   "lastOpenFiles": [
+    "linear/close-issues.js",
+    "agents/__pycache__/health-sync.cpython-314.pyc",
+    "agents/__pycache__",
+    "health/history.json",
     "business/david-handoff-pack-draft.md",
     "linear/_deltas.md",
     "campaigns/lor-et-content-review-2026-06-12.md",
@@ -200,9 +204,6 @@
     "workshops/2026-06-09/follow-up/pdf-build/p7.pdf",
     "workshops/2026-06-09/follow-up/pdf-build/p4.pdf",
     "workshops/2026-06-09/follow-up/pdf-build/p6.pdf",
-    "workshops/2026-06-09/follow-up/pdf-build/p2.pdf",
-    "workshops/2026-06-09/follow-up/pdf-build/p8.pdf",
-    "workshops/2026-06-09/follow-up/pdf-build/p5.pdf",
     "business/david-editor.md",
     "workshops/2026-06-09/follow-up/00-slack-post.md",
     "agents/launchd/INSTALL.md",
@@ -221,7 +222,6 @@
     "agents/learning-brief.md",
     "agents/followup-drafter.md",
     "agents/evening-reflection.md",
-    "agents/discovery-scan.md",
-    "agents/content-engine.md"
+    "agents/discovery-scan.md"
   ]
 }

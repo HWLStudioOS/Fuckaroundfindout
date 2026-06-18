@@ -16,6 +16,19 @@ export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/Users/harrison/.loc
 
 cd "$HWL_META_DIR"
 
+# The mini's early-morning jobs have fired before the network/DNS was ready,
+# producing whole-day data gaps (Garmin + Linear ENOTFOUND in the logs). Wait up
+# to ~90s for DNS to actually resolve before running the brief.
+for i in $(seq 1 18); do
+  if nslookup api.linear.app >/dev/null 2>&1 || ping -c1 -t2 1.1.1.1 >/dev/null 2>&1; then
+    break
+  fi
+  if [ "$i" -eq 18 ]; then
+    echo "$(date) | morning-brief | WARN: network not up after 90s wait" >> "$LOG_FILE"
+  fi
+  sleep 5
+done
+
 NOW=$(date '+%A %d %B %Y at %H:%M %Z')
 
 PROMPT="It is now ${NOW}. You are running unattended on Harrison's Mac Mini. Execute the morning brief workflow described below in full: read every listed context file, pull whatever live data you can reach, write today.md, send the Telegram digest, append to the log.

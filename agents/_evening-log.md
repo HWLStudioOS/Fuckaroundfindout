@@ -1,3 +1,10 @@
+## 2026-06-18 evening
+- Shipped: Strength B weight training 32 min (16:10, prescribed session hit), BaW Roger Martin ep1 launched (Harrison sent links to Jaime, Roger posted to LinkedIn + X same hour)
+- Missed: Golf breakup emails (kill date is TOMORROW 19 June, six Gmail drafts still staged unsent), Fazila VAT email (5th consecutive week, penalty exposure ongoing), Kerri invoice attachments (she asked for them 17 June 09:37, two days no reply, ready to pay)
+- Training: Weight training 32 min vs prescribed Strength B upper + mobility. Hit.
+- Campaigns moved: 1 (BaW ep1 live, Roger cross-posted)
+- Tomorrow's first action: Send six golf breakup emails before 09:00. It is the kill date. Gmail drafts ready, one tap each.
+
 ## 2026-06-17 evening
 - Shipped: Run 6.49km 27 PRs (14:08), Kerri invoice chase acknowledged (she replied 09:37 asking for attachments)
 - Missed: Kerri invoice attachments not sent (10-hour gap, she is ready to pay now), Fazila VAT email (4th consecutive week, penalty exposure live), HMRC £339 (no payment signal)

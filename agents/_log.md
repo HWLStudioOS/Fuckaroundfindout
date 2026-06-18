@@ -4,6 +4,7 @@ Append-only. One line per agent run.
 
 Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 
+2026-06-18T06:30:00+01:00 | morning-brief | wrote today.md, telegram msg_id=461, sources=4/6 (health/garmin pulled; calendar pulled 2 events; gmail 0 tier-1 unread; granola 0 meetings; linear 0 new deltas since last brief; strava skipped)
 2026-06-16T06:31:00+01:00 | morning-brief | wrote today.md, telegram msg_id=459, sources=5/5 (health/garmin/gmail/calendar/granola all pulled; gmail 0 tier-1 unread, granola 0 meetings, linear 0 new deltas)
 2026-06-15 14:07 | discovery-scan | 5 items posted, 0 buyable queued
 2026-06-15T10:07:00+01:00 | campaign-chaser | 6 campaigns checked. Gmail: no replies from any target. Calendar: Kerri call Tue 16 June 16:00 confirmed; Emma meeting Thu 18 June NOT on calendar (Jess pickup conflict 13:30). 3 Telegram pushes (msg_id=454,455,456). Updated live state in: golf-clubs.md, lor-retainer.md, lor-shell-beam-project.md, lor-aspec-ghostwritten-posts.md, lor-early-talent-2026.md, creepers-chelsea-hero-film.md. Decisions flagged: (1) LOR Retainer Council trigger fired (Korena 7 days cold). (2) Shell Beam third flag: Amanda 39 days cold, draft unsent 7 days, auto-kill next run if no decision. (3) ASpec posts 13 days stale, send Posts 1+2 before/on Kerri call tomorrow. Holding: ET (3 days, Kerri call tomorrow), Creepers hero film (David 7 days, chase today), Golf clubs (6 days, kill date 19 June).
@@ -90,3 +91,14 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 2026-06-16T11:52:24+01:00 | session-done | Morning brief corrected vs live data (HMRC paid / Fazila replied / Creepers chased+paid / golf killed / Emma pack not needed — today.md 06:30 was stale). David editing-pace flagged: framed as fair-test not firing (send handoff pack + BaW edits + hard deadline; Council only if still slow with everything in hand, H13). Wrote BaW caption (3 options) for David's edited podcast clip (arrive-early/know-the-room); Harrison handled the send. Fixed broken ffmpeg (brew reinstall, x265 .215/.216 ABI mismatch). Updated memory project-david-ph-editor. Prev global handoff overwritten: BaW monthly report Issue 05.
 - 2026-06-16 22:30 BST | nightly-backup | committed locally, PUSH FAILED (check remote/auth)
 - 2026-06-17 06:00  | health-sync | tokenstore login failed (Login failed: All login strategies exhausted: HTTPSConnectionPool(host='sso.garmin.com', port=443): Max retries exceeded with url: /portal/sso/en-US/sign-in?clientId=GarminConnect&service=https%3A%2F%2Fconnect.garmin.com%2Fapp (Caused by NameResolutionError("HTTPSConnection(host='sso.garmin.com', port=443): Failed to resolve 'sso.garmin.com' ([Errno 8] nodename nor servname provided, or not known)"))); fresh login
+- 2026-06-17 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-06-18 06:00  | health-sync | OK 2026-06-18: RHR None, sleep 7.5h (score 83), HRV 57 BALANCED, readiness None
+- 2026-06-18 12:01  | health-sync | OK 2026-06-18: RHR None, sleep 7.5h (score 83), HRV 57 BALANCED, readiness None
+- 2026-06-18 12:30  | health-sync | OK 2026-06-18: RHR None, sleep 7.5h (score 83), HRV 57 BALANCED, readiness None
+- 2026-06-18 14:00  | health-sync | OK 2026-06-18: RHR None, sleep 7.5h (score 83), HRV 57 BALANCED, readiness None
+- 2026-06-18 16:14  | health-sync | OK 2026-06-18: RHR None, sleep 7.5h (score 83), HRV 57 BALANCED, readiness None
+- 2026-06-18 17:02  | health-sync | OK 2026-06-18: RHR None, sleep 7.5h (score 83), HRV 57 BALANCED, readiness None
+- 2026-06-18 17:04  | health-sync | OK 2026-06-18: RHR None, sleep 7.5h (score 83), HRV 57 BALANCED, readiness None
+- 2026-06-18 17:06  | health-sync | OK 2026-06-18: RHR None, sleep 7.5h (score 83), HRV 57 BALANCED, readiness None
+- 2026-06-18 17:07  | health-sync | OK 2026-06-18: RHR 53, sleep 6.2h (score 49), HRV 39 BALANCED, readiness 46
+- 2026-06-18 17:31  | health-sync | OK 2026-06-18: RHR 53, sleep 6.2h (score 49), HRV 39 BALANCED, readiness 46

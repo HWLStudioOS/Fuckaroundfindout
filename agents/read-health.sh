@@ -16,23 +16,45 @@ if [ -f "$CUR" ]; then
   python3 - "$CUR" <<'PY'
 import json, sys, datetime
 d = json.load(open(sys.argv[1]))
+today = datetime.date.today()
 date = d.get("date", "?")
+
+def age_of(iso):
+    try:
+        return (today - datetime.date.fromisoformat(iso)).days
+    except Exception:
+        return None
+
 def g(k, suf=""):
     v = d.get(k)
     return (str(v) + suf) if v not in (None, "") else "—"
-try:
-    age = (datetime.date.today() - datetime.date.fromisoformat(date)).days
-    stale = f"   [STALE {age}d — health-sync may have failed]" if age > 2 else ""
-except Exception:
-    stale = ""
-print(f"Date:       {date}{stale}")
+
+def dated(label, value, datekey):
+    dt = d.get(datekey)
+    flag = ""
+    if dt == "weekly":
+        flag = "   [weekly avg, NOT last night]"
+    else:
+        a = age_of(dt)
+        if a is not None and a >= 1:
+            flag = f"   [from {dt}, {a}d old, watch not synced]"
+    return f"{label}{value}{flag}"
+
+print(f"Date:       {date}  (pulled {str(d.get('pulled_at',''))[:16]})")
 print(f"Resting HR: {g('resting_hr')} bpm")
-print(f"HRV:        {g('hrv_avg_last_night')} ms ({g('hrv_status')})")
-print(f"Sleep:      {g('sleep_hours','h')} (score {g('sleep_score')})")
+print(dated("HRV:        ", f"{g('hrv_avg_last_night')} ms ({g('hrv_status')})", "hrv_date"))
+print(dated("Sleep:      ", f"{g('sleep_hours','h')} (score {g('sleep_score')})", "sleep_date"))
 print(f"Readiness:  {g('training_readiness')} ({g('training_readiness_level')})")
 print(f"Body batt:  {g('body_battery_low')}-{g('body_battery_high')}")
 print(f"Stress avg: {g('stress_avg')}")
 print(f"Steps:      {g('steps')}")
+
+# All of today's core vitals empty => the watch never synced to Garmin Connect.
+sleep_age = age_of(d.get("sleep_date") or "") or 0
+if d.get("resting_hr") in (None, "") and d.get("steps") in (None, "") and sleep_age >= 1:
+    print("!! Today's vitals are empty in Garmin Connect. The numbers above are carried")
+    print("   forward from an earlier night. Force a watch sync (open Garmin Connect on")
+    print("   your phone), then re-run: .venv-health/bin/python agents/health-sync.py")
 PY
 else
   echo "current.json MISSING — health-sync has not run."

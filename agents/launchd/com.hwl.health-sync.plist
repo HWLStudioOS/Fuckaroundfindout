@@ -11,11 +11,26 @@
         <string>/Users/harrison/HWL META/agents/health-sync.py</string>
     </array>
 
+    <!-- Three runs. 06:15 lands BEFORE the 06:30 morning brief so the brief reads a
+         fresh current.json (the old 07:00 fired after the brief, so the brief never saw it).
+         11:00 and 14:00 repair the day once the watch has actually synced overnight sleep,
+         HRV status and Training Readiness to Garmin Connect, which are rarely ready at dawn.
+         The app reads most-recent-valid, so the later runs overwrite the morning's gaps. -->
     <key>StartCalendarInterval</key>
-    <dict>
-        <key>Hour</key><integer>6</integer>
-        <key>Minute</key><integer>0</integer>
-    </dict>
+    <array>
+        <dict>
+            <key>Hour</key><integer>6</integer>
+            <key>Minute</key><integer>15</integer>
+        </dict>
+        <dict>
+            <key>Hour</key><integer>11</integer>
+            <key>Minute</key><integer>0</integer>
+        </dict>
+        <dict>
+            <key>Hour</key><integer>14</integer>
+            <key>Minute</key><integer>0</integer>
+        </dict>
+    </array>
 
     <key>StandardOutPath</key>
     <string>/Users/harrison/HWL META/agents/_stdout.log</string>

@@ -14,7 +14,7 @@ Token: .config/.garmin_tokens/      (cached OAuth, so we don't re-login every ru
 
 Run:   .venv-health/bin/python agents/health-sync.py
 """
-import json, sys, datetime
+import json, os, sys, datetime
 from pathlib import Path
 
 BASE = Path("/Users/harrison/HWL META")
@@ -78,6 +78,7 @@ raw = {
     "body_battery": safe(lambda: g.get_body_battery(d, d)),
     "training_readiness": safe(lambda: g.get_training_readiness(d)),
     "training_status": safe(lambda: g.get_training_status(d)),
+    "max_metrics": safe(lambda: g.get_max_metrics(d)),     # VO2max lives here, reliably
     "activities": safe(lambda: g.get_activities(0, 5)),
 }
 
@@ -146,6 +147,40 @@ snap = {
     "training_readiness_level": tr.get("level"),
 }
 json.dump(snap, open(CURRENT, "w"), indent=2, default=str)
+
+# Upsert today's app-shaped record into history.json (the file the Baseline app reads), using
+# the one canonical extraction so the scraper and the read API never drift. Non-null merge, so a
+# later (fuller) run repairs an earlier empty one and a blank morning never clobbers real data.
+try:
+    sys.path.insert(0, "/Users/harrison/baseline/backend")
+    import garmin_store
+
+    rec = garmin_store.summarize_raw(raw, d)
+    hist_path = BASE / "health/history.json"
+    rows = json.load(open(hist_path)) if hist_path.exists() else []
+    by_date = {r["date"]: r for r in rows}
+    merged = dict(by_date.get(d, {"date": d}))
+    merged.update({k: v for k, v in rec.items() if v is not None and k != "date"})
+    merged["date"] = d
+    by_date[d] = merged
+    json.dump([by_date[k] for k in sorted(by_date)], open(hist_path, "w"), indent=2, default=str)
+
+    # Push the bundle to the hosted backend, so the phone reads the data over HTTPS and never
+    # depends on this Mac being reachable. No-op until BASELINE_INGEST_URL/TOKEN are set.
+    ingest_url = os.environ.get("BASELINE_INGEST_URL")
+    ingest_token = os.environ.get("BASELINE_INGEST_TOKEN")
+    if ingest_url and ingest_token:
+        import requests
+        bundle = {
+            "history": [by_date[k] for k in sorted(by_date)],
+            "training": garmin_store.training_summary(),
+            "current": snap,
+        }
+        resp = requests.post(ingest_url, json=bundle,
+                             headers={"Authorization": f"Bearer {ingest_token}"}, timeout=15)
+        log(f"ingest push -> {resp.status_code}")
+except Exception as e:
+    log(f"history.json upsert/push failed: {e}")
 
 errs = [k for k, v in raw.items() if isinstance(v, dict) and v.get("_error")]
 log(

@@ -11,11 +11,11 @@ client: Creepers
 > Auto-updated by campaign-chaser agent. Last run: 2026-06-12 10:07 BST.
 
 ```
-Last action: David assigned w/c 8 June 2026
-Days since last action: 7
-Next move: Chase David directly today. Confirm edit has started. If not started, set a deadline (deliver rough cut by Fri 20 June). Two factual checks still outstanding before publish: (1) exact RHS award wording for Addleshaw Goddard garden (not "Best in Show"); (2) "Killick Garden" vs "A Seed In Time" for Baz Grainger. One email to Michael Buck covers both.
-Blocker: David edit status unknown. Factual checks outstanding.
-Status: delegated to David. No update in 7 days. Surface in morning brief.
+Last action: David assigned w/c 2026-06-08
+Days since last action: 11
+Next move: CHASE DAVID TODAY. Rough cut deadline Fri 20 June (tomorrow). 11 days no edit update. Two factual checks still outstanding: (1) exact RHS award wording for Addleshaw Goddard garden (not "Best in Show"); (2) "Killick Garden" vs "A Seed In Time" for Baz Grainger. One email to Michael Buck resolves both.
+Blocker: David edit status unknown. Michael Buck factual checks outstanding.
+Status: delegated to David. 11 days no update. Rough cut deadline tomorrow.
 ```
 
 # Creepers Chelsea — hero film

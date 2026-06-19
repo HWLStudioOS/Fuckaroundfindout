@@ -1205,3 +1205,25 @@
 [2026-06-18T19:55:44.432Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-06-18T20:55:44.420Z] INFO Sync start. Last: 2026-06-18T19:55:44.431Z
 [2026-06-18T20:55:44.836Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-19T02:55:13.920Z] INFO Sync start. Last: 2026-06-18T20:55:44.834Z
+[2026-06-19T02:55:14.445Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-19T08:53:51.731Z] INFO Sync start. Last: 2026-06-19T02:55:14.445Z
+[2026-06-19T08:53:52.680Z] INFO push ~ HWL-91 → done
+[2026-06-19T08:53:53.061Z] INFO push ~ HWL-93 → done
+[2026-06-19T08:53:53.204Z] INFO push ~ HWL-94 → done
+[2026-06-19T08:53:53.384Z] INFO push + HWL-96 David handoff pack. Client links, fonts, palettes, video ref
+[2026-06-19T08:53:53.814Z] INFO push + HWL-97 Tomorrow logistics. The shoot day at 11:00 follows a 28km / 
+[2026-06-19T08:53:53.996Z] INFO push + HWL-98 Golf Wave 2 prep. Retrieve or rewrite the Wave 1 email body,
+[2026-06-19T08:53:54.219Z] INFO push + HWL-99 ET deck: one condensing pass (fluff out, per Kerri's 16 June
+[2026-06-19T08:53:54.320Z] INFO pull ~ HWL-96 → todo
+[2026-06-19T08:53:54.321Z] INFO Sync done. push: +4 ~3. pull: ~1.
+[2026-06-19T09:53:54.372Z] INFO Sync start. Last: 2026-06-19T08:53:54.320Z
+[2026-06-19T09:53:54.851Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-19T10:53:54.913Z] INFO Sync start. Last: 2026-06-19T09:53:54.851Z
+[2026-06-19T10:53:55.448Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-19T11:58:18.960Z] INFO Sync start. Last: 2026-06-19T10:53:55.446Z
+[2026-06-19T11:58:19.414Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-19T14:57:18.830Z] INFO Sync start. Last: 2026-06-19T11:58:19.413Z
+[2026-06-19T14:57:19.323Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-19T18:55:22.866Z] INFO Sync start. Last: 2026-06-19T14:57:19.322Z
+[2026-06-19T18:55:23.527Z] INFO Sync done. push: +0 ~0. pull: ~0.

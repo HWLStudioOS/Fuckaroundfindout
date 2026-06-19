@@ -4,6 +4,9 @@ Append-only. One line per agent run.
 
 Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 
+2026-06-19 14:07 | discovery-scan | 5 items posted, 0 buyable queued
+2026-06-19T10:07:00+01:00 | campaign-chaser | 6 campaigns checked. Gmail: no replies from any golf club, Korena, or Amanda. Kerri active on invoice thread (replied June 17). Calendar: Kerri/Harrison call Tue 23 June 16:00 confirmed (Harrison remote from Dublin June 22-24); Shoot Day tomorrow 20 June 11:00-16:00. AUTO-KILLED: golf clubs (day 45 kill date reached, 6 Wave 1 cold contacts closed, Wave 2 pending decision) + Shell Beam (43 days cold, Amanda auto-killed). LOR Retainer: 11 days no Korena reply, Council decision overdue 4 days. ASpec posts: Gmail draft staged (r2512205860572064341), Kerri active. ET: 3 days since June 16 call, on track, next touch June 23. Creepers: rough cut deadline tomorrow, editor chase. 4 Telegram pushes (msg_id=464,465,466,467). Updated: golf-clubs.md, lor-retainer.md, lor-shell-beam-project.md, lor-aspec-ghostwritten-posts.md, lor-early-talent-2026.md, creepers-chelsea-hero-film.md.
+2026-06-19T06:30:00+01:00 | morning-brief | wrote today.md, telegram msg_id=463, sources=5/7 (health/garmin pulled; calendar pulled 3 events; gmail 0 tier-1 unread; granola 0 meetings; linear 0 new deltas since last brief; strava skipped; weight stale 29 Apr)
 2026-06-18T06:30:00+01:00 | morning-brief | wrote today.md, telegram msg_id=461, sources=4/6 (health/garmin pulled; calendar pulled 2 events; gmail 0 tier-1 unread; granola 0 meetings; linear 0 new deltas since last brief; strava skipped)
 2026-06-16T06:31:00+01:00 | morning-brief | wrote today.md, telegram msg_id=459, sources=5/5 (health/garmin/gmail/calendar/granola all pulled; gmail 0 tier-1 unread, granola 0 meetings, linear 0 new deltas)
 2026-06-15 14:07 | discovery-scan | 5 items posted, 0 buyable queued
@@ -102,3 +105,9 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 - 2026-06-18 17:06  | health-sync | OK 2026-06-18: RHR None, sleep 7.5h (score 83), HRV 57 BALANCED, readiness None
 - 2026-06-18 17:07  | health-sync | OK 2026-06-18: RHR 53, sleep 6.2h (score 49), HRV 39 BALANCED, readiness 46
 - 2026-06-18 17:31  | health-sync | OK 2026-06-18: RHR 53, sleep 6.2h (score 49), HRV 39 BALANCED, readiness 46
+- 2026-06-18 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-06-19 06:30  | health-sync | OK 2026-06-19: RHR 54, sleep 6.2h (score 49), HRV 39 BALANCED, readiness 61
+- 2026-06-19 09:59  | health-sync | OK 2026-06-19: RHR 48, sleep 6.4h (score 79), HRV 57 BALANCED, readiness 40
+- 2026-06-19 10:02  | health-sync | OK 2026-06-19: RHR 48, sleep 6.4h (score 79), HRV 57 BALANCED, readiness 40
+- 2026-06-19 11:00  | health-sync | OK 2026-06-19: RHR 48, sleep 6.4h (score 79), HRV 57 BALANCED, readiness 40
+- 2026-06-19 14:00  | health-sync | OK 2026-06-19: RHR 48, sleep 6.4h (score 79), HRV 57 BALANCED, readiness 40

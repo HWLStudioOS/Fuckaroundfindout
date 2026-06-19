@@ -12,11 +12,11 @@ pairs_with: Figma carousel BAHHNFZnb7paY492PzhIMC (DfMA / 70:60:30)
 > Auto-updated by campaign-chaser agent. Last run: 2026-06-10 10:07 BST.
 
 ```
-Last action: Posts drafted 2026-06-02
-Days since last action: 13
-Next move: Send Posts 1+2 to Kerri now, before or during tomorrow's 16:00 call. Add a brief covering line. Post 3 still needs real specialist detail (background, years, prior trade) — ask Kerri on the call or hold Post 3 separately. The 12 June deadline passed without these going out.
-Blocker: Harrison send (13 days overdue)
-Status: drafting, unsent. Telegram pushed 2026-06-15.
+Last action: Posts drafted 2026-06-02. Kerri active on invoice thread 2026-06-17.
+Days since last action: 17
+Next move: SEND NOW. Covering email for Posts 1+2 staged in Gmail (draft created 2026-06-19). Kerri is in an active email thread today. Window is open. Hold Post 3 until specialist detail confirmed on 23 June call.
+Blocker: Harrison send (17 days overdue)
+Status: drafting, Posts 1+2 covering email staged in Gmail. Telegram pushed 2026-06-19.
 ```
 
 # Ghostwritten leader posts — LOR Assembly Specialist

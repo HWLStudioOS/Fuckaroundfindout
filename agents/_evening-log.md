@@ -1,3 +1,10 @@
+## 2026-06-19 evening
+- Shipped: Run 5.2km easy (two Strava uploads, 08:17 AM, 4.2km + 1.0km strides)
+- Missed: Kerri chase (Emma meeting outcome + INV-0392 £3,885 now day 19, no email sent), David handoff pack (Creepers rough cut deadline tomorrow, BaW blocked), shoot logistics (05:30 28km start in 10h, brief unconfirmed)
+- Training: 5.2km morning run vs 5.5km + strides at 17:00 prescribed. Shifted AM. W23 PEAK, distance close, activation timing off.
+- Campaigns moved: 0 (Creepers hero film 11 days no David update, rough cut due tomorrow)
+- Tomorrow's first action: Confirm shoot brief tonight before sleep. 28km at 05:30, you need the brief before you close your eyes.
+
 ## 2026-06-18 evening
 - Shipped: Strength B weight training 32 min (16:10, prescribed session hit), BaW Roger Martin ep1 launched (Harrison sent links to Jaime, Roger posted to LinkedIn + X same hour)
 - Missed: Golf breakup emails (kill date is TOMORROW 19 June, six Gmail drafts still staged unsent), Fazila VAT email (5th consecutive week, penalty exposure ongoing), Kerri invoice attachments (she asked for them 17 June 09:37, two days no reply, ready to pay)

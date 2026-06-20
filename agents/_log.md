@@ -111,3 +111,7 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 - 2026-06-19 10:02  | health-sync | OK 2026-06-19: RHR 48, sleep 6.4h (score 79), HRV 57 BALANCED, readiness 40
 - 2026-06-19 11:00  | health-sync | OK 2026-06-19: RHR 48, sleep 6.4h (score 79), HRV 57 BALANCED, readiness 40
 - 2026-06-19 14:00  | health-sync | OK 2026-06-19: RHR 48, sleep 6.4h (score 79), HRV 57 BALANCED, readiness 40
+- 2026-06-19 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-06-20 06:24  | health-sync | OK 2026-06-20: RHR 54, sleep 6.4h (score 79), HRV 57 BALANCED, readiness None
+- 2026-06-20 11:05  | health-sync | OK 2026-06-20: RHR 54, sleep 6.5h (score 46), HRV 33 LOW, readiness 11
+- 2026-06-20 14:01  | health-sync | OK 2026-06-20: RHR 54, sleep 6.5h (score 46), HRV 33 LOW, readiness 1

@@ -1376,5 +1376,17 @@
     "readinessLevel": "POOR",
     "acwr": 0.87,
     "acuteLoad": 754.0
+  },
+  {
+    "date": "2026-06-21",
+    "vo2Max": 45.0,
+    "hrv": 49.0,
+    "restingHR": 54,
+    "stressAvg": 81,
+    "bodyBattery": 23,
+    "trainingReadiness": 39,
+    "readinessLevel": "LOW",
+    "acwr": 0.94,
+    "acuteLoad": 624.0
   }
 ]

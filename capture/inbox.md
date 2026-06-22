@@ -4,6 +4,9 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-06-22 (Dublin, laptop)
+- **Redeploy creepers-content-calendar.vercel.app from the mini.** CSV at `business/clients/creepers-calendar-2026-jun-sep.csv` was edited on the laptop: Mon W2 (22 June, Sales desk) deleted, Tue W2 (23 June, Root ball and crane) source switched from New Forest to Surrey. The live site reads from `~/creepers-content-calendar/` on the mini, not the CSV — on return to the mini, sync the CSV change into the app data and redeploy. Same URL.
+
 ## 2026-06-19 14:07
 - **This founder isn't hiring junior engineers anymore**, Platformer/Casey Newton, 16 Jun. Replika and Wabi founder Eugenia Kuyda has stopped hiring junior engineers entirely because AI has closed the capability gap. Real operational decision from a founder, not a pundit's prediction. Direct ammo for Year One content and the one-person studio thesis. [https://www.platformer.news/this-founder-isnt-hiring-junior-engineers-anymore/]
 - **The State of Fable, The Jailbreak Problem, SpaceX Acquires Cursor**, Stratechery/Ben Thompson, 17 Jun. SpaceX has acquired Cursor. Thompson covers the Fable jailbreak problem and what it signals about Anthropic's alignment constraints going forward. Cursor is in Harrison's stack and the acquisition reshapes the competitive landscape for AI dev tooling. [https://stratechery.com/2026/the-state-of-fable-the-jailbreak-problem-spacex-acquires-cursor/]

@@ -1,3 +1,10 @@
+## 2026-06-22 evening
+- Shipped: Luton-Dublin travel (FR339 confirmed, landed ~13:45), Staycity Augustine check-in
+- Missed: David handoff pack (now 3+ weeks, blocks BaW and Creepers hero film), Golf Wave 2 first pass, easy run 10.5km Dublin
+- Training: 0km vs 10.5km easy Z1-2. Strava empty. W24 taper day 1. 19 days to RTTS. Travel day mitigates but the run window was 17:30-18:40 post-arrival.
+- Campaigns moved: 0 (Creepers rough cut 2 days overdue, David no update; Golf Wave 2 not started; LOR prep open for tomorrow)
+- Tomorrow's first action: David handoff pack before 09:00. Client links, fonts, palettes, video refs. One hour. Then Kerri call prep by 15:00. Call is 16:00 Teams.
+
 ## 2026-06-19 evening
 - Shipped: Run 5.2km easy (two Strava uploads, 08:17 AM, 4.2km + 1.0km strides)
 - Missed: Kerri chase (Emma meeting outcome + INV-0392 £3,885 now day 19, no email sent), David handoff pack (Creepers rough cut deadline tomorrow, BaW blocked), shoot logistics (05:30 28km start in 10h, brief unconfirmed)

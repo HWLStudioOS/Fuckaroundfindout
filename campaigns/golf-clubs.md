@@ -80,10 +80,10 @@ The 28 Apr night-drafting-at-11:30pm-then-nothing pattern. Drafts sat. Either th
 > Auto-updated by campaign-chaser agent. Last run: 2026-06-12 10:07 BST.
 
 ```
-Last action: Kill date reached 2026-06-19. 6 breakup drafts (staged 2026-06-09) unsent for 10 days. 0 replies from any club.
-Days since last action: 10 (day 45 kill date reached)
-Next move: AUTO-KILLED. All 6 Wave 1 cold contacts closed. Wave 2 (11 clubs) decision: start fresh outreach now, or park until post-summer?
-Blocker: Harrison decision on Wave 2
+Last action: Wave 1 auto-killed 2026-06-19 (day 45). Breakup drafts staged, unsent.
+Days since last action: 3
+Next move: Harrison decides Wave 2 timing. Option A: start now, summer window open. Option B: park until September. No urgency either way.
+Blocker: Harrison decision on Wave 2 timing
 Status: killed. Wave 1 closed (1 St George's Hill Q2 2027 tickle, 6 auto-killed). Wave 2 not started.
 ```
 

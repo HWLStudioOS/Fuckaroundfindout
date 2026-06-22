@@ -1261,3 +1261,9 @@
 [2026-06-21T20:04:19.778Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-06-21T21:04:19.855Z] INFO Sync start. Last: 2026-06-21T20:04:19.777Z
 [2026-06-21T21:04:20.307Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-22T02:34:37.040Z] INFO Sync start. Last: 2026-06-21T21:04:20.306Z
+[2026-06-22T02:50:14.862Z] ERROR Sync failed: fetch failed
+[2026-06-22T07:51:02.034Z] INFO Sync start. Last: 2026-06-21T21:04:20.306Z
+[2026-06-22T07:51:04.119Z] INFO push + HWL-100 Easy run 17:30 Dublin. 10.5km, Z1-2, taper pace. No heroics.
+[2026-06-22T07:51:04.478Z] INFO push + HWL-101 ET deck condense. Hold until after Kerri call delivers the E
+[2026-06-22T07:51:04.676Z] INFO Sync done. push: +2 ~0. pull: ~0.

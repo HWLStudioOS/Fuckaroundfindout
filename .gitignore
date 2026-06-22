@@ -34,3 +34,11 @@ __pycache__/
 
 # Health-sync virtualenv
 .venv-health/
+
+# Codex vendored snapshot: never include codex secrets or finance data
+codex/**/.secrets/
+codex/**/finance-inbox/
+codex/**/*.env
+codex/**/token*.json
+codex/**/credential*.json
+codex/**/client_secret*.json

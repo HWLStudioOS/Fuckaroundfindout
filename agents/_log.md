@@ -119,3 +119,6 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 - 2026-06-21 06:18  | health-sync | OK 2026-06-21: RHR None, sleep 6.5h (score 46), HRV 33 LOW, readiness None
 - 2026-06-21 11:03  | health-sync | OK 2026-06-21: RHR 54, sleep 6.5h (score 46), HRV 33 LOW, readiness 39
 - 2026-06-21 14:00  | health-sync | OK 2026-06-21: RHR 54, sleep 6.5h (score 46), HRV 33 LOW, readiness 39
+- 2026-06-21 22:30 BST | nightly-backup | clean, nothing to commit or push
+- 2026-06-22 06:19  | health-sync | OK 2026-06-22: RHR 46, sleep 5.9h (score 77), HRV 58 LOW, readiness 42
+2026-06-22T06:30:00+01:00 | morning-brief | wrote today.md, telegram msg_id=471, sources=4/6 (health/garmin pulled; calendar pulled 4 events: flight LTN-DUB 12:25, Dublin hotel 22-25 Jun, Kerri call Tue 23 Jun 16:00, run 17:30; gmail Kerri invoice thread pulled; linear 0 new deltas; granola no results; strava skipped)

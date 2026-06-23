@@ -1,3 +1,10 @@
+## 2026-06-23 evening
+- Shipped: Kerri/Harrison call 16:00 Teams (calendar confirmed, attended), morning run 7.9km 54min easy (Strava 08:06)
+- Missed: ASpec cover email (21 days staged, flagged must-send before 09:00 and before 16:00 call, no send in Gmail), Strength A tendon work (Spanish squats, eccentric step-downs, Nordic curls, non-negotiable taper week, not logged), David handoff pack and rough cut chase (day 4 carry, no email sent, rough cut 3 days overdue)
+- Training: AM run 7.9km/54min hit (Tuesday double AM component). Strength A PM not logged. Prescribed: full Tuesday double (AM easy + PM Strength A). Half done. 18 days to RTTS 50K.
+- Campaigns moved: 1 (LOR ET, Kerri call held, agenda items likely progressed, no Granola transcript filed yet)
+- Tomorrow's first action: Send ASpec cover email on wake-up before 06:30 run. Tempo/hills 14km at 06:30 is the last quality session before race. Flight 14:15.
+
 ## 2026-06-22 evening
 - Shipped: Luton-Dublin travel (FR339 confirmed, landed ~13:45), Staycity Augustine check-in
 - Missed: David handoff pack (now 3+ weeks, blocks BaW and Creepers hero film), Golf Wave 2 first pass, easy run 10.5km Dublin

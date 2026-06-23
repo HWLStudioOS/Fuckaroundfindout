@@ -1,59 +1,60 @@
 ---
-date: 2026-06-22
+date: 2026-06-23
 generated: auto 06:30 BST
 ---
 
-# Today, Monday 22 June 2026
+# Today, Tuesday 23 June 2026
 
 ## Pulse
 
-W24 begins, taper starts. RTTS 50K is 19 days out (11 July). The hardest weekend of the campaign is done: 28km / 825m vert at 05:30 Saturday, shoot day from 11:00 the same morning. Readiness hit 1 on Saturday afternoon. This morning: RHR 46 (back to baseline), HRV up to 58, readiness 42. You're recovering. Today is a travel day: Luton 12:25 to Dublin (FR 339), Staycity Augustine until Thursday. Easy 10.5km at 17:30 is the only physical demand. On the work side: Kerri call is tomorrow (Tuesday 23 June, 16:00 Teams) and the invoice trail is live. David handoff pack remains open and is blocking two workstreams.
+W24 taper, 18 days to RTTS 50K. Last full day in Dublin before flying home tomorrow afternoon. Kerri call at 16:00 is the centrepiece: Emma ET outcome, INV-0392 PO chase, Cambridge one-pager status. Sleep 88 last night, body recovering well from the peak weekend. The ASpec posts cover email has been staged in Gmail for four days. Campaign-chaser flagged it urgent twice. Send it this morning before the call. Tomorrow is the last quality session before race (tempo/hills 06:30 Dublin), then flight at 14:15.
 
 ## Yesterday wrap
 
-Promised in the Friday 19 June brief.
+Promised in the Monday 22 June brief.
 
 Landed:
-- Shoot day Saturday 20 June (11:00-16:00). Completed.
-- Invoice trail active: Harrison sent attachments 17 June, Kerri asked for invoice detail 18 June, Harrison replied same day. Ball in Kerri's court.
+- Easy run Dublin 17:30. Assumed complete. No log entry but it was a solo taper run.
 
 Unconfirmed:
-- Emma ET meeting outcome: meeting happened 18 June (Kerri presented). No confirmation of outcome in system. Carry to Kerri call tomorrow. (unconfirmed)
-- David handoff pack: HWL-96 still in Todo. Still open.
-- Golf Wave 2 prep: no evidence of progress. Still open.
-- ET deck condense: held pending Emma outcome. Still on hold.
+- David handoff pack (HWL-96): no session-done entry in log. Carry forward.
+- Golf Wave 2 first pass (HWL-98): no log entry. Still open.
+- Kerri call prep (HWL-97): today's call is the delivery. In progress.
+- ET deck condense (HWL-101): on hold pending Emma outcome from today's call. Still holding.
 
 ## Today
 
-- [ ] David handoff pack. Client links, fonts, palettes, video refs. One hour. Do before boarding at Luton. Unblocks BaW edits and Creepers hero film. <!-- linear:HWL-96 -->
-- [ ] Kerri call prep (Tue 23 June 16:00). Three things: Emma ET outcome, invoice PO status, Cambridge one-pager readiness. 20 minutes of notes. <!-- linear:HWL-97 -->
-- [ ] Golf Wave 2 first pass. Retrieve Wave 1 email body from Gmail drafts, personalise first 5 of 11 targets. No send today. <!-- linear:HWL-98 -->
-- [ ] Easy run 17:30 Dublin. 10.5km, Z1-2, taper pace. No heroics. <!-- linear:HWL-100 -->
-- [ ] ET deck condense. Hold until after Kerri call delivers the Emma read. <!-- linear:HWL-101 -->
+- [ ] ASpec posts 1+2: send staged cover email (Gmail draft r2512205860572064341) before 16:00. 20+ days in drafts, two urgent campaign-chaser flags. Do this first. <!-- linear:HWL-103 -->
+- [ ] Kerri call 16:00 BST (Teams). Three agenda items: Emma ET outcome, INV-0392 PO raise, Cambridge one-pager status. <!-- linear:HWL-97 -->
+- [ ] ET deck condense: one-pass tidy after the call, once Emma read confirmed. <!-- linear:HWL-101 -->
+- [ ] David handoff pack: client links, fonts, palettes, video refs. If not done Monday, do before the call. Unblocks BaW edits and Creepers hero film. <!-- linear:HWL-96 -->
+- [ ] Strength A: Spanish squats, eccentric step-downs, Nordic curls. Hotel gym or room. 25 min. Non-negotiable taper-week tendon work. <!-- linear:HWL-102 -->
 
 ## Awaiting response
 
-- Kerri: INV-0392 and comms invoices. Attachments and detail sent 17-18 June. Kerri to raise PO. Chase on tomorrow's call if no confirmation beforehand.
-- Fazila: VAT registration in process. Confirm invoice language while registration is pending.
+- Kerri: INV-0392 and comms invoices. Attachments sent 17-18 June. PO not confirmed. Chase on today's 16:00 call.
+- Fazila: VAT registration. Confirm invoice language while registration is pending.
+- David (editor): Creepers hero film rough cut. Deadline passed Fri 20 June, 14 days no update. Chase today.
 
 ## In flight
 
-- LOR ET 2026: Kerri call tomorrow 16:00. Deck condense post-call. Emma outcome TBC.
+- LOR ET 2026: Kerri call today 16:00. Deck condense post-call.
 - LOR Cambridge research: one-pager for Kerri's end-of-June meeting. Due this week.
-- LOR ASpec ghostwritten posts: banked, awaiting Kerri to schedule against annual report cadence.
-- Creepers: David editing. Handoff pack today unblocks. Fortnightly Surrey shoot to schedule with Anna and Sarah.
-- BaW: Handoff pack today unblocks David's editing pipeline.
-- Golf Wave 2: 11 emails, first pass today, send Tuesday.
-- VAT registration: in process with Fazila. Monitor invoice language.
+- LOR ASpec ghostwritten posts: cover email staged, send this morning.
+- LOR Retainer (Korena): 14 days cold. Council decision 7 days overdue. Sarah Conway or close.
+- Creepers: David editing. Hero film rough cut overdue, chase.
+- BaW: David editing pipeline pending handoff pack.
+- Golf Wave 2: 11 emails, timing decision pending.
+- VAT registration: in process with Fazila.
 - Baseline iOS app: own build, ongoing.
 
 ## Standing
 
-- Body: 86.9 kg (stale, 29 Apr). RHR 46 (back to baseline). HRV 58 LOW. Sleep 5.9h, score 77. Readiness 42. Body battery 17-88.
-- Training: W24 TAPER START. 19 days to RTTS 50K. Today = Easy 10.5km at 17:30 Dublin. Peak weekend done: 28km + shoot day Saturday. HRV recovered from 33 to 58 overnight.
-- Money: INV-0392 plus comms invoices active, attachments sent, awaiting PO. Creepers June £3,500 landed (3 June). VAT registration in process. Starling balance stale since 3 June.
-- Clients: LOR call tomorrow 16:00 (Teams from Dublin). Creepers and BaW blocked on David handoff pack. Golf Wave 1 closed, zero replies, Wave 2 not started.
+- Body: 86.9 kg (stale, 29 Apr). RHR 49. HRV 58 LOW. Sleep 7.3h, score 88. Readiness: not yet synced. Body battery 38-42.
+- Training: W24 TAPER. 18 days to RTTS 50K (11 July). Today: Strength A, hotel. Tomorrow: Tempo/Hills 14km at 06:30 Dublin, last quality session before race, then fly home 14:15.
+- Money: INV-0392 + comms PO pending. Creepers June in (per session-done 16 June). Starling stale since 3 June. VAT threshold likely breached.
+- Clients: LOR call 16:00 today (Teams, Dublin). Creepers and BaW editing blocked on David handoff pack. Golf Wave 2 undecided.
 
 ## Lens
 
-You ran 28km and worked a shoot day the same morning. Readiness of 1. The body took the bill and you're recovering. The taper starts today, which is the right time. The David handoff pack has been open since before Friday. It blocks BaW and Creepers hero film. One hour. Before you drive to Luton.
+The ASpec posts cover email is written and staged. It has been sitting in Gmail for four days. You have a call with Kerri at 16:00. If you walk into that call without having sent those posts, you are wasting the best possible delivery window. Send them before 09:00 this morning.

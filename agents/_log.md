@@ -4,6 +4,8 @@ Append-only. One line per agent run.
 
 Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 
+2026-06-24 14:07 | discovery-scan | 5 items posted, 0 buyable queued
+2026-06-24T10:09:00+01:00 | campaign-chaser | 6 campaigns checked. Gmail: no replies from Korena, Kerri/LOR, golf clubs, David, or Amanda since 19 June. Calendar: Kerri/Harrison call confirmed 23 June 16:00-16:30 (ET + ASpec on agenda, no email follow-up). Harrison returning from Dublin today. BLOCKED: Creepers rough cut 4 days overdue (David silent, 16 days since assignment), Telegram pushed (msg_id=480). DECISION OVERDUE: LOR Retainer 16 days cold, Council 9 days overdue (no new push, pushed 22 June). ASpec Posts: Kerri call happened, posts 1+2 outcome unknown, Harrison to confirm. ET: 1 day since call, hold. Golf clubs: killed, 5 days, Wave 2 timing pending. Shell Beam: closed. Updated: golf-clubs.md, lor-retainer.md, lor-shell-beam-project.md, lor-aspec-ghostwritten-posts.md, lor-early-talent-2026.md, creepers-chelsea-hero-film.md.
 2026-06-22 14:07 | discovery-scan | 4 items posted, 0 buyable queued
 2026-06-19 14:07 | discovery-scan | 5 items posted, 0 buyable queued
 2026-06-19T10:07:00+01:00 | campaign-chaser | 6 campaigns checked. Gmail: no replies from any golf club, Korena, or Amanda. Kerri active on invoice thread (replied June 17). Calendar: Kerri/Harrison call Tue 23 June 16:00 confirmed (Harrison remote from Dublin June 22-24); Shoot Day tomorrow 20 June 11:00-16:00. AUTO-KILLED: golf clubs (day 45 kill date reached, 6 Wave 1 cold contacts closed, Wave 2 pending decision) + Shell Beam (43 days cold, Amanda auto-killed). LOR Retainer: 11 days no Korena reply, Council decision overdue 4 days. ASpec posts: Gmail draft staged (r2512205860572064341), Kerri active. ET: 3 days since June 16 call, on track, next touch June 23. Creepers: rough cut deadline tomorrow, editor chase. 4 Telegram pushes (msg_id=464,465,466,467). Updated: golf-clubs.md, lor-retainer.md, lor-shell-beam-project.md, lor-aspec-ghostwritten-posts.md, lor-early-talent-2026.md, creepers-chelsea-hero-film.md.
@@ -131,3 +133,8 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 2026-06-23T06:31:00+01:00 | morning-brief | wrote today.md, telegram msg_id=477, sources=5/7 (health/garmin pulled; calendar pulled 4 events: Kerri call 16:00, Dublin hotel, flight home Wed 14:15, Wed tempo run; gmail 0 tier-1 unread; granola 0 meetings; linear 0 new deltas since last brief; strava skipped)
 - 2026-06-23 11:00  | health-sync | OK 2026-06-23: RHR 44, sleep 8.0h (score 96), HRV 74 UNBALANCED, readiness 65
 - 2026-06-23 14:03  | health-sync | OK 2026-06-23: RHR 44, sleep 8.0h (score 96), HRV 74 UNBALANCED, readiness 65
+- 2026-06-23 22:30 BST | nightly-backup | committed locally, PUSH FAILED (check remote/auth)
+- 2026-06-24 06:19  | health-sync | OK 2026-06-24: RHR 52, sleep 8.0h (score 96), HRV 74 UNBALANCED, readiness 75
+2026-06-24T06:36:00+01:00 | morning-brief | wrote today.md, telegram msg_id=479, sources=5/6 (health/garmin pulled; calendar pulled 3 events: tempo run 06:30, flight home 14:15, Cathal call Fri 26 Jun 11:30; gmail 0 tier-1 unread; granola 0 meetings; linear 0 new deltas since last brief; strava skipped)
+- 2026-06-24 11:00  | health-sync | OK 2026-06-24: RHR 48, sleep 8.0h (score 90), HRV 63 UNBALANCED, readiness 90
+- 2026-06-24 14:01  | health-sync | OK 2026-06-24: RHR 48, sleep 8.0h (score 90), HRV 63 UNBALANCED, readiness 90

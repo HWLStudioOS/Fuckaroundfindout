@@ -7,11 +7,11 @@ Campaign architecture, content matrix, timeline, pricing. Built from the 20 May 
 > Auto-updated by campaign-chaser agent. Last run: 2026-06-12 10:07 BST.
 
 ```
-Last action: Kerri/Harrison call 2026-06-16 (ET deck walkthrough)
-Days since last action: 6
-Next move: Kerri call tomorrow 23 June 16:00 BST (Teams, Harrison remote from Dublin). Agenda: (1) ET deck feedback, confirm Emma session date; (2) INV-0392 PO route; (3) ASpec Posts 1+2, sent or not?; (4) ASpec Post 3 specialist detail. Surface in morning brief today.
-Blocker: Kerri feedback (tomorrow's call)
-Status: deck sent, awaiting feedback. On track.
+Last action: Kerri/Harrison call 2026-06-23 16:00-16:30 (Teams, confirmed). ET deck feedback + Emma session date on agenda.
+Days since last action: 1
+Next move: Hold. Await any email follow-up from Kerri re ET deck feedback and Emma session date. If nothing by 27 June, chase Kerri.
+Blocker: Kerri feedback (post-call follow-up expected)
+Status: on track. Call happened, outcome not yet in email. Hold.
 ```
 
 Next Kerri/Harrison call: 9 June 16:00 (calendar confirmed). Quote and ghostwritten posts agenda items.

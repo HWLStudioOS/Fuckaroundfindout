@@ -1,3 +1,10 @@
+## 2026-06-24 evening
+- Shipped: Flight home Dublin-Luton (14:15 confirmed), sleep 8.0h score 90, readiness 90 HIGH (body responding well to taper)
+- Missed: Tempo/Hills 14km (Garmin sync 10:47 BST covers the 06:30-07:50 run window, 0 vigorous minutes, 1.6km total movement, no run activity logged), ASpec cover email unconfirmed (22 days in drafts, no Gmail access to verify, no Granola or Strava signal of a productive morning), Cambridge one-pager (LOR roadshows start Thursday 26 June, nothing filed)
+- Training: 0km vs 14km tempo/hills. Garmin is definitive: last sync 10:47 BST, 0 vigorous intensity minutes, 1,624m total distance. Last quality session before RTTS 50K in 17 days did not happen. 2 consecutive misses: Strength A missed Tuesday, Tempo/Hills missed Wednesday.
+- Campaigns moved: 0. LOR ET awaiting post-call Kerri email (hold until 27 June). Creepers/David still silent, rough cut now 5 days overdue. Golf Wave 2 and LOR Retainer unchanged.
+- Tomorrow's first action: Cambridge one-pager before noon. LOR internal roadshows start Thursday. Then ASpec email (22 days in drafts, send it before anything else).
+
 ## 2026-06-23 evening
 - Shipped: Kerri/Harrison call 16:00 Teams (calendar confirmed, attended), morning run 7.9km 54min easy (Strava 08:06)
 - Missed: ASpec cover email (21 days staged, flagged must-send before 09:00 and before 16:00 call, no send in Gmail), Strength A tendon work (Spanish squats, eccentric step-downs, Nordic curls, non-negotiable taper week, not logged), David handoff pack and rough cut chase (day 4 carry, no email sent, rough cut 3 days overdue)

@@ -46,10 +46,10 @@ Nudge sent 6 May. Korena replied: thanks for the follow-up, no updates yet, chan
 
 ```
 Last action: Harrison sent Korena warm reopener 2026-06-08
-Days since last action: 14
-Next move: DECISION 7 DAYS OVERDUE. Council triggered 15 June, still no action. 14 days cold, no Korena reply. Decide now: (A) one email to Sarah Conway above Korena, (B) close the campaign, redirect to ET and new client pipeline. Do not raise on Kerri call 23 June. This stays Korena's lane.
-Blocker: Harrison decision (Council deliberation, 7 days overdue)
-Status: no reply from Korena. 14 days cold. Telegram pushed 2026-06-22.
+Days since last action: 16
+Next move: DECISION 9 DAYS OVERDUE. Council triggered 15 June, still no action. 16 days cold, no Korena reply. Decide now: (A) one email to Sarah Conway above Korena, (B) close the campaign. Telegram pushed 2026-06-22. No further push until decision made.
+Blocker: Harrison decision (Council deliberation, 9 days overdue)
+Status: no reply from Korena. 16 days cold. Decision overdue.
 ```
 
 Context: Korena's 6 May reply confirmed receipt but gave no timeline. No contact since. LOR accounts payable received invoice INV-0392 on 29 May (Kerri was OOO, back 2 June). Kerri/Harrison recurring call next instance: 9 June 16:00. This is the natural moment to surface it, but the retainer question is above Kerri's authority — it needs Korena.

@@ -37,11 +37,11 @@ Original mention: codex 02 business map. No formal brief from LOR yet.
 > Auto-updated by campaign-chaser agent. Last run: 2026-06-12 10:07 BST.
 
 ```
-Last action: Amanda Thompson replied 2026-05-07. Re-opener draft staged 2026-06-08, unsent for 11 days.
-Days since last action: 43 (since Amanda reply)
-Next move: AUTO-KILLED. 43 days cold, four consecutive agent runs flagged, decision never made. Closed per 21-day rule. Gmail draft r-2357566366531178370 can be deleted.
+Last action: Auto-killed 2026-06-19 (campaign-chaser). 48 days cold from Amanda reply 2026-05-07.
+Days since last action: 5
+Next move: None. File closed. Gmail draft r-2357566366531178370 can be deleted when convenient.
 Blocker: none (closed)
-Status: killed. Amanda Thompson contact cold. File closed.
+Status: killed. File closed.
 ```
 
 ### Follow-up draft (staged)

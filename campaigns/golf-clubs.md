@@ -81,9 +81,9 @@ The 28 Apr night-drafting-at-11:30pm-then-nothing pattern. Drafts sat. Either th
 
 ```
 Last action: Wave 1 auto-killed 2026-06-19 (day 45). Breakup drafts staged, unsent.
-Days since last action: 3
-Next move: Harrison decides Wave 2 timing. Option A: start now, summer window open. Option B: park until September. No urgency either way.
-Blocker: Harrison decision on Wave 2 timing
+Days since last action: 5
+Next move: Two decisions outstanding. (1) Send or delete the 6 breakup Gmail drafts (staged 9 June, still live). (2) Wave 2 timing: start now (summer window open) or park until September. No urgency either way.
+Blocker: Harrison decision on Wave 2 timing + breakup send
 Status: killed. Wave 1 closed (1 St George's Hill Q2 2027 tickle, 6 auto-killed). Wave 2 not started.
 ```
 

@@ -11,11 +11,11 @@ client: Creepers
 > Auto-updated by campaign-chaser agent. Last run: 2026-06-12 10:07 BST.
 
 ```
-Last action: David assigned w/c 2026-06-08. Rough cut deadline was Fri 2026-06-20 (passed 2 days ago).
-Days since last action: 14
-Next move: CHASE DAVID NOW. Rough cut was due Friday, no delivery, no update. Email David requesting status and ETA. Factual checks still outstanding: (1) RHS award wording for Addleshaw Goddard garden; (2) Baz Grainger garden name ("Killick Garden" vs "A Seed In Time"). Email Michael Buck to resolve both.
-Blocker: David rough cut overdue. Michael Buck factual checks outstanding.
-Status: delegated to David. Rough cut deadline passed. No update in 14 days. Telegram pushed 2026-06-22.
+Last action: David assigned w/c 2026-06-08. Rough cut deadline 2026-06-20, now 4 days overdue.
+Days since last action: 16 (David assignment) / 4 (past rough cut deadline)
+Next move: Chase David by email TODAY. No delivery, no update in 4 days past deadline. Factual checks also outstanding: (1) RHS award wording for Addleshaw Goddard garden, (2) Baz Grainger garden name ("Killick Garden" vs "A Seed In Time"). Email Michael Buck to confirm both.
+Blocker: David rough cut overdue (no update). Michael Buck factual checks outstanding.
+Status: blocked. Rough cut 4 days overdue, David silent. Telegram pushed 2026-06-22.
 ```
 
 # Creepers Chelsea — hero film

@@ -1,3 +1,10 @@
+## 2026-06-25 evening
+- Shipped: Morning run 6.8km 44min (Strava 07:00, good taper movement); system corrections in today.md cleared four false negatives from prior briefs
+- Missed: unverifiable (hwlstudio.com email inaccessible, no Granola this week, no positive evidence to confirm or deny)
+- Training: Prescribed Strength B. Strava shows morning run 6.8km/44min at 07:00. Strength sessions don't log to Strava so Strength B status unknown. The run is a bonus, not a substitute.
+- Campaigns moved: unverifiable. Creepers Michael Buck factual checks and LOR ET both open with no visible signal either way.
+- Tomorrow's first action: Cathal check-in 11:30. Easy 10.5km + strides at 17:00. INV-0392 chase window opens 27 June, prep it tomorrow if Kerri still silent.
+
 ## 2026-06-24 evening
 - Shipped: Flight home Dublin-Luton (14:15 confirmed), sleep 8.0h score 90, readiness 90 HIGH (body responding well to taper)
 - Missed: Tempo/Hills 14km (Garmin sync 10:47 BST covers the 06:30-07:50 run window, 0 vigorous minutes, 1.6km total movement, no run activity logged), ASpec cover email unconfirmed (22 days in drafts, no Gmail access to verify, no Granola or Strava signal of a productive morning), Cambridge one-pager (LOR roadshows start Thursday 26 June, nothing filed)

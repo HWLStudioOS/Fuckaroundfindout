@@ -27,7 +27,19 @@ if git remote get-url origin >/dev/null 2>&1; then
   if git push -q origin main 2>/dev/null; then
     echo "- $STAMP | nightly-backup | committed + pushed to origin" >> "$LOG"
   else
-    echo "- $STAMP | nightly-backup | committed locally, PUSH FAILED (check remote/auth)" >> "$LOG"
+    # Push rejected almost always means the branch diverged because another
+    # machine pushed since the last run (non-fast-forward), NOT auth. Reconcile
+    # by rebasing local backups onto the remote, then retry. The tree is already
+    # clean here (we committed above), so no stash is needed.
+    git fetch -q origin 2>/dev/null
+    if git rebase -q origin/main 2>/dev/null && git push -q origin main 2>/dev/null; then
+      echo "- $STAMP | nightly-backup | committed + reconciled (rebase) + pushed to origin" >> "$LOG"
+    else
+      # Genuine conflict (e.g. both machines edited capture/inbox.md). Abort so the
+      # repo is left clean and the NEXT run is not corrupted by committing markers.
+      git rebase --abort 2>/dev/null || true
+      echo "- $STAMP | nightly-backup | committed locally, PUSH FAILED: branches diverged with conflicts, manual merge needed" >> "$LOG"
+    fi
   fi
 else
   echo "- $STAMP | nightly-backup | committed locally, no origin remote configured" >> "$LOG"

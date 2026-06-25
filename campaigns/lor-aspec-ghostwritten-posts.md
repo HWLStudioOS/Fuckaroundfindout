@@ -3,21 +3,22 @@ title: LOR Assembly Specialist — Ghostwritten Posts
 client: Laing O'Rourke
 campaign: Assembly Specialist recruitment (DfMA / 70:60:30)
 created: 2026-06-02
-status: draft — awaiting Kerri review
+status: delivered + paid — closed on Harrison's side
 pairs_with: Figma carousel BAHHNFZnb7paY492PzhIMC (DfMA / 70:60:30)
 ---
 
 ## Live state
 
-> Auto-updated by campaign-chaser agent. Last run: 2026-06-10 10:07 BST.
+> Manually corrected by Harrison 2026-06-25. Authoritative. Do not re-open from absence of email evidence.
 
 ```
-Last action: Kerri/Harrison call 2026-06-23 16:00-16:30 (ASpec posts were on agenda). Outcome unknown, no email follow-up in inbox.
-Days since last action: 1
-Next move: Confirm with Harrison: were Posts 1+2 approved on yesterday's call? If yes, send covering email now (Gmail draft ready). If not discussed, send before end of day. Post 3: chase Kerri for specialist detail if not received.
-Blocker: Harrison confirmation of call outcome
-Status: posts 1+2 staged, pending Harrison send confirmation.
+Last action: Cover email sent, posts 1+2 delivered to LOR. Harrison invoiced and PAID.
+Next move: NONE for Harrison. Delivered and paid. LOR has not published the posts, which is their call, not Harrison's action and not a HWL miss.
+Blocker: none on HWL side.
+Status: CLOSED on Harrison's side. Posts delivered, paid. LOR-side publishing stalled (out of scope, do not surface as a Harrison to-do).
 ```
+
+**Do not resurrect.** The cover email is sent. Posts 1+2 are delivered and paid. Whether LOR posts them is LOR's decision. Do not flag "send cover email" or "chase Kerri on posts" as open items.
 
 # Ghostwritten leader posts — LOR Assembly Specialist
 

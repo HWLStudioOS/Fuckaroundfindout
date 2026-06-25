@@ -8,15 +8,16 @@ client: Creepers
 
 ## Live state
 
-> Auto-updated by campaign-chaser agent. Last run: 2026-06-12 10:07 BST.
+> Manually corrected by Harrison 2026-06-25. The chaser's "David silent / rough cut overdue / chasing by email" claim was WRONG. David has been in contact. Real rough-cut status to be confirmed by Harrison.
 
 ```
-Last action: David assigned w/c 2026-06-08. Rough cut deadline 2026-06-20, now 4 days overdue.
-Days since last action: 16 (David assignment) / 4 (past rough cut deadline)
-Next move: Chase David by email TODAY. No delivery, no update in 4 days past deadline. Factual checks also outstanding: (1) RHS award wording for Addleshaw Goddard garden, (2) Baz Grainger garden name ("Killick Garden" vs "A Seed In Time"). Email Michael Buck to confirm both.
-Blocker: David rough cut overdue (no update). Michael Buck factual checks outstanding.
-Status: blocked. Rough cut 4 days overdue, David silent. Telegram pushed 2026-06-22.
+Last action: David in contact (the "silent since assignment" claim was inaccurate). Current rough-cut status: TO CONFIRM with Harrison.
+Next move: Harrison to confirm where the rough cut actually is. Do NOT auto-push "chase David" or "David silent / overdue".
+Blocker: none confirmed. Editing in progress with David.
+Status: in progress. The earlier "blocked / overdue / silent" framing was a false negative from missing chat evidence. STILL OPEN on this side: Michael Buck factual checks (see below), independent of David.
 ```
+
+**Still genuinely open (Harrison's side, not David's):** the two factual checks before the film posts: (1) exact RHS award wording for the Addleshaw Goddard garden, (2) Baz Grainger garden name ("Killick Garden" vs "A Seed In Time"). These are real, confirm with Michael Buck. Everything about David being "silent / overdue" was wrong.
 
 # Creepers Chelsea — hero film
 

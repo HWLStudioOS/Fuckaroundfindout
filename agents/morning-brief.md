@@ -45,13 +45,23 @@ The single most common failure of this brief is resurrecting tasks that are alre
 2. **`linear/_deltas.md`**, any issue flipped to Done or Canceled.
 3. **Gmail**, for any "send X" / "reply to Y" / "chase Z" task, search sent mail since the task appeared. If it went out, the send is done. A reply you are now waiting on is a NEW "Awaiting response" item, not the same open task.
 4. **Calendar**, a meeting that has already happened is not a future to-do.
+5. **The campaign files' "Live state" blocks are authoritative when marked.** If a `campaigns/*.md` Live state says "Manually corrected by Harrison", "Authoritative", `CLOSED`, or `PARKED`, that is ground truth. Do not re-open it, do not surface it as an open task, do not contradict it. A `CLOSED`/`PARKED`/delivered+paid campaign is NOT a miss.
+
+### The evidence rule (this is the #1 cause of wrong briefs, read it twice)
+
+**Absence of evidence is NOT evidence that something was not done.** You routinely cannot see Harrison's completions: most client work is sent from `harrison@hwlstudio.com`, finished in chat sessions, or done on his phone. None of that lands anywhere you can read.
+
+- **NEVER write "NOT sent", "NOT done", "missed", or "no send evidence" for anything you cannot POSITIVELY confirm did not happen.** Not finding it is not confirming it.
+- **The connected Gmail MCP is Harrison's PERSONAL account (`harrison.living@gmail.com`). Every business/client email (Kerri, Korena, Sarah, Emma, Cathal, Anna, Rob, Creepers, BaW, LOR) goes from `harrison@hwlstudio.com`, which you CANNOT see.** Therefore the absence of a client email in the connected inbox tells you nothing. Do not assert a client email was not sent based on Gmail. Ever.
+- If you cannot verify, either leave the item out of "Yesterday wrap" entirely, or carry it tagged `(unverified)`, never as a stated miss.
+- A positive completion signal (a `_log.md` line, a Linear delta, an authoritative campaign-file marker) is the ONLY basis for declaring something done OR not done. No signal means unknown, not failed.
 
 For every item you judge complete:
 - Do NOT put it in Today.
 - Name it in **Yesterday wrap** as "Landed: {what}".
 - If it still carries a `<!-- linear:HWL-NN -->` marker, write that line as `- [x] ... <!-- linear:HWL-NN -->` in a one-line "Done since last brief" list inside Yesterday wrap, so the next Linear sync closes the issue. Never silently drop a marked line: a silent drop orphans the Linear issue open forever.
 
-Only genuinely-open items survive into Today. If you truly cannot tell, keep the item but tag it "(unconfirmed)" so Harrison knows it is a guess, not a fact.
+Only genuinely-open items survive into Today. If you truly cannot tell, keep the item but tag it "(unconfirmed)" so Harrison knows it is a guess, not a fact. When in doubt, under-claim: a quiet brief that omits an unverifiable item beats a confident brief that resurrects a done task.
 
 ## Write today.md
 

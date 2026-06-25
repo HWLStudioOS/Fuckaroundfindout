@@ -52,7 +52,8 @@
       "Read(//Users/harrison/hwlstudio-codex/harrison-os/**)",
       "Bash(mdls -name kMDItemNumberOfPages \"/Users/harrison/Downloads/Harrison Living - 34 Clifton Strengths_Mar 2020.pdf\")",
       "Bash(bash *)",
-      "mcp__claude_ai_Google_Calendar__list_calendars"
+      "mcp__claude_ai_Google_Calendar__list_calendars",
+      "Skill(deep-research)"
     ]
   }
 }

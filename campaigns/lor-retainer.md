@@ -1,7 +1,7 @@
 # Campaign: LOR Retainer
 
-**Status:** active, awaiting board response.
-**Priority:** #1 active push.
+**Status:** PARKED. Korena replied, channel open. Focus is Early Talent for now, by Harrison's call.
+**Priority:** on hold behind Early Talent. Not an active chase.
 
 ## Goal
 
@@ -42,20 +42,19 @@ Nudge sent 6 May. Korena replied: thanks for the follow-up, no updates yet, chan
 
 ## Live state
 
-> Auto-updated by campaign-chaser agent. Last run: 2026-06-12 10:07 BST.
+> Manually corrected by Harrison 2026-06-25. Authoritative. NOT cold, NOT a decision-overdue. Parked by choice.
 
 ```
-Last action: Harrison sent Korena warm reopener 2026-06-08
-Days since last action: 16
-Next move: DECISION 9 DAYS OVERDUE. Council triggered 15 June, still no action. 16 days cold, no Korena reply. Decide now: (A) one email to Sarah Conway above Korena, (B) close the campaign. Telegram pushed 2026-06-22. No further push until decision made.
-Blocker: Harrison decision (Council deliberation, 9 days overdue)
-Status: no reply from Korena. 16 days cold. Decision overdue.
+Last action: Korena replied, channel kept open. Harrison has since spoken with Kerri and chosen to focus on Early Talent first.
+Next move: HOLD. No Korena chase, no Council decision pending. Revisit after Early Talent lands.
+Blocker: none. Deliberately parked behind Early Talent.
+Status: PARKED. Korena replied (not cold). No overdue decision. Do not surface as "X days cold" or "Council decision overdue".
 ```
 
-Context: Korena's 6 May reply confirmed receipt but gave no timeline. No contact since. LOR accounts payable received invoice INV-0392 on 29 May (Kerri was OOO, back 2 June). Kerri/Harrison recurring call next instance: 9 June 16:00. This is the natural moment to surface it, but the retainer question is above Kerri's authority — it needs Korena.
+Context: Korena replied, did not give a timeline, channel open. Harrison has decided to prioritise the Early Talent campaign (see `lor-early-talent-2026.md`) before pushing the retainer. This is a deliberate sequencing call, not a stalled campaign. The "16 days cold / Council decision 9 days overdue" framing the chaser was pushing is wrong: she replied, and there is no live decision waiting.
 
 ## Live actions
 
-- Weekly check by `agents/weekly-review.md` (Sunday 18:00).
-- Daily flag in `today.md` if any LOR-side movement.
-- Council triggered automatically if 31 May passes without movement.
+- Do NOT chase before Early Talent is settled.
+- Do NOT push "decision overdue" or "X days cold" to Telegram. It is parked by choice.
+- Revisit only when Harrison reopens it or LOR makes a move.

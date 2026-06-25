@@ -4,14 +4,13 @@ Campaign architecture, content matrix, timeline, pricing. Built from the 20 May 
 
 ## Live state
 
-> Auto-updated by campaign-chaser agent. Last run: 2026-06-12 10:07 BST.
+> Manually corrected by Harrison 2026-06-25. Authoritative. This is the #1 focus, ahead of the retainer.
 
 ```
-Last action: Kerri/Harrison call 2026-06-23 16:00-16:30 (Teams, confirmed). ET deck feedback + Emma session date on agenda.
-Days since last action: 1
-Next move: Hold. Await any email follow-up from Kerri re ET deck feedback and Emma session date. If nothing by 27 June, chase Kerri.
-Blocker: Kerri feedback (post-call follow-up expected)
-Status: on track. Call happened, outcome not yet in email. Hold.
+Last action: Harrison spoke with Kerri (last week and again this week). She is across it. Now waiting on Early Talent confirmation from LOR.
+Next move: HOLD for ET confirmation. Kerri already engaged, no chase needed. This is the active priority once confirmed.
+Blocker: LOR-side Early Talent confirmation.
+Status: live and on track. Kerri spoken to twice, awaiting ET go-ahead. Do NOT push "chase Kerri" — she already knows, the ball is on LOR's side.
 ```
 
 Next Kerri/Harrison call: 9 June 16:00 (calendar confirmed). Quote and ghostwritten posts agenda items.

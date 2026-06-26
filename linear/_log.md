@@ -1329,3 +1329,55 @@
 [2026-06-25T19:57:33.984Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-06-25T20:57:34.070Z] INFO Sync start. Last: 2026-06-25T19:57:33.983Z
 [2026-06-25T20:57:34.617Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-25T21:57:34.661Z] INFO Sync start. Last: 2026-06-25T20:57:34.616Z
+[2026-06-25T21:57:39.786Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-25T22:57:39.832Z] INFO Sync start. Last: 2026-06-25T21:57:39.784Z
+[2026-06-25T22:57:46.633Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-25T23:57:46.680Z] INFO Sync start. Last: 2026-06-25T22:57:46.631Z
+[2026-06-25T23:57:47.480Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T00:57:47.566Z] INFO Sync start. Last: 2026-06-25T23:57:47.479Z
+[2026-06-26T00:57:49.132Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T01:57:49.363Z] INFO Sync start. Last: 2026-06-26T00:57:49.131Z
+[2026-06-26T01:57:50.476Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T02:57:50.568Z] INFO Sync start. Last: 2026-06-26T01:57:50.473Z
+[2026-06-26T02:57:51.045Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T03:57:51.097Z] INFO Sync start. Last: 2026-06-26T02:57:51.043Z
+[2026-06-26T03:57:51.506Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T04:57:51.550Z] INFO Sync start. Last: 2026-06-26T03:57:51.505Z
+[2026-06-26T04:57:51.898Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T05:57:52.022Z] INFO Sync start. Last: 2026-06-26T04:57:51.897Z
+[2026-06-26T05:57:53.447Z] INFO push + HWL-108 Chase Kerri on INV-0392 (£3,885). Tomorrow is Saturday. Send
+[2026-06-26T05:57:53.646Z] INFO push + HWL-109 Golf clubs Wave 2 decision: start now (summer window) or par
+[2026-06-26T05:57:53.787Z] INFO push + HWL-110 Confirm Cathal check-in 11:30 (flagged in yesterday's brief,
+[2026-06-26T05:57:53.939Z] INFO push + HWL-111 Easy 10.5km + strides, 17:00. Taper activation. Not a push.
+[2026-06-26T05:57:54.048Z] INFO Sync done. push: +4 ~0. pull: ~0.
+[2026-06-26T06:57:54.088Z] INFO Sync start. Last: 2026-06-26T05:57:54.047Z
+[2026-06-26T06:57:54.519Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T07:57:54.598Z] INFO Sync start. Last: 2026-06-26T06:57:54.517Z
+[2026-06-26T07:57:54.953Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T08:57:55.048Z] INFO Sync start. Last: 2026-06-26T07:57:54.952Z
+[2026-06-26T08:57:55.559Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T09:57:55.655Z] INFO Sync start. Last: 2026-06-26T08:57:55.558Z
+[2026-06-26T09:57:56.061Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T10:57:56.138Z] INFO Sync start. Last: 2026-06-26T09:57:56.059Z
+[2026-06-26T10:57:56.532Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T11:57:56.607Z] INFO Sync start. Last: 2026-06-26T10:57:56.531Z
+[2026-06-26T11:57:57.344Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T12:57:57.412Z] INFO Sync start. Last: 2026-06-26T11:57:57.343Z
+[2026-06-26T12:57:57.772Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T13:57:57.819Z] INFO Sync start. Last: 2026-06-26T12:57:57.771Z
+[2026-06-26T13:57:58.151Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T14:57:58.206Z] INFO Sync start. Last: 2026-06-26T13:57:58.150Z
+[2026-06-26T14:57:59.518Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T15:57:59.616Z] INFO Sync start. Last: 2026-06-26T14:57:59.515Z
+[2026-06-26T15:57:59.951Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T16:57:59.997Z] INFO Sync start. Last: 2026-06-26T15:57:59.950Z
+[2026-06-26T16:58:00.503Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T17:58:00.551Z] INFO Sync start. Last: 2026-06-26T16:58:00.502Z
+[2026-06-26T17:58:02.212Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T18:58:02.282Z] INFO Sync start. Last: 2026-06-26T17:58:02.211Z
+[2026-06-26T18:58:02.733Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T19:58:02.799Z] INFO Sync start. Last: 2026-06-26T18:58:02.732Z
+[2026-06-26T19:58:03.273Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-26T20:58:03.351Z] INFO Sync start. Last: 2026-06-26T19:58:03.271Z
+[2026-06-26T20:58:06.397Z] INFO Sync done. push: +0 ~0. pull: ~0.

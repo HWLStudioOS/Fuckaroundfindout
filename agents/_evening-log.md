@@ -1,3 +1,10 @@
+## 2026-06-26 evening
+- Shipped: Weight training 26min (Strava 15:55, 132 cal, confirmed)
+- Missed: Easy 10.5km + strides (no run on Strava, confirmed. Weight training is not the session.)
+- Training: Prescribed easy 10.5km + strides at 17:00. Strava shows Afternoon Weight Training at 15:55, 26min. No run recorded. W24 pre-long-run activation not done. Tomorrow is Long Mountain 20km at 05:30, last fitness deposit before RTTS. Going in without the activation.
+- Campaigns moved: 0 verifiable (LOR ET hold for LOR-side confirmation, no new signal. Creepers factual checks and Kerri INV-0392 chase both unverifiable via hwlstudio.com.)
+- Tomorrow's first action: Long Mountain 20km, 05:30. Get to bed before 22:00 tonight. That run is the one that matters.
+
 ## 2026-06-25 evening
 - Shipped: Morning run 6.8km 44min (Strava 07:00, good taper movement); system corrections in today.md cleared four false negatives from prior briefs
 - Missed: unverifiable (hwlstudio.com email inaccessible, no Granola this week, no positive evidence to confirm or deny)

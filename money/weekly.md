@@ -1,87 +1,92 @@
 ---
-generated: 2026-06-12 16:00 BST
-week_covered: w/c 9 June 2026 (Mon 9 - Fri 12 June)
+generated: 2026-06-26 16:00 BST
+week_covered: w/c 23 June 2026 (Mon 23 - Fri 26 June)
 xero_status: unreachable (MCP not wired), manual snapshot
 ---
 
-# CFO Weekly, w/c 9 June 2026
+# CFO Weekly, w/c 23 June 2026
 
-> Xero MCP not wired. Figures from Gmail, money/index.md (last refreshed 3 June by Harrison), client files, and this week's email scan. Self-audit, not independent read. Wire Xero to close the gap.
+> Xero MCP not wired. Figures from Gmail, session logs, client files, and money/index.md. Starling balance stale since 3 June. Manual check and LOR PDF needed to confirm exact position.
 
 ## Bottom line
 
-Starling is roughly £1,277, and a new PAYE liability of £339 arrived this afternoon from Litchfields, due immediately to HMRC Cumbernauld. Cash after that: roughly £938. LOR INV-0392 (£3,885, 7-day terms, raised 29 May) is now 7 days overdue and nothing has landed. Kerri said on today's 13:30 call "I'll chase it" but you have heard that before. The cash position does not normalise until that invoice clears. Creepers June invoice (£3,500) is still held pending the content plan deliverable that was due today. A lot of revenue is sitting just off the balance sheet. VAT threshold contact with Fazila was last week's Monday action and still has not happened.
+Two payments confirmed since the 12 June report. Creepers June retainer £3,500 landed around 16 June (confirmed in session log). LOR accounts payable sent a BACS remittance on 24 June covering INV-0392 (£3,885) at minimum, possibly also INV-0384 (~£1,150). Estimated Starling is now £6,000-8,300 depending on the LOR PDF amount and whether the 25% tax sweeps were run during the Dublin trip. Cash is the healthiest it has been since May. Maya's £2,200 can be paid this weekend. Two items are bad: Soho House membership is overdue after two weeks of missed action on the DD reinstatement, and no evidence the 25% tax sweeps were run on either Creepers or LOR while Harrison was in Dublin. Monday morning: open the LOR remittance PDF, confirm the amount, run both sweeps, pay Maya. Soho House needs sorting today, not Monday.
 
 ## Cash position
 
 | Account | Balance | Notes |
 |---|---|---|
-| Starling (business main) | ~£1,277 estimated | £3,931 on 3 June, minus Cap on Tap DD £2,653.55 on 5 June. No confirmed receipts since. Manual check needed. |
-| Tax + CT reserve | £6,882 | No movement since 3 June sweep. Ahead of £6k target. |
-| Capital on Tap | Unknown | Cleared to near-zero on 5 June. Has accrued new charges since. Check in-app. |
-| Amex (BA) | Unknown | Last known payment £262.34 on 3 June. Balance not confirmed. Check in-app. |
+| Starling (business main) | ~£6,000-8,300 estimated | Stale since 3 June. Creepers £3,500 + LOR BACS landed since then, minus HMRC £339, Xero £6, Midjourney £9.50, Slack £16. Manual check essential before acting on this figure. |
+| Tax + CT reserve | £6,882 confirmed, likely £7,757-8,728 | No movement confirmed since 3 June sweep. NEEDS sweeping: 25% on Creepers £3,500 (£875) + 25% on LOR remittance amount (£971 if INV-0392 only). Do not skip these. |
+| Capital on Tap | Unknown | Cleared to near-zero 5 June, accruing since. Dublin travel possibly on it. Check balance now. Next DD likely early July. |
+| Amex (BA) | Unknown | Dublin flights and hotel may be on this. Check balance. |
 
 ## Receivables
 
 | Client | Invoice | Amount | Raised | Age | Status | Next step |
 |---|---|---|---|---|---|---|
-| LOR | INV-0392 | **£3,885** | 29 May | **14 days. 7 days overdue.** | Partial AS invoice, PO M-H4114/000024A. No remittance received. Kerri said she'd chase AP on today's call. | If not in Starling Mon AM, email Kerri + accountspayable@laingorourke.com. Bundle with INV-0384 in one email. |
-| LOR | INV-0384 + April CEMC | ~£1,150 | 5 May | **38 days** | Kerri still to raise PO. No movement this week. | Bundle chase with INV-0392. One email, both items. |
-| Creepers | June retainer | **£3,500** | Not raised. HELD. | n/a | Held pending content plan sign-off (due Thu 11 / Fri 12 June). Plan appears not delivered today. | Deliver content plan + pillars first. Raise invoice immediately after sign-off. Do not raise without it. |
-| LOR | June Global Comms | ~£6,000 | Not raised | n/a | Scope unconfirmed. Kerri OOO next week potentially. | Raise w/c 15 June once scope confirmed with Kerri or Sarah. |
-| LOR | Early Talent campaign | **~£14,000** | Not raised | n/a | Kerri feedback by Tue 16 June (standing catch-up 16:00). ET team presentation Thu 18 June 14:00 (Kerri moving to avoid your Jess conflict). | Confirm pricing verbally Tuesday. Raise 50% deposit invoice once scope signed off. |
+| LOR | INV-0384 + April CEMC | ~£1,150 | 5 May | **52 days** | UNCERTAIN. May be included in the 24 June BACS remittance. Check the PDF before chasing. | Open the remittance PDF first. If not covered, chase Kerri on Tuesday 30 June call. |
+| LOR | June Global Comms | ~£6,000 | Not raised | n/a | Scope unconfirmed. Kerri standing catch-up Tue 30 June 16:00. | Confirm scope on the call, raise invoice same day. Do not let this drift past 30 June. |
+| LOR | Early Talent campaign | ~£14,000+ | Not raised | n/a | Awaiting LOR confirmation. Kerri is across it. | When LOR confirms, raise 50% deposit invoice immediately. |
+| Creepers | July retainer | £3,500 | Not yet raised | n/a | June confirmed paid. July will be due in early July. | Raise July invoice w/c 29 June. |
+| BaW | Hourly trial (June) | Unknown | Unknown | n/a | Hourly trial active. Billing unclear without Xero or Cathal confirmation. | Confirm amount on Monday Cathal call (rescheduled to 29 June 11:30). |
 
-**Issued and outstanding: ~£5,035. All from LOR. Both are overdue.**
+**LOR INV-0392 £3,885 (raised 29 May, 28 days overdue):** The 24 June BACS remittance from AP almost certainly covers this. Confirm by opening the PDF. If confirmed paid, this closes the longest-running AP chase.
 
-**Pipeline not yet raised: ~£23,500 (June comms + Creepers + ET).** Revenue is real but nothing clears until paper is raised and AP processes it.
+**Issued and outstanding (uncertain): ~£0-1,150.** All from LOR. Depends on what the 24 June remittance covers.
+
+**Pipeline not yet raised: ~£23,500+** (June comms + ET deposit + Creepers July). Revenue is real but nothing clears until paper is raised.
 
 ## Payables
 
 | Item | Amount | Due | Status |
 |---|---|---|---|
-| HMRC PAYE/NIC (P30 2025/26) | **£339** | **Immediately** | NEW today. Litchfields P30 email arrived 14:50. Pay to HMRC Cumbernauld. Details in the email. |
-| Maya (partner settlement) | £2,200 | Held since 1 June | Can't cover without LOR landing. Still ~£923 short even at £1,277. Hold until INV-0392 clears. |
+| **Soho House DD** | Unknown | **OVERDUE** | Overdue payment email 23 June. DD was flagged for reinstatement on HWL Amex on 12 June and again last week. Still not done. Membership at lapse risk. Sort this today. |
+| Maya (partner settlement) | £2,200 | Held since 1 June | Cash now supports this. Pay this weekend. |
+| Capital on Tap | Unknown | Likely early July | Accruing since 5 June clearance. Check balance. |
+| Amex (BA) | Unknown | Next statement | Dublin travel may be on this. Check balance. |
+| Monzo credit | £1,500 | Next statement | Check due date. |
 | Jackson (brother loan) | ~£2,000 | No fixed date | Family, interest-free. Not urgent. |
 | Mackenzie (brother loan) | ~£2,500 | No fixed date | Figure unconfirmed. Family, interest-free. Not urgent. |
-| Monzo credit | £1,500 | Next statement | Personal. Check due date. |
-| Amex (BA) | Unknown | Next statement | Check balance in-app. |
 
-**Note: Soho House DD.** Last week's report flagged the DD cancelled, with a "reinstall on HWL Amex Monday" action. No evidence it was done. Membership at risk. Do this alongside Monday actions.
+**HMRC PAYE £339:** Confirmed paid ~16 June. Closed.
+
+**Note:** Revolut Business account signup in progress today (26 June). Useful as a backup or secondary business account. No action needed this week beyond completing the verification they emailed about.
+
+**Note:** Xero subscription increasing from 1 September 2026. Current rate £6/month. Check the new rate before it hits. Email received 23 June.
 
 ## Tax reserve
 
 | Item | Amount |
 |---|---|
-| Current reserve | £6,882 |
+| Confirmed reserve (3 June) | £6,882 |
+| Sweep owed: 25% on Creepers £3,500 | £875 |
+| Sweep owed: 25% on LOR remittance (estimate ~£3,885) | ~£971 |
+| **Projected reserve after both sweeps** | **~£8,728** |
 | Target (CT due mid-2027) | £6,000 |
-| Surplus above target | £882 |
-| Next sweep | 25% on INV-0392 (£3,885) when it lands = £971. Run the sweep before allocating anything else. |
+| Surplus above target | ~£2,728 |
 
-Tax is fine. Reserve is ahead. Do not disturb it this week. The moment LOR lands, sweep first.
+Reserve is ahead of the £6k CT target. The sweeps need to happen but tax exposure is not at risk. Run them after confirming the LOR PDF amount. Sweep before allocating anything to Maya or personal draw.
 
 ## VAT track
 
 | Item | Figure |
 |---|---|
-| Rolling 12-month revenue (estimated) | ~£87,000-88,000 |
+| Rolling 12-month revenue (estimated) | ~£94,000-95,000 |
 | Threshold | £90,000 |
-| Headroom | ~£2,000-3,000 |
-| INV-0392 impact when paid | Crosses threshold (~£91k). Registration process must already be in motion. |
+| **Status** | **EXCEEDED** |
+| Next invoice (LOR June comms ~£6,000) | Will push to ~£100,000 |
 
-Fazila confirmed at the 11 May call that June trigger was expected. Emailing her about VAT was last week's Monday action. No email thread exists in Gmail between Harrison and Fazila on this topic. It was not done. This is now 2 weeks late. Every week without registration started is potential exposure. Registration takes 2-3 weeks from application. You must charge VAT from the application date. Missing the threshold without registration carries a financial penalty. This is the most consequential admin item outstanding.
+Threshold has been breached. VAT registration is "in process with Fazila" per today's brief and the session log says she replied 16 June. Before you raise any new invoice (starting with LOR June comms on 30 June), confirm the registration status with Fazila. Once registered, you charge VAT from the application date. Every invoice raised above threshold without a VAT number is potential exposure. Check this before Tuesday's call.
 
-## Payroll update (new this week)
+## Calendar note
 
-Fazila is now setting up HWL Studio payroll properly on BrightPay. Thread started 10 June. P45 from Marchon Training sent. She provided two salary options, told Harrison to hold off on approving. The P30 for 2025/26 landed today (£339 due immediately). These are separate: the P30 is the accumulated PAYE liability for the year to date; the payroll options are the going-forward structure. Both need action Monday.
+**Tuesday 30 June 16:00: Kerri/Harrison standing catch-up.** Use it to: (1) confirm LOR June comms scope and raise the ~£6,000 invoice immediately after; (2) flag ET invoicing once LOR confirms; (3) close out the INV-0384 question if the 24 June BACS did not cover it. Do not let the call end without the June comms scope confirmed.
+
+**Monday 29 June 11:30: Cathal check-in.** Confirm BaW hourly billing and raise the June invoice if it has not been done.
 
 ## Monday action
 
-**Three actions, in order:**
+Open the LOR remittance PDF from the 24 June email (accountspayable@laingorourke.com, subject "Remittance Email Notification"). Confirm the amount paid. Run the 25% tax sweeps immediately (875 + whatever 25% of the LOR amount is). Then pay Maya £2,200.
 
-1. **Pay HMRC £339 via Faster Payments.** Bank details are in the Litchfields payroll@litchfields.co.uk email from 14:50 today. Account: HMRC Cumbernauld. Do this before anything else. Penalty risk if delayed.
-
-2. **Check Starling for LOR INV-0392 (£3,885).** If landed: sweep £971 (25%) to Tax + CT reserve, then settle Maya £2,200, then move on. If not landed: one short email to Kerri (kwarner@laingorourke.com) and accountspayable@laingorourke.com bundling INV-0392 + INV-0384 in a single chase.
-
-3. **Email Fazila about VAT.** Ask her to confirm the current rolling 12-month figure from Xero and start the registration process. This was due last Monday. Send it Monday, not later in the week.
-
-Then: reply to Fazila's payroll thread and confirm which salary option you want to proceed with. And reinstall the Soho House DD on the HWL Amex if it still hasn't been done.
+Before Monday: fix the Soho House DD today. It is overdue and has been a standing action for two weeks. Update payment details on their website or call membership. The membership will lapse if ignored over the weekend.

@@ -10,6 +10,9 @@ Format per entry:
 
 ---
 
+## 2026-06-26
+- **Life at the Speed of Play** (~£22), Mark Pincus / Portfolio. Zynga founder on "Proven, Better, New" for sizing your next move, building culture, and why constrained ambition compounds faster. Released 23 Jun. [https://www.amazon.co.uk/s?k=life+at+the+speed+of+play+mark+pincus]. Status: auto-approved.
+
 ## 2026-05-12
 
 12-month history reading plan (`learning/history-plan-2026.md`). Five Elon list books. Approximate UK paperback prices, confirm at checkout.

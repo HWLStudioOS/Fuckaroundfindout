@@ -45,9 +45,27 @@ End-of-month joint review with Maya 28 May 2026 produced a one-pager program for
 
 Decisions captured in `SESSION_LOG.md` at project root.
 
-## Live state, last refreshed 3 June 2026 (from Harrison)
+## Live state, last refreshed 26 June 2026 (from Harrison)
 
 > Auto-updated by weekly-cfo agent (Friday 16:00 once wired).
+
+### 26 June 2026 — thin month-end trough, tax ahead, savings move in motion
+
+**Position (real numbers from Harrison):** Cash (Starling main) £1,183. Tax + CT reserve £8,159.76 (~£8,132 per Harrison). Total Starling £9,343. The receipt that landed overnight 25 Jun was **Kerri/LOR INV-0392 (£3,885)** — the 27-day-outstanding receivable, now **SETTLED**. Chase closed, no longer awaiting. £2,000 of it swept to tax (reserve £6,882 → £8,159.76).
+
+**Tax:** Genuinely ahead. Reserve £8,160, well past the ~£6k mid-2027 target, and now starting to pre-fund VAT once registration completes. Note: a growing slice of this is HMRC's money, not headroom.
+
+**Short-term debt:** Capital on Tap ~£2,353.91 this period (Dublin trip on it, ~£982.50 reclaimable). Monzo personal £700. Amex £1,200. Jackson (brother) £2,000 still owing. ~£4,254 card + £2k family.
+
+**Reclaim inbound:** ~£982.50 (£160 + £280 + ½×£525 + ½×£560), mostly the Dublin split. Code Dublin personal spend to DLA per Litchfields, not business.
+
+**Revenue inbound:** Creepers £3,500 (reliable anchor), BaW £1,500 (conditional on hourly trial), LOR ~£1,200. ~£6.2k gross expected.
+
+**Overspend (Harrison's call):** Heavy month, lots of eating out / summer / joint spend. This is the exact leak the June program named (eating out £1,308/mo; "summer/golf years push it back"). Predicted failure mode, not a mystery. Reckon at the 30 June review, patch July. No rolling failures.
+
+**Cash-sequence watch:** Operating £1,183 is thin against 1 Jul joint £2,200 + 2 Jul ISA £500 + salary £1,047.50 (~£3,747 out). Needs Creepers £3,500 in before 1 Jul or the standing orders bounce. Sequence incoming before the draws.
+
+**Tax-cash decision (this session):** Fazila email sent — open FSCS easy-access business savings (Shawbrook ~4.2% / HTB ~4.1%), confirm VAT stagger + first-return dates off the VAT4, elect VAT Cash Accounting Scheme (slow payers), split reserve into separate VAT pot (⅙ of every gross receipt) + CT pot. Equities stay personal in the ISA (VUAG), never the tax reserve. Move the £8,160 to easy-access on Fazila's reply.
 
 ### 3 June 2026 — Creepers + Cathal landed, refill firing
 

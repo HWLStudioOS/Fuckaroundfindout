@@ -1,67 +1,61 @@
 ---
-date: 2026-06-25
+date: 2026-06-26
 generated: auto 06:30 BST
 ---
 
-# Today, Thursday 25 June 2026
+# Today, Friday 26 June 2026
 
 ## Pulse
 
-Back home. Dublin trip closed, RTTS 50K is 16 days out. Saturday's Long Mountain 20km is the last real fitness stake before the race window closes. Client-side is quieter than the bots have been claiming: ASpec posts delivered and paid, David handoff done, retainer parked behind Early Talent by choice, ET awaiting LOR's confirmation. Today is a Strength B day, and you flagged you have not done much strength the last couple of weeks. Light schedule. Do the knee work.
+W24 taper, 15 days to RTTS 50K. HRV flipped back to BALANCED (61ms) after six consecutive days of low or unbalanced readings. Good sign heading into the last big long run. Tomorrow is Long Mountain 20km at 05:30, the final fitness deposit before race week. Today is an activation day: easy 10.5km + strides at 17:00. Client-side, two tasks have drifted: Creepers factual checks are two days open and blocking the hero film, and the golf Wave 2 decision has sat untouched for seven days since Wave 1 was killed on 19 June. The Kerri invoice chase date is tomorrow (Saturday), so that goes out today.
 
 ## Yesterday wrap
 
-Promised in the Wednesday 24 June brief.
+Promised in Thursday 25 June brief:
 
-Landed:
-- Tempo/Hills 14km: done. Last quality session before RTTS 50K.
-- Flight home from Dublin 14:15: completed.
-- Sleep 8.0h, score 90, readiness 90: excellent recovery on the flight day.
+- Strength B (unconfirmed, no log or Strava evidence) <!-- linear:HWL-106 -->
+- Creepers hero film factual checks (unconfirmed) <!-- linear:HWL-107 -->
 
-Corrected 2026-06-25. The brief's "still open" list below was false negatives, see note at the bottom of the file:
-- ASpec posts cover email: DONE and PAID. Posts 1+2 delivered. LOR publishing them is their call, not a Harrison action.
-- David handoff pack: DONE. David has everything he needs.
-- Cambridge one-pager: dropped, not a focus.
-- LOR retainer / Korena: she replied, channel open, parked behind Early Talent by choice. Not cold, no decision overdue.
+Strava shows a 6.8km easy run on 25 June at 07:00. No strength session in the record. Cannot confirm Strength B either done or skipped.
 
-Linear deltas overnight: none.
+Linear deltas overnight: none. Granola: no meetings. Gmail: no Tier 1 unread (personal account only, hwlstudio.com sends not visible).
 
 ## Today
 
-- [ ] Strength B: Spanish squats, step-downs, Nordic curls. Taper week, keep it light, but do not skip the knee work. You said you have not done much strength in a fortnight. <!-- linear:HWL-106 -->
-- [ ] Creepers hero film, two factual checks with Michael Buck before it posts: exact RHS award wording for the Addleshaw Goddard garden, and the right name for Baz Grainger's garden ("Killick" vs "A Seed In Time"). These are real and independent of David. <!-- linear:HWL-107 -->
-
-_Nothing else is a must-do today. ASpec, David handoff, Cambridge and the retainer were all cleared or parked above._
+- [ ] Creepers factual checks: WhatsApp Michael Buck. Two checks: (1) exact RHS award wording for the Addleshaw Goddard garden, (2) correct name for Baz Grainger's garden ("Killick" vs "A Seed In Time"). Both must clear before the hero film posts. <!-- linear:HWL-107 -->
+- [ ] Chase Kerri on INV-0392 (£3,885). Tomorrow is Saturday. Send the chase today. <!-- linear:HWL-108 -->
+- [ ] Golf clubs Wave 2 decision: start now (summer window) or park until September. Seven days idle since Wave 1 killed 19 June. Make the call. <!-- linear:HWL-109 -->
+- [ ] Confirm Cathal check-in 11:30 (flagged in yesterday's brief, not in calendar pull today). <!-- linear:HWL-110 -->
+- [ ] Easy 10.5km + strides, 17:00. Taper activation. Not a push. <!-- linear:HWL-111 -->
 
 ## Awaiting response
 
-- Kerri: INV-0392 (3,885 outstanding). Chase if no word by 27 June.
-- LOR Early Talent: awaiting ET confirmation from LOR. Kerri already across it, no chase needed.
-- Fazila (Litchfields): VAT registration status. She replied 16 June. Confirm next step and invoice language pending number.
+- Kerri: INV-0392 (£3,885), 27 days outstanding. Chase today.
+- LOR ET: awaiting LOR confirmation. Kerri across it, no chase needed.
+- Fazila (Litchfields): VAT registration next step. She replied 16 June, confirm action outstanding.
 
 ## In flight
 
-- LOR Early Talent 2026: #1 LOR focus. Kerri across it, awaiting LOR's ET confirmation.
+- LOR Early Talent 2026: #1 LOR focus. Awaiting ET confirmation from LOR.
 - LOR ASpec ghostwritten posts: delivered and paid. Closed on our side.
-- LOR Retainer (Korena): parked behind Early Talent by choice. She replied, channel open. Not a chase.
-- Creepers hero film: editing with David (he is in contact, status to confirm). Two Michael Buck factual checks still open before it posts.
-- BaW: editing with David. Handoff pack delivered.
-- Golf Wave 2: 11 emails, timing decision pending since Wave 1 killed 19 June.
+- LOR Retainer (Korena): parked behind ET by choice. She replied, channel open.
+- Creepers hero film: with David in edit. Campaign chaser flagged David silent as of 24 June (18 days since assignment). Yesterday's brief noted "he is in contact, status to confirm." Factual checks still blocking final post.
+- BaW: editing with David. Handoff delivered.
+- Golf Wave 2: 11 emails drafted, timing decision 7 days overdue.
 - VAT registration: in process with Fazila.
 - Baseline iOS app: own build, ongoing.
 
 ## Standing
 
-- Body: 86.9 kg (stale, 29 Apr). RHR 51. HRV 63 UNBALANCED (from 24 Jun, watch not yet synced today). Sleep 8.0h score 90. Readiness not synced. Note: HRV has been UNBALANCED or LOW since 20 June, six consecutive days. Monitor into race week.
-- Training: W24 TAPER. 16 days to RTTS 50K (11 July). Today: Strength B. Fri 26 June: Easy 10.5km + strides 17:00. Sat 27 June: Long Mountain 20km 05:30, last big long run before race. Cathal check-in Fri 26 June 11:30.
-- Money: INV-0392 (3,885) 26 days outstanding. Creepers June paid 16 June. BaW hourly trial active. Starling stale since 3 June. VAT threshold breached, registration in progress.
-- Clients: LOR Early Talent is the focus, awaiting LOR confirmation. Retainer parked by choice. ASpec delivered + paid. Creepers + BaW both editing with David (handoff done). Golf Wave 2 timing undecided.
+- Body: 86.9 kg (stale, 29 Apr). RHR 52 bpm. HRV 61ms BALANCED (shifted after six days unbalanced, good signal). Sleep 7.0h score 83. Body battery 31-39 (low, recharging).
+- Training: W24 TAPER. 15 days to RTTS 50K (11 July). Today: Easy 10.5km + strides, 17:00. Tomorrow: Long Mountain 20km, 05:30 (last big long run before race).
+- Money: INV-0392 (£3,885) 27 days outstanding. BaW hourly trial active. Starling stale since 3 June. VAT threshold breached, registration in progress.
+- Clients: LOR ET awaiting confirmation. Creepers + BaW both with David (check David's status). Golf Wave 2 decision 7 days idle.
 
 ## Lens
 
-The agents had you carrying four dead tasks this morning. None of them were real. The fix today was not the tasks, it was the system underneath them: stale campaign state and agents that read silence as failure. That is now corrected. Today is genuinely light. Do the strength session you have been skipping, clear the two Creepers facts, and let the rest sit parked where you put it.
+HRV turned a corner. Six days of warning, now balanced. Tonight's sleep matters more than anything before tomorrow's 20km. Get the Kerri chase and the golf call done before you run. The hero film is sitting on two WhatsApp messages to Michael. Send them.
 
 ---
 
-_Skipped: Strava not wired. Gmail: personal account only, cannot see hwlstudio.com business sends (this is why client emails kept showing as "not sent"). Granola: no recent meetings. Calendar: pulled (3 events Fri-Sat)._
-_System: today.md, campaign files and three agent prompts manually corrected 2026-06-25 after Harrison flagged the briefs as inaccurate. nightly backup push still failing since 22 June (remote/auth), separate issue._
+_Pulled: health/Garmin (RHR 52, HRV 61ms BALANCED, sleep 7.0h/83). Calendar: 2 events (Fri 17:00 run, Sat 05:30 long run). Strava: 5 activities Jun 19-25. Gmail: personal account only, no Tier 1 unread. Granola: no recent meetings. Linear: 0 new deltas._

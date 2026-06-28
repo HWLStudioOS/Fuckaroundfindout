@@ -101,24 +101,24 @@ Lens: {one specific push}
 
 No em dashes. No emojis. Match Harrison's voice (anti-cringy sophistication, direct, specific).
 
-## Send to Telegram
+## Write the digest candidate (do NOT send)
 
-Read bot token + chat ID from `/Users/harrison/HWL META/.config/telegram.config.json`. Send via:
+You no longer send the Telegram message. A separate **verifier** stage (`morning-brief-verify.md`) re-checks your claims against ground truth, then sends. This split is deliberate: a drafter cannot reliably catch its own over-claims and false misses, so it does not hold the send gate.
 
-```bash
-curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
-  -d "chat_id=${CHAT_ID}" \
-  --data-urlencode "text=${MESSAGE}"
+Write the composed digest, exactly as you would have sent it, to:
+
+```
+/Users/harrison/HWL META/agents/_brief-candidate.txt
 ```
 
-Verify the response has `"ok": true`. If not, write the failure to the log and surface it in tomorrow's brief.
+Plain text, no surrounding quotes or fences, no trailing verdict footer (the verifier appends that). Then stop. Do not call the Telegram API.
 
 ## Log
 
 Append one line to `/Users/harrison/HWL META/agents/_log.md`:
 
 ```
-{ISO timestamp} | morning-brief | wrote today.md, telegram msg_id={id}, sources={n_pulled}/{n_attempted}
+{ISO timestamp} | morning-brief | drafted today.md + candidate, handed to verifier, sources={n_pulled}/{n_attempted}
 ```
 
 ## Tone

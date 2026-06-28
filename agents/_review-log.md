@@ -152,3 +152,74 @@ Bonus ships: Golf Wave 1 breakups sent 12 June after 40+ days. David onboarded 1
 - **Building systems to avoid obvious work:** No new system-build this week. Real delivery work done. Inbox not draining and Substack not started remain the "built the door, haven't walked through it" pattern.
 
 ---
+
+## 2026-06-28 Sunday review (W24 Taper Week 1, week ending 28 June 2026)
+
+> Note: 21 June weekly review was missed (no log entry). this-week.md was not refreshed for W24. It has been stale since the 14 June review wrote the W23 plan. This review covers W24 (22-28 June). W23 outcome is noted briefly below.
+
+### System miss
+
+The 21 June weekly review did not run. No entry in _log.md. this-week.md carried the W23 (15-21 June) plan into W24 unchanged. Harrison had no system-generated weekly plan for two weeks. The W23 top 3 (ET confirmed, cash gaps, Korona Council) were the effective working targets, but no formal replan happened.
+
+### W23 quick account (15-21 June, unreviewed)
+
+- LOR ET: PARTIAL. Kerri call 16 June happened. Emma team meeting Thu 18 June had conflict (Jess pickup 13:30). LOR-side ET confirmation still pending at end of W23.
+- Cash gaps: DONE. HMRC £339 paid ~16 June (CFO confirmed). INV-0392 AP chased. Creepers June invoice raised post content-plan agreement.
+- Korona Council: DELIBERATE PARK. Harrison decided to park retainer behind ET. Not a miss.
+
+### Inferred W24 top 3
+
+No formal plan existed. Top 3 inferred from active state at week start (22 June):
+1. Kerri call Tue 23 June (Dublin, remote): ET status, ASpec debrief.
+2. Cash: INV-0392 £3,885 outstanding.
+3. Training: last peak long run before taper.
+
+### Shipped
+
+- Kerri call Tue 23 June: YES. Teams from Dublin, calendar confirmed. ET on track, LOR-side confirmation pending.
+- INV-0392 £3,885: SETTLED. Landed overnight 25 June. Chase closed. 27 days outstanding.
+- Saturday long run 18.5km / 27 PRs: YES. Strava confirmed 27 June. Last big fitness deposit before RTTS 50K.
+- Agent accuracy fix (25 June): root cause of false briefs after Dublin corrected. Campaign files rewritten as authoritative, Gmail-identity caveat patched, three agent prompts updated.
+- Morning-brief verifier wired (28 June): 2-stage doer+verifier chain, verifier holds the Telegram send gate. Kills the 25 June over-claim failure mode structurally.
+- Weekly CFO 26 June: clean run. Confirmed Creepers + HMRC paid ~16 June, INV-0392 BACS remittance 24 June. Soho House overdue flagged.
+- Campaign chaser 26 June: 6 campaigns checked, authoritative/PARKED/CLOSED markers respected.
+- Learning brief 28 June: 5 items, Telegram msg_id=487.
+
+### Missed
+
+- Creepers factual checks (Michael Buck): OPEN. Two questions only (RHS wording, Baz garden name). First flagged 4+ weeks ago. No blocker except execution. Today.md names it for today.
+- Golf Wave 2 decision: PENDING. Wave 1 killed 19 June, 11 emails drafted, 9 days no timing decision.
+- Cathal BaW check-in: rescheduled from Fri 26 June to Mon 29 June. One-week slip.
+- David delivery date: rough-cut status unconfirmed. He is in contact and editing. Status unknown on Harrison's side.
+- Soho House membership: overdue, flagged CFO 26 June. Not paid.
+- Substack: not started. Inbox item since 11 June.
+- Capture inbox: 4 new items added 26 June, zero processed. Seven-plus weeks of this pattern. Oldest unprocessed items from early June.
+- Content: 0 personal posts. Dublin travel plus taper context noted. But 3+ consecutive zero-post weeks makes the H8 signal visible.
+- this-week.md: not refreshed for W24. Now corrected for W25.
+
+### Reality check
+
+- Money: Starling £1,183 as of 26 June. INV-0392 £3,885 settled 25 June brings operating to approximately £5,000. But £3,747 goes out 1-2 July (standing orders). Creepers £3,500 must land before Wednesday 1 July or the orders bounce. Tax reserve £8,160, ahead. Jackson £2,000 still owing. Soho House overdue.
+- Health: sleep avg 7.4h across W24 (scores avg ~87). Body battery 85 at wake this morning, 60 now, readiness 34 (expected post-18.5km). HRV was LOW/UNBALANCED Mon-Wed (Dublin load), BALANCED by Friday. 5 Strava activities confirmed 21-27 June. Estimated 5/7 W24 sessions. No body weight data (stale 29 April).
+- Clients: LOR ET: live, authoritative, awaiting LOR confirmation, Kerri call Tue 30 June. LOR Retainer: PARKED by Harrison's deliberate call. Creepers: hero film with David (in contact), 2 factual checks Harrison-side outstanding. BaW: Cathal Monday 11:30. ASpec: CLOSED, delivered and paid. Golf: Wave 1 killed, Wave 2 timing pending.
+- Content: 0 personal posts this week. 3+ consecutive weeks of zero. Arsenal viral (19 May) had no follow-up wave.
+- Capture inbox: adding items consistently (discovery scan running), draining zero. 7+ weeks. The inbox is a reading pile now, not a processing system.
+- Attention: not measured. No Screen Time data.
+- Maya: no Sunday catch-up note for fifth consecutive week. Either it is happening and not being logged, or it is not happening.
+
+### Risks
+
+- Cash timing. Creepers £3,500 must land before 1 July. Confirm invoice is out, chase Monday morning. Single most time-sensitive item.
+- RTTS 50K in 13 days. Taper Week 2 starts Monday. Sleep is the priority. No heroics, no extra sessions.
+- Capture inbox: 7+ weeks without a drain. Not a blip. This is H11 failing in execution. Either weekly-review becomes the explicit drain session, or name the inbox as broken.
+- Content silence: 3 weeks zero posts. The Arsenal wave had no follow-up, Kipling got no re-push decision. H8 is showing.
+- David delivery timeline unknown. Creepers hero film cannot post until both factual checks and rough cut done. Post-RTTS is the likely first window.
+- Soho House: two weeks overdue, appears every CFO run. Pay it.
+
+### Standards check (codex H17)
+
+- Proactive comms: Kerri call 23 June (Y), campaign chaser Mon+Wed (Y), accuracy fix 25 June (Y, proactive system repair without prompting), CFO 26 June (Y), verifier wired 28 June (Y). Slipping: Creepers factual checks 4+ weeks outstanding. Soho House overdue two weeks.
+- Self-attack disguised as discipline: not visible in any source.
+- Building systems to avoid obvious work: verifier is legitimate (directly addresses 25 June failure). The capture inbox pattern is the flag: the system exists, the obvious work of processing it is being avoided. Name the system as the problem.
+
+---

@@ -59,7 +59,8 @@
       "Read(//Applications/Google Chrome.app/**)",
       "Read(//Applications/Google Chrome.app/Contents/MacOS/**)",
       "Read(//Users/harrison/Library/Caches/ms-playwright/**)",
-      "Read(//Users/harrison/.cache/**)"
+      "Read(//Users/harrison/.cache/**)",
+      "WebFetch(domain:addyosmani.com)"
     ]
   }
 }

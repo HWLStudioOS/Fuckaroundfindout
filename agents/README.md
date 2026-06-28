@@ -14,21 +14,21 @@ Honest inventory of every scheduled agent. Updated after every wire / unwire / s
 
 | Agent | File | Schedule | Status | Acceptance |
 |---|---|---|---|---|
-| morning-brief | `agents/morning-brief.md` + `.sh` | 06:30 weekdays | RUNNING-DEGRADED (Apple Health MCP broken, CSV via read-health.sh but sleep data unavailable. Strava now live. Linear absent = no changes). 7+ consecutive weekday runs since pipeline fix 3 June. | 7/14 RUNNING-CLEAN runs. Blocked on Apple Health export (stale 46d). Export from iPhone this week unblocks progress. |
-| weekly-review | `agents/weekly-review.md` | Sun 18:00 | RUNNING-CLEAN (Strava live, health-sync data available, Granola empty as expected on unattended run, Calendar + Gmail pulled). | 2/2 ACCEPTANCE HIT. Runs: 2026-06-07 + 2026-06-14. |
-| weekly-cfo | `agents/weekly-cfo.md` | Fri 16:00 | RUNNING-DEGRADED (Xero unreachable, manual snapshot used). Acceptance met under "Xero unreachable + manual snapshot" OR clause both runs. | 2/2 ACCEPTANCE HIT. Runs: 2026-06-05 + 2026-06-12. |
+| morning-brief | `agents/morning-brief.md` + `.sh` | 06:30 weekdays | RUNNING-DEGRADED (Apple Health via health-sync.py CSV works. Strava persistent skip in most runs. Verifier chain added 28 June: doer writes candidate, verifier checks falsifiable claims before Telegram send). Most recent runs: 6/6 sources 26 June (Fri), 6/6 sources 28 June (Sun, verifier confirmed). | ~10/14 RUNNING-CLEAN equivalent runs since pipeline fix. Consecutive clean count reset to 2 (26+28 Jun). Strava still skipping on most weekday runs. 14-consecutive bar not yet hit. |
+| weekly-review | `agents/weekly-review.md` | Sun 18:00 | RUNNING-CLEAN. Verifier-quality briefs now set precedent for this agent too. Note: 21 June run was missed (no log entry). | 3/3 clean runs (7 Jun, 14 Jun, 28 Jun). ACCEPTANCE HIT (2/2 achieved 14 June). Now on extended run. |
+| weekly-cfo | `agents/weekly-cfo.md` | Fri 16:00 | RUNNING-DEGRADED (Xero unreachable, manual snapshot used). Third run 26 June clean. | 3/3 clean runs (5 Jun, 12 Jun, 26 Jun). ACCEPTANCE HIT (2/2 achieved 12 June). Now on extended run. |
 
 **v1 ships when all three hit acceptance simultaneously.**
 
-> As of 2026-06-14: weekly-review and weekly-cfo have both hit acceptance. morning-brief needs 7 more consecutive RUNNING-CLEAN weekday runs (blocked on Apple Health export). v1 is 7 runs away if Harrison exports Apple Health this week.
+> As of 2026-06-28: weekly-review and weekly-cfo both past acceptance. morning-brief consecutive-clean bar not yet hit (Strava skip breaks most runs). Verifier chain added 28 June should improve accuracy even while Strava remains offline. v1 is close. Strava MCP or 14 consecutive weekday RUNNING-CLEAN briefs unblocks it.
 
 ## Secondary queue (post-v1)
 
 | Agent | File | Schedule | Status | Notes |
 |---|---|---|---|---|
-| learning-brief | `agents/learning-brief.md` (NEW) | Sun 09:00 | DRAFTED | Pulls from learning/research-queue.md + recall-queue.md |
-| discovery-scan | `agents/discovery-scan.md` | Mon/Wed/Fri 14:00 | DRAFTED | Appends to capture/inbox.md (not separate feed.md) |
-| campaign-chaser | `agents/campaign-chaser.md` | Mon/Wed/Fri 10:00 | DRAFTED | Moves campaigns/* forward or flags drift |
+| learning-brief | `agents/learning-brief.md` | Sun 09:00 | RUNNING-CLEAN. Ran 14 Jun (msg_id=449) and 28 Jun (msg_id=487). 5 items, 4 drills each run, Telegram push confirmed. | 2/2 recent runs clean. Not formally in v1 acceptance scope. |
+| discovery-scan | `agents/discovery-scan.md` | Mon/Wed/Fri 14:00 | RUNNING-CLEAN. Consistent Mon/Wed/Fri runs since 12 June. 4-5 items per run, appending to capture/inbox.md. | Multiple consecutive clean runs. Inbox is filling; drain is the open issue, not the agent. |
+| campaign-chaser | `agents/campaign-chaser.md` | Mon/Wed/Fri 10:00 | RUNNING-CLEAN. Consistent Mon/Wed/Fri runs. Respects authoritative/PARKED/CLOSED markers since 25 June accuracy fix. | Multiple consecutive clean runs. Gmail identity gap (personal only, cannot see hwlstudio.com) noted in every run. |
 | evening-reflection | `agents/evening-reflection.md` | Weekdays 19:00 | DRAFTED, deferred | Waits until daily check-in store exists (Phase 2 of MVP roadmap) |
 
 ## Infrastructure jobs (not agents, but scheduled)

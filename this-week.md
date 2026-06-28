@@ -1,105 +1,101 @@
 ---
-week: training W23 Specific Build / PEAK (15-21 June 2026)
-generated: 2026-06-14 18:00 BST (weekly-review agent)
-prior_review: agents/_review-log.md 2026-06-14
+week: training W25 Taper Week 2 (29 June - 5 July 2026)
+generated: 2026-06-28 18:00 BST (weekly-review agent)
+prior_review: agents/_review-log.md 2026-06-28
 ---
 
-# This week, 15-21 June 2026
+# This week, 29 June - 5 July 2026
 
 ## Theme
 
-Land the ET feedback and close the money gap. Peak training week with RTTS 27 days out. Three overdue items (Korona Council, INV-0392 AP email, Fazila VAT) must not carry into W24.
+Taper Week 2. 13 days to RTTS 50K. Cash bridge before 1 July. Two client calls anchor the week: Cathal Monday, Kerri Tuesday.
 
 ## Top 3 outcomes for the week
 
-1. **LOR ET confirmed forward:** Kerri feedback call Tue 16 June 16:00, Emma team meeting Thu 18 June (time TBD, Harrison's 13:30 Jess pickup is a hard constraint). Goal: scope agreed, first shoot date in calendar, PO route named.
-2. **Cash gaps closed:** HMRC PAYE £339 paid Monday first thing. INV-0392 AP chase email sent Monday. Creepers June invoice raised once Anna/Sarah confirm the plan (chase Monday if still silent).
-3. **Korona Council run Monday.** 38 days since proposal, 6 days since warm reopener, no reply. Load council/SKILL.md. Decision: escalate above Korona, set a kill date, or close. Not a fourth week of silence by omission.
+1. **Creepers £3,500 lands before Wednesday 1 July.** Confirm the June invoice is out today. Chase Monday morning first thing. If it does not land before 1 July, the standing orders (£3,747) bounce. This is the single most time-sensitive item in the system.
+2. **Kerri call Tuesday 30 June 16:00 lands clean.** LOR ET confirmation is still on their side. Goal for this call: next action agreed, first shoot week in calendar, PO route named. Prep agenda today against lor-early-talent-2026.md.
+3. **Cathal BaW check-in Monday 11:30 done.** Confirm agenda today. Check David's delivery timeline on BaW edits. Re-baseline Cathal's expectations on the editor handoff.
 
 ## By area
 
 ### Money
 
-- **HMRC PAYE £339:** Monday first thing. From Litchfields email 12 June. Confirm paid before any other spend.
-- **LOR INV-0392 £3,885:** AP chase email Monday. Separate thread from Kerri (AP contact M-H4114/000024A). Fuse it to the PO logistics for the ET commissioning invoice so it reads admin, not chasing.
-- **Creepers June invoice £3,500:** Chase Anna/Sarah for plan confirmation Monday if still silent. Invoice unlocks on confirmation.
-- **Fazila (Litchfields):** VAT email this week. £88k of £90k threshold. Breach imminent. Also: reply to her on payroll options (£5,241 gross minimum draw, held since 10 June).
-- **Cash target by Friday:** PAYE paid, INV-0392 chased, Creepers invoice raised. If INV-0392 lands: settle Maya £2,200 (owed since 1 June), camera + SSD resume.
-- **Starlink:** new recurring cost activated 10 June. Note in money/index.md when reconciling.
+- **Creepers £3,500:** confirm invoice is out (June retainer, post-content-plan agreement 9 June). If not sent, send it today. Chase Monday AM. Must land before Wednesday 1 July.
+- **Standing orders 1-2 July:** £2,200 joint + £500 ISA + £1,047.50 salary = £3,747.50 going out. Creepers landing is the bridge. Without it, the sequence fails.
+- **Soho House:** overdue. Pay this week. Has appeared in every CFO run for two weeks.
+- **Fazila (Litchfields):** reply pending on Shawbrook/HTB savings account, VAT stagger dates, Cash Accounting Scheme election. Chase Monday if no reply by noon.
+- **Jackson £2,000:** still owing (family). No urgency, but track.
+- **Golf Wave 2:** 11 emails drafted. Decision this week: launch now or September. Wave 1 killed 19 June. Nine days of no call.
+- **Maya settle:** executes once Creepers £3,500 lands and 1 July standing orders clear.
 
 ### Clients
 
 **LOR Early Talent:**
-- Kerri feedback call Tue 16 June 16:00 (standing). Have a condensed deck ready for any request.
-- Emma team meeting Thu 18 June 14:00. Kerri may move it earlier (Harrison: 13:30 Jess pickup, must leave by 13:20). Confirm timing with Kerri on Tuesday.
-- Post-meeting deliverable: follow-up email with first shoot date, PO route, and INV-0392 fused into the admin note.
-- Cambridge research strand: one-pager before Kerri's end-of-June meeting. Formats: research summary page, social seeding, exec-with-scholar sit-downs, September Cambridge event. Prep this week.
-
-**LOR Retainer / Korona:**
-- Council Monday. Load council/SKILL.md. Options: escalate (above Korona?), set a firm kill date with a final note, or close and pivot resource to golf Wave 2. 38 days without a substantive reply is a passive no until proven otherwise.
-- Do not raise on the Kerri call. This is Korona's conversation, not Kerri's.
+- Kerri call Tue 30 June 16:00. Agenda: ET confirmation status from LOR, first shoot date, PO route. Prep: review lor-early-talent-2026.md before the call.
+- Kerri is already across it. This is a confirmation call, not a pitch. Do not re-pitch.
+- If confirmed: schedule first shoot day in July. Route the commissioning invoice. Separate from INV-0392 (now settled).
 
 **Creepers:**
-- Chase Anna/Sarah Monday for content plan confirmation. Surrey shoot pencilled Tue 16 June: confirm or shift.
-- June £3,500 invoice: raise once confirmed. Do not reduce it. Premium brand-build framing held on the reset call.
-- David: route Creepers hero film footage + VO script to David this week. The "feeling about David" (inbox 12 June) needs a conversation before more work lands on him.
+- Factual checks to Michael Buck TODAY (today.md): (1) exact RHS award wording for the Addleshaw Goddard garden, (2) Baz Grainger garden name ("Killick Garden" vs "A Seed In Time"). Hero film cannot post until both answered.
+- June invoice: confirmed out and landing before 1 July is the #1 money action.
+- David: get a delivery date on the Creepers hero film rough cut. One message, one date. Not a chase, just a status.
 
 **BaW:**
-- April monthly report: send this week. No more deferrals. Draft it Monday if needed.
-- Roger Martin episode next steps: Cathal handling Jaime Gruber (Roger's manager). Follow Cathal's thread, add value where needed.
-- Rescheduling the Cathal check-in (cancelled 12 June).
+- Cathal check-in Mon 11:30. Prep: BaW edits timeline from David, Roger Martin episode status, any May data to pull for Issue 05.
+- BaW April monthly report: still owed, still blessed by Cathal. Route to David if he has the edit. Or draft it this week, it is overdue by 8 weeks.
 
-**Golf:**
-- Wave 1 kill date: 19 June (7 days from 12 June send). Monitor for any replies this week.
-- Wave 2 (11 emails): do not start until Wave 1 closes or hits kill date.
+**LOR Retainer (Korona):**
+- PARKED. Harrison's deliberate call. Not this week. Korona replied, channel is open, ET is the active lane.
+
+**Golf Wave 2:**
+- Decision this week. 11 emails drafted, ready to send. Either launch the sequence now or set a September re-evaluation date and close the campaign file temporarily.
 
 **LOR Shell Beam / Amanda Thompson:**
-- 5+ weeks cold. Same position as golf clubs were before 12 June. Set a kill date: send the staged follow-up by Wednesday or archive the campaign. Not another week of "staged."
-
-**David:**
-- Resolve the "feeling" this week. One conversation. Named in inbox 12 June. He is the August single point of failure for Creepers hero film and BaW backlog. A concern that isn't named is a risk that grows.
+- File closed (per campaign-chaser 26 June). No further action.
 
 ### Content
 
-- Creepers Surrey shoot Tue 16 June if confirmed: capture behind-scenes. Clean footage brief to David same day.
-- Workshop field note: did a debrief land? Laurence follow-ups (Loom series, Substack recap) still open.
-- Substack: create the account. Minimum viable action. Bio and first post follow, not this week.
-- One personal post if it arises naturally. Do not manufacture.
-- Build Week Chelsea footage decision: 8 weeks. Route to David or archive. Not a ninth week.
+- Creepers hero film: unblockable until factual checks answered and David delivers. Post-RTTS is the realistic window.
+- Personal content: zero posts for 3+ weeks. No manufactured post this week. But one field note, if something genuine from the Cathal/Kerri calls or race prep, would close the pattern.
+- Capture inbox: do NOT add more items without draining some. Pick three items from the inbox this week and action, archive, or route them.
+- Substack: still not started. Not this week (too close to race). Set a date for the week after RTTS.
 
-### Health / Training W23 (peak)
+### Health / Training W25 (Taper Week 2)
 
-RTTS 50K: 27 days. W23 is the last full peak week before taper begins. Do not substitute stair-steppers for runs.
+RTTS 50K: Saturday 11 July. 13 days. The fitness is banked. This week is about recovery, sleep, and not undermining what was built.
 
-- **Mon 15:** Easy 6.3km, 17:00.
-- **Tue 16:** DOUBLE. AM fasted run before breakfast. Strength A PM. Surrey shoot TBD. Protect the AM run regardless of shoot status.
-- **Wed 17:** Tempo or hill repeats. QUALITY DAY. This was the key miss in W22. No stair-stepper substitution. No "easy instead."
-- **Thu 18:** Strength B. Emma LOR team meeting afternoon (time TBD).
-- **Fri 19:** Easy + strides. Pre-long-run activation.
-- **Sat 20:** Long Mountain run per W23 CSV prescription. Start early. Correct terrain (vert). Nutrition practice 200-300 cal/hr.
-- **Sun 21:** B2B on tired legs.
+- **Mon 29:** Easy 9.1km + strides, 17:00. Do not push pace. Strides at the end, 6 x 20 seconds, relaxed.
+- **Tue 30:** Light easy run AM (5-6km). Strength A PM (protective lifts only, no new load). Kerri call 16:00.
+- **Wed 1:** Easy 6-8km. No tempo. Legs should feel fresh, not worked.
+- **Thu 2:** Strength B (upper + mobility only, no leg press). Rest if legs feel at all heavy.
+- **Fri 4:** Easy 5km + strides. Pre-long-weekend activation.
+- **Sat 5:** Easy 8km max. Nothing long. Nothing fast.
+- **Sun 6:** Complete rest.
 
-Apple Health export: still stale (29 Apr weight, no body comp data). Export from iPhone this week. Five minutes.
+Sleep is the training this week. 7.5h minimum. HRV above 60ms is the green light. Body battery at wake above 70 is the target. If readiness stays LOW (below 50), pull volume not push through.
+
+Apple Health: weight stale 29 April. Not critical this week, but worth knowing the number before race day.
+
+Race kit: confirm shoes, pack, nutrition strategy, travel plan for 11 July. This week is the window.
 
 ### Laurence / Year One
 
-- Loom series: confirm scope with Laurence first (inbox 9 June). Do not build before agreeing.
-- Substack recap: decide if Loom replaces it or sits alongside. Promised in 48h window post-workshop, that window is closed; acknowledge the delay to Laurence.
-- Q2 mentor loop reply: still owed from W20. Block Thursday afternoon if ET meeting clears.
+- Loom series: not started (inbox item 9 June). Not this week. Post-RTTS.
+- Substack recap for Year One: promised post-workshop, overdue. One-line acknowledgement to Laurence if you cross paths.
 
 ### Life
 
-- Maya: Sunday catch-up. Fourth week without a record. Do it today, before the week starts, not as a retroactive note.
-- Maya settle: execute once INV-0392 confirmed.
+- Maya: Sunday catch-up today before the week starts. Fifth week without a note in any source. This is not a system failure, but if it is not happening it should be named.
+- Race logistics: confirm Maya knows the 11 July plan. Travel from London, hotel if needed, start time.
 
 ## Risks and asks
 
-- **Peak week with depleted body battery (17-24 today).** Start Monday easy. Protect Wed tempo and Sat long above everything. Sleep need is elevated per Garmin.
-- **Cash thin until INV-0392 clears.** HMRC Monday. INV-0392 AP email Monday. No discretionary spend until both are actioned.
-- **Korona V8 Council Monday.** If the conclusion is "close," the 30 June new-client goal needs a live lead immediately. Golf Wave 1 kill date 19 June. Wave 2 is the backup. Either the Council produces a plan or the outreach engine accelerates.
-- **ET Emma meeting timing.** Harrison's 13:30 Jess pickup on Thursday is a hard constraint. If Kerri cannot move the 14:00 meeting to 11:00-12:30, this cannot happen Thursday. Establish this on Tuesday's call.
-- **David concern.** Name it this week or carry the risk into August.
+- **Cash before 1 July.** Creepers invoice is the bridge. If it does not land by Tuesday, call the bank and understand the tolerance. Do not let it be a surprise on Wednesday morning.
+- **RTTS is 13 days away.** Anything that adds stress to the body this week is a wrong call. Meetings, late nights, alcohol, poor sleep: all cost race day performance more than any training gain would add. Protect the body.
+- **Capture inbox is broken as a processing system.** 7+ weeks of adding, zero draining. This week: pick three items and close them. Not a full drain, just proof the system can flow both ways.
+- **David's delivery timeline is unknown.** This does not block this week. But it will block the week after RTTS if not confirmed. Get a date on Monday when checking in with Cathal.
+- **Golf Wave 2 decision:** 11 ready emails, 9 days of indecision. Call it one way this week. September = close the file temporarily. Now = schedule the send.
 
 ## Reality check
 
-Three things that did not carry out of W22 must not carry out of W23: INV-0392 AP email (send Monday), Fazila VAT (email this week), Korona Council (run Monday). Each has a clear next action and no blocker except execution. Golf clubs broke a 40-day stall on 12 June. The same pattern is available for Amanda Thompson, Fazila, and the AP chase. The precedent is set.
+INV-0392 settled. Long run banked. Kerri on side. Cash is tight but Creepers resolves it if the invoice landed. The race is two weeks away and the last thing required is to burn energy on anything that is not on this list. Cathal Monday, Kerri Tuesday, Creepers invoice before Wednesday. Everything else waits.

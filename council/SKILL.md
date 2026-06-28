@@ -39,6 +39,40 @@ This tag feeds into the Chairman's synthesis weighting.
 
 ---
 
+## Step 0b: The Build Gate (delete before you build)
+
+*Elon seed, the Algorithm: "The most common mistake of smart engineers is to optimize a thing that should not exist." (The Book of Elon, p135.) Delete, then simplify, then accelerate, then automate, strictly in that order. If you are not adding back about 10%, you did not delete enough.*
+
+**This gate is bound to the assistant, not to Harrison's memory.** Harrison reliably forgets to summon a tool (the council itself proves it: campaign-chaser nagged "council decision overdue" for a month and it was never run). So this is not something he invokes. **Before you scaffold any net-new HWL-OS component, an agent, a skill, a product, a new file structure, a new automation, you run the Build Gate first and show the verdict.** His documented weakness is over-building and under-using (H21); this is the structural counter, applied by the system, every time.
+
+It is also invocable on demand as `/delete-pass <thing>` (proposal) or `/delete-pass audit <existing agent/file>` (prune one existing part).
+
+### The gate (Step 1 is blocking)
+
+1. **Can this requirement be killed?** What breaks if it never exists? Which existing file or agent already does 80% of this? Do not discuss simplify / accelerate / automate until this is answered.
+2. If it survives: what is the smallest version? What gets deleted from the first idea?
+3. **Add-back check:** name the ~10% you will add back after deleting. If you cannot, you did not delete enough, go back to 1.
+
+### The verdict (always one line, plus the parts)
+
+```
+BUILD GATE: <thing>
+Verdict: KILL / KEEP-SIMPLIFIED / BUILD-AS-SCOPED
+Cut: {what you deleted from the first idea}
+Add back: {the ~10%}
+Next action: {single concrete step}
+```
+
+- **KILL** ends it. The absence of a build is a valid, often correct, output.
+- **KEEP-SIMPLIFIED / BUILD-AS-SCOPED** writes its single next action as a `- [ ]` line into `this-week.md` so it lands on the chased rail, not a feeling.
+- **Audit mode** must end in an actual deletion diff (an archived prompt, a removed file), never just a nomination.
+
+Log one line to `agents/_log.md`: `{ISO timestamp} | build-gate | <thing> -> {verdict}`. Never edit `CLAUDE.md` to enforce this (block-end rule until 18 July); the agent-bound convention carries it.
+
+**First dogfood target:** this file. `council/SKILL.md` still says "JARVIS" four times (lines under Step 3, Post-Decision Grading, Implementation Notes), which violates the CLAUDE.md "No JARVIS" hard rule. An audit run should strip them.
+
+---
+
 ## Step 1: The Five Advisors (run in parallel)
 
 All five receive:

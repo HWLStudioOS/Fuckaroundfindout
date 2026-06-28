@@ -4,6 +4,8 @@ Append-only. One line per agent run.
 
 Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 
+2026-06-28T11:15:00+01:00 | morning-brief-verify | sent msg_id=488, checked=19, corrected=3: (1) day-of-week error: 1 Jul is Wednesday not Thursday (Pulse + Today #2 + candidate); (2) David "silent/20 days cold" contradicted by authoritative marker in creepers-chelsea-hero-film.md, corrected to "delivery date unconfirmed" in 4 locations; (3) Cambridge one-pager reference removed, dropped per session-done 2026-06-25
+2026-06-28T11:08:00+01:00 | morning-brief | drafted today.md + candidate, handed to verifier, sources=6/6 (health/garmin: RHR49/HRV63ms-BALANCED/sleep91; strava: 5 activities Jun21-27 incl 18.5km long run Sat; calendar: 3 events Mon-Tue; gmail: 0 tier-1 unread personal only; granola: 0 meetings; linear: 0 new deltas; weight stale 29 Apr)
 2026-06-26T16:00:00+01:00 | weekly-cfo | w/c 23 Jun. Xero unreachable. Confirmed: Creepers £3,500 + HMRC £339 paid ~16 Jun; LOR BACS remittance 24 Jun (PDF only, likely INV-0392 £3,885). Estimated Starling £6-8k, tax reserve £6,882 unswept. VAT threshold exceeded (~£94-95k). Soho House overdue flagged. Monday: open LOR PDF, sweep 25%, pay Maya £2.2k. Telegram msg_id=486.
 2026-06-26 14:07 | discovery-scan | 4 items posted, 1 buyable queued
 2026-06-26T10:07:00+01:00 | campaign-chaser | 6 campaigns checked. 4 authoritative/parked/closed: LOR Retainer (PARKED), Creepers hero film (AUTHORITATIVE), LOR ET (AUTHORITATIVE), ASpec posts (CLOSED). 2 non-authoritative updated: golf-clubs (7 days since Wave 1 kill 2026-06-19, 2 decisions still pending: send/delete 6 breakup drafts + Wave 2 timing, no Telegram, surface in morning brief), Shell Beam (7 days since kill, file closed, day count updated). Calendar: Kerri/Harrison call confirmed Tue 30 June 16:00 BST, next natural ET touchpoint. No new campaign replies visible (Gmail is personal account, cannot see hwlstudio.com). No Telegram push needed this run (7 days = morning brief bracket, not Telegram threshold). Updated: golf-clubs.md, lor-shell-beam-project.md.
@@ -156,3 +158,10 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 - 2026-06-27 06:15  | health-sync | OK 2026-06-27: RHR 51, sleep 7.1h (score 80), HRV 70 BALANCED, readiness 75
 - 2026-06-27 11:00  | health-sync | OK 2026-06-27: RHR 50, sleep 7.1h (score 80), HRV 66 BALANCED, readiness 18
 - 2026-06-27 14:00  | health-sync | OK 2026-06-27: RHR 50, sleep 7.1h (score 80), HRV 66 BALANCED, readiness 18
+- 2026-06-27 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-06-28 06:15  | health-sync | OK 2026-06-28: RHR 51, sleep 7.1h (score 80), HRV 66 BALANCED, readiness 26
+2026-06-28T18:00:00+01:00 | weekly-review | W24 ended, 3/3 inferred top-3 shipped, training 5/7, this-week.md rewritten for W25, _review-log.md appended, README updated, msg_id=489
+2026-06-28T09:00:00+01:00 | learning-brief | 5 items, 4 drills, file=learning/weekly-brief/2026-06-28-brief.md, telegram msg_id=487
+- 2026-06-28 11:00  | health-sync | OK 2026-06-28: RHR 49, sleep 7.5h (score 91), HRV 63 BALANCED, readiness 34
+- 2026-06-28 14:00  | health-sync | OK 2026-06-28: RHR 49, sleep 7.5h (score 91), HRV 63 BALANCED, readiness 41
+2026-06-28T22:23:12+0100 | break-it | 1 new client by 31 Jul -> 5 tasks in campaigns/new-client-2026-07.md, binding part: qualified call booked, first due Mon 29 Jun; calendar hold set Mon 09:30

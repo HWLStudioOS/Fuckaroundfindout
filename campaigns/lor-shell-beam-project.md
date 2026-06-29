@@ -34,11 +34,11 @@ Original mention: codex 02 business map. No formal brief from LOR yet.
 
 ## Live state
 
-> Auto-updated by campaign-chaser agent. Last run: 2026-06-26 10:07 BST.
+> Auto-updated by campaign-chaser agent. Last run: 2026-06-29 10:07 BST.
 
 ```
 Last action: Auto-killed 2026-06-19 (campaign-chaser). 48 days cold from Amanda reply 2026-05-07.
-Days since last action: 7
+Days since last action: 10
 Next move: None. File closed. Gmail draft r-2357566366531178370 can be deleted when convenient.
 Blocker: none (closed)
 Status: killed. File closed.

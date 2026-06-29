@@ -1,3 +1,10 @@
+## 2026-06-29 evening
+- Shipped: Cathal x Harrison check-in 12:00 (Granola confirmed), training logged (stair-stepper 10min, run 2km, weight training 20min, run 3.4km)
+- Missed: unverifiable (new client day-one tasks, Creepers invoice, golf breakup sends, Kerri prep all require hwlstudio.com email access or phone; absence is not confirmation)
+- Training: 5.4km total running vs 9.1km easy + strides prescribed. Ran at 17:05 as planned. Distance short, both runs at easy Z1-2 pace. W25 Taper Week 2, shortfall is manageable, session happened.
+- Campaigns moved: 1 (BaW, Cathal check-in completed)
+- Tomorrow's first action: Kerri call prep before 15:00 (call is 16:00 Tue). Creepers invoice chase is also today if not already sent, £1,183 in Starling vs £3,747 out Wednesday.
+
 ## 2026-06-26 evening
 - Shipped: Weight training 26min (Strava 15:55, 132 cal, confirmed)
 - Missed: Easy 10.5km + strides (no run on Strava, confirmed. Weight training is not the session.)

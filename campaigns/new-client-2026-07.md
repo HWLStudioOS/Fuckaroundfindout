@@ -6,6 +6,16 @@
 
 ## Live state
 
+> Auto-updated by campaign-chaser agent. Last run: 2026-06-29 10:07 BST.
+
+```
+Last action: Decomposed via /break-it 2026-06-28 22:23. Calendar hold set 09:30 today.
+Days since last action: 1
+Next move: Execute day-one parallel tasks: (1) deploy Legibility Diagnosis to hwlstudio.com/#diagnosis, (2) name 10 warm targets, send 5 personal intro asks. Both due today, 29 Jun.
+Blocker: Harrison to execute tasks 1 + 2 today.
+Status: open. Day one.
+```
+
 OPEN. Decomposed 28 June.
 
 **Binding constraint:** a qualified conversation booked. No serious prospect talking, no signed client. The proposal and the close are fast once someone real is in the room; everything else here exists only to manufacture that conversation.

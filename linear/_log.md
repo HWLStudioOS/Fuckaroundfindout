@@ -1480,3 +1480,53 @@
 [2026-06-28T19:58:40.826Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-06-28T20:58:40.926Z] INFO Sync start. Last: 2026-06-28T19:58:40.824Z
 [2026-06-28T20:58:41.491Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-28T21:58:41.554Z] INFO Sync start. Last: 2026-06-28T20:58:41.489Z
+[2026-06-28T21:58:41.929Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-28T22:58:42.002Z] INFO Sync start. Last: 2026-06-28T21:58:41.928Z
+[2026-06-28T22:58:42.410Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-28T23:58:42.483Z] INFO Sync start. Last: 2026-06-28T22:58:42.409Z
+[2026-06-28T23:58:42.887Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T00:58:43.010Z] INFO Sync start. Last: 2026-06-28T23:58:42.885Z
+[2026-06-29T00:58:44.548Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T01:58:44.614Z] INFO Sync start. Last: 2026-06-29T00:58:44.548Z
+[2026-06-29T01:58:45.048Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T02:58:45.129Z] INFO Sync start. Last: 2026-06-29T01:58:45.047Z
+[2026-06-29T02:58:46.314Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T03:58:46.392Z] INFO Sync start. Last: 2026-06-29T02:58:46.312Z
+[2026-06-29T03:58:46.751Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T04:58:46.804Z] INFO Sync start. Last: 2026-06-29T03:58:46.750Z
+[2026-06-29T04:58:47.155Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T05:58:47.237Z] INFO Sync start. Last: 2026-06-29T04:58:47.153Z
+[2026-06-29T05:58:49.025Z] INFO push + HWL-115 New client day-one: deploy Legibility Diagnosis (~/hwlstudio
+[2026-06-29T05:58:49.280Z] INFO push + HWL-116 Cathal x Harrison check-in 11:30. BaW fortnightly catch-up. 
+[2026-06-29T05:58:49.377Z] INFO Sync done. push: +2 ~0. pull: ~0.
+[2026-06-29T06:58:49.393Z] INFO Sync start. Last: 2026-06-29T05:58:49.376Z
+[2026-06-29T06:58:49.924Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T07:58:49.912Z] INFO Sync start. Last: 2026-06-29T06:58:49.923Z
+[2026-06-29T07:58:51.089Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T08:58:51.273Z] INFO Sync start. Last: 2026-06-29T07:58:51.087Z
+[2026-06-29T08:58:52.060Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T09:58:52.134Z] INFO Sync start. Last: 2026-06-29T08:58:52.057Z
+[2026-06-29T09:58:52.637Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T10:58:52.777Z] INFO Sync start. Last: 2026-06-29T09:58:52.635Z
+[2026-06-29T10:58:53.352Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T11:58:53.370Z] INFO Sync start. Last: 2026-06-29T10:58:53.350Z
+[2026-06-29T11:58:54.002Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T12:58:54.080Z] INFO Sync start. Last: 2026-06-29T11:58:54.000Z
+[2026-06-29T12:58:54.876Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T13:58:54.959Z] INFO Sync start. Last: 2026-06-29T12:58:54.875Z
+[2026-06-29T13:58:55.505Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T14:58:55.500Z] INFO Sync start. Last: 2026-06-29T13:58:55.504Z
+[2026-06-29T14:58:56.264Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T15:58:56.437Z] INFO Sync start. Last: 2026-06-29T14:58:56.263Z
+[2026-06-29T15:58:56.886Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T16:58:56.967Z] INFO Sync start. Last: 2026-06-29T15:58:56.886Z
+[2026-06-29T16:58:57.562Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T17:58:57.638Z] INFO Sync start. Last: 2026-06-29T16:58:57.561Z
+[2026-06-29T17:58:58.202Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T18:58:58.245Z] INFO Sync start. Last: 2026-06-29T17:58:58.200Z
+[2026-06-29T18:58:58.901Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T19:58:59.024Z] INFO Sync start. Last: 2026-06-29T18:58:58.899Z
+[2026-06-29T19:58:59.607Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-06-29T20:58:59.722Z] INFO Sync start. Last: 2026-06-29T19:58:59.604Z
+[2026-06-29T20:59:00.713Z] INFO Sync done. push: +0 ~0. pull: ~0.

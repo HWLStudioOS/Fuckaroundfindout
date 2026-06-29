@@ -62,6 +62,70 @@ else
 fi
 
 echo
+echo "== Training load & 7-day trend (Baseline read API :8765) =="
+# Enrichment from Baseline's own garmin_api.py (ACWR, weekly load, VO2max, sessions, trends)
+# computed off the SAME garmin-*.json the snapshot above reads. Degrades to a one-line note
+# if the API is down, so the headless morning brief never breaks on it.
+python3 - <<'PYAPI'
+import json, urllib.request
+
+API = "http://127.0.0.1:8765"
+
+def get(path, timeout=4):
+    with urllib.request.urlopen(API + path, timeout=timeout) as r:
+        return json.load(r)
+
+try:
+    get("/health", timeout=2)
+except Exception:
+    print("Baseline API not up on :8765 - load/ACWR/trend skipped (snapshot above is authoritative).")
+    print("Start it: launchctl load ~/Library/LaunchAgents/com.hwl.baseline-api.plist")
+    raise SystemExit(0)
+
+def i(v):
+    return str(int(v)) if isinstance(v, (int, float)) else "-"
+
+def r2(v):
+    return f"{v:.2f}" if isinstance(v, (int, float)) else "-"
+
+try:
+    today = get("/today")
+    tr = get("/training")
+
+    print(f"Weekly load: {i(tr.get('weeklyLoad'))}   ACWR {r2(tr.get('acwr'))} ({tr.get('acwrLabel') or '-'})")
+    extra = f"VO2max:      {i(tr.get('vo2Max'))}   Acute load {i(today.get('acuteLoad'))}"
+    if today.get("bodyBattery") is not None:
+        extra += f"   Body battery {i(today.get('bodyBattery'))}"
+    if tr.get("recoveryTimeHours") is not None:
+        extra += f"   Recovery {i(tr.get('recoveryTimeHours'))}h"
+    print(extra)
+
+    def trend(metric, label):
+        vals = [r["value"] for r in get(f"/series?metric={metric}&days=8")][-7:]
+        if not vals:
+            print(f"{label}: -"); return
+        latest = vals[-1]
+        prior = vals[:-1] or vals
+        avg = sum(prior) / len(prior)
+        arrow = "->" if abs(latest - avg) <= avg * 0.03 else ("up" if latest > avg else "down")
+        nums = " ".join(i(v) for v in vals)
+        print(f"{label}: {nums}  (latest {i(latest)} vs 6d avg {avg:.0f} {arrow})")
+
+    trend("hrv", "HRV 7d  ")
+    trend("restingHR", "RHR 7d  ")
+
+    sessions = tr.get("sessions") or []
+    if sessions:
+        print("Recent sessions:")
+        for s in sessions[:4]:
+            dist = s.get("distanceKm")
+            dist_s = f"{dist:g}km " if dist else ""
+            print(f"  {s.get('dateLabel','?'):>7}  {(s.get('type') or '?'):<9} {dist_s}load {i(s.get('load'))}")
+except Exception as e:
+    print(f"Baseline API enrichment error: {e} (snapshot above is still authoritative).")
+PYAPI
+
+echo
 echo "== Body composition (Renpho -> Apple Health CSV) =="
 
 latest() {

@@ -1,18 +1,18 @@
 {
-  "date": "2026-06-28",
-  "pulled_at": "2026-06-28T14:00:07.766532",
+  "date": "2026-06-29",
+  "pulled_at": "2026-06-29T14:00:05.069829",
   "source": "garmin-forerunner-265",
-  "resting_hr": 49,
-  "steps": 5256,
-  "stress_avg": 18,
-  "body_battery_high": 87,
-  "body_battery_low": 10,
+  "resting_hr": 46,
+  "steps": 15,
+  "stress_avg": -1,
+  "body_battery_high": null,
+  "body_battery_low": null,
   "sleep_hours": 7.5,
   "sleep_score": 91,
   "sleep_date": "2026-06-28",
   "hrv_avg_last_night": 63,
   "hrv_status": "BALANCED",
   "hrv_date": "2026-06-28",
-  "training_readiness": 41,
-  "training_readiness_level": "LOW"
+  "training_readiness": 62,
+  "training_readiness_level": "MODERATE"
 }

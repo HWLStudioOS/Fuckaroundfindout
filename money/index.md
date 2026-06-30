@@ -49,7 +49,23 @@ Decisions captured in `SESSION_LOG.md` at project root.
 
 > Auto-updated by weekly-cfo agent (Friday 16:00 once wired).
 
-### 26 June 2026 — thin month-end trough, tax ahead, savings move in motion
+### 30 June 2026 — all invoices out, bridge does not arrive in time
+
+**From Harrison:** all invoices sent Monday 29 Jun. **£6,350 owing total**, breaking as:
+- **LOR ~£1,350 — one month overdue.** Only overdue line, most chaseable. Firm chase today.
+- **BaW £1,500 — due end of this week.**
+- **Creepers £3,500 — due end of this week.**
+
+**The problem:** the 26 Jun cash-sequence watch assumed Creepers £3,500 lands before 1 Jul as the bridge. It does not — Creepers is due end of week. So **nothing clears before the 1-2 Jul outgoings**. Starling £1,183 vs ~£3,747 out (joint £2,200 + salary £1,047.50 on 1 Jul, ISA £500 on 2 Jul). Shortfall ~£2,564.
+
+**Outgoings, by hardness:**
+- Joint £2,200 (1 Jul) — hard external commitment to household.
+- Salary £1,047.50 (1 Jul) — to self via payroll, can flex/delay.
+- ISA £500 (2 Jul) — discretionary, defer one month, no consequence.
+
+**Move (recommended):** defer ISA £500, hold or delay own salary, bridge ~£1,000-1,500 from tax reserve £8,160 → Starling to cover the joint £2,200. Refill the reserve when Creepers + BaW land end of week. Same pattern as the 1 June bridge. Note: a growing slice of the reserve is HMRC's VAT/CT money, so this is a short-dated bridge to unwind by Friday, not headroom.
+
+
 
 **Position (real numbers from Harrison):** Cash (Starling main) £1,183. Tax + CT reserve £8,159.76 (~£8,132 per Harrison). Total Starling £9,343. The receipt that landed overnight 25 Jun was **Kerri/LOR INV-0392 (£3,885)** — the 27-day-outstanding receivable, now **SETTLED**. Chase closed, no longer awaiting. £2,000 of it swept to tax (reserve £6,882 → £8,159.76).
 

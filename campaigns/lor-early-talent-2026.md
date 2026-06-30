@@ -4,13 +4,13 @@ Campaign architecture, content matrix, timeline, pricing. Built from the 20 May 
 
 ## Live state
 
-> Manually corrected by Harrison 2026-06-25. Authoritative. This is the #1 focus, ahead of the retainer.
+> Manually corrected by Harrison 2026-06-25. Updated post-call 2026-06-30. Authoritative. This is the #1 focus, ahead of the retainer.
 
 ```
-Last action: Harrison spoke with Kerri (last week and again this week). She is across it. Now waiting on Early Talent confirmation from LOR.
-Next move: HOLD for ET confirmation. Kerri already engaged, no chase needed. This is the active priority once confirmed.
-Blocker: LOR-side Early Talent confirmation.
-Status: live and on track. Kerri spoken to twice, awaiting ET go-ahead. Do NOT push "chase Kerri" — she already knows, the ball is on LOR's side.
+Last action: Kerri/Harrison call 30 Jun. Warm, low-pressure, no chase needed. People team reviewing the strategy doc this coming Monday. Early Talent team response due before next Tuesday's call. AS next round "coming soon", remaining AS content still sitting ready to post. Kerri's new hire starts August. Back half of the year = "go go go".
+Next move: HOLD for ET confirmation, now dated (People team Mon, ET team response by next Tue's call). Bring to next Tue: AS next round + the queued remaining AS content, and frame the ET campaign against the roadshow feedback ("not enough detail / no clear strategy") because that is exactly the gap the campaign fills.
+Blocker: LOR-side Early Talent confirmation (People team Mon, ET team by next Tue).
+Status: live, warm, on track. Summer lull, not a cooling client. Revenue loaded into the back half. Do NOT chase Kerri.
 ```
 
 Next Kerri/Harrison call: 9 June 16:00 (calendar confirmed). Quote and ghostwritten posts agenda items.
@@ -40,6 +40,7 @@ Full council ran on the master plan deck at 09:45, 75 min before the Kerri walkt
 - W22 milestone: strategy refresh confirmed with Emma, first shoot day booked. On track if quote sent before 9 June.
 - Last year benchmark: £12k / 3 months (Oct-Dec) / 2 shoots / rushed start mid-campaign.
 - This year: earlier engagement, 4-month active runway (Jun-Sep), broader content matrix, Emma actively planning.
+- 30 June 2026: Kerri call. Warm, no pressure, plan can flex ("loads of time"). People team review doc Mon, ET team response by next Tue's call. AS next round coming soon. Kerri's new hire starts Aug. Weekly cadence stays, next call Tue. Roadshow feedback = "not enough detail / no clear strategy", which the ET campaign directly answers.
 
 ## Brief (from 20 May Kerri call)
 

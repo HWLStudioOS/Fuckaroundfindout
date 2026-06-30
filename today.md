@@ -1,62 +1,62 @@
 ---
-date: 2026-06-29
+date: 2026-06-30
 generated: auto 06:30 BST
 ---
 
-# Today, Monday 29 June 2026
+# Today, Tuesday 30 June 2026
 
 ## Pulse
 
-Taper Week 2, 12 days to RTTS 50K (Sat 11 Jul). The last big fitness deposit landed Saturday: 18.5km, 27 PRs. Today is easy running at 17:00 and real work before it. Three things anchor the morning: the new-client campaign day-one (09:30 calendar hold, deploy Diagnosis + send warm asks), Cathal at 11:30, and Kerri call prep before tomorrow's 16:00. Cash sits at Starling £1,183 against £3,747 going out Wednesday 1 July. Creepers £3,500 is the bridge, and the invoice status is unconfirmed. That gets sorted today.
+Taper Week 2, 11 days to RTTS 50K (Sat 11 Jul). Body holding: RHR 52 (slightly elevated vs last week's 46-50 band), readiness 76 HIGH, ACWR 0.95. The day has one immovable event: Kerri/Harrison ET catch-up at 16:00 Teams. Everything before it is about arriving ready. Cash note: all invoices went out Monday 29 Jun, £6,350 owing total (LOR ~£1,350 one month overdue; BaW £1,500 + Creepers £3,500 due end of this week). The Creepers bridge does NOT clear before 1 Jul, so the 1-2 Jul outgoings (~£3,747) run against Starling £1,183 with nothing landing in time. Needs a tax-reserve bridge + ISA deferral today, and a firm LOR overdue chase.
 
 ## Yesterday wrap
 
-Confirmed from log and Strava:
-- Landed: New-client campaign decomposed via /break-it (22:23 Sun), file at campaigns/new-client-2026-07.md, deadline 31 July, calendar hold set 09:30 today.
-- Landed: Rest day held. Sunday walk 2.7km (Strava 11:17).
+No completion signals in the log for any of Monday 29 June's five tasks. All carry as unconfirmed:
 
-Unconfirmed from Sunday's today.md (no completion signal in log, Linear, or accessible Gmail):
-- Creepers factual checks to Michael Buck (HWL-107): unconfirmed
-- Creepers June invoice (HWL-109): unconfirmed
-- Golf clubs breakup drafts (HWL-112): unconfirmed
-- Kerri call prep (HWL-113): unconfirmed
-- David delivery date (HWL-114): unconfirmed
+- Cathal check-in 11:30 (HWL-116): no Granola transcript, status unknown.
+- New client day-one (HWL-115): no log entry for deploy or warm asks.
+- Creepers June invoice (HWL-109): unconfirmed.
+- Golf clubs breakup drafts (HWL-112): campaign-chaser at 10:07 Mon showed both decisions still pending, no subsequent confirmation.
+- Kerri prep (HWL-113): moot, call is today.
 
 No Linear deltas overnight.
 
 ## Today
 
-- [ ] New client day-one: deploy Legibility Diagnosis (~/hwlstudio-site branch legibility-diagnosis, one deploy command, done = hwlstudio.com/#diagnosis returns 200) + name 10 warm targets and send 5 personal intro asks. Calendar hold 09:30. Both run before the Cathal call. Binding constraint for the 31 Jul close. <!-- campaigns/new-client-2026-07.md --> <!-- linear:HWL-115 -->
-- [ ] Cathal x Harrison check-in 11:30. BaW fortnightly catch-up. Confirm David's status on BaW clips and Creepers rough cut. Note any pipeline or guest flags. <!-- linear:HWL-116 -->
-- [ ] Kerri call prep (Tue 30 June 16:00): work through ET agenda in campaigns/lor-early-talent-2026.md. What has moved since 12 June, what is the ask. <!-- linear:HWL-113 -->
-- [ ] Creepers June invoice: confirm it went out post-content-plan agreement (9 June reset). If not, send it today. £3,500 must land before Wednesday 1 July or the standing orders bounce. <!-- linear:HWL-109 -->
-- [ ] Golf clubs: send the 6 breakup Gmail drafts (draft IDs in campaigns/golf-clubs.md). Subject "Last one from me". 10 days since Wave 1 kill on 19 June. <!-- linear:HWL-112 -->
+- [ ] Kerri/Harrison ET catch-up 16:00 (Teams). First real LOR touch since 23 June. Go in with the ET campaign state clear: what confirmation is still needed from LOR, what the PO/commissioning path looks like, what moved since the deck went in. Review `campaigns/lor-early-talent-2026.md` before the call. <!-- linear:HWL-113 -->
+- [ ] Cash sequence for 1-2 Jul: invoices all sent Mon, nothing lands before the £3,747 outgoings. Defer ISA £500 (2 Jul), bridge ~£1,000-1,500 from tax reserve to cover joint £2,200 (1 Jul), refill when Creepers/BaW land end of week. <!-- linear:HWL-109 -->
+- [ ] LOR ~£1,350 invoice one month overdue: send a firm chase today. This is the only overdue line and the most chaseable cash. <!-- linear:HWL-109 -->
+- [ ] New client campaign: deploy Legibility Diagnosis (~/hwlstudio-site branch legibility-diagnosis) and send 5 warm asks. Day 2 of 31 Jul deadline. Binding constraint is a qualified call booked. <!-- campaigns/new-client-2026-07.md --> <!-- linear:HWL-115 -->
+- [ ] Golf clubs: send or delete the 6 breakup Gmail drafts (IDs in campaigns/golf-clubs.md). Day 11 today, in the Telegram bracket. Make the call today. <!-- linear:HWL-112 -->
+- [ ] Fazila chase: no reply since 26 Jun email. One email. VAT stagger dates + Shawbrook/HTB savings account. <!-- linear:HWL-117 -->
 
 ## Awaiting response
 
-- Fazila (Litchfields): savings account (Shawbrook/HTB) + VAT stagger dates + cash accounting scheme election. Email sent 26 Jun. Chase today if still silent.
-- Creepers £3,500: if invoice confirmed out, chase Anna today. Must land before Wednesday 1 July.
-- Michael Buck (Creepers): two factual checks (exact RHS award wording for Addleshaw Goddard garden, correct name for Baz Grainger's garden). WhatsApp anytime. Hero film blocked until both answered. <!-- linear:HWL-107 -->
-- David (PH editor): rough-cut status on Creepers hero film + BaW edits. Surface through Cathal at 11:30.
+- LOR: ~£1,350 invoice one month overdue (sent again Mon). Firm chase today, the only overdue receivable.
+- Anna Blake (Creepers): £3,500 invoice sent Mon, payment due end of week. No chase needed yet, watch it lands by Fri.
+- BaW: £1,500 invoice sent Mon, due end of week.
+- Fazila (Litchfields): VAT + savings reply. Chase today.
+- Michael Buck (Creepers): two factual checks (RHS award wording + Baz Grainger garden name). Hero film blocked until answered. <!-- linear:HWL-107 -->
+- David (PH editor): rough-cut status on Creepers hero film + BaW edits.
 
 ## In flight
 
-- LOR ET 2026: Kerri call Tue 30 June 16:00. Prep today.
-- Creepers hero film: David delivery date unconfirmed. Michael Buck factual checks open.
-- BaW: Cathal check-in 11:30 today.
-- New client campaign: day-one tasks (deploy + warm asks). Next milestone 5 personal asks by Wed 1 Jul. Deadline 31 Jul.
-- Golf clubs: Wave 2 timing decision pending post-breakup.
-- VAT registration: with Fazila, threshold exceeded (~£94-95k per CFO 26 Jun).
-- Cash squeeze: Starling £1,183 vs £3,747 going out 1 Jul. Creepers invoice is the fix.
+- LOR ET 2026: Kerri call 16:00 today. LOR-side ET confirmation is still the gating blocker.
+- Creepers hero film: Michael Buck factual checks open. David delivery date unconfirmed.
+- BaW: Cathal call status unconfirmed from Monday.
+- New client campaign: day 2. Next milestone = 5 warm asks sent, first call booked. Deadline 31 Jul.
+- Golf clubs: Wave 2 timing decision pending post-breakup send/delete.
+- VAT registration: with Fazila, threshold exceeded (~£94-95k).
+- Cash squeeze: Starling £1,183 vs ~£3,747 going out 1-2 Jul (joint £2,200 + salary £1,047.50 Wed 1 Jul, ISA £500 Thu 2 Jul). All £6,350 receivables sent Mon but none clear before the outgoings: LOR ~£1,350 overdue, BaW £1,500 + Creepers £3,500 due end of week. Shortfall ~£2,564 against hard outgoings. Bridge from tax reserve £8,160 + defer ISA, refill end of week.
 - Baseline iOS app: own build, ongoing.
 
 ## Standing
 
-- Body: 86.9 kg (29 Apr, stale, re-export from iPhone when you get a chance). RHR 49 bpm (28 Jun). HRV 63ms BALANCED. Sleep 7.5h, score 91 (last night). Watch did not sync this morning, force-sync via Garmin Connect app.
-- Training: W25 Taper Week 2. 12 days to RTTS 50K (Sat 11 Jul). Today: Easy 9.1km + strides, 17:00. Keep it easy, stay in Z1-2.
-- Money: Starling £1,183. Tax reserve £8,160. ~£3,747 going out 1-2 Jul (joint £2,200 + salary £1,047.50 Wed 1 Jul, ISA £500 Thu 2 Jul). Creepers £3,500 is the bridge. Fazila silent.
-- Clients: LOR Kerri call Tue 16:00, ET focus. Creepers invoice unconfirmed. BaW Cathal 11:30 today.
+- Body: 86.9 kg (stale, 29 Apr). RHR 52 bpm (slightly elevated vs 6d avg 48). HRV 66ms (weekly avg). Readiness 76 HIGH. ACWR 0.95.
+- Training: W25 Taper Week 2. 11 days to RTTS 50K (Sat 11 Jul). Today: Strength A + AM fasted easy (taper DOUBLE day, tendon/eccentric focus). Tomorrow: Easy 9.1km + strides, 17:00.
+- Money: Starling £1,183. Tax reserve £8,160. ~£3,747 going out 1-2 Jul, nothing lands in time. £6,350 owed (LOR ~£1,350 overdue, BaW £1,500 + Creepers £3,500 due end of week). Bridge from reserve + defer ISA. Fazila silent.
+- Clients: LOR Kerri call 16:00 today. Creepers invoice urgent. BaW Cathal status unknown.
 
 ## Lens
 
-The new-client deadline moved from today to 31 July last night. That bought time, not permission to slow down. You have zero qualified conversations in the room right now, and the binding constraint is a call booked, not a campaign filed. The warm asks go out before the Cathal call. Not after dinner. Not tonight.
+The Kerri call is nine hours away. Invoice sent, breakup decision made, warm asks out before 16:00. Then walk into that call knowing exactly what you need: ET confirmation, PO route named, next steps agreed. Not a check-in. A close.

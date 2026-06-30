@@ -1,3 +1,10 @@
+## 2026-06-30 evening
+- Shipped: Kerri/Harrison ET call 16:00 Teams (campaign file updated with outcome, warm call, plan on track, next Kerri call Tue)
+- Missed: unverifiable (cash bridge, LOR invoice chase, golf breakup decision, new client deploys + asks, Fazila all require hwlstudio.com email or phone; absence is not confirmation)
+- Training: unknown. Garmin pulled 14:00 BST, 594 steps by then, no activity logged yet. Afternoon and evening window unaccounted. Prescribed: Strength A + AM fasted easy (taper double day, tendon focus). Cannot confirm either way.
+- Campaigns moved: 1 (LOR ET: call landed warm, People team review strategy doc Monday, ET team response expected before next Tue call. Revenue loaded into back half. Hold, do not chase.)
+- Tomorrow's first action: Deploy Legibility Diagnosis to hwlstudio.com/#diagnosis (already built, one command) then name 10 warm targets and send first 5 asks. Day 2 of new client campaign.
+
 ## 2026-06-29 evening
 - Shipped: Cathal x Harrison check-in 12:00 (Granola confirmed), training logged (stair-stepper 10min, run 2km, weight training 20min, run 3.4km)
 - Missed: unverifiable (new client day-one tasks, Creepers invoice, golf breakup sends, Kerri prep all require hwlstudio.com email access or phone; absence is not confirmation)

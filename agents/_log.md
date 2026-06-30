@@ -173,3 +173,9 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 2026-06-29T06:31:00+01:00 | morning-brief-verify | sent msg_id=490, checked=19, corrected=1, Standing/Money ISA date wrong: brief said '£3,747 out Wed 1 Jul' (ISA £500 is Thu 2 Jul per money/index.md), corrected to '~£3,747 out 1-2 Jul (ISA £500 Thu 2 Jul)' in today.md + candidate
 - 2026-06-29 11:00  | health-sync | OK 2026-06-29: RHR 46, sleep 7.5h (score 91), HRV 63 BALANCED, readiness 59
 - 2026-06-29 14:00  | health-sync | OK 2026-06-29: RHR 46, sleep 7.5h (score 91), HRV 63 BALANCED, readiness 62
+- 2026-06-29 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-06-30 06:15  | health-sync | OK 2026-06-30: RHR 52, sleep Noneh (score None), HRV 66 WEEKLY_AVG, readiness 76
+2026-06-30T06:30:00+01:00 | morning-brief | drafted today.md + candidate, handed to verifier, sources=5/8 (health/garmin: RHR52/HRV66ms-WEEKLY_AVG/readiness76-HIGH/ACWR0.95; calendar: 2 events Tue-Wed (Kerri 16:00, run Wed 17:00); gmail: 0 tier-1 unread personal only; granola: 0 meetings; linear: 0 new deltas; strava: skipped; weight stale 29 Apr)
+2026-06-30T06:30:00+01:00 | morning-brief-verify | sent msg_id=494, checked=25, corrected=3: (1) RHR band corrected 46-49 to 46-50 (6d max is 50 per health data); (2) LOR touch date corrected 12 Jun to 23 Jun (authoritative LOR ET marker: Kerri spoken to twice, last time Dublin week ~23 Jun); (3) golf clubs day-11 framing corrected from "tomorrow tips into Telegram bracket" to "Day 11 today, in the Telegram bracket" (campaign-chaser 29 Jun said day 11 = today)
+- 2026-06-30 11:00  | health-sync | OK 2026-06-30: RHR 45, sleep 7.8h (score 92), HRV 57 BALANCED, readiness 92
+- 2026-06-30 14:00  | health-sync | OK 2026-06-30: RHR 45, sleep 7.8h (score 92), HRV 57 BALANCED, readiness 95

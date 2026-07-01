@@ -7,7 +7,7 @@ HWL Studio Limited. Sole director/shareholder. Started trading 29 August 2025.
 - Salary £1,047.50/month (utilises personal allowance)
 - Dividends ~£2,000/month
 - 25% tax reserve on all revenue (raised from 20% per Litchfields 11 May)
-- Not VAT-registered yet. Current 12-month turnover ~£75k of £90k threshold. Hit expected June per Litchfields 11 May.
+- VAT: threshold EXCEEDED (~£94-95k rolling 12-month, confirmed June 2026). Registration in progress with Fazila (Litchfields). Invoice "pending VAT registration" until the number lands. Cash Accounting Scheme election intended (slow payers).
 - BA Amex for business expenses (companion voucher target: £15,000 spend in membership year)
 - Cupra Leon Estate hybrid on business lease
 
@@ -26,7 +26,7 @@ HWL Studio Limited. Sole director/shareholder. Started trading 29 August 2025.
 | Laing O'Rourke | 7,000-10,000 | Active. Lumpy on AS payments. |
 | Creepers Nursery | 3,500 + Chelsea uplift in May | Reliable monthly. |
 | Better at Work | back this month after April skip | Hourly trial post-reset. Combined Creepers + BaW May ~£5,000 base. |
-| Colin Fisher |, | Off the board. |
+| Colin Fisher | 0 | Off the board. |
 | Golf Clubs | 0 (target 2,500-3,500 each) | Outreach campaign pre-launch. Drafts pending send. |
 
 ## Targets
@@ -47,7 +47,11 @@ Decisions captured in `SESSION_LOG.md` at project root.
 
 ## Live state, last refreshed 26 June 2026 (from Harrison)
 
-> Auto-updated by weekly-cfo agent (Friday 16:00 once wired).
+> Hand-maintained by Harrison + sessions. The weekly-cfo agent writes `money/weekly.md`, not this file. Xero is not wired; nothing in this file updates automatically. (Header corrected 1 Jul 2026, it previously claimed auto-update that never existed.)
+
+### 1 July 2026 — outgoings cleared, running on fumes until Friday
+
+**Position (from Harrison, 1 Jul evening):** Cash (Starling main) £231.91. Tax + CT reserve £8,000. The 1 Jul outgoings are through. **£6,350 invoices landing this week:** LOR £1,350 (overdue, chase live), Creepers £3,500 + BaW £1,500 (both due Fri 4 Jul). Credit cards (Cap on Tap / Amex / Monzo) not due until 7-10 Jul, so the card claims sit behind Friday's receipts. Harrison's read: timing, not stress. Watch: if Creepers or BaW slip past Friday, the 7 Jul card date becomes the pinch. Refill the reserve slice used and resume ISA £500 when receipts land.
 
 ### 30 June 2026 — all invoices out, bridge does not arrive in time
 

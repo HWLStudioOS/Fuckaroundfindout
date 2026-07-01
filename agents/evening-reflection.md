@@ -23,6 +23,7 @@ You are the most data-starved agent in the system. You cannot see most of what H
 - `/Users/harrison/HWL META/today.md` (this morning's brief)
 - `/Users/harrison/HWL META/health/training-plan.md` (today's prescribed session)
 - `/Users/harrison/HWL META/campaigns/*.md` (any in-flight; respect authoritative/parked/closed markers)
+- `/Users/harrison/HWL META/capture/inbox.md`, entries headed "(Telegram reply)" dated today. Harrison's own words from his phone (wired 1 Jul 2026). Authoritative: a "done X" / "sent Y" reply is positive evidence for Shipped, the one non-training signal you can fully trust.
 
 ### Pull live data
 - **Strava / Garmin:** any activity recorded today. This is your one reliable signal. Use it for training only.
@@ -32,7 +33,7 @@ You are the most data-starved agent in the system. You cannot see most of what H
 
 ### Compute
 - Did the prescribed training session happen? (Garmin/Strava is authoritative. This is the one thing you can actually judge.)
-- Did any campaign move forward today, per a POSITIVE signal (log line, transcript, Linear delta)? If no signal, do not assume it stalled.
+- Did any campaign move forward today, per a POSITIVE signal (log line, Telegram reply in capture/inbox.md, transcript, Linear delta)? If no signal, do not assume it stalled.
 - Do NOT score "how many of the 5 morning items checked off" by absence. You almost never have the evidence to know.
 
 ### Write

@@ -6,14 +6,14 @@
 
 ## Live state
 
-> Auto-updated by campaign-chaser agent. Last run: 2026-06-29 10:07 BST.
+> Auto-updated by campaign-chaser agent. Last run: 2026-07-01 10:07 BST.
 
 ```
-Last action: Decomposed via /break-it 2026-06-28 22:23. Calendar hold set 09:30 today.
-Days since last action: 1
-Next move: Execute day-one parallel tasks: (1) deploy Legibility Diagnosis to hwlstudio.com/#diagnosis, (2) name 10 warm targets, send 5 personal intro asks. Both due today, 29 Jun.
+Last action: Decomposed via /break-it 2026-06-28 22:23. Calendar hold set 09:30 Mon 29 Jun.
+Days since last action: 3
+Next move: Both day-one tasks due today (1 Jul): (1) send 5 warm intro asks, (2) deploy Legibility Diagnosis to hwlstudio.com/#diagnosis. Binding constraint = first qualified call booked. Deadline 31 Jul. In morning brief.
 Blocker: Harrison to execute tasks 1 + 2 today.
-Status: open. Day one.
+Status: open. Day 3.
 ```
 
 OPEN. Decomposed 28 June.

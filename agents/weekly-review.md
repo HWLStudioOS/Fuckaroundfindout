@@ -42,10 +42,20 @@ If a source is unreachable, note it and continue.
 - Campaigns: which moved forward, which stayed static, which need next-week action.
 - Standards check (codex H17): proactive communications sent? Late invoices followed up on schedule? Maya / Laurence touchpoints honoured?
 - **Ship shelf (Execution is the constraint).** For each item in `agents/_shelf.md`, compute age in days = today minus first-seen. Then check for a positive ship signal, and ONLY a positive signal:
-  - Curl the done-signal URL once: `curl -s -o /dev/null -w "%{http_code}" <url>`. If it returns `200`, the thing shipped. Move that item to the "Shipped / killed (history)" section of `_shelf.md` with the date, and celebrate it in the digest ("Shipped: Legibility Diagnosis, live after 13d").
-  - If the URL is not 200 (or unreachable), do NOT assert it was missed. Just age it. Absence of a 200 is not a confirmed miss, it is an un-confirmed ship.
-  - Harrison may also reply "shipped <item>" or "kill <item>"; treat that as authoritative, move the item to history.
+  - Run the item's done-signal check from `_shelf.md` exactly as written there. WARNING: a bare HTTP 200 is NOT a ship signal for an SPA route; any `/#hash` on a live SPA returns 200 (this false-greened Legibility Diagnosis on 1 Jul 2026). The signal must find the feature's actual content (grep the served HTML and its referenced JS bundle for the feature string). If the content check passes, the thing shipped: move the item to "Shipped / killed (history)" with the date and celebrate it in the digest ("Shipped: Legibility Diagnosis, live after 13d").
+  - If the check does not pass (or is unreachable), do NOT assert it was missed. Just age it. A failed check is an un-confirmed ship, not a confirmed miss.
+  - Harrison may also reply "shipped <item>" or "kill <item>" to the Telegram bot; those replies land in `capture/inbox.md` under "(Telegram reply)" headings. Treat them as authoritative, move the item to history.
   - Keep the cap at 3. Never add a prototype or an in-progress thing to the shelf yourself; that is a manual decision.
+
+### Process the capture inbox (H11: do the work, not just the count)
+
+Counting inbox items is not processing them. Actually drain `capture/inbox.md` per its own "How items get out" section:
+
+- Route each unprocessed item: tasks → `this-week.md` or archive; ideas → `content/pipeline.md` or `learning/recall-queue.md`; client items → `business/clients/*.md` or `campaigns/*.md`; money → `money/index.md`; health → `health/` notes.
+- Any item older than 14 days gets a decision this pass: moved, actioned, or archived with a one-line "logged → {where}" marker. No item rides the inbox into a third week.
+- Discovery-scan link drops (the Mon/Wed/Fri 5-item batches) older than 14 days that nobody promoted: flip their Status to archived in place. They are reference, not obligations.
+- "(Telegram reply)" entries: extract any done/shipped/kill claims into the relevant live-state files, then mark the entry actioned.
+- Report in the digest: "Inbox: {added} in, {processed} out, {n} remaining (oldest {date})".
 
 ### Write the week summary
 

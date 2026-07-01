@@ -77,13 +77,13 @@ The 28 Apr night-drafting-at-11:30pm-then-nothing pattern. Drafts sat. Either th
 
 ## Live state
 
-> Auto-updated by campaign-chaser agent. Last run: 2026-06-29 10:07 BST.
+> Auto-updated by campaign-chaser agent. Last run: 2026-07-01 10:07 BST.
 
 ```
 Last action: Wave 1 auto-killed 2026-06-19 (day 45). Breakup drafts staged, unsent.
-Days since last action: 10
-Next move: Two decisions still outstanding. (1) Send or delete the 6 breakup Gmail drafts (staged 9 June, still in Gmail). Today's today.md already has this on the task list. (2) Wave 2 timing: start now (summer window open) or park until September. Day 11 tomorrow tips this into Telegram decision bracket. Act today or expect a Telegram push on Wednesday's run.
-Blocker: Harrison decision on Wave 2 timing + breakup draft send/delete
+Days since last action: 12
+Next move: Decision overdue. Telegram push sent. (1) Send or delete the 6 breakup Gmail drafts (IDs in table below). (2) Wave 2 timing: start July or park September. Both Harrison decision today.
+Blocker: Harrison decision
 Status: killed. Wave 1 closed (1 St George's Hill Q2 2027 tickle, 6 auto-killed). Wave 2 not started.
 ```
 

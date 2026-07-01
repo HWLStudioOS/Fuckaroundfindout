@@ -60,7 +60,10 @@
       "Read(//Applications/Google Chrome.app/Contents/MacOS/**)",
       "Read(//Users/harrison/Library/Caches/ms-playwright/**)",
       "Read(//Users/harrison/.cache/**)",
-      "WebFetch(domain:addyosmani.com)"
+      "WebFetch(domain:addyosmani.com)",
+      "Skill(claude-api)",
+      "Read(//Users/harrison/Library/LaunchAgents/**)",
+      "Read(//Users/harrison/baseline/**)"
     ]
   }
 }

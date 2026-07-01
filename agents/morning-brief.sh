@@ -50,14 +50,14 @@ done
 
 NOW=$(date '+%A %d %B %Y at %H:%M %Z')
 
-# Run a prompt through Claude in print mode (Sonnet 4.6 for daemon work).
+# Run a prompt through Claude in print mode (Sonnet 5 for daemon work, upgraded 1 Jul 2026).
 # $1 = stage label for the stdout log header, $2 = full prompt text.
 run_stage () {
   {
     echo ""
     echo "=== morning-brief $1 at $(date) ==="
     echo "$2" | claude \
-      --model claude-sonnet-4-6 \
+      --model claude-sonnet-5 \
       --print \
       --permission-mode bypassPermissions \
       --add-dir "$HWL_META_DIR"

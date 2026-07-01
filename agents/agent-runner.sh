@@ -42,7 +42,7 @@ $(cat "$PROMPT_FILE")"
   echo ""
   echo "=== ${AGENT_NAME} run at $(date) ==="
   echo "$PROMPT" | claude \
-    --model claude-sonnet-4-6 \
+    --model claude-sonnet-5 \
     --print \
     --permission-mode bypassPermissions \
     --add-dir "$HWL_META_DIR"

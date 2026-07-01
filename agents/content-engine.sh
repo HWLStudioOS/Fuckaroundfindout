@@ -32,12 +32,12 @@ CRITICAL: NO EM DASHES. Replace any em dash with a comma, full stop, or rephrase
 
 $(cat "$PROMPT_FILE")"
 
-# Run Claude in print mode with Sonnet 4.6
+# Run Claude in print mode with Sonnet 5 (upgraded 1 Jul 2026)
 {
   echo ""
   echo "=== content-engine.sh run at $(date) ==="
   echo "$PROMPT" | claude \
-    --model claude-sonnet-4-6 \
+    --model claude-sonnet-5 \
     --print \
     --permission-mode bypassPermissions \
     --add-dir "$HWL_META_DIR"

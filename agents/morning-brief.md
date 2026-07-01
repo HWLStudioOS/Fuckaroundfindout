@@ -42,10 +42,11 @@ If a source is unreachable, note "skipped: <source>" at the end of the brief and
 The single most common failure of this brief is resurrecting tasks that are already done. The task store has no automatic completion signal: Harrison finishes work in the real world and in chat sessions, and that rarely gets ticked anywhere. So a carried-forward item is NOT evidence the task is still open. Before any item from yesterday's `today.md` survives into today's **Today** or **Awaiting response**, actively look for evidence it was completed:
 
 1. **`agents/_log.md`**, every line dated since yesterday's brief. `session-done` and other session entries routinely state completions in plain English ("HMRC paid", "golf killed", "Fazila replied", "Creepers chased and paid"). Treat these as authoritative.
-2. **`linear/_deltas.md`**, any issue flipped to Done or Canceled.
-3. **Gmail**, for any "send X" / "reply to Y" / "chase Z" task, search sent mail since the task appeared. If it went out, the send is done. A reply you are now waiting on is a NEW "Awaiting response" item, not the same open task.
-4. **Calendar**, a meeting that has already happened is not a future to-do.
-5. **The campaign files' "Live state" blocks are authoritative when marked.** If a `campaigns/*.md` Live state says "Manually corrected by Harrison", "Authoritative", `CLOSED`, or `PARKED`, that is ground truth. Do not re-open it, do not surface it as an open task, do not contradict it. A `CLOSED`/`PARKED`/delivered+paid campaign is NOT a miss.
+2. **`capture/inbox.md` entries headed "(Telegram reply)"**, dated since yesterday's brief. These are Harrison's own words sent to the bot from his phone (wired 1 Jul 2026 via `agents/telegram-inbound.py`). Same standing as `_log.md`: "done X", "sent Y", "paid Z" there closes the item. This is the one channel where Harrison can tell the daemons anything.
+3. **`linear/_deltas.md`**, any issue flipped to Done or Canceled.
+4. **Gmail**, for any "send X" / "reply to Y" / "chase Z" task, search sent mail since the task appeared. If it went out, the send is done. A reply you are now waiting on is a NEW "Awaiting response" item, not the same open task.
+5. **Calendar**, a meeting that has already happened is not a future to-do.
+6. **The campaign files' "Live state" blocks are authoritative when marked.** If a `campaigns/*.md` Live state says "Manually corrected by Harrison", "Authoritative", `CLOSED`, or `PARKED`, that is ground truth. Do not re-open it, do not surface it as an open task, do not contradict it. A `CLOSED`/`PARKED`/delivered+paid campaign is NOT a miss.
 
 ### The evidence rule (this is the #1 cause of wrong briefs, read it twice)
 
@@ -54,7 +55,7 @@ The single most common failure of this brief is resurrecting tasks that are alre
 - **NEVER write "NOT sent", "NOT done", "missed", or "no send evidence" for anything you cannot POSITIVELY confirm did not happen.** Not finding it is not confirming it.
 - **The connected Gmail MCP is Harrison's PERSONAL account (`harrison.living@gmail.com`). Every business/client email (Kerri, Korena, Sarah, Emma, Cathal, Anna, Rob, Creepers, BaW, LOR) goes from `harrison@hwlstudio.com`, which you CANNOT see.** Therefore the absence of a client email in the connected inbox tells you nothing. Do not assert a client email was not sent based on Gmail. Ever.
 - If you cannot verify, either leave the item out of "Yesterday wrap" entirely, or carry it tagged `(unverified)`, never as a stated miss.
-- A positive completion signal (a `_log.md` line, a Linear delta, an authoritative campaign-file marker) is the ONLY basis for declaring something done OR not done. No signal means unknown, not failed.
+- A positive completion signal (a `_log.md` line, a Telegram reply captured in `capture/inbox.md`, a Linear delta, an authoritative campaign-file marker) is the ONLY basis for declaring something done OR not done. No signal means unknown, not failed.
 
 For every item you judge complete:
 - Do NOT put it in Today.

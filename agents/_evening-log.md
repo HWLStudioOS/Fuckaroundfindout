@@ -1,3 +1,10 @@
+## 2026-07-01 evening
+- Shipped: Easy 10km morning run (07:21 BST, Strava confirmed, 10 PRs, W25 Taper Week 2 clean)
+- Missed: unverifiable (new client warm asks + Legibility Diagnosis deploy, golf breakup decision, cash bridge, LOR invoice chase, Fazila all require hwlstudio.com access or phone; absence is not confirmation)
+- Training: 10.0km vs 9.1km easy + strides prescribed. Done. Ran at 07:21 not 17:00, same session. 10 days to RTTS, taper holding.
+- Campaigns moved: 0 verifiable (LOR ET in hold, People team review Mon 6 Jul. No positive signal on golf, new client, or cash items today. Calendar shows Harrison in London 09:13-10:13.)
+- Tomorrow's first action: Send 5 warm intro asks for new client campaign (Day 4, binding constraint is first qualified call booked, deadline 31 Jul).
+
 ## 2026-06-30 evening
 - Shipped: Kerri/Harrison ET call 16:00 Teams (campaign file updated with outcome, warm call, plan on track, next Kerri call Tue)
 - Missed: unverifiable (cash bridge, LOR invoice chase, golf breakup decision, new client deploys + asks, Fazila all require hwlstudio.com email or phone; absence is not confirmation)

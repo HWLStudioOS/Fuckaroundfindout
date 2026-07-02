@@ -4,6 +4,15 @@ Project-root append-only session capture. New entries at the top.
 
 ---
 
+## [2026-07-02 08:28] — Baseline repo cloned to the MacBook
+<!-- written by: HWL-META session (MacBook) -->
+
+Short setup session. Cloned `HWLStudioOS/baseline` to `~/baseline` on the MacBook so Baseline work can happen from the laptop. On `main`, up to date with origin at commit 139d368 ("Design v3: four rooms, coach-forward, one instrument language"). Work on it in its own Claude session: `cd ~/baseline && claude`.
+
+**Note:** `overlays/maya-steel-vhs/` sits untracked in this repo (167MB, mostly a 4K mp4). Too big for GitHub, left uncommitted. Decide whether to move it out of the repo or gitignore it.
+
+---
+
 ## [2026-06-11 21:45] — Creepers first-principles day: deck teardown, 13-week calendar shipped as a live site, plan sent
 SESSLOG:2026-06-11 21:45
 <!-- written by: Harrisons-Mac-mini at 2026-06-11T21:47:19.569824 -->

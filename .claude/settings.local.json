@@ -67,7 +67,12 @@
       "Bash(git pull *)",
       "Bash(git add *)",
       "Bash(git stash *)",
-      "Bash(pm2 list *)"
+      "Bash(pm2 list *)",
+      "Bash(echo \"$\\(date '+%Y-%m-%dT%H:%M:%S%z'\\) | session | Session close \\(mini, Fable 5\\). Obsidian-competitor idea: Build Gate KEEP-SIMPLIFIED, scoped to 2-day vault-comes-alive mindmap prototype, w/c 13 Jul post-RTTS, spec/mindmap-prototype-2026-07-02.md. Success test = daily self-use + unprompted demo pull, both needed to reopen full product via Council.\")",
+      "Bash(git commit -m 'Session 2 Jul eve: obsidian idea gated, mindmap prototype scoped post-RTTS *)",
+      "Bash(git push *)",
+      "Bash(echo \"$\\(date +%Y-%m-%d\\),done,4,build-gate-session-2-decisions-1-followup\")",
+      "Bash(printf '\\\\033]0;[no-anchor] done\\\\007')"
     ]
   }
 }

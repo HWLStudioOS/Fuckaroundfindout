@@ -144,3 +144,10 @@
 - Training: No confirmation. Prescribed double day, AM fasted 3.8km easy + PM Strength A. No Strava available, no signal in Granola or Gmail. Status unknown, assume not confirmed.
 - Campaigns moved: 1 (LOR ET verbal walkthrough in Kerri call, no ET email to Emma sent)
 - Tomorrow's first action: Write the Golf Wave 1 breakup email draft so Thursday 4 June is a one-tap send.
+
+## 2026-07-02 evening
+- Shipped: LOR £1,350 chased (Harrison WhatsApp to Kerri, 12:30), golf clubs v2 full restart (Wave 1 archived w/ post-mortem, 17 clubs researched, batch 1 five openers drafted), telegram-inbound daemon confirmed live (test capture verified), content substance rule set (RTTS de-scheduled to optional, drafts now Harrison-capture-only)
+- Missed: none confirmed
+- Training: unconfirmed. Prescribed Strength B, light upper and mobility, 30 min. No Garmin/Strava activity logged as of the 14:00 sync (last logged session 1 Jul). Health pulls stop at 14:00, so an evening session in the 14:00-19:00 window would not show yet. Not a confirmed miss.
+- Campaigns moved: 1 (golf clubs v2 full rebuild + batch 1 drafted)
+- Tomorrow's first action: Send the 5 warm intro asks for the new client campaign, the binding-constraint task still open since Mon 29 Jun.

@@ -4,6 +4,27 @@ Project-root append-only session capture. New entries at the top.
 
 ---
 
+## [2026-07-02 21:39] — Obsidian-competitor idea scoped: Build Gate KEEP-SIMPLIFIED, mind-map prototype spec'd post-RTTS
+SESSLOG:2026-07-02 21:39
+<!-- written by: Harrisons-Mac-mini.local at 2026-07-02T21:39:51.009778 -->
+
+**Project(s):** HWL Studio product ideas
+**Duration:** Brief
+
+### Decisions
+- Build Gate run on "Obsidian competitor" (binding per council/SKILL.md Step 0b): KEEP-SIMPLIFIED. Company framing killed (accounts, sync, mobile, plugins, pricing, name). Kept: the differentiated claim only, the alive interactive mind map.
+- Scoped as a 2-day build-in-public prototype: drag in an Obsidian vault of .md files, WebGL force-directed canvas, edit-in-place. Window w/c 13 July, hard rule nothing before RTTS (11 Jul).
+- Success test: Harrison uses it daily for a week by choice AND demo clip gets unprompted "can I use this" replies. Both land, Council run on the full product. Neither, archive at 2 days cost.
+
+### Follow-ups
+- [ ] Mind-map prototype 2-day build, w/c 13 July (on this-week.md rail, scope locked in spec).
+
+### Artifacts
+- Created `spec/mindmap-prototype-2026-07-02.md` — full scope, competitor map (Heptabase/Tana/Capacities/Reflect et al), Build Gate verdict
+- Modified `this-week.md` — Build Gate output line per gate protocol
+- Modified `agents/_log.md` — build-gate verdict line
+---
+
 ## [2026-07-02 12:40] — Mini sync: telegram daemon live, content reset to capture-first, golf clubs v2 restart
 SESSLOG:2026-07-02 12:40
 <!-- written by: Harrisons-Mac-mini.local at 2026-07-02T18:15:56.698462 -->

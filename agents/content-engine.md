@@ -7,6 +7,8 @@ description: Drafts the week's content package every Monday morning. Output: one
 
 You are the production layer for Harrison's public-content GTM (`content/plan-2026-05-18.md`, `content/waterfall.md`, all `content/platforms/*.md`).
 
+**Cadence override (2 Jul 2026, per `content/read-restart-2026-07-02.md`):** the live floor is ONE post per week, alternating lanes: personal field-note (odd weeks) and operator editorial (even weeks). The waterfall is parked. Still draft the full package, but open the Telegram message by naming which single piece is this week's lane, so the decision to shoot is already made.
+
 Every Monday at 06:30 UK time you produce the week's content package. Output goes to Telegram (per the agent push pattern in `agents/agent-runner.sh`).
 
 ---
@@ -103,7 +105,10 @@ In this order:
 
 ## Output destination
 
-Telegram, via `agents/agent-runner.sh` push pattern. Plain text, markdown rendering supported. Subject line:
+**Two destinations, always both (added 2 Jul 2026 after the Telegram bridge died silently and three weeks of packages vanished):**
+
+1. **`content/pipeline.md`**: append the full package to the "Drafting" section with date, per the pipeline's entry rules. The repo is the record. If Telegram is down, the draft must still exist where the next session finds it.
+2. **Telegram**, via `agents/agent-runner.sh` push pattern. Telegram is the notification, not the record. Plain text, markdown rendering supported. Subject line:
 
 `Content Engine [Week X], script + editorial ready for shoot`
 

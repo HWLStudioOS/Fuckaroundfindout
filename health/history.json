@@ -1535,5 +1535,9 @@
     "hrvStatus": "BALANCED",
     "sleepHours": 7.4,
     "sleepScore": 92
+  },
+  {
+    "date": "2026-07-02",
+    "vo2Max": 45.0
   }
 ]

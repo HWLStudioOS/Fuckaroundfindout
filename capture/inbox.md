@@ -4,6 +4,12 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-07-02 11:46 (Telegram reply)
+- Test
+- Source: telegram reply (authoritative, Harrison's own words)
+- Tag: capture
+- Status: new
+
 ## 2026-07-01 14:07
 - **Claude Sonnet 5**, Anthropic. Launched June 30. This is the model now running Harrison's agent pipeline. 1M context, adaptive thinking on by default, near-Opus agentic performance at Sonnet pricing ($2/$10/MTok intro through 31 Aug, then $3/$15). Key watch: new tokenizer produces 1.0-1.35x more tokens than 4.6, check actual cost before September. Direct operational relevance to every agent in the stack. [https://www.anthropic.com/news/claude-sonnet-5]
 - **How to survive AI mass replacement (5 ingredients of success)**, Dan Koe, June 22. Agency, Taste, Persuasion, Persistence, Iteration. Koe's thesis: the moat is "unemployability" via building your own thing, choosing a medium with real feedback (content), and mastering either code or media. Strong structural mirror to Harrison's own positioning and the kind of content he should be writing rather than summarising. [https://letters.thedankoe.com/]

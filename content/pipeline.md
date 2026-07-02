@@ -4,14 +4,17 @@ Single trusted place for ideas → drafts → queue → published. The discovery
 
 ## Ideas (raw)
 
-- **Operator editorial: "My morning brief lied to me, and the second AI I hired caught it."** Hook: pattern 9 industry question. Format: LinkedIn editorial. Audience: B2B. Next action: draft after race arc ships. By: 20 Jul.
-- **Field-note: what the body does in the two weeks after a first ultra.** Hook: pattern 3 counterintuitive. Format: field-note reel. Audience: personal. Next action: draft in recovery week. By: 27 Jul.
-- **"You don't build a funnel, you build a world"** (content-engine package 15 Jun, never shot, Telegram ate it). Format: field-note + editorial. Audience: both. Next action: recover the draft from mini-side transcript or redraft, or kill. By: 20 Jul.
+Entries here are candidates, not assignments. Per the substance rule (2 Jul evening, `agents/content-engine.md`): nothing gets drafted until Harrison supplies or green-lights the substance in his own words.
+
+- **Operator editorial: "My morning brief lied to me, and the second AI I hired caught it."** Hook: pattern 9 industry question. Format: LinkedIn editorial. Audience: B2B. Next action: candidate for relaunch post, drafts when Harrison green-lights it or a capture of his covers it. By: open.
+- **Field-note: what the body does in the two weeks after a first ultra.** Hook: pattern 3 counterintuitive. Format: field-note reel. Audience: personal. Next action: only if post-race voice notes exist and Harrison wants it. By: open.
+- **"You don't build a funnel, you build a world"** (content-engine package 15 Jun, never shot, Telegram ate it; full draft recovered in `agents/_stdout.log`, 22 Jun run). Format: field-note + editorial. Audience: both. Next action: Harrison green-lights or kills. By: open.
+- **The Taper** (race arc 1/3, OPTIONAL, de-scheduled 2 Jul evening). Script done: `content/ideas/race-arc-rtts-50k.md`. Publishes only if Harrison chooses post-race. By: n/a.
+- **The Unforgiving Minute** (race arc 3/3, OPTIONAL, de-scheduled 2 Jul evening). Outline done, same file. Race-day capture Sat 11 Jul still recommended for personal record regardless. By: n/a.
 
 ## Drafting
 
-- **The Taper** (race arc 1/3). Field-note reel, personal. Script done: `content/ideas/race-arc-rtts-50k.md`. Next action: shoot this week, 30 min, taper mornings are free. By: Sun 5 Jul.
-- **The Unforgiving Minute** (race arc 3/3). Cinematic essay, personal. Outline done, same file. Next action: race-day capture Sat 11 Jul (shot list in file, confirm shooter by Fri), edit in recovery week. By: 17 Jul.
+(empty)
 
 ## Ready to post
 

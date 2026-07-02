@@ -18,9 +18,9 @@ cd "$HWL_META_DIR"
 
 NOW=$(date '+%A %d %B %Y at %H:%M %Z')
 
-PROMPT="It is now ${NOW}. You are the content-engine agent running unattended on Harrison's Mac Mini. Execute the workflow described below in full: read every context file listed in the agent prompt, find the strongest unposted idea in capture/inbox.md, draft this week's content package, push it to Telegram for Harrison to review.
+PROMPT="It is now ${NOW}. You are the content-engine agent running unattended on Harrison's Mac Mini. Execute the workflow described below in full: read every context file listed in the agent prompt, find the strongest Harrison-authored capture in capture/inbox.md (his own Telegram replies and voice-note transcripts, per the substance rule), draft this week's content package from his words, write it to content/pipeline.md, push it to Telegram for Harrison to review.
 
-If capture/inbox.md is empty or has fewer than 3 candidate ideas, send the inbox-dry message instead of inventing one.
+If there is no Harrison-authored capture from the past 7 days, send the one-line empty-bank message from the substance rule and stop. Article summaries and discovery-scan items are never substance.
 
 If a step fails, continue and surface the failure in the Telegram message. Do not exit early.
 
@@ -42,6 +42,10 @@ $(cat "$PROMPT_FILE")"
     --permission-mode bypassPermissions \
     --add-dir "$HWL_META_DIR"
 } >> "$STDOUT_LOG" 2>> "$STDERR_LOG"
+
+# Shell-side run record. The 22 and 29 Jun runs completed but the model skipped its
+# _log.md append, leaving zero evidence a run happened. This line is unconditional.
+echo "$(date '+%Y-%m-%dT%H:%M:%S%z') | content-engine | run completed (full output in _stdout.log; agent-written detail line above if present)" >> "$LOG_FILE"
 
 # Post-process: kill any em dashes that slipped through into files the agent typically writes
 for f in "$HWL_META_DIR/content/captions/this-week.md" \

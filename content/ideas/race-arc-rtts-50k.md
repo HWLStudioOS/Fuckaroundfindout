@@ -1,14 +1,16 @@
 ---
 generated: 2026-07-02
-type: content package, ready to shoot
-covers: the RTTS 50K relaunch arc (3 pieces)
-prior: content/read-restart-2026-07-02.md
+type: content package, OPTIONAL (publish decision post-race, no default)
+covers: the RTTS 50K arc (3 pieces), downgraded from relaunch vehicle 2 Jul evening
+prior: content/read-restart-2026-07-02.md (see amendment at top)
 race: Race to the Stones 50K, Saturday 11 July 2026
 ---
 
 # The Race Arc
 
-Three pieces. One field-note before, raw capture on the day, one cinematic after. This is the relaunch and the non-football travel test in one move.
+**Status (2 Jul evening): Harrison decided RTTS is not the relaunch vehicle. Nothing here is scheduled or owed.** Piece 2 (race-day capture) is still worth doing for his personal record, because a first ultra cannot be re-captured; the shot list stands as a guide, not a mandate. Pieces 1 and 3 publish only if Harrison chooses to after the race. The scripts below are kept as assets, nothing more.
+
+Three pieces. One field-note before, raw capture on the day, one cinematic after.
 
 ---
 

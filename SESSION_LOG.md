@@ -4,6 +4,46 @@ Project-root append-only session capture. New entries at the top.
 
 ---
 
+## [2026-07-02 12:40] — Mini sync: telegram daemon live, content reset to capture-first, golf clubs v2 restart
+SESSLOG:2026-07-02 12:40
+<!-- written by: Harrisons-Mac-mini.local at 2026-07-02T18:15:56.698462 -->
+
+**Project(s):** HWL META infra, Content, Golf clubs campaign, Money
+**Duration:** Extended
+
+### Decisions
+- Telegram inbound capture daemon LIVE: Harrison deleted the pm2 zombie (473k restarts), loaded com.hwl.telegram-inbound.plist, end-to-end verified (test reply captured to inbox + ack).
+- content-engine no-log mystery SOLVED: 22 + 29 Jun runs happened (full packages in agents/_stdout.log), the model just skipped its _log.md append. content-engine.sh now writes an unconditional shell-side run line.
+- Content direction reset (Harrison's call, "mostly 2 with a little 3"): RTTS de-scheduled from relaunch arc to optional; SUBSTANCE RULE live in agents/content-engine.md (drafts only from Harrison's own captures, article summaries are form-reference only, empty bank = one line and stop); content officially PARKED until inspo reappears; pipeline Drafting emptied.
+- Golf clubs v2 full restart (Harrison's call): Wave 1 archived with post-mortem (1/7 replied = the named-humans club; generic inboxes all ghosted), stale breakup drafts abandoned, 17 clubs re-researched via 2 agents, batch-1 five openers drafted.
+- LOR £1,350 chased by Harrison direct (WhatsApp to Kerri ~12:30). Legibility Diagnosis confirmed LIVE at hwlstudio.com (13 refs in prod bundle).
+
+### Open Questions
+- Batch-1 golf sends: awaiting Harrison's tap, drafts expire Fri 4 Jul.
+- Capture-layer build (voice-note transcription in telegram-inbound + Readwise X-bookmark pipe): agreed direction, needs Build Gate before building.
+- New-client campaign: 5 warm asks still unsent (only remaining day-one task).
+- Fazila savings-account/VAT-stagger follow-up still unconfirmed.
+
+### Follow-ups
+- [ ] Harrison taps (or edits) batch-1 golf openers in campaigns/golf-clubs.md, then stage as Gmail drafts (hwlstudio.com) and send. Expire 4 Jul.
+- [ ] Batch 2 prep: Addington + Hadley Wood contact digs, Berkshire re-route to Michael Newland, Blackheath needs a phone call for a name.
+- [ ] Build Gate on voice transcription + Readwise pipes.
+- [ ] Harrison: 2-min voice note to Telegram bot whenever something has charge (no deadline, feeds Monday's engine or it sends the empty-bank line).
+- [ ] Warm-asks shortlist (10 names) on request.
+
+### Artifacts
+- Modified `agents/content-engine.md` + `agents/content-engine.sh` — substance rule + unconditional log line
+- Modified `agents/_log.md` — merge conflict resolved (both machines), decision lines appended
+- Created `campaigns/golf-clubs.md` (v2) + `campaigns/golf-clubs-research-2026-07-02.md`; archived `campaigns/golf-clubs-2026-05-wave1-archive.md`
+- Modified `content/read-restart-2026-07-02.md` (amendment), `content/ideas/race-arc-rtts-50k.md` (optional), `content/pipeline.md`
+- Modified `today.md`, `money/index.md` — LOR chase + Diagnosis + golf restart recorded
+- Installed `~/Library/LaunchAgents/com.hwl.telegram-inbound.plist` (Harrison's hand)
+
+### Context
+Morning was MacBook (content restart read), afternoon mini. The system no longer assigns Harrison content substance; capture layer (voice + Readwise) is the agreed next build, gated. Golf v2 rule set: named humans only, drafts expire 48h, follow-ups are dated tasks. 18 Jul review question is now "did one post of Harrison's own substance ship."
+
+---
+
 ## [2026-07-02 08:28] — Baseline repo cloned to the MacBook
 <!-- written by: HWL-META session (MacBook) -->
 

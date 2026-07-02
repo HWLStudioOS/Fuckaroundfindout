@@ -23,15 +23,15 @@ No Linear deltas overnight.
 
 ## Today
 
-- [ ] LOR £1,350 chase. One month overdue, most chaseable receivable. Send a firm but light email today if not already sent. <!-- linear:HWL-109 -->
-- [ ] New client campaign: send the 5 warm intro asks and confirm the Legibility Diagnosis is live at hwlstudio.com/#diagnosis. Both day-one tasks are now overdue. Binding constraint is a qualified call booked by 31 Jul. <!-- linear:HWL-115 -->
-- [ ] Golf clubs: decide and act. Send or delete the 6 breakup drafts, call the Wave 2 timing. 13 days overdue, closing this stops it bleeding attention. <!-- linear:HWL-112 -->
+- [x] LOR £1,350 chase. DONE 2 Jul ~12:30: Harrison WhatsApped Kerri directly (his own report, authoritative). Await reply, no email needed. <!-- linear:HWL-109 -->
+- [ ] New client campaign: send the 5 warm intro asks. (Legibility Diagnosis CONFIRMED LIVE 2 Jul, verified in the production JS bundle at hwlstudio.com, so only the asks remain.) Binding constraint is a qualified call booked by 31 Jul. <!-- linear:HWL-115 -->
+- [x] Golf clubs: DECIDED 2 Jul. Full fresh restart on Harrison's call. Wave 1 archived (1/7 replied, the named-contacts club; generic inboxes all ghosted), stale breakup drafts abandoned, 2 research agents rebuilding the target list with named contacts + fresh hooks. New file: campaigns/golf-clubs.md (v2). <!-- linear:HWL-112 -->
 - [ ] Fazila: VAT registration submitted 30 Jun, awaiting HMRC approval, not silent (active exchange 29-30 Jun). Savings account/VAT stagger follow-up still unconfirmed either way. <!-- linear:HWL-117 -->
-- [ ] LOR prep for Tue 7 Jul call: line up the AS queued content and the ET-vs-roadshow-feedback framing ahead of the People team review Monday.
+- [ ] LOR prep for Tue 7 Jul call: line up the AS queued content and the ET-vs-roadshow-feedback framing ahead of the People team review Monday. <!-- linear:HWL-118 -->
 
 ## Awaiting response
 
-- LOR ~£1,350: one month overdue, chase today.
+- LOR ~£1,350: one month overdue. Chased 2 Jul via WhatsApp to Kerri (Harrison direct). Awaiting reply.
 - Creepers £3,500: due tomorrow, Fri 4 Jul.
 - BaW £1,500: due tomorrow, Fri 4 Jul.
 - Fazila (Litchfields): VAT registration submitted 30 Jun, awaiting HMRC approval. Savings account/stagger follow-up unconfirmed.

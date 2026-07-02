@@ -51,7 +51,7 @@ Decisions captured in `SESSION_LOG.md` at project root.
 
 ### 1 July 2026 — outgoings cleared, running on fumes until Friday
 
-**Position (from Harrison, 1 Jul evening):** Cash (Starling main) £231.91. Tax + CT reserve £8,000. The 1 Jul outgoings are through. **£6,350 invoices landing this week:** LOR £1,350 (overdue, chase live), Creepers £3,500 + BaW £1,500 (both due Fri 4 Jul). Credit cards (Cap on Tap / Amex / Monzo) not due until 7-10 Jul, so the card claims sit behind Friday's receipts. Harrison's read: timing, not stress. Watch: if Creepers or BaW slip past Friday, the 7 Jul card date becomes the pinch. Refill the reserve slice used and resume ISA £500 when receipts land.
+**Position (from Harrison, 1 Jul evening):** Cash (Starling main) £231.91. Tax + CT reserve £8,000. The 1 Jul outgoings are through. **£6,350 invoices landing this week:** LOR £1,350 (overdue, chased 2 Jul via WhatsApp to Kerri, Harrison direct), Creepers £3,500 + BaW £1,500 (both due Fri 4 Jul). Credit cards (Cap on Tap / Amex / Monzo) not due until 7-10 Jul, so the card claims sit behind Friday's receipts. Harrison's read: timing, not stress. Watch: if Creepers or BaW slip past Friday, the 7 Jul card date becomes the pinch. Refill the reserve slice used and resume ISA £500 when receipts land.
 
 ### 30 June 2026 — all invoices out, bridge does not arrive in time
 

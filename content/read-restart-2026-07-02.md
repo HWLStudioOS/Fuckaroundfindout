@@ -7,6 +7,16 @@ prior: content/read-kipling-arsenal-2026-06-02.md
 
 # Content read: the restart, 2 July 2026
 
+> **Amendment, 2 July evening (mini session). This supersedes "the race is the relaunch" below.**
+> Harrison read the morning version and called it: he doesn't want RTTS as the relaunch vehicle (and flagged a residual H8 undertow he owns). The structural error was the same one the capture diagnosis named an hour earlier: the system chose his substance for him. Corrections:
+>
+> 1. **RTTS is downgraded from arc to option.** Race-day capture (shot list in `content/ideas/race-arc-rtts-50k.md`) is still recommended because a first ultra cannot be re-captured, but it is for his personal record. Whether any of it publishes is his call after the race, with no default answer. The Taper and The Unforgiving Minute come off the schedule.
+> 2. **The system no longer assigns substance.** content-engine drafts only from Harrison's own captured words (Telegram replies, voice-note transcripts). If the bank is empty it sends one line and stops. See the substance rule in `agents/content-engine.md`.
+> 3. **The relaunch leans operator lane** because status risk is lowest where he has receipts, but only when he supplies the substance. Nothing is scheduled until a capture with charge exists.
+> 4. **18 July review question becomes:** did one post of Harrison's own substance ship. Not "did the arc ship."
+>
+> The floor (one post/week), the parked waterfall, the September audience call, and the plumbing fixes below all stand.
+
 The question Harrison asked: "I don't know where I need to take my personal content."
 
 ## The data since the last read

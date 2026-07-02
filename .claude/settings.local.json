@@ -63,7 +63,11 @@
       "WebFetch(domain:addyosmani.com)",
       "Skill(claude-api)",
       "Read(//Users/harrison/Library/LaunchAgents/**)",
-      "Read(//Users/harrison/baseline/**)"
+      "Read(//Users/harrison/baseline/**)",
+      "Bash(git pull *)",
+      "Bash(git add *)",
+      "Bash(git stash *)",
+      "Bash(pm2 list *)"
     ]
   }
 }

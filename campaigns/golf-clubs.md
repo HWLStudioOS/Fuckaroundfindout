@@ -1,170 +1,145 @@
-# Campaign, London Golf Club Outreach
+# Campaign, London Golf Clubs v2 (fresh restart)
 
-**Status:** active. Wave 1 of 7 sent 5 May 2026 (post council review). Awaiting reply. Wave 2 (11 emails) still to draft + send.
-**Pitch:** £2,500-3,500/month content retainer.
-**Approach:** observation-based opener + Creepers/LOR proof + one-shoot-day-per-month pitch + 3-email follow-up sequence.
+**Status:** research phase. Restarted from zero 2 Jul 2026 on Harrison's call. Wave 1 (May) archived at `campaigns/golf-clubs-2026-05-wave1-archive.md`, its stale drafts abandoned.
+**Pitch:** £2,500-3,500/month content retainer. One shoot day per month, full content system.
+**Positioning:** premium clubs with century-deep stories and 2015-grade content. Proof assets: Creepers RHS Chelsea 2026 (drone reel https://www.instagram.com/reel/DW7Gw9_DOym/), Laing O'Rourke, Creepers hero film when David delivers it.
 
----
+## What v2 does differently (from the Wave 1 post-mortem)
 
-## Why this campaign
+1. **Named humans only.** Wave 1's single reply came from the one club emailed at four named personal addresses. The six generic-inbox sends (info@/reception@/golf@) all ghosted. No send goes out without a named GM / Secretary / Marketing Manager on the To line. Generic inbox only ever as CC.
+2. **Drafts expire.** Any draft unsent 48h after Harrison sees it gets flagged by campaign-chaser as a decision, not carried silently. No more 9 June drafts dying in Gmail for three weeks.
+3. **Follow-ups are dated tasks in the live-state block**, so campaign-chaser can see and chase them. Wave 1's FU1/FU2 silently never fired.
+4. **Small waves.** 5 sends max per batch, next batch only after the previous one's day-5 follow-up has fired.
 
-Most premium London golf clubs have 100+ years of heritage, world-class facilities, and stories worth telling. Their content looks like it was made in 2015. HWL Studio builds content systems that make premium brands visible. One shoot day per month, full content system (social, video, brand storytelling), monthly retainer.
+## Sequence (unchanged from v1, the design was never the problem)
 
-## Top 15 targets (ranked by opportunity)
+- Opener: observation-based, specific to the club, Chelsea/LOR proof, one-shoot-day pitch, low-friction CTA.
+- Day 5: "quick thought", content notes, no strings.
+- Day 12: Chelsea example, Creepers case study.
+- Day 30: breakup.
+- Kill at day 45 silent. Any reply drops the club from the sequence.
 
-| # | Club | Area | Email | Instagram | Opportunity |
-|---|------|------|-------|-----------|-------------|
-| 1 | Sunningdale | Berkshire | info@sunningdale.com | None | World-class course, zero Instagram |
-| 2 | St George's Hill | Weybridge | admin@stgeorgeshillgolfclub.co.uk | Minimal | UK's wealthiest estate, barely visible |
-| 3 | Royal Wimbledon | SW19 | secretary@rwgc.co.uk | None | 3rd oldest in England (1865), no content |
-| 4 | Royal Blackheath | SE9 | info@rbgc.com | 2K | Oldest club in England (1608), 2K followers |
-| 5 | The Berkshire | Ascot | golf@theberkshire.co.uk | None | Two stunning courses, no public content |
-| 6 | The Wisley | Surrey | reception@thewisley.com | None | 700-member shareholder club, invisible |
-| 7 | Walton Heath | Surrey | reception@waltonheath.com | 7.6K | Hosted Ryder Cup, should be 50K+ |
-| 8 | Roehampton Club | SW15 | admin@roehamptonclub.co.uk | 2.7K | £3M refurb, only 2.7K followers |
-| 9 | Coombe Hill | Kingston | office@chgc.net | 2.9K | Est. 1911, affluent area, basic content |
-| 10 | Royal Mid-Surrey | Richmond | reception@rmsgc.co.uk | Minimal | Founded 1892, next to Kew Gardens |
-| 11 | Dulwich & Sydenham Hill | SE21 | info@dulwichgolf.co.uk | 589 | Beautiful setting, wealthy postcode |
-| 12 | Highgate | N6 | admin@highgategc.co.uk | Minimal | 1904, affluent North London |
-| 13 | Hadley Wood | Barnet | info@hadleywoodgc.com | 6.8K | Alister MacKenzie design |
-| 14 | Burhill | Walton-on-Thames | info@burhillgolf-club.co.uk | 4.6K | Georgian mansion, 36 holes |
-| 15 | The Richmond | Richmond | memberformarcomms@therichmondgolfclub.co.uk | Minimal | Has marketing contact |
+## Target list (researched 2 Jul 2026, full detail in `golf-clubs-research-2026-07-02.md`)
 
-## Email structure (drafted 16 Apr)
+| Rank | Club | Named human | Email | Hook | Score | Tier |
+|---|---|---|---|---|---|---|
+| 1 | Moor Park | Christopher Fitt, CEO | christopher.fitt@moorparkgc.co.uk GUESS (pattern confirmed) | Country Life "outrageous Baroque masterpiece" clubhouse; GM transition | 8 | **Batch 1** (re-approach, new person) |
+| 2 | Roehampton Club | Marc Newey, CEO | marc.newey@roehamptonclub.co.uk GUESS (pattern confirmed) | £10m refurb done Aug 2025 + Indoor Golf Centre planning win | 8 | **Batch 1** (re-approach, new person) |
+| 3 | Royal Mid-Surrey | Mark Gailey, GM | Mark@rmsgc.co.uk strong GUESS | 18 greens rebuilt to USGA spec, 7-year project complete | 8 | **Batch 1** (fresh) |
+| 4 | Dulwich & Sydenham Hill | Tony Martin, GM | secretary@dulwichgolf.co.uk CONFIRMED | Clubhouse teardown + rebuild in motion; 661 IG followers | 8 | **Batch 1** (fresh) |
+| 5 | Royal Wimbledon | Robert Brewer, GM/Secretary | secretary@rwgc.co.uk role alias (no emails published) | 8-year Mackenzie & Ebert renovation just complete, near-zero social | 8 | **Batch 1** (fresh) |
+| 6 | The Addington | TBD (owner Ryan Noades) | needs contacts dig | Celebrated CDP restoration, return to 1913 character | ~8 | Batch 2 lead (research contacts first) |
+| 7 | The Berkshire | Michael Newland, MD | michael@theberkshire.co.uk GUESS (pattern ~96%) | Clubhouse refit finished early 2025 | 6 | Batch 2 (content already competent; May send went to green-fee desk, never reached him) |
+| 8 | Hadley Wood | Jack Frances, Dir of Golf only | none published | MacKenzie restoration, full course opens spring 2026 | 6 | Batch 2 (needs GM name + email dig) |
+| 9 | West Hill | Patrick Dawson, Secretary | manager@westhill-golfclub.co.uk CONFIRMED alias | Centenary, redecorated clubhouse (not fresh) | 7→5 | Hold (same aliases already ignored May email) |
+| 10 | Coombe Hill | Colin Chapman CEO, Matt Jones GM | obfuscated, office@chgc.net only | none fresh | 7→5 | Hold (no reachable direct email, no hook) |
+| 11 | The Richmond | Frankie O'Donnell, Secretary | dual domains, unclear | none fresh (mansion is 2016) | 7→5 | Hold |
+| 12 | Highgate | Graham Stewart, GM | admin@ only | weak | 6→5 | Hold |
+| 13 | Royal Blackheath | NO NAME PUBLISHED | info@rbgc.com only | 1608 heritage (evergreen) | 6→4 | Blocked (phone call to find the human) |
+| 14 | The Buckinghamshire | Ben Ludwell, GM (verify) | unverified | £3m course upgrade 25-26 | 5 | Deprioritised (Arora Group corporate marketing) |
+| 15 | The Wisley | unverified CEO | reception@ only | 2025 clubhouse redesign | 5 | Deprioritised (already commissions agencies) |
+| 16 | Walton Heath | Alex Woodward, CEO | role aliases | M&E course restoration | 4 | Deprioritised (8k IG, championship media machine) |
+| 17 | Burhill | Wesley Cooper, interim GM | w.cooper@ GUESS | 2026-27 clubhouse redevelopment | 4 | Deprioritised (BGL group, interim GM) |
+| 18 | Sunningdale | Adam Walsh, GM | unverified | none (anti-publicity posture) | 4 | Long shot, not for cold email |
 
-**Subject:** your grounds, your content
+**Off the board:** St George's Hill. Polite no 5 May (course works from Aug 2026). Harrison reframed same day. **Tickle: Q2 2027** when works complete. Do not contact before.
 
-**Body shape:**
-- Observation-based opener (specific detail about the club)
-- Creepers/LOR proof point
-- One shoot day per month pitch
-- Low-friction CTA
+**Batch 1 rationale:** every send goes to a named human with the most reachable address we have, every opener hangs on a fresh, verifiable hook. Moor Park and Roehampton are re-approaches routed to the CEO instead of the inboxes that ignored May; openers do not reference the May email. Berkshire, Addington and Hadley Wood queue for batch 2 behind contact verification.
 
-> Full body text was drafted but lives in your old session log, not on disk. Pull it from Gmail drafts or rewrite. The 18 new drafts from your 28 Apr 23:30 claude.ai web session also need copying in.
+## Batch 1 openers (drafted 2 Jul, expire 4 Jul if unsent, per v2 rule 2)
 
-## Follow-up sequence
+Subject + body below, salutation-personalised, Chelsea reel as proof in all five. Send from harrison@hwlstudio.com, Superhuman sig applies on send.
 
-1. **Day 5: "quick thought"**, offer to send content notes, no strings
-2. **Day 15: "Chelsea example"**, Creepers case study
-3. **Day 29: "last one from me"**, breakup email
+### 1. Moor Park → Christopher Fitt (christopher.fitt@moorparkgc.co.uk, GUESS on confirmed pattern)
+Subject: Country Life called it outrageous
 
-## Cadence
+Hi Christopher,
 
-- Send 5 per day across 3 days (avoids batch suspicion)
-- Follow-up 1: 5 days later
-- Follow-up 2: 12 days later
-- Follow-up 3: 30 days later if still cold
-- Kill if no reply by day 45
+Country Life called your clubhouse "an outrageous Baroque masterpiece." The club's Instagram wouldn't tell you. That gap is the most fixable thing in golf content.
 
-## What the system does (when wired)
+I run HWL Studio. We build content systems for Laing O'Rourke and Creepers Nursery. This is what we made at RHS Chelsea in May: https://www.instagram.com/reel/DW7Gw9_DOym/
 
-- Tracks status per target (drafted / sent / replied / closed)
-- Schedules and queues follow-ups (after Harrison taps "go")
-- Surfaces replies in morning brief
-- Flags non-responses on day 5/12/30/45 for decision
-- If a club bites: drafts the meeting prep + shoot day proposal automatically
+One shoot day a month and Moor Park's content starts matching the building. Film, social, brand storytelling, all handled.
 
-## What Harrison does
+Happy to jump on a call if helpful. Or I'll come fly the drone over both courses and the mansion, no fees, the footage is yours either way.
 
-- Pulls the existing draft body (Gmail drafts or claude.ai web chat) and confirms voice
-- Approves the first send batch (one tap)
-- Decides on any reply that needs a real response
-- Books shoot day if any club bites
+Thanks H
 
-## Anti-pattern (avoid)
+### 2. Roehampton → Marc Newey (marc.newey@roehamptonclub.co.uk, GUESS on confirmed pattern)
+Subject: £10m of refurb, 2,800 followers
 
-The 28 Apr night-drafting-at-11:30pm-then-nothing pattern. Drafts sat. Either the system pushes you to send within 24-48 hours, or it stops drafting. No more 11:30pm bursts followed by 9 days of silence.
+Hi Marc,
+
+You've just finished a three-phase £10m refurbishment and won planning for the Indoor Golf Centre. The club's Instagram is at 2,800 followers. Almost nobody who isn't already a member has seen what you've built.
+
+I run HWL Studio. We build content systems for Laing O'Rourke and Creepers Nursery. This is what we made at RHS Chelsea in May: https://www.instagram.com/reel/DW7Gw9_DOym/
+
+One shoot day a month covers the new spaces, the Indoor Golf Centre as it goes up, and the Ladies' Open. A content system, not a camera for hire.
+
+Happy to jump on a call if helpful.
+
+Thanks H
+
+### 3. Royal Mid-Surrey → Mark Gailey (Mark@rmsgc.co.uk, strong GUESS)
+Subject: 18 new greens and barely a frame of it online
+
+Hi Mark,
+
+Seven years rebuilding every green on the J.H. Taylor to USGA spec, and there's barely a frame of it online. For a Royal club sat next to Kew Gardens, that's a strange kind of quiet.
+
+I run HWL Studio. We build content systems for Laing O'Rourke and Creepers Nursery. This is what we made at RHS Chelsea in May: https://www.instagram.com/reel/DW7Gw9_DOym/
+
+One shoot day a month: the course story, the heritage, the events calendar. You approve everything before it goes anywhere.
+
+Happy to jump on a call if helpful. Or I'll come film the Taylor course at first light, no fees, the footage is yours either way.
+
+Thanks H
+
+### 4. Dulwich & Sydenham Hill → Tony Martin (secretary@dulwichgolf.co.uk, CONFIRMED)
+Subject: Film the old clubhouse before it goes
+
+Hi Tony,
+
+You're planning to take down and rebuild the clubhouse. That's a once-in-a-century story, and the moment demolition starts, the before is gone for good.
+
+I run HWL Studio. We build content systems for Laing O'Rourke and Creepers Nursery. This is what we made at RHS Chelsea in May: https://www.instagram.com/reel/DW7Gw9_DOym/
+
+I'd document the whole arc. The last seasons of the old building, the build, the opening. Plus the everyday content system around it, one shoot day a month.
+
+Happy to jump on a call if helpful.
+
+Thanks H
+
+### 5. Royal Wimbledon → Robert Brewer (secretary@rwgc.co.uk role alias, no emails published)
+Subject: Eight years of work deserves a record
+
+Hi Robert,
+
+Eight years of renovation with Mackenzie & Ebert, just finished, and there's almost no footage of it anywhere. Even a club that prefers to stay quiet deserves a record of work like that.
+
+I run HWL Studio. We build content systems for Laing O'Rourke and Creepers Nursery. This is what we made at RHS Chelsea in May: https://www.instagram.com/reel/DW7Gw9_DOym/
+
+One shoot day a month, or just the renovation reveal as a one-off film. Whatever fits how private the club wants to stay.
+
+Happy to jump on a call if helpful.
+
+Thanks H
 
 ## Live state
 
-> Auto-updated by campaign-chaser agent. Last run: 2026-07-01 10:07 BST.
+> Auto-updated by campaign-chaser agent.
 
 ```
-Last action: Wave 1 auto-killed 2026-06-19 (day 45). Breakup drafts staged, unsent.
-Days since last action: 12
-Next move: Decision overdue. Telegram push sent. (1) Send or delete the 6 breakup Gmail drafts (IDs in table below). (2) Wave 2 timing: start July or park September. Both Harrison decision today.
-Blocker: Harrison decision
-Status: killed. Wave 1 closed (1 St George's Hill Q2 2027 tickle, 6 auto-killed). Wave 2 not started.
+Last action: 2026-07-02 research complete (17 clubs + tier-2), ranked table built, batch-1 five openers drafted, awaiting Harrison's tap.
+Days since last action: 0
+Next move: Harrison approves/edits batch-1 copy, then stage as Gmail drafts (hwlstudio.com) and send. Drafts expire 4 Jul unsent. On send: FU1 due day 5, FU2 day 12, breakup day 30, kill day 45.
+Blocker: Harrison tap on batch-1 copy
+Status: active. Nothing sent in v2 yet.
 ```
 
-### Breakup drafts created 9 June 2026 (Gmail draft IDs)
+## What Harrison does
 
-Subject for all: **Last one from me**. Body = the staged breakup (below), "Sent via Superhuman" sig line dropped since send client is TBD. Salutation personalised.
-
-| Club | To | Salutation | Gmail draft ID |
-|---|---|---|---|
-| Royal Blackheath | info@rbgc.com | Hi there | r8755045735626457929 |
-| The Berkshire | golf@theberkshire.co.uk | Hi there | r7149295376597731450 |
-| Roehampton | helen.bolt@roehamptonclub.co.uk | Hi Helen | r4515102137834898869 |
-| Moor Park | enquiries@moorparkgc.co.uk | Hi there | r8075870116807356729 |
-| The Buckinghamshire | reception@buckinghamshiregc.com | Hi there | r-6137691220078604536 |
-| West Hill | secretary@westhill-golfclub.co.uk | Hi there | r-258583439434359669 |
-
-### Pipeline failure note
-
-FU1 ("quick thought", due 11 May) and FU2 ("Chelsea example", due 18 May) were not sent. The agent-runner quoting bug was active through 2 June. Royal Blackheath, Berkshire, Roehampton, Moor Park, Buckinghamshire, West Hill have had zero follow-up in 29 days.
-
-### Day 30 breakup draft (staged, Harrison decision to send)
-
-Six emails. Same body, personalise salutation only. Subject: **Last one from me**
-
-> Hi [Name],
->
-> Last one from me on this. Entirely understand if the timing isn't right.
->
-> If content does become a priority, HWL Studio builds systems worth the investment. Recent work at RHS Chelsea is a decent reference for quality: https://www.instagram.com/reel/DW7Gw9_DOym/
->
-> Thanks for taking the time.
->
-> H
->
-> Harrison Living
-> Founder
-> +447761835304
->
-> Sent via Superhuman
-
-**Targets:**
-1. Royal Blackheath: info@rbgc.com
-2. The Berkshire: golf@theberkshire.co.uk
-3. Roehampton: helen.bolt@roehamptonclub.co.uk
-4. Moor Park: enquiries@moorparkgc.co.uk
-5. The Buckinghamshire: reception@buckinghamshiregc.com
-6. West Hill: secretary@westhill-golfclub.co.uk
-
-**Alternative (Option B):** Send a condensed FU1+FU2 instead ("quick thought" + Chelsea example) and hold breakup for 7-10 days. Cleaner sequence but delays closure.
-
-**Wave 2 (11 emails):** Not started. Drafting requires the original email body (retrieve from Gmail drafts or rewrite). No blocker on this once Day 30 decision is made.
-
-## Wave 1 sent log (5 May 2026)
-
-| # | Club | To | Subject |
-|---|------|----|---------|
-| 1 | St George's Hill | Secretary@stgeorgeshillgolfclub.co.uk | Colt's Red and Elite Golf Days |
-| 2 | Royal Blackheath | info@rbgc.com | The 1608 medal and Eltham Lodge weddings |
-| 3 | The Berkshire | golf@theberkshire.co.uk | 6/6/6 and the turf transformation |
-| 4 | Roehampton | helen.bolt@roehamptonclub.co.uk | The £3M refurb and four function rooms |
-| 5 | Moor Park | enquiries@moorparkgc.co.uk | Two Colt courses and the 17th-century mansion |
-| 6 | The Buckinghamshire | reception@buckinghamshiregc.com | The LET and Denham Court |
-| 7 | West Hill | secretary@westhill-golfclub.co.uk | Braid's archive and Father & Son |
-
-Drone offer: free flyover, no fees, yours to keep. Proof asset: Creepers Chelsea drone reel (https://www.instagram.com/reel/DW7Gw9_DOym/).
-
-## Follow-up trigger dates (cold-only, sent 5 May 2026)
-
-- **Day 5 ("quick thought" / content notes):** triggers Sun 10 May, send Mon 11 May (Sunday bad for B2B)
-- **Day 12 ("Chelsea example" / Creepers case study):** triggers Sun 17 May, send Mon 18 May
-- **Day 30 ("last one from me" / breakup):** triggers Thu 4 June
-- **Kill if no reply:** Fri 19 June (day 45)
-
-If any club replies before a trigger, drop it from that follow-up batch.
-
-## Wave 1 reply log
-
-| # | Club | Replied | From | Response | Action |
-|---|------|---------|------|----------|--------|
-| 1 | St George's Hill | 5 May 2026 (same day) | Tristan McIllroy, Club Operations Manager | Polite no on course footage. Significant programme of course works from Aug 2026, Red Course out for several months, then Blue 9 the year after. Door left open: "once the works are fully complete, it may well be more suitable." | Harrison sent reframe reply same day: documentary build through the renovation as a finite project + Elite Golf Days as non-course sub-brand that doesn't depend on course-in-play. Drop from day-5/12/30 cold sequence. **Tickle for re-engage: Q2 2027** when works complete. |
-
-## Tier 2-4 (not in top 15, researched)
-
-Queenwood (ultra-exclusive), Wentworth (well-resourced), Swinley Forest (low-profile by design), London Golf Club (13K followers, investing already), Hampstead (9-hole, smaller budget), Sundridge Park, Foxhills (has PR agency), The Addington, Wimbledon Common, Mill Hill, Muswell Hill, Enfield, North Middlesex, West Kent, Tandridge, Fulwell, Bush Hill Park.
+- Approves the ranked batch-1 five (one tap).
+- Approves each send batch (one tap, sends stay gated).
+- Decides on any reply that needs a real response.
+- Books shoot day if a club bites.

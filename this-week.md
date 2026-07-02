@@ -59,7 +59,7 @@ Taper Week 2. 13 days to RTTS 50K. Cash bridge before 1 July. Two client calls a
 - Personal content: zero posts for 3+ weeks. No manufactured post this week. But one field note, if something genuine from the Cathal/Kerri calls or race prep, would close the pattern.
 - Capture inbox: do NOT add more items without draining some. Pick three items from the inbox this week and action, archive, or route them.
 - Substack: still not started. Not this week (too close to race). Set a date for the week after RTTS.
-- [ ] Mind-map notes prototype (Obsidian idea, 2 Jul): passed Build Gate as KEEP-SIMPLIFIED. 2-day build-in-public prototype, w/c 13 July, not before. Scope locked in spec/mindmap-prototype-2026-07-02.md.
+- [ ] Mind-map notes app, codename **patronus** (Obsidian idea, 2 Jul): Harrison overrode the gate same evening. Product from day 1, nights-and-weekends build starting now. Repo + full writeup at `~/patronus`. Rule set by Harrison: it's Thursday-night fun, costs the taper nothing. <!-- linear:HWL-119 -->
 
 ### Health / Training W25 (Taper Week 2)
 

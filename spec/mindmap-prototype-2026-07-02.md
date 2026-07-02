@@ -1,5 +1,7 @@
 # Mind-map notes prototype (the "Obsidian competitor" idea)
 
+> **SUPERSEDED 2 July 2026 (evening).** Harrison overrode the gate the same day: product from day 1, build starts immediately as a nights-and-weekends project. Codename **patronus**, repo at `~/patronus` (VISION / PRODUCT / MARKET / TECH / ROADMAP). The gamification wedge (living graph, progression, shareable summons, quests) is the core of the new writeup. This file stays as the record of the original gate run. The 2-day prototype scope below survives inside `~/patronus/ROADMAP.md` as v0.
+
 Captured 2 July 2026. Idea from Harrison: build an Obsidian competitor. Easier to use, UI 1000% cleaner, much more fun and interactive mind map. Build Gate run same day per council/SKILL.md Step 0b.
 
 ## Build Gate

@@ -4,6 +4,16 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-07-03 14:07
+- **Why the tech industry can't keep up with the AI backlash**, Casey Newton / Platformer, 1 Jul. AI's job, inflation, and data-centre externalities are outrunning the industry's ability to manage the backlash. Altman is now publicly calling for international AI safety coordination. Direct read on how to frame AI capability with clients who are nervous about it. [https://www.platformer.news/ai-backlash-data-centers-jobs-inflation/]
+- **Claude Code Dynamic Workflows go GA**, Anthropic, 1-2 Jul. Multi-agent orchestration (up to 1,000 parallel subagents) is now live on every paid plan, triggered by the word "ultracode" or asking Claude to build a workflow. This is the exact orchestration layer behind this agent's own tooling, worth knowing what's now on tap for bigger jobs. [https://www.techtimes.com/articles/319532/20260702/claude-code-dynamic-workflows-go-ga-pro-users-can-now-spawn-1000-parallel-agents.htm]
+- **Chronotype, time-extension self-efficacy, and workplace helping behaviour**, Organizational Behavior and Human Decision Processes / phys.org, 2 Jul. Whether you're a morning person or night owl predicts confidence about stretching your day, which predicts how often you help colleagues, and that confidence is malleable with a simple recall exercise. Clean mechanism, ready-made BaW pitch. [https://phys.org/news/2026-07-hour-day-employee-biological-clocks.html]
+- **Hormann Street**, Hormann UK, 2 Jul. Five 30-second soap-style episodes shot in two days to sell composite doors to homeowners, a follow-up to a campaign that lifted sales 35%. A construction-adjacent manufacturer running exactly the humour-led, character-driven video play LOR positioning work keeps circling back to. [https://peopleinglazing.co.uk/hormann-uk-launches-hormann-street-social-media-campaign/]
+- **Relative Energy Deficiency in Sport (REDs) in Ultra-Trail Running**, Cureus, 3 Jul. Fresh review on how chronic low energy availability in ultra-trail athletes drives performance decline, injury, and long-term hormonal and bone damage. A different mechanism to the immune and glucose studies already logged, worth a skim before the RTTS 50K taper locks fuelling. [https://www.cureus.com/articles/503769-relative-energy-deficiency-in-sport-reds-in-ultra-trail-running-implications-for-performance-injury-and-long-term-health]
+- Source: discovery-scan
+- Tag: learning
+- Status: new
+
 ## 2026-07-02 11:46 (Telegram reply)
 - Test
 - Source: telegram reply (authoritative, Harrison's own words)

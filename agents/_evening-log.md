@@ -151,3 +151,10 @@
 - Training: unconfirmed. Prescribed Strength B, light upper and mobility, 30 min. No Garmin/Strava activity logged as of the 14:00 sync (last logged session 1 Jul). Health pulls stop at 14:00, so an evening session in the 14:00-19:00 window would not show yet. Not a confirmed miss.
 - Campaigns moved: 1 (golf clubs v2 full rebuild + batch 1 drafted)
 - Tomorrow's first action: Send the 5 warm intro asks for the new client campaign, the binding-constraint task still open since Mon 29 Jun.
+
+## 2026-07-03 evening
+- Shipped: morning brief + verifier ran clean (26 checks, 4 corrections caught before send), weekly CFO report filed (Cap on Tap DD £2,424.95 due Mon 6 Jul flagged against £231.91 known cash), discovery scan posted (5 items, 1 book auto-approved to orders)
+- Missed: none confirmed
+- Training: full rest day, correctly no session prescribed. Garmin shows only normal daily movement (5,946 steps, RHR 46, readiness 68 MODERATE). Nothing to score.
+- Campaigns moved: 0 verifiable (golf clubs v2 batch-1 still unsent, expires tomorrow 4 Jul per the 48h rule; new client campaign's 5 warm asks still unsent, day 5; LOR/Creepers/BaW all in hold or no new signal. No Telegram reply, Linear delta, or Granola filing today confirms movement either way, so these stay carried, not scored as misses.)
+- Tomorrow's first action: Send or approve the five golf clubs v2 batch-1 openers before the 48h window closes end of day, the exact pattern that killed Wave 1.

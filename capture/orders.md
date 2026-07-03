@@ -10,6 +10,9 @@ Format per entry:
 
 ---
 
+## 2026-07-03
+- **Faster. Messier. Tougher.** (~£24), Bradley Akubuiro / Entrepreneur Books. Boeing's chief spokesperson during the 737 MAX crisis on why the old crisis playbook now accelerates disaster, and why authenticity beats perfection. Direct strategic-communications reference for client positioning work. Published 7 Apr. [https://www.simonandschuster.net/books/Faster-Messier-Tougher/Bradley-Akubuiro/9798897010417]. Status: auto-approved.
+
 ## 2026-06-26
 - **Life at the Speed of Play** (~£22), Mark Pincus / Portfolio. Zynga founder on "Proven, Better, New" for sizing your next move, building culture, and why constrained ambition compounds faster. Released 23 Jun. [https://www.amazon.co.uk/s?k=life+at+the+speed+of+play+mark+pincus]. Status: auto-approved.
 

@@ -4,6 +4,31 @@ Project-root append-only session capture. New entries at the top.
 
 ---
 
+## [2026-07-03 12:06] — Patronus: gate overridden, product spun up, core mechanic locked, v1 built
+SESSLOG:2026-07-03 12:06
+<!-- written by: Harrisons-Mac-mini.local at 2026-07-03T12:07:28.192521 -->
+
+**Project(s):** patronus (~/patronus), HWL META
+**Duration:** Brief (high density)
+
+### Decisions
+- Harrison overrode the 2 Jul Build Gate the same evening: patronus is **product from day 1**, nights-and-weekends build starting immediately. Supersedes the KEEP-SIMPLIFIED / post-RTTS verdict (banner added to spec/mindmap-prototype-2026-07-02.md).
+- His standing rule, captured to memory: never gate fun evening builds behind race/taper logic. "You are a builder. Like me. So build."
+- Core mechanic locked (Harrison's expansion): the graph starts as mist and an **earned creature-form emerges** from reading structure, substance, behaviour, vitality. Formation stages, reveal with a reading, daimon (teaching) mode, diegetic no-HUD principle. Form is earned, never chosen, made of the user's own nodes.
+- All four gamification layers in scope. "Patronus" is WB/Rowling IP: codename only, shipping-name candidates parked (Daimon, Eidolon, Anima).
+
+### Follow-ups
+- [ ] Play and verify the v1 build (Harrison shipped v1 overnight 3 Jul in a separate session: living graph, vault drag-in, mist, 48-form derivation, reveal + reading, daimon mode, summon films, 355 tests)
+- [ ] Reading truth-test on Harrison's own vault: does the reading make him feel seen (v0.5 exit test)
+- [ ] First build-in-public clip from his own vault (feeds the content engine, passes the substance rule)
+- [ ] Shipping name decision deferred to v1 launch prep
+
+### Artifacts
+- Created `~/patronus` repo: PATRONUS.md (heart doc), README, VISION, PRODUCT, MARKET, TECH, ROADMAP. Two session commits, then Harrison's v1 build commits overnight.
+- Modified `spec/mindmap-prototype-2026-07-02.md` (superseded banner) and `this-week.md` (HWL-119 line), swept into nightly backup commit 51488ee.
+- Memory: `project-patronus-app.md` (new + updated), `feedback-dont-gate-fun-builds.md` (new), MEMORY.md index lines.
+---
+
 ## [2026-07-02 21:39] — Obsidian-competitor idea scoped: Build Gate KEEP-SIMPLIFIED, mind-map prototype spec'd post-RTTS
 SESSLOG:2026-07-02 21:39
 <!-- written by: Harrisons-Mac-mini.local at 2026-07-02T21:39:51.009778 -->

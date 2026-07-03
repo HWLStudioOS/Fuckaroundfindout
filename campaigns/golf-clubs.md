@@ -131,10 +131,10 @@ Thanks H
 
 ```
 Last action: 2026-07-02 research complete (17 clubs + tier-2), ranked table built, batch-1 five openers drafted, awaiting Harrison's tap.
-Days since last action: 0
-Next move: Harrison approves/edits batch-1 copy, then stage as Gmail drafts (hwlstudio.com) and send. Drafts expire 4 Jul unsent. On send: FU1 due day 5, FU2 day 12, breakup day 30, kill day 45.
+Days since last action: 1
+Next move: Harrison approves/edits batch-1 copy, then stage as Gmail drafts (hwlstudio.com) and send. Drafts expire 4 Jul (tomorrow) unsent, per v2 48h rule, the exact failure mode Wave 1 died from. On send: FU1 due day 5, FU2 day 12, breakup day 30, kill day 45.
 Blocker: Harrison tap on batch-1 copy
-Status: active. Nothing sent in v2 yet.
+Status: active. Nothing sent in v2 yet. Gmail confirmed (2026-07-03): zero sends, zero replies from any batch-1 club.
 ```
 
 ## What Harrison does

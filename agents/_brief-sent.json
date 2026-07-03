@@ -1,1 +1,11 @@
-{ "ts": "2026-07-02T06:40:00+01:00", "msg_id": 498, "claims_checked": 26, "corrections": [ "Fazila/VAT false negative: today.md claimed Fazila reply chase silent 6 days / no reply since 26 Jun in Today #4, Awaiting response, In flight VAT line, and Yesterday wrap unverified list. Gmail evidence (business account, threads 19f126858f6fb3b2 and 19f17f08e5e8f36e) shows active exchange 29-30 Jun: Fazila confirmed turnover threshold query 29 Jun (Harrison replied same day), requested address history 30 Jun (Harrison replied same day), then confirmed VAT registration submitted effective 30 Jun, awaiting HMRC approval. Corrected all 4 locations in today.md to reflect registration submitted/awaiting HMRC, not silent. Savings account/VAT stagger sub-question left as genuinely unconfirmed (no thread found either way)." ] }
+{
+  "ts": "2026-07-03T06:50:21+01:00",
+  "msg_id": 501,
+  "claims_checked": 26,
+  "corrections": [
+    "Pulse/Yesterday wrap/Today/In flight/Standing/Lens: new client campaign day count stale at 'day 4' (unchanged from yesterday's brief), campaign file's own day-count and the 1 Jul->2 Jul increment confirm today is day 5, corrected 6 locations in today.md + 1 in candidate",
+    "Pulse + Yesterday wrap: LOR £1,350 WhatsApp chase to Kerri dated 'Wednesday'/'Wed afternoon', but _log.md session line and money/index.md both timestamp the chase 2026-07-02 (Thursday), corrected 2 locations in today.md",
+    "Standing: HRV 54ms reading labelled '(3 Jul...)' but read-health.sh flags HRV as '[from 2026-07-02, 1d old, watch not synced]', same staleness already correctly noted for the adjacent sleep figure, corrected to '(2 Jul reading, watch hasn't synced today...)' in today.md",
+    "Lens: golf clubs batch described as 'drafted two days ago' but batch-1 was drafted 2 Jul per golf-clubs.md and today is 3 Jul, one day, corrected to 'drafted yesterday' in today.md"
+  ]
+}

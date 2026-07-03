@@ -10,10 +10,10 @@
 
 ```
 Last action: Decomposed via /break-it 2026-06-28 22:23. Calendar hold set 09:30 Mon 29 Jun.
-Days since last action: 3
-Next move: Both day-one tasks due today (1 Jul): (1) send 5 warm intro asks, (2) deploy Legibility Diagnosis to hwlstudio.com/#diagnosis. Binding constraint = first qualified call booked. Deadline 31 Jul. In morning brief.
-Blocker: Harrison to execute tasks 1 + 2 today.
-Status: open. Day 3.
+Days since last action: 5
+Next move: Two day-one tasks now overdue, unstarted: (1) deploy Legibility Diagnosis to hwlstudio.com/#diagnosis, due Mon 29 Jun, 4 days overdue, confirmed not live (no "diagnosis"/"legibility" content on hwlstudio.com as of 2026-07-03); (2) send 5 warm intro asks, due Wed 1 Jul, 2 days overdue, confirmed zero sends in Gmail sent folder. Task 3 (LOR proof one-pager) nominally due "Fri 4 Jul" but that date is wrong, 4 Jul is a Saturday. Binding constraint = first qualified call booked by 31 Jul.
+Blocker: Harrison to execute tasks 1 + 2.
+Status: open. Day 5.
 ```
 
 OPEN. Decomposed 28 June.

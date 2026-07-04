@@ -210,3 +210,7 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 - 2026-07-03 14:00  | health-sync | OK 2026-07-03: RHR 46, sleep 7.0h (score 85), HRV 57 BALANCED, readiness 68
 2026-07-03 14:10 | discovery-scan | 5 items posted, 1 buyable queued
 2026-07-03T16:00:00+01:00 | weekly-cfo | w/c 29 Jun. Xero unreachable, no bank read access, built from Gmail + Harrison's 1 Jul note. Cash £231.91 (1 Jul, unconfirmed since). £6,350 expected (LOR £1,350 overdue ~34d/WhatsApp-chased 2 Jul, Creepers £3,500 + BaW £1,500 raised 29 Jun due this week), none confirmed landed via Gmail. Capital on Tap DD £2,424.95 due Mon 6 Jul exceeds known cash, 🔴 flagged. Soho House DD fixed (£162.50, 9 Jul, resolved from last week's overdue flag). VAT: registration submitted, effective 30 Jun, rolling revenue ~£93k confirmed by Fazila; any invoice from 30 Jun on must be VAT grossed-up pre-number. Tax reserve ~£8,000 vs £6k target. Monday action: check Starling AM, bridge Cap on Tap from reserve if short, VAT-uplift the LOR June comms invoice before sending. Telegram msg_id=505.
+- 2026-07-03 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-07-04 06:15  | health-sync | OK 2026-07-04: RHR 50, sleep 7.0h (score 85), HRV 57 BALANCED, readiness None
+- 2026-07-04 11:00  | health-sync | OK 2026-07-04: RHR 45, sleep 7.2h (score 83), HRV 61 BALANCED, readiness 64
+- 2026-07-04 14:00  | health-sync | OK 2026-07-04: RHR 45, sleep 7.2h (score 83), HRV 61 BALANCED, readiness 64

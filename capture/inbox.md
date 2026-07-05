@@ -4,6 +4,12 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-07-05 15:00 (Sunday session, window 2)
+- Watching Daniel Dalen. Harrison's own words: "don't know why I'm not just picking up the camera more and talking shit. Just like I've starting writing on the typewriter." Charge present. First entry in the substance bank since the 2 Jul rule went live. Candidate substance for the first non-football post, entirely his call. Typewriter writing is new and sticking, same mechanic as talk-to-camera: no edit layer, output exists the moment you stop.
+- Source: self, session (authoritative, Harrison's own words)
+- Tag: capture
+- Status: actioned 5 Jul (weekly review), routed to content/pipeline.md substance bank same day, sitting there now.
+
 ## 2026-07-03 14:07
 - **Why the tech industry can't keep up with the AI backlash**, Casey Newton / Platformer, 1 Jul. AI's job, inflation, and data-centre externalities are outrunning the industry's ability to manage the backlash. Altman is now publicly calling for international AI safety coordination. Direct read on how to frame AI capability with clients who are nervous about it. [https://www.platformer.news/ai-backlash-data-centers-jobs-inflation/]
 - **Claude Code Dynamic Workflows go GA**, Anthropic, 1-2 Jul. Multi-agent orchestration (up to 1,000 parallel subagents) is now live on every paid plan, triggered by the word "ultracode" or asking Claude to build a workflow. This is the exact orchestration layer behind this agent's own tooling, worth knowing what's now on tap for bigger jobs. [https://www.techtimes.com/articles/319532/20260702/claude-code-dynamic-workflows-go-ga-pro-users-can-now-spawn-1000-parallel-agents.htm]
@@ -18,7 +24,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - Test
 - Source: telegram reply (authoritative, Harrison's own words)
 - Tag: capture
-- Status: new
+- Status: actioned 5 Jul (weekly review), test message, nothing to extract, confirms the telegram-inbound capture pipeline is working.
 
 ## 2026-07-01 14:07
 - **Claude Sonnet 5**, Anthropic. Launched June 30. This is the model now running Harrison's agent pipeline. 1M context, adaptive thinking on by default, near-Opus agentic performance at Sonnet pricing ($2/$10/MTok intro through 31 Aug, then $3/$15). Key watch: new tokenizer produces 1.0-1.35x more tokens than 4.6, check actual cost before September. Direct operational relevance to every agent in the stack. [https://www.anthropic.com/news/claude-sonnet-5]
@@ -56,6 +62,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - **Sync mini's `~/creepers-content-calendar/` source with the new prod deploy.** The live site at creepers-content-calendar.vercel.app was redeployed from the laptop on 22 June with a new 4-posts-a-week calendar (52 grid posts, down from 73). The mini's source folder still has the old 73-post version. On return Thursday, either copy the new `index.html` from the Vercel deployment back into `~/creepers-content-calendar/`, or rebuild from `business/clients/creepers-calendar-2026-jun-sep.csv` (now updated to match) so the mini stays canonical. New strategy lives at `business/clients/creepers-content-strategy-2026-06-22.md`.
 - **Header copy on the deployed site is now inconsistent with the new cadence.** The green banner still reads "3 a week / 2 a week" and the meta counter shows 0 LinkedIn posts. Update the copy when redeploying from the mini Thursday, or sooner if Sarah-Louise asks.
 - **Vercel CLI installed on the laptop** (Homebrew). Logged in as harrison-7055 under harrison-living-s-projects. Project `creepers-content-calendar` linked from `/tmp/creepers-cal-deploy/`.
+- Status: still open 5 Jul (weekly review). Confirmed unresolved, not just stale: `~/creepers-content-calendar/index.html` on the mini is untouched since 11 June and still contains the old "3 a week / 2 a week" copy. 13 days since flagged, real drift between what's live and what the mini thinks is live. Low urgency (no client complaint) but a genuine outstanding sync task, not archived.
 
 ## 2026-06-19 14:07
 - **This founder isn't hiring junior engineers anymore**, Platformer/Casey Newton, 16 Jun. Replika and Wabi founder Eugenia Kuyda has stopped hiring junior engineers entirely because AI has closed the capability gap. Real operational decision from a founder, not a pundit's prediction. Direct ammo for Year One content and the one-person studio thesis. [https://www.platformer.news/this-founder-isnt-hiring-junior-engineers-anymore/]
@@ -63,6 +70,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - **57% of consumers boycott unempathetic companies**, Stanford/Jamil Zaki + Zurich Insurance, 16 Jun. YouGov survey co-anchored by Zaki (on BaW guest hit list) quantifies lost revenue from low empathy in business. Sharp stat that travels and anchors a BaW pitch or episode opener. [https://www.ad-hoc-news.de/boerse/news/ueberblick/nearly-three-in-five-consumers-boycott-unempathetic-companies-new/69556147]
 - **When connectivity depletes: enterprise social media kills work engagement**, Frontiers in Psychology, 18 Jun. Korean study, 200 office workers: Slack and Teams-style tools create interruption overload directly lowering engagement, separate from general wellbeing effects. Cleaner causal mechanism than most BaW sources. [https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1810219/full]
 - **Why limits are good for learning**, TES/David Epstein, 17 Jun. Extract from Inside the Box (already in orders). Constraints applied to four teaching and learning scenarios. Free read-in before the book arrives. [https://www.tes.com/magazine/teaching-learning/general/david-epstein-how-limits-help-us-learn]
+- Status: archived 5 Jul (weekly review), 16+ days, discovery-scan batch, nobody promoted any item. Reference only, per rule.
 
 ## 2026-06-15 14:07
 - **Creepers pulls out of Chelsea 2027**, HortWeek. Published today: Creepers has formally paused Chelsea show-garden supply, citing the RHS peat-free policy. Only 3 of their 23 suppliers were fully peat-free in 2026. They're going into R&D mode from September. Directly changes the Q3 Royal Thread content arc and the @creepersinstallation narrative. Worth a call to Creepers before you publish anything that positions them as Chelsea stalwarts. [https://www.hortweek.com/horticulture-supply-chain-strained-rhs-chelsea-peat-ban-creepers-pulls/article/1961544]
@@ -70,6 +78,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - **Fable 5, Anthropic Alignment, AI Tiers**, Stratechery. Thompson's read on the Fable 5 launch and what conservative safeguards plus tiered access (Mythos for government, Fable for public) signal about where AI infrastructure power is consolidating. The alignment framing is the interesting bit. [https://stratechery.com/2026/fable-5-anthropic-alignment-ai-tiers/]
 - **Return on Tokens (ROT)**, Not Boring (Markie Wagner). Argues tokenmaxxing never made sense and agents as improvising generalists are not the endgame. The right model is evolutionary software: tests, sticks, adapts. Sharp counter to current agent hype, directly relevant to how you think about your own OS pipeline. [https://www.notboring.co/p/return-on-tokens-rot]
 - **Glucose dynamics during ultramarathon running**, Frontiers in Sports and Active Living. CGM data shows a three-phase glucose pattern in ultras, with late-stage spikes that don't track carb intake or pace. Has direct implications for nutrition strategy in events over 100km, especially around the back half. Open access. [https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1843846/full]
+- Status: archived 5 Jul (weekly review), 20 days, discovery-scan batch, nobody promoted any item. Reference only, per rule.
 
 ## How items get in
 
@@ -108,24 +117,25 @@ After processing, items either move or get a single-line "logged → action take
 - **Glucose dynamics in ultramarathon running: three-phase CGM framework**, Frontiers in Sports, 28 May. Late-stage blood glucose elevations in ultras are not explained by carb intake or pace. Breaks the standard fuelling model, practical for anyone training long distance with a CGM. [https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1843846/full]
 - **Claude Code Workflows now in research preview**, Anthropic, 10 Jun. Multi-step agentic plans available to Max plan users. The next level above Harrison's existing scheduled scripts, worth trialling on the morning-brief flow. [https://platform.claude.com/docs/en/release-notes/overview]
 - **Work-hour shifts affect recovery far more than broad wellbeing**, PLOS One, 8 Jun. NZ longitudinal study, 24,579 adults, ML-adjusted: adding 10 hours/week clearly raises fatigue, removing 10 hours clearly reduces it. Most other wellbeing outcomes barely move. Stronger causal evidence than the usual correlation studies, good BaW source. [https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0350816]
+- Status: archived 5 Jul (weekly review), 23 days, discovery-scan batch, nobody promoted any item. Reference only, per rule.
 
 ## 2026-06-11 09:20
 - Create the Substack (the owned centre of the funnel; site's field-notes capture is built and waiting to be wired to it)
 - Source: self, during fable-vision website session
 - Tag: task
-- Status: new
+- Status: archived 5 Jul (weekly review), superseded by the 5 Jul content strategy rebuild (content/strategy.md). The two-engine system (YouTube + LinkedIn/X) has no Substack component; not carried forward unless Harrison re-raises it.
 
 ## 2026-06-11 09:20
 - Point LinkedIn (and all platform bios) at the one destination once the Substack exists, per funnel-strategy-2026-06-09
 - Source: self, during fable-vision website session
 - Tag: task
-- Status: new
+- Status: archived 5 Jul (weekly review), depends on the Substack item above, same supersession.
 
 ## 2026-06-11 09:20
 - Named bottleneck: actually creating content. The funnel front door is now built; the constraint is feed volume. Route through content/waterfall.md weekly rhythm.
 - Source: self, during fable-vision website session
 - Tag: idea
-- Status: new
+- Status: archived 5 Jul (weekly review), waterfall.md is dead per the 5 Jul rebuild; the diagnosis (feed volume is the constraint) is exactly what the new two-engine system with a fixed weekly slot was built to fix.
 
 
 ## 2026-06-10 14:07
@@ -133,6 +143,7 @@ After processing, items either move or get a single-line "logged → action take
 - **Claude Code's creator on the end of the software engineer**, Platformer / Casey Newton, 27 May. Boris Cherny (builder of Claude Code) says coding is effectively "solved," he hasn't written a line in six months, and the title "software engineer" starts disappearing by end of 2026. Hackathon winners were an electrician, a doctor, a carpenter. Maps straight to Harrison's Year One workshop content and the one-person studio thesis. [https://www.platformer.news/boris-cherny-interview-ai-jobs/]
 - **The Art of Ultrarunning**, Ian Sharman / Human Kinetics, releases 11 Jun. UK-born elite coach and multiple Western States winner on the mental, tactical, and longevity side of ultra distance: patience, discipline, pacing, what 200-mile racing adds to the frame. Practical coaching from someone who has run it at the sharp end. Queued to orders. [https://us.humankinetics.com/products/the-art-of-ultrarunning-epub]
 - **AI design backlash at Chelsea Flower Show 2026**, Greenhouse Management, 5 Jun. Three show gardens designed entirely via AI tool Spacelift; established Chelsea designers called it a "betrayal" of the RHS. Live debate about whether algorithmic design belongs at the most prestigious horticultural show in the world. Relevant intel for Creepers Q3 content positioning. [https://www.greenhousemag.com/article/rhs-chelsea-flower-show-2026-gardening-trends/]
+- Status: archived 5 Jul (weekly review), 25 days, discovery-scan batch, nobody promoted any item. Reference only, per rule.
 
 ## 2026-06-09 21:15
 - WORKSHOP FOLLOW-UPS owed to Year One (promised live on the call, debrief in `workshops/2026-06-09/debrief.md`):
@@ -141,7 +152,7 @@ After processing, items either move or get a single-line "logged → action take
   3. Standing offer: set Laurence + Sunny up with the system properly.
 - Source: self, 9 June workshop transcript.
 - Tag: task
-- Status: new
+- Status: actioned 5 Jul (weekly review), still owed, 26 days on. Carried into this-week.md Laurence/Year One section as a named overdue item rather than left to age quietly in the inbox. Harrison's own call was post-RTTS; that deferral stands, but it needs to actually happen the week after the race, not slip again.
 
 ## 2026-06-09 21:00
 - IDEAS banked from today's sessions, so the waterfall chamber is never empty again:
@@ -150,19 +161,19 @@ After processing, items either move or get a single-line "logged → action take
   3. **"Premium work dies when judged by the wrong metric"** — Creepers commissioned a brand-build, started grading it like a daily feed (scope/metric drift).
 - Source: self, 9 June workshop + client sessions.
 - Tag: idea
-- Status: new — promote one at Sunday review per content/waterfall.md
+- Status: actioned 5 Jul (weekly review), waterfall.md is dead, the "promote one at Sunday review" instruction no longer has a home to promote into. Idea 1 already sits in content/pipeline.md Ideas. Ideas 2-3 not promoted: under the 2 Jul substance rule the system doesn't originate content, only packages Harrison's own captured words, so these wait for him to re-say them in his own voice (camera or typewriter) if he wants them pursued.
 
 ## 2026-06-08 21:30
 - MONEY bottleneck (Harrison, EOD). LOR INV-0392 £3,885 (sent 29 May, 7-day terms) is OVERDUE and unpaid. This is the unlock: once LOR AP pays, cash frees up to draw more DLA (director's loan) and settle Maya £2,200 (owed since 1 June). Accountants / Fazila also silent on the VAT side. Actions: (1) chase LOR AP on INV-0392 (overdue, AP thread M-H4114/000024A, separate from Kerri so no volume issue), (2) nudge Fazila on VAT. Maya stays blocked until the LOR cash lands. Claude offered to stage the AP chase for the morning.
 - Source: Harrison, 8 June EOD.
 - Tag: money
-- Status: new
+- Status: archived 5 Jul (weekly review), resolved. INV-0392 settled 25 Jun (money/index.md). VAT registration now submitted, Fazila actively engaged (29-30 Jun thread). Overtaken by events, no standing action.
 
 ## 2026-06-08 15:35
 - CREEPERS value flare-up (Social Media WhatsApp group). Anna Blake: no @creepersnursery post since 18 May (3-week gap), "paying a lot and not seeing much", Rob disengaging and handing to Anna + Sarah, and ASKED FOR A REDUCTION ON THE NEXT INVOICE. Wants a Teams call with Sarah + Harrison, any day until 3pm. KEY: the June £3,500 retainer is NOT yet raised (money/weekly.md "raise w/c 9 June"), so HOLD it until after the call. Do not concede a discount over WhatsApp, a reduction is a Council/pricing decision (CLAUDE.md: no scope creep without repricing). Reply SENT 8 June: owned the comms gap, held the value line (no discount in writing), planted the two-tier scope point (premium brand-build vs daily feed), proposed a Wednesday ~11am call with Anna + Sarah, Rob invited for 15 min. Tuesday deliberately kept clear for the workshop + Kerri call.
 - Source: WhatsApp Social Media group, 8 June.
 - Tag: client
-- Status: actioned 8 June, reset call pending Wed. HARRISON'S DIAGNOSIS: lack of comms on his side + outdated expectations on Rob's side, i.e. Rob commissioned the premium brand-build but now measures it like a daily-feed contract, so his value yardstick drifted (scope drift, budget conversation runs UP not down). June £3,500 retainer still HELD until after the call. No call script wanted. Root cause of the gap: Chelsea press-pass failure (client-side) killed the planned post-show content + a fortnight reset, on top of 7 weeks of light Creepers attention while heads-down on LOR + workshop.
+- Status: archived 5 Jul (weekly review), fully resolved. Reset call happened 9 June (Anna + Sarah, Rob absent/delegated), account saved per business/clients/creepers.md: retainer kept flat, scope hybridised (brand + sales-supporting), fortnightly cadence agreed, content plan delivered. HARRISON'S DIAGNOSIS held: lack of comms on his side + outdated expectations on Rob's side (scope drift). No standing action remains from this thread.
 
 ## 2026-06-05 14:07
 - **How to turn your love for learning into a one-person business**, Dan Koe (future/proof, Jun 2). The one-person content-business architecture via learning loops, products as systems, and the Eden tool plus MCP shipping soon. Directly maps to HWL Studio content model. [https://letters.thedankoe.com/p/how-to-turn-your-love-for-learning]
@@ -170,6 +181,7 @@ After processing, items either move or get a single-line "logged → action take
 - **The Google Capital Company**, Stratechery / Ben Thompson (Jun 2). Google using $81bn cash pile plus debt capacity to fund AI infrastructure. The capital-allocation lens on who wins the AI race, not just the model race. [https://stratechery.com/2026/the-google-capital-company/]
 - **Inside the Box: How Constraints Make Us Better**, David Epstein (Pan Macmillan, May 7). NYT Bestseller. Third book from the Range author. Constraints drive creativity, innovation, and satisfaction, not freedom. Gladwell: "his best." Maps to bootstrapped studio economics and the HWL operating model. Queued to orders. [https://www.amazon.co.uk/Inside-Box-Constraints-Make-Better/dp/1035031752]
 - **Winning at Construction Recruitment in 2026**, Barbour ABI. Employer brand as competitive edge against tech and green energy. Strong intelligence read for LOR Early Talent campaign positioning before Kerri call 9 June. [https://barbour-abi.com/construction-recruitment-strategy-why-employer-branding-is-your-competitive-edge/]
+- Status: archived 5 Jul (weekly review), 30+ days, discovery-scan batch, nobody promoted any item. Reference only, per rule.
 
 ## 2026-06-08 08:00
 - SEND the LOR pre-read email to Kerri (kwarner@laingorourke.com). Draft parked in Gmail (id r-1533033892367660979): "Pre-read for Tuesday: Early Talent quote + AS posts". TRASH the older em-dash draft (id r3522311537399616712) first. Before sending: attach the ET plan + costed breakdown PDF, confirm AS shared-drive links land. Deliberately held from Friday 5 June to land the day before the 9 June 16:00 Kerri catch-up, not chased into her first week back from leave. No further WhatsApp before Tuesday.
@@ -182,19 +194,20 @@ After processing, items either move or get a single-line "logged → action take
 - **Glucose dynamics during ultramarathon running: a multi-phase framework**, Frontiers in Sports and Active Living (May 28). New CGM research: three-phase blood glucose model for 100+ mile racing. Late-stage spikes are not explained by carb intake. Inflammation reduces muscle glucose uptake in the back half. Practical intel for race nutrition planning. [https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1843846/full]
 - **The Nvidia AI PC, Project Solara, Microsoft AI**, Stratechery (Jun 3). Microsoft's secret Android-based AI agent device platform, plus seven in-house MAI models benchmarking against Claude Sonnet at 10x lower cost. Capital allocation shift away from OpenAI/Anthropic dependency. Fresh AI-agents track intel. [https://stratechery.com/2026/the-nvidia-ai-pc-project-solara-microsoft-ai/]
 - **Rabbit Hole #1105: Tim Ferriss, Nir Eyal, George Mack on AI and meaning**, Modern Wisdom (Jun 1). 148 minutes. Cherry-pick the memory science, meaning in the AI era, and religion resurgence segments. Nir Eyal is on the BaW guest list. [https://chriswillx.com/podcast/]
+- Status: archived 5 Jul (weekly review), 27 days, discovery-scan batch, nobody promoted any item. Reference only, per rule.
 - **Sarah Eberle's 'On the Edge' wins RHS Chelsea Garden of the Year**, The Dirt (May 19). Campaign to Protect Rural England garden: urban fringe as shared living landscape, 14th Chelsea Gold for Eberle. Useful Creepers context for the Q3 content arc pivot post-Royal Windsor. [https://thedirt.news/sarah-eberles-on-the-edge-wins-rhs-chelsea-garden-of-the-year/]
 
 ## 2026-06-02 22:30
 - Workshop production: run OBS through Google Meet for the 9 June live workshop and make the screen-share look polished/sexy (clean branded scenes, smooth switching, good cam + demo layout). Harrison's fresh-thoughts + setup session Wed/Thu.
 - Source: self, 2 June EOD.
 - Tag: task
-- Status: new
+- Status: archived 5 Jul (weekly review), moot. The 9 June workshop happened almost a month ago (see workshops/2026-06-09/final/).
 
 ## 2026-06-01 21:30
 - LOR Early Talent campaign: finish whole campaign idea + pricing + shipping. Working in Claude online. DUE before Kerri catch-up 4pm Tue 2 June. First-thing morning task.
 - Source: self, 1 June session.
 - Tag: client
-- Status: new
+- Status: archived 5 Jul (weekly review), moot, massively overtaken by events. ET confirmed go 9 June, quote landed, now in active production with shoot days approaching. See campaigns/lor-early-talent-2026.md.
 
 ## 2026-06-01 21:30
 - ASpec (Assembly Specialist) carousel + 2-3 ghostwritten posts to Kerri. Build here via Figma. GATED on Harrison attaching the ASpec plan/doc. For Kerri.
@@ -206,19 +219,19 @@ After processing, items either move or get a single-line "logged → action take
 - Content read: Kipling shipped flat (followers-only reach) vs Arsenal parade piece popping (~200k IG/24h, WhatsApp brand commented). Decide: re-push Kipling? how to bank Arsenal momentum? what's next in the wave?
 - Source: self, 1 June session.
 - Tag: idea
-- Status: new
+- Status: archived 5 Jul (weekly review), superseded by the 5 Jul content strategy rebuild. The whole content system (pillars, cadence, platform mechanics) was rebuilt from scratch; this specific read-and-decide is overtaken by that.
 
 ## 2026-06-01 21:30
 - Camera buy: spec Osmo Nano vs DJI Action 6 for run-and-gun on-job content. Business kit (>£500 capitalise). Buy Thursday when cash lands.
 - Source: self, 1 June session.
 - Tag: order
-- Status: new
+- Status: decision logged 5 Jul (weekly review), "when cash lands" never triggered, cash has stayed thin every week since. Deprioritised behind cash stabilisation rather than left to silently age; revisit when Starling holds a buffer above ~£3k. Not archived, it's still wanted, just not now.
 
 ## 2026-06-01 21:30
 - SSD ~£300, fresh storage (editing drive full). Business expense. Buy Thursday when cash lands.
 - Source: self, 1 June session.
 - Tag: order
-- Status: new
+- Status: decision logged 5 Jul (weekly review), same call as the camera buy above, bundled behind the same cash-buffer trigger.
 
 ## 2026-06-01 21:30
 - FINANCE tonight: pull £1,000 Tax+CT → Starling main, pay salary £1,047.50. Refill trigger logged in money/index.md, fires when Creepers £4,775 lands. Joint deferred to Maya this week.
@@ -230,7 +243,7 @@ After processing, items either move or get a single-line "logged → action take
 - Golf Wave 1 breakup draft (5 cold clubs). Deferred to Wed/Thu, ahead of Thursday 4 June trigger.
 - Source: self, 1 June session (reprioritised down).
 - Tag: task
-- Status: new
+- Status: archived 5 Jul (weekly review), superseded. Wave 1 fully killed and archived (`golf-clubs-2026-05-wave1-archive.md`), v2 restarted from zero 2 Jul with a fresh named-human target list.
 
 ## 2026-06-01 21:30
 - Workshop talking points spine (5 blocks: open, folder tour, engine firing, pattern, Q&A). Deferred to Wed/Thu. Year One session 9 June.
@@ -248,46 +261,50 @@ After processing, items either move or get a single-line "logged → action take
 - Pull Emma Simpson's draft line-manager interview questions doc off Teams chat (Kerri shared). Needed to spec internal piece accurately.
 - Source: 20 May Kerri catch-up.
 - Tag: client
-- Status: new
+- Status: actioned 5 Jul (weekly review), 45 days old, still genuinely outstanding. Already listed in campaigns/lor-early-talent-2026.md Dependencies; not duplicating tracking here. Raise with Kerri/Emma given shoot days are now close.
 
 ## 2026-05-21 11:00
 - Pull Emma's "Day in the Life" inspo from her previous company (Kerri to forward). Needed to spec ET DITL shoot day format.
 - Source: 20 May Kerri catch-up.
 - Tag: client
-- Status: new
+- Status: actioned 5 Jul (weekly review), same as above, tracked in campaigns/lor-early-talent-2026.md Dependencies, bundle with the interview-questions ask.
 
 ## 2026-06-03 14:07
 - **Claude Opus 4.8 + Dynamic Workflows**, Anthropic. Dynamic workflows now orchestrate hundreds of parallel Claude Code subagents per session. Effort control live, 1M context default, Project Mythos (beyond-Opus class) previewed. [https://www.anthropic.com/news/claude-opus-4-8]
 - **YouTubers Win the Box Office**, Stratechery. Thompson: YouTube sets a higher bar than Hollywood's gatekeepers, which is why creator-native talent now dominates the box office. Direct frame for the content-native studio thesis. [https://stratechery.com/2026/youtubers-win-the-box-office-goodbye-gatekeepers-the-youtube-bar/]
 - **A rational conversation on where AI is actually going**, Lenny's Podcast (Benedict Evans). We are in 1997 for AI. Where value actually accrues, the right way to think about job displacement, and why things will probably be okay. 90 minutes. [https://www.lennysnewsletter.com/p/a-rational-conversation-on-where]
 - **Top gardening trends from RHS Chelsea 2026**, Great British Life. Japanese design, wildlife planting, gravel and woodland edge dominated. Strong positioning read for Creepers Q3 Royal Thread. [https://www.greatbritishlife.co.uk/magazines/national/26126124.top-gardening-trends-emerging-2026-rhs-chelsea/]
+- Status: archived 5 Jul (weekly review), 32+ days, discovery-scan batch, nobody promoted any item. Reference only, per rule.
 - **Ultra-inflammation or adaptation: immune responses across ultramarathon distances**, Frontiers in Immunology. 100km and 230km runners have distinct post-race immune profiles. Broad generalizations about ultra recovery are wrong; individualized guidance is more effective. [https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1799887/full]
 
 ## 2026-05-21 11:00
 - PO follow-up with Kerri: confirm 0384 (April comms) PO raised, confirm football shoot PO is under comms or separate, confirm AS 50% balance runs against same PO as work ships. After Kerri OOO 25 May returns.
 - Source: 20 May Kerri catch-up.
 - Tag: money
-- Status: new
+- Status: archived 5 Jul (weekly review), overtaken by events. PO logistics moved on substantially through subsequent invoicing (INV-0392 settled 25 Jun, June comms + ET deposit are the live receivables now, see money/weekly.md). This granular thread is stale.
 
 ## 2026-05-21 11:00
 - Consolidate LOR email cadence. Kerri flagged volume on 20 May. One weekly status > multiple thread fragments. Adopt a Monday or Friday weekly send.
 - Source: 20 May Kerri catch-up.
 - Tag: client
-- Status: new
+- Status: archived 5 Jul (weekly review), actioned as standing practice, Friday digest bundling adopted (see memory project-kerri-email-volume). Living principle now, not an open task.
 
 ## 2026-05-21 11:00
 - AS conversion bottleneck (LOR-internal recruitment process) still worth naming on next senior-level convo before ET applications open. Avoid same drag on ET pipeline.
 - Source: 29 Apr active state + reinforced 20 May.
 - Tag: client
-- Status: new
+- Status: archived 5 Jul (weekly review), already tracked as a live risk in campaigns/lor-early-talent-2026.md Risks section. Not duplicating here.
 
 ## 2026-05-21 11:00
 - Recruitment channel audit for ET: which job boards (grad cracker, rate my apprenticeship, LinkedIn Jobs) are roles actually posted on, where are careers fairs scheduled. Tighter than AS coordination.
 - Source: 20 May Kerri catch-up.
 - Tag: client
-- Status: new
+- Status: archived 5 Jul (weekly review), folded into the ET content matrix / careers-fair plug-in planning already in campaigns/lor-early-talent-2026.md.
 
-- [ ] 2026-06-12 | David: Harrison has "a feeling about David I want to cover". Unspecified, raised mid-morning before Kerri call. Context ready when he wants it: the 10 June delivery-risk review flagged David as the August single point of failure (unproven editor at flagship-client stakes, Creepers + BaW backlog as his actual first jobs, handoff pack still owed). Talk through after the Kerri call or at weekly review.
+- [x] 2026-06-12 | David: Harrison has "a feeling about David I want to cover". Unspecified, raised mid-morning before Kerri call. Context ready when he wants it: the 10 June delivery-risk review flagged David as the August single point of failure (unproven editor at flagship-client stakes, Creepers + BaW backlog as his actual first jobs, handoff pack still owed). Talk through after the Kerri call or at weekly review.
+  - Actioned 5 Jul (weekly review), overtaken by events. David signed, handoff pack done, actively editing the Creepers hero film per creepers-chelsea-hero-film.md. No standing concern flagged since. Archived.
 
 - [ ] 2026-06-12 | LOR Cambridge research stream: 10/yr Cambridge masters cohort + scholars, millions invested, zero content visibility, CEO-level push for ROI. Kerri meeting end of June. Papers submit July; learning team finding best 3-4 from this + last year. Formats pitched on call: research summary page, social seeding, exec-with-scholar sit-downs (podcast style), September Cambridge event coverage. Was in original strategy work. PREP: one-pager before Kerri's end-of-June meeting. Side channel: probe via the podcast client lane.
-- [ ] 2026-06-12 | LOR strategy launch is soft internally (Kerri frank: "nothing new", roadshows 26 June, external shape unclear, Korena silent). Implication: don't anchor V8 retainer re-approach to a strategy launch moment; the Cambridge stream + ET campaign are the live wedges instead.
+  - STILL LIVE 5 Jul (weekly review). Kerri's "end of June" meeting has now passed with no evidence the one-pager was built. Genuine gap, not archived , surfaced in this-week.md as a named miss for the 7 Jul call.
+- [x] 2026-06-12 | LOR strategy launch is soft internally (Kerri frank: "nothing new", roadshows 26 June, external shape unclear, Korena silent). Implication: don't anchor V8 retainer re-approach to a strategy launch moment; the Cambridge stream + ET campaign are the live wedges instead.
+  - Actioned 5 Jul (weekly review), context noted, folded into the LOR Retainer PARKED reasoning (campaigns/lor-retainer.md). No standing action, archived.

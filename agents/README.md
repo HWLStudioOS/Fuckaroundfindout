@@ -14,13 +14,13 @@ Honest inventory of every scheduled agent. Updated after every wire / unwire / s
 
 | Agent | File | Schedule | Status | Acceptance |
 |---|---|---|---|---|
-| morning-brief | `agents/morning-brief.md` + `.sh` | 06:30 weekdays | RUNNING-DEGRADED (Apple Health via health-sync.py CSV works. Strava persistent skip in most runs. Verifier chain added 28 June: doer writes candidate, verifier checks falsifiable claims before Telegram send). Most recent runs: 6/6 sources 26 June (Fri), 6/6 sources 28 June (Sun, verifier confirmed). | ~10/14 RUNNING-CLEAN equivalent runs since pipeline fix. Consecutive clean count reset to 2 (26+28 Jun). Strava still skipping on most weekday runs. 14-consecutive bar not yet hit. |
-| weekly-review | `agents/weekly-review.md` | Sun 18:00 | RUNNING-CLEAN. Verifier-quality briefs now set precedent for this agent too. Note: 21 June run was missed (no log entry). | 3/3 clean runs (7 Jun, 14 Jun, 28 Jun). ACCEPTANCE HIT (2/2 achieved 14 June). Now on extended run. |
-| weekly-cfo | `agents/weekly-cfo.md` | Fri 16:00 | RUNNING-DEGRADED (Xero unreachable, manual snapshot used). Third run 26 June clean. | 3/3 clean runs (5 Jun, 12 Jun, 26 Jun). ACCEPTANCE HIT (2/2 achieved 12 June). Now on extended run. |
+| morning-brief | `agents/morning-brief.md` + `.sh` | 06:30 weekdays | RUNNING-DEGRADED (Apple Health via health-sync.py CSV works. Strava now pulling most runs, a real improvement. Verifier chain, added 28 June, keeps catching errors before send: corrections across 29 Jun-3 Jul ran 0, 3, 0, 1, 4, inconsistent, not yet clean). Source counts this week: 6/8, 5/8, 6/8, 6/6, 5/5. | ~10/14 RUNNING-CLEAN equivalent runs since pipeline fix. Consecutive clean count still not at 14. Correction-count volatility (not source skips) is now the main blocker. |
+| weekly-review | `agents/weekly-review.md` | Sun 18:00 | RUNNING-CLEAN. Ran clean again 5 July: this-week.md rewritten, _review-log.md appended, capture inbox actually drained (~27 items processed), ship shelf re-checked with the corrected content-based signal (caught a real ship, Legibility Diagnosis). | 4/4 clean runs (7 Jun, 14 Jun, 28 Jun, 5 Jul). ACCEPTANCE HIT (2/2 achieved 14 June). Now on extended run. |
+| weekly-cfo | `agents/weekly-cfo.md` | Fri 16:00 | RUNNING-DEGRADED (Xero still unreachable, manual snapshot used). Fourth run 3 July, same pattern, snapshot completed and flagged the Cap on Tap DD risk clearly. | 4/4 runs on the degraded-but-acceptable pattern (5 Jun, 12 Jun, 26 Jun, 3 Jul). ACCEPTANCE HIT (2/2 achieved 12 June). Now on extended run. |
 
 **v1 ships when all three hit acceptance simultaneously.**
 
-> As of 2026-06-28: weekly-review and weekly-cfo both past acceptance. morning-brief consecutive-clean bar not yet hit (Strava skip breaks most runs). Verifier chain added 28 June should improve accuracy even while Strava remains offline. v1 is close. Strava MCP or 14 consecutive weekday RUNNING-CLEAN briefs unblocks it.
+> As of 2026-07-05: weekly-review and weekly-cfo both past acceptance and holding. morning-brief is the sole blocker: Strava has stopped being the problem, but verifier corrections are inconsistent week to week (0-4 per run), so the 14-consecutive-clean bar still hasn't been hit. v1 is close. The fix now is accuracy consistency, not a missing data source.
 
 ## Secondary queue (post-v1)
 

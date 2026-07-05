@@ -130,11 +130,11 @@ Thanks H
 > Auto-updated by campaign-chaser agent.
 
 ```
-Last action: 2026-07-02 research complete (17 clubs + tier-2), ranked table built, batch-1 five openers drafted, awaiting Harrison's tap.
-Days since last action: 1
-Next move: Harrison approves/edits batch-1 copy, then stage as Gmail drafts (hwlstudio.com) and send. Drafts expire 4 Jul (tomorrow) unsent, per v2 48h rule, the exact failure mode Wave 1 died from. On send: FU1 due day 5, FU2 day 12, breakup day 30, kill day 45.
-Blocker: Harrison tap on batch-1 copy
-Status: active. Nothing sent in v2 yet. Gmail confirmed (2026-07-03): zero sends, zero replies from any batch-1 club.
+Last action: Batch-1 openers expired unsent 4 Jul (48h rule triggered, drafted 2 Jul). Confirmed via Gmail sent-folder check 5 Jul: zero sends to any batch-1 club. This is the exact Wave 1 failure mode repeating in v2, the rule caught it but nobody acted on the catch.
+Days since last action: 3 (research/draft, 2 Jul)
+Next move: Real decision needed, not more research: (a) re-approve the same five openers now (copy doesn't go stale, only the drafting-to-send window did) and send this week, or (b) explicitly hold the whole batch until post-RTTS (11 Jul) and say so, rather than let it die silently a second time. Given the content is one tap away, sending needs no creative effort and doesn't compete with race-week taper.
+Blocker: Harrison decision + tap.
+Status: active, v2 batch-1 unsent past its own expiry window. Zero sends, zero replies.
 ```
 
 ## What Harrison does

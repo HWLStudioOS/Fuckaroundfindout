@@ -6,14 +6,14 @@
 
 ## Live state
 
-> Auto-updated by campaign-chaser agent. Last run: 2026-07-01 10:07 BST.
+> Updated by weekly-review agent, 2026-07-05.
 
 ```
-Last action: Decomposed via /break-it 2026-06-28 22:23. Calendar hold set 09:30 Mon 29 Jun.
-Days since last action: 5
-Next move: Two day-one tasks now overdue, unstarted: (1) deploy Legibility Diagnosis to hwlstudio.com/#diagnosis, due Mon 29 Jun, 4 days overdue, confirmed not live (no "diagnosis"/"legibility" content on hwlstudio.com as of 2026-07-03); (2) send 5 warm intro asks, due Wed 1 Jul, 2 days overdue, confirmed zero sends in Gmail sent folder. Task 3 (LOR proof one-pager) nominally due "Fri 4 Jul" but that date is wrong, 4 Jul is a Saturday. Binding constraint = first qualified call booked by 31 Jul.
-Blocker: Harrison to execute tasks 1 + 2.
-Status: open. Day 5.
+Last action: Weekly review re-ran the Legibility Diagnosis done-signal correctly (prod JS bundle grep, not a bare 200) and it PASSED. Diagnosis is live on hwlstudio.com, confirmed 2026-07-05. Moved to agents/_shelf.md shipped history. Task 1 of this campaign is done; the earlier "confirmed not live" note (2026-07-03) was checking the wrong signal.
+Days since last action (decompose): 7
+Next move: One day-one task remains fully unstarted: send 5 warm intro asks, due Wed 1 Jul, now 4 days overdue, zero sends confirmed in Gmail sent folder as of 5 Jul. This is the single most overdue item in the whole system. Task 3 (LOR proof one-pager) due date was miswritten as "Fri 4 Jul" (a Saturday); treat as due this coming week. Binding constraint unchanged: a qualified call booked by 31 Jul.
+Blocker: Harrison to send the 5 warm asks. One tap, no more drafting or research needed.
+Status: open. Day 7. 1 of 2 day-one tasks done.
 ```
 
 OPEN. Decomposed 28 June.

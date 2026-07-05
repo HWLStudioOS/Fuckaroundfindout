@@ -75,7 +75,8 @@
       "Bash(printf '\\\\033]0;[no-anchor] done\\\\007')",
       "WebFetch(domain:github.com)",
       "Bash(ls -d trading* edge*)",
-      "Bash(ls -d ~/edge-lab ~/trading*)"
+      "Bash(ls -d ~/edge-lab ~/trading*)",
+      "Bash(git -C \"/Users/harrison/HWL META\" log --oneline --since=\"2026-06-29\" --name-only -- content/)"
     ]
   }
 }

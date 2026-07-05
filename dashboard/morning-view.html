@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HWL • Morning View</title>
+<style>
+:root {
+  --ink: #1C1F1A;
+  --olive: #6B7053;
+  --stone: #C2BFB5;
+  --slate: #3D4451;
+  --accent: #E26F2A;
+  --bg: #11120F;
+  --card: #1A1C18;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--stone);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 32px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--stone);
+}
+.header .date {
+  color: var(--olive);
+  font-size: 15px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; }
+}
+.card {
+  background: var(--card);
+  border: 1px solid #25281F;
+  border-radius: 12px;
+  padding: 24px;
+}
+.card h2 {
+  margin: 0 0 16px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--olive);
+}
+.metric {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 12px;
+}
+.metric:last-child { margin-bottom: 0; }
+.metric .label {
+  color: var(--slate);
+}
+.metric .value {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--stone);
+}
+.metric .value.accent {
+  color: var(--accent);
+}
+.status {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.status.high { background: #2A3A2A; color: #8FBC8F; }
+.status.good { background: #2A3A2A; color: #8FBC8F; }
+.status.balanced { background: #2A3A2A; color: #8FBC8F; }
+.row {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+}
+.row .item {
+  flex: 1;
+  background: #151712;
+  padding: 12px 16px;
+  border-radius: 8px;
+}
+.lens {
+  background: #1C1F1A;
+  border-left: 4px solid var(--accent);
+  padding: 20px 24px;
+  margin-top: 24px;
+  border-radius: 8px;
+}
+.lens p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.empty {
+  color: #666;
+  font-style: italic;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div>
+      <h1>HWL Morning View</h1>
+      <div class="date">Sunday 5 July 2026 — Race Week (RTTS 50K Sat 11 Jul)</div>
+    </div>
+    <div style="text-align:right">
+      <div style="font-size:32px;font-weight:700;color:#8FBC8F">75</div>
+      <div style="font-size:12px;color:#666">READINESS</div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <!-- Training & Recovery -->
+    <div class="card">
+      <h2>Training & Recovery</h2>
+      <div class="metric">
+        <div class="label">Resting HR</div>
+        <div class="value">45 <span style="font-size:13px;color:#666">bpm</span></div>
+      </div>
+      <div class="metric">
+        <div class="label">HRV</div>
+        <div class="value">62 ms <span class="status balanced">BALANCED</span></div>
+      </div>
+      <div class="metric">
+        <div class="label">Sleep</div>
+        <div class="value">6.5h <span style="font-size:13px;color:#666">(score 79)</span></div>
+      </div>
+      <div class="metric">
+        <div class="label">Body Battery</div>
+        <div class="value">32–96</div>
+      </div>
+      <div class="metric">
+        <div class="label">Stress</div>
+        <div class="value">16</div>
+      </div>
+
+      <div style="margin-top:20px;border-top:1px solid #25281F;padding-top:16px">
+        <div class="metric">
+          <div class="label">Weekly Load</div>
+          <div class="value">438</div>
+        </div>
+        <div class="metric">
+          <div class="label">ACWR</div>
+          <div class="value">1.00 <span class="status good">Good</span></div>
+        </div>
+        <div class="metric">
+          <div class="label">VO2max</div>
+          <div class="value">45</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recent Sessions -->
+    <div class="card">
+      <h2>Recent Sessions (Taper)</h2>
+      <div class="row">
+        <div class="item">
+          <div style="font-size:13px;color:#666">4 Jul</div>
+          <div style="font-weight:600">6.8 km Run</div>
+          <div style="font-size:13px;color:#666">load 105</div>
+        </div>
+        <div class="item">
+          <div style="font-size:13px;color:#666">3 Jul</div>
+          <div style="font-weight:600">4.3 km Run</div>
+          <div style="font-size:13px;color:#666">load 75</div>
+        </div>
+      </div>
+      <div class="row" style="margin-top:12px">
+        <div class="item">
+          <div style="font-size:13px;color:#666">1 Jul</div>
+          <div style="font-weight:600">10.0 km Run</div>
+          <div style="font-size:13px;color:#666">load 139</div>
+        </div>
+        <div class="item">
+          <div style="font-size:13px;color:#666">29 Jun</div>
+          <div style="font-weight:600">3.4 km Run</div>
+          <div style="font-size:13px;color:#666">load 68</div>
+        </div>
+      </div>
+      <div style="margin-top:20px;font-size:13px;color:#666">
+        Taper is clean. HRV stable/up. No red flags.
+      </div>
+    </div>
+  </div>
+
+  <!-- Content Pipeline -->
+  <div class="card" style="margin-top:24px">
+    <h2>Content Pipeline</h2>
+    <div style="display:flex;gap:32px">
+      <div>
+        <div style="font-size:13px;color:#666">Posted since 1 June</div>
+        <div style="font-size:28px;font-weight:700;color:#E26F2A">0</div>
+      </div>
+      <div style="flex:1">
+        <div style="font-size:13px;color:#666;margin-bottom:8px">Substance bank</div>
+        <div style="font-size:15px">One capture: “Don’t know why I’m not just picking up the camera more and talking shit.” — 5 Jul</div>
+        <div style="margin-top:12px;font-size:13px;color:#E26F2A">Founding video still unsent. 34 days empty.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Open Items -->
+  <div class="card" style="margin-top:24px">
+    <h2>Open Items (one tap)</h2>
+    <div class="row">
+      <div class="item">
+        <div style="color:#E26F2A;font-weight:600">Golf clubs v2</div>
+        <div style="font-size:13px">Batch-1 expired unsent 4 Jul. Second time this pattern has killed a batch.</div>
+      </div>
+      <div class="item">
+        <div style="color:#E26F2A;font-weight:600">New client asks</div>
+        <div style="font-size:13px">5 warm intros — day 7 of 31 Jul deadline. Zero sends.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lens">
+    <p><strong>Lens:</strong> The two fully-drafted, zero-effort sends have now sat untouched for a week while new infrastructure kept getting built. Building is not shipping. Both just need a tap.</p>
+  </div>
+</div>
+</body>
+</html>

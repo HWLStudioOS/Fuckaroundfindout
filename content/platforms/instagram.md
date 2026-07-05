@@ -1,128 +1,41 @@
-# Instagram, GTM
+# Instagram
 
-The home base. Pinned posts live here. The profile is your business card to anyone who lands. Treat it accordingly.
-
----
-
-## Role in the system
-
-- **Primary identity surface.** Anyone who hears your name and Googles you ends up here.
-- **The pinned-post story.** 3 anchor pieces at the top tell your whole arc in 4 minutes.
-- **Reels for reach.** The discovery surface. Your only chance at cold audience.
-- **Stories for warmth.** Existing followers, BTS, daily rhythm, replies. No strategy beyond "actually use it."
-- **No carousels for v1.** They're a separate medium; don't dilute the focus.
+**Rebuilt 5 July 2026. Role: the identity surface and the DM-share arena.** Anyone who hears the name lands here first. The grid tells the story in nine tiles, the Reels carry discovery, the carousels carry trust. Research: `content/references/research-2026-07-05.md`.
 
 ---
 
-## The profile architecture
+## The 2026 reality
 
-### Bio (proposed, see `brand-sheet.md` to confirm)
-```
-The elegant chase for better.
-Field notes from inside the work.
-↓ HWL Studio
-```
+- **Sends per reach is the top ranking signal** (Mosseri-confirmed). Saves and shares outrank comments outrank likes. The design question for every post: would someone DM this to a mate.
+- **Trial Reels exist:** publish to non-followers first, see the data, then decide. Free downside protection, use it whenever a cut is unproven.
+- Reels must be under 3 minutes to reach non-followers; 60-90s is the claimed sweet spot.
+- **The originality crackdown is live (Apr 2026):** 10+ reposts in 30 days removes an account from recommendations entirely. Watermarked or recycled uploads are dead weight. Every Reel here is a native cut from the clean master, with its own hook and pacing.
+- Carousels beat Reels on engagement depth. Reels find people, carousels convert them to believers.
 
-### Link in bio
-**One link, not Linktree.** Either:
-- (A) Substack subscribe page, compounds owned audience
-- (B) HWL Studio landing page, compounds client pipeline
+## What posts
 
-Recommendation: **Substack until 1,000 followers, then re-evaluate**. The Substack list is the only asset you own.
+- **1-2 Reels per week:** native re-cuts from the week's YouTube material. The talk moment with the most charge, or the best 60-90s of craft. Full 9:16, burned word-by-word captions per brand sheet.
+- **1 carousel per week:** the trust layer. "How I shot this," the typed page plus the story, the agent screenshot plus what it caught. Built for saves and sends.
+- **Stories, daily-ish:** BTS, training, the studio, replies. Present, not strategised. Stories that get strategised die.
+- **The quarterly cinematic** premieres here and TikTok as the positioning spike.
 
-### Profile photo
-Face shot, consistent across all platforms. Update once per year.
+## Profile architecture
 
-### Pinned posts (in this exact order, top of grid)
+- Bio stays per brand sheet ("The elegant chase for better. Field notes."). Link decision updates: hwlstudio.com until the YouTube channel has 5+ videos, then the channel becomes the link. YouTube is the compounding destination now, not Substack.
+- Pinned posts get rebuilt once the new system has run 6-8 weeks: best identity Reel, best operator receipt, the cinematic. Not reshot on a schedule, replaced when something better exists.
 
-1. **Pin 1:** The origin + leap arc. The "I'm 26 and not where I thought I'd be" piece.
-2. **Pin 2:** The field-notes thesis. "What I see now from inside the work."
-3. **Pin 3:** What HWL Studio is building. The work in motion + an implicit CTA to find you for serious projects.
+## Engagement
 
-Pinned posts are reshot every 3-6 months as the production quality climbs. Treat them as living anchors, not artifacts.
-
-### Grid logic
-- The 9 most recent posts visible on visit. Pinned 3 stick.
-- Visual cohesion within the grid (per brand sheet): cream accents, letterbox cinematics interspersed with field-notes, recognisable from the thumbnails alone.
-- No corporate carousel collages. No quote tiles. No "5 lessons from..." graphics. Stays on-brand for taste-led.
-
----
-
-## Reels playbook
-
-### What posts
-- **Form B cinematic essays** (Tier B from `waterfall.md`): 60-150s, letterbox bars.
-- **Form C field-note reels** (Tier A): 45-75s, full 9:16, talking-head + word-by-word captions.
-
-### What doesn't post
-- No story screenshots, no carousel-as-reel, no slideshow reels, no trending-audio remix posts.
-
-### The first 3 seconds
-The hook is the entire fight. Per `hook-library-v1.md`:
-- Life-audit open ("I'm 26 and not where I thought I'd be")
-- Identity-question open ("My least favourite question to be asked is...")
-- Timeskip rewind ("Six months ago I disappeared")
-- Vivid scene → wisdom ("It's 2pm on a Wednesday and you're...")
-- Question opener ("Why is every X doing Y?")
-
-Hook tested: someone in the kitchen with the phone face-down hears the first 3 seconds, do they pick the phone up? If no, rewrite the hook.
-
-### Captions (the post body)
-- Stanza style. 4-7 short paragraphs.
-- No em dashes.
-- No "follow for more". No "comment below". No "agree?".
-- One genuine question at the end IF it earns its place.
-- Hashtags in a first comment, not the body. 3-5 max, broad-not-bait.
-
-### Posting cadence
-- Per `waterfall.md`: 1 reel per week minimum. Often 2.
-- Time: Tuesday or Thursday evening UK time (matches when LinkedIn audience scrolls IG; tested by every B2B-leaning operator).
-
----
-
-## Stories
-
-Use stories like email to people who care:
-- Daily-ish, not religious.
-- BTS of shoots, a screenshot of a quote, a reaction to a comment, a run from training.
-- One story per day max promotion of your own posts.
-- DMs from stories matter most, actually reply to them.
-
-No story strategy beyond "be present." Stories that get strategised die.
-
----
-
-## Comments + DMs
-
-- Reply to every comment for the first 60 minutes after posting (the algorithm reward window).
-- Reply to every DM within 24 hours, even one-word ("appreciated, mate").
-- Save promising DMs to a `capture/inbox.md` entry for follow-up.
-
----
+- Reply to every comment in the first hour where possible.
+- DMs answered within 24h; buyer-shaped ones logged to `capture/inbox.md`.
 
 ## What we measure
 
-At 30, 60, 90 days post-launch. Tracked in a simple sheet, not a dashboard.
+Sends per reach, saves per post. Follower count is downstream and slow, ignore it weekly.
 
-| Metric | 30-day target | 60-day | 90-day |
-|--------|---------------|--------|--------|
-| Followers | 500 | 1,200 | 2,500 |
-| Pin 1 views (compounding) | 5k | 15k | 40k |
-| Avg reel views | 1k | 3k | 7k |
-| DMs from buyer-shaped people | 3 | 8 | 20 |
-| Saves per post (the real proxy for value) | 20 | 50 | 120 |
+## What kills it
 
-Numbers calibrated low-side. If we hit at the top end, the system is working better than planned. If we hit at the bottom, we adjust hooks and topics. Below bottom for 30 days = re-strategise.
-
----
-
-## What kills the IG account
-
-- Posting carousels because someone said "carousels are working right now"
-- Posting trending-audio reels because the algorithm will reward them short-term
-- Replying to every "great post 🔥" comment with another emoji
-- Posting daily out of guilt with no idea behind it
-- Letting the grid get visually chaotic
-- Tagging brands you haven't worked with in the hope of a repost
-
-All of these dilute the pinned-post story. Don't.
+- Cross-posting watermarked TikToks (now an account-level penalty, not just a post-level one).
+- Chasing trending audio.
+- Posting to fill the grid with no charge behind the piece.
+- Letting the account become "guy who posts football videos" again: the pillars rotate.

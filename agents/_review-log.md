@@ -223,3 +223,46 @@ No formal plan existed. Top 3 inferred from active state at week start (22 June)
 - Building systems to avoid obvious work: verifier is legitimate (directly addresses 25 June failure). The capture inbox pattern is the flag: the system exists, the obvious work of processing it is being avoided. Name the system as the problem.
 
 ---
+
+## 2026-07-05 Sunday review (week W25 ending 5 July 2026)
+
+### Shipped
+
+- Kerri/Harrison call 30 June, landed clean. (Y. campaigns/lor-early-talent-2026.md: "warm, low-pressure, no chase needed," People team reviewing strategy doc, ET team response due before Tue 7 Jul call.)
+- Cathal BaW check-in Monday. (Y. Calendar shows it moved same-day from 11:30 to 12:00-13:00 and happened; new "B@W Superstars" meeting now on calendar for Mon 6 Jul.)
+- Legibility Diagnosis, live after 20 days on the shelf. (Y, confirmed today with the corrected content-based check: hwlstudio.com's JS bundle contains real feature UI, "Run the diagnosis," "Diagnose your legibility," a live scoring object, a section titled "The Legibility Diagnosis." The 1 Jul false-green fix now shows a genuine ship. Moved to agents/_shelf.md history. Unblocks day-one task 1 of the new-client campaign.)
+- Content system, fully rebuilt 5 July. (Y. content/strategy.md, pipeline.md, system.md, platforms/x.md rewritten. Two-engine system: weekly YouTube long-form + weekly written idea to LinkedIn/X. RTTS race content deliberately killed, family photos only.)
+
+### Missed
+
+- Creepers £3,500 landing before Wednesday: unconfirmed, not a clean miss. No remittance email found in Gmail for LOR £1,350, Creepers £3,500, or BaW £1,500 as of 5 Jul, ten days into the search window. Last confirmed cash figure is still £231.91 from 1 Jul evening. Genuinely don't know if this landed.
+- Golf clubs v2 batch-1: five fully-drafted, named-human openers expired unsent 4 Jul. The 48h rule built specifically to catch this (after Wave 1 died the same way) caught it, and nobody acted on the catch anyway. Zero sends confirmed via Gmail.
+- New-client campaign's 5 warm intro asks: still unsent at day 7 of a 31 Jul deadline. Zero sends confirmed via Gmail across the entire week.
+- LOR Cambridge one-pager: promised before Kerri's "end of June" meeting. That meeting has now passed. No evidence the one-pager was built.
+- Creepers-content-calendar sync: flagged 22 June (Dublin), still unresolved. Mini's local copy untouched since 11 June, still shows the stale "3 a week / 2 a week" copy the live site no longer matches.
+
+### Reality check
+
+- Money: Starling £231.91 last confirmed (1 Jul evening), no fresher figure available from any accessible channel. Capital on Tap DD £2,424.95 hits Monday 6 Jul; on the last known figure it does not clear without one of the three receivables landing first. Newly surfaced this week: BA Amex is over its credit limit ("Future Transactions May Be Declined," 4 Jul) and a payment due reminder followed 5 Jul, not previously flagged by weekly-cfo. Also newly surfaced: Soho House's "resolved" £162.50 DD may not be the whole story. Harrison's own 29 Jun reply shows the portal trying to charge a fresh £330 re-join fee instead of updating card details, unclear if that ever got sorted. Tax reserve ~£8,000, still ahead of the £6k target. VAT registered effective 30 Jun, rolling revenue ~£93k, awaiting HMRC number.
+- Health: genuinely good taper week. Sleep averaged ~7.3h (scores 79-92), HRV stayed BALANCED all seven days (57-70ms), no LOW readings (a real change from mid-June). Training: 4 of 5 prescribed run days show matching Strava activity (Mon partial-distance, Wed, Fri, Sat all logged); Tuesday's easy run has no Strava record; both prescribed strength sessions (Tue Strength A, Thu Strength B) are untracked, which is normal for gym work and not asserted as missed. Weight still stale from 29 April, over two months now, flagged every week running.
+- Clients: LOR ET warm and on track, Tue 7 Jul 16:00 call on calendar as confirmed, though Kerri sent a "Declined: Kerri / Harrison Weekly" email 1 Jul for what may be the same or a different recurring slot, worth a two-second reconfirm before assuming it's on. Creepers: hero film still blocked on the same 2 Michael Buck factual checks from weeks ago; relationship otherwise healthy (Anna forwarded good customer feedback 26 Jun). BaW: Cathal check-in happened, new "Superstars" meeting added for 6 Jul, April monthly report still owed (well past 8 weeks now). LOR Retainer correctly PARKED, no change. Golf clubs v2: full restart produced a strong researched target list; the one thing that mattered, sending, didn't happen.
+- Content: nothing posted since 1 June, over five weeks running. But this week's real move was structural: the whole content system got rebuilt from first principles (identity, two engines, measurement, decision calendar). First substance-bank capture landed same day (Dalen/typewriter reflection). 18 July is the next checkpoint: did one post of Harrison's own substance ship, and is the weekly loop actually running.
+- Capture inbox: 12 items added this week (2 discovery-scan batches, 1 self capture, 1 Telegram test). Drained hard this pass: ~27 items processed across the whole backlog (oldest was 45 days old), not just this week's additions. 2 items correctly kept open and surfaced as live risks (Cambridge one-pager, creepers-calendar sync). Oldest remaining open item is now 13 days old (a discovery-scan batch, correctly under the 14-day threshold).
+- Attention: not measured this week, no tracking data available either way.
+- Maya: sixth consecutive week with zero captured evidence of the Sunday coffee catch-up, in any source. Not asserting it isn't happening. Just naming that the system has no visibility into it for six weeks running.
+
+### Risks
+
+- Cash gap tomorrow morning. Cap on Tap £2,424.95 DD hits Monday against a last-known cash position that doesn't cover it. Check Starling before the DD, bridge from reserve if needed, same pattern as the last several weeks.
+- Amex over its credit limit. New this week, not previously on any agent's radar. Needs Harrison's direct attention, separate from the studio cash question.
+- The send-avoidance pattern is now showing in two separate places at once (golf clubs, warm intro asks): fully-built, fully-drafted, zero-effort-to-execute items sitting unsent while new infrastructure keeps getting built around them. This is the H21/H3 pattern by name.
+- LOR Cambridge stream risk of going quiet if the one-pager stays undelivered much longer past Kerri's own meeting.
+- RTTS 50K is 6 days out. Calendar shows an all-day "CQ Wedding Event Vibes" entry also on 11 July, worth a quick check that nothing collides with race day.
+
+### Standards check (codex H17)
+
+- Proactive comms: mixed. Client-facing comms held up fine (LOR WhatsApp chase, Kerri call warm, Cathal check-in happened). Business-development comms (golf clubs, warm asks) did not: fully-drafted, ready-to-send material sat unsent on both fronts.
+- Self-attack disguised as discipline: not visible this week.
+- Building systems to avoid obvious work: yes, name it. This week produced a full content-system rebuild and a full golf-clubs-v2 research restart (17 clubs, ranked table, five drafted openers), genuinely good work, while the one verb that mattered in both cases, sending, still didn't happen. Building is not a substitute for shipping.
+
+---

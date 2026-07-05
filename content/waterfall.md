@@ -1,5 +1,9 @@
 # Content Waterfall
 
+**SUPERSEDED, 5 July 2026.** This system demanded 7-10 outputs a fortnight and ~8 hours a week from a solo operator mid-delivery and produced zero posts in the month it existed. The rebuild replaced it with the two-engine loop in `content/system.md` (one video + one written idea per week, everything else derived). The cascade thinking below survives in spirit (one idea, many surfaces) but this file is history, not guidance.
+
+---
+
 How one idea becomes five outputs across IG, TikTok, LinkedIn, Substack, and (later) YouTube. The discipline that turns one good thought into a week of content without making five separate ideas.
 
 **Rule:** every fortnight has ONE big idea. That idea cascades downstream. You do not chase five separate ideas per week. That's the H21 trap.

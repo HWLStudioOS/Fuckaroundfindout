@@ -1,123 +1,48 @@
-# LinkedIn, GTM
+# LinkedIn
 
-The B2B comms wedge. This is where the commercial audience lives. Per `business/sales-positioning.md`: corporate comms leaders, founder-led B2B, marketing leaders in serious/legacy orgs.
-
-The reels work here, but the **editorial posts** (Form A from the waterfall, stanza captions on a still or short clip) are the real engine on LinkedIn.
+**Rebuilt 5 July 2026. Role: the networking layer and the only platform with a direct line to revenue.** The buyers (heads of comms and marketing in legacy industries) live here and they lurk: ~70% of the B2B journey happens anonymously and ~95% of winning vendors were shortlisted before first contact. The job is to be on the shortlist before the brief exists. Research: `content/references/research-2026-07-05.md`.
 
 ---
 
-## Role in the system
+## The 2026 reality (what changed)
 
-- **Commercial pipeline.** Every Pin-1-grade visitor here is potentially a buyer for HWL Studio.
-- **Authority surface.** What corporate comms leaders see when they Google you before a meeting.
-- **The Orbit Media template's home.** B2B operators expect the editorial format. Reward it.
-- **Cross-post all reels here NATIVE.** Never link out, never drop a TikTok URL.
+- **360Brew:** LinkedIn ranks with a foundation model fed 2-3 months of your activity. It is an interest graph now. Topic-consistent posting compounds; scattershot confuses the model. The four pillars all serve one ICP-legible identity, so consistency is structural.
+- **Dwell time is the currency.** Generic AI-sounding prose gets abandoned in 2 seconds and LinkedIn now openly deprioritises it. The voice rules (field notes, real numbers, no slop openers) are an algorithmic asset here, not just taste.
+- **Video is not the reach play.** Views fell 36% year-on-year at every account size. The winners are native documents/carousels (7.0% engagement, top format), multi-image (tops impressions for accounts under 50k), then text. Post video occasionally for presence, never as the engine.
+- **Links in the post body cost 40-60% of reach.** First comment, always.
+- Hashtags are dead weight. 0-3 for categorisation at most. Pods are a detection risk, not a lever.
 
----
+## Cadence
 
-## What posts
+**2-3 posts per week.** That is the documented sweet spot (Buffer, 2M posts) and there is no verified penalty for more, but the constraint is his hours, not the algorithm. Derived from the weekly written idea, not invented separately:
 
-### Twice a week:
+- **The idea post:** the weekly typewriter idea as a document/carousel or multi-image post. The typed page photographed is a legitimate and on-brand visual unit.
+- **The receipt post:** one operator field note from the studio-on-agents pillar. Real numbers, anonymised clients per publishing rules.
+- **The texture post (optional third):** craft or chase pillar, framed as professional observation.
 
-**Tuesday: editorial post (Form A from waterfall)**
-- Either a still image (a photo of a screen, a workspace, a doc) OR a 10-20s clip on autoplay-mute
-- Caption is the work. Stanza style, ~150-250 words.
-- The Orbit Media template (`hook-library-v1.md` Pattern 9): industry question → answer in next sentence → 2 named examples → reframe → close on the value claim.
+## The commenting habit (the actual client engine)
 
-**Thursday: native reel upload**
-- Whatever shipped to IG/TikTok this week, re-uploaded native to LinkedIn.
-- Caption rewritten LinkedIn-style: 2-line hook, "↓" break, longer-form context, no hashtag spam.
-- 5-15s teaser caption hook before the reel reveal, so feed-scrollers see why to stop.
+Cold DMs are dead (~79% ignored, and volume outreach suppresses the sender's own reach). The documented path is: valuable comment on the ICP's post, they reply, the DM happens warm, the call follows.
 
-### What never posts here
+- **10 minutes daily.** Comment substantively (2-3 sentences, add something) on posts from: heads of comms/marketing in legacy industries, client-orbit people, and 3-4 operator/creator accounts worth learning from in public.
+- **Affirm before you extend.** Per the wiring map, his native Strategic mode ("here's a better way") reads as criticism in text. Comment structure: what's right in their post first, then the addition. Never open with the correction.
+- DMs only as the warm end of an existing comment thread. Move promising ones to email within 2 exchanges.
+- Reply to every comment on his own posts inside the first hour where possible.
 
-- Engagement-bait carousels ("5 lessons from..." with the swipe-for-more theatre). Even if they perform, they're slop and they kill credibility with the LOR-grade audience.
-- Personal-life posts that aren't framed as professional observation. (Maya, family, keep on IG.)
-- Anything that smells of "I just started a business 6 months ago." H8 is sharpest on LinkedIn.
+## Format specs
 
----
-
-## The editorial format, locked
-
-```
-[Hook line. Sentence-length. A question or a claim.]
-
-[Answer / setup. One paragraph, 2-3 sentences.]
-
-[Specific example with a named entity. 2-3 lines.]
-
-[Second example or a counter. 2-3 lines.]
-
-[The reframe, your observation, your actual thesis. 2-3 lines.]
-
-[Implication. What this means for someone reading. 1-2 lines.]
-
-[Close. One declarative sentence. No CTA.]
-```
-
-Example, written for you (from your actual core belief in `business/sales-positioning.md`):
-
-> Why are the £5bn briefs going to agencies who never pitched for them?
->
-> Because the brief now comes pre-decided.
->
-> The people who get hired are the ones already inside the buyer's feed. The ones whose thinking is familiar before the conversation starts.
->
-> When a head of corporate comms is sourcing a content partner, they don't open Google. They open LinkedIn. They look for the operator whose recent posts answered the question they're about to ask.
->
-> In the AI era, invisible companies become unqueryable companies.
->
-> Distribution isn't a marketing function anymore. It's organisational legibility.
->
-> The work is showing up before you're needed.
-
-That's the format. 90 seconds to read. One named-entity reference (£5bn brief = LOR-coded without naming). One sharp quote line ("invisible companies become unqueryable companies" is from the sales-positioning doc verbatim).
-
----
-
-## Engagement strategy
-
-LinkedIn rewards consistent commenting on others' posts more than IG does. The algorithm sees you as "active in the network."
-
-**The 10-comment week:**
-- Pick 10 operators per week to comment on regularly. Mix: 3 client-adjacent (LOR-orbit, BaW-orbit), 3 buyer-shaped (heads of corporate comms in legacy industries), 4 inspiration (Tom Noske, Dan Koe-tier creators if they're on LinkedIn, agency principals).
-- Comment substantively. 2-3 sentences. Add value, never just "great post."
-- 10 thoughtful comments per week = 30 minutes total. Compounds heavily.
-
-**The DM lane:**
-- LinkedIn DMs from senior people are the closest thing to inbound buyer signal you'll get.
-- Reply within 12 hours.
-- Move promising threads to email within 2 exchanges. LinkedIn DM is a relationship-opener, not a sales channel.
-
----
-
-## Connections + visibility
-
-- **Connect with buyer-shaped people actively.** Heads of comms, marketing leaders, founder-CEOs of 50-500-person businesses. Aim 20 new connections per week with a 1-sentence personalisation.
-- **Follow > connect for inspiration accounts.** Tom Noske, Tim Denning, Dan Koe if on LinkedIn.
-- **Hide your activity from the home feed** for client-only connections (in settings). They don't need to see every comment you make on stranger's posts.
-
----
+- Documents/carousels: 6-10 slides, brand-sheet type system, one idea per slide, no swipe-bait theatre. The distinction from banned "carousel-bait" is substance density: a real argument in slides is the top format; "5 lessons" filler is still banned.
+- Multi-image: 2-4 stills (typed page, studio frame, terminal screenshot, training shot) + stanza caption.
+- Text: 150-250 words, stanza style, one blank line between thoughts.
+- Everything passes voice DNA and publishing rules. No em dashes, no engagement bait, no "I just started."
 
 ## What we measure
 
-| Metric | 30-day | 60-day | 90-day |
-|--------|--------|--------|--------|
-| Followers | 1,500 | 2,500 | 5,000 |
-| Reach per post (LinkedIn's term for impressions) | 3k | 8k | 25k |
-| Profile views | 200/wk | 600/wk | 2k/wk |
-| Buyer-shaped DM conversations | 2 | 6 | 18 |
-| **Inbound qualified inquiries** (somebody who could become an HWL Studio client) | 0 | 1-2 | 3-5 |
+Buyer-shaped conversations started per month (comment threads that became DMs that became calls). That is the only LinkedIn number tied to revenue. Reach is diagnostic, not the goal.
 
-LinkedIn is the platform with the most direct revenue impact. Even one qualified inbound at 60 days justifies the whole system.
+## What kills it
 
----
-
-## What kills the LinkedIn account
-
-- The "I just started a business" framing (H8)
-- Carousel-bait posts
-- Replying to comments with one-word "appreciated 🙏", corporate audience reads this as low-effort
-- Posting more than 3x per week (LinkedIn punishes frequency above ~3)
-- Tagging executives you haven't worked with
-- Hashtag spam in the body
+- Posting the same thing here and on X without adaptation.
+- Cold connection-request blasts.
+- Letting the commenting habit lapse while still posting (broadcasting without networking inverts the platform's actual value).
+- AI-flavoured prose. One "In today's fast-paced world" and the account is furniture.

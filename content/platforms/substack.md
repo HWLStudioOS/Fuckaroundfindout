@@ -1,5 +1,9 @@
 # Substack, GTM
 
+**PARKED, 5 July 2026 rebuild.** Not in the active stack. The rebuilt strategy runs writing through LinkedIn + X and video through YouTube + IG + TikTok (`content/strategy.md`). The owned-audience question is real but it reopens when the writing engine has 8-12 weeks of reps and something worth emailing exists, likely at the mid-September review. Nothing below executes until then; kept as the spec for that day.
+
+---
+
 The only audience asset you own. Email + RSS. No algorithm. The base layer everyone else compounds into.
 
 ---

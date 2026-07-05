@@ -1,110 +1,52 @@
-# YouTube, GTM (Readiness Doc)
+# YouTube
 
-**Status: not launching yet.** This doc specs what the channel looks like when we do, so when the moment comes there's no thinking. Likely launch trigger: 1,000 IG followers OR 500 Substack subs OR a single cinematic essay crosses 100k views on IG (whichever first).
-
----
-
-## Role in the future system
-
-- **The cinematic-essay native home.** IG truncates after 90s. TikTok punishes >60s. YouTube rewards 8-15 minute pieces. Form B from the waterfall becomes its long form here.
-- **The evergreen SEO surface.** Where 18-month-old essays continue to acquire subscribers. The opposite compounding curve to TikTok.
-- **The high-trust artifact.** When a corporate buyer wants to know "is this person serious", a YouTube channel with 12 cinematic essays signals it better than any deck.
+**Rebuilt 5 July 2026. Status: HOME PLATFORM. Launching now.** The old launch triggers (1,000 IG followers, 500 Substack subs) are dead. Two reasons: he has always wanted to make YouTube videos, which is reason enough, and the 2026 platform reality removed the cold-start excuse. Research: `content/references/research-2026-07-05.md`.
 
 ---
 
-## What launches (the first 5 videos)
+## Why home
 
-When the trigger fires, the first 5 videos are pre-decided. All are extended cuts of cinematic essays already road-tested on IG.
+- Subscriber count is decoupled from distribution. Every upload gets tested with a potential-viewer pool on its own merits. A zero-sub channel gets real shots from video one.
+- Unscripted talk-to-camera long-form is the fastest-growing format on the platform (YouTube is now the #1 podcast surface). Harrison's native mode IS the meta.
+- It is the compounding asset: evergreen, searchable, the high-trust artifact a corporate buyer finds when they check whether he's serious.
+- The AI/agents/build niche is in the fastest-growing cluster. Running and London life are low-competition depth niches. He holds both.
 
-1. **The Pin 1 long version** (8-12 min), origin, leap, observation, the chase made visible
-2. ***Do You Hear The Music?*** (10-15 min), the Oppenheimer / Eternal Sunshine piece from `content/ideas/do-you-hear-the-music.md`
-3. **A meditation on the curse of competence**, based on the `elegant-chase-of-better.md` work
-4. **Field notes from inside a £5bn business**, the LOR-adjacent essay, anonymised per `business/sales-positioning.md` constraints
-5. **What I'm learning about AI from the inside of real work**, the operator-not-influencer thesis from `strategy.md`
+## The format
 
-All five filmed in a single weekend block once triggered. Pre-edited library before the channel announcement.
+**One named, repeatable POV wrapper on real work.** The Dalen mechanic: the week's actual life (studio, agents, training, builds) filmed as it happens, one weekly long-form cut from it. Talk is the spine, cinematic inserts are seasoning where footage exists.
 
----
+- 8-15 minutes. Talk-led, one-take energy. No teleprompter ever.
+- The wrapper name and title system get locked after the first 2-3 uploads, from what feels true, not invented in advance. (Substance rule applies to naming too: his words.)
+- Recurring elements build the show: the studio, the agents on screen, the training, London, Maya and the brothers where they want to be in it.
+- Horizontal 16:9. The brand sheet grade and type system apply, lightly. This is a talking channel with taste, not a letterboxed film per week.
 
-## Channel architecture
+## The two tracks (do not conflate)
 
-### Name
-**Harrison Living** (mirrors all other platforms, see `content/platforms/substack.md`)
+1. **The show (weekly):** identity, audience, the person. Everything above.
+2. **The search track (occasional, unscheduled):** keyword-mapped videos answering real buyer questions ("how a one-person studio runs client content on AI agents"). Evergreen inbound for HWL, 3-6 month payoff, made only when a client-work insight makes one cheap to film. This is the studio's lane on the personal channel, inside the 80/20.
 
-### Avatar + banner
-Mirror IG profile photo. Banner: a still from the most cinematic frame of your library.
+## Packaging (half the game)
 
-### Description
-```
-Field notes from the chase.
+- Title + thumbnail designed before the edit is finished, never after upload.
+- **Test & Compare on every long-form:** 2-3 full title+thumbnail packages. YouTube picks the winner on watch-time-per-impression.
+- Editorial film-poster aesthetic per brand sheet. Declarative titles, 5-10 words. No caps-lock screaming.
+- **Protect the first 15-30 seconds ruthlessly.** Quality CTR means an overpromising open gets the video demoted. Cold-open into the week's most alive moment, no channel-intro throat-clearing.
 
-I make films about taste, work, and the people who do both seriously.
+## Shorts policy
 
-→ Newsletter: harrisonliving.substack.com
-→ Studio: hwlstudio.com
-```
+Shorts are discovery and idea-testing only. They run as a separate algorithm and convert to long-form viewers at under 10% the rate. 1-3 per week cut from long-form offcuts, zero extra shoots, and no plan ever leans on a Short going viral.
 
-### Sections (when launched)
-- Featured: Pin 1 long version
-- Most popular: rebuild dynamically
-- A playlist per pillar: "On work", "On taste", "On the chase"
-- No shorts for v1. The whole point of YouTube is the long form.
+## Growth mechanics, in order
 
----
+1. Ship the weekly slot. Consistency on a predictable day is the documented input.
+2. YPP as soon as eligible, then **Hype at 500 subs** (UK-live, smaller channels get a points multiplier, strongest 500-10k). Ask the early core to hype in the first 7 days.
+3. Return-viewer rate above 10% is the health metric that matters first. Then average view duration. Subscribers are downstream.
+4. Playlists per pillar once 8+ videos exist. Not before.
 
-## Production spec
+## What kills it
 
-### Length
-- 8 to 15 minutes per video.
-- Shorter = leaving compounding on the table; YouTube rewards mid-length.
-- Longer than 15 min = production weight unsustainable at v1.
-
-### Format
-- Same brand sheet as IG cinematic essays (letterbox bars, Gruppe A title cards, no on-screen subtitles).
-- **Horizontal 16:9, not vertical.** YouTube is a TV. Reshoot wide for YT delivery.
-- B-roll-heavy. Voiceover-led. Talking head sparingly.
-- One LUT across all videos. The Felix Verhous / Teo Crawford look.
-
-### Thumbnails
-- Editorial film-poster style. Not the screaming-face MrBeast tradition.
-- Bold serif or sans title across a cinematic still.
-- Reference aesthetic: Calder Dune's thumbnails, Casey Neistat post-2018, the A24 trailer poster look.
-
-### Titles
-- Declarative, 5-10 words.
-- No clickbait punctuation ("YOU WON'T BELIEVE…").
-- Examples:
-  - "I crossed the world to make other people's work"
-  - "What 12,898 likes on Tom Flower's pinned post taught me about story"
-  - "Do you hear the music?"
-
----
-
-## Posting cadence (when active)
-
-- **1 video per fortnight,** mirrored to the waterfall cycle. Same fortnight idea becomes the cinematic essay everywhere.
-- Sundays at 19:00 UK time (Sunday-evening prestige-viewing window).
-- No daily uploads. No live streams. No reaction content. Not the brand.
-
----
-
-## What we'll measure
-
-YouTube is multi-year. Measure quarterly minimum.
-
-| Metric | Q1 post-launch | Q2 | Q4 |
-|--------|----------------|-----|-----|
-| Subscribers | 200 | 800 | 5,000 |
-| Avg view duration | 4 min | 5 min | 7 min |
-| Watch time (hours/month) | 50 | 300 | 2,500 |
-| Inbound from YouTube → HWL Studio | 0 | 1 | 5 |
-
----
-
-## What kills the YT channel
-
-- Launching before there's a 5-video library (algorithmic cold start fails)
-- Vertical Shorts (commits to a different algorithm, dilutes the prestige channel)
-- Posting weekly out of obligation when there's no fortnightly idea worth filming
-- MrBeast-style thumbnails (off-brand for the LOR-tier audience)
-- Sponsorship reads (kills the prestige in v1; viable at 50k subs)
+- Scripting the videos. The moment a teleprompter or full script appears, the channel is dead on his own cringe test.
+- Chasing Shorts virality as a strategy.
+- Letting the weekly slot depend on cinematic-grade edits. The talk carries it; craft is rationed.
+- Tool-demo content. The channel shows a business running, never a tutorial tour of Claude features.
+- Skipping weeks silently. A skipped slot gets logged and named in the weekly review.

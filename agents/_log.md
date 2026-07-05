@@ -214,3 +214,8 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 - 2026-07-04 06:15  | health-sync | OK 2026-07-04: RHR 50, sleep 7.0h (score 85), HRV 57 BALANCED, readiness None
 - 2026-07-04 11:00  | health-sync | OK 2026-07-04: RHR 45, sleep 7.2h (score 83), HRV 61 BALANCED, readiness 64
 - 2026-07-04 14:00  | health-sync | OK 2026-07-04: RHR 45, sleep 7.2h (score 83), HRV 61 BALANCED, readiness 64
+- 2026-07-04 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-07-05 06:15  | health-sync | OK 2026-07-05: RHR 50, sleep 7.2h (score 83), HRV 61 BALANCED, readiness 75
+2026-07-05T09:00:00+01:00 | learning-brief | 8 items, 5 drills, file=learning/weekly-brief/2026-07-05-brief.md, telegram msg_id=508. Flagged history-plan drift: Lessons of History (due 31 May) and Art of War (due 30 June) show zero logged pages, Art of War has no start date in status table.
+- 2026-07-05 11:00  | health-sync | OK 2026-07-05: RHR 45, sleep 6.5h (score 79), HRV 62 BALANCED, readiness 75
+- 2026-07-05 14:00  | health-sync | OK 2026-07-05: RHR 45, sleep 6.5h (score 79), HRV 62 BALANCED, readiness 75

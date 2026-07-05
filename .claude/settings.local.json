@@ -72,7 +72,10 @@
       "Bash(git commit -m 'Session 2 Jul eve: obsidian idea gated, mindmap prototype scoped post-RTTS *)",
       "Bash(git push *)",
       "Bash(echo \"$\\(date +%Y-%m-%d\\),done,4,build-gate-session-2-decisions-1-followup\")",
-      "Bash(printf '\\\\033]0;[no-anchor] done\\\\007')"
+      "Bash(printf '\\\\033]0;[no-anchor] done\\\\007')",
+      "WebFetch(domain:github.com)",
+      "Bash(ls -d trading* edge*)",
+      "Bash(ls -d ~/edge-lab ~/trading*)"
     ]
   }
 }

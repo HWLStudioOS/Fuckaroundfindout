@@ -4,6 +4,24 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-07-06 15:30 (RTTS prep session)
+- Buy race fuel Tuesday 7 Jul: 5x SAP 40G, 4x Maurten Gel 160, 2x Maurten Gel 100 Caf, check Marchon carb mix (~6 scoops needed) + Performance Hydration (~9 scoops). Race is Saturday, Tuesday is the last safe buy day. Full plan: health/rtts-race-plan.md
+- Test Garmin LiveTrack on Tuesday's 17:00 shakeout, send to Mac + Maya, confirm it shows on their phones. The whole crew choreography runs on it. Crew site live at rtts-crew-site.vercel.app (#crew for the crew view)
+- Thursday 9 Jul: re-check Saturday forecast (currently 32°C/dry), adjust plan ETAs + redeploy site if it breaks cooler
+- Source: session 6 Jul (RTTS race prep, authoritative)
+- Tag: race
+- Status: new
+
+## 2026-07-06 14:07
+- **Claude Code 2.1.198: background subagents by default, auto commit and draft PR on finish**, Anthropic, 1 Jul. Subagents now run in the background so the main session keeps working while they finish, and once a worktree agent completes its code work it auto commits, pushes, and opens a draft PR instead of stopping to ask. Close to a live description of what already runs on this Mac Mini, worth a look at whether the agent fleet should adopt draft PR handoffs. [https://ai-tldr.dev/releases/anthropic-claude-code-2-1-198-jul1/]
+- **Construction firms are hiring chief AI officers, and Laing O'Rourke is one of them**, Construction Wave, 2 Jul. NG Bailey named a chief AI officer under its 2030 strategy, Kier appointed a head of data/analytics and an IT director covering AI adoption, and LOR's own Akordi subsidiary is currently advertising for an "AI construction optimisation lead." Direct client intelligence: LOR is already staffing for the exact ground the studio's positioning work keeps circling. [https://constructionwave.co.uk/2026/07/02/ai-is-here-to-stay-so-how-is-the-sector-preparing/]
+- **Workforce churn costs UK construction £1.3bn a year in lost productivity**, Mace Construct / Building, 6 Jul. Analysis of 200+ sites: high churn costs about £2,300 in lost output per hour on a 500 worker scheme, near £20,000 per hour on a 2,000 worker scheme, roughly £5m over an 18 month project. Hard numbers behind the retention and employer brand argument for LOR Early Talent. [https://www.building.co.uk/news/mace-construct-report-says-workforce-churn-costing-industy-13bn-a-year-in-lost-productivity-and-disappearing-knowledge/5143040.article]
+- **There's more to the mental health crisis than smartphones and social media**, Adam Grant, 27 Jun. New meta-analysis of 307 studies, 83,000 students, 35 years: perfectionism has been rising since a generation before smartphones existed, driven by parents, teachers and coaches punishing mistakes rather than by phones themselves. Cleaner causal story than the usual phone panic framing, BaW ready with a built in counter script. [https://adamgrant.substack.com/p/theres-more-to-the-mental-health]
+- **Why social media bans are gaining steam**, Casey Newton / Platformer, 2 Jul. Developmental psychologist Candice Odgers used a TED talk to directly challenge Jonathan Haidt's Anxious Generation thesis: her longitudinal data since 2008 finds social media doesn't predict later teen depression, yet Australia, Brazil, the UK and six other democracies are banning under 16 access anyway. Direct platform risk read for a business that runs entirely on Instagram and TikTok reach. [https://www.platformer.news/social-media-bans-candice-odgers-haidt/]
+- Source: discovery-scan
+- Tag: learning
+- Status: new
+
 ## 2026-07-05 15:00 (Sunday session, window 2)
 - Watching Daniel Dalen. Harrison's own words: "don't know why I'm not just picking up the camera more and talking shit. Just like I've starting writing on the typewriter." Charge present. First entry in the substance bank since the 2 Jul rule went live. Candidate substance for the first non-football post, entirely his call. Typewriter writing is new and sticking, same mechanic as talk-to-camera: no edit layer, output exists the moment you stop.
 - Source: self, session (authoritative, Harrison's own words)

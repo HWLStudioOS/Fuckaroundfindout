@@ -158,3 +158,10 @@
 - Training: full rest day, correctly no session prescribed. Garmin shows only normal daily movement (5,946 steps, RHR 46, readiness 68 MODERATE). Nothing to score.
 - Campaigns moved: 0 verifiable (golf clubs v2 batch-1 still unsent, expires tomorrow 4 Jul per the 48h rule; new client campaign's 5 warm asks still unsent, day 5; LOR/Creepers/BaW all in hold or no new signal. No Telegram reply, Linear delta, or Granola filing today confirms movement either way, so these stay carried, not scored as misses.)
 - Tomorrow's first action: Send or approve the five golf clubs v2 batch-1 openers before the 48h window closes end of day, the exact pattern that killed Wave 1.
+
+## 2026-07-06 evening
+- Shipped: BaW Superstars meeting held (Cathal + Annette, 10:00), Season 5 direction locked, confirmed via same-day roadmap + summer-plan files built straight off the Granola record (launch pushed to September, miniseries breakthrough "Better Leadership", funnel proposal, brand refresh scoped, weekly Monday stand-up agreed); RTTS crew site built and deployed to rtts-crew-site.vercel.app + race plan updated, per Harrison's own 15:30 capture
+- Missed: unverifiable (golf clubs v2 batch-1 sends, new client warm asks, Amex over-limit resolution, Starling/Capital on Tap bridge check all require hwlstudio.com email or phone access; campaign-chaser's 10:07 check found zero sends but can't speak to the rest of the day; absence is not confirmation)
+- Training: no set session prescribed today (W26 race week, RTTS Saturday 5 days out, today is easy/unstructured). Strava shows Lunch Weight Training 30min (12:12) + Afternoon Walk 2.1km (16:22). Consistent with the prescription, nothing to score as a miss.
+- Campaigns moved: 1 (BaW, Superstars meeting delivered a full Season 5 roadmap and summer plan)
+- Tomorrow's first action: Buy race fuel (5x SAP 40G, 4x Maurten Gel 160, 2x Maurten Gel 100 Caf, check Marchon carb mix + Performance Hydration scoops). Tuesday is the last safe buy day before Saturday's race.

@@ -130,11 +130,11 @@ Thanks H
 > Auto-updated by campaign-chaser agent.
 
 ```
-Last action: Batch-1 openers expired unsent 4 Jul (48h rule triggered, drafted 2 Jul). Confirmed via Gmail sent-folder check 5 Jul: zero sends to any batch-1 club. This is the exact Wave 1 failure mode repeating in v2, the rule caught it but nobody acted on the catch.
-Days since last action: 3 (research/draft, 2 Jul)
-Next move: Real decision needed, not more research: (a) re-approve the same five openers now (copy doesn't go stale, only the drafting-to-send window did) and send this week, or (b) explicitly hold the whole batch until post-RTTS (11 Jul) and say so, rather than let it die silently a second time. Given the content is one tap away, sending needs no creative effort and doesn't compete with race-week taper.
+Last action: Batch-1 openers expired unsent 4 Jul (48h rule triggered, drafted 2 Jul). Reconfirmed via Gmail sent-folder check 6 Jul: still zero sends to any batch-1 club, zero replies. Third consecutive campaign-chaser cycle finding no movement.
+Days since last action: 4 (draft, 2 Jul)
+Next move: Same decision as the last two flags, unchanged: (a) re-approve the same five openers now (copy doesn't go stale, only the drafting-to-send window did), or (b) explicitly hold the whole batch until post-RTTS (11 Jul) and say so. Content is one tap away either way.
 Blocker: Harrison decision + tap.
-Status: active, v2 batch-1 unsent past its own expiry window. Zero sends, zero replies.
+Status: active, v2 batch-1 unsent past its own expiry window. Zero sends, zero replies. Third flag.
 ```
 
 ## What Harrison does

@@ -76,7 +76,19 @@
       "WebFetch(domain:github.com)",
       "Bash(ls -d trading* edge*)",
       "Bash(ls -d ~/edge-lab ~/trading*)",
-      "Bash(git -C \"/Users/harrison/HWL META\" log --oneline --since=\"2026-06-29\" --name-only -- content/)"
+      "Bash(git -C \"/Users/harrison/HWL META\" log --oneline --since=\"2026-06-29\" --name-only -- content/)",
+      "Bash(command -v hermes)",
+      "Read(//usr/local/bin/**)",
+      "Bash(npm ls *)",
+      "Bash(pipx list *)",
+      "Bash(uv tool *)",
+      "Bash(pip3 list *)",
+      "Bash(defaults domains *)",
+      "Bash(hdiutil detach *)",
+      "Bash(rm -rf ~/.hermes ~/hermes ~/Downloads/Hermes-Setup.dmg ~/Library/Caches/com.nousresearch.hermes.setup ~/Library/WebKit/com.nousresearch.hermes.setup ~/.local/state/hermes)",
+      "WebFetch(domain:labs.cloudsecurityalliance.org)",
+      "WebFetch(domain:hermes-agent.nousresearch.com)",
+      "Bash(npx vercel *)"
     ]
   }
 }

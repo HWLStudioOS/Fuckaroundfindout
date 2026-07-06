@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>B@W HQ · Summer 2026</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%234C1D95'/><text x='50' y='66' font-size='48' text-anchor='middle' fill='%23FFD338' font-family='Arial' font-weight='bold'>@</text></svg>" />
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root {
+    --plum:#4C1D95; --plum-mid:#6D28D9; --plum-deep:#35205E;
+    --tint:#F5F1FB; --tint2:#EDE7F8; --ink:#231A33; --muted:#6E6485;
+    --yellow:#FFD338; --berry:#E0355E; --green:#1B9E77; --line:#E2DAF1;
+  }
+  body { font-family:'Poppins',sans-serif; background:#F8F6FC; color:var(--ink); }
+  .wrap { max-width:1060px; margin:0 auto; padding:0 20px 80px; }
+
+  header.hero { background:linear-gradient(130deg,var(--plum-deep),var(--plum-mid)); color:#fff; padding:34px 0 30px; }
+  .hero-inner { max-width:1060px; margin:0 auto; padding:0 20px; display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:18px; }
+  .hero h1 { font-size:26px; font-weight:800; }
+  .hero h1 span { color:var(--yellow); }
+  .hero .sub { color:#C9B8EC; font-size:13px; margin-top:4px; }
+  .countdowns { display:flex; gap:14px; }
+  .cd { background:rgba(255,255,255,.1); border-radius:12px; padding:10px 16px; text-align:center; }
+  .cd b { display:block; font-size:22px; font-weight:800; color:var(--yellow); }
+  .cd span { font-size:10.5px; color:#C9B8EC; }
+
+  .bar-outer { background:rgba(255,255,255,.15); border-radius:99px; height:10px; margin-top:16px; }
+  .bar-inner { background:var(--yellow); border-radius:99px; height:10px; width:0%; transition:width .4s; }
+  .bar-label { font-size:11px; color:#C9B8EC; margin-top:6px; }
+
+  .filters { display:flex; gap:8px; flex-wrap:wrap; margin:26px 0 6px; }
+  .chip { border:1.5px solid var(--line); background:#fff; border-radius:99px; padding:5px 14px; font-size:12px; font-weight:600; color:var(--muted); cursor:pointer; font-family:inherit; }
+  .chip.active { background:var(--plum); border-color:var(--plum); color:#fff; }
+
+  .week { background:#fff; border:1px solid var(--line); border-radius:16px; margin-top:18px; overflow:hidden; }
+  .week.current { border:2px solid var(--plum-mid); box-shadow:0 6px 24px rgba(77,29,149,.12); }
+  .week:not(.current):hover { box-shadow:0 4px 18px rgba(77,29,149,.07); }
+  .week.complete .week-meta span { color:var(--green); font-weight:700; }
+  .week-head { display:flex; justify-content:space-between; align-items:center; padding:14px 20px; cursor:pointer; }
+  .week-head:hover { background:var(--tint); }
+  .week-head .wt { font-size:15px; font-weight:700; color:var(--plum); }
+  .week-head .wt small { color:var(--muted); font-weight:500; font-size:12px; margin-left:8px; }
+  .now-pill { background:var(--berry); color:#fff; font-size:10px; font-weight:700; padding:3px 10px; border-radius:99px; margin-left:10px; vertical-align:middle; }
+  .week-meta { display:flex; align-items:center; gap:12px; font-size:12px; color:var(--muted); }
+  .mini-bar { width:90px; height:6px; background:var(--tint2); border-radius:99px; }
+  .mini-bar i { display:block; height:6px; background:var(--green); border-radius:99px; }
+  .week-body { padding:2px 20px 16px; display:none; }
+  .week.open .week-body { display:block; }
+  .focus { font-size:12px; color:var(--muted); font-style:italic; margin:2px 0 10px; }
+
+  .task { display:flex; align-items:flex-start; gap:10px; padding:7px 8px; border-radius:8px; }
+  .task:hover { background:var(--tint); }
+  .task input { margin-top:4px; width:15px; height:15px; accent-color:var(--plum-mid); cursor:pointer; }
+  .task label { font-size:13.5px; line-height:1.45; cursor:pointer; flex:1; }
+  .task.done label { text-decoration:line-through; color:var(--muted); }
+  .own { font-size:9.5px; font-weight:700; padding:2px 8px; border-radius:99px; white-space:nowrap; margin-top:3px; }
+  .own.H { background:#EDE7F8; color:var(--plum); }
+  .own.Chat { background:#FFF3C4; color:#8a6203; }
+  .own.Cowork { background:#FBE3EA; color:var(--berry); }
+  .own.Code { background:#DFF3EC; color:var(--green); }
+  .own.Together { background:var(--plum); color:#fff; }
+  .own.CA { background:#E8E8E8; color:#555; }
+
+  .addrow { display:flex; gap:8px; margin-top:10px; }
+  .addrow input[type=text] { flex:1; border:1.5px solid var(--line); border-radius:8px; padding:7px 12px; font-family:inherit; font-size:13px; }
+  .addrow button { background:var(--plum); color:#fff; border:none; border-radius:8px; padding:7px 14px; font-family:inherit; font-weight:600; font-size:13px; cursor:pointer; }
+
+  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-top:26px; }
+  @media (max-width:760px){ .grid2{grid-template-columns:1fr} .countdowns{width:100%} }
+  .panel { background:#fff; border:1px solid var(--line); border-radius:16px; padding:18px 20px; }
+  .panel h3 { font-size:13px; font-weight:700; letter-spacing:1.4px; color:var(--berry); margin-bottom:10px; }
+  .panel ul { list-style:none; }
+  .panel li { font-size:13px; line-height:1.5; padding:5px 0; border-bottom:1px dashed var(--tint2); }
+  .panel li:last-child { border-bottom:none; }
+  .panel li b { color:var(--plum); }
+  .date-tag { display:inline-block; min-width:64px; font-weight:700; color:var(--plum); }
+
+  .engine-table { width:100%; border-collapse:collapse; font-size:12.5px; }
+  .engine-table td { padding:6px 4px; border-bottom:1px dashed var(--tint2); vertical-align:top; line-height:1.4; }
+  .engine-table td:first-child { font-weight:600; color:var(--plum); white-space:nowrap; padding-right:10px; }
+
+  textarea#notes { width:100%; min-height:120px; border:1.5px solid var(--line); border-radius:10px; padding:10px 12px; font-family:inherit; font-size:13px; resize:vertical; }
+  .saved { font-size:11px; color:var(--green); margin-top:4px; height:14px; }
+
+  footer { text-align:center; font-size:11px; color:var(--muted); margin-top:40px; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div style="flex:1; min-width:280px">
+      <h1>Better<span>@</span>Work HQ <span style="font-weight:500;font-size:15px;color:#C9B8EC">· Summer 2026</span></h1>
+      <div class="sub">The break-to-Season-5 engine. Warm feed, funnel build, miniseries prep. Updated live, ticks saved in your browser.</div>
+      <div class="bar-outer"><div class="bar-inner" id="totalBar"></div></div>
+      <div class="bar-label" id="totalLabel"></div>
+    </div>
+    <div class="countdowns">
+      <div class="cd"><b id="cdWebb">–</b><span>days to Webb<br>13 Aug</span></div>
+      <div class="cd"><b id="cdLaunch">–</b><span>days to launch<br>w/c 31 Aug (TBC)</span></div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="filters" id="filters">
+    <button class="chip active" data-f="all">All</button>
+    <button class="chip" data-f="H">Harrison</button>
+    <button class="chip" data-f="Chat">Claude · Chat</button>
+    <button class="chip" data-f="Cowork">Claude · Cowork</button>
+    <button class="chip" data-f="Code">Claude · Code</button>
+    <button class="chip" data-f="Together">Together</button>
+    <button class="chip" data-f="CA">Cathal + Annette</button>
+  </div>
+
+  <div id="weeks"></div>
+
+  <div class="grid2">
+    <div class="panel">
+      <h3>KEY DATES</h3>
+      <ul>
+        <li><span class="date-tag">Tue 7 Jul</span> Cathal returns newsletter piece · invoice + agency-intro WhatsApps</li>
+        <li><span class="date-tag">Sat 11 Jul</span> RTTS 50K. No B@W after Thursday this week</li>
+        <li><span class="date-tag">Mon 13 Jul</span> First WhatsApp stand-up · Cathal + Annette guest session 10:40</li>
+        <li><span class="date-tag">~18 Jul</span> Cathal → France (2 wks)</li>
+        <li><span class="date-tag">3–16 Aug</span> Cathal → Australia</li>
+        <li><span class="date-tag">Wed 13 Aug</span> Caroline Webb records, remote</li>
+        <li><span class="date-tag">17–31 Aug</span> Cathal → Spain (reads Neil's book)</li>
+        <li><span class="date-tag">Sept</span> Neil in-studio · S5 launches with Webb</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>THE WEEKLY ENGINE</h3>
+      <table class="engine-table">
+        <tr><td>Best-of ep</td><td>Claude mines best 15 min → Harrison picks/trims → feed</td></tr>
+        <tr><td>Shorts ×2</td><td>Claude flags moments + captions → Harrison cuts + posts</td></tr>
+        <tr><td>Newsletter</td><td>Claude drafts → Harrison voice pass → Cathal 👍 on WhatsApp</td></tr>
+        <tr><td>LinkedIn ×1–2</td><td>Claude ghostwrites, Harrison passes, Cathal posts</td></tr>
+        <tr><td>Sum Ups</td><td>3 tests (Martin, Tupper, +1) then drip whole of S4</td></tr>
+        <tr><td>Stand-up</td><td>Mondays, WhatsApp: done / next. No call unless needed</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="grid2">
+    <div class="panel">
+      <h3>RISKS ON WATCH</h3>
+      <ul>
+        <li><b>Filming day has no date.</b> Misses w/c 13 Jul → fighting holiday gaps. Force at Monday stand-up.</li>
+        <li><b>Monday 13 Jul session is a dependency.</b> Third Sum Up + miniseries targets both come out of it.</li>
+        <li><b>Approval loop on holiday.</b> WhatsApp 👍 = newsletter sign-off, agree it this week or August cadence dies.</li>
+        <li><b>Cost sensitivity is real.</b> Frame all output against near-zero marginal cost of the engine.</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>SCRATCHPAD</h3>
+      <textarea id="notes" placeholder="Running notes, stand-up drafts, things to raise Friday..."></textarea>
+      <div class="saved" id="notesSaved"></div>
+    </div>
+  </div>
+
+  <footer>B@W HQ · built by Harrison + Claude, 6 Jul 2026 · ticks and notes live in this browser only</footer>
+</div>
+
+<script>
+const WEEKS = [
+  { id:"w1", title:"W1 · Race week", dates:"6–12 Jul", start:"2026-07-06",
+    focus:"Ship the two blockers, nothing heavy. Race Saturday.",
+    tasks:[
+      ["Question capture link live BEFORE wrap episode publishes","Code"],
+      ["Wrap episode packaged + published, break & return framing in copy","H"],
+      ["Newsletter #1 out: season wrap, break, question link (Cathal piece back Tue)","Chat"],
+      ["WhatsApp Cathal: invoice nudge","H"],
+      ["WhatsApp Cathal: website agency intro ask","H"],
+      ["Agree WhatsApp 👍 counts as newsletter sign-off","H"],
+      ["Transcript mining S2–S4 starts, first best-of shortlist by Fri","Cowork"],
+      ["Run the 50K. Recover.","H"],
+    ]},
+  { id:"w2", title:"W2 · Loading week", dates:"13–19 Jul", start:"2026-07-13",
+    focus:"Everything that needs Cathal in the country, before he flies ~18th.",
+    tasks:[
+      ["First Monday stand-up posted","H"],
+      ["Cathal + Annette guest session Mon 10:40 → 5 miniseries targets, US shortlist, 3rd Sum Up pick","CA"],
+      ["Filming day: lock date (this week or ~16 Aug) at stand-up","Together"],
+      ["If filming: house ads (Careers + Leadership), proper intro, refresh photography","H"],
+      ["Best-of #1 to the feed","H"],
+      ["Sum Up test #1 (Roger Martin) built + gated","Cowork"],
+      ["Lucy talk support: 4-episode lessons one-pager","Chat"],
+      ["Brand refresh exploration v1 presented (cover art, palette, type, site mock)","Cowork"],
+      ["Website agency intro call if it lands","Together"],
+    ]},
+  { id:"w3", title:"W3 · Engine solo", dates:"20–26 Jul", start:"2026-07-20",
+    focus:"Cathal in France. The engine proves itself.",
+    tasks:[
+      ["Best-of #2 · shorts ×2 · newsletter · LinkedIn","H"],
+      ["Sum Up #2 (Helen Tupper) + #3 (TBC) built","Cowork"],
+      ["Funnel sprint 1: lead capture → email, Sum Up gating live, Better Careers one-tap checkout","Code"],
+      ["Miniseries pitch kit: format doc, naming, guest one-pager, LinkedIn call-out copy","Chat"],
+      ["Friday engine review (30 min)","Together"],
+    ]},
+  { id:"w4", title:"W4 · Engine solo", dates:"27 Jul–2 Aug", start:"2026-07-27",
+    focus:"Funnel plumbing done before August.",
+    tasks:[
+      ["Best-of #3 · shorts ×2 · LinkedIn","H"],
+      ["Newsletter carries embedded Sum Up + feedback ask","Chat"],
+      ["Funnel sprint 2: $20 promo page, UTMs everywhere, analytics view","Code"],
+      ["AEO/SEO pass: episode pages, schema, John R YouTube-algorithm dig","Code"],
+      ["Refresh v2 from feedback, converging","Cowork"],
+      ["Friday engine review","Together"],
+    ]},
+  { id:"w5", title:"W5 · Webb prep", dates:"3–9 Aug", start:"2026-08-03",
+    focus:"Cathal in Australia. Outreach goes out, Webb pack ready.",
+    tasks:[
+      ["Best-of #4 · shorts ×2 · newsletter · LinkedIn","H"],
+      ["Webb prep pack: book research brief, suggested questions, Lisa bulk-buy thread ready","Chat"],
+      ["Cathal sends 5 Better Leadership pitches from the kit","CA"],
+      ["Miniseries call-out posts live on both LinkedIn profiles","H"],
+      ["Trailer script drafted · refresh assets near-final","Cowork"],
+      ["Friday engine review","Together"],
+    ]},
+  { id:"w6", title:"W6 · Webb week", dates:"10–16 Aug", start:"2026-08-10",
+    focus:"Record the opener. Freeze the refresh. Pick the date.",
+    tasks:[
+      ["Wed 13 Aug: Webb records, Harrison supports live, edit starts same day","H"],
+      ["Best-of #5 · shorts ×2","H"],
+      ["Refresh FROZEN: cover art, thumbnails, Sum Up template, site","Cowork"],
+      ["Filming day ~Sun 16 Aug if not done in July","H"],
+      ["Launch plan session: pick the September date, list every asset, back-plan","Together"],
+    ]},
+  { id:"w78", title:"W7–8 · Spain stretch", dates:"17–31 Aug", start:"2026-08-17",
+    focus:"Engine solo. Webb packaged. Trailer drops. Site goes live.",
+    tasks:[
+      ["Best-ofs #6–7 · shorts · newsletters","H"],
+      ["Webb episode fully packaged: thumbnail, clips, Sum Up, newsletter feature, LinkedIn sequence","Cowork"],
+      ["Trailer to the feed ~last week of August","H"],
+      ["Site relaunch live","Code"],
+      ["September ready: Neil in-studio booked, launch assets staged","Together"],
+    ]},
+];
+
+const OWNER_NAMES = { H:"Harrison", Chat:"Claude · Chat", Cowork:"Claude · Cowork", Code:"Claude · Code", Together:"Together", CA:"Cathal + Annette" };
+const LS = "bawhq-v1";
+let state = {};
+try { state = JSON.parse(localStorage.getItem(LS) || "{}"); } catch(e) { state = {}; }
+state.done = state.done || {};
+state.custom = state.custom || {};
+state.notes = state.notes || "";
+let filter = "all";
+
+function save(){ localStorage.setItem(LS, JSON.stringify(state)); }
+
+function currentWeekId(){
+  const now = new Date();
+  let cur = null;
+  WEEKS.forEach(w => { if (now >= new Date(w.start + "T00:00:00")) cur = w.id; });
+  return cur || WEEKS[0].id;
+}
+
+function taskId(wid, i, custom){ return wid + (custom ? "-c" : "-t") + i; }
+
+function render(){
+  const container = document.getElementById("weeks");
+  container.innerHTML = "";
+  const curId = currentWeekId();
+  let total = 0, done = 0;
+
+  WEEKS.forEach(w => {
+    const customs = state.custom[w.id] || [];
+    const all = w.tasks.map((t,i)=>({label:t[0], own:t[1], id:taskId(w.id,i,false)}))
+      .concat(customs.map((c,i)=>({label:c.label, own:c.own||"H", id:taskId(w.id,i,true)})));
+    const visible = filter==="all" ? all : all.filter(t=>t.own===filter);
+    const wDone = all.filter(t=>state.done[t.id]).length;
+    total += all.length; done += wDone;
+
+    // Under an active filter, skip weeks with nothing to show (totals still count above).
+    if (filter!=="all" && visible.length===0) return;
+
+    const complete = all.length>0 && wDone===all.length;
+    const div = document.createElement("div");
+    div.className = "week" + (w.id===curId ? " current" : "") + (complete ? " complete" : "");
+    const saved = state["open-"+w.id];
+    if (saved===undefined ? w.id===curId : saved) div.classList.add("open");
+
+    const head = document.createElement("div");
+    head.className = "week-head";
+    head.innerHTML = `<div class="wt">${w.title}<small>${w.dates}</small>${w.id===curId?'<span class="now-pill">NOW</span>':''}</div>
+      <div class="week-meta"><span>${wDone}/${all.length}${complete?' ✓':''}</span><div class="mini-bar"><i style="width:${all.length?Math.round(wDone/all.length*100):0}%"></i></div></div>`;
+    head.onclick = () => { div.classList.toggle("open"); state["open-"+w.id] = div.classList.contains("open"); save(); };
+    div.appendChild(head);
+
+    const body = document.createElement("div");
+    body.className = "week-body";
+    body.innerHTML = `<div class="focus">${w.focus}</div>`;
+
+    visible.forEach(t => {
+      const row = document.createElement("div");
+      row.className = "task" + (state.done[t.id] ? " done" : "");
+      const cb = document.createElement("input");
+      cb.type = "checkbox"; cb.checked = !!state.done[t.id]; cb.id = "cb-"+t.id;
+      cb.onchange = () => { state.done[t.id] = cb.checked; save(); render(); };
+      const lb = document.createElement("label");
+      lb.htmlFor = cb.id; lb.textContent = t.label;
+      const chip = document.createElement("span");
+      chip.className = "own " + t.own; chip.textContent = OWNER_NAMES[t.own] || t.own;
+      row.append(cb, lb, chip);
+      body.appendChild(row);
+    });
+
+    if (filter==="all") {
+      const add = document.createElement("div");
+      add.className = "addrow";
+      const inp = document.createElement("input");
+      inp.type = "text"; inp.placeholder = "Add a task to this week...";
+      const btn = document.createElement("button");
+      btn.textContent = "Add";
+      const addFn = () => {
+        const v = inp.value.trim(); if (!v) return;
+        (state.custom[w.id] = state.custom[w.id] || []).push({label:v, own:"H"});
+        inp.value = ""; save(); render();
+      };
+      btn.onclick = addFn;
+      inp.addEventListener("keydown", e => { if (e.key==="Enter") addFn(); });
+      add.append(inp, btn);
+      body.appendChild(add);
+    }
+
+    div.appendChild(body);
+    container.appendChild(div);
+  });
+
+  const pct = total ? Math.round(done/total*100) : 0;
+  document.getElementById("totalBar").style.width = pct + "%";
+  document.getElementById("totalLabel").textContent = done + " of " + total + " tasks done · " + pct + "%";
+}
+
+function days(to){
+  const d = Math.ceil((new Date(to+"T00:00:00") - new Date()) / 86400000);
+  return d > 0 ? d : (d === 0 ? "today" : "✓");
+}
+document.getElementById("cdWebb").textContent = days("2026-08-13");
+document.getElementById("cdLaunch").textContent = days("2026-08-31");
+
+document.getElementById("filters").addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if (!b) return;
+  filter = b.dataset.f;
+  document.querySelectorAll(".chip").forEach(c=>c.classList.toggle("active", c===b));
+  render();
+});
+
+const notesEl = document.getElementById("notes");
+notesEl.value = state.notes;
+let nt;
+notesEl.addEventListener("input", () => {
+  state.notes = notesEl.value; save();
+  document.getElementById("notesSaved").textContent = "saved";
+  clearTimeout(nt); nt = setTimeout(()=>document.getElementById("notesSaved").textContent="", 1200);
+});
+
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RTTS 50K · Race Day</title>
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#fcfcfb">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1a1a19">
+<style>
+:root{
+  --surface:#fcfcfb; --card:#ffffff; --ink:#1a1a19; --ink2:#5f5e58; --ink3:#8a897f;
+  --line:#e6e5df; --crew:#eb6834; --crew-ink:#ffffff; --ps:#4a3aa7; --blue:#2a78d6;
+  --blue-soft:rgba(42,120,214,.14); --hl:#fff3ec; --chip:#f0efec;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --surface:#1a1a19; --card:#232320; --ink:#ffffff; --ink2:#c3c2b7; --ink3:#8a897f;
+    --line:#38383!5; --line:#383835; --crew:#d95926; --crew-ink:#ffffff; --ps:#9085e9; --blue:#3987e5;
+    --blue-soft:rgba(57,135,229,.18); --hl:#33261e; --chip:#2e2e2a;
+  }
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--surface);color:var(--ink);-webkit-text-size-adjust:100%}
+.wrap{max-width:680px;margin:0 auto;padding:0 14px 60px}
+header{position:sticky;top:0;z-index:10;background:var(--surface);border-bottom:1px solid var(--line);padding:10px 14px}
+.hrow{max-width:680px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:10px}
+h1{font-size:17px;font-weight:700;letter-spacing:-.01em}
+h1 span{color:var(--ink3);font-weight:500}
+.tabs{display:flex;background:var(--chip);border-radius:10px;padding:3px}
+.tabs button{border:0;background:transparent;color:var(--ink2);font:600 14px/1 inherit;padding:9px 16px;border-radius:8px;cursor:pointer}
+.tabs button.on{background:var(--card);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.15)}
+.hero{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px}
+.chip{background:var(--chip);border-radius:8px;padding:6px 11px;font-size:13px;font-weight:600;color:var(--ink2)}
+.chip b{color:var(--ink)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-top:14px}
+.card h2{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--ink3);margin-bottom:10px}
+.profile-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.profile-scroll svg{min-width:640px;width:100%;height:auto;display:block}
+.legend{display:flex;gap:16px;margin-top:8px;font-size:12.5px;color:var(--ink2)}
+.legend i{display:inline-block;width:11px;height:11px;border-radius:50%;background:var(--crew);margin-right:5px;vertical-align:-1px}
+.legend i.d{border-radius:2px;transform:rotate(45deg);background:var(--ps)}
+.flasks{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.flask{border:1.5px solid var(--line);border-radius:12px;padding:12px}
+.flask b{display:block;font-size:15px;margin-bottom:4px}
+.flask small{color:var(--ink2);font-size:13px;display:block}
+.flask.l{border-color:var(--blue)}
+.rule{margin-top:12px;padding:11px 12px;background:var(--blue-soft);border-radius:10px;font-size:14.5px;font-weight:600}
+.rule small{display:block;font-weight:500;color:var(--ink2);margin-top:3px;font-size:13px}
+.tl{list-style:none}
+.tl li{display:flex;gap:12px;padding:9px 0;border-bottom:1px solid var(--line);font-size:14.5px;align-items:baseline}
+.tl li:last-child{border-bottom:0}
+.tl .t{flex:0 0 78px;font-weight:700;font-variant-numeric:tabular-nums}
+.tl .k{flex:0 0 44px;color:var(--ink3);font-size:12.5px;font-variant-numeric:tabular-nums}
+.tl .a{flex:1;color:var(--ink2)}
+.tl .a b{color:var(--ink)}
+.tl li.crew{background:var(--hl);border-radius:10px;padding:9px 10px;margin:2px -10px;border-bottom:0}
+.tl li.crew .t{color:var(--crew)}
+.tl li.ps .t{color:var(--ps)}
+.tl li.now{outline:2px solid var(--crew);border-radius:10px;padding:9px 10px;margin:2px -10px}
+.stop{margin-top:14px;border-left:4px solid var(--crew)}
+.stop.ghost{border-left-color:var(--ps)}
+.stop .top{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.stop h3{font-size:16.5px}
+.stop .win{font-weight:700;color:var(--crew);font-variant-numeric:tabular-nums;font-size:15px}
+.stop.ghost .win{color:var(--ps)}
+.stop .sub{color:var(--ink3);font-size:13px;margin:2px 0 8px}
+.stop ul{list-style:none;margin:8px 0}
+.stop ul li{padding:4px 0 4px 22px;position:relative;font-size:14.5px;color:var(--ink2)}
+.stop ul li::before{content:"";position:absolute;left:4px;top:11px;width:7px;height:7px;border-radius:50%;background:var(--crew)}
+.stop.ghost ul li::before{background:var(--ps)}
+.btns{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.btn{display:inline-block;background:var(--crew);color:var(--crew-ink);text-decoration:none;font-weight:700;font-size:14px;padding:10px 16px;border-radius:10px}
+.btn.o{background:var(--chip);color:var(--ink)}
+.drive{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);font-size:13.5px;color:var(--ink3)}
+.drive b{color:var(--ink2)}
+.warn{margin-top:8px;padding:10px 12px;border-radius:10px;background:var(--hl);font-size:14px;font-weight:600}
+.pack label{display:flex;gap:10px;align-items:baseline;padding:6px 0;font-size:14.5px;color:var(--ink2);border-bottom:1px solid var(--line);cursor:pointer}
+.pack label:last-child{border-bottom:0}
+.pack input{transform:translateY(1px);accent-color:var(--crew);width:17px;height:17px;flex:none}
+.pack input:checked+span{text-decoration:line-through;color:var(--ink3)}
+.roles{display:grid;gap:8px}
+.roles div{background:var(--chip);border-radius:10px;padding:10px 12px;font-size:14px;color:var(--ink2)}
+.roles b{color:var(--ink)}
+.view-crew .runner-only,.view-runner .crew-only{display:none}
+.foot{margin-top:22px;font-size:12.5px;color:var(--ink3);text-align:center}
+.foot a{color:var(--ink3)}
+</style>
+</head>
+<body class="view-runner">
+<header>
+  <div class="hrow">
+    <h1>RTTS 50K <span>· Sat 11 Jul</span></h1>
+    <nav class="tabs" role="tablist">
+      <button id="tab-runner" class="on" onclick="setView('runner')">Harrison</button>
+      <button id="tab-crew" onclick="setView('crew')">Crew</button>
+    </nav>
+  </div>
+</header>
+<div class="wrap">
+
+<div class="hero">
+  <div class="chip">Start <b>6:50</b></div>
+  <div class="chip">Goal <b>sub-6 · 12:50</b></div>
+  <div class="chip">49.3km · 605m up</div>
+  <div class="chip">32°C · UV 7 · dry</div>
+</div>
+
+<div class="card">
+  <h2>Course · crew stops · pit stops</h2>
+  <div class="profile-scroll">
+  <svg viewBox="0 0 1000 226" role="img" aria-label="Elevation profile with crew stops at km 8.7, 19.1, 28.2, 42.2, 44.5 and pit stops at km 9.5, 20.7, 33.5">
+    <line x1="0" y1="170" x2="1000" y2="170" stroke="var(--line)" stroke-width="1"/>
+    <line x1="0" y1="92" x2="1000" y2="92" stroke="var(--line)" stroke-width="1" stroke-dasharray="3 5"/>
+    <text x="4" y="87" font-size="15" fill="var(--ink3)">150m</text>
+    <g font-size="15" fill="var(--ink3)" text-anchor="middle">
+      <text x="203" y="192">10k</text><text x="406" y="192">20k</text>
+      <text x="609" y="192">30k</text><text x="812" y="192">40k</text>
+    </g>
+    <polygon fill="var(--blue-soft)" points="0,170 0.0,103.9 2.1,102.5 12.3,92.4 20.7,82.7 26.1,80.7 33.0,79.1 41.2,80.8 52.1,91.4 72.0,92.4 77.3,91.4 82.2,89.1 91.4,100.4 96.4,104.0 106.8,94.0 117.5,86.0 124.5,83.4 135.0,90.1 143.5,77.9 149.4,63.3 153.4,38.1 171.6,66.5 176.2,61.6 179.0,67.5 183.1,77.0 188.2,79.8 196.4,24.4 201.0,28.2 203.4,29.7 207.4,33.7 214.8,40.6 219.4,56.5 226.7,72.3 233.7,65.6 240.1,40.0 242.2,36.1 247.2,31.4 251.7,32.2 255.3,32.1 258.4,31.6 264.7,38.9 296.9,101.7 327.0,136.3 338.7,125.0 354.6,128.6 365.3,143.7 369.6,156.5 375.9,162.9 379.9,165.1 384.1,165.1 388.1,166.2 396.5,165.3 411.3,165.8 418.7,165.4 421.1,163.1 422.8,164.6 424.6,163.7 426.5,165.1 429.5,167.3 433.0,167.9 437.2,167.9 443.5,167.4 449.7,168.0 453.1,167.9 455.8,167.2 459.2,169.0 463.4,169.0 470.0,169.7 476.7,168.3 480.9,170.0 484.4,169.3 489.6,169.3 493.1,168.1 498.9,168.3 503.5,167.7 508.5,166.7 512.2,166.6 515.3,166.0 520.2,168.2 525.0,168.3 531.7,164.2 537.1,164.6 542.2,164.3 549.5,163.2 552.5,164.3 558.5,161.4 559.9,158.5 563.3,164.7 571.1,166.8 576.3,169.3 584.2,154.7 587.9,148.5 590.8,148.1 594.3,142.6 598.7,139.9 601.5,141.2 604.1,144.4 607.5,142.8 609.7,141.0 613.4,143.3 617.0,145.8 622.3,144.1 628.4,140.0 633.8,130.5 639.0,131.0 642.4,127.3 646.0,124.8 657.7,97.6 671.3,73.0 679.5,60.8 682.6,54.5 686.0,52.2 688.8,51.8 691.3,52.1 701.5,75.2 702.8,78.2 705.2,82.6 707.7,84.1 711.1,78.6 715.7,85.6 720.5,85.8 724.1,86.1 727.6,89.4 732.1,92.6 737.1,91.7 742.7,102.5 749.3,114.5 755.5,118.0 758.2,116.2 763.5,107.7 780.4,84.7 785.4,79.7 795.0,77.9 798.1,78.2 803.4,71.1 810.4,68.2 816.4,74.7 822.7,71.4 828.9,66.6 830.2,66.6 832.0,64.9 840.5,61.3 853.7,58.2 856.7,55.5 874.3,54.5 893.7,51.6 904.0,40.1 912.5,42.0 918.4,43.8 927.1,37.2 932.7,36.3 943.0,36.0 950.3,37.3 956.8,42.9 965.5,44.3 969.3,43.0 977.7,31.6 982.9,32.3 989.1,26.6 994.0,19.5 995.0,19.2 998.5,12.0 1000.0,12.6 1000,170"/>
+    <polyline fill="none" stroke="var(--blue)" stroke-width="2.5" stroke-linejoin="round" points="0.0,103.9 2.1,102.5 12.3,92.4 20.7,82.7 26.1,80.7 33.0,79.1 41.2,80.8 52.1,91.4 72.0,92.4 77.3,91.4 82.2,89.1 91.4,100.4 96.4,104.0 106.8,94.0 117.5,86.0 124.5,83.4 135.0,90.1 143.5,77.9 149.4,63.3 153.4,38.1 171.6,66.5 176.2,61.6 179.0,67.5 183.1,77.0 188.2,79.8 196.4,24.4 201.0,28.2 203.4,29.7 207.4,33.7 214.8,40.6 219.4,56.5 226.7,72.3 233.7,65.6 240.1,40.0 242.2,36.1 247.2,31.4 251.7,32.2 255.3,32.1 258.4,31.6 264.7,38.9 296.9,101.7 327.0,136.3 338.7,125.0 354.6,128.6 365.3,143.7 369.6,156.5 375.9,162.9 379.9,165.1 384.1,165.1 388.1,166.2 396.5,165.3 411.3,165.8 418.7,165.4 421.1,163.1 422.8,164.6 424.6,163.7 426.5,165.1 429.5,167.3 433.0,167.9 437.2,167.9 443.5,167.4 449.7,168.0 453.1,167.9 455.8,167.2 459.2,169.0 463.4,169.0 470.0,169.7 476.7,168.3 480.9,170.0 484.4,169.3 489.6,169.3 493.1,168.1 498.9,168.3 503.5,167.7 508.5,166.7 512.2,166.6 515.3,166.0 520.2,168.2 525.0,168.3 531.7,164.2 537.1,164.6 542.2,164.3 549.5,163.2 552.5,164.3 558.5,161.4 559.9,158.5 563.3,164.7 571.1,166.8 576.3,169.3 584.2,154.7 587.9,148.5 590.8,148.1 594.3,142.6 598.7,139.9 601.5,141.2 604.1,144.4 607.5,142.8 609.7,141.0 613.4,143.3 617.0,145.8 622.3,144.1 628.4,140.0 633.8,130.5 639.0,131.0 642.4,127.3 646.0,124.8 657.7,97.6 671.3,73.0 679.5,60.8 682.6,54.5 686.0,52.2 688.8,51.8 691.3,52.1 701.5,75.2 702.8,78.2 705.2,82.6 707.7,84.1 711.1,78.6 715.7,85.6 720.5,85.8 724.1,86.1 727.6,89.4 732.1,92.6 737.1,91.7 742.7,102.5 749.3,114.5 755.5,118.0 758.2,116.2 763.5,107.7 780.4,84.7 785.4,79.7 795.0,77.9 798.1,78.2 803.4,71.1 810.4,68.2 816.4,74.7 822.7,71.4 828.9,66.6 830.2,66.6 832.0,64.9 840.5,61.3 853.7,58.2 856.7,55.5 874.3,54.5 893.7,51.6 904.0,40.1 912.5,42.0 918.4,43.8 927.1,37.2 932.7,36.3 943.0,36.0 950.3,37.3 956.8,42.9 965.5,44.3 969.3,43.0 977.7,31.6 982.9,32.3 989.1,26.6 994.0,19.5 995.0,19.2 998.5,12.0 1000.0,12.6"/>
+    <!-- pit stops: violet diamonds -->
+    <g fill="var(--ps)">
+      <rect x="186.8" y="43.3" width="12" height="12" transform="rotate(45 192.8 49.3)"/>
+      <rect x="414" y="158.1" width="12" height="12" transform="rotate(45 420 164.1)"/>
+      <rect x="673.7" y="54.3" width="12" height="12" transform="rotate(45 679.7 60.3)"/>
+    </g>
+    <g font-size="15" font-weight="600" fill="var(--ps)" text-anchor="middle">
+      <text x="205" y="30">P1</text><text x="440" y="150">P2</text><text x="697" y="44">P3</text>
+    </g>
+    <!-- crew stops: orange numbered circles -->
+    <g>
+      <circle cx="176.5" cy="62.3" r="12" fill="var(--crew)"/>
+      <circle cx="387.5" cy="166.1" r="12" fill="var(--crew)"/>
+      <circle cx="572.2" cy="167.3" r="12" fill="var(--crew)"/>
+      <circle cx="856.3" cy="55.9" r="12" fill="var(--crew)"/>
+      <circle cx="902.9" cy="41.3" r="12" fill="var(--crew)"/>
+    </g>
+    <g font-size="15" font-weight="700" fill="var(--crew-ink)" text-anchor="middle">
+      <text x="176.5" y="67.3">1</text><text x="387.5" y="171.1">2</text><text x="572.2" y="172.3">3</text>
+      <text x="856.3" y="60.9">4</text><text x="902.9" y="46.3">5</text>
+    </g>
+    <g font-size="14" font-weight="600" fill="var(--ink2)" text-anchor="middle">
+      <text x="160" y="90">8.7k</text><text x="368" y="152">19k</text><text x="553" y="153">28k</text>
+      <text x="838" y="82">42k</text><text x="922" y="24">44.5k</text>
+    </g>
+    <text x="996" y="222" font-size="15" font-weight="700" fill="var(--ink)" text-anchor="end">FINISH · Lattin Down</text>
+    <g font-size="14" fill="var(--ink3)">
+      <text x="4" y="120">Lewknor</text>
+      <text x="330" y="145">Grim's Ditch</text>
+      <text x="590" y="205" text-anchor="middle">Goring · Thames</text>
+      <text x="790" y="130">the hot open downs</text>
+    </g>
+  </svg>
+  </div>
+  <div class="legend"><span><i></i>Crew stop</span><span><i class="d"></i>Race pit stop</span></div>
+</div>
+
+<!-- ============ RUNNER VIEW ============ -->
+<section class="runner-only">
+
+<div class="card">
+  <h2>Flasks · fixed sides, zero thinking</h2>
+  <div class="flasks">
+    <div class="flask l"><b>LEFT · Carb</b><small>1 scoop Marchon carb mix</small><small>30g carbs · 250mg elec</small></div>
+    <div class="flask"><b>RIGHT · Salt</b><small>1 scoop Performance Hydration</small><small>750mg sodium · gels wash down with this one</small></div>
+  </div>
+  <div class="rule">Arrive at every stop empty. Leave every stop full.
+    <small>3-4 big sips every 10 min, alternating flasks. Every 8 min once it's hot. Sloshing or queasy: ease off 15 min, then resume.</small>
+  </div>
+</div>
+
+<div class="card">
+  <h2>The script · 6:50 start</h2>
+  <ul class="tl">
+    <li data-w="06:50-07:24"><span class="t">6:50</span><span class="k">0k</span><span class="a"><b>Start.</b> Carb L · Salt R · 6 gels aboard</span></li>
+    <li data-w="07:25-07:47"><span class="t">7:25</span><span class="k">5.5k</span><span class="a"><b>SAP #1</b> + salt-flask gulps</span></li>
+    <li class="crew" data-w="07:48-08:04"><span class="t">7:48</span><span class="k">8.7k</span><span class="a"><b>CREW 1 · Swyncombe.</b> Ice in cap, top-up. 30 sec</span></li>
+    <li class="ps" data-w="07:55-08:04"><span class="t">7:55</span><span class="k">9.5k</span><span class="a">PS1: run through</span></li>
+    <li data-w="08:05-08:39"><span class="t">8:05</span><span class="k"></span><span class="a"><b>Maurten 160 #1</b></span></li>
+    <li data-w="08:40-08:54"><span class="t">8:40</span><span class="k"></span><span class="a"><b>SAP #2</b></span></li>
+    <li class="crew" data-w="08:55-09:09"><span class="t">8:55</span><span class="k">19.1k</span><span class="a"><b>CREW 2 · North Stoke.</b> Swap both flasks</span></li>
+    <li class="ps" data-w="09:10-09:14"><span class="t">9:10</span><span class="k">20.7k</span><span class="a">PS2: run through</span></li>
+    <li data-w="09:15-09:49"><span class="t">9:15</span><span class="k"></span><span class="a"><b>Maurten 160 #2</b></span></li>
+    <li data-w="09:50-09:54"><span class="t">9:50</span><span class="k"></span><span class="a"><b>Caf #1</b> · 100mg</span></li>
+    <li class="crew" data-w="09:55-10:29"><span class="t">9:55</span><span class="k">28.2k</span><span class="a"><b>CREW 3 · Goring.</b> Swap flasks · 4 gels + P3 baggies · ice · sun cream. 90 sec. <b>Last crew for 14k, leave full</b></span></li>
+    <li data-w="10:30-10:44"><span class="t">10:30</span><span class="k">climb</span><span class="a"><b>SAP #3</b> walking the Streatley climb</span></li>
+    <li class="ps" data-w="10:45-11:14"><span class="t">10:45</span><span class="k">33.5k</span><span class="a"><b>PS3, the one real stop.</b> Fill both flasks + tip baggies in, cup of squash, dunk hat. 3-4 min</span></li>
+    <li data-w="11:15-11:24"><span class="t">11:15</span><span class="k"></span><span class="a"><b>Maurten 160 #3</b></span></li>
+    <li data-w="11:25-11:44"><span class="t">11:25</span><span class="k"></span><span class="a"><b>Caf #2</b> · 100mg</span></li>
+    <li class="crew" data-w="11:45-12:15"><span class="t">11:45</span><span class="k">42.2k</span><span class="a"><b>CREW 4 · Bury Down.</b> Cold flasks · ice bandana · Coke sips</span></li>
+    <li data-w="12:16-12:44"><span class="t">12:20</span><span class="k"></span><span class="a"><b>SAP #4</b> if the gut allows, else sip carb flask</span></li>
+    <li data-w="12:45-12:55"><span class="t">12:50</span><span class="k">49.3k</span><span class="a"><b>FINISH.</b> Lattin Down</span></li>
+  </ul>
+</div>
+
+<div class="card">
+  <h2>Pacing · where sub-6 lives</h2>
+  <ul class="tl">
+    <li><span class="t">0-10k</span><span class="a">6:25-6:35/km. Shaded and cool. Do not bank speed beyond this</span></li>
+    <li><span class="t">14-28k</span><span class="a">Steady 6:30-6:35. This flat cool stretch builds the average</span></li>
+    <li><span class="t">29-34k</span><span class="a"><b>Walk the Streatley climb properly.</b> Cooking it costs 20 min on the downs</span></li>
+    <li><span class="t">34-49k</span><span class="a">HR-capped walk-run. Ice at 42.2. Bring it home</span></li>
+  </ul>
+  <div class="warn">Decision point: through Goring by 10:05 with legs = sub-6 is on. After 10:15, let it go and race the heat instead. Stops under 90 sec are the entire margin.</div>
+</div>
+
+<div class="card">
+  <h2>Heat lines · stop and cool at a pit stop if</h2>
+  <ul class="tl">
+    <li><span class="a">Chills or goosebumps in the heat</span></li>
+    <li><span class="a">Confusion, wobbly line</span></li>
+    <li><span class="a">Nausea that stops fueling 45+ min</span></li>
+    <li><span class="a">Urine output stops</span></li>
+  </ul>
+</div>
+
+</section>
+
+<!-- ============ CREW VIEW ============ -->
+<section class="crew-only">
+
+<div class="card">
+  <h2>Roles</h2>
+  <div class="roles">
+    <div><b>Mac</b> drives Car 1, every stop, start to finish</div>
+    <div><b>Maya</b> runs the handoffs + re-mixes flasks between stops</div>
+    <div><b>Jackson</b> floats: meets everyone at Goring, then errands / whatever Harrison calls for, then holds the finish. Takes Stop 5 only if called</div>
+  </div>
+  <div class="warn">Golden rules: handoffs walking, under 90 sec. No tables, no setups. Never at or near a race pit stop. Track him on Garmin LiveTrack, be in position 30 min early.</div>
+</div>
+
+<div class="card stop">
+  <div class="top"><h3>1 · Swyncombe church</h3><span class="win">7:48-7:55</span></div>
+  <div class="sub">km 8.7 · lane by St Botolph's church · drop Harrison 5:40, then ~15 min via Watlington &amp; Cookley Green</div>
+  <ul>
+    <li>Ice in his cap</li>
+    <li>Top up both flasks if offered them</li>
+    <li>Cheer, 30 seconds, done</li>
+  </ul>
+  <div class="btns"><a class="btn" href="https://maps.google.com/?q=51.6070,-1.0151">Open in Maps</a></div>
+  <div class="drive"><b>Next:</b> North Stoke, ~20 min via Ewelme · Benson · A4074 south</div>
+</div>
+
+<div class="card stop">
+  <div class="top"><h3>2 · North Stoke</h3><span class="win">8:55-9:05</span></div>
+  <div class="sub">km 19.1 · small car park 25m from the trail</div>
+  <ul>
+    <li>Swap both flasks: cold carb (L) + cold salt (R)</li>
+    <li>Collect his empties</li>
+    <li>Ice in cap if he wants it</li>
+  </ul>
+  <div class="btns"><a class="btn" href="https://maps.google.com/?q=51.5847,-1.1194">Open in Maps</a></div>
+  <div class="drive"><b>Next:</b> Goring, ~15 min. Park Wheel Orchard car park, coffee at Pierreponts. Jackson meets you here. Maya: re-mix his empties from the jerry + tubs</div>
+</div>
+
+<div class="card stop">
+  <div class="top"><h3>3 · Goring High Street</h3><span class="win">9:55-10:10</span></div>
+  <div class="sub">km 28.2 · he runs down the High Street to the bridge · THE BIG ONE, last crew access for 14km</div>
+  <ul>
+    <li>Swap both flasks, cold</li>
+    <li>Hand 4 gels: 2 SAP · 1 Maurten 160 · 1 Caf</li>
+    <li>Hand the 2 PS3 baggies (1 carb scoop, 1 salt scoop)</li>
+    <li>Ice in cap, dunk his buff</li>
+    <li>Sun cream on shoulders + neck while he walks</li>
+  </ul>
+  <div class="btns"><a class="btn" href="https://maps.google.com/?q=51.5220,-1.1372">Open in Maps</a><a class="btn o" href="https://maps.google.com/?q=Wheel+Orchard+Car+Park+Goring">Parking</a></div>
+  <div class="drive"><b>Next:</b> Bury Down, ~25 min: A417 through Streatley · Blewbury · A34 south · East Ilsley exit · West Ilsley · 1km north on Bury Lane. <b>Arrive by 10:45, the car park is small, take a spot early.</b> Cool box stays in the car, out of the sun</div>
+</div>
+
+<div class="card stop">
+  <div class="top"><h3>4 · Bury Down car park</h3><span class="win">11:45-12:10</span></div>
+  <div class="sub">km 42.2 · free car park right at the trail crossing · peak heat, zero shade, 7.1km to go. This stop wins the race</div>
+  <ul>
+    <li>Swap both flasks, coldest ones</li>
+    <li>Ice bandana around his neck, ice in cap</li>
+    <li>Cold Coke, a few sips if he wants it</li>
+    <li>1 spare SAP in his pocket</li>
+    <li>Sauconys available, offer only if he asks</li>
+  </ul>
+  <div class="btns"><a class="btn" href="https://maps.google.com/?q=51.5535,-1.3105">Open in Maps</a></div>
+  <div class="drive"><b>Next:</b> straight to the finish, ~20 min via West Ilsley · Farnborough · B4494 north. Basecamp is signed off the B4494. Be at the line by 12:35</div>
+</div>
+
+<div class="card stop ghost">
+  <div class="top"><h3>5 · East Hendred Down <small style="font-weight:500;color:var(--ink3)">(Jackson, only if called)</small></h3><span class="win">12:05-12:30</span></div>
+  <div class="sub">km 44.5 · car park 24m off the trail · default is SKIP. Deploy only if Harrison asks at Goring/Bury Down or is visibly struggling</div>
+  <ul>
+    <li>Ice + cold water douse, nothing else</li>
+  </ul>
+  <div class="btns"><a class="btn" style="background:var(--ps)" href="https://maps.google.com/?q=51.5621,-1.3402">Open in Maps</a></div>
+</div>
+
+<div class="card stop">
+  <div class="top"><h3>Finish · Lattin Down basecamp</h3><span class="win">12:45-12:55</span></div>
+  <div class="sub">signed off the B4494 Wantage-Newbury road · pre-booked parking</div>
+  <ul>
+    <li>Within 30 min: 500ml water + 1 salt scoop, recovery shake, banana</li>
+    <li>Post-race bag: fresh shirt, towel, flip flops</li>
+    <li>Basecamp has hot food, ice creams, bar</li>
+  </ul>
+  <div class="btns"><a class="btn" href="https://maps.google.com/?q=51.5525,-1.4049">Open in Maps</a></div>
+  <div class="drive"><b>Heads up:</b> Maps takes you to the B4494 (Chain Hill), then follow the event signs into basecamp</div>
+</div>
+
+<div class="card">
+  <h2>Backups · if a stop is missed</h2>
+  <ul class="tl">
+    <li><span class="t">Miss 1</span><span class="a">Nuffield A4130 crossing, km 11.9, free car park + café (51.5867,-1.0326)</span></li>
+    <li><span class="t">Miss 2</span><span class="a">South Stoke, Perch &amp; Pike, km 25.2 (51.5471,-1.1367)</span></li>
+    <li><span class="t">Miss 3/4</span><span class="a">Can't be re-caught. He carries enough to finish on pit stops alone. Costs comfort, not the race</span></li>
+    <li><span class="t">Trap</span><span class="a">Do NOT navigate to the Beetle &amp; Wedge pub. It's across the river from the route</span></li>
+  </ul>
+</div>
+
+<div class="card pack">
+  <h2>Cool box · pack Friday night</h2>
+  <label><input type="checkbox" id="p1"><span>4 soft flasks pre-mixed cold: 2 carb, 2 salt (freeze two)</span></label>
+  <label><input type="checkbox" id="p2"><span>5L water jerry</span></label>
+  <label><input type="checkbox" id="p3"><span>Marchon carb tub + Performance Hydration tub + scoop</span></label>
+  <label><input type="checkbox" id="p4"><span>2 PS3 baggies, pre-measured (1 carb, 1 salt)</span></label>
+  <label><input type="checkbox" id="p5"><span>Ice bag (petrol station en route) + ice bandana / spare buff</span></label>
+  <label><input type="checkbox" id="p6"><span>2 cold Cokes</span></label>
+  <label><input type="checkbox" id="p7"><span>Restock gels: 3 SAP · 1 Maurten 160 · 1 Caf + Goring 4-gel bag</span></label>
+  <label><input type="checkbox" id="p8"><span>Sun cream, anti-chafe, wet wipes, small towel</span></label>
+  <label><input type="checkbox" id="p9"><span>Spare socks + Sauconys</span></label>
+  <label><input type="checkbox" id="p10"><span>Post-race bag: shirt, towel, shake, bananas, flip flops</span></label>
+  <label><input type="checkbox" id="p11"><span>Crew kit: chairs, snacks, water, power bank</span></label>
+</div>
+
+</section>
+
+<p class="foot">ETAs assume the 6:50 start and a sub-6 day · LiveTrack governs on the day · full plan in health/rtts-race-plan.md</p>
+</div>
+
+<script>
+function setView(v){
+  document.body.className='view-'+v;
+  document.getElementById('tab-runner').classList.toggle('on',v==='runner');
+  document.getElementById('tab-crew').classList.toggle('on',v==='crew');
+  if(history.replaceState)history.replaceState(null,'',v==='crew'?'#crew':'#');
+}
+if(location.hash==='#crew')setView('crew');
+window.addEventListener('hashchange',()=>setView(location.hash==='#crew'?'crew':'runner'));
+
+// pack list persistence
+document.querySelectorAll('.pack input').forEach(cb=>{
+  cb.checked=localStorage.getItem('rtts-'+cb.id)==='1';
+  cb.addEventListener('change',()=>localStorage.setItem('rtts-'+cb.id,cb.checked?'1':'0'));
+});
+
+// race-day "now" highlight on the runner script
+function hl(){
+  const n=new Date();
+  const isRaceDay=n.getFullYear()===2026&&n.getMonth()===6&&n.getDate()===11;
+  if(!isRaceDay)return;
+  const cur=n.getHours()*60+n.getMinutes();
+  document.querySelectorAll('.tl li[data-w]').forEach(li=>{
+    const[a,b]=li.dataset.w.split('-');
+    const[m1,m2]=[a,b].map(t=>{const[x,y]=t.split(':');return +x*60+ +y;});
+    li.classList.toggle('now',cur>=m1&&cur<=m2);
+  });
+}
+hl();setInterval(hl,60000);
+</script>
+</body>
+</html>

@@ -9,11 +9,11 @@
 > Updated by weekly-review agent, 2026-07-05.
 
 ```
-Last action: Weekly review re-ran the Legibility Diagnosis done-signal correctly (prod JS bundle grep, not a bare 200) and it PASSED. Diagnosis is live on hwlstudio.com, confirmed 2026-07-05. Moved to agents/_shelf.md shipped history. Task 1 of this campaign is done; the earlier "confirmed not live" note (2026-07-03) was checking the wrong signal.
-Days since last action (decompose): 7
-Next move: One day-one task remains fully unstarted: send 5 warm intro asks, due Wed 1 Jul, now 4 days overdue, zero sends confirmed in Gmail sent folder as of 5 Jul. This is the single most overdue item in the whole system. Task 3 (LOR proof one-pager) due date was miswritten as "Fri 4 Jul" (a Saturday); treat as due this coming week. Binding constraint unchanged: a qualified call booked by 31 Jul.
-Blocker: Harrison to send the 5 warm asks. One tap, no more drafting or research needed.
-Status: open. Day 7. 1 of 2 day-one tasks done.
+Last action: Legibility Diagnosis confirmed shipped 5 Jul (task 1 done). Task 2 (5 warm intro asks) reconfirmed zero movement via Gmail sent-folder check 6 Jul: no personal outreach sends since decompose.
+Days since last action (decompose): 8
+Next move: Correction to the standing "one tap" framing: the actual blocker on task 2 is upstream of sending. `life/relationships.md` still lists the 10 warm targets as "undefined" (only the separate 4-person LOR senior-network list is named). Harrison needs to name the 10 people before there's anything to approve or send. Due 1 Jul, now 5 days overdue, and nothing's been drafted because there's nothing to draft against. Task 3 (LOR proof one-pager) not yet due, treat as due this week per prior correction.
+Blocker: Harrison input required (name the 10 targets), not a tap. Campaign-chaser cannot draft outreach without target names.
+Status: open. Day 8. 1 of 2 day-one tasks done. Task 2 blocked on a missing target list, not a missing send.
 ```
 
 OPEN. Decomposed 28 June.

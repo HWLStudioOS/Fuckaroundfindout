@@ -157,6 +157,28 @@ On-screen text:
 
 ---
 
+## 3.5 Carousel caption, Cathal LinkedIn, Tuesday (T-2)
+
+For the "4 Lessons That Stuck" carousel. Caption teases, carousel carries the detail, no duplication.
+
+> Season four of Better at Work, done. Over 30 episodes.
+>
+> When Annette Sloan and I started this, we wrote down the experts we dreamed of talking to. The names on our bookshelves. This season they kept saying yes. Laura Gassner Otting. Zach Mercurio. Colin Fisher. I still can't quite believe it.
+>
+> So for the wrap, we did what a listener asked us to do (thank you, you know who you are). We each picked the ideas from the season we actually use, not just the ones that sounded clever on the day. The four are in the carousel.
+>
+> And we recorded it in the same room for once. Annette was in London, not Sydney. It's a different show when she's across the table instead of on a screen.
+>
+> The full episode is out Thursday. Two days. The four lessons properly, the corporate jargon we'd ban, and Annette's rabbit story.
+>
+> Hit follow on Better at Work wherever you listen and it'll find you Thursday.
+>
+> Then a summer break, and back in September for season five. We're building the topic list now. What should we take on?
+
+Posting notes: tag all five guests plus Annette (their networks are the reach). No external link in the post, put the show link in the first comment. ~8am UK Tuesday catches London morning and Sydney end of day. Ask Annette to repost with a line of her own, her posts overperform. Comment replies feed the S5 question list, harvest them.
+
+---
+
 ## 4. YouTube
 
 ### Title options, ranked

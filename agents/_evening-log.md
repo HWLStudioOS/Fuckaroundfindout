@@ -1,3 +1,10 @@
+## 2026-07-07 evening
+- Shipped: Capital on Tap DD confirmed cleared (Harrison's own Telegram reply, 10:37, resolves this morning's flagged risk), Kerri call handled cleanly when LOR moved it (Harrison replied within 13 min at 15:00, no chase, keeps LOR ET warm)
+- Missed: none confirmed. LOR's 16:00 call didn't happen, but Kerri moved it herself ("catching up with the team later in the week, can we move this?"), confirmed via Gmail, not a Harrison miss. LOR ET's "confirmation moment" is now deferred to later this week. Race fuel buy, golf clubs v2 decision, new client warm targets, Amex resolution: no evidence either way, not reportable.
+- Training: shakeout done. Garmin/Strava show a 5.35km/35min run at 07:44 this morning, matches the prescribed 4km easy + strides in substance. Ran in the morning, not the calendared 17:00 slot, so the LiveTrack crew test tied specifically to tonight's run is unconfirmed either way.
+- Campaigns moved: 0 confirmed forward. LOR ET's scheduled confirmation call was postponed by Kerri, not held. No signal on golf clubs, new client, or BaW today.
+- Tomorrow's first action: Decide golf clubs v2 batch-1, send the five or explicitly park until post-race. Still sitting undecided after three consecutive campaign-chaser flags.
+
 ## 2026-07-01 evening
 - Shipped: Easy 10km morning run (07:21 BST, Strava confirmed, 10 PRs, W25 Taper Week 2 clean)
 - Missed: unverifiable (new client warm asks + Legibility Diagnosis deploy, golf breakup decision, cash bridge, LOR invoice chase, Fazila all require hwlstudio.com access or phone; absence is not confirmation)

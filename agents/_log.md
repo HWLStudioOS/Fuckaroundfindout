@@ -237,3 +237,4 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 2026-07-07T10:37:33 | telegram-inbound | captured 1 reply(ies) to capture/inbox.md
 - 2026-07-07 11:00  | health-sync | OK 2026-07-07: RHR 46, sleep 6.9h (score 80), HRV 56 BALANCED, readiness 66
 - 2026-07-07 14:00  | health-sync | OK 2026-07-07: RHR 46, sleep 6.9h (score 80), HRV 56 BALANCED, readiness 66
+2026-07-07T19:07:00+01:00 | evening-reflection | Capital on Tap DD confirmed cleared (Telegram reply 10:37), Kerri 16:00 call postponed by LOR itself (not a Harrison miss, confirmed via Gmail, replied within 13 min). Shakeout run done (5.35km/35min, 07:44 Garmin/Strava) but morning not the calendared 17:00 slot, LiveTrack crew test unconfirmed. No confirmed training miss, no Telegram push. Golf clubs v2/new client/race fuel/Amex: no evidence either way, not reported.

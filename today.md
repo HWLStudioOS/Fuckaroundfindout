@@ -1,58 +1,55 @@
 ---
-date: 2026-07-06
+date: 2026-07-07
 generated: auto 06:30 BST
 ---
 
-# Today, Monday 6 July 2026
+# Today, Tuesday 7 July 2026
 
 ## Pulse
 
-Race week starts today. W26, RTTS 50K is Saturday, 5 days out, today's prescribed effort is easy and unstructured, no set session. B@W Superstars (Cathal + Annette) is on the calendar 10:00-11:00 this morning. The sharper edge today is money: Capital on Tap collects £2,424.95 by direct debit today against a last confirmed Starling figure of £231.91 (1 Jul), and there's no Gmail evidence either of the three receivables due last week (LOR £1,350, Creepers £3,500, BaW £1,500) have landed. That's a check-first-thing job, not a crisis, the same bridge pattern as the last three months. Behind that, two fully-drafted, zero-effort sends (golf clubs v2 batch-1, the new-client warm asks) are still sitting untouched, both called out by name in Sunday's weekly review as the real leverage in the system right now.
+Race week continues. W26, RTTS 50K is Saturday, 4 days out. Today's prescribed session is easy, a 4km shakeout + strides at 17:00, confirmed on calendar. Today is also the last safe day to buy race fuel before Saturday (per Harrison's own capture Sunday), and the day to test Garmin LiveTrack on tonight's run so the crew choreography actually works Saturday. Kerri's 16:00 call is a real checkpoint too: per the authoritative LOR ET file, the People team reviewed the strategy doc Monday and the ET team's response is due by this call. The sharper edge is money. The Capital on Tap £2,424.95 direct debit didn't just risk failing yesterday, it actually failed once (Starling flagged insufficient funds at 07:22 on 6 July, retried until 4pm), and there's still no evidence any of LOR £1,350 / Creepers £3,500 / BaW £1,500 have landed. BA Amex remains over its limit too. Behind that, golf clubs v2 batch-1 (zero sends, day 5) and the new client campaign (blocked on naming targets, not on sending) are both still untouched.
 
 ## Yesterday wrap
 
-No brief ran Saturday or Sunday (weekday-only agent), so this covers since Friday 3 July.
+Promised yesterday: check Starling/Cap on Tap first thing, decide on golf clubs batch-1, send the 5 new-client warm asks, resolve the Amex over-limit flag, and line up LOR content for today's call.
 
 Landed:
-- Legibility Diagnosis confirmed SHIPPED. Weekly review re-checked with a content-based signal (not a bare 200) and found it genuinely live on hwlstudio.com, 20 days after it first hit the shelf. First real ship the system has produced. Closes day-one task 1 of the new-client campaign.
-- W25 closed clean-ish: 2 of 3 top-3 outcomes shipped (Kerri call landed 30 Jun, Cathal check-in happened), Creepers £3,500 the outstanding unconfirmed one. Capture inbox drained hard, ~27 items processed across the whole backlog, oldest now 13 days (under the 14-day threshold).
-- Content system fully rebuilt 5 July: two engines (weekly YouTube long-form, weekly written idea to LinkedIn/X), identity locked, RTTS race content deliberately killed (family photos only, Harrison's call). First substance-bank capture landed same day, a typewriter/talk-to-camera reflection from Harrison, sitting in the pipeline, his call whether it ships this week.
-- Learning brief ran 5 Jul: 8 items, 5 drills, flagged that Lessons of History (due 31 May) and Art of War (due 30 June) both show zero logged pages.
+- BaW Superstars meeting (Cathal + Annette, Mon 10-11am) confirmed shipped. Evening-reflection 6 Jul found roadmap/summer-plan files built off the same-day Granola record.
+- RTTS crew site + race plan updated (Harrison's own 6 Jul 15:30 capture): fuel plan finalised, crew site live at rtts-crew-site.vercel.app, forecast re-check flagged for Thu 9 Jul.
+- No set training session yesterday (easy/unstructured race-week day). Strava shows lunch weight training + one walk, nothing to score against the plan.
 
 Not landed, no evidence either way, carried:
-- Golf clubs v2 batch-1: the five drafted openers (Moor Park, Roehampton, Royal Mid-Surrey, Dulwich & Sydenham Hill, Royal Wimbledon) expired unsent 4 July. Confirmed via Gmail sent-folder check 5 July: zero sends. This is the second time this exact pattern has killed a batch, the 48h rule built after Wave 1 caught it again and nobody acted on the catch.
-- New client campaign: 5 warm intro asks still unsent, now day 8 of the 31 July deadline.
-- LOR Cambridge one-pager: Kerri's "end of June" meeting has passed, no evidence it was built.
-- Creepers-content-calendar sync: still stale, flagged since 22 June.
-- Money: LOR £1,350, Creepers £3,500, BaW £1,500, none confirmed landed in Gmail as of this morning's check.
+- Golf clubs v2 batch-1: still zero sends, day 5 since the 2 Jul draft. Third consecutive campaign-chaser flag (confirmed via campaign file, unchanged overnight).
+- New client campaign: reframed, this is not simply "still unsent." The 6 Jul campaign-chaser correction found the real blocker is that the 10 warm targets were never named in `life/relationships.md`, confirmed still empty this morning. Nothing to draft or send until that list exists.
+- Amex over-limit flag: no resolution email since the 5 Jul payment-due reminder.
 
-New this weekend: BA Amex flagged over its credit limit ("Future Transactions May Be Declined," 4 Jul) plus a payment due reminder (5 Jul), not previously on any agent's radar.
+New overnight: the Capital on Tap £2,424.95 direct debit actually failed yesterday morning, insufficient funds (Starling email 07:22, 6 Jul). Starling said it would keep retrying until 4pm 6 Jul. No follow-up email confirms whether the retry succeeded, so the outcome is genuinely unknown, not just unconfirmed cash.
 
-No Linear deltas since Friday's brief.
+No Linear deltas since yesterday's brief.
 
 ## Today
 
-- [ ] Money: check Starling first thing. Capital on Tap DD £2,424.95 collects today against last known cash £231.91 (1 Jul). If LOR £1,350 / Creepers £3,500 / BaW £1,500 haven't cleared it, bridge from the tax reserve (~£8,000) and refill when they land. <!-- linear:HWL-121 -->
-- [ ] Golf clubs v2 batch-1: decide, don't redraft. Either re-send the same five openers now (the copy hasn't gone stale, only the window did) or explicitly park the whole batch until after Saturday and say so. Either is fine, silence isn't. <!-- linear:HWL-120 -->
-- [ ] New client campaign: send the 5 warm intro asks. Day 8, zero sends all week. The single most overdue item in the whole system, one tap, no more drafting needed. <!-- linear:HWL-115 -->
-- [ ] Amex (BA): resolve the over-limit flag before more transactions get declined. <!-- linear:HWL-122 -->
-- [ ] LOR: line up AS next-round content + ET-vs-roadshow framing for tomorrow's 16:00 Kerri call, and raise the Cambridge one-pager gap directly since her own meeting on it has already passed. <!-- linear:HWL-118 -->
+- [ ] Money: check Starling and Amex first thing. The Cap on Tap £2,424.95 DD failed once yesterday (confirmed) and its retry outcome is unknown. BA Amex is still over its limit. If LOR £1,350 / Creepers £3,500 / BaW £1,500 haven't landed, bridge from the tax reserve (~£8,000) and refill when they clear. <!-- linear:HWL-121 --> <!-- linear:HWL-122 -->
+- [ ] LOR: 16:00 Kerri call. Per the authoritative ET file, LOR's Early Talent team response is due at this call. Raise AS next-round content directly. <!-- linear:HWL-118 -->
+- [ ] Race fuel: today is the last safe buy day before Saturday. 5x SAP 40G, 4x Maurten Gel 160, 2x Maurten Gel 100 Caf, check Marchon carb mix (~6 scoops) + Performance Hydration (~9 scoops). Test Garmin LiveTrack on tonight's 17:00 shakeout, confirm it reaches Mac + Maya's phones. <!-- linear:HWL-123 -->
+- [ ] Golf clubs v2 batch-1: decide, don't redraft. Day 5 since the 2 Jul draft, third flag with zero sends. Either re-send the five now or explicitly park until post-race (11 Jul). <!-- linear:HWL-120 -->
+- [ ] New client campaign: name the 10 warm re-connect targets in `life/relationships.md`. That's the actual blocker, confirmed still empty, not the send itself. Day 9 since decompose. <!-- linear:HWL-115 -->
 
 ## Awaiting response
 
 - LOR £1,350: overdue since late May, chased 2 Jul via WhatsApp to Kerri direct. No confirmed reply or remittance.
 - Creepers £3,500 and BaW £1,500: both invoiced 29 Jun, due last week, no landing confirmation in Gmail.
-- Michael Buck (Creepers): exact RHS award wording + Baz Grainger garden name ("Killick Garden" vs "A Seed In Time"), hero film captions blocked on these two facts, weeks old now. <!-- linear:HWL-107 -->
+- Capital on Tap: outcome of yesterday's retried £2,424.95 DD (failed once 07:22, retried to 4pm 6 Jul), no confirmation either way this morning.
+- Michael Buck (Creepers): exact RHS award wording + Baz Grainger garden name, hero film captions blocked on these two facts, weeks old now. <!-- linear:HWL-107 -->
 - Fazila (Litchfields): VAT registration submitted 30 Jun, awaiting HMRC number.
-- LOR Cambridge one-pager: promised before Kerri's end-of-June meeting, that's now passed with nothing built. Risk of it reading as dropped if it stays quiet much longer.
 
 ## In flight
 
-- LOR ET: warm, on track. Tue 7 Jul 16:00 Kerri call confirmed on calendar (the "Declined: Kerri / Harrison Weekly" email from 1 Jul was a different instance, this Tuesday slot shows confirmed).
+- LOR ET: warm, on track, authoritative. Today's 16:00 call is the confirmation moment (People team reviewed Monday, ET team response due today).
 - Creepers hero film: David editing, no chase needed. Only genuinely open item is the two Michael Buck factual checks above.
-- BaW: hourly trial ongoing. B@W Superstars 10:00 today (Cathal + Annette). April monthly report still owed, now well past 8 weeks.
+- BaW: hourly trial ongoing. B@W Superstars shipped Monday. New thread as of 6 Jul: Cathal forwarded several reference pieces on a Better@Work website 2.0 refresh, not yet scoped, no action needed today.
 - LOR Retainer: PARKED, correctly. No action.
-- Golf clubs v2 + new client warm asks: see Today, both one tap from sent.
+- Golf clubs v2 + new client campaign: see Today, both need a decision or a name list, not more drafting.
 - VAT registration: submitted, awaiting HMRC approval.
 - Baseline iOS app: own build, ongoing.
 - Mindmap prototype (obsidian-competitor): scoped, 2-day build w/c 13 Jul, post-race.
@@ -62,13 +59,13 @@ No Linear deltas since Friday's brief.
 ## Standing
 
 - Body: 86.9kg, body fat 18.7%. Stale, dated 29 Apr, over two months now. Re-export from iPhone when convenient.
-- RHR 47bpm (5 Jul, 6-day range 45-47). HRV 62ms BALANCED (5 Jul, 6-day avg 59, trending up). Sleep 6.5h, score 79 (5 Jul). Readiness not synced today. ACWR 1.00 (Good).
-- Training: W26, Race Week. RTTS 50K Saturday 11 Jul, 5 days out. Today: easy, unstructured. Tue: shakeout + strides 4km, 17:00 (on calendar). Wed-Fri: rest or walk only.
-- Money: last confirmed Starling £231.91 (1 Jul), tax reserve ~£8,000. Capital on Tap DD £2,424.95 collects TODAY, exceeds known cash on its own without a receivable landing first. LOR £1,350 / Creepers £3,500 / BaW £1,500 all still unconfirmed. Amex (BA) over its credit limit, new flag this weekend.
-- Clients: LOR ET warm, Tue 7 Jul 16:00 call confirmed. Creepers hero film blocked only on 2 Michael Buck facts. BaW Superstars meeting today 10:00. Golf clubs v2 batch-1 and new-client warm asks both sitting one tap from sent.
+- RHR 44bpm (7-day range 44-47, latest below 6-day avg 46, trending down, good). HRV 63ms BALANCED (dated 6 Jul, watch not synced today, 7-day avg 58, trending up). Sleep 7.1h, score 86 (6 Jul). ACWR 1.00 (Good). Weekly load 366, VO2max 45, body battery 98.
+- Training: W26, Race Week. RTTS 50K Saturday 11 Jul, 4 days out. Today: easy shakeout + strides 4km, 17:00 (on calendar). Wed-Fri: rest or walk only. Race fuel buy + LiveTrack test both due today.
+- Money: Cap on Tap £2,424.95 DD confirmed FAILED once (07:22, 6 Jul, insufficient funds), retried until 4pm, outcome unconfirmed this morning. LOR £1,350 / Creepers £3,500 / BaW £1,500 all still unconfirmed landed. BA Amex over its limit since 4 Jul, unresolved.
+- Clients: LOR ET warm, today's 16:00 call is the confirmation moment. Creepers hero film blocked only on 2 Michael Buck facts. BaW website refresh thread opening, not yet scoped. Golf clubs v2 batch-1 and new-client campaign both open, see Today.
 
 ## Lens
 
-Two fully-built, zero-effort items, the golf clubs batch and the warm intro asks, sat untouched through all of last week while new infrastructure (the content rebuild, the mindmap scoping) kept getting built instead. Sunday's weekly review named this out loud as the H21/H3 pattern by name: building is not a substitute for shipping. Today's actual leverage is two taps, not more research, and it doesn't cost the race anything to take them.
+The Capital on Tap DD didn't almost fail yesterday, it did, and nobody's checked back yet to see if the retry landed. That's the gap worth noticing: "this might be a problem" versus "this happened, go verify it." Separately, the new client task has been logged as "one tap from sent" for over a week when the real blocker is naming ten people, a five-minute job only Harrison can do, not a draft to approve.
 
-skipped: none. Sources this run: health/garmin live (direct CSV + Baseline API), calendar (3 events pulled, Tue Kerri call confirmed), gmail (business + personal both visible via the connector, per the 3 Jul finding, but no remittance emails found for any of the three receivables), strava (8 activities since 29 Jun), granola (searched, no new meeting transcripts filed since Friday), linear deltas (zero new since last brief).
+skipped: none. Sources this run: health/garmin live (direct CSV + Baseline API, weight stale since 29 Apr), calendar (2 events pulled, Tue 7 Jul: Kerri 16:00 + shakeout run 17:00, nothing on Wed), gmail (business + personal both visible per the 3 Jul finding, searched invoice/remittance/Starling/Amex threads: found the Starling DD-failure email 6 Jul + Amex over-limit and payment-due emails, no LOR/Creepers/BaW remittance confirmation), strava (6 activities since 1 Jul), granola (searched 3 queries, no meeting transcripts filed since yesterday), linear deltas (zero new since last brief).

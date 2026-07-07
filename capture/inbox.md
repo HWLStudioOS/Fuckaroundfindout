@@ -4,6 +4,12 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-07-07 10:37 (Telegram reply)
+- DD cleared so no worries there
+- Source: telegram reply (authoritative, Harrison's own words)
+- Tag: capture
+- Status: new
+
 ## 2026-07-06 15:30 (RTTS prep session)
 - Buy race fuel Tuesday 7 Jul: 5x SAP 40G, 4x Maurten Gel 160, 2x Maurten Gel 100 Caf, check Marchon carb mix (~6 scoops needed) + Performance Hydration (~9 scoops). Race is Saturday, Tuesday is the last safe buy day. Full plan: health/rtts-race-plan.md
 - Test Garmin LiveTrack on Tuesday's 17:00 shakeout, send to Mac + Maya, confirm it shows on their phones. The whole crew choreography runs on it. Crew site live at rtts-crew-site.vercel.app (#crew for the crew view)
@@ -80,7 +86,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - **Sync mini's `~/creepers-content-calendar/` source with the new prod deploy.** The live site at creepers-content-calendar.vercel.app was redeployed from the laptop on 22 June with a new 4-posts-a-week calendar (52 grid posts, down from 73). The mini's source folder still has the old 73-post version. On return Thursday, either copy the new `index.html` from the Vercel deployment back into `~/creepers-content-calendar/`, or rebuild from `business/clients/creepers-calendar-2026-jun-sep.csv` (now updated to match) so the mini stays canonical. New strategy lives at `business/clients/creepers-content-strategy-2026-06-22.md`.
 - **Header copy on the deployed site is now inconsistent with the new cadence.** The green banner still reads "3 a week / 2 a week" and the meta counter shows 0 LinkedIn posts. Update the copy when redeploying from the mini Thursday, or sooner if Sarah-Louise asks.
 - **Vercel CLI installed on the laptop** (Homebrew). Logged in as harrison-7055 under harrison-living-s-projects. Project `creepers-content-calendar` linked from `/tmp/creepers-cal-deploy/`.
-- Status: still open 5 Jul (weekly review). Confirmed unresolved, not just stale: `~/creepers-content-calendar/index.html` on the mini is untouched since 11 June and still contains the old "3 a week / 2 a week" copy. 13 days since flagged, real drift between what's live and what the mini thinks is live. Low urgency (no client complaint) but a genuine outstanding sync task, not archived.
+- Status: RESOLVED 7 Jul. Mini `index.html` rebuilt from the canonical CSV to the 52-post/4-a-week plan, reality baked in (W3 held/photo, W4 grower retired + reworked off June bank, Morie St → Tue 14 Jul), redeployed to creepers-content-calendar.vercel.app and verified live. CSV regenerated from the same data. Mini is canonical again, drift closed.
 
 ## 2026-06-19 14:07
 - **This founder isn't hiring junior engineers anymore**, Platformer/Casey Newton, 16 Jun. Replika and Wabi founder Eugenia Kuyda has stopped hiring junior engineers entirely because AI has closed the capability gap. Real operational decision from a founder, not a pundit's prediction. Direct ammo for Year One content and the one-person studio thesis. [https://www.platformer.news/this-founder-isnt-hiring-junior-engineers-anymore/]

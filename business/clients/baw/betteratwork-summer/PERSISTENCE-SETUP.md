@@ -3,7 +3,7 @@
 Both sites now share a small backend so edits sync live for everyone, gated so only you can write. This is the one-time setup. It applies to **both** projects: `creepers-content-calendar` and `betteratwork-summer`.
 
 ## What's in the code already
-- `api/data.js` in each site: `GET /api/data` (public read), `POST /api/data` (write, requires the `x-edit-key` header). Talks to Vercel KV / Upstash Redis over REST. Zero npm dependencies.
+- `api/data.js` in each site: `GET /api/data` (public read), `POST /api/data` (write, requires the `x-edit-key` header). Connects to Redis using the `REDIS_URL` Vercel injects, via the `redis` npm package (in each site's `package.json`).
 - Frontend loads from `/api/data` on open, falls back to the baked-in default only on a clean empty store, and autosaves every edit. Editing is gated by `?edit` + your key. Optimistic-concurrency (version) guards against stale-tab overwrites; a failed initial load blocks saves so nothing clobbers good data.
 
 ## Your one-time setup
@@ -15,8 +15,8 @@ openssl rand -base64 32
 Copy the output.
 
 **2. Create the KV store on Vercel** (dashboard):
-- Storage → Create Database → **Upstash for Redis** (a.k.a. KV). Name it e.g. `hwl-sites`.
-- Connect it to **both** projects (`creepers-content-calendar` and `betteratwork-summer`). This injects `KV_REST_API_URL` and `KV_REST_API_TOKEN` into each.
+- Storage → Create Database → **Upstash for Redis** (NOT Edge Config). Name it e.g. `hwl-sites`.
+- Connect it to **both** projects (`creepers-content-calendar` and `betteratwork-summer`). This injects `REDIS_URL` into each.
 
 **3. Add the edit key to both projects:**
 - Each project → Settings → Environment Variables → add `EDIT_KEY` = the value from step 1, for Production. (Or `vercel env add EDIT_KEY production` in each project folder.)

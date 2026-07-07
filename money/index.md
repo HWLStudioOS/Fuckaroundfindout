@@ -49,6 +49,10 @@ Decisions captured in `SESSION_LOG.md` at project root.
 
 > Hand-maintained by Harrison + sessions. The weekly-cfo agent writes `money/weekly.md`, not this file. Xero is not wired; nothing in this file updates automatically. (Header corrected 1 Jul 2026, it previously claimed auto-update that never existed.)
 
+### 7 July 2026 — BaW £1,500 landed
+
+Cathal confirmed the BaW invoice is paid (his email, 7 Jul: "Now paid sir, thanks for the great work"). Clears one of the three receivables from the 1 Jul watch. **Still outstanding:** LOR £1,350 (overdue, chased 2 Jul) and Creepers £3,500 (due last week, no landing confirmation). Apply the 25% sweep (~£375) to the reserve on this receipt. Context: Cathal signed off the summer engagement warmly and asked for a weekly progress email + listens tracking through early Sept, so the two-month show-off period is now an explicit value test he wants to assess. Client-facing progress tracker built + live at betteratwork-summer.vercel.app.
+
 ### 1 July 2026 — outgoings cleared, running on fumes until Friday
 
 **Position (from Harrison, 1 Jul evening):** Cash (Starling main) £231.91. Tax + CT reserve £8,000. The 1 Jul outgoings are through. **£6,350 invoices landing this week:** LOR £1,350 (overdue, chased 2 Jul via WhatsApp to Kerri, Harrison direct), Creepers £3,500 + BaW £1,500 (both due Fri 4 Jul). Credit cards (Cap on Tap / Amex / Monzo) not due until 7-10 Jul, so the card claims sit behind Friday's receipts. Harrison's read: timing, not stress. Watch: if Creepers or BaW slip past Friday, the 7 Jul card date becomes the pinch. Refill the reserve slice used and resume ISA £500 when receipts land.

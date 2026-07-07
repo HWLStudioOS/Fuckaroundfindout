@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(curl:*)",
+      "Bash(wget:*)",
+      "Bash(nc:*)",
+      "Bash(ncat:*)",
+      "Bash(netcat:*)",
+      "Bash(ssh:*)",
+      "Bash(scp:*)",
+      "Bash(sftp:*)",
+      "Bash(rsync:*)",
+      "Bash(telnet:*)",
+      "Bash(ftp:*)",
+      "Write(./.config/**)",
+      "Edit(./.config/**)",
+      "Write(./agents/telegram-agent.py)",
+      "Edit(./agents/telegram-agent.py)",
+      "Write(./agents/telegram-inbound.py)",
+      "Edit(./agents/telegram-inbound.py)",
+      "Write(./agents/*.plist)",
+      "Edit(./agents/*.plist)",
+      "Write(./agents/telegram-agent-settings.json)",
+      "Edit(./agents/telegram-agent-settings.json)"
+    ]
+  }
+}

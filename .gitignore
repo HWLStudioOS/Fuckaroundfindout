@@ -13,6 +13,8 @@ Thumbs.db
 # Agent runtime artifacts (logs are kept in agents/_log.md, these are noise)
 agents/_stdout.log
 agents/_stderr.log
+agents/_telegram-agent.log
+agents/_telegram-agent-daemon.log
 
 # Backup files
 *.bak

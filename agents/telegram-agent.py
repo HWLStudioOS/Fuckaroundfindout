@@ -2,7 +2,7 @@
 """telegram-agent.py: Harrison's remote Claude agent over Telegram.
 
 Separate bot from telegram-inbound.py (capture-only). This one is the worker:
-each text message runs Claude Code headless (Fable 5) in HWL META with session
+each text message runs Claude Code headless (Opus 4.8) in HWL META with session
 continuity. Built to survive where the ccpa-telegram bridge died in a pm2 crash
 loop, so the hardening is deliberate:
 
@@ -45,7 +45,7 @@ SETTINGS = META / "agents/telegram-agent-settings.json"
 LOG_FILE = META / "agents/_telegram-agent.log"
 FLEET_LOG = META / "agents/_log.md"
 
-MODEL = "claude-fable-5"
+MODEL = "claude-opus-4-8"
 TASK_TIMEOUT = 30 * 60
 SESSION_IDLE_RESET = 12 * 3600
 CHUNK = 3500

@@ -88,7 +88,9 @@
       "Bash(rm -rf ~/.hermes ~/hermes ~/Downloads/Hermes-Setup.dmg ~/Library/Caches/com.nousresearch.hermes.setup ~/Library/WebKit/com.nousresearch.hermes.setup ~/.local/state/hermes)",
       "WebFetch(domain:labs.cloudsecurityalliance.org)",
       "WebFetch(domain:hermes-agent.nousresearch.com)",
-      "Bash(npx vercel *)"
+      "Bash(npx vercel *)",
+      "mcp__claude_ai_Strava__list_activities",
+      "mcp__claude_ai_Google_Calendar__create_event"
     ]
   }
 }

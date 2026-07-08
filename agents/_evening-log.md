@@ -172,3 +172,10 @@
 - Training: no set session prescribed today (W26 race week, RTTS Saturday 5 days out, today is easy/unstructured). Strava shows Lunch Weight Training 30min (12:12) + Afternoon Walk 2.1km (16:22). Consistent with the prescription, nothing to score as a miss.
 - Campaigns moved: 1 (BaW, Superstars meeting delivered a full Season 5 roadmap and summer plan)
 - Tomorrow's first action: Buy race fuel (5x SAP 40G, 4x Maurten Gel 160, 2x Maurten Gel 100 Caf, check Marchon carb mix + Performance Hydration scoops). Tuesday is the last safe buy day before Saturday's race.
+
+## 2026-07-08 evening
+- Shipped: none confirmed. Harrison's own 08:00 note set today as a deliberate recovery/restraint day (6h15 sleep, tired, coffee/reading/games, minimal business), and every source checked is consistent with that: no Strava/Garmin activity, no calendar events, no Gmail sends, no Granola filings, no Telegram capture today.
+- Missed: none confirmed. No session was prescribed today (W26 race week, rest/walk day per training-plan), so there's nothing to score. Golf clubs v2 decision and the new client warm-target list were explicitly parked for today by Harrison's own call, not silent misses.
+- Training: no session prescribed (rest/walk day, RTTS 50K 3 days out Saturday). Garmin and Strava both show zero activity today, consistent with the prescription and with Harrison's stated intent to rest.
+- Campaigns moved: 0. Consistent with an intentionally quiet day, not a stall.
+- Tomorrow's first action: Prep AS next-round content ahead of the 15:00 Kerri/Harrison call.

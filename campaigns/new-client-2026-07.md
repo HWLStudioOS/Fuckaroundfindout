@@ -6,14 +6,14 @@
 
 ## Live state
 
-> Updated by weekly-review agent, 2026-07-05.
+> Updated by campaign-chaser agent, 2026-07-08.
 
 ```
-Last action: Legibility Diagnosis confirmed shipped 5 Jul (task 1 done). Task 2 (5 warm intro asks) reconfirmed zero movement via Gmail sent-folder check 6 Jul: no personal outreach sends since decompose.
-Days since last action (decompose): 8
-Next move: Correction to the standing "one tap" framing: the actual blocker on task 2 is upstream of sending. `life/relationships.md` still lists the 10 warm targets as "undefined" (only the separate 4-person LOR senior-network list is named). Harrison needs to name the 10 people before there's anything to approve or send. Due 1 Jul, now 5 days overdue, and nothing's been drafted because there's nothing to draft against. Task 3 (LOR proof one-pager) not yet due, treat as due this week per prior correction.
-Blocker: Harrison input required (name the 10 targets), not a tap. Campaign-chaser cannot draft outreach without target names.
-Status: open. Day 8. 1 of 2 day-one tasks done. Task 2 blocked on a missing target list, not a missing send.
+Last action: Task 1 (Diagnosis) shipped 5 Jul, confirmed. Task 2 (5 warm intro asks) still blocked: life/relationships.md checked directly 8 Jul, still says "list currently undefined." Task 3 (LOR proof one-pager, due 4 Jul) checked 8 Jul: no file exists anywhere in the repo, appears not started, now 4 days overdue and previously unflagged as its own miss.
+Days since last action (decompose): 10
+Next move: Two Harrison inputs needed, neither is a tap: (1) name the 10 warm targets in life/relationships.md, that single input unblocks task 2 drafting; (2) decide whether/how to scope the LOR proof one-pager, it hasn't been started. Telegram pushed (msg_id=523).
+Blocker: Harrison input (name 10 targets) + Harrison scoping decision (one-pager). Campaign-chaser cannot draft either without this.
+Status: open. Day 10, 23 days to 31 Jul deadline. 1 of 5 tasks done, task 2 blocked 7 days past its own due date, task 3 now also overdue and unstarted.
 ```
 
 OPEN. Decomposed 28 June.

@@ -130,11 +130,11 @@ Thanks H
 > Auto-updated by campaign-chaser agent.
 
 ```
-Last action: Batch-1 openers expired unsent 4 Jul (48h rule triggered, drafted 2 Jul). Reconfirmed via Gmail sent-folder check 6 Jul: still zero sends to any batch-1 club, zero replies. Third consecutive campaign-chaser cycle finding no movement.
-Days since last action: 4 (draft, 2 Jul)
-Next move: Same decision as the last two flags, unchanged: (a) re-approve the same five openers now (copy doesn't go stale, only the drafting-to-send window did), or (b) explicitly hold the whole batch until post-RTTS (11 Jul) and say so. Content is one tap away either way.
+Last action: Batch-1 openers expired unsent 4 Jul (48h rule triggered, drafted 2 Jul). Reconfirmed via Gmail 8 Jul (domain search on all five club domains + sent-folder search on all five club names, both zero results): still zero sends, zero replies. Fourth consecutive campaign-chaser cycle finding no movement.
+Days since last action: 6 (draft, 2 Jul)
+Next move: Same decision as the last three flags, unchanged: (a) re-approve the same five openers now, or (b) explicitly hold until post-RTTS. RTTS race is Sat 11 Jul, 3 days out, so option (b) resolves itself naturally within the week either way. Content is one tap away.
 Blocker: Harrison decision + tap.
-Status: active, v2 batch-1 unsent past its own expiry window. Zero sends, zero replies. Third flag.
+Status: active, v2 batch-1 unsent past its own expiry window. Zero sends, zero replies. Fourth flag. No Telegram push this run, decision naturally lands post-RTTS within days.
 ```
 
 ## What Harrison does

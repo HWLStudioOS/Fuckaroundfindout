@@ -179,3 +179,10 @@
 - Training: no session prescribed (rest/walk day, RTTS 50K 3 days out Saturday). Garmin and Strava both show zero activity today, consistent with the prescription and with Harrison's stated intent to rest.
 - Campaigns moved: 0. Consistent with an intentionally quiet day, not a stall.
 - Tomorrow's first action: Prep AS next-round content ahead of the 15:00 Kerri/Harrison call.
+
+## 2026-07-09 evening
+- Shipped: LOR ET call held (Kerri + Sarah, 15:00), production locked (two shoot days, four roles, ~£28k across three windows, confirmed via lor.md 9 Jul entry + campaign live-state update + Linear HWL-118 closed), distilled content plan doc + cohort self-filming brief both drafted (files built today, marked "review then send"), race forecast re-checked (cooler start, still hot late morning/afternoon, per today.md)
+- Missed: none confirmed
+- Training: no session prescribed (W26 race week, carb-load/rest day, RTTS 50K 2 days out Saturday). Garmin shows low steps (4,068) and high recovery (readiness 94, body battery 98), Strava shows zero activity today, both consistent with the prescribed rest day, nothing to score
+- Campaigns moved: 1 (LOR ET, call + production lock + two drafted docs)
+- Tomorrow's first action: Test Garmin LiveTrack on the shakeout run, confirm it shows live on Mac's and Maya's phones before race day

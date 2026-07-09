@@ -1,8 +1,0 @@
-{
-  "ts": "2026-07-08T06:37:55+01:00",
-  "msg_id": 522,
-  "claims_checked": 27,
-  "corrections": [
-    "Standing: HRV baseline mislabeled '7-day avg 60' (health source computes and labels it '6d avg', same convention already used correctly for RHR in the line above) -> corrected to '6-day avg 60' in today.md"
-  ]
-}

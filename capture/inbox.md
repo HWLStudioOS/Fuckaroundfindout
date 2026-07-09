@@ -4,6 +4,13 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-07-09 16:30 (LOR ET call debrief, Kerri + Sarah)
+- Harrison's to-dos off the 9 Jul call: (1) distilled content plan doc for Emma's return ~20 Jul, draft built at `campaigns/lor-early-talent-plan-distilled-2026-07-09.md`, review then send; (2) cohort self-filming brief, draft built at `campaigns/lor-early-talent-self-filming-brief.md`; (3) site availability for shoot day one (early Aug) needs locking, ask sits in the Gmail follow-up draft; (4) weekly catch-up already covered, recurring Kerri invite Tue 14 Jul 16:00 on calendar, no new hold needed; (5) money was not raised on the call, LOR £1,350 still to confirm in Starling.
+- Kerri-side: budget confirm with Emma (~£28k across three windows, needs trimming), Emma back ~20 Jul.
+- Source: granola 9 Jul (Kerri/Harrison catch up) + session
+- Tag: client
+- Status: processing
+
 ## 2026-07-08 14:07
 - **A Script for Mark Zuckerberg**, Stratechery / Ben Thompson, 7 Jul. Thompson writes the Meta Q2 earnings call speech he thinks Zuckerberg should give: a history of Facebook's feed bet reframed as the justification for tens of billions in AI capex, product intuition over spreadsheet logic. A clean model for narrating a bet nobody has proven yet, useful for any pitch defending studio infrastructure spend before the payoff shows. [https://stratechery.com/2026/a-script-for-mark-zuckerberg/]
 - **Vibe coding has escaped the terminal**, Casey Newton / Platformer, 7-8 Jul. Newton spent a month building small Mac apps with Raycast's new tool Glaze, watching his own ugly terminal scripts graduate into real software with no engineering background required. Same territory as Thompson's vibe coding essay from two weeks ago, but written from the builder-not-developer seat Harrison is standing in with his own OS. [https://www.platformer.news/glaze-app-raycast-vibe-coding-review/]

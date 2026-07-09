@@ -6,20 +6,24 @@ Built 6 July from the official GPX (verified against the live route), the Thresh
 
 ## Weather
 
-Forecast for Saturday: **32°C max, 21-22°C at 7am, 30°C by noon, full sun, UV 7, 0% rain**. The 6:50 start means finishing ~12:45, so the worst of the day is avoided, but the last two hours still run at 28-31°C on exposed chalk. Threshold's 2026 heat protocol: possible extra water stops between pit stops, dunking buckets at every pit stop, crushed ice at some. Re-check forecast Thursday.
+Forecast re-check Thursday 9 July: **cooler start than the 6 July plan, still hot by late morning**. Lewknor is forecast ~17°C at 06:00, ~18°C at 07:00, ~29°C by noon, and ~32°C mid-afternoon. Avebury is forecast ~17-19°C at 06:00-07:00, ~29°C by noon, and ~33°C mid-afternoon. The 6:50 start means finishing ~12:45, so the worst of the day is avoided, but the final two hours still run on exposed chalk in high-20s to low-30s. Threshold's 2026 heat protocol: possible extra water stops between pit stops, dunking buckets at every pit stop, crushed ice at some.
 
 ## Flask doctrine (the answer to "what am I drinking and when")
 
 Two 500ml flasks on the vest at all times, fixed assignment so there is zero thinking late in the race:
 
-- **LEFT = CARB flask.** 500ml water + 1 scoop Marchon carb mix (30g carbs, 250mg electrolytes). 6% solution, right for heat.
-- **RIGHT = SALT flask.** 500ml water + 1 scoop Marchon Performance Hydration (750mg sodium, 200mg potassium, 100mg magnesium). This is also the flask you drink with every gel.
+- **LEFT = CARB flask.** 500ml water + 1 scoop Marchon Carb + Electrolytes (30g carbs, 250mg sodium, plus potassium, magnesium and taurine). 6% solution, right for heat.
+- **RIGHT = SALT flask.** 500ml water + 1 scoop Marchon Performance Hydration (750mg sodium, 200mg potassium, 100mg magnesium, ~6g carbs). This is also the flask you drink with every gel.
 
 **The rule: arrive at every resupply point with both flasks empty or nearly, leave with both full.** Resupply points are 55-75 minutes apart, so that is both flasks (1L) per gap, which lands 800ml-1L/hr through the hot hours and a bit less in the cool first two.
 
 Cadence on the trail: 3-4 big sips (~100ml) every 10 minutes, alternating flasks. Gels always washed down with the salt flask. In the back half, tighten to every 8 minutes. If you are regularly arriving at stops with more than 150ml left, drink more. If it is sloshing or you feel nauseous, back off for 15 minutes then resume, do not force.
 
+**DECISION, fluid ceiling (Harrison to confirm):** the every-8-minutes cadence maths out at 750-900ml/hr. Treat that as the heat ceiling, governed by thirst, not a target to force. The proven rate is lower: 27 Jun, 30°C avg and 33°C max over 1h53, ~530ml/hr, felt strong, no cramping, no salt crust. Drink to thirst inside ~500-650ml/hr and let the heat push it up only if thirst does. Forcing fluid past thirst is the overdrinking and hyponatremia edge, worse than mild dehydration. Ignore Garmin's "Est. Sweat Loss", it reads a flat ~1L/hr on every run with ~33% error and must not drive volume. At the proven band the day totals ~3.5-4L, the 4.5-5L headline below assumes the ceiling.
+
 Per-gap intake this delivers: 30g carbs + ~1000mg sodium from the flasks, plus gels on top. Roughly 80g/hr carbs and 800-1100mg/hr sodium in the hot hours. Both numbers are where they should be for 30°C at 87kg.
+
+The hourly tally that grounds the 750mg salt flask (validated 9 Jul against manufacturer labels): both flasks over ~90 minutes plus one 40g gel per hour gives ~650ml fluid, ~60g carbs (20g from flasks + 40g gel, the evidence-based floor), and ~670mg sodium on a Maurten hour or ~840mg on a SAP hour. SAP 40 carries 200mg sodium from Himalayan salt against ~30mg in a Maurten 160, so the 4 scheduled SAPs are a plannable ~800mg sodium stream across the day, not incidental. Six hours at this floor: ~4L fluid, ~360g carbs, ~4,200-5,000mg sodium. Salt tabs (250mg) are backup only, unscheduled and untrained, the flasks plus gels already cover sodium.
 
 Totals for the day: ~4.5-5L fluid, ~480g carbs (~80g/hr), ~280mg caffeine.
 
@@ -55,6 +59,8 @@ Times assume the 6:50 start and a sub-6 shape. CREW stops are 30-90 seconds, wal
 | **12:45-12:55** | 5:55-6:05 | 49.3 | **Finish, Lattin Down basecamp** |
 
 Gel ledger: 4x SAP (160g) + 3x M160 (120g) + 2x Caf (50g) = 330g. Flask carbs: 5 carb flasks ~150g. Total ~480g ≈ 80g/hr. Plan B if the gut tightens in the heat: drop SAP #4 and lean on the carb flask, ~72g/hr, still fine.
+
+**DECISION, carb load (resolved 9 Jul):** ~80g/hr sits well above the ~60g/hr floor and the rate is rehearsed, 4+ gels plus carb flask inside long runs. What is not rehearsed is the duration, longest run is well under 6 hours, which is true of every 50k debut. So the script stands as written with one standing rule: hours 1-4 run the proven rate, hours 4-6 in heat are new territory, so the first gut grumble after Goring means Plan B immediately (skip the next gel, lean on the carb flask, ~72g/hr). Pre-decided, not a judgement call at km 40.
 
 The PS3 baggies: two small zip bags handed at Goring, one with 1 scoop carb mix, one with 1 scoop Performance Hydration. Tip into the flasks at the PS3 water table. This bridges the crew dead zone with the exact same mix as everywhere else.
 
@@ -153,7 +159,8 @@ Stop and cool at a pit stop if: chills or goosebumps in the heat, confusion or a
 - [x] Wave time: 6:50am confirmed
 - [x] Portal add-ons: parking done (6 Jul)
 - [x] Crew sent the site links (6 Jul): rtts-crew-site.vercel.app, crew view at /#crew
-- [ ] Buy fuel Tuesday: gels + both Marchon tubs (list in inventory section)
+- [x] Buy fuel: gels + both Marchon tubs (done by 9 Jul)
 - [ ] LiveTrack test on Tuesday 17:00 shakeout, confirm on Mac + Maya's phones
-- [ ] Re-check forecast Thursday, redeploy site if ETAs change
+- [x] Re-check forecast Thursday, redeploy site if ETAs change
+- [ ] Redeploy crew site: flask labels corrected + thirst line added 9 Jul
 - [ ] Friday: pack (cool box list on the site), mix + freeze flasks, walk the crew through the script

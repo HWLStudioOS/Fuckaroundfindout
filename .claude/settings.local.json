@@ -90,7 +90,8 @@
       "WebFetch(domain:hermes-agent.nousresearch.com)",
       "Bash(npx vercel *)",
       "mcp__claude_ai_Strava__list_activities",
-      "mcp__claude_ai_Google_Calendar__create_event"
+      "mcp__claude_ai_Google_Calendar__create_event",
+      "Bash(echo \"2026-07-09,done,4,race-week-carb-load-4decisions-4followups-handoff\")"
     ]
   }
 }

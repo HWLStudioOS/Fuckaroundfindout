@@ -4,16 +4,16 @@ Campaign architecture, content matrix, timeline, pricing. Built from the 20 May 
 
 ## Live state
 
-> Manually corrected by Harrison 2026-06-25. Updated post-call 2026-06-30. Authoritative. This is the #1 focus, ahead of the retainer.
+> Manually corrected by Harrison 2026-06-25. Updated post-call 2026-07-09. Authoritative. This is the #1 focus, ahead of the retainer.
 
 ```
-Last action: Kerri/Harrison call 30 Jun. Warm, low-pressure, no chase needed. People team reviewing the strategy doc this coming Monday. Early Talent team response due before next Tuesday's call. AS next round "coming soon", remaining AS content still sitting ready to post. Kerri's new hire starts August. Back half of the year = "go go go".
-Next move: HOLD for ET confirmation, now dated (People team Mon, ET team response by next Tue's call). Bring to next Tue: AS next round + the queued remaining AS content, and frame the ET campaign against the roadshow feedback ("not enough detail / no clear strategy") because that is exactly the gap the campaign fills.
-Blocker: LOR-side Early Talent confirmation (People team Mon, ET team by next Tue).
-Status: live, warm, on track. Summer lull, not a cooling client. Revenue loaded into the back half. Do NOT chase Kerri.
+Last action: Kerri + Sarah call 9 Jul. Production locked: two shoot days (site early Aug + Dartford office), four focus roles (structural engineers, building services, design management, procurement), budget ~£28k across three windows (Jul-Sep, Oct-Dec, Jan-Mar) pending Emma's trim on return ~20 Jul. DITL is the priority. Facebook added for parents. Launch week of 21 Sept, warm-up post ~14 Sept. Full detail: business/clients/lor.md 9 Jul entry.
+Next move: distilled plan doc + cohort self-filming brief to Kerri and Sarah before Emma returns ~20 Jul. Chase site availability for shoot day one (early Aug). Weekly catch-up next week.
+Blocker: site availability for shoot day one; Emma budget confirmation ~20 Jul.
+Status: live, warm, in production. Plan scope adjusts from the v2 four-shoot-day architecture to two shoot days and three windows once Emma confirms figures.
 ```
 
-Next Kerri/Harrison call: 9 June 16:00 (calendar confirmed). Quote and ghostwritten posts agenda items.
+Next Kerri/Harrison call: weekly catch-up w/c 13 July (hold placed, time TBC with Kerri).
 
 ## Council review, 12 June 2026 (pre-call)
 

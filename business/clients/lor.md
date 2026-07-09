@@ -54,9 +54,25 @@ McKinsey-grade. Boardroom-ready. "Quiet Confidence" framework (Harrison built th
 - gp@invisiblehurdle.com (Invisible Hurdle consultancy)
 - bailyconsulting@gmail.com (Baily Consulting)
 
-## Active state, last refreshed 12 June 2026
+## Active state, last refreshed 9 July 2026
 
 The system maintains this section.
+
+### 9 July 2026, Kerri + Sarah call (15:00): ET production locked, ~£28k over three windows
+
+**Shoot days: two confirmed, not four.** Day one on site, targeting start of August. Site availability is the blocking item, needs locking so crew and talent can be organised without a scramble. Day two at Dartford office covering design management, procurement, planning. CMC/factory shoot handled separately. October new-cohort filming held pending Emma's return.
+
+**Four focus roles:** structural engineers, building services, design management, procurement. Key tension: engineering has the highest headcount and will dominate unless deliberately balanced. Building services is hardest to recruit and least understood, needs weight. Option floated: combine multiple people into single assets to cover more roles efficiently. Everton filming deprioritised (attracts Northwest-only candidates, not repeatable year-on-year).
+
+**Content:** day-in-the-life is the primary focus. Fabricated elements acceptable (coffee, commute, client meeting, gym). High production for hero assets, iPhone-level for individual stories. Cohort self-filming brief to be created (short tips doc: landscape, what to film). Garside-style written posts: identify grads with active profiles, invite them to write. Lesson from last year holds: authentic individual voices perform best (Vital's AS post). Facebook added as a platform, positioned toward parents. Warm-up in August: GCSE/A-level results posts, graphic carousels, "coming soon" teaser. Launch target week of 21 Sept, warm-up post live ~14 Sept.
+
+**Budget:** ~£28k across three windows (Jul-Sep, Oct-Dec, Jan-Mar). Needs trimming, Emma confirms exact figures on return ~20 July. Window one heavier (shoot days), windows two and three lighter. Plan: concentrate on DITL now, revisit full content plan with Emma.
+
+**Paid media:** confirmed needed, strategy shaped by what worked on AS. Roles go live on LinkedIn 24h after posting (TA access in place). GTI partnership (Target Jobs / Handshake) fans roles to 50+ universities. Programmatic tool being explored. Quality over quantity is explicit: 20,000+ applications this year, poor quality; new motivational questions designed to be un-ChatGPT-able. Location targeting tricky, September placement locations unconfirmed.
+
+**Actions:** Harrison distils the plan into a simpler doc for Emma's review, drafts the self-filming brief. Site availability for shoot day one to be confirmed. Kerri confirms budget with Emma and revisits the plan. Weekly catch-up next week.
+
+**Money:** not raised on the call. £1,350 still unconfirmed landed.
 
 ### 12 June 2026 — Kerri call (13:30): ET deck landed, three new threads
 

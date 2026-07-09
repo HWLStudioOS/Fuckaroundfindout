@@ -185,6 +185,11 @@
   },
   "active": "3cb4594d9a5c547c",
   "lastOpenFiles": [
+    "agents/__pycache__/_telegram-agent.patched.cpython-314.pyc",
+    "agents/_telegram-agent.patched.py",
+    "agents/_model-command-patch.md",
+    "campaigns/lor-early-talent-self-filming-brief.md",
+    "campaigns/lor-early-talent-plan-distilled-2026-07-09.md",
     "linear/close-issues.js",
     "agents/__pycache__/health-sync.cpython-314.pyc",
     "agents/__pycache__",
@@ -202,8 +207,6 @@
     "health/data/garmin-2026-06-11.json",
     "workshops/2026-06-09/follow-up/The-AI-Content-Engine-Year-One.pdf",
     "workshops/2026-06-09/follow-up/pdf-build/p7.pdf",
-    "workshops/2026-06-09/follow-up/pdf-build/p4.pdf",
-    "workshops/2026-06-09/follow-up/pdf-build/p6.pdf",
     "business/david-editor.md",
     "workshops/2026-06-09/follow-up/00-slack-post.md",
     "agents/launchd/INSTALL.md",
@@ -219,9 +222,6 @@
     "agents/README.md",
     "agents/weekly-cfo.md",
     "agents/morning-brief.md",
-    "agents/learning-brief.md",
-    "agents/followup-drafter.md",
-    "agents/evening-reflection.md",
-    "agents/discovery-scan.md"
+    "agents/learning-brief.md"
   ]
 }

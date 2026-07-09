@@ -249,3 +249,14 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 - 2026-07-08 11:00  | health-sync | OK 2026-07-08: RHR 47, sleep 6.2h (score 77), HRV 67 BALANCED, readiness 78
 - 2026-07-08 14:00  | health-sync | OK 2026-07-08: RHR 47, sleep 6.2h (score 77), HRV 67 BALANCED, readiness 78
 2026-07-08 14:07 | discovery-scan | 6 items posted, 0 buyable queued
+- 2026-07-08 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-07-09 06:15  | health-sync | OK 2026-07-09: RHR 49, sleep 6.2h (score 77), HRV 67 BALANCED, readiness None
+2026-07-09T06:34:27+0100 | morning-brief | drafted today.md + candidate, handed to verifier, sources=6/6 (health/garmin: RHR49/HRV67ms-BALANCED-up/sleep6.2h-77 from 8 Jul, watch not synced today, weight stale 29 Apr; calendar: today's 7-event carb-load block + 15:00 Kerri call pulled, tomorrow's first event is Cathal check-in 11:30; gmail: business+personal both visible, found new Creepers Sandringham/Royal-Legacy-Garden thread (7 Jul, unanswered), no LOR/Creepers remittance, no Amex resolution; strava: 6 activities since 3 Jul, none yet today, consistent with rest/carb-load day; granola: 1 meeting this week (BaW Superstars 6 Jul, already known); linear: 0 new deltas since last brief)
+- 2026-07-09 11:11  | health-sync | OK 2026-07-09: RHR 46, sleep 8.2h (score 90), HRV 62 BALANCED, readiness 94
+- 2026-07-09 14:00  | health-sync | OK 2026-07-09: RHR 46, sleep 8.2h (score 90), HRV 62 BALANCED, readiness 94
+- 2026-07-09T19:07:00+01:00 | evening-reflection | LOR ET call confirmed shipped (production locked ~£28k, Linear HWL-118 closed, two content docs drafted). No training prescribed today (carb-load/rest day, RTTS 2 days out), Garmin/Strava both consistent with rest, nothing to score. Creepers Sandringham reply, money checks, golf clubs/new client all unverifiable, not reported as misses. No Telegram push (no confirmed training miss).
+2026-07-09T21:39:42 | telegram-agent | task ok in 12s
+2026-07-09T21:45:36 | telegram-agent | task ok in 2m50s
+2026-07-09T21:52:35 | telegram-agent | task ok in 3m38s
+2026-07-09T21:58:12 | telegram-agent | task ok in 2m03s
+2026-07-09T22:05:12 | telegram-agent | task ok in 24s

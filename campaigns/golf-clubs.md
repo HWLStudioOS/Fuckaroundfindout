@@ -130,11 +130,11 @@ Thanks H
 > Auto-updated by campaign-chaser agent.
 
 ```
-Last action: Batch-1 openers expired unsent 4 Jul (48h rule triggered, drafted 2 Jul). Reconfirmed via Gmail 8 Jul (domain search on all five club domains + sent-folder search on all five club names, both zero results): still zero sends, zero replies. Fourth consecutive campaign-chaser cycle finding no movement.
-Days since last action: 6 (draft, 2 Jul)
-Next move: Same decision as the last three flags, unchanged: (a) re-approve the same five openers now, or (b) explicitly hold until post-RTTS. RTTS race is Sat 11 Jul, 3 days out, so option (b) resolves itself naturally within the week either way. Content is one tap away.
+Last action: Batch-1 openers still unsent past 4 Jul expiry (drafted 2 Jul). Reconfirmed via Gmail 10 Jul (domain search on all five club domains + sent-folder search on all five club names, both zero results): still zero sends, zero replies. Fifth consecutive campaign-chaser cycle finding no movement.
+Days since last action: 8 (draft, 2 Jul)
+Next move: Same decision as the last four flags, unchanged: (a) re-approve the same five openers now, or (b) explicitly hold until post-RTTS. RTTS race is tomorrow (Sat 11 Jul), so the "wait for the race" rationale expires after this cycle. Monday's chaser run will be day 11, into the 11-20 day decision-overdue bracket, and the race will be over, so it needs an actual answer then if still unsent. Content is one tap away.
 Blocker: Harrison decision + tap.
-Status: active, v2 batch-1 unsent past its own expiry window. Zero sends, zero replies. Fourth flag. No Telegram push this run, decision naturally lands post-RTTS within days.
+Status: active, v2 batch-1 unsent past its own expiry window. Zero sends, zero replies. Fifth flag. No Telegram push this run, today is race-eve, not a day to push business admin. Flagging for Monday's run to escalate if still untouched.
 ```
 
 ## What Harrison does

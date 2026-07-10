@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0593eebefea5f454",
+        "id": "f0f10a6c768d7344",
         "type": "tabs",
         "children": [
           {
-            "id": "80bc78c1b6c568e9",
+            "id": "f24c8e1e3df11704",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/references/frameworks.md",
+                "file": "SESSION_LOG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "frameworks"
+              "title": "SESSION_LOG"
             }
           }
         ]
@@ -185,6 +185,16 @@
   },
   "active": "3cb4594d9a5c547c",
   "lastOpenFiles": [
+    "README.md",
+    "README-macbook.md",
+    "report-full.png",
+    "hwl-overhaul-full.jpeg",
+    "hwl-live-hero.jpeg",
+    "hwl-live-after.jpeg",
+    "content/references/frameworks.md",
+    "agents/_brief-sent.json",
+    "agents/_brief-candidate.txt",
+    "health/data/garmin-2026-07-10.json",
     "agents/__pycache__/_telegram-agent.patched.cpython-314.pyc",
     "agents/_telegram-agent.patched.py",
     "agents/_model-command-patch.md",
@@ -202,11 +212,7 @@
     "health/data/garmin-2026-06-12.json",
     "business/clients/creepers-deck-review-2026-06-11.md",
     "calendar-top.png",
-    "business/clients/creepers-calendar-2026-jun-sep.csv",
     "hero-before-resize.png",
-    "health/data/garmin-2026-06-11.json",
-    "workshops/2026-06-09/follow-up/The-AI-Content-Engine-Year-One.pdf",
-    "workshops/2026-06-09/follow-up/pdf-build/p7.pdf",
     "business/david-editor.md",
     "workshops/2026-06-09/follow-up/00-slack-post.md",
     "agents/launchd/INSTALL.md",
@@ -219,9 +225,6 @@
     "workshops/2026-06-09/follow-up/02-interview-prompt.md",
     "business/clients/creepers-content-plan-2026-06.md",
     "agents/weekly-review.md",
-    "agents/README.md",
-    "agents/weekly-cfo.md",
-    "agents/morning-brief.md",
-    "agents/learning-brief.md"
+    "agents/README.md"
   ]
 }

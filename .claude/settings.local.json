@@ -91,7 +91,9 @@
       "Bash(npx vercel *)",
       "mcp__claude_ai_Strava__list_activities",
       "mcp__claude_ai_Google_Calendar__create_event",
-      "Bash(echo \"2026-07-09,done,4,race-week-carb-load-4decisions-4followups-handoff\")"
+      "Bash(echo \"2026-07-09,done,4,race-week-carb-load-4decisions-4followups-handoff\")",
+      "WebFetch(domain:www.rhs.org.uk)",
+      "Bash(echo \"2026-07-10,checkin,14,race-eve morning run; 11 unread triaged manually; 1 draft staged \\(Sandringham\\); 0 meetings; reminders empty\")"
     ]
   }
 }

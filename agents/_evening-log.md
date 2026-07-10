@@ -186,3 +186,10 @@
 - Training: no session prescribed (W26 race week, carb-load/rest day, RTTS 50K 2 days out Saturday). Garmin shows low steps (4,068) and high recovery (readiness 94, body battery 98), Strava shows zero activity today, both consistent with the prescribed rest day, nothing to score
 - Campaigns moved: 1 (LOR ET, call + production lock + two drafted docs)
 - Tomorrow's first action: Test Garmin LiveTrack on the shakeout run, confirm it shows live on Mac's and Maya's phones before race day
+
+## 2026-07-10 evening
+- Shipped: BaW Website 2.0 refresh conversation opened (Gmail confirmed, Harrison introduced himself to Adcentric's Jessica 14:45, brand-refresh scope moving), LOR invoices INV-0390/INV-0391 sent to Kerri (Gmail confirmed 14:33), morning run 4.2km/27min logged (Strava, 08:32, consistent with race-eve shakeout/LiveTrack check)
+- Missed: none confirmed
+- Training: no session prescribed today (W26 race week, pack-and-rest day per training-plan.md). A 4.2km run happened anyway this morning (Garmin/Strava), nothing to score as a miss either way.
+- Campaigns moved: 2 (BaW website 2.0 thread progressing with Adcentric, LOR comms invoices sent to Kerri)
+- Tomorrow's first action: Alarm 3:55am, execute the race-morning routine, start line 6:50am Field Farm, Lewknor.

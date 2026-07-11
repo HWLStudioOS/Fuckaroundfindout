@@ -4,6 +4,13 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-07-11 (race result: RTTS 50K)
+- **Ran the Race to the Stones 50K. Chip time 6:28:40.** South Oxfordshire / Thames Valley course, off at 06:50. Full 50.01 km, 751m of ascent, brutal heat (watch logged 26-39C in the sun). Watch: total 6h 33m, moving 6h 07m 54s (~24 min at aid stations), avg pace 7:46/km chip / 7:21/km moving, avg HR 169 / max 190, ~4,459 cal burned, aerobic training effect 5.0. Held the effort the whole way, no back-third blow-up. Trained around ITB + patellar niggles for months and the setup held. Recovery on the day: RHR 48, HRV 57 balanced, training readiness 8/100, body battery low 15 (expected).
+- Note: the training-through-injury + raced-the-heat story is his own lived capture, fits ~90s of talking to camera. Do NOT draft anything. Held here for whenever he wants to make something of it.
+- Source: Garmin FR265 + Harrison (Telegram, chip time confirmed)
+- Tag: health, potential-content
+- Status: new
+
 ## 2026-07-10 14:07
 - **OpenAI's big launch, and bigger departure**, Casey Newton / Platformer, 9-10 Jul. GPT-5.6 ships in three tiers (Luna/Terra/Sol) same week Fidji Simo exits, with OpenAI claiming Sol beats Claude Fable on coding-agent benchmarks; early testers split, some reaching for Sol day-to-day and Fable for hard debug work. Direct competitive read on the model layer the whole agent fleet runs on. [https://www.platformer.news/openai-gpt-5-6-simo-meta-muse-spark-1-1/]
 - **China's NVDB flags a "backdoor" in Claude Code, Anthropic confirms and rolls it back**, multiple outlets via Claude Code Daily Briefing, 8 Jul. A tracking feature shipped quietly in March to catch unauthorised resellers got flagged as backdoor risk by a Chinese regulator; Anthropic engineer Thariq Shihipar confirmed it on X and said a full rollback is coming. Worth knowing since this is the exact tool running unattended on the Mac Mini against client and financial data. [https://claude-news.today/en/briefings/briefing-2026-07-09/]

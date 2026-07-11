@@ -275,3 +275,17 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 2026-07-10T13:28:59 | telegram-agent | task ok in 33s
 - 2026-07-10 14:00  | health-sync | OK 2026-07-10: RHR 49, sleep 7.3h (score 81), HRV 55 BALANCED, readiness 75
 2026-07-10 14:07 | discovery-scan | 4 items posted, 0 buyable queued
+- 2026-07-10 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-07-11 06:15  | health-sync | OK 2026-07-11: RHR 48, sleep 6.6h (score 79), HRV 57 BALANCED, readiness 84
+- 2026-07-11 11:00  | health-sync | OK 2026-07-11: RHR 48, sleep 6.6h (score 79), HRV 57 BALANCED, readiness 84
+- 2026-07-11 14:00  | health-sync | OK 2026-07-11: RHR 48, sleep 6.6h (score 79), HRV 57 BALANCED, readiness 8
+2026-07-11T14:46:54 | telegram-agent | task ok in 28s
+2026-07-11T17:31:57 | telegram-agent | task ok in 1m04s
+2026-07-11T17:33:44 | telegram-agent | task ok in 39s
+2026-07-11T19:43:22 | telegram-agent | task ok in 36s
+2026-07-11T19:51:10 | telegram-agent | task ok in 22s
+2026-07-11T19:52:33 | telegram-agent | task ok in 31s
+2026-07-11T19:55:39 | telegram-agent | task ok in 23s
+2026-07-11T20:52:11 | telegram-agent | task ok in 35s
+2026-07-11T20:57:28 | telegram-agent | task ok in 22s
+2026-07-11T20:57:38 | telegram-agent | task ok in 9s

@@ -74,6 +74,10 @@ Nobody in horticulture is doing brand-world storytelling. Premium + video space 
 - **Pollyanna Wilkinson CONFIRMED** as a Creepers-crediting designer (her Chelsea 2023 reel + Creepers' 25 Jan 2024 LinkedIn post; studio is Oxshott-local). First consent ask for the Designers We Supply lane.
 - Website has newsletter + weekly availability-list signup + quote form + active blog; sales@/newforest@/marketing@ + 01932 821626.
 
+## Press: Sunday Times feature, 12 July 2026
+
+Michael Buck quoted at length in The Sunday Times (print, News p11, Ben Spencer, science editor): "Peat ban uproots growers' Chelsea plans." Key facts: Creepers supplied three award-winning show gardens at Chelsea 2026; taking a one-year pause from Chelsea 2027 over the RHS peat-free rule; used 26 suppliers for 2026, only three fully peat-free; Buck's petrol-cars analogy calling for a phased transition. HortWeek ran the withdrawal story separately (Simon Sutcliffe of How Green also pulling out). National-press proof point for the brand, and a candidate re-anchor for the Q3 arc now Sandringham is dead. Carousel from this article in development 12 Jul (photo-of-paper cover + peat-free education, clone of Summer Series design language). Pause framing needs Anna/Michael sign-off before anything publishes.
+
 ## Notes
 
 - Trade customer behaviour patterns documented from Salesman Reel work (DSC_0216, 5.4K vertical). Buying moments identified, format iterated through V4.

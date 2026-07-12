@@ -289,3 +289,5 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 2026-07-11T20:52:11 | telegram-agent | task ok in 35s
 2026-07-11T20:57:28 | telegram-agent | task ok in 22s
 2026-07-11T20:57:38 | telegram-agent | task ok in 9s
+- 2026-07-11 22:30 BST | nightly-backup | committed + pushed to origin
+2026-07-12T14:24:40 | telegram-agent | task ok in 2m36s

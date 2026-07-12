@@ -5,6 +5,7 @@ The scoreboard. Ideas → drafting → ready → posted. Rebuilt 5 July 2026 to 
 ## Substance bank (Harrison's captures, the only drafting source)
 
 - **5 Jul (session):** the Dalen/typewriter capture. "Don't know why I'm not just picking up the camera more and talking shit. Just like I've started writing on the typewriter." Charge present. Candidate substance for post #1 of the new system, and arguably the founding video of the YouTube channel (the why-this-channel take). His call. → Drafted into writing-engine copy 6 Jul, see Drafting below.
+- **11 Jul (RTTS 50K race day):** ran Race to the Stones 50K, chip time 6:28:40, sub-6 goal missed by 28:40, brutal heat (26-39C), no back-third blow-up, trained around ITB + patellar niggles for months and the setup held. Fits ~90s of talking to camera. Do NOT draft. Banked here per his own note (capture/inbox.md 11 Jul), entirely his call whether it becomes anything.
 
 ## Ideas (candidates, not assignments)
 

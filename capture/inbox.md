@@ -9,7 +9,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - Note: the training-through-injury + raced-the-heat story is his own lived capture, fits ~90s of talking to camera. Do NOT draft anything. Held here for whenever he wants to make something of it.
 - Source: Garmin FR265 + Harrison (Telegram, chip time confirmed)
 - Tag: health, potential-content
-- Status: new
+- Status: actioned 12 Jul (weekly review), banked to content/pipeline.md substance bank, not drafted per his own instruction. His call whether it becomes anything.
 
 ## 2026-07-10 14:07
 - **OpenAI's big launch, and bigger departure**, Casey Newton / Platformer, 9-10 Jul. GPT-5.6 ships in three tiers (Luna/Terra/Sol) same week Fidji Simo exits, with OpenAI claiming Sol beats Claude Fable on coding-agent benchmarks; early testers split, some reaching for Sol day-to-day and Fable for hard debug work. Direct competitive read on the model layer the whole agent fleet runs on. [https://www.platformer.news/openai-gpt-5-6-simo-meta-muse-spark-1-1/]
@@ -25,7 +25,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - Kerri-side: budget confirm with Emma (~£28k across three windows, needs trimming), Emma back ~20 Jul.
 - Source: granola 9 Jul (Kerri/Harrison catch up) + session
 - Tag: client
-- Status: processing
+- Status: actioned 12 Jul (weekly review). All 5 items reflected in campaigns/lor-early-talent-2026.md + business/clients/lor.md live state (9 Jul refresh). NOT resolved: items 1-2 (plan doc + self-filming brief) confirmed still unsent as of 12 Jul (Gmail sent-folder check, only an invoice email went to Kerri 10 Jul, not these two docs), carried into this-week.md as a named miss. Item 3 (site availability) also unlocked. No further inbox action needed, tracked at campaign level now.
 
 ## 2026-07-08 14:07
 - **A Script for Mark Zuckerberg**, Stratechery / Ben Thompson, 7 Jul. Thompson writes the Meta Q2 earnings call speech he thinks Zuckerberg should give: a history of Facebook's feed bet reframed as the justification for tens of billions in AI capex, product intuition over spreadsheet logic. A clean model for narrating a bet nobody has proven yet, useful for any pitch defending studio infrastructure spend before the payoff shows. [https://stratechery.com/2026/a-script-for-mark-zuckerberg/]
@@ -42,7 +42,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - DD cleared so no worries there
 - Source: telegram reply (authoritative, Harrison's own words)
 - Tag: capture
-- Status: new
+- Status: actioned 12 Jul (weekly review), already confirmed the same day in the 7 Jul evening-reflection log, Capital on Tap DD cleared. No standing action.
 
 ## 2026-07-06 15:30 (RTTS prep session)
 - Buy race fuel Tuesday 7 Jul: 5x SAP 40G, 4x Maurten Gel 160, 2x Maurten Gel 100 Caf, check Marchon carb mix (~6 scoops needed) + Performance Hydration (~9 scoops). Race is Saturday, Tuesday is the last safe buy day. Full plan: health/rtts-race-plan.md
@@ -50,7 +50,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - Thursday 9 Jul: re-check Saturday forecast (currently 32°C/dry), adjust plan ETAs + redeploy site if it breaks cooler
 - Source: session 6 Jul (RTTS race prep, authoritative)
 - Tag: race
-- Status: new
+- Status: archived 12 Jul (weekly review). Race happened 11 Jul (RTTS 50K, chip 6:28:40, sub-6 goal missed by 28:40, no injury flare in the brutal heat). All prep items resolved before race day. See 2026-07-11 entry above for the result.
 
 ## 2026-07-06 14:07
 - **Claude Code 2.1.198: background subagents by default, auto commit and draft PR on finish**, Anthropic, 1 Jul. Subagents now run in the background so the main session keeps working while they finish, and once a worktree agent completes its code work it auto commits, pushes, and opens a draft PR instead of stopping to ask. Close to a live description of what already runs on this Mac Mini, worth a look at whether the agent fleet should adopt draft PR handoffs. [https://ai-tldr.dev/releases/anthropic-claude-code-2-1-198-jul1/]

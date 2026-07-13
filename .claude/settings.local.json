@@ -94,7 +94,14 @@
       "Bash(echo \"2026-07-09,done,4,race-week-carb-load-4decisions-4followups-handoff\")",
       "WebFetch(domain:www.rhs.org.uk)",
       "Bash(echo \"2026-07-10,checkin,14,race-eve morning run; 11 unread triaged manually; 1 draft staged \\(Sandringham\\); 0 meetings; reminders empty\")",
-      "mcp__plugin_figma_figma__use_figma"
+      "mcp__plugin_figma_figma__use_figma",
+      "Bash(git fetch *)",
+      "Bash(git rev-list *)",
+      "Bash(echo \"2026-07-13,checkin,~30,post-race Mon: granola 6-13 Jul \\(3 meetings incl mentor debrief\\), LOR distill send prep, Cathal 16:00 prep, money via weekly-cfo 10 Jul, Codex Jarvis foundation verified synced, 2 drafts staged\")",
+      "mcp__plugin_figma_figma__get_metadata",
+      "WebFetch(domain:creators.spotify.com)",
+      "Bash(ffmpeg -hide_banner -loglevel error -i tupper.mp3 -ar 16000 -ac 1 -c:a pcm_s16le tupper.wav -y)",
+      "Bash(whisper-cli -m ~/.whisper/ggml-small.en.bin -f tupper.wav -osrt -of tupper-transcript)"
     ]
   }
 }

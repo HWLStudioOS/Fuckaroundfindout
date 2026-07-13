@@ -10,6 +10,9 @@ Format per entry:
 
 ---
 
+## 2026-07-13
+- **Run Forever: The Secrets to Becoming an Ageless Athlete** (~£17), Damian Hall / Vertebrate Publishing. GB ultrarunner on training strength, speed and longevity through your 40s and beyond, chapters on mindset, sleep and nutrition. Lands straight off RTTS, where you trained through ITB and patellar issues for months. Releases 6 Aug. [https://blackwells.co.uk/bookshop/product/Run-Forever-by-Damian-Hall/9781839812873]. Status: auto-approved.
+
 ## 2026-07-03
 - **Faster. Messier. Tougher.** (~£24), Bradley Akubuiro / Entrepreneur Books. Boeing's chief spokesperson during the 737 MAX crisis on why the old crisis playbook now accelerates disaster, and why authenticity beats perfection. Direct strategic-communications reference for client positioning work. Published 7 Apr. [https://www.simonandschuster.net/books/Faster-Messier-Tougher/Bradley-Akubuiro/9798897010417]. Status: auto-approved.
 

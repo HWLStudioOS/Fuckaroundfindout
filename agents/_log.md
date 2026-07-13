@@ -296,3 +296,9 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 - 2026-07-12 22:30 BST | nightly-backup | committed + pushed to origin
 - 2026-07-13 06:23  | health-sync | OK 2026-07-13: RHR 51, sleep 6.7h (score 63), HRV 45 BALANCED, readiness None
 - 2026-07-13 11:00  | health-sync | OK 2026-07-13: RHR 44, sleep 7.2h (score 83), HRV 66 BALANCED, readiness 16
+- 2026-07-13 14:00  | health-sync | OK 2026-07-13: RHR 44, sleep 7.2h (score 83), HRV 66 BALANCED, readiness 25
+2026-07-13 14:07 | discovery-scan | 5 items posted, 1 buyable queued
+2026-07-13T21:46:22 | telegram-agent | task ok in 22s
+2026-07-13T21:54:25 | telegram-agent | task ok in 3m41s
+2026-07-13T22:10:16 | telegram-agent | task ok in 6m19s
+2026-07-13T22:22:25 | telegram-agent | task ok in 4m51s

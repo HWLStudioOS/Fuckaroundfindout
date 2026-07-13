@@ -9,7 +9,7 @@ Design language cloned from the Summer Series (section 04, Grown Not Bought-In):
 
 ## Sign-off flags (resolve before publishing)
 
-1. **The pause framing is the sensitive part.** Slide 9 and the caption state, in Creepers' own voice, that the one-year Chelsea pause is a standards decision. Anna and Michael must approve that wording before anything ships. It follows Michael's printed quotes, but it is us putting the frame on it. *Update 13 Jul: Michael has now shaped this wording himself (R&D programme + RHS respect line), so his approval is effectively in. Anna's sign-off still outstanding.*
+1. **The pause framing is the sensitive part.** Slide 9 and the caption state, in Creepers' own voice, that the one-year pause of contract growing for Chelsea is a standards decision. Anna and Michael must approve that wording before anything ships. *Update 13 Jul: Michael has now written this wording himself across three rounds (R&D programme, RHS respect line, contract-growing correction), so his approval is in. Anna's sign-off still outstanding.*
 2. **Quotes are verbatim from print** (checked against the photographed page), including the Times' ellipsis in the petrol-cars quote. If Creepers want the quote trimmed, re-check against print before editing.
 3. **Fonts:** secondary type is Inter standing in for Helvetica Now Display, same substitution as the whole Summer Series. Swap if the licensed font gets installed.
 4. **Image rights:** the cover is our own photograph of the physical newspaper (standard press-coverage practice on social). Do not lift the Times' Chelsea blooms photograph itself, and flag to Creepers that reusing the page image in paid media would need Times syndication.
@@ -24,22 +24,22 @@ Design language cloned from the Summer Series (section 04, Grown Not Bought-In):
 6. **Twenty-six suppliers. Three peat-free.** — For Chelsea 2026 we worked with 26 suppliers. Many had reduced their peat. Only three had removed it entirely. That is the honest state of the supply chain today.
 7. **A phased transition** — "It's like banning petrol cars and saying everyone has to be driving electric vehicles, but saying it has to happen next year, without putting in place the infrastructure … It has to be a phased transition." Michael Buck, Head of Horticulture, in The Sunday Times.
 8. **Fifteen years of deadlines** — A voluntary phase-out was agreed in 2011: amateur gardening by 2020, professional growing by 2030. In 2022 ministers promised a legal ban on bagged retail peat by 2024. That deadline passed with no legislation in any of the four UK nations. Fifteen years on, there is still no law.
-9. **Where we stand** — We are committed to growing peat-free, and we respect the RHS's ultimate goal of every show being peat-free. Rather than compromise the standard, we are pausing Chelsea for a year and investing in a focused research and development programme to secure the longevity of our Chelsea operations.
+9. **Where we stand** — We are committed to growing peat-free, and we respect the RHS's ultimate goal of every show being peat-free. We are still doing Chelsea. Rather than compromising the standard, we are pausing our contract growing for the show for a year and investing in a focused research and development programme to secure the longevity of our Chelsea operations.
 10. **Closer:** "The transition has to be real, not rushed." / READ THE FULL STORY IN THE SUNDAY TIMES, 12 JULY 2026. / @CREEPERSNURSERY · CREEPERSNURSERY.CO.UK
 
 ## Caption (draft, Creepers first person)
 
-The Sunday Times, this morning.
+The Sunday Times, Sunday 12 July.
 
-When the national press wanted the truth about growing peat-free, they asked the people in the ground. Our head of horticulture Michael Buck, on why the transition matters and why it has to be phased.
+When the national press wanted the truth about growing peat-free, they asked the people in the ground. Our head of horticulture, Michael Buck, on why the transition matters and why it has to be phased.
 
-The honest numbers: for Chelsea 2026 we worked with 26 suppliers. Many had reduced their peat. Only three had removed it entirely. We are only ever as peat-free as our supply chain. That is why we are pausing Chelsea for a year rather than compromise the standard, and why we are investing in a focused research and development programme to secure the longevity of our Chelsea operations.
+The honest numbers: for Chelsea 2026 we worked with 26 suppliers. Many had reduced their peat. Only three had removed it entirely. We are only ever as peat-free as our supply chain. That is why we are pausing our contract growing for Chelsea for a year rather than compromise the standard, and investing in a focused research and development programme to secure the longevity of our Chelsea operations. We are still doing the show itself.
 
 Swipe for the full picture. What peat is, what it costs, what replaces it, and where the industry really stands.
 
-The full story is in today's Sunday Times.
-
 @creepersnursery · creepersnursery.co.uk
+
+(Removed "The full story is in today's Sunday Times." line: dated, and the Times was already named twice. If posting slips past mid-week, consider swapping the opener to "The Sunday Times, last Sunday.")
 
 ## Michael's review changes (applied 13 Jul 2026)
 
@@ -58,6 +58,10 @@ Harrison asked for every claim to be defensible before send. Full fact-check aga
 - Slide 4 ingredients corrected to the RHS's own list (composted bark, wood fibre, coir, green compost); "sawdust and paper waste" was wrong and read low-grade, against the balance directive.
 - Slide 3: import sources named precisely as Ireland + the Baltic states (the actual exporters); added the UNEP/IUCN carbon stat to fill the card.
 - Slide 2: "light to handle" swapped for batch-to-batch consistency, which sets up slide 4's adjustment point.
+
+## Michael round 3 (13 Jul, final tweak)
+
+**The pause is contract growing only. Creepers are still doing Chelsea.** Michael's message carried both lines: "we are pausing our contract growing for Chelsea" AND "We are still doing Chelsea, but the big stuff not the smaller contract grown plants". Both are now on the card: slide 9 says "We are still doing Chelsea." explicitly, then scopes the pause to contract growing. Caption matches. The big show plants continue; it's the smaller contract-grown plants that pause. Any future Creepers copy must not say they are skipping or withdrawing from Chelsea. Note the Times/HortWeek framing ("uproots growers' Chelsea plans") is looser than the real position.
 
 ## Michael round 2 (13 Jul, WhatsApp 10:28)
 

@@ -12,7 +12,7 @@
 # false misses (the failure that made briefs wrong after Dublin, _log.md 2026-06-25).
 #
 # Fallback: if Stage 2 produces no send sentinel (it crashed before sending), this script sends
-#           the raw candidate tagged "[unverified]" so a brief still lands on the phone.
+#           a deterministic failure notice. It never ships claims the verifier did not check.
 
 set -e
 
@@ -99,22 +99,21 @@ run_stage "stage 2 verify+send" "$VERIFY_PROMPT_TEXT"
 strip_emdash "$TODAY_FILE"
 strip_emdash "$CANDIDATE"
 
-# --- Stage 3: fallback send ---------------------------------------------------
-# If the verifier never wrote a send sentinel, it failed before sending. Send the raw
-# candidate so a brief still lands, clearly tagged unverified.
-if [ ! -f "$SENT_SENTINEL" ] && [ -f "$CANDIDATE" ]; then
-  TOKEN=$(/usr/bin/jq -r '.telegram.botToken' "$CONFIG" 2>/dev/null)
-  CHAT_ID=$(/usr/bin/jq -r '.telegram.chatId' "$CONFIG" 2>/dev/null)
+# --- Stage 3: safe failure notification --------------------------------------
+# If the verifier never wrote a send sentinel, it failed before sending. Trust is more
+# important than delivery: notify Harrison that the brief was withheld, but never include
+# the unchecked candidate. today.md may also be unverified, so do not describe it as safe.
+if [ ! -f "$SENT_SENTINEL" ]; then
+  TOKEN=$(/usr/bin/jq -r '.telegram.botToken' "$CONFIG" 2>/dev/null || true)
+  CHAT_ID=$(/usr/bin/jq -r '.telegram.chatId' "$CONFIG" 2>/dev/null || true)
   if [ -n "$TOKEN" ] && [ "$TOKEN" != "null" ] && [ -n "$CHAT_ID" ] && [ "$CHAT_ID" != "null" ]; then
-    BODY="$(cat "$CANDIDATE")
-
-[unverified: verifier stage did not complete, claims unchecked]"
+    BODY="Morning brief withheld: the verifier did not complete, so no unchecked claims were sent. Check the Mini logs and rerun the brief when the failure is resolved."
     curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
       -d "chat_id=${CHAT_ID}" \
       --data-urlencode "text=${BODY}" >> "$STDOUT_LOG" 2>> "$STDERR_LOG"
-    echo "$(date '+%Y-%m-%dT%H:%M:%S%z') | morning-brief | FALLBACK send, verifier stage produced no sentinel" >> "$LOG_FILE"
+    echo "$(date '+%Y-%m-%dT%H:%M:%S%z') | morning-brief | WITHHELD unchecked brief, verifier stage produced no sentinel; failure notice sent" >> "$LOG_FILE"
   else
-    echo "$(date '+%Y-%m-%dT%H:%M:%S%z') | morning-brief | FAIL, no sentinel and telegram config unreadable, nothing sent" >> "$LOG_FILE"
+    echo "$(date '+%Y-%m-%dT%H:%M:%S%z') | morning-brief | FAIL, unchecked brief withheld; no sentinel and telegram config unreadable, no failure notice sent" >> "$LOG_FILE"
   fi
 fi
 

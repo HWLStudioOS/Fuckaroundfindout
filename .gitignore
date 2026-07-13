@@ -29,6 +29,45 @@ agents/_telegram-agent-daemon.log
 venv/
 __pycache__/
 *.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Node caches and local reports
+node_modules/
+.npm/
+npm-debug.log*
+coverage/
+
+# Jarvis runtime state. Documentation and schemas under runtime/ remain trackable.
+.jarvis-runtime/
+runtime/**/*.db
+runtime/**/*.db-wal
+runtime/**/*.db-shm
+runtime/**/*.db-journal
+runtime/**/*.sqlite
+runtime/**/*.sqlite-wal
+runtime/**/*.sqlite-shm
+runtime/**/*.sqlite-journal
+runtime/**/*.sqlite3
+runtime/**/*.sqlite3-wal
+runtime/**/*.sqlite3-shm
+runtime/**/*.sqlite3-journal
+runtime/**/*.pid
+runtime/**/*.sentinel
+runtime/**/*.log
+
+# Generated process state and logs (already-tracked history remains tracked)
+*.sentinel
+*.pid
+*.log
+agents/_*-sent.json
+agents/_*-candidate.txt
 
 # Frozen historical snapshots (each has its own internal .git)
 .archive/

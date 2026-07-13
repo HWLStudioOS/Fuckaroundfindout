@@ -1,0 +1,155 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  python:
+    name: Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.12"]
+    steps:
+      - name: Check out validation files
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            **/*.py
+            **/*.sh
+            **/*.js
+            **/*.json
+            **/*.plist
+            pyproject.toml
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: ""
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+
+      - name: Compile-check tracked Python
+        run: |
+          python - <<'PY'
+          import subprocess
+          from pathlib import Path
+
+          root = Path.cwd()
+          raw_paths = subprocess.check_output(
+              ["git", "ls-files", "-z", "--", "*.py"]
+          ).split(b"\0")
+          failures = []
+          checked = 0
+          for raw_path in raw_paths:
+              if not raw_path:
+                  continue
+              path = root / raw_path.decode()
+              checked += 1
+              try:
+                  compile(path.read_bytes(), str(path), "exec")
+              except Exception as exc:
+                  failures.append("{}: {}".format(path, exc))
+          if failures:
+              raise SystemExit("\n".join(failures))
+          print("compile-checked {} Python file(s)".format(checked))
+          PY
+
+  repository-formats:
+    name: Shell, JavaScript, JSON and plist
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out validation files
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            **/*.py
+            **/*.sh
+            **/*.js
+            **/*.json
+            **/*.plist
+            pyproject.toml
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: ""
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check Bash syntax
+        shell: bash
+        run: |
+          checked=0
+          while IFS= read -r -d '' file; do
+            bash -n "$file"
+            checked=$((checked + 1))
+          done < <(git ls-files -z -- '*.sh')
+          echo "syntax-checked $checked shell script(s)"
+
+      - name: Check JavaScript syntax
+        shell: bash
+        run: |
+          checked=0
+          while IFS= read -r -d '' file; do
+            node --check "$file"
+            checked=$((checked + 1))
+          done < <(git ls-files -z -- '*.js')
+          echo "syntax-checked $checked JavaScript file(s)"
+
+      - name: Validate JSON and property lists
+        run: |
+          python - <<'PY'
+          import json
+          import plistlib
+          import subprocess
+          from pathlib import Path
+
+          root = Path.cwd()
+          checks = (
+              ("JSON", "*.json", json.loads),
+              ("plist", "*.plist", plistlib.loads),
+          )
+          failures = []
+          for label, pattern, loader in checks:
+              raw_paths = subprocess.check_output(
+                  ["git", "ls-files", "-z", "--", pattern]
+              ).split(b"\0")
+              checked = 0
+              for raw_path in raw_paths:
+                  if not raw_path:
+                      continue
+                  path = root / raw_path.decode()
+                  checked += 1
+                  try:
+                      loader(path.read_bytes())
+                  except Exception as exc:
+                      failures.append("{} {}: {}".format(label, path, exc))
+              print("validated {} {} file(s)".format(checked, label))
+          if failures:
+              raise SystemExit("\n".join(failures))
+          PY

@@ -5,8 +5,9 @@ Personal operating system for Harrison Living. HWL Studio cashflow engine. Audie
 ## Read on session start
 
 1. `today.md`
-2. `self/profile.md`
-3. `self/operating-theory.md` (especially H7, H11, H21)
+2. `SYSTEM-STATUS.md`
+3. `self/profile.md`
+4. `self/operating-theory.md` (especially H7, H11, H21)
 
 That's the whole startup. The rest is data, read on-demand.
 
@@ -25,7 +26,7 @@ That's the whole startup. The rest is data, read on-demand.
 
 ## Hard nos
 
-- No JARVIS. No persona.
+- No JARVIS persona. `Jarvis Foundation` is an infrastructure codename only.
 - No new retainer clients without Council deliberation.
 - No scope creep without repricing.
 - No daily-note ritual. No wiki maintenance. No session-close checklist.
@@ -41,6 +42,14 @@ That's the whole startup. The rest is data, read on-demand.
 - **Audience or publishing:** `content/strategy.md`, `content/publishing-rules.md`, `content/voice-dna.md`.
 - **Capture an idea/task/order:** `capture/inbox.md`.
 - **Anything else:** handle directly. No skill-routing theatre.
+
+## Agent coordination
+
+- Claude owns the currently scheduled production workflows through launchd.
+- Codex owns engineering, testing, diagnostics, and reviewed changes. Do not create a second schedule for an existing Claude or launchd workflow.
+- `SYSTEM-STATUS.md` is the current engineering handoff between Claude, Codex, and Harrison. Read it before changing agents, permissions, schedules, or runtime state.
+- The Jarvis action ledger is not yet an enforcement boundary around legacy Claude runners. Do not claim an email, message, calendar, or file action was approval-gated unless that exact adapter has been migrated.
+- Before editing the repository, inspect Git status. Preserve unrelated working changes. Use a separate worktree or branch for substantial engineering changes, then merge a tested commit.
 
 ## Failure modes the system is designed against
 
@@ -63,3 +72,5 @@ Three agents run unattended for 2 consecutive weeks: morning-brief, weekly-revie
 ## Block end
 
 No rewrite of this file before 18 July 2026. If Harrison asks for a fifth system change mid-block, refer to the operating-theory hypotheses and resist.
+
+Exception recorded 13 July 2026: Harrison explicitly requested the Claude/Codex coordination handoff and Jarvis foundation pointer. This narrow documentation update does not reopen the wider system rewrite.

@@ -11,9 +11,9 @@ The near-term objective is trust, not breadth: one durable record of what was
 observed, what ran, what was proposed, what was approved, and what actually
 happened.
 
-### Current branch boundary
+### Current implementation boundary
 
-This branch implements the ledger, conservative queues, typed action
+The current implementation provides the ledger, conservative queues, typed action
 classification, proposal hashing, approval recording, tests, and diagnostics.
 It deliberately does **not** implement an action executor or route existing
 agents through the new policy layer yet.

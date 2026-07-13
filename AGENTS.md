@@ -7,8 +7,11 @@ There is one source of truth: **`CLAUDE.md`**. Read it first. Everything below i
 ## The essentials
 
 - This is Harrison Living's personal operating system. HWL Studio cashflow, audience, content, health, money, family.
-- On session start read: `today.md`, `self/profile.md`, `self/operating-theory.md`. That's the whole startup. The rest is data, read on demand.
+- On session start read: `today.md`, `SYSTEM-STATUS.md`, `self/profile.md`, `self/operating-theory.md`. That's the whole startup. The rest is data, read on demand.
 - Routing, push behaviours, hard nos, and the full schema all live in `CLAUDE.md`. Follow it exactly.
+- Read `SYSTEM-STATUS.md` before changing agents, schedules, permissions, or Jarvis runtime code.
+- Do not duplicate an existing launchd or Claude schedule with another agent platform.
+- Inspect Git status first. Preserve unrelated working changes and use a separate worktree or branch for substantial engineering changes.
 
 ## Voice (non-negotiable)
 

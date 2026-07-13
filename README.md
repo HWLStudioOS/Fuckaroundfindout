@@ -18,6 +18,7 @@ This is the single root. Everything you do, track, plan, or learn from runs thro
 | `campaigns/` | Active outreach. LOR retainer is the priority push. |
 | `council/` | Multi-agent deliberation skill for Type-1 decisions. |
 | `agents/` | Scheduled prompts that make the OS proactive. |
+| `jarvis_core/` | Durable event, task, run, proposal, approval, and queue primitives. No live action executor yet. |
 | `capture/` | One trusted intake for tasks, ideas, voice memos, orders. |
 | `research/` | One-off reports, operator deep dives, lane analyses. |
 | `spec/` | Command Center design docs and MVP roadmap. |
@@ -27,6 +28,8 @@ This is the single root. Everything you do, track, plan, or learn from runs thro
 
 - `README.md` (this file)
 - `CLAUDE.md` (schema, read on every session)
+- `SYSTEM-STATUS.md` (current Claude/Codex engineering handoff and rollout state)
+- `JARVIS-FOUNDATION.md` (safety architecture, boundaries, rollout, and rollback)
 - `today.md` (live daily brief, refreshed by morning-brief agent)
 - `this-week.md` (weekly review surface, refreshed Sundays)
 - `AUDIT.md` (historical audit, 11 May)
@@ -36,6 +39,8 @@ This is the single root. Everything you do, track, plan, or learn from runs thro
 ## Source of truth
 
 Most files in `self/`, `business/`, `money/`, `life/`, `learning/`, `spec/` reference canonical versions at `/Users/harrison/hwlstudio-codex/harrison-os/`. The codex folder remains the live capture surface where new ChatGPT-Codex sessions write. HWL META is the routing and operating layer.
+
+Git and Markdown hold durable authored context. Mutable runtime state belongs in ignored SQLite databases and generated runtime files. Claude and Codex share the repository, but they are separate workers and must coordinate through committed changes and `SYSTEM-STATUS.md`, not concurrent edits to the same file.
 
 ## v1 acceptance criterion
 

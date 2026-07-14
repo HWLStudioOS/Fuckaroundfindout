@@ -193,3 +193,10 @@
 - Training: no session prescribed today (W26 race week, pack-and-rest day per training-plan.md). A 4.2km run happened anyway this morning (Garmin/Strava), nothing to score as a miss either way.
 - Campaigns moved: 2 (BaW website 2.0 thread progressing with Adcentric, LOR comms invoices sent to Kerri)
 - Tomorrow's first action: Alarm 3:55am, execute the race-morning routine, start line 6:50am Field Farm, Lewknor.
+
+## 2026-07-14 evening
+- Shipped: LOR ET repriced (£28k held, no upward move, trim-the-slate-not-the-price defence with a £20k fallback and GTI creative carved out separately) with talking points and a send-gated Kerri message drafted ahead of the 16:00 call, LOR ET creative review completed (4-lens multi-agent pass, 26 hooks graded, 10 rewritten, campaign doc rebuilt and written to campaigns/lor-et-creative-review-2026-07-14.md and campaigns/lor-early-talent-campaign-rebuild-2026-07-14.md), PM training done (20 min easy indoor cycling avg HR 123 + 11 min upper-body strength avg HR 114, both logged on Garmin around 12:45-13:07)
+- Missed: AM walk/mobility, no matching Garmin activity for this morning (not a critical week, so not push-worthy)
+- Training: PM half of the prescription met cleanly (easy bike + upper-body strength, no eccentric leg work, consistent with W27 recovery). AM walk/mobility does not appear in Garmin's activity list for today, unconfirmed either way beyond that absence.
+- Campaigns moved: 1 (LOR ET: repriced, creative-reviewed, campaign doc rebuilt, all same day)
+- Tomorrow's first action: Open the 08:15 Creepers hero-film edit block, the two Michael Buck RHS-wording facts are still the only thing blocking the captions.

@@ -2,7 +2,7 @@
 
 Current engineering handoff for Harrison, Claude, and Codex. Read this on session start. Update it only when system architecture, rollout state, automation ownership, or safety boundaries change. Daily business state stays in `today.md` and the domain files.
 
-Last updated: 13 July 2026
+Last updated: 14 July 2026
 
 ## Operating model
 
@@ -33,10 +33,11 @@ Verified on the Mac mini:
 
 ## Live rollout state
 
-- The local `main` branch is ahead of `origin/main`. The foundation has not been pushed to GitHub yet.
-- The running `com.hwl.telegram-agent` process was not restarted after the merge. It still has the previous Python code loaded in memory until a controlled restart.
-- The next scheduled morning brief reads its shell script from disk and will use the new fail-closed verifier fallback.
-- Existing working-tree changes from Claude and live jobs were preserved and are not part of the foundation commit.
+- The foundation and coordination handoff are on GitHub `main`. CI passed for the foundation push and the following nightly backup.
+- `com.hwl.telegram-agent` was restarted at 10:37 BST on 14 July. The new restricted-mode process is live and its private durable queue database was created successfully.
+- The queue was empty immediately after restart. The next non-command task is the first live proof that the new process persists before acknowledgement and writes only a task fingerprint to logs.
+- The 14 July morning brief used the fail-closed verifier path and sent Telegram message 536 after checking 30 claims and correcting one. The missing Monday 13 July run should be monitored for recurrence.
+- Pre-restart Telegram logs still contain legacy task previews. They are ignored by Git; future task logs should use fingerprints.
 - No Codex automation has been created.
 
 ## Safety boundary
@@ -51,8 +52,8 @@ The foundation is not yet a hard permission boundary around Claude.
 
 ## Next implementation sequence
 
-1. Reconcile and commit or preserve the current live working tree, then push the foundation commit so GitHub and remote workers share the same version.
-2. Inspect pending Telegram updates and runtime state, then perform a controlled Telegram agent restart with an immediate status and queue check.
+1. Confirm the next non-command Telegram task appears in the durable queue lifecycle and logs only its fingerprint.
+2. Watch the next weekday morning brief because the Monday 13 July run was missed.
 3. Add dry-run typed adapters for one reversible internal action first.
 4. Add authenticated approval ingress, execution leases, destination receipts, and independent verification.
 5. Route external actions through the gateway one adapter at a time. Remove broad legacy permissions only when the replacement path is proven.

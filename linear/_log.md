@@ -1991,3 +1991,30 @@
 [2026-07-13T20:15:02.806Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-07-13T21:15:02.954Z] INFO Sync start. Last: 2026-07-13T20:15:02.803Z
 [2026-07-13T21:15:03.847Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-13T22:15:03.946Z] INFO Sync start. Last: 2026-07-13T21:15:03.844Z
+[2026-07-13T22:15:04.464Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-13T23:15:04.569Z] INFO Sync start. Last: 2026-07-13T22:15:04.462Z
+[2026-07-13T23:15:05.254Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-14T00:15:05.398Z] INFO Sync start. Last: 2026-07-13T23:15:05.253Z
+[2026-07-14T00:15:06.737Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-14T01:15:06.863Z] INFO Sync start. Last: 2026-07-14T00:15:06.734Z
+[2026-07-14T01:15:07.197Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-14T02:15:07.289Z] INFO Sync start. Last: 2026-07-14T01:15:07.194Z
+[2026-07-14T02:15:07.630Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-14T03:15:07.778Z] INFO Sync start. Last: 2026-07-14T02:15:07.627Z
+[2026-07-14T03:15:08.396Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-14T04:15:08.465Z] INFO Sync start. Last: 2026-07-14T03:15:08.392Z
+[2026-07-14T04:15:08.950Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-14T05:15:09.099Z] INFO Sync start. Last: 2026-07-14T04:15:08.947Z
+[2026-07-14T05:15:09.462Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-14T06:15:09.537Z] INFO Sync start. Last: 2026-07-14T05:15:09.460Z
+[2026-07-14T06:15:10.056Z] INFO push ~ HWL-125 → done
+[2026-07-14T06:15:10.383Z] INFO push + HWL-129 Kerri/Harrison catch-up, 16:00-16:30. Recurring, LOR ET prod
+[2026-07-14T06:15:10.546Z] INFO push + HWL-130 Golf clubs v2 + new-client campaign: two decisions overdue,
+[2026-07-14T06:15:10.634Z] INFO Sync done. push: +2 ~1. pull: ~0.
+[2026-07-14T07:15:10.794Z] INFO Sync start. Last: 2026-07-14T06:15:10.631Z
+[2026-07-14T07:15:11.327Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-14T08:15:11.416Z] INFO Sync start. Last: 2026-07-14T07:15:11.324Z
+[2026-07-14T08:15:11.827Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-14T09:15:11.947Z] INFO Sync start. Last: 2026-07-14T08:15:11.824Z
+[2026-07-14T09:15:12.682Z] INFO Sync done. push: +0 ~0. pull: ~0.

@@ -1,5 +1,5 @@
 // Shared persistence for the Better@Work summer tracker.
-//   GET  /api/data              -> { v, WEEKS, NUMBERS } or null
+//   GET  /api/data              -> { v, WEEKS, NUMBERS, FEED?, t? } or null
 //   POST /api/data (x-edit-key) -> replaces payload; optimistic concurrency via `v`
 // Uses the Redis connection string Vercel injects as REDIS_URL.
 const crypto = require('crypto');
@@ -43,14 +43,23 @@ module.exports = async (req, res) => {
       if (!validate(body)) return res.status(400).json({ error: 'expected { WEEKS: [ ... ], NUMBERS: [ ... ] }' });
       if (JSON.stringify(body).length > 900000) return res.status(413).json({ error: 'payload too large' });
 
-      const current = parse(await c.get(KEY));
-      const curV = current && typeof current.v === 'number' ? current.v : 0;
-      const baseV = typeof body.v === 'number' ? body.v : 0;
-      if (current && baseV !== curV) return res.status(409).json({ error: 'version conflict', v: curV });
-
-      const next = { v: curV + 1, WEEKS: body.WEEKS, NUMBERS: body.NUMBERS };
-      await c.set(KEY, JSON.stringify(next));
-      return res.status(200).json({ ok: true, v: next.v });
+      // Atomic compare-and-set: WATCH aborts the MULTI if another write lands between the read and the SET.
+      const result = await c.executeIsolated(async (iso) => {
+        await iso.watch(KEY);
+        const current = parse(await iso.get(KEY));
+        const curV = current && typeof current.v === 'number' ? current.v : 0;
+        const baseV = typeof body.v === 'number' ? body.v : 0;
+        if (current && baseV !== curV) { await iso.unwatch(); return { conflict: curV }; }
+        const next = { v: curV + 1, WEEKS: body.WEEKS, NUMBERS: body.NUMBERS, t: Date.now() };
+        // FEED is optional (added 14 Jul); preserve the stored value when an older client posts without it.
+        const feed = Array.isArray(body.FEED) ? body.FEED : (current && Array.isArray(current.FEED) ? current.FEED : null);
+        if (feed) next.FEED = feed;
+        const exec = await iso.multi().set(KEY, JSON.stringify(next)).exec();
+        if (exec === null) return { conflict: curV };
+        return { next };
+      });
+      if (result.conflict !== undefined) return res.status(409).json({ error: 'version conflict', v: result.conflict });
+      return res.status(200).json({ ok: true, v: result.next.v, t: result.next.t });
     }
 
     res.setHeader('Allow', 'GET, POST');

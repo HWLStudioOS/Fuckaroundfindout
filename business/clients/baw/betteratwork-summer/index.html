@@ -31,9 +31,10 @@
   .bar-inner { background:var(--yellow); border-radius:99px; height:10px; width:0%; transition:width .4s; }
   .bar-label { font-size:11px; color:#C9B8EC; margin-top:6px; }
 
-  .filters { display:flex; gap:8px; flex-wrap:wrap; margin:26px 0 6px; }
+  .filters { display:flex; gap:8px; flex-wrap:wrap; margin:26px 0 6px; align-items:center; }
   .chip { border:1.5px solid var(--line); background:#fff; border-radius:99px; padding:5px 14px; font-size:12px; font-weight:600; color:var(--muted); cursor:pointer; font-family:inherit; }
   .chip.active { background:var(--plum); border-color:var(--plum); color:#fff; }
+  .chip.util { margin-left:auto; }
 
   .week { background:#fff; border:1px solid var(--line); border-radius:16px; margin-top:18px; overflow:hidden; }
   .week.current { border:2px solid var(--plum-mid); box-shadow:0 6px 24px rgba(77,29,149,.12); }
@@ -41,6 +42,7 @@
   .week.complete .week-meta span { color:var(--green); font-weight:700; }
   .week-head { display:flex; justify-content:space-between; align-items:center; padding:14px 20px; cursor:pointer; }
   .week-head:hover { background:var(--tint); }
+  .week-head.drop-target { background:var(--tint2); outline:2px dashed var(--plum-mid); outline-offset:-2px; }
   .week-head .wt { font-size:15px; font-weight:700; color:var(--plum); }
   .week-head .wt small { color:var(--muted); font-weight:500; font-size:12px; margin-left:8px; }
   .now-pill { background:var(--berry); color:#fff; font-size:10px; font-weight:700; padding:3px 10px; border-radius:99px; margin-left:10px; vertical-align:middle; }
@@ -53,6 +55,9 @@
 
   .task { display:flex; align-items:flex-start; gap:10px; padding:7px 8px; border-radius:8px; }
   .task:hover { background:var(--tint); }
+  .task.drop-target { outline:2px dashed var(--plum-mid); outline-offset:-2px; background:var(--tint); }
+  .task.dim { opacity:.35; }
+  .task .handle { cursor:grab; color:#B7ADCB; font-size:13px; margin-top:2px; user-select:none; letter-spacing:-1px; }
   .box { margin-top:3px; width:15px; height:15px; border-radius:4px; border:1.5px solid var(--line); flex-shrink:0; }
   .task.done .box { background:var(--green); border-color:var(--green); position:relative; }
   .task.done .box::after { content:"✓"; color:#fff; font-size:11px; position:absolute; top:-2px; left:2px; }
@@ -62,6 +67,13 @@
   .own.HWL { background:#EDE7F8; color:var(--plum); }
   .own.You { background:#FBE3EA; color:var(--berry); }
   .own.Together { background:var(--plum); color:#fff; }
+  .task .ctl { display:flex; gap:3px; align-items:center; margin-top:1px; }
+  .task .ctl button { background:var(--tint2); border:none; border-radius:5px; width:21px; height:21px; font-size:11px; color:var(--plum); cursor:pointer; line-height:1; font-family:inherit; }
+  .task .ctl button:hover { background:var(--plum); color:#fff; }
+  .task .ctl button:disabled { opacity:.3; cursor:default; }
+  .task .ctl button:disabled:hover { background:var(--tint2); color:var(--plum); }
+  .task .ctl .del { background:#FBE3EA; color:var(--berry); font-size:14px; }
+  .task .ctl .del:hover { background:var(--berry); color:#fff; }
 
   .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-top:26px; }
   @media (max-width:760px){ .grid2{grid-template-columns:1fr} .countdowns{width:100%} }
@@ -83,7 +95,7 @@
   .ntab-scroll { overflow-x:auto; }
   .ntab { width:100%; border-collapse:collapse; font-size:12.5px; min-width:640px; }
   .ntab th { text-align:left; font-size:10.5px; letter-spacing:.8px; text-transform:uppercase; color:var(--muted); font-weight:700; padding:8px 10px 8px 0; border-bottom:1.5px solid var(--line); }
-  .ntab td { padding:9px 10px 9px 0; border-bottom:1px solid var(--tint2); color:var(--ink); }
+  .ntab td { padding:9px 10px 9px 0; border-bottom:1px solid var(--tint2); color:var(--ink); vertical-align:top; line-height:1.5; }
   .ntab td:first-child, .ntab th:first-child { white-space:nowrap; font-weight:600; color:var(--plum); }
   .ntab tr.base td { background:var(--tint); font-weight:600; }
   .ntab .todo { color:#B7ADCB; }
@@ -92,21 +104,18 @@
   footer { text-align:center; font-size:11px; color:var(--muted); margin-top:40px; }
   footer b { color:var(--plum); }
 
-  .task .del { margin-top:1px; background:none; border:none; color:var(--berry); font-size:18px; line-height:1; cursor:pointer; padding:0 2px; font-family:inherit; }
-  .task .box.editable { cursor:pointer; }
   .addrow { display:flex; gap:8px; margin-top:10px; flex-wrap:wrap; }
   .addrow input[type=text] { flex:1; min-width:180px; border:1.5px solid var(--line); border-radius:8px; padding:7px 12px; font-family:inherit; font-size:13px; }
   .addrow select { border:1.5px solid var(--line); border-radius:8px; padding:7px 10px; font-family:inherit; font-size:13px; background:#fff; }
   .addrow button { background:var(--plum); color:#fff; border:none; border-radius:8px; padding:7px 14px; font-family:inherit; font-weight:600; font-size:13px; cursor:pointer; }
   .editbar { background:var(--plum-deep); color:#fff; padding:12px 20px; display:flex; flex-wrap:wrap; gap:10px 18px; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:100; font-size:13px; }
   .editbar b { color:var(--yellow); }
-  .editbar .ebtns { display:flex; gap:8px; }
+  .editbar .ebtns { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
   .editbar button { background:var(--yellow); color:var(--plum-deep); border:none; border-radius:8px; padding:6px 14px; font-weight:700; font-size:12.5px; cursor:pointer; font-family:inherit; }
   .editbar button.ghost { background:transparent; color:#fff; border:1px solid rgba(255,255,255,.4); }
   .editbar input { padding:6px 10px; border-radius:6px; border:none; font-family:inherit; font-size:12.5px; }
   .editbar .ebstat { font-size:12px; color:#EDE7F8; }
-  .editbar .ebmsg { flex-basis:100%; font-size:12px; color:#C9B8EC; }
-  .editbar .ebmsg code { display:block; margin-top:6px; background:rgba(0,0,0,.3); padding:8px 10px; border-radius:6px; color:#fff; font-size:11px; word-break:break-all; user-select:all; }
+  .editbar #undo-slot button { background:none; border:none; color:var(--yellow); text-decoration:underline; padding:0; font-size:12px; font-weight:600; }
 </style>
 </head>
 <body>
@@ -133,9 +142,23 @@
     <button class="chip" data-f="HWL">HWL</button>
     <button class="chip" data-f="You">You + Annette</button>
     <button class="chip" data-f="Together">Together</button>
+    <button class="chip util" id="expandAll">Expand all</button>
   </div>
 
   <div id="weeks"></div>
+
+  <div class="numbers">
+    <h3>THE SUMMER FEED</h3>
+    <div class="lead">What goes out, week by week, while the show is off. A best-of to the feed every week, two shorts, the newsletter, and the Sum Ups behind an email gate. Picks marked * are suggestions, locked by your WhatsApp thumbs-up.</div>
+    <div class="ntab-scroll">
+      <table class="ntab">
+        <thead>
+          <tr><th>Week</th><th>To the feed</th><th>Shorts ×2</th><th>Newsletter</th><th>Sum Ups</th></tr>
+        </thead>
+        <tbody id="feed-body"></tbody>
+      </table>
+    </div>
+  </div>
 
   <div class="numbers">
     <h3>THE NUMBERS</h3>
@@ -154,11 +177,13 @@
     <div class="panel">
       <h3>KEY DATES</h3>
       <ul>
-        <li><span class="date-tag">This week</span> Season 4 wrap episode publishes</li>
-        <li><span class="date-tag">Mon 13 Jul</span> Guest session, you + Annette · first Monday stand-up</li>
+        <li><span class="date-tag">Thu 9 Jul</span> Season 4 wrap published ✓</li>
+        <li><span class="date-tag">Tue 14 Jul</span> Guest session held · stand-ups running ✓</li>
+        <li><span class="date-tag">This week</span> Best-of #1 (Helen Tupper) · cold opens recorded before you fly</li>
         <li><span class="date-tag">~18 Jul</span> You to France (2 weeks)</li>
         <li><span class="date-tag">3–16 Aug</span> You to Australia</li>
         <li><span class="date-tag">Wed 13 Aug</span> Caroline Webb records (remote)</li>
+        <li><span class="date-tag">~Sun 16 Aug</span> Filming day (target, to confirm)</li>
         <li><span class="date-tag">17–31 Aug</span> You to Spain</li>
         <li><span class="date-tag">September</span> Neil in-studio · Season 5 launches with Webb</li>
         <li><span class="date-tag">Early Sept</span> We review the summer together</li>
@@ -181,10 +206,10 @@
     <div class="panel">
       <h3>WHAT KEEPS IT MOVING</h3>
       <ul>
-        <li><b>Monday 13 July session.</b> The miniseries targets and the third Sum Up both come out of it. The one thing that needs you and Annette in the room.</li>
-        <li><b>Filming day.</b> A date gets locked at Monday's stand-up, this week or around 16 Aug, before the holidays make it hard.</li>
-        <li><b>Newsletter sign-off on the road.</b> A WhatsApp thumbs-up counts as approval, so the weekly cadence holds while you are away.</li>
-        <li><b>Website agency intro.</b> Whenever it suits, the introduction to your UK contact.</li>
+        <li><b>Two picks from Tuesday's session.</b> The 5 Better Leadership targets and the third Sum Up, before France.</li>
+        <li><b>One recording sitting.</b> Three cold opens and two house ads before you fly. It unlocks every best-of through August.</li>
+        <li><b>Filming day.</b> ~Sun 16 Aug, locked in writing before the holidays make it hard.</li>
+        <li><b>Sign-off on the road.</b> A WhatsApp thumbs-up counts as approval, so the weekly cadence holds while you are away.</li>
       </ul>
     </div>
     <div class="panel">
@@ -198,7 +223,7 @@
     </div>
   </div>
 
-  <footer>Better@Work summer tracker · <b>Harrison + Cathal</b> · updated 7 July 2026</footer>
+  <footer>Better@Work summer tracker · <b>Harrison + Cathal</b> · updated 14 July 2026<span id="liveT"></span></footer>
 </div>
 
 <script>
@@ -206,29 +231,34 @@ let WEEKS = [
   { id:"w1", title:"W1 · Wrap and set-up", dates:"6–12 Jul", start:"2026-07-06",
     focus:"Get the wrap episode out and the summer engine set up.",
     tasks:[
-      ["Wrap episode packaged and published, the break and September return framed","HWL",false],
-      ["Listener question link live before the wrap publishes","HWL",false],
-      ["Newsletter out: season wrap, the break, the question link","HWL",false],
-      ["Agree a WhatsApp thumbs-up counts as newsletter sign-off","Together",false],
-      ["Best-of mining underway, first shortlist by Friday","HWL",false],
+      ["Wrap episode packaged and published, the break and September return framed","HWL",true],
+      ["Newsletter out: season wrap, the break, the question link","HWL",true],
+      ["Best-of mining underway, first shortlist by Friday","HWL",true],
     ]},
   { id:"w2", title:"W2 · Loading week", dates:"13–19 Jul", start:"2026-07-13",
     focus:"Everything that needs you in the country, before you fly around the 18th.",
     tasks:[
-      ["Monday guest session: 5 miniseries targets, US-weighted S5 shortlist, third Sum Up pick","You",false],
-      ["First Monday WhatsApp stand-up","HWL",false],
-      ["Filming day locked, this week or ~16 Aug","Together",false],
-      ["If filming: house ads (Careers + Leadership), a proper intro, refreshed photography","HWL",false],
+      ["Guest session done: S5 guest sheet updated, WEF skills-for-2030 lens adopted","You",true],
+      ["Still needed from the session: the 5 Better Leadership targets and the third Sum Up pick","You",false],
+      ["First Monday WhatsApp stand-up","HWL",true],
+      ["Best-of #1 (Helen Tupper, our most-listened episode) cut and with you for review","HWL",false],
+      ["Best-of #2 and #3 picked. Suggesting Tasha Eurich, then Smart Conflict","Together",false],
+      ["Your three cold opens + two house ads, one recording sitting before you fly","You",false],
       ["Best-of #1 to the feed","HWL",false],
+      ["Question link live and pointed at from the wrap show notes","HWL",false],
+      ["Filming day locked for ~Sun 16 Aug (Paris closed out the July window)","Together",false],
       ["First Sum Up built (Roger Martin)","HWL",false],
       ["One-pager of the four leadership-episode lessons for your Lucy talk","HWL",false],
       ["Brand refresh, first directions to look at","HWL",false],
+      ["Agreed: a WhatsApp thumbs-up counts as sign-off while you're away","Together",false],
     ]},
   { id:"w3", title:"W3 · Engine solo", dates:"20–26 Jul", start:"2026-07-20",
     focus:"You're in France. The engine runs itself.",
     tasks:[
-      ["Best-of #2, two shorts, newsletter, LinkedIn","HWL",false],
-      ["Sum Ups #2 (Helen Tupper) and #3 built","HWL",false],
+      ["Best-of #2 to the feed Thursday, opening with your pre-recorded intro","HWL",false],
+      ["Two shorts, newsletter, LinkedIn","HWL",false],
+      ["Sum Up #2 (Helen Tupper) built and gated","HWL",false],
+      ["Sum Up #3 built once picked","HWL",false],
       ["Funnel: lead capture wired to email, Sum Up downloads gated, Better Careers checkout","HWL",false],
       ["Miniseries pitch kit: format, naming, guest one-pager, call-out copy","HWL",false],
       ["Friday review, 30 minutes","Together",false],
@@ -276,7 +306,7 @@ let WEEKS = [
 // Baseline = close of Season 4. Weekly rows filled after each week's numbers land.
 let NUMBERS = [
   { label:"S4 close (baseline)", base:true, yt:"—", spot:"—", li:"—", nl:"—", note:"starting point" },
-  { label:"wk to 12 Jul", yt:"", spot:"", li:"", nl:"", note:"" },
+  { label:"wk to 12 Jul", yt:"", spot:"", li:"", nl:"", note:"wrap episode published Thu 9 Jul" },
   { label:"wk to 19 Jul", yt:"", spot:"", li:"", nl:"", note:"" },
   { label:"wk to 26 Jul", yt:"", spot:"", li:"", nl:"", note:"" },
   { label:"wk to 2 Aug", yt:"", spot:"", li:"", nl:"", note:"" },
@@ -286,13 +316,27 @@ let NUMBERS = [
   { label:"wk to 31 Aug", yt:"", spot:"", li:"", nl:"", note:"" },
 ];
 
+// The publishing calendar. Editable in ?edit mode, saved live like everything else.
+let FEED = [
+  { wk:"w/c 6 Jul",  feed:"Season 4 wrap ✓", shorts:"Wrap launch clips ✓", nl:"#1 · wrap, break, questions ✓", sumups:"Template locked" },
+  { wk:"w/c 13 Jul", feed:"Best-of #1 · Helen Tupper, our most-listened episode, fresh cold open", shorts:'Wrap "hard stop" · Tupper "knowing vs doing"', nl:"#2 · your scan, then send", sumups:"#1 Roger Martin built + gated" },
+  { wk:"w/c 20 Jul", feed:"Best-of #2 · Tasha Eurich*", shorts:"Tupper language flip · best-of #2 hero clip", nl:"#3 · season lessons", sumups:"#2 Helen Tupper built + gated" },
+  { wk:"w/c 27 Jul", feed:"Best-of #3 · Smart Conflict*", shorts:"Two from the catalogue", nl:'#4 · carries a gated Sum Up + "useful? what would you change?"', sumups:"#3 built once picked" },
+  { wk:"w/c 3 Aug",  feed:"Best-of #4, pick by WhatsApp", shorts:"Two from the catalogue", nl:"#5", sumups:"Drip starts if the test lands" },
+  { wk:"w/c 10 Aug", feed:"Best-of #5 · Caroline Webb records Wed 13", shorts:"Two from the catalogue", nl:"#6", sumups:"Webb prep" },
+  { wk:"w/c 17 Aug", feed:"Best-of #6", shorts:"Two from the catalogue", nl:"#7 · S5 preview + question call", sumups:"" },
+  { wk:"w/c 24 Aug", feed:"Best-of #7 · S5 trailer to the feed", shorts:"Trailer teaser clips", nl:"#8", sumups:"" },
+  { wk:"September",  feed:"Season 5 launches with Caroline Webb", shorts:"Launch clips", nl:"Launch issue", sumups:"Webb Sum Up" },
+];
+
 const OWNER_NAMES = { HWL:"HWL", You:"You + Annette", Together:"Together" };
 let filter = "all";
 
 const EDIT = new URLSearchParams(location.search).has("edit");
 const KEYLS = "bawsummer-editkey";
-const BAKED = { WEEKS: JSON.parse(JSON.stringify(WEEKS)), NUMBERS: JSON.parse(JSON.stringify(NUMBERS)) };
-let saveTimer = null, storedV = 0, loadedOk = false, saving = false, pendingSave = false, dirty = false;
+const BAKED = { WEEKS: JSON.parse(JSON.stringify(WEEKS)), NUMBERS: JSON.parse(JSON.stringify(NUMBERS)), FEED: JSON.parse(JSON.stringify(FEED)) };
+let saveTimer = null, storedV = 0, dataT = 0, loadedOk = false, saving = false, pendingSave = false, dirty = false, editSeq = 0;
+let openSet = null, DRAG = null, lastDel = null, undoTimer = null;
 let KEYED = EDIT && !!getKey0();
 function escapeHtml(s){ return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function getKey0(){ try { return localStorage.getItem(KEYLS) || ""; } catch(e){ return ""; } }
@@ -303,44 +347,125 @@ function wById(id){ return WEEKS.find(w=>w.id===id); }
 async function loadData(){
   try {
     const r = await fetch('/api/data',{cache:'no-store'});
-    if (r.ok){ loadedOk = true; const d = await r.json(); if (d){ if (typeof d.v==='number') storedV = d.v; if (Array.isArray(d.WEEKS) && d.WEEKS.length){ WEEKS = d.WEEKS; if (Array.isArray(d.NUMBERS)) NUMBERS = d.NUMBERS; } } }
+    if (r.ok){
+      loadedOk = true; const d = await r.json();
+      if (d){
+        if (typeof d.v==='number') storedV = d.v;
+        if (typeof d.t==='number') dataT = d.t;
+        if (Array.isArray(d.WEEKS) && d.WEEKS.length){
+          WEEKS = d.WEEKS;
+          if (Array.isArray(d.NUMBERS)) NUMBERS = d.NUMBERS;
+          if (Array.isArray(d.FEED) && d.FEED.length) FEED = d.FEED;
+        }
+      }
+    }
   } catch(e){}
 }
 function setStatus(s){ const el=document.getElementById('editbar-status'); if(el) el.textContent=s; }
-function scheduleSave(){ if(!KEYED) return; if(!loadedOk){ setStatus('load failed — reload before editing'); return; } dirty=true; setStatus('saving…'); clearTimeout(saveTimer); saveTimer=setTimeout(()=>saveRemote(false),600); }
+function setStatusHtml(h){ const el=document.getElementById('editbar-status'); if(el) el.innerHTML=h; }
+function scheduleSave(){ if(!KEYED) return; editSeq++; dirty=true; if(!loadedOk){ setStatus('load failed — reload before editing'); return; } setStatus('saving…'); clearTimeout(saveTimer); saveTimer=setTimeout(()=>saveRemote(false),600); }
+function forceReload(){ dirty=false; location.reload(); }
 async function saveRemote(keepalive){
   if(!KEYED || !loadedOk) return;
   if(saving){ pendingSave=true; return; }
   saving=true;
+  const seqAtSend = editSeq;
   try {
-    const r = await fetch('/api/data',{ method:'POST', keepalive:!!keepalive, headers:{ 'Content-Type':'application/json','x-edit-key':getKey() }, body: JSON.stringify({ v: storedV, WEEKS, NUMBERS }) });
-    if (r.status===401){ clearKey(); KEYED=false; setStatus('key rejected — re-enter'); render(); renderNumbers(); renderEditbar(); }
-    else if (r.status===409){ setStatus('changed elsewhere — reload to get the latest'); }
-    else if (r.ok){ const j=await r.json().catch(()=>({})); if(typeof j.v==='number') storedV=j.v; dirty=false; setStatus('saved ✓'); }
+    const r = await fetch('/api/data',{ method:'POST', keepalive:!!keepalive, headers:{ 'Content-Type':'application/json','x-edit-key':getKey() }, body: JSON.stringify({ v: storedV, WEEKS, NUMBERS, FEED }) });
+    if (r.status===401){ clearKey(); KEYED=false; setStatus('key rejected — re-enter'); render(); renderFeed(); renderNumbers(); renderEditbar(); }
+    else if (r.status===409){ setStatusHtml('changed elsewhere — <button onclick="forceReload()" style="background:none;border:none;color:var(--yellow);text-decoration:underline;cursor:pointer;font-family:inherit;font-size:12px;padding:0">reload to get the latest</button>'); }
+    else if (r.ok){
+      const j=await r.json().catch(()=>({}));
+      if(typeof j.v==='number') storedV=j.v;
+      if(typeof j.t==='number'){ dataT=j.t; paintT(); }
+      // Only mark clean if no edits landed after this request's body was serialized.
+      if(editSeq===seqAtSend){ dirty=false; setStatus('saved ✓'); } else { setStatus('saving…'); }
+    }
     else { setStatus('save failed — will retry'); setTimeout(()=>{ if(dirty) saveRemote(false); }, 4000); }
   } catch(e){ setStatus('save failed — will retry'); setTimeout(()=>{ if(dirty) saveRemote(false); }, 4000); }
   finally { saving=false; if(pendingSave){ pendingSave=false; saveRemote(false); } }
 }
 function toggleTask(id,i){ const w=wById(id); w.tasks[i][2]=!w.tasks[i][2]; render(); scheduleSave(); }
-function delTask(id,i){ const w=wById(id); w.tasks.splice(i,1); render(); scheduleSave(); }
+function delTask(id,i){
+  const w=wById(id); const removed=w.tasks.splice(i,1)[0];
+  lastDel={id,i,task:removed};
+  clearTimeout(undoTimer); undoTimer=setTimeout(()=>{ lastDel=null; const el=document.getElementById('undo-slot'); if(el) el.innerHTML=''; },10000);
+  render(); scheduleSave();
+  const slot=document.getElementById('undo-slot'); if(slot) slot.innerHTML='deleted · <button onclick="undoDel()">undo</button>';
+}
+function undoDel(){
+  if(!lastDel) return;
+  const w=wById(lastDel.id);
+  if(w) w.tasks.splice(Math.min(lastDel.i, w.tasks.length), 0, lastDel.task);
+  lastDel=null; clearTimeout(undoTimer);
+  const el=document.getElementById('undo-slot'); if(el) el.innerHTML='';
+  render(); scheduleSave();
+}
 function addTask(id){ const inp=document.getElementById('add-'+id), sel=document.getElementById('own-'+id); const v=inp.value.trim(); if(!v) return; wById(id).tasks.push([v, sel.value, false]); render(); scheduleSave(); }
+function moveTask(id,i,d){ const t=wById(id).tasks; const j=i+d; if(j<0||j>=t.length) return; const tmp=t[i]; t[i]=t[j]; t[j]=tmp; render(); scheduleSave(); }
+function pushTask(id,i){
+  const idx=WEEKS.findIndex(w=>w.id===id); const nxt=WEEKS[idx+1]; if(!nxt) return;
+  const task=wById(id).tasks.splice(i,1)[0];
+  nxt.tasks.unshift(task);
+  ensureOpenSet(); openSet.add(nxt.id);
+  render(); scheduleSave();
+}
+function dropTask(dstId, dstIdx){
+  if(!DRAG) return;
+  const src=wById(DRAG.id), dst=wById(dstId);
+  if(!src||!dst){ DRAG=null; return; }
+  if(DRAG.id===dstId && DRAG.i===dstIdx){ DRAG=null; render(); return; }
+  const task=src.tasks.splice(DRAG.i,1)[0];
+  let idx = dstIdx==null ? dst.tasks.length : dstIdx;
+  // Downward drags insert before the hovered row; a drop on the immediate next row means "swap", so insert after it instead of no-opping.
+  if(src===dst && dstIdx!=null && DRAG.i<dstIdx) idx = (dstIdx===DRAG.i+1) ? dstIdx : dstIdx-1;
+  dst.tasks.splice(idx,0,task);
+  DRAG=null; ensureOpenSet(); openSet.add(dstId); render(); scheduleSave();
+}
 function editNum(i,field,val){ if(NUMBERS[i]){ NUMBERS[i][field]=val; scheduleSave(); } }
+function editFeed(i,field,val){ if(FEED[i]){ FEED[i][field]=val; scheduleSave(); } }
 async function resetDefault(){
   if(!confirm('Replace the live tracker with the deployed default? This overwrites the current view for everyone.')) return;
-  WEEKS = JSON.parse(JSON.stringify(BAKED.WEEKS)); NUMBERS = JSON.parse(JSON.stringify(BAKED.NUMBERS)); render(); renderNumbers(); scheduleSave();
+  lastDel=null; clearTimeout(undoTimer); const us=document.getElementById('undo-slot'); if(us) us.innerHTML='';
+  WEEKS = JSON.parse(JSON.stringify(BAKED.WEEKS)); NUMBERS = JSON.parse(JSON.stringify(BAKED.NUMBERS)); FEED = JSON.parse(JSON.stringify(BAKED.FEED));
+  render(); renderFeed(); renderNumbers(); scheduleSave();
 }
 function submitKey(){ const el=document.getElementById('editbar-key'); const v=el?el.value.trim():''; if(v){ setKey(v); location.reload(); } }
+function standupText(){
+  const curId = currentWeekId();
+  const idx = WEEKS.findIndex(w=>w.id===curId);
+  const cur = WEEKS[idx], prev = idx>0 ? WEEKS[idx-1] : null;
+  const done = [];
+  if (prev) prev.tasks.forEach(t=>{ if(t[2]) done.push(t[0]); });
+  cur.tasks.forEach(t=>{ if(t[2]) done.push(t[0]); });
+  const focus = cur.tasks.filter(t=>!t[2]).map(t=>t[0]);
+  let out = 'B@W stand-up · ' + cur.dates + '\n\nDone:\n';
+  out += done.length ? done.map(s=>'✓ '+s).join('\n') : '–';
+  out += '\n\nFocus this week:\n';
+  out += focus.length ? focus.map(s=>'• '+s).join('\n') : '–';
+  return out;
+}
+async function copyStandup(){
+  const txt = standupText();
+  try { await navigator.clipboard.writeText(txt); setStatus('stand-up copied ✓'); }
+  catch(e){ window.prompt('Copy the stand-up text:', txt); }
+}
 function renderEditbar(){
   if(!EDIT) return;
   let bar=document.querySelector('.editbar');
   if(!bar){ bar=document.createElement('div'); bar.className='editbar'; document.body.insertBefore(bar, document.body.firstChild); }
   const keyed=!!getKey();
   const right = keyed
-    ? '<span id="editbar-status" class="ebstat">'+(loadedOk?'ready':'load failed — reload')+'</span><button class="ghost" onclick="resetDefault()">Reset to default</button>'
+    ? '<span id="undo-slot" class="ebstat"></span><span id="editbar-status" class="ebstat">'+(loadedOk?'ready':'load failed — reload')+'</span><button class="ghost" onclick="copyStandup()">Copy stand-up</button><button class="ghost" onclick="resetDefault()">Reset to default</button>'
     : '<input id="editbar-key" placeholder="paste your edit key" autocomplete="off"><button onclick="submitKey()">Unlock</button>';
-  bar.innerHTML='<span><b>Edit mode.</b> '+(keyed?'Add, tick and delete tasks, and edit the numbers. Every change saves to the live tracker.':'Enter your edit key to make changes.')+'</span><span class="ebtns">'+right+'</span>';
+  bar.innerHTML='<span><b>Edit mode.</b> '+(keyed?'Tick, add, delete, drag to reorder (or use the arrows), and edit the feed and numbers. Every change saves live.':'Enter your edit key to make changes.')+'</span><span class="ebtns">'+right+'</span>';
+  if(!keyed){ const ki=document.getElementById('editbar-key'); if(ki) ki.addEventListener('keydown', e=>{ if(e.key==='Enter') submitKey(); }); }
 }
-window.addEventListener('pagehide', ()=>{ if(dirty && KEYED && loadedOk) saveRemote(true); });
+window.addEventListener('pagehide', ()=>{
+  if(!(dirty && KEYED && loadedOk)) return;
+  // Bypass the save queue: an in-flight non-keepalive fetch can be aborted on unload, so always fire a fresh keepalive POST with the latest state. A duplicate just 409s.
+  try { fetch('/api/data',{ method:'POST', keepalive:true, headers:{ 'Content-Type':'application/json','x-edit-key':getKey() }, body: JSON.stringify({ v: storedV, WEEKS, NUMBERS, FEED }) }); } catch(e){}
+});
 window.addEventListener('beforeunload', (e)=>{ if(dirty){ e.preventDefault(); e.returnValue=''; } });
 
 function currentWeekId(){
@@ -349,8 +474,10 @@ function currentWeekId(){
   WEEKS.forEach(w => { if (now >= new Date(w.start + "T00:00:00")) cur = w.id; });
   return cur || WEEKS[0].id;
 }
+function ensureOpenSet(){ if(!openSet) openSet = new Set([currentWeekId()]); }
 
 function render(){
+  ensureOpenSet();
   const container = document.getElementById("weeks");
   container.innerHTML = "";
   const curId = currentWeekId();
@@ -366,33 +493,81 @@ function render(){
     const complete = all.length>0 && wDone===all.length;
     const div = document.createElement("div");
     div.className = "week" + (w.id===curId ? " current" : "") + (complete ? " complete" : "");
-    if (w.id===curId) div.classList.add("open");
+    if (openSet.has(w.id)) div.classList.add("open");
 
     const head = document.createElement("div");
     head.className = "week-head";
-    head.innerHTML = `<div class="wt">${w.title}<small>${w.dates}</small>${w.id===curId?'<span class="now-pill">THIS WEEK</span>':''}</div>
+    head.innerHTML = `<div class="wt">${escapeHtml(w.title)}<small>${escapeHtml(w.dates)}</small>${w.id===curId?'<span class="now-pill">THIS WEEK</span>':''}</div>
       <div class="week-meta"><span>${wDone}/${all.length}${complete?' ✓':''}</span><div class="mini-bar"><i style="width:${all.length?Math.round(wDone/all.length*100):0}%"></i></div></div>`;
-    head.onclick = () => div.classList.toggle("open");
+    head.onclick = () => { if(openSet.has(w.id)) openSet.delete(w.id); else openSet.add(w.id); div.classList.toggle("open"); };
+    if (KEYED) {
+      head.addEventListener('dragover', e=>{ if(DRAG){ e.preventDefault(); head.classList.add('drop-target'); } });
+      head.addEventListener('dragleave', ()=> head.classList.remove('drop-target'));
+      head.addEventListener('drop', e=>{ e.preventDefault(); head.classList.remove('drop-target'); dropTask(w.id, null); });
+    }
     div.appendChild(head);
 
     const body = document.createElement("div");
     body.className = "week-body";
-    body.innerHTML = `<div class="focus">${w.focus}</div>`;
-    visible.forEach(t => {
+    body.innerHTML = `<div class="focus">${escapeHtml(w.focus)}</div>`;
+    visible.forEach((t, vi) => {
       const row = document.createElement("div");
-      row.className = "task" + (t.done ? " done" : "");
+      const dim = EDIT && filter !== "all" && t.own !== filter;
+      row.className = "task" + (t.done ? " done" : "") + (dim ? " dim" : "");
       const ownSafe = OWNER_NAMES[t.own] ? t.own : 'HWL';
-      let html = `<div class="box${KEYED?' editable':''}"${KEYED?` onclick="toggleTask('${w.id}',${t.i})"`:''}></div><label>${escapeHtml(t.label)}</label><span class="own ${ownSafe}">${escapeHtml(OWNER_NAMES[t.own]||t.own)}</span>`;
-      if (KEYED) html += `<button class="del" title="Delete" onclick="delTask('${w.id}',${t.i})">×</button>`;
-      row.innerHTML = html;
+      if (KEYED) {
+        const h = document.createElement("span");
+        h.className = "handle"; h.title = "Drag to reorder"; h.textContent = "⋮⋮";
+        row.appendChild(h);
+      }
+      const box = document.createElement("div");
+      box.className = "box" + (KEYED ? " editable" : "");
+      if (KEYED) { box.style.cursor = "pointer"; box.onclick = () => toggleTask(w.id, t.i); }
+      row.appendChild(box);
+      const lab = document.createElement("label");
+      lab.textContent = t.label;
+      row.appendChild(lab);
+      const own = document.createElement("span");
+      own.className = "own " + ownSafe;
+      own.textContent = OWNER_NAMES[t.own] || t.own;
+      row.appendChild(own);
+      if (KEYED) {
+        const ctl = document.createElement("span");
+        ctl.className = "ctl";
+        const mk = (txt, title, fn, disabled, cls) => {
+          const b = document.createElement("button");
+          b.textContent = txt; b.title = title; if (cls) b.className = cls;
+          b.disabled = !!disabled; b.onclick = fn;
+          ctl.appendChild(b);
+        };
+        mk("▲", "Move up", () => moveTask(w.id, t.i, -1), vi === 0);
+        mk("▼", "Move down", () => moveTask(w.id, t.i, 1), vi === visible.length - 1);
+        if (WEEKS[WEEKS.length - 1].id !== w.id) mk("⇥", "Push to next week", () => pushTask(w.id, t.i));
+        mk("×", "Delete", () => delTask(w.id, t.i), false, "del");
+        row.appendChild(ctl);
+      }
+      if (KEYED) {
+        row.draggable = true;
+        row.addEventListener('dragstart', e=>{ DRAG={id:w.id, i:t.i}; e.dataTransfer.effectAllowed='move'; try{ e.dataTransfer.setData('text/plain',''); }catch(err){} });
+        row.addEventListener('dragend', ()=>{ DRAG=null; document.querySelectorAll('.drop-target').forEach(el=>el.classList.remove('drop-target')); });
+        row.addEventListener('dragover', e=>{ if(DRAG){ e.preventDefault(); row.classList.add('drop-target'); } });
+        row.addEventListener('dragleave', ()=> row.classList.remove('drop-target'));
+        row.addEventListener('drop', e=>{ e.preventDefault(); e.stopPropagation(); row.classList.remove('drop-target'); dropTask(w.id, t.i); });
+      }
       body.appendChild(row);
     });
     if (KEYED) {
       const add = document.createElement("div");
       add.className = "addrow";
-      add.innerHTML = `<input type="text" id="add-${w.id}" placeholder="Add a task to this week..."><select id="own-${w.id}"><option value="HWL">HWL</option><option value="You">You + Annette</option><option value="Together">Together</option></select><button onclick="addTask('${w.id}')">Add</button>`;
-      const inp = add.querySelector('input');
+      const inp = document.createElement("input");
+      inp.type = "text"; inp.id = "add-" + w.id; inp.placeholder = "Add a task to this week...";
+      const sel = document.createElement("select");
+      sel.id = "own-" + w.id;
+      Object.keys(OWNER_NAMES).forEach(k => { const o = document.createElement("option"); o.value = k; o.textContent = OWNER_NAMES[k]; sel.appendChild(o); });
+      const btn = document.createElement("button");
+      btn.textContent = "Add"; btn.onclick = () => addTask(w.id);
       inp.addEventListener('keydown', e => { if (e.key==='Enter') addTask(w.id); });
+      add.append(inp, sel, btn);
       body.appendChild(add);
     }
     div.appendChild(body);
@@ -402,18 +577,38 @@ function render(){
   const pct = total ? Math.round(done/total*100) : 0;
   document.getElementById("totalBar").style.width = pct + "%";
   document.getElementById("totalLabel").textContent = done + " of " + total + " summer tasks shipped · " + pct + "%";
+  const ea = document.getElementById("expandAll");
+  if (ea) ea.textContent = openSet.size >= WEEKS.length ? "Collapse" : "Expand all";
+}
+
+function renderFeed(){
+  const tb = document.getElementById("feed-body");
+  tb.innerHTML = FEED.map((r,i) => {
+    if (KEYED) {
+      const inp = f => `<td><input class="numin" value="${escapeHtml(r[f]||'')}" oninput="editFeed(${i},'${f}',this.value)"></td>`;
+      return `<tr>${inp('wk')}${inp('feed')}${inp('shorts')}${inp('nl')}${inp('sumups')}</tr>`;
+    }
+    const cell = v => v ? escapeHtml(v) : '<span class="todo">–</span>';
+    return `<tr><td>${escapeHtml(r.wk)}</td><td>${cell(r.feed)}</td><td>${cell(r.shorts)}</td><td>${cell(r.nl)}</td><td>${cell(r.sumups)}</td></tr>`;
+  }).join("");
 }
 
 function renderNumbers(){
-  const editable = (typeof KEYED !== 'undefined') && KEYED;
   document.getElementById("numbers-body").innerHTML = NUMBERS.map((n,i) => {
-    if (editable) {
+    if (KEYED) {
       const inp = f => `<td><input class="numin" value="${escapeHtml(n[f]||'')}" oninput="editNum(${i},'${f}',this.value)"></td>`;
       return `<tr class="${n.base?'base':''}"><td>${escapeHtml(n.label)}</td>${inp('yt')}${inp('spot')}${inp('li')}${inp('nl')}${inp('note')}</tr>`;
     }
     const cell = v => v ? escapeHtml(v) : '<span class="todo">–</span>';
     return `<tr class="${n.base?'base':''}"><td>${escapeHtml(n.label)}</td><td>${cell(n.yt)}</td><td>${cell(n.spot)}</td><td>${cell(n.li)}</td><td>${cell(n.nl)}</td><td style="color:var(--muted)">${escapeHtml(n.note||'')}</td></tr>`;
   }).join("");
+}
+
+function paintT(){
+  const el = document.getElementById('liveT');
+  if (!el || !dataT) return;
+  const d = new Date(dataT);
+  el.textContent = ' · plan edited ' + d.toLocaleDateString('en-GB',{day:'numeric',month:'short'}) + ' ' + d.toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'});
 }
 
 function days(to){
@@ -424,13 +619,18 @@ document.getElementById("cdWebb").textContent = days("2026-08-13");
 document.getElementById("cdLaunch").textContent = days("2026-09-01");
 
 document.getElementById("filters").addEventListener("click", e => {
-  const b = e.target.closest(".chip"); if (!b) return;
+  const b = e.target.closest(".chip"); if (!b || !b.dataset.f) return;
   filter = b.dataset.f;
-  document.querySelectorAll(".chip").forEach(c=>c.classList.toggle("active", c===b));
+  document.querySelectorAll(".chip[data-f]").forEach(c=>c.classList.toggle("active", c===b));
+  render();
+});
+document.getElementById("expandAll").addEventListener("click", () => {
+  ensureOpenSet();
+  openSet = openSet.size >= WEEKS.length ? new Set([currentWeekId()]) : new Set(WEEKS.map(w=>w.id));
   render();
 });
 
-loadData().then(()=>{ renderEditbar(); render(); renderNumbers(); });
+loadData().then(()=>{ ensureOpenSet(); renderEditbar(); render(); renderFeed(); renderNumbers(); paintT(); });
 </script>
 </body>
 </html>

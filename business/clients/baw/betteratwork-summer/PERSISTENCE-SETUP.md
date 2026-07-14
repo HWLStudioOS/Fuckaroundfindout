@@ -34,6 +34,12 @@ cd "/Users/harrison/HWL META/business/clients/baw/betteratwork-summer" && npx ve
 - Refresh the plain URL (or open it in a private window) — the change is there.
 - If the store is briefly unreachable, the editbar shows `load failed — reload` and refuses to save, rather than overwriting good data.
 
+## 14 Jul functionality pass
+
+- Stored payload is now `{ v, WEEKS, NUMBERS, FEED, t }`. `FEED` is the Summer Feed publishing calendar (editable in `?edit` like the numbers); `t` is a server-side last-edited stamp shown in the footer. Both are optional and backwards compatible: an old cached client posting without `FEED` does not wipe the stored value.
+- Edit mode now has: drag-to-reorder (or ▲▼ arrows, which also work on phones), ⇥ push-a-task-to-next-week, delete with a 10-second undo, Copy stand-up (generates the Monday WhatsApp text from live data), and expand/collapse all. Open weeks survive re-renders.
+- The edit key was rotated 14 Jul; the current key is in `.env.local` here (gitignored).
+
 ## Day-to-day notes
 - **KV is the source of truth once seeded.** After the first edit, the baked-in HTML is just a seed. To change content wholesale, edit in the site (or I can write to the API). A plain redeploy of new baked data will NOT override the stored data — use **Reset to default** in the editbar to re-seed from the deployed baseline (this overwrites current edits for everyone, so it's deliberate).
 - **Rotate the key** anytime by changing `EDIT_KEY` and redeploying; old browsers get a 401 and re-prompt.

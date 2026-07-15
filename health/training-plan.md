@@ -243,8 +243,10 @@ Delivery stack:
 
 1. Baseline owns the dated prescription, the readiness gate and the one-tap completion decision.
 2. Garmin Connect and the Forerunner 965 execute structured runs and strength sessions, then return the completed data.
-3. The personal Garmin connection can automate workout publishing while the official Garmin Training API application is pursued.
+3. The personal Garmin connection has now created and scheduled `P32 Upper Reset RIR 4` for 16 July. It can automate private workout publishing while the official Garmin Training API application is pursued.
 4. TrainingPeaks is a temporary run-only bridge if direct publishing is unavailable. Its strength prescriptions do not currently sync to Garmin.
+
+Garmin's generic `2026 Fitness Plan` was still active on 15 July, with a Base run scheduled for 16 July and an 85-minute long run scheduled for 18 July. Cancel that plan in Garmin Connect. Do not complete either generic prescription. Gated return runs are published only after the morning checks pass.
 
 Marchon can supply one-for-one exercise substitutions and video references after the exact session is provided and reviewed. It is not the governing programme and not an extra conditioning layer.
 

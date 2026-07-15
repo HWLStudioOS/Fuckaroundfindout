@@ -5,7 +5,7 @@ athlete: Harrison Living
 recovery_anchor: Race to the Stones 50K, 11 July 2026
 ramp: 15-26 July 2026
 training_block: 27 July-18 October 2026
-execution_surface: https://docs.google.com/spreadsheets/d/1uNk48Eawnhi2_Er-8nubcPJEvOcM_bGZzwKzM8PxqyQ
+execution_surface: Baseline Today, with structured execution on Garmin Forerunner 965
 primary_goal: Lose fat while rebuilding strength and improving 5K performance
 physique_priority: Chest, delts, abs and arms
 running_goal: Progress towards sub-20 5K and sub-6:00/km easy pace at the same aerobic effort
@@ -13,7 +13,7 @@ running_goal: Progress towards sub-20 5K and sub-6:00/km easy pace at the same a
 
 # Project 32 / 20, block 1
 
-This is the only active training plan. The Google Sheet above is the day-to-day execution surface. This file holds the governing logic.
+This is the only active training plan. Baseline is the day-to-day decision surface. The Garmin Forerunner 965 is the execution and capture surface. This file holds the governing logic.
 
 ## The project
 
@@ -65,10 +65,11 @@ This is a real training microcycle, not dead time.
 | Mon 20 Jul | Strength A primer | Two work sets per listed Strength A exercise at RIR 3. Establish starting loads. | No compensation in lower patterns. |
 | Tue 21 Jul | Easy run plus Movement A | 40 minutes easy. Optional 4x15-second strides only after 48 hours at 0/10. Short foot and ankle control later. | No symptom increase. |
 | Wed 22 Jul | Upper physique, Portugal | Two work sets per Upper Physique exercise at RIR 3. DB and cable travel version is acceptable. | Systemically well. |
-| Thu 23 Jul | Threshold introduction | 15 minutes easy, 3x5 minutes at RPE 6-7 with 2 minutes jog, 10 minutes easy. | All previous running responses clean. This is calibration, not a test. |
-| Fri 24 Jul | Strength C primer | Two work sets per exercise at RIR 3. Smooth deadlifts. Trap bar is acceptable. | Foot tolerates stance and split-squat patterns. |
-| Sat 25 Jul | Floor practice | 20-25 minutes at RPE 2. Bear, crab, ape, shin-box, technical stand-up and one easy flow. | Skill only. No conditioning. |
-| Sun 26 Jul | Long easy re-entry | 60 minutes flat and conversational. Cap it at 60. | All delayed responses clean. |
+| Thu 23 Jul AM | Threshold introduction | 15 minutes easy, 3x5 minutes at RPE 6-7 with 2 minutes jog, 10 minutes easy. | All previous running responses clean. This is calibration, not a test. |
+| Thu 23 Jul PM | Strength C primer | Two work sets per exercise at RIR 3. Smooth deadlifts. Trap bar is acceptable. Leave at least six hours after the run. | Foot tolerates stance and split-squat patterns. |
+| Fri 24 Jul | Floor practice or rest | 20-25 minutes at RPE 2. Bear, crab, ape, shin-box, technical stand-up and one easy flow. | Skill only. No conditioning. Full rest is acceptable. |
+| Sat 25 Jul | Long easy re-entry | 60 minutes flat and conversational. Cap it at 60. | All delayed responses clean. |
+| Sun 26 Jul | Recovery plus shoulders | Easy walk, 60-120 seconds accumulated hanging and five minutes of shoulder circles and controlled articular work. | No conditioning and no loaded legs. |
 
 ## Impact clearance
 
@@ -105,41 +106,39 @@ Focal bony tenderness, renewed swelling, worsening bruising or pain on hopping t
 
 | Day | Session | Reason |
 |---|---|---|
-| Monday | Upper Physique | Chest and delt priority with no leg cost after Sunday's long run. |
-| Tuesday AM | VO2 or 5K-specific run | Highest-quality running on fresh legs. |
-| Tuesday PM | Movement A | Feet, ankles and knees. Ten to twelve minutes. |
-| Wednesday | Strength A | Squat, bench, hinge, row, calves and abs. |
-| Thursday AM | Easy run | Aerobic volume and recovery. |
-| Thursday PM | Movement B or C | Hips and spine, or shoulders and hanging. |
-| Friday AM | Threshold or steady run | Sustainable speed and 5K support. |
-| Friday PM | Strength C | Lower-volume hinge and unilateral work, chest, back, delts, arms and abs. At least six hours later. |
-| Saturday | Movement D or rest | Floor work and locomotion at RPE 2-3. Race weeks replace this. |
-| Sunday | Long easy run | Aerobic durability and running-base preservation. |
+| Sunday | Upper Physique plus Movement C | Chest and delt priority. Supported upper work has little leg cost the day after the long run. Hanging and shoulder control are integrated, not a second workout. |
+| Monday | VO2 or 5K-specific run | Highest-quality running after a leg-free Sunday. |
+| Tuesday | Strength A plus Movement A | Squat, bench, hinge, row, calves and abs. Feet, ankles and knees are the first 10 minutes. |
+| Wednesday | Easy run plus Movement B | Aerobic volume and recovery. Hips and spine later for 10-12 minutes. |
+| Thursday AM | Threshold or steady run | Sustainable speed and 5K support. |
+| Thursday PM | Strength C | Lower-volume hinge and unilateral work, chest, back, delts, arms and abs. At least six hours after the run. |
+| Friday | Movement D or full rest | Floor work and locomotion at RPE 2-3. No conditioning. This protects Saturday. |
+| Saturday | Long easy run | Aerobic durability and running-base preservation. This is the fixed weekly anchor. |
 
-This arrangement puts both important runs before lower-body lifting, separates Tuesday quality from Wednesday strength by about 24 hours, and concentrates Friday stress before a low-load Saturday.
+This arrangement puts both important runs before lower-body lifting, gives Friday back to recovery, and protects Saturday as the fixed long-run day. Thursday is the only hard double. The run comes first, the sessions are separated by at least six hours, and the lower-body strength dose stays small enough to recover for an easy Saturday.
 
 ## Running progression
 
 All distances include warm-up and cool-down.
 
-| Week | Dates | Total km | Tuesday | Friday | Sunday | Strength |
+| Week | Dates | Total km | Monday | Thursday | Saturday | Strength |
 |---|---|---:|---|---|---:|---|
 | 1 | 27 Jul-2 Aug | 26 | 7 km easy plus 6x20 sec strides | 15 min steady inside 5 km | 9 km | Two sets per exercise, RIR 3 |
 | 2 | 3-9 Aug | 30 | 10x1 min at current 5K effort, 1 min jog, 7 km total | 3x6 min threshold, 2 min jog, 7 km total | 10 km | Main lifts at listed sets, accessories two sets, RIR 3 |
 | 3 | 10-16 Aug | 34 | 6x2 min at 5K effort, 2 min jog, 8 km total | 2x10 min threshold, 3 min jog, 8 km total | 12 km | Listed sets, RIR 2 |
-| 4 | 17-23 Aug | 28 | 6 km easy plus 6 strides | 4 km primer | Baseline 5K Saturday, 8 km including warm-up and cool-down | Deload, two sets, no Strength C |
+| 4 | 17-23 Aug | 26 | 6 km easy plus 6 strides | 4 km primer | Baseline 5K, 8 km including warm-up and cool-down | Deload, two sets, no Strength C |
 | 5 | 24-30 Aug | 36 | 5x3 min at 3K-5K effort, 2 min jog, 9 km total | 3x8 min threshold, 2 min jog, 9 km total | 12 km | Listed sets, RIR 2 |
 | 6 | 31 Aug-6 Sep | 38 | 4x4 min at RPE 8-9, 3 min jog, 9 km total | 20 min continuous threshold, 10 km total | 13 km | Listed sets, RIR 2 |
 | 7 | 7-13 Sep | 40 | 5x4 min at RPE 8, 2 min jog, 10 km total | 2x15 min threshold, 3 min jog, 10 km total | 14 km | Highest normal volume, no failure |
-| 8 | 14-20 Sep | 28 | 6x1 min sharpen, 6 km total | 4 km primer | QE Olympic Park 5K Saturday, 8 km total | Deload, no Strength C |
+| 8 | 14-20 Sep | 26 | 6x1 min sharpen, 6 km total | 4 km primer | QE Olympic Park 5K, 8 km total | Deload, no Strength C |
 | 9 | 21-27 Sep | 40 | 6x800 m at current 5K pace, 2 min jog, 10 km total | 3x10 min threshold, 2 min jog, 10 km total | 14 km | Main lifts RIR 2, final accessories may reach RIR 1 |
 | 10 | 28 Sep-4 Oct | 42 | 5x1 km at current 5K pace, 2:30 jog, 11 km total | 25 min continuous threshold, 10 km total | 15 km | Same as week 9 |
 | 11 | 5-11 Oct | 36 | 12x400 m at current 3K-5K pace, 200 m jog, 10 km total | 4x6 min threshold, 90 sec jog, 8 km total | 12 km | Reduce lower sets 25% |
-| 12 | 12-18 Oct | 27 | 4x2 min at current 5K pace, 6 km total | 4 km primer | Lee Valley 5K Saturday, 8 km total | Two short maintenance sessions, no Strength C |
+| 12 | 12-18 Oct | 24 | 4x2 min at current 5K pace, 6 km total | 4 km primer | Lee Valley 5K, 8 km total | Two short maintenance sessions, no Strength C |
 
 Easy and long runs stay at RPE 2-3 and full-sentence talk test. A provisional 145-150 bpm ceiling is useful only when it agrees with breathing. Pace comes from current fitness, not the desired 4:00/km target.
 
-## Upper Physique, Monday
+## Upper Physique, Sunday
 
 1. Incline barbell or DB press, 4x6-8.
 2. Weighted pull-up or chin-up, 4x5-8.
@@ -151,7 +150,7 @@ Easy and long runs stay at RPE 2-3 and full-sentence talk test. A provisional 14
 8. Incline curl, 3x8-12.
 9. Rope pressdown, 3x8-12.
 
-## Strength A, Wednesday
+## Strength A, Tuesday
 
 1. Back squat, 3x4-6.
 2. Bench press, 4x4-6.
@@ -161,7 +160,7 @@ Easy and long runs stay at RPE 2-3 and full-sentence talk test. A provisional 14
 6. Standing calf raise, 3x8-12.
 7. Ab wheel, 3x6-12.
 
-## Strength C, Friday PM
+## Strength C, Thursday PM
 
 1. Conventional or trap-bar deadlift, 2x3-5.
 2. Front-foot-elevated split squat, 2x6-8 per side.
@@ -181,10 +180,10 @@ At full volume this provides about 14 direct chest sets, 10 lateral-delt sets pl
 - When every set reaches the top of its range at the target RIR, add the smallest practical increment next time.
 - Weeks 9-10 may use one main-lift top set at RIR 1-2 followed by two back-off sets 5-8% lighter.
 - No compound failure and no grinders.
-- Log load, reps and RIR for every set. The Sheet calculates e1RM from completed work.
+- Log load, reps and RIR for every set. Baseline calculates e1RM from completed work.
 - Do not true-1RM test during this block.
 
-Concurrent training does not automatically erase strength or hypertrophy. The main interference concern here is fatigue and explosive performance when hard modes are crowded together. Friday's threshold run therefore comes first, with Strength C at least six hours later and only two primary lower-body work sets per pattern.
+Concurrent training does not automatically erase strength or hypertrophy. The main interference concern here is fatigue and explosive performance when hard modes are crowded together. Thursday's threshold run therefore comes first, with Strength C at least six hours later and only two primary lower-body work sets per pattern. Friday then absorbs the residual fatigue before Saturday's easy long run.
 
 # Movement practice
 
@@ -209,7 +208,7 @@ These build movement vocabulary, coordination and enjoyment. They are not presen
 
 Ido Portal's official hanging challenge uses seven cumulative minutes daily. This plan starts at 60-120 seconds. There is no direct evidence that seven minutes is a universal shoulder-health dose.
 
-The full drill library and progression are in the Sheet's MOVEMENT tab.
+The drill library and progression are carried inside each dated Baseline session. Movement never needs a separate log.
 
 # Nutrition and body composition
 
@@ -220,7 +219,7 @@ The full drill library and progression are in the Sheet's MOVEMENT tab.
 - Do not subtract or add Garmin calories one-for-one.
 - If weight loss exceeds 0.75 kg per week or sleep, libido, strength or quality running deteriorates, add food.
 
-Full rules are in `health/fuel.md` and the Sheet.
+Full rules are in `health/fuel.md`.
 
 # Commitment and delivery
 
@@ -242,36 +241,15 @@ Book these after confirming travel:
 
 Delivery stack:
 
-1. The Google Sheet is the canonical programme and lift log.
-2. Copy the next 15 days of structured run steps into TrainingPeaks.
-3. TrainingPeaks sends eligible workouts to Garmin Connect and the watch.
-4. Baseline becomes the native home later. Do not build a TrainingPeaks competitor before this training loop is used consistently.
+1. Baseline owns the dated prescription, the readiness gate and the one-tap completion decision.
+2. Garmin Connect and the Forerunner 965 execute structured runs and strength sessions, then return the completed data.
+3. The personal Garmin connection can automate workout publishing while the official Garmin Training API application is pursued.
+4. TrainingPeaks is a temporary run-only bridge if direct publishing is unavailable. Its strength prescriptions do not currently sync to Garmin.
 
-Marchon can supply one-for-one exercise substitutions after the exact programme is provided and reviewed. It is not an extra conditioning layer.
+Marchon can supply one-for-one exercise substitutions and video references after the exact session is provided and reviewed. It is not the governing programme and not an extra conditioning layer.
 
 # Sources and evidence boundary
 
-Primary research and official material used:
+This plan now uses a deliberately mixed evidence base: governing-body consensus, peer-reviewed reviews, primary trials, official product material, official Ido material, preprints and social field signals. They do not carry equal weight.
 
-- [Running versus resting from 48 hours after a marathon](https://pubmed.ncbi.nlm.nih.gov/33251988/).
-- [50K muscle thickness, knee force and inflammation](https://pubmed.ncbi.nlm.nih.gov/36048789/).
-- [Recovery after a 166 km mountain ultra](https://pmc.ncbi.nlm.nih.gov/articles/PMC3043077/).
-- [Updated concurrent-training meta-analysis](https://pubmed.ncbi.nlm.nih.gov/34757594/).
-- [Strength methods and running economy](https://pubmed.ncbi.nlm.nih.gov/38165636/).
-- [Complex versus heavy strength in trained runners](https://pubmed.ncbi.nlm.nih.gov/31086736/).
-- [Low-dose hopping and running economy](https://pubmed.ncbi.nlm.nih.gov/36914662/).
-- [Polarised versus threshold running](https://pubmed.ncbi.nlm.nih.gov/23752040/).
-- [Four-minute aerobic intervals](https://pubmed.ncbi.nlm.nih.gov/17414804/).
-- [Resistance-training prescription network meta-analysis](https://pubmed.ncbi.nlm.nih.gov/37414459/).
-- [Weekly set volume and hypertrophy](https://pubmed.ncbi.nlm.nih.gov/27433992/).
-- [Proximity to failure and hypertrophy](https://pubmed.ncbi.nlm.nih.gov/38970765/).
-- [Slow versus fast weight loss in athletes](https://pubmed.ncbi.nlm.nih.gov/21558571/).
-- [Higher protein during an energy deficit](https://pubmed.ncbi.nlm.nih.gov/26817506/).
-- [Foot-core training and running-injury incidence](https://journals.sagepub.com/doi/10.1177/0363546520969205).
-- [Ido Portal, Movement Culture](https://www.idoportal.com/culture/).
-- [Ido Portal, official hanging material](https://www.idoportal.com/blog/hanging/).
-- [TrainingPeaks Garmin AutoSync](https://help.trainingpeaks.com/hc/en-us/articles/204070854-How-to-Sync-Garmin-Connect-With-TrainingPeaks).
-- [TrainingPeaks structured workout export](https://help.trainingpeaks.com/hc/en-us/articles/115000325647-Structured-Workout-sync-and-Manual-Export).
-- [TrainingPeaks strength logging](https://help.trainingpeaks.com/hc/en-us/articles/23969404961421-Logging-your-Strength-Training-Session).
-
-The source register in the Sheet records the exact claim and limitation for each source. Group data cannot clear Harrison's foot. Symptoms and delayed response still win.
+The claim-by-claim map, limits and frontier watchlist are in `health/research-register.md`. Group data cannot clear Harrison's foot. Symptoms and delayed response still win.

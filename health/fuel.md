@@ -2,7 +2,7 @@
 protocol: Project 32 / 20 nutrition
 status: ACTIVE BIBLE
 start: 15 July 2026
-execution_surface: https://docs.google.com/spreadsheets/d/1uNk48Eawnhi2_Er-8nubcPJEvOcM_bGZzwKzM8PxqyQ
+execution_surface: Baseline Today, with completed sessions captured by Garmin
 goal: Fat loss with strength retention, muscle gain and running performance
 ---
 
@@ -27,7 +27,7 @@ Protein at 190 g is approximately 2.2 g/kg at the current weight. This sits insi
 
 Do not open with an aggressive cut while the foot and quads are still recovering and useful training is restarting.
 
-- Use 2,500-2,700 kcal according to the dated Sheet prescription.
+- Use 2,500-2,700 kcal according to the dated Baseline prescription.
 - Hit 190 g protein.
 - Eat at least about 285 g carbohydrate on strength or return-run days, and 300 g or more on quality or long-run days.
 - Keep alcohol at zero until the foot is quiet and normal training has resumed.
@@ -37,17 +37,17 @@ This is a short maintenance-oriented ramp, not lost fat-loss time. Training begi
 
 ## Training-block calorie cycle
 
-Start this structure on Monday 27 July. The ramp uses the dated Sheet targets before then.
+Start this structure on Monday 27 July. The ramp uses the dated Baseline targets before then.
 
 | Day | Training | Calories | Protein | Fat | Approximate carbohydrate |
 |---|---|---:|---:|---:|---:|
-| Monday | Upper Physique | 2,600 | 190 g | 70-80 g | 285-305 g |
-| Tuesday | VO2 or 5K run plus short movement | 2,700 | 190 g | 70-80 g | 305-325 g |
-| Wednesday | Strength A | 2,600 | 190 g | 70-80 g | 285-305 g |
-| Thursday | Easy run plus movement | 2,500 | 190 g | 70-80 g | 250-275 g |
-| Friday | Threshold plus Strength C | 2,800 | 190 g | 70-80 g | 330-350 g |
-| Saturday | Rest plus floor practice | 2,350 | 190 g | 75-85 g | 205-230 g |
-| Sunday | Long easy run | 2,700 | 190 g | 70-80 g | 305-325 g |
+| Sunday | Upper Physique plus shoulders | 2,600 | 190 g | 70-80 g | 285-305 g |
+| Monday | VO2 or 5K run | 2,700 | 190 g | 70-80 g | 305-325 g |
+| Tuesday | Strength A plus feet, ankles and knees | 2,600 | 190 g | 70-80 g | 285-305 g |
+| Wednesday | Easy run plus hips and spine | 2,500 | 190 g | 70-80 g | 250-275 g |
+| Thursday | Threshold plus Strength C | 2,800 | 190 g | 70-80 g | 330-350 g |
+| Friday | Rest or floor practice | 2,350 | 190 g | 75-85 g | 205-230 g |
+| Saturday | Long easy run | 2,700 | 190 g | 70-80 g | 305-325 g |
 
 Weekly average: approximately 2,607 kcal per day.
 
@@ -87,7 +87,7 @@ The slow-versus-fast weight-loss trial in athletes favoured roughly 0.7% body ma
 - If the previous meal was more than four hours ago: add 20-30 g quick carbohydrate shortly before training.
 - After: 30-40 g protein and a carbohydrate-rich meal.
 
-### Friday double session
+### Thursday double session
 
 - Keep at least six hours between sessions.
 - Between sessions: 30-40 g protein plus 80-120 g carbohydrate across the first meal and snack.

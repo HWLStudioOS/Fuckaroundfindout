@@ -20,8 +20,8 @@
 
 - Race to the Stones 50K completed 11 July 2026 in 6:28:40 during severe heat.
 - Current active plan: `health/training-plan.md`, Project 32 / 20 block 1.
-- Immediate execution surface: https://docs.google.com/spreadsheets/d/1uNk48Eawnhi2_Er-8nubcPJEvOcM_bGZzwKzM8PxqyQ
-- Recovery window: 12-25 July 2026.
+- Immediate execution surface: https://baseline-dream-body.vercel.app
+- Recovery ramp: 15-26 July 2026.
 - Twelve-week block: 27 July-18 October 2026.
 - Priorities: fat loss, strength regain, chest and delt hypertrophy, 5K performance and running economy.
 - No active ultra or 80K plan.
@@ -36,7 +36,7 @@ Historical PBs: deadlift 180 kg, bench 110 kg, squat 145 kg. These are not curre
 
 ## Diet
 
-Generally good food choices but current intake is unmeasured and likely too high. Active protocol: `health/fuel.md`. Starting training-block average is approximately 2,570 kcal with 190 g protein, calibrated against the seven-day body-mass trend.
+Generally good food choices but current intake is unmeasured and likely too high. Active protocol: `health/fuel.md`. Starting training-block average is approximately 2,607 kcal with 190 g protein, calibrated against the seven-day body-mass trend.
 
 ## Good day / bad day
 

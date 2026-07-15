@@ -1,77 +1,80 @@
 ---
-date: 2026-07-14
+date: 2026-07-15
 generated: auto 06:30
 ---
 
-# Today, Tuesday 14 July 2026
+# Today, Wednesday 15 July 2026
 
 ## Pulse
 
-Recovery week, W27, three days past the RTTS 50K. You finished it Saturday, chip time 6:28:40, sub-6 goal missed by 28:40, no injury flare despite 26-39C heat on course, the ITB and patellar work through the block held. No morning brief published Sat-Mon (11-13 July, a genuine gap, see sources note at the bottom), so this one covers the full four days since Friday's brief, not just yesterday. In that time: a Sunday processing pass worked through the capture inbox and closed out the race prep and LOR-call items, Monday's Cathal check-in happened (16:00, no debrief filed yet), and campaign-chaser flagged both golf clubs v2 and the new-client campaign as decision-overdue again with zero Harrison reply since the 8 July push. Last night you sat down and hand-built today's and tomorrow's calendar in detail, 20+ blocks, every open thread from LOR to Creepers to money to the mindmap build already time-boxed, including catching and correcting the Sandringham date mismatch yourself (discovery-scan flagged the show actually runs 22-26 July, not 17th, and your own calendar note for the Creepers block already says to sanity-check that with Sarah-Louise). That's the day already planned; this brief just adds the two things not on it, golf clubs and the new-client campaign, both pure decisions with nothing left to draft.
+Recovery week, W27, four days post-RTTS. Readiness bounced to 78 HIGH overnight despite a shorter 6.5h sleep and HRV dipping to 53ms (still BALANCED, but down from the 62ms 6-day average), a genuine green light for tomorrow's conditional first test jog. Client side moved more than yesterday's brief expected: Creepers Sandringham flipped from "unanswered 7 days" to a confirmed GO, Rob approved the day and Michael's lined up the Careys and Catharine for interview via the Landform designers (Jack declined, can't be seen endorsing a nursery), but nobody has replied to lock the actual date against the RHS 22-26 July show-week mismatch or quote the day rate. LOR stayed dead quiet for three straight days, in or out, through and past yesterday's 16:00 Kerri call. A reprice hold-firm stance was prepped ahead of it (£28k stands, no upward move, defend by cutting slate not price) but there's no debrief and the ET plan doc plus self-filming brief that were due out yesterday morning are still unsent, now day six. Golf clubs v2 and the new-client campaign are both well past their own decision windows with zero movement since 13 July, and today's hand-built calendar has no slot for any of this except a 60-minute admin block at 15:30.
 
 ## Yesterday wrap
 
-Last brief written Friday 10 July (race eve). Covering the full gap since:
-
 Landed:
-- RTTS 50K completed Saturday 11 July. Chip 6:28:40, sub-6 missed by 28:40, no injury flare in brutal heat.
-- Sunday processing pass closed out race-week items in the capture inbox and campaign files.
-- Cathal x Harrison check-in happened Monday 13 July 16:00 (calendar confirms accepted both sides). No debrief captured yet, outcome unconfirmed.
-- Today's and tomorrow's calendar built in full last night (13 July, ~21:07), correctly time-blocking every open LOR, Creepers, money, and content thread.
+- Creepers Sandringham: Rob gave the go-ahead 14 Jul (via Anna), Michael lined up interview subjects (Careys + Catharine confirmed via the Landform designers, Jack declined). Real forward motion, though Harrison's reply on date and price is still owed.
+- Session-close 14 Jul 10:40: Jarvis foundation rollout closed, Claude/Codex handoff pushed to GitHub with CI green, morning brief verifier sent msg_id=536, telegram-agent restarted in restricted mode.
+- LOR ET creative review: 4-lens review complete, 26 hooks graded (12 strong/9 safe/5 dead), written to `campaigns/lor-et-creative-review-2026-07-14.md`.
+- Reprice prep: LOR ET £28k hold-firm stance built ahead of the 16:00 Kerri call (trim-not-price defence, GTI creative carved out separately, £7k commissioning invoice primed).
+- Kerri/Harrison 16:00 catch-up happened (calendar confirms), talking points were ready, no debrief filed since.
 
 Done since last brief:
-- [x] Race: RTTS 50K run, no injury flare <!-- linear:HWL-125 -->
+- [x] Kerri/Harrison 16:00 catch-up held <!-- linear:HWL-129 -->
 
 Not landed, no evidence either way, carried:
-- LOR: distilled ET plan doc + self-filming brief still unsent as of this morning (Gmail sent-folder check: only a recap email went to Kerri 9 July, "you'll have it before Emma's back", no actual docs sent). Now calendar-blocked 08:15 today.
-- Creepers: Sarah-Louise's Sandringham/Royal Legacy Garden note still unanswered, now 7 days. Calendar-blocked 10:45 today.
-- Money: LOR £1,350 and Creepers £3,500 still no remittance evidence in Gmail. BA Amex over-limit flag from 4 July still no resolution evidence, day 10. Calendar-blocked 15:00 today.
-- Golf clubs v2: batch-1 opens still unsent, decision overdue, sixth consecutive campaign-chaser flag (reconfirmed 13 July), Telegram pushed with no reply.
-- New-client campaign: two Harrison-only inputs (name 10 warm targets, scope the LOR one-pager) still unresolved since 28 June, plus a third task (proof-led post, was due 11 July) now overdue too. 17 days to the 31 July deadline, 1 of 5 tasks done.
+- LOR: ET plan doc + self-filming brief still unsent (Gmail confirms zero correspondence with Kerri or Sarah, either direction, in the last 3 days). Now day 6 since drafted 9 Jul.
+- Money: LOR £1,350 and Creepers £3,500 still no remittance evidence. BA Amex over-limit since 4 Jul, day 11, no resolution evidence (13 Jul payment reminder still shows a balance due).
+- Golf clubs v2: batch-1 opens still unsent, now 13 days since the 2 Jul draft, 11 days past their own 4 Jul expiry.
+- New-client campaign: the two Harrison-only inputs (name 10 warm targets, scope the LOR one-pager) still unresolved since 28 Jun/1 Jul, plus task 4 (proof-led post, was due 11 Jul) now 4 days overdue too. 16 days to the 31 Jul deadline, 1 of 5 tasks done.
 
 No Linear deltas since the last brief.
 
 ## Today
 
-- [ ] LOR: send the distilled ET plan doc + self-filming brief to Kerri/Emma (both written, sitting since 9 Jul), lock site availability for shoot day one in the same follow-up. Calendar 08:15-10:30. <!-- linear:HWL-126 -->
-- [ ] Creepers: reply to Sarah-Louise on Sandringham/Royal Legacy Garden, price the Fri 17 Jul day at £950 all-in (billable outside retainer), and check the date with her first, the public show actually runs 22-26 July so the 17th is likely a press/preview/build day. Calendar 10:45-12:30. <!-- linear:HWL-127 -->
-- [ ] Money: chase LOR £1,350 and Creepers £3,500 in Starling, resolve the BA Amex over-limit flag (unresolved since 4 Jul, day 10). Calendar 15:00-16:00. <!-- linear:HWL-128 -->
-- [ ] Kerri/Harrison catch-up, 16:00-16:30. Recurring, LOR ET production is authoritative, nothing new expected, but close any loose end from the two drafts sent this morning. <!-- linear:HWL-129 -->
-- [ ] Golf clubs v2 + new-client campaign: two decisions overdue, neither is calendar-blocked today. Golf clubs needs send/revise/kill on the five batch-1 opens (12 days drafted, 10 days past their own 4 Jul expiry). New-client campaign needs the 10 warm targets named and the LOR one-pager scoped, both stuck since 28 June, 17 days left to the 31 Jul deadline. <!-- linear:HWL-130 -->
+- [ ] Creepers: reply to Anna/Michael's Sandringham thread (14 Jul), lock the exact shoot date against the RHS 22-26 Jul show-week mismatch, and quote the day at £950 all-in, outside retainer. Interviewees are already lined up, don't let logistics slip. <!-- linear:HWL-127 -->
+- [ ] LOR: send the distilled ET plan doc + self-filming brief to Kerri/Emma, unsent since 9 Jul (day 6), lock shoot-day-one site availability in the same note. <!-- linear:HWL-126 -->
+- [ ] Creepers hero film: two edit blocks today (08:15-12:30), captions blocked only on Michael Buck's two facts (exact RHS award wording + Baz Grainger garden name). Chase already calendar-blocked 15:30-16:30. <!-- linear:HWL-107 -->
+- [ ] Money: chase LOR £1,350 and Creepers £3,500 in Starling, resolve the BA Amex over-limit flag (unresolved since 4 Jul, day 11). No calendar block today, needs the 15:30 admin slot. <!-- linear:HWL-128 -->
+- [ ] Golf clubs v2 + new-client campaign: two decisions overdue, neither calendar-blocked today. Golf clubs needs send/revise/kill on the five batch-1 opens (13 days drafted, 11 past expiry). New-client campaign needs the 10 warm targets named and the LOR one-pager scoped, both stuck since 28 Jun/1 Jul, 16 days left to 31 Jul. <!-- linear:HWL-130 -->
 
 ## Awaiting response
 
+- Creepers Sandringham: reply owed to Anna/Michael's 14 Jul thread, date lock + £950 day rate, day 1.
 - LOR £1,350: overdue since late May, chased 2 Jul, no confirmed remittance.
-- Creepers £3,500: invoiced 29 Jun, due since early Jul, no landing confirmation.
-- BA Amex: over its limit since 4 Jul, day 10, no resolution evidence.
-- Golf clubs v2: five batch-1 opens ready to send since 2 Jul, Harrison decision overdue.
-- New-client campaign: two Harrison inputs (warm targets, one-pager scope) overdue since 28 Jun/1-4 Jul, Telegram pushed 8 Jul, no reply.
-- Michael Buck (Creepers): exact RHS award wording + Baz Grainger garden name, blocks hero film captions, weeks old. Calendar-blocked tomorrow 15:30. <!-- linear:HWL-107 -->
-- Emma's interview-questions doc + previous-company DITL inspo, off Teams via Kerri, 46+ days outstanding.
-- Fazila (Litchfields): VAT registration submitted 30 Jun, awaiting HMRC number, day 14, within the typical 2-3 week window.
+- Creepers £3,500: due since early Jul, no landing confirmation, no invoice/payment trail visible since the 9 Jun reset call per last week's CFO check.
+- BA Amex: over its limit since 4 Jul, day 11, no resolution evidence.
+- Golf clubs v2: five batch-1 opens ready to send since 2 Jul, Harrison decision overdue, day 13.
+- New-client campaign: two Harrison inputs overdue since 28 Jun/1 Jul, no reply since the 8 Jul Telegram push.
+- Michael Buck (Creepers): exact RHS award wording + Baz Grainger garden name, blocks hero film captions, weeks old. Calendar-blocked today 15:30. <!-- linear:HWL-107 -->
+- Emma's interview-questions doc + previous-company DITL inspo, off Teams via Kerri, 47+ days outstanding.
+- Fazila (Litchfields): VAT registration submitted 30 Jun, awaiting HMRC number, day 15, within the typical 2-3 week window.
+- LOR Loomly: Aleisha Young commented 15 Jul 05:28 asking to remove Annual Report Post 6 and replace with Sustainability content. New, unactioned.
+- Kerri call 14 Jul 16:00: happened per calendar, no debrief captured, outcome unconfirmed.
 
 ## In flight
 
-- LOR ET: production locked (~£28k, three windows), plan doc + self-filming brief in this morning's send.
-- Creepers hero film: David (PH editor) is gone, editing is back on Harrison per last night's own calendar note. Two edit blocks tomorrow (08:15-12:30). Only genuinely open item is the two Michael Buck factual checks above.
-- BaW: hourly trial ongoing, editing also back on Harrison now David's gone. Editing block tomorrow 13:30-15:30. Cathal check-in happened yesterday, no debrief filed. Website 2.0 refresh thread open, not yet scoped.
+- LOR ET: production locked (~£28k, three windows), reprice hold-firm stance prepped 14 Jul, plan doc + self-filming brief the remaining send blocker.
+- Creepers hero film: editing back on Harrison (David gone), two edit blocks today, blocked only on the 2 Michael Buck facts above.
+- Creepers Sandringham: confirmed GO 14 Jul, interviewees lined up, Harrison's reply is the open loop.
+- BaW: hourly trial ongoing, editing block today 13:30-15:30. Cathal check-in happened 13 Jul, no debrief filed. Website 2.0 refresh thread open, not yet scoped.
 - Golf clubs v2 / new-client campaign: both decision-overdue, see Today.
-- VAT registration: submitted, awaiting HMRC approval.
-- Mindmap prototype (obsidian-competitor): 2-day fun build, day 1 tonight 19:00-21:00, day 2 tomorrow.
+- VAT registration: submitted, awaiting HMRC approval, day 15.
+- Mindmap prototype (obsidian-competitor): day 2 tonight 19:30-21:00.
 - Baseline iOS app: own build, ongoing.
-- Content: weekly typewriter-to-LinkedIn/X slot tomorrow 17:00-18:30. The RTTS race story is sitting in the substance bank (his own words, banked 12 Jul), entirely his call whether it becomes anything, not drafted.
-- History reading plan: Lessons of History and Art of War both stalled, flagged by learning-brief 5 Jul, not re-checked this run.
+- Content: weekly typewriter-to-LinkedIn/X slot today 17:00-18:30. The RTTS race story is sitting in the substance bank, entirely his call.
+- Buffer: one Instagram Business post failed to publish (14 Jul notification), worth a look at which post and why.
+- History reading plan: Lessons of History and Art of War both stalled, not re-checked this run.
 
 ## Standing
 
-- Body: 86.9kg, body fat 18.7%. Stale, dated 29 Apr, now 76 days. Re-export from iPhone when convenient.
-- RHR 48 (6-day avg 47, flat). HRV 66ms BALANCED, sleep 7.2h (score 83), readiness 56 (moderate), from last night's sync. Weekly load 720, ACWR 0.88 (Good), VO2max 44, body battery 36-44.
-- Training: W27, Recovery phase per the training bible (weeks 27-28), three days post-RTTS 50K. Today: easy walk + mobility AM, easy bike + upper body PM, no hard loading, no eccentric leg work yet.
-- Money: LOR £1,350 and Creepers £3,500 still unconfirmed landed. BA Amex over its limit since 4 Jul, day 10, unresolved. BaW £1,500 landed 7 Jul, clears one of three receivables from the 1 Jul watch.
-- Clients: LOR ET locked and warm, two drafts finally going out this morning. Creepers hero film editing now on Harrison (David gone), blocked only on 2 Michael Buck facts; Sandringham reply now 7 days open. BaW check-in happened yesterday, hourly trial + editing continue. Golf clubs v2 and the new-client campaign both sit on pure Harrison decisions, no calendar block, real risk of quietly running out the clock (17 days to 31 Jul).
+- Body: 86.9kg, body fat 18.7%. Dated 29 Apr, now 77 days stale. Re-export from iPhone when convenient.
+- RHR 47 (6-day avg 46, flat). HRV 53ms BALANCED, down from the 62ms 6-day average. Sleep 6.5h (score 77). Readiness 78 HIGH. Weekly load 646, ACWR 0.93 (Good), VO2max 45, body battery 29-83.
+- Training: W27, Recovery phase, four days post-RTTS 50K. Today: easy walk + mobility only, no hard loading. Tomorrow's first test jog is conditional on clean legs, today's HIGH readiness is a real green light for it.
+- Money: LOR £1,350 and Creepers £3,500 still unconfirmed landed. BA Amex over its limit since 4 Jul, day 11, unresolved. Tax reserve ~£8,000 per last confirmed figure (10 Jul), no fresher number since.
+- Clients: LOR quiet three straight days despite yesterday's Kerri call, hold-firm reprice stance prepped but undebriefed. Creepers Sandringham flipped to confirmed GO but the reply and pricing are still owed. Hero film blocked only on 2 Michael Buck facts, chase already calendar-blocked. BaW hourly trial and editing continuing normally.
 
 ## Lens
 
-The new-client campaign is the one worth being honest about today. Seventeen days to its own 31 July deadline, one of five tasks done, and the block is the exact same two decisions it's been stuck on since 28 June: name the 10 warm targets, scope the LOR one-pager. Neither is a tap, neither needs drafting help, both are five minutes of your own judgment that keep not happening. That's a different failure mode to the LOR drafts sitting unsent since the 9th, which is pure inertia on something already written. Today's calendar handles the inertia problem well, it's genuinely time-blocked. It does nothing for the campaign decisions, because there's nothing to schedule until you actually decide. Worth naming before the day fills up with the things that are easier because they're already drafted.
+Today's calendar, built two nights ago to cover both the 14th and 15th, blocks editing, content, and the Michael Buck chase, but not one of yesterday's four undone admin items: the LOR send, the Creepers reply, the money chase, or the golf clubs/new-client decisions. All four are real and getting older, LOR docs day 6 unsent, Amex day 11, golf clubs day 13, new-client task 4 four days overdue. The 15:30 "chase Michael Buck + loose ends" slot is the only opening built into the day that could hold them, and it's one hour for what's now five separate asks. Worth deciding this morning which of those five actually happen in that hour and which get an honest, named push to tomorrow, rather than letting the hour quietly absorb none of them.
 
-skipped: none. Sources this run: health/garmin (direct CSV + Baseline API, RHR48/HRV66-BALANCED/sleep7.2h-83/readiness56 from last night's sync, weight stale 29 Apr), calendar (14-15 Jul pulled in full: today's 10 blocks including Kerri 16:00, tomorrow's Creepers/BaW/content blocks, all built by Harrison last night), gmail (business + personal both visible, checked Tier-1 VIP unread, LOR/Creepers/Amex remittance terms, Sandringham thread, and sent-folder for the two LOR drafts: no remittance found, no LOR docs sent, Sandringham still unanswered), strava (4 activities since 7 Jul incl the 50K, none since race day, consistent with recovery), granola (searched for Kerri, zero results, nothing new filed since the 9 Jul call), linear deltas (zero new since last brief), capture inbox (read in full, no new Telegram replies since 2 Jul, discovery-scan items 10/13 Jul reference-only). Gap flagged: no morning brief published 11-13 July despite 13 Jul being a weekday; worth a look at whether the scheduled job actually fired that morning.
+skipped: none outright. Sources this run: health/garmin (direct CSV + Baseline API, RHR47/HRV53ms-BALANCED-down/sleep6.5h-77/readiness78-HIGH from this morning's sync, weight stale 29 Apr, 77 days), calendar (15-16 Jul pulled in full, today's 9 blocks, tomorrow's Sandringham prep + YouTube long-form), gmail (business account confirmed reachable this run: Tier-1 checked individually for Kerri/LOR, zero correspondence in or out in 3 days; Anna/Creepers returned the live Sandringham GO thread; broad money-keyword search returned the 13 Jul Amex reminder; the combined multi-address OR-query for the full Tier-1 VIP list timed out twice, 907s then a dropped socket, so Sarah Garside, Adam Harvey, Korena Flanagan, Rob Ryall and Phoebe Adler-Ryan were not individually checked this run, no evidence either way for those specifically), strava (5 activities since 9 Jul incl. the 50K, weights + ride yesterday, none yet today, consistent with recovery), granola (searched Kerri, 0 results; last-week list shows nothing filed since the 9 Jul call, confirms no debrief for either the 13 Jul Cathal or 14 Jul Kerri meetings), linear deltas (zero new since last brief), capture inbox (read in full, no new Telegram replies since 2 Jul), campaign files (golf-clubs.md and new-client-2026-07.md both read directly, day counts recomputed from their last logged cycle).

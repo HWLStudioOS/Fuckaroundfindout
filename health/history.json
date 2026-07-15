@@ -1715,5 +1715,20 @@
     "hrvStatus": "BALANCED",
     "sleepHours": 7.6,
     "sleepScore": 92
+  },
+  {
+    "date": "2026-07-15",
+    "hrv": 53.0,
+    "hrvStatus": "BALANCED",
+    "restingHR": 47,
+    "sleepHours": 6.5,
+    "sleepScore": 77,
+    "stressAvg": 19,
+    "bodyBattery": 83,
+    "trainingReadiness": 79,
+    "readinessLevel": "HIGH",
+    "acwr": 0.92,
+    "acuteLoad": 526.0,
+    "vo2Max": 45.0
   }
 ]

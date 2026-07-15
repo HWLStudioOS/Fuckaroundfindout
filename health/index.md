@@ -19,7 +19,8 @@
 ## Training
 
 - Race to the Stones 50K completed 11 July 2026 in 6:28:40 during severe heat.
-- Current active plan: `health/training-plan.md`, Dream Body Hybrid block 1.
+- Current active plan: `health/training-plan.md`, Project 32 / 20 block 1.
+- Immediate execution surface: https://docs.google.com/spreadsheets/d/1uNk48Eawnhi2_Er-8nubcPJEvOcM_bGZzwKzM8PxqyQ
 - Recovery window: 12-25 July 2026.
 - Twelve-week block: 27 July-18 October 2026.
 - Priorities: fat loss, strength regain, chest and delt hypertrophy, 5K performance and running economy.

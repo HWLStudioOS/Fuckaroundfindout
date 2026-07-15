@@ -1,7 +1,8 @@
 ---
-protocol: Dream Body Hybrid nutrition
-status: ACTIVE
+protocol: Project 32 / 20 nutrition
+status: ACTIVE BIBLE
 start: 15 July 2026
+execution_surface: https://docs.google.com/spreadsheets/d/1uNk48Eawnhi2_Er-8nubcPJEvOcM_bGZzwKzM8PxqyQ
 goal: Fat loss with strength retention, muscle gain and running performance
 ---
 
@@ -22,33 +23,33 @@ Current working body mass: 87 kg.
 
 Protein at 190 g is approximately 2.2 g/kg at the current weight. This sits inside the useful high-protein range for resistance-trained athletes dieting while training.
 
-## Recovery window, 15-25 July
+## Post-50K ramp, 15-26 July
 
-Do not start the aggressive part of the cut while the foot and quads are still recovering.
+Do not open with an aggressive cut while the foot and quads are still recovering and useful training is restarting.
 
-- Eat approximately 2,700 kcal daily through D14.
+- Use 2,500-2,700 kcal according to the dated Sheet prescription.
 - Hit 190 g protein.
-- Eat at least 300 g carbohydrate on any day containing a return-to-run or strength test.
+- Eat at least about 285 g carbohydrate on strength or return-run days, and 300 g or more on quality or long-run days.
 - Keep alcohol at zero until the foot is quiet and normal training has resumed.
 - Do not compensate for the race by under-eating.
 
-This is a short maintenance-oriented bridge, not lost fat-loss time.
+This is a short maintenance-oriented ramp, not lost fat-loss time. Training begins on 16 July. The lower end of the calorie range belongs to movement or rest days, not return-run or quality days.
 
 ## Training-block calorie cycle
 
-Start this on Monday 27 July only if the recovery gates have passed.
+Start this structure on Monday 27 July. The ramp uses the dated Sheet targets before then.
 
 | Day | Training | Calories | Protein | Fat | Approximate carbohydrate |
 |---|---|---:|---:|---:|---:|
-| Monday | Strength A | 2,600 | 190 g | 70-80 g | 285-305 g |
-| Tuesday | Easy run | 2,500 | 190 g | 70-80 g | 250-275 g |
-| Wednesday | VO2 plus upper strength | 2,750 | 190 g | 70-80 g | 320-340 g |
-| Thursday | Rest or easy bike | 2,350 | 190 g | 75-85 g | 205-230 g |
-| Friday | Strength plus threshold | 2,750 | 190 g | 70-80 g | 320-340 g |
-| Saturday | Rest plus movement | 2,350 | 190 g | 75-85 g | 205-230 g |
+| Monday | Upper Physique | 2,600 | 190 g | 70-80 g | 285-305 g |
+| Tuesday | VO2 or 5K run plus short movement | 2,700 | 190 g | 70-80 g | 305-325 g |
+| Wednesday | Strength A | 2,600 | 190 g | 70-80 g | 285-305 g |
+| Thursday | Easy run plus movement | 2,500 | 190 g | 70-80 g | 250-275 g |
+| Friday | Threshold plus Strength C | 2,800 | 190 g | 70-80 g | 330-350 g |
+| Saturday | Rest plus floor practice | 2,350 | 190 g | 75-85 g | 205-230 g |
 | Sunday | Long easy run | 2,700 | 190 g | 70-80 g | 305-325 g |
 
-Weekly average: approximately 2,570 kcal per day.
+Weekly average: approximately 2,607 kcal per day.
 
 This is a starting experiment. It is deliberately higher than 2,200-2,300 kcal. Seven weekly training sessions at 87 kg make the lower number an unnecessarily aggressive opening move.
 
@@ -86,12 +87,13 @@ The slow-versus-fast weight-loss trial in athletes favoured roughly 0.7% body ma
 - If the previous meal was more than four hours ago: add 20-30 g quick carbohydrate shortly before training.
 - After: 30-40 g protein and a carbohydrate-rich meal.
 
-### Double-session Wednesday and Friday
+### Friday double session
 
 - Keep at least six hours between sessions.
 - Between sessions: 30-40 g protein plus 80-120 g carbohydrate across the first meal and snack.
 - Keep fat and fibre moderate until the second session is complete.
 - Do not save most of the day's food for the evening.
+- Run first because 5K performance is the quality target. Strength C is deliberately lower-volume.
 
 ### Long run
 

@@ -5,31 +5,37 @@
 ## Body
 
 - Height: 6'1/2".
-- Weight: 85.7 kg.
+- Weight: approximately 87 kg, self-reported 15 July 2026.
+- Waist: 34 inches. Goal: 32 inches.
+- Long-term body-mass target: approximately 80 kg, subject to performance and lean-mass response.
 - Biological age (Bevel): 23.2.
-- VO2 max: 45.
-- Resting heart rate: 52 (current), 54.7 (last year avg).
+- VO2 max: approximately 45 from Garmin.
+- Resting heart rate: recent Garmin values in the mid-40s. Use `current.json` for the live value.
 - HRV baseline: 59.5 ms (6 mo) / 59.7 ms (12 mo).
 - Lean body mass: 70.1 kg, decreasing.
 - Body fat (last year avg): 18.3%.
 - Heart rate recovery: 42 bpm (excellent).
 
-## Training event
+## Training
 
-50K race, 11 July 2026. See `health/training-plan.md` (RTTS Plan v2.0 from rewrite, dated 10 May).
+- Race to the Stones 50K completed 11 July 2026 in 6:28:40 during severe heat.
+- Current active plan: `health/training-plan.md`, Dream Body Hybrid block 1.
+- Recovery window: 12-25 July 2026.
+- Twelve-week block: 27 July-18 October 2026.
+- Priorities: fat loss, strength regain, chest and delt hypertrophy, 5K performance and running economy.
+- No active ultra or 80K plan.
 
 ## Strength
 
-Current: deadlift 160kg, bench 100kg, squat 120kg.
-Previous PBs: 180/110/145.
+Historical PBs: deadlift 180 kg, bench 110 kg, squat 145 kg. These are not current training-max inputs because consistent lifting has lapsed.
 
 ## Sleep
 
-7h 17m last-year average. Quality good. Timing problem: bedtime too late. Target: wake 5am, sleep 9-10pm. Phone out of room at night.
+7h 17m last-year average. Quality generally good. Current issue is early waking from summer light. Prioritise an earlier bedtime and blackout blind or eye mask before treating it as a recovery problem.
 
 ## Diet
 
-Generally good. Mince/rice/beans, eggs/wraps, yogurt bowls. See `health/routines.md` for default meal patterns.
+Generally good food choices but current intake is unmeasured and likely too high. Active protocol: `health/fuel.md`. Starting training-block average is approximately 2,570 kcal with 190 g protein, calibrated against the seven-day body-mass trend.
 
 ## Good day / bad day
 
@@ -42,8 +48,8 @@ Boring work. Uncertain next step. Fuzzy quality expectations. Too many options. 
 
 ## Operating rules
 
-- Morning movement is keystone.
+- Morning movement remains useful, but it does not need to be a hard training session.
 - Client editing needs earlier deadlines, batching, or delegation. Ease makes it delay-prone.
-- Sleep needs timing rescue, not quality rescue.
+- Sleep needs environmental and timing support, not more recovery gadgets.
 - System protects training (physical progress tightly linked to self-respect).
 - Don't use self-attack as productivity fuel. Challenge + self-respect.

@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://baseline.local/schemas/training-log.schema.json",
+  "title": "Baseline Training Log",
+  "description": "Shared contract for the immediate web tracker and the native Baseline app.",
+  "type": "object",
+  "required": ["date", "planVersion", "readiness", "sessions"],
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "planVersion": {
+      "type": "string",
+      "const": "dream-body-hybrid-v1"
+    },
+    "bodyMassKg": {
+      "type": ["number", "null"],
+      "minimum": 40,
+      "maximum": 200
+    },
+    "waistInches": {
+      "type": ["number", "null"],
+      "minimum": 20,
+      "maximum": 70
+    },
+    "readiness": {
+      "type": "object",
+      "required": ["sleepHours", "painMax", "footPain", "doms", "swelling", "limp", "status"],
+      "properties": {
+        "sleepHours": {"type": "number", "minimum": 0, "maximum": 16},
+        "sleepQuality": {"type": ["integer", "null"], "minimum": 1, "maximum": 5},
+        "painMax": {"type": "integer", "minimum": 0, "maximum": 10},
+        "footPain": {"type": "integer", "minimum": 0, "maximum": 10},
+        "doms": {"type": "integer", "minimum": 0, "maximum": 10},
+        "swelling": {"type": "boolean"},
+        "limp": {"type": "boolean"},
+        "darkOrReducedUrine": {"type": "boolean", "default": false},
+        "restingHr": {"type": ["integer", "null"], "minimum": 25, "maximum": 220},
+        "hrvMs": {"type": ["number", "null"], "minimum": 0, "maximum": 400},
+        "garminReadiness": {"type": ["integer", "null"], "minimum": 0, "maximum": 100},
+        "status": {"type": "string", "enum": ["green", "amber", "red"]},
+        "notes": {"type": ["string", "null"], "maxLength": 1000}
+      },
+      "additionalProperties": false
+    },
+    "nutrition": {
+      "type": ["object", "null"],
+      "properties": {
+        "calories": {"type": ["integer", "null"], "minimum": 0, "maximum": 10000},
+        "proteinG": {"type": ["number", "null"], "minimum": 0, "maximum": 500},
+        "carbohydrateG": {"type": ["number", "null"], "minimum": 0, "maximum": 1500},
+        "fatG": {"type": ["number", "null"], "minimum": 0, "maximum": 500},
+        "hunger": {"type": ["integer", "null"], "minimum": 1, "maximum": 5},
+        "trainingEnergy": {"type": ["integer", "null"], "minimum": 1, "maximum": 5}
+      },
+      "additionalProperties": false
+    },
+    "sessions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/session"
+      }
+    }
+  },
+  "$defs": {
+    "session": {
+      "type": "object",
+      "required": ["id", "type", "plannedTitle", "status", "rpe"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "type": {
+          "type": "string",
+          "enum": ["strength", "easy_run", "vo2_run", "threshold_run", "long_run", "race", "bike", "movement", "walk", "rest"]
+        },
+        "plannedTitle": {"type": "string", "minLength": 1},
+        "status": {"type": "string", "enum": ["planned", "completed", "modified", "skipped"]},
+        "startedAt": {"type": ["string", "null"], "format": "date-time"},
+        "durationMinutes": {"type": ["number", "null"], "minimum": 0, "maximum": 1440},
+        "rpe": {"type": ["number", "null"], "minimum": 0, "maximum": 10},
+        "painDuring": {"type": ["integer", "null"], "minimum": 0, "maximum": 10},
+        "painTwoHours": {"type": ["integer", "null"], "minimum": 0, "maximum": 10},
+        "painNextMorning": {"type": ["integer", "null"], "minimum": 0, "maximum": 10},
+        "distanceKm": {"type": ["number", "null"], "minimum": 0, "maximum": 200},
+        "averageHr": {"type": ["integer", "null"], "minimum": 25, "maximum": 240},
+        "maximumHr": {"type": ["integer", "null"], "minimum": 25, "maximum": 240},
+        "averagePaceSecondsPerKm": {"type": ["integer", "null"], "minimum": 120, "maximum": 1200},
+        "exercises": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/exercise"}
+        },
+        "notes": {"type": ["string", "null"], "maxLength": 2000}
+      },
+      "additionalProperties": false
+    },
+    "exercise": {
+      "type": "object",
+      "required": ["exerciseId", "name", "sets"],
+      "properties": {
+        "exerciseId": {"type": "string", "minLength": 1},
+        "name": {"type": "string", "minLength": 1},
+        "sets": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/set"}
+        },
+        "notes": {"type": ["string", "null"], "maxLength": 500}
+      },
+      "additionalProperties": false
+    },
+    "set": {
+      "type": "object",
+      "required": ["setNumber", "kind", "reps", "rir"],
+      "properties": {
+        "setNumber": {"type": "integer", "minimum": 1, "maximum": 20},
+        "kind": {"type": "string", "enum": ["warmup", "work", "backoff", "drop"]},
+        "loadKg": {"type": ["number", "null"], "minimum": 0, "maximum": 1000},
+        "reps": {"type": "integer", "minimum": 0, "maximum": 200},
+        "rir": {"type": ["number", "null"], "minimum": 0, "maximum": 10},
+        "durationSeconds": {"type": ["number", "null"], "minimum": 0, "maximum": 3600},
+        "completed": {"type": "boolean", "default": false}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

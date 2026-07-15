@@ -64,9 +64,9 @@ No Linear deltas since the last brief.
 
 ## Standing
 
-- Body: 86.9kg, body fat 18.7%. Stale, dated 29 Apr, now 76 days. Re-export from iPhone when convenient.
+- Body: approximately 87 kg and 34-inch waist, self-reported 15 Jul. Goal is a 32-inch waist and approximately 80 kg, pursued through the new hybrid plan without sacrificing strength or running performance. Body-fat percentage remains stale.
 - RHR 48 (6-day avg 47, flat). HRV 66ms BALANCED, sleep 7.2h (score 83), readiness 56 (moderate), from last night's sync. Weekly load 720, ACWR 0.88 (Good), VO2max 44, body battery 36-44.
-- Training: W27, Recovery phase per the training bible (weeks 27-28), three days post-RTTS 50K. Today: easy walk + mobility AM, easy bike + upper body PM, no hard loading, no eccentric leg work yet.
+- Training: old ultra plan retired. D+4 post-RTTS 50K on 15 Jul, right foot pain 3/10 with recent bruising and nearly-resolved limp, quad soreness 2-3/10. Active recovery protocol runs through 25 Jul. No running or loaded lower-body work until the foot passes the explicit readiness test in `health/training-plan.md`.
 - Money: LOR £1,350 and Creepers £3,500 still unconfirmed landed. BA Amex over its limit since 4 Jul, day 10, unresolved. BaW £1,500 landed 7 Jul, clears one of three receivables from the 1 Jul watch.
 - Clients: LOR ET locked and warm, two drafts finally going out this morning. Creepers hero film editing now on Harrison (David gone), blocked only on 2 Michael Buck facts; Sandringham reply now 7 days open. BaW check-in happened yesterday, hourly trial + editing continue. Golf clubs v2 and the new-client campaign both sit on pure Harrison decisions, no calendar block, real risk of quietly running out the clock (17 days to 31 Jul).
 

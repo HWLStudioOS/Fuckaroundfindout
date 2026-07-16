@@ -200,3 +200,10 @@
 - Training: PM half of the prescription met cleanly (easy bike + upper-body strength, no eccentric leg work, consistent with W27 recovery). AM walk/mobility does not appear in Garmin's activity list for today, unconfirmed either way beyond that absence.
 - Campaigns moved: 1 (LOR ET: repriced, creative-reviewed, campaign doc rebuilt, all same day)
 - Tomorrow's first action: Open the 08:15 Creepers hero-film edit block, the two Michael Buck RHS-wording facts are still the only thing blocking the captions.
+
+## 2026-07-16 evening
+- Shipped: LOR ET campaign deck sent to Kerri (Gmail confirmed 10:40, "final slides for the ET team," PDF attached matches output/pdf/LOR Early Talent 2026 - Campaign Presentation.pdf), BaW Helen Tupper "Better Moments" social assets produced (IG + IG-polished + LinkedIn-square variants, output/social/, 10:21-11:35), morning brief + verifier ran clean (7/7 sources, agents/_log.md 08:44)
+- Missed: none confirmed
+- Training: conditional first test jog (06:30-08:15, calendar note "only if legs feel clean... walk instead if anything niggles") did not happen as a run; RHR was 5pts above trend with no fresh readiness at brief time. Strava shows a 2.7km walk instead (13:16), consistent with the plan's own fallback rule, not scored as a miss. Not a critical week (post-RTTS recovery, no taper in play), so no push threshold applies regardless.
+- Campaigns moved: 2 (LOR: ET deck sent to Kerri; BaW: Helen Tupper clip assets built for IG/LinkedIn). Unconfirmed either way: whether the distilled ET plan doc + self-filming brief (the specific 15:00 block ask, day 7 unsent as of this morning) went out separately, Sarah-Louise's Sandringham day-rate reply, BaW weekly to Cathal, money chases (LOR £1,350/Creepers £3,500/Amex), golf clubs v2 and new-client 13:30 decisions. No positive signal either way on any of these today.
+- Tomorrow's first action: 06:00 on-site start at RHS Sandringham for the Creepers shoot, kit/route already prepped in yesterday evening's block.

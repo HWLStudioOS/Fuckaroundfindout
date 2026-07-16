@@ -319,3 +319,8 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 2026-07-15T06:40:00+01:00 | morning-brief-verify | sent msg_id=538, checked=30, corrected=1: Standing/Pulse HRV average label wrong ('62ms 7-day average' should be '62ms 6-day average' per read-health.sh, which explicitly labels it '6d avg'), corrected in today.md Pulse + Standing. Note: independently re-verified the Creepers Sandringham "confirmed GO" claim directly against the Anna/Michael Gmail thread (14 Jul) since it wasn't backed by any campaign file, thread confirms Rob approved the day, Michael lined up Careys + Catharine via the designers, Jack declined, claim holds clean.
 - 2026-07-15 11:06  | health-sync | OK 2026-07-15: RHR 47, sleep 6.5h (score 77), HRV 53 BALANCED, readiness 79
 - 2026-07-15 14:00  | health-sync | OK 2026-07-15: RHR 47, sleep 6.5h (score 77), HRV 53 BALANCED, readiness 79
+- 2026-07-15 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-07-16 06:21  | health-sync | OK 2026-07-16: RHR 51, sleep 6.5h (score 77), HRV 53 BALANCED, readiness None
+2026-07-16T08:44:51+0100 | morning-brief | drafted today.md + candidate, handed to verifier, sources=7/7 (health/garmin, calendar, gmail, strava, granola-partial, linear-deltas, capture-inbox)
+- 2026-07-16 11:00  | health-sync | OK 2026-07-16: RHR 49, sleep 8.0h (score 68), HRV 46 BALANCED, readiness 60
+- 2026-07-16 14:00  | health-sync | OK 2026-07-16: RHR 49, sleep 8.0h (score 68), HRV 46 BALANCED, readiness 60

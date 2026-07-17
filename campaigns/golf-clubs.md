@@ -130,11 +130,11 @@ Thanks H
 > Auto-updated by campaign-chaser agent.
 
 ```
-Last action: Batch-1 openers still unsent, drafted 2 Jul, now 13 days past their own 4 Jul expiry. Reconfirmed via Gmail 15 Jul (sent + received search across all five club domains, zero results both directions). Seventh consecutive campaign-chaser cycle finding no movement.
-Days since last action: 13 (draft, 2 Jul)
-Next move: Same decision as the last six flags, unchanged: (a) approve and send the five batch-1 openers as-is, (b) revise first, or (c) explicitly kill/hold this wave. Still in the 11-20 day decision-overdue bracket, 8 days from the 21-day auto-kill threshold.
+Last action: Batch-1 openers still unsent, drafted 2 Jul, now 15 days past their own 4 Jul expiry. Reconfirmed via Gmail 17 Jul (sent + received search across all five club domains, zero results both directions). Eighth consecutive campaign-chaser cycle finding no movement.
+Days since last action: 15 (draft, 2 Jul)
+Next move: Same decision as the last seven flags, unchanged: (a) approve and send the five batch-1 openers as-is, (b) revise first, or (c) explicitly kill/hold this wave. Still in the 11-20 day decision-overdue bracket, 6 days from the 21-day auto-kill threshold (23 Jul). Next scheduled campaign-chaser run is 24 Jul; if still untouched then, this auto-kills per the v2 rule.
 Blocker: Harrison decision + tap.
-Status: active, decision overdue. Zero sends, zero replies, seventh flag. Telegram pushed this run.
+Status: active, decision overdue. Zero sends, zero replies, eighth flag. Telegram pushed this run.
 ```
 
 ## What Harrison does

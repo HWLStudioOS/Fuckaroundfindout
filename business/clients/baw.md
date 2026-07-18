@@ -6,6 +6,15 @@ Workplace podcast. Hosts: **Cathal Quinlan** (primary contact) + **Annette Sloan
 
 Active. April reset after honest conversation about declining metrics. Hourly trial in place. April skipped by mutual agreement (March deliverables didn't meet standard).
 
+## Active state, 18 July 2026
+
+- **Summer value trial is live.** Cathal has explicitly asked for a private weekly progress email and listen-number tracking through early September because this is the first off-season he has paid someone to keep the engine running.
+- **Built this week:** Season 4 Student Guide, Roger Martin Sum Up, Helen Tupper launch artwork, rebuilt eight-week summer tracker, and the first workplace-meme pilot.
+- **Distribution miss:** Best-of #1 did not reach the feed, the question link is not live, and the weekly listen rows are still empty. The assets moved, the engine did not yet prove distribution.
+- **Work-meme pilot ready:** `output/social/BetterAtWork-Work-Meme-Hard-Stop-2026-07-18-v2.png`, built in Figma from the live B@W content templates and Better Work Brand Playground, using the season-finale “John has a hard stop at 2” exchange. Caption and source live in `business/clients/baw/work-meme-hard-stop-2026-07-18.md`.
+- **Weekly progress email drafted to Cathal.** It names both the real build progress and the distribution misses. Awaiting Harrison's send tap.
+- **Acast:** Cathal forwarded Marketplace onboarding and Tipalti payout registration. Marketplace profile is an HWL follow-up. Tipalti appears to need Cathal as the account holder.
+
 ## What Harrison does
 
 Episode packaging (clips, captions, titles, YouTube), LinkedIn ghostwriting for Cathal, monthly performance reports, season planning support.
@@ -23,7 +32,7 @@ Episode packaging (clips, captions, titles, YouTube), LinkedIn ghostwriting for 
 - **Phoebe Adler-Ryan**, researcher / producer, Sydney
 - Reference past collaborators: David Imai, Marcus Collins, Russell Beck, Jennifer Moss, Wendy K. Smith, Roger L. Martin
 
-## Active state, last refreshed 29 Apr 2026
+## Prior active state, last refreshed 29 Apr 2026
 
 **Jennifer Moss episode launch, drops Thu 30 Apr (TODAY +1)**
 - ✅ Clip 1 live Tue 28 Apr PM

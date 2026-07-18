@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Better at Work, Hard Stop Meme</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 1080px; height: 1350px; overflow: hidden; }
+    body {
+      background: #17121f;
+      color: #fff;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+    }
+    .canvas {
+      position: relative;
+      width: 1080px;
+      height: 1350px;
+      overflow: hidden;
+      background-image: url("assets/hard-stop-office-bg-2026-07-18.png");
+      background-size: cover;
+      background-position: 54% center;
+    }
+    .canvas::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(23, 11, 37, .94) 0%, rgba(23, 11, 37, .84) 41%, rgba(23, 11, 37, .20) 70%, rgba(23, 11, 37, .03) 100%),
+        linear-gradient(0deg, rgba(12, 9, 15, .78) 0%, rgba(12, 9, 15, 0) 38%);
+    }
+    .canvas::after {
+      content: "";
+      position: absolute;
+      inset: 26px;
+      border: 1px solid rgba(255,255,255,.24);
+      pointer-events: none;
+    }
+    .kicker {
+      position: absolute;
+      top: 72px;
+      left: 64px;
+      padding: 15px 24px 14px;
+      border-radius: 999px;
+      background: #ffd338;
+      color: #24172f;
+      font-size: 22px;
+      line-height: 1;
+      font-weight: 800;
+      letter-spacing: 1.8px;
+    }
+    .quote {
+      position: absolute;
+      top: 193px;
+      left: 60px;
+      width: 710px;
+      margin: 0;
+      font-family: "New York", "Iowan Old Style", Georgia, serif;
+      font-size: 103px;
+      line-height: .95;
+      font-weight: 700;
+      letter-spacing: -5.2px;
+      text-wrap: balance;
+    }
+    .chair-label {
+      position: absolute;
+      right: 69px;
+      bottom: 218px;
+      padding: 14px 21px 13px;
+      border: 2px solid #1d1427;
+      border-radius: 999px;
+      background: #fff;
+      color: #1d1427;
+      font-size: 23px;
+      line-height: 1;
+      font-weight: 800;
+      transform: rotate(-3deg);
+      box-shadow: 0 8px 28px rgba(0,0,0,.18);
+    }
+    .punchline {
+      position: absolute;
+      left: 64px;
+      bottom: 88px;
+      margin: 0;
+      font-size: 47px;
+      line-height: 1;
+      font-weight: 800;
+      letter-spacing: -1.6px;
+    }
+    .episode {
+      position: absolute;
+      left: 66px;
+      bottom: 47px;
+      color: rgba(255,255,255,.72);
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: .4px;
+    }
+    .logo {
+      position: absolute;
+      top: 58px;
+      right: 58px;
+      width: 188px;
+      height: 118px;
+      font-size: 25px;
+      font-weight: 800;
+      color: #151116;
+    }
+    .logo span {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 47px;
+      padding: 0 22px;
+      border-radius: 999px;
+      background: #fff;
+      box-shadow: 0 3px 10px rgba(0,0,0,.08);
+    }
+    .logo .better { top: 0; left: 2px; transform: rotate(-7deg); }
+    .logo .at { top: 30px; right: 0; width: 53px; padding: 0; transform: rotate(4deg); }
+    .logo .work { top: 62px; left: 68px; transform: rotate(7deg); }
+    .logo sup { position: absolute; top: 64px; right: -7px; color: #fff; font-size: 10px; }
+  </style>
+</head>
+<body>
+  <main class="canvas" role="img" aria-label="An empty meeting-room chair at 2:01 with the line John has a hard stop at 2.">
+    <div class="kicker">WORKPLACE TRANSLATION</div>
+    <div class="logo" aria-label="Better at Work">
+      <span class="better">Better</span>
+      <span class="at">@</span>
+      <span class="work">Work</span>
+      <sup>TM</sup>
+    </div>
+    <h1 class="quote">“JOHN HAS A HARD STOP AT 2.”</h1>
+    <div class="chair-label">JOHN, 2:01 PM</div>
+    <p class="punchline">FAIR PLAY, JOHN.</p>
+    <div class="episode">FROM THE SEASON 4 FINALE</div>
+  </main>
+</body>
+</html>

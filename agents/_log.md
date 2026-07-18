@@ -333,3 +333,7 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 2026-07-17T06:43:00+01:00 | morning-brief-verify | sent msg_id=542, checked=30, corrected=2: (1) ET Campaign Deck send-timing overstated as 'a day ahead' of the Thursday-lunchtime deadline when 16 Jul was itself the deadline day, corrected in Pulse + Yesterday wrap; (2) LOR relay-video reference 'before Thursday' deadline was fabricated, no such deadline exists in the 14 Jul Granola transcript, corrected in Yesterday wrap
 - 2026-07-17 11:07  | health-sync | OK 2026-07-17: RHR 42, sleep 7.5h (score 90), HRV 61 BALANCED, readiness 78
 - 2026-07-17 14:00  | health-sync | OK 2026-07-17: RHR 42, sleep 7.5h (score 90), HRV 61 BALANCED, readiness 78
+- 2026-07-17 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-07-18 06:15  | health-sync | OK 2026-07-18: RHR 50, sleep 7.5h (score 90), HRV 61 BALANCED, readiness None
+- 2026-07-18 11:00  | health-sync | OK 2026-07-18: RHR 45, sleep 6.6h (score 77), HRV 49 BALANCED, readiness 66
+- 2026-07-18 14:00  | health-sync | OK 2026-07-18: RHR 45, sleep 6.6h (score 77), HRV 49 BALANCED, readiness 66

@@ -341,3 +341,5 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 - 2026-07-19 06:15  | health-sync | OK 2026-07-19: RHR 49, sleep 6.6h (score 77), HRV 49 BALANCED, readiness 75
 2026-07-19T09:13:51+01:00 | learning-brief | 8 items, 5 drills, file=learning/weekly-brief/2026-07-19-brief.md, telegram msg_id=549. Flagged history-plan drift (10 weeks, zero logged pages across Lessons of History/Art of War/Destined for War) and a 2-week gap in the brief pipeline itself (no 12 July edition).
 - 2026-07-19 11:00  | health-sync | OK 2026-07-19: RHR 49, sleep 6.2h (score 44), HRV 38 UNBALANCED, readiness 26
+- 2026-07-19 14:00  | health-sync | OK 2026-07-19: RHR 49, sleep 6.2h (score 44), HRV 38 UNBALANCED, readiness 26
+2026-07-19T17:09:13+01:00 | weekly-review | weeks W26-27 ended (catch-up for missed 12 Jul run), 2/3 top-3 shipped, this-week.md rewritten for Algarve week, README updated (weekly-review streak broken), msg_id=550

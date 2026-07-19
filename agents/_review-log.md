@@ -266,3 +266,58 @@ No formal plan existed. Top 3 inferred from active state at week start (22 June)
 - Building systems to avoid obvious work: yes, name it. This week produced a full content-system rebuild and a full golf-clubs-v2 research restart (17 clubs, ranked table, five drafted openers), genuinely good work, while the one verb that mattered in both cases, sending, still didn't happen. Building is not a substitute for shipping.
 
 ---
+
+## 2026-07-19 Sunday review (weeks W26-W27 ending 19 July 2026, retro-covering a missed 12 Jul run)
+
+> The scheduled 12 Jul 18:00 run left no trace in `agents/_log.md`, no entry in this file, and `this-week.md` was never rewritten for W26→W27. Four capture-inbox items carry a "actioned/archived 12 Jul (weekly review)" marker, so some inbox processing happened that day, but the run's two defining outputs (this-week.md, this log) never landed. Same single-point-of-failure pattern first named in the 17-18 May retro. This entry covers both weeks against the W26 plan set 5 July, since no W27 plan ever existed to judge against.
+
+### Shipped
+
+- RTTS 50K raced clean. (Y. Strava: chip time 6:28:40, 50.01km/751m vert, avg HR 169/max 190, no back-third blow-up. Taper held, HRV stayed BALANCED all seven pre-race days.)
+- Monday cash bridge: Cap on Tap DD covered before it hit. (Y. Telegram reply 7 Jul 10:37: "DD cleared so no worries there", confirmed same day in evening-reflection log.)
+- LOR Early Talent held together under real production pressure. (Y. Reprice locked £28k, no upward move, GTI creative carved out separately (14 Jul). 4-lens creative review: 26 hooks graded, trust-sequencing flaw caught, relay film replaces the anthem concept (14 Jul). ET Campaign Deck sent to Kerri 16 Jul, confirmed via sent-folder check.)
+- Creepers Sandringham shoot executed clean. (Y. RHS site induction completed 15 Jul, Rob/Michael/Anna sign-off secured by email 14-15 Jul, 252 Nikon RAWs landed on the UGREEN drive 17 Jul, Careys + Catharine interview in hand.)
+- Two client social assets built and export-ready. (Y. Creepers 5-photo Sandringham carousel + BaW's first work-meme pilot, both sitting finished per today.md 18 Jul.)
+- Mindmap prototype shipped inside its 2-day Build Gate cap. (Y. Built 14-15 Jul per the 2 Jul KEEP-SIMPLIFIED decision.)
+- Portugal trip logistics locked same-day. (Y. Gatwick South parking + Faro car hire both confirmed by email 19 Jul, hours before the flight window opens.)
+
+### Missed
+
+- 5 warm intro asks (new-client campaign): still unsent. `life/relationships.md` checked directly 17 Jul, still says "list currently undefined," now 16 days past its own 1 July due date. Third-plus consecutive flag, zero movement.
+- LOR proof one-pager: still no file anywhere in the repo, 13+ days overdue.
+- Proof-led public post (new-client task 4): 8 days overdue, zero draft or prep in `content/pipeline.md`.
+- Creepers thank-you / £950 Sandringham rate confirmation / £3,500 retainer chase: drafted, confirmed still unsent (sent-folder search since 18 Jul returns nothing). Money stays unconfirmed as a direct result.
+- BaW weekly progress email to Cathal: drafted, confirmed still unsent. Cathal explicitly asked for this weekly during the value trial; the one thing he's testing is distribution, and distribution is exactly what didn't ship.
+- BaW Best-of #1: assets moved, distribution didn't. Not on the feed, question link not live, listen-tracking rows empty.
+- Golf clubs v2 batch-1: still unsent, now well past its own 48h expiry rule, 6 days from the 23 Jul auto-kill with the decision still sitting on Harrison.
+- Personal content: zero posts since 1 June, now 7 weeks straight. The 18 July checkpoint named in `content/strategy.md` ("did one post of Harrison's own substance ship") lands today and the answer is no.
+- Amex: past-due notice 17 Jul, no payment confirmation found since. OnlineJobs.ph: card declined three consecutive days (16, 17, 18 Jul), unresolved.
+- Weight data: stale since 29 April, now 81+ days.
+- Calendar: Algarve return still shows Sat 25 Jul against the actual Fri 24 Jul 14:10 flight, flagged 19 Jul, not yet corrected.
+
+### Reality check
+
+- **Money:** Per weekly-cfo's 17 Jul run, Starling has been unconfirmed for 16 straight days (last known figure £231.91, 1 Jul). Creepers Sandringham £950 is verbal only, June £3,500 retainer still has zero remittance evidence, LOR £1,350 is now roughly seven weeks overdue. Amex moved from "over limit" to an actual missed/past-due payment across the fortnight. OnlineJobs.ph subscription card has now failed three times running. Fazila sent a new, separate 2025/26 personal tax information request 17 Jul; VAT number still not landed (day 19+ of the typical 2-3 week window). Tax reserve holding at ~£8,000, unchanged.
+- **Health:** the race itself was the clean win of the fortnight, taper protected, no injury flare despite training through ITB/patellar niggles for months. The recovery week (13-19 Jul) bounced back well on readiness (dipped to 8 post-race, back to 70-94 range by midweek), but neither of the week's two prescribed runs (Mon 4.5km, Sat 8km long run) actually happened as runs, both came out as walks instead, understandable against a demanding Sandringham shoot day but worth naming as under-prescription rather than genuine resumption. Sleep and HRV both dropped sharply overnight into today (6.2h, sleep score 44, HRV 38 UNBALANCED, readiness 26), the first UNBALANCED reading in weeks, ahead of tomorrow's 07:40 flight.
+- **Clients:** LOR is warm and in real production (two shoot days locked, deck sent, budget confirmation due from Emma ~20 Jul). Creepers is warm on the work but the money and hero-film-facts threads are stuck behind an unsent draft and two outstanding questions to Michael Buck. BaW's summer value trial is live and Cathal is explicitly watching for distribution proof, which is the one thing that didn't ship this fortnight.
+- **Content:** zero posts, 7 weeks running, the system's own 18 July checkpoint has now passed with nothing shipped.
+- **Capture inbox:** 9 items added since the 5 Jul review. 4 processed during the partial 12 Jul run (race result, DD-cleared Telegram reply, LOR ET debrief, RTTS-prep archive). 1 processed this pass (the Portugal travel item, largely actioned: parking and car hire confirmed, calendar fix still outstanding). 5 discovery-scan batches (8, 10, 13, 15, 17 Jul) remain correctly aged under the 14-day threshold, oldest is 11 days, nothing forced this pass.
+- **Attention:** not measured, no tracking data available.
+- **Maya:** no captured evidence of the Sunday coffee catch-up again this fortnight. Not asserting it isn't happening, naming that the system still can't see it, now well past a month of this pattern.
+
+### Risks
+
+- **The calendar date error is the sharpest live risk.** Algarve return shows Saturday 25 July, the real flight is Friday 24 July 14:10. Needs fixing before Harrison stops tracking day-count on the ground.
+- **Golf clubs v2 auto-kills 23-24 July while Harrison is in the Algarve.** One tap (send/hold/kill) closes this either way; the system will close it by default if nobody acts.
+- **New-client 31 July deadline is now unrealistic without action before boarding tomorrow.** 12 days left, 6 of them spent travelling, both blocking tasks (name 10 warm targets, scope the one-pager) are still untouched inputs only Harrison can supply.
+- **Three client-facing comms are fully drafted and sitting unsent** (Creepers, BaW, and previously golf). This is the specific H17 pattern by name: the hard strategic work gets done, the simple send doesn't happen.
+- **Amex and OnlineJobs.ph are both still failing** with no resolution evidence, and Harrison is about to be out of the country for six days.
+- **Weekly-review's own reliability broke this fortnight.** A full scheduled run went missing with no log trace. Worth a direct look at why launchd/the mac mini didn't fire 12 Jul, the same failure mode as 17-18 May.
+
+### Standards check (codex H17)
+
+- Proactive comms: poor on the metric that matters. Real work happened (LOR reprice + creative review, Sandringham shoot, mindmap build), but three ready-to-send client comms (Creepers, BaW, golf) sat completely untouched. The gap isn't capability, it's the tap.
+- Self-attack disguised as discipline: not visible this fortnight.
+- Building systems to avoid obvious work: yes, again, same pattern flagged 5 July, now with more evidence: a 2-day prototype build and a full production week landed clean while three one-tap sends didn't move at all.
+
+---

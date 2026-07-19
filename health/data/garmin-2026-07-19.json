@@ -1,5 +1,5 @@
 {
-  "pulled_at": "2026-07-19T11:00:08.882065",
+  "pulled_at": "2026-07-19T14:00:12.479363",
   "date": "2026-07-19",
   "raw": {
     "stats_and_body": {
@@ -8746,15 +8746,15 @@
         "endTimeGMT": "2026-07-18 08:47:13",
         "qualifyingDive": false,
         "activityUUID": "a1b9776b-40e9-46ef-8f38-ca269c831fe2",
-        "autoCalcCalories": false,
-        "elevationCorrected": false,
         "purposeful": false,
         "manualActivity": false,
-        "atpActivity": false,
-        "pr": false,
-        "favorite": false,
+        "parent": false,
         "decoDive": false,
-        "parent": false
+        "favorite": false,
+        "pr": false,
+        "autoCalcCalories": false,
+        "elevationCorrected": false,
+        "atpActivity": false
       },
       {
         "activityId": 23618623653,
@@ -8875,15 +8875,15 @@
         "endTimeGMT": "2026-07-16 12:47:30",
         "qualifyingDive": false,
         "activityUUID": "19eee83a-ba95-450b-a7d6-ec6728668eb9",
-        "autoCalcCalories": false,
-        "elevationCorrected": false,
         "purposeful": false,
         "manualActivity": false,
-        "atpActivity": false,
-        "pr": false,
-        "favorite": false,
+        "parent": false,
         "decoDive": false,
-        "parent": false
+        "favorite": false,
+        "pr": false,
+        "autoCalcCalories": false,
+        "elevationCorrected": false,
+        "atpActivity": false
       },
       {
         "activityId": 23602928969,
@@ -9004,15 +9004,15 @@
         "endTimeGMT": "2026-07-15 06:14:34",
         "qualifyingDive": false,
         "activityUUID": "baa4b0cc-11c6-4a0b-b8a6-8101b588eafd",
-        "autoCalcCalories": false,
-        "elevationCorrected": false,
         "purposeful": false,
         "manualActivity": false,
-        "atpActivity": false,
-        "pr": false,
-        "favorite": false,
+        "parent": false,
         "decoDive": false,
-        "parent": false
+        "favorite": false,
+        "pr": false,
+        "autoCalcCalories": false,
+        "elevationCorrected": false,
+        "atpActivity": false
       },
       {
         "activityId": 23593900338,
@@ -9138,15 +9138,15 @@
         "endTimeGMT": "2026-07-14 12:18:08",
         "qualifyingDive": false,
         "activityUUID": "fa2063a0-24b0-404e-b1b7-1b7a79734b01",
-        "autoCalcCalories": false,
-        "elevationCorrected": false,
         "purposeful": false,
         "manualActivity": false,
-        "atpActivity": false,
-        "pr": false,
-        "favorite": false,
+        "parent": false,
         "decoDive": false,
-        "parent": false
+        "favorite": false,
+        "pr": false,
+        "autoCalcCalories": false,
+        "elevationCorrected": false,
+        "atpActivity": false
       },
       {
         "activityId": 23593751022,
@@ -9249,15 +9249,15 @@
         "endTimeGMT": "2026-07-14 12:04:49",
         "qualifyingDive": false,
         "activityUUID": "0fe01434-9927-465e-83f6-627ec252a994",
-        "autoCalcCalories": false,
-        "elevationCorrected": false,
         "purposeful": false,
         "manualActivity": false,
-        "atpActivity": false,
-        "pr": false,
-        "favorite": false,
+        "parent": false,
         "decoDive": false,
-        "parent": false
+        "favorite": false,
+        "pr": false,
+        "autoCalcCalories": false,
+        "elevationCorrected": false,
+        "atpActivity": false
       }
     ]
   }

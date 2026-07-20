@@ -214,3 +214,10 @@
 - Training: none prescribed, today's calendar was Sandringham end to end (per today.md standing note). No Garmin activity logged for today either, consistent with a no-session day, not a miss.
 - Campaigns moved: 0 confirmed. Golf clubs and new-client were both rechecked fresh today by the campaign-chaser agent and found static (eighth and continuing flags, zero movement). LOR quiet, Kerri out of office with limited email access since 16 Jul. Creepers Sandringham is the day's plan but has no independent confirmation.
 - Tomorrow's first action: Pay the Amex balance in full. It escalated to a payment-required notice today and needs clearing before Monday's 07:40 flight to the Algarve.
+
+## 2026-07-20 evening
+- Shipped: none confirmable via available signals today. Travel day per calendar (07:40 Faro flight, transfer to Masana, first beach afternoon, dinner), but calendar isn't proof of attendance and there's no independent trail: zero Gmail-sent activity in the last 24h (only an inbound Trip.com flight notification and an unrelated Cathal forward), no Telegram reply logged, no Wizz boarding-pass confirmation found either way.
+- Missed: none confirmed as a today-specific gap. The golf-clubs and new-client campaign stalls are pre-existing (already checked and Telegram-pushed by campaign-chaser this morning, msg_id=554), not new today.
+- Training: no Garmin/Strava activity logged for today (last activity 18 Jul). Not scored as a miss: W27-28 is the plan's own recovery phase ("easy rebuild, listen to body," no fixed prescription) and today was a flight + transfer day, not a critical taper/race week, so no push threshold applies.
+- Campaigns moved: 0 confirmed (campaign-chaser's 10:07 run found zero sends/replies on golf-clubs and no task movement on new-client, both already flagged).
+- Tomorrow's first action: Fix the Algarve return date on the calendar, swap the Saturday 25 July placeholder for the real Friday 24 July 14:10 flight (W9 5732). Named across three consecutive briefs, still a thirty-second tap.

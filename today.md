@@ -1,72 +1,62 @@
 ---
-date: 2026-07-18
-generated: manual check-in 11:10
+date: 2026-07-20
+generated: auto-generated 06:30
 ---
 
-# Today, Saturday 18 July 2026
+# Today, Monday 20 July 2026
 
 ## Pulse
 
-Sandringham is done. The shoot landed Friday 17 July with 252 Nikon RAWs safely on the UGREEN drive and enough film for the main edits. A five-photo Creepers weekend carousel is already exported. A first Better at Work work-meme pilot is also finished, using the season-finale hard-stop exchange inside the new warm editorial design system.
-
-The red board is admin, not creative. American Express sent a fresh past-due notice Friday evening. OnlineJobs.ph failed again Saturday morning, the third consecutive daily decline. Starling has not been checked since 1 July. Monday's 07:40 Faro flight check-in email is unread. No LOR or Creepers payment confirmation appeared while Harrison was away.
-
-Today is otherwise open until the 20:00 Cause placeholder. Body has recovered from the shoot better than Friday's early data suggested: sleep 7.5h, score 90, HRV 61ms BALANCED. RHR is 50. Do the red admin, publish the two posts, send the two prepared client notes, then stop.
+Travel day. Flight to Faro (W9 5731) leaves Gatwick 07:40, lands late morning, then a transfer to Masana and a first beach afternoon. Sleep dipped hard overnight ahead of the early departure, 5.0h at a score of 64, HRV 69ms flagged UNBALANCED, RHR 45, readiness 60 MODERATE. That's a short-night-before-a-flight pattern, not a training signal. One genuine piece of good news landed overnight: Amex received a £500 payment Sunday, clearing the missed-payment alert that was live as of Saturday. What hasn't moved is the thing named as this week's #1 fix twice now (this-week.md and Saturday's capture note): the calendar still shows the wrong Algarve return date. The real flight home is Friday 24 July 14:10, the calendar still carries a placeholder "Check out Viceroy + fly home" on Saturday 25 July with a note asking for the real flight details. It's a thirty-second fix that hasn't happened.
 
 ## Yesterday wrap
 
-Landed:
+No brief published Sunday 19 July, weekend. This covers Saturday 18 July through this morning.
 
-- [x] Sandringham shoot completed. Royal Legacy Garden, Careys and Catharine coverage in hand. 252 stills confirmed on UGREEN. <!-- linear:HWL-132 -->
-- [x] LOR ET deck had already gone to Kerri Thursday at 10:40. No reply expected while she is out of office. <!-- linear:HWL-136 -->
-- [x] Buffer subscription payment of $43.20 succeeded Friday evening. This does not resolve the separate Amex arrears or OnlineJobs decline. <!-- linear:HWL-137 -->
+Landed:
+- [x] Gatwick South parking confirmed (order DW13342596HAR) and Faro car hire confirmed (Opel Corsa or similar), both per Gmail 19 July. <!-- linear:HWL-138 -->
+- [x] Amex payment of £500 received 19 July, clearing the missed-payment alert flagged Friday/Saturday. <!-- linear:HWL-139 -->
+- Learning brief and weekly review both shipped 19 July, catching up the missed 12 July run. this-week.md was rewritten for the Algarve week and named three priorities: fix the calendar, decide golf clubs, send the three drafted comms.
 
 Not landed:
+- Calendar still shows the wrong Algarve return date. Unresolved since first flagged Saturday.
+- Creepers thank-you / £950 Sandringham rate confirmation / £3,500 retainer chase, and the BaW weekly progress email to Cathal, all still sitting drafted and unsent, no send evidence since 18 July.
+- OnlineJobs.ph card decline, last confirmed 18 July (third day running at that point), no resolution evidence since.
+- Starling balance still unconfirmed. Last known figure is £231.91 from 1 July, now 19 days stale.
 
-- Creepers £950 Sandringham day rate is still verbal only.
-- Creepers June £3,500 and LOR £1,350 still have no remittance evidence.
-- Better at Work Best-of #1 did not reach the feed. The question link is not live. Weekly listen rows remain empty.
-- No evidence the LOR relay-video reference went to Kerri.
+## Today
 
-## Closeout, now
-
-This is under one hour of Harrison time because the assets and drafts are already done.
-
-1. **Red admin, 15 minutes.** Pay Amex, check the actual Starling balance, update the OnlineJobs card, complete Wizz check-in. <!-- linear:HWL-128 -->
-2. **Publish Better at Work, 10 minutes.** Use `output/social/BetterAtWork-Work-Meme-Hard-Stop-2026-07-18-v2.png` and the caption in `business/clients/baw/work-meme-hard-stop-2026-07-18.md`.
-3. **Creepers stays with Harrison.** Do not treat the generated carousel as the selected post.
-4. **Send two prepared drafts, 5 minutes.** Better at Work weekly progress to Cathal. Creepers thank-you, £950 confirmation and £3,500 retainer check to Anna and Sarah-Louise.
-5. **One calendar decision, 2 minutes.** Tuesday 21 July at 16:00 still has the Kerri catch-up sitting inside the Algarve day. Decide move it or take it poolside. Do not let it surprise you.
-
-Then stop. The rest of today stays personal and the party remains the evening.
+- [ ] Confirm Wizz boarding passes are actually issued for both travellers. Only check-in-contact and account-activation emails found so far (19 Jul), no confirmed boarding pass evidence, and the flight is inside the hour. <!-- linear:HWL-128 -->
+- [ ] Fix the Algarve return date on the calendar. Swap the Saturday 25 July placeholder for the real Friday 24 July 14:10 flight (W9 5732). <!-- linear:HWL-140 -->
+- [ ] Send the three drafted client comms: Creepers thank-you + £950 rate confirmation + £3,500 retainer chase to Anna and Sarah-Louise, and the BaW weekly progress email to Cathal. Nothing left to write, only the tap. <!-- linear:HWL-141 -->
+- [ ] Update the OnlineJobs.ph card on file. Declined three days running as of 18 July. <!-- linear:HWL-142 -->
+- [ ] Decide: move or keep tomorrow's 16:00 Kerri call and Thursday's 11:30 Cathal call. Both still sit unmoved mid-trip on the calendar, each with a standing note flagging it. <!-- linear:HWL-143 -->
 
 ## Awaiting response
 
-- LOR £1,350: no landing confirmation. Kerri is out of office with limited email access.
-- Creepers June £3,500: no invoice or payment trail. Draft to Anna and Sarah-Louise is ready.
-- Creepers Sandringham £950: written confirmation still needed. Included in the same draft.
-- LOR ET budget: Kerri's Jamie/Emma confirmation still outstanding. Deck sent 16 July.
-- Fazila / VAT: HMRC says the application has been processed and a letter is coming. No VAT number yet.
-- Fazila / personal tax: 2025/26 information request arrived 17 July with checklist attached. Not urgent today.
-- Better at Work / Acast: Marketplace profile needs handling. Tipalti payout registration appears to be Cathal's account-holder action.
-- Michael Buck: exact RHS award wording and Baz Grainger garden name still block the Creepers hero-film captions.
+- LOR £1,350: no landing confirmation, roughly seven weeks overdue.
+- LOR Early Talent budget: Emma due to confirm the ~£28k trim on her return today, 20 July. Nothing in yet, it's the same day.
+- Creepers June £3,500 and Sandringham £950: no remittance or written confirmation, tied to the unsent draft above.
+- Fazila / VAT number: still not landed, roughly three weeks since the 30 June submission.
+- BaW / Acast: Cathal forwarded the Marketplace/Tipalti payout registration again 19 July, still unactioned.
+- Michael Buck: RHS award wording and the Baz Grainger garden name still block the Creepers hero-film captions.
 
-## Deferred deliberately
+## In flight
 
-- Golf clubs v2 is still zero sends, zero replies, day 16 since draft and five days from its auto-kill. Do not reopen it before tonight. Sunday review must either park it or let the kill rule fire. <!-- linear:HWL-130 -->
-- New-client campaign is day 20 with one of five tasks done and a 31 July deadline. It cannot be rescued in a Saturday scramble. Sunday review sets the post-holiday decision.
-- LOR relay-video reference and Aleisha's Loomly Sustainability swap are real, but neither outranks Amex, flight check-in or the two client posts today. <!-- linear:HWL-134 -->
-- BaW Vercel deploy failure and the old failed Buffer Instagram notification stay technical follow-ups. Today's post can publish manually. <!-- linear:HWL-135 -->
+- Golf clubs v2: zero sends, zero replies since the 2 July draft. Auto-kill fires 23-24 July if the batch-1 decision (send, hold, or kill) isn't made, which lands mid-trip.
+- New-client campaign (1 by 31 July): 11 days left. Tasks 2 (name 10 warm targets) and 3 (LOR proof one-pager) are both still untouched Harrison inputs. this-week.md already reads the 31 July close as unlikely without one landing before travel.
+- Creepers hero film, peat carousel, and the Sandringham weekend carousel are all sitting on sign-off or a missing fact, no action needed today.
+- LOR relay-video reference and Aleisha's Loomly Sustainability swap, plus the BaW Vercel deploy failure and an old failed Buffer IG notification, all real but lower priority, no push this week.
 
 ## Standing
 
-- **Body:** RHR 50, sleep 7.5h, sleep score 90, HRV 61ms BALANCED. Readiness not synced. No hard training today. Easy walk is enough after the 50K recovery week and Friday shoot.
-- **Money:** Starling balance is still unknown. Amex is formally past due. OnlineJobs subscription card failed again this morning. These are today's only true red items.
-- **Clients:** Creepers moved properly. LOR moved Thursday. Better at Work produced real assets but missed distribution, which is exactly what Cathal is paying the summer trial to test.
-- **Calendar:** Off/personal until 17:00. The Cause from 20:00 is still a placeholder time. Sunday is packing and early night. Faro flight Monday 20 July at 07:40.
+- **Body:** RHR 45, sleep 5.0h (score 64), HRV 69ms UNBALANCED, readiness 60 MODERATE. Short night before an early flight, not a training flag. Weight and body fat still stale from 29 April, 82 days now, re-export from iPhone whenever convenient.
+- **Training:** W28, Algarve week per the plan. Prescribed sessions exist but this-week.md already calls it correctly: move when it's easy (beach walks, Thursday's golf round), don't force sessions against airports and pool days.
+- **Money:** Amex resolved, £500 landed 19 July. Still open: LOR £1,350, Creepers £3,500 + £950, Starling balance unconfirmed 19 days running, OnlineJobs.ph card unresolved since 18 July, tax reserve reads ~£8,000 but unchanged and unverified since 1 July.
+- **Clients:** LOR Early Talent budget confirmation due from Emma today. Creepers and BaW comms drafted, unsent. Golf clubs decision due this week. LOR Retainer stays PARKED, correctly, no action.
 
 ## Lens
 
-Do not mistake a long board for a two-hour job. The creative work is done. The week closes with four admin checks, two publish taps and two send taps. Anything beyond that is the old pattern of turning a clean stop into another open-ended workday.
+The calendar fix has been named the week's top priority twice now and it's still wrong as you board. That's the same shape as the three unsent drafts and the golf-clubs decision sitting since last weekend: the work is done, only the tap is missing. Fix the return date from your phone before you land, it takes thirty seconds and it's the one thing on this list that gets harder to notice the longer Portugal goes unattended.
 
-Sources: Garmin sync 18 Jul 06:15, Gmail through 18 Jul 10:30, Google Calendar 18-23 Jul, Granola meeting sweep 13-17 Jul, Linear through 18 Jul 09:28, direct UGREEN stills inspection, local Better at Work and Creepers production files.
+Sources: Garmin sync 20 Jul 06:15, Baseline read API :8765, Gmail through 20 Jul 06:15 (business + personal both visible), Google Calendar 20-25 Jul, Strava through 18 Jul, Granola 13-14 Jul (no new meetings), Linear deltas (zero since last brief), agents/_log.md and capture/inbox.md through 20 Jul, campaign files (golf-clubs.md, new-client-2026-07.md), this-week.md and money/weekly.md (both generated 17-19 Jul).

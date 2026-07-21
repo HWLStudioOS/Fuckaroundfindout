@@ -1,62 +1,61 @@
 ---
-date: 2026-07-20
+date: 2026-07-21
 generated: auto-generated 06:30
 ---
 
-# Today, Monday 20 July 2026
+# Today, Tuesday 21 July 2026
 
 ## Pulse
 
-Travel day. Flight to Faro (W9 5731) leaves Gatwick 07:40, lands late morning, then a transfer to Masana and a first beach afternoon. Sleep dipped hard overnight ahead of the early departure, 5.0h at a score of 64, HRV 69ms flagged UNBALANCED, RHR 45, readiness 60 MODERATE. That's a short-night-before-a-flight pattern, not a training signal. One genuine piece of good news landed overnight: Amex received a £500 payment Sunday, clearing the missed-payment alert that was live as of Saturday. What hasn't moved is the thing named as this week's #1 fix twice now (this-week.md and Saturday's capture note): the calendar still shows the wrong Algarve return date. The real flight home is Friday 24 July 14:10, the calendar still carries a placeholder "Check out Viceroy + fly home" on Saturday 25 July with a note asking for the real flight details. It's a thirty-second fix that hasn't happened.
+Second full day in the Algarve. Watch didn't sync overnight, so RHR 51 is fresh but sleep (5.0h, score 64) and HRV (69ms, UNBALANCED) are carried over from Sunday night, not new data. One real piece of news landed while asleep: Laing O'Rourke's accounts payable sent a BACS remittance notification at 16:07 yesterday, most likely the ~£1,350 that's been seven weeks overdue, though the amount sits in a PDF attachment this system can't read, so treat it as unconfirmed until Harrison opens it. What hasn't moved, for the fourth day running, is the Algarve return date on the calendar. Today also carries a live decision, not just a carried one: the Kerri call is on the calendar for 16:00 this afternoon, mid-trip, and this-week.md already named it as something to move or take deliberately rather than let happen to him.
 
 ## Yesterday wrap
 
-No brief published Sunday 19 July, weekend. This covers Saturday 18 July through this morning.
-
 Landed:
-- [x] Gatwick South parking confirmed (order DW13342596HAR) and Faro car hire confirmed (Opel Corsa or similar), both per Gmail 19 July. <!-- linear:HWL-138 -->
-- [x] Amex payment of £500 received 19 July, clearing the missed-payment alert flagged Friday/Saturday. <!-- linear:HWL-139 -->
-- Learning brief and weekly review both shipped 19 July, catching up the missed 12 July run. this-week.md was rewritten for the Algarve week and named three priorities: fix the calendar, decide golf clubs, send the three drafted comms.
+- Flight to Faro and hotel check-in at Masana both went through without incident. Hotels.com sent a post-check-in survey email 20 July evening and the Kerri call, calendar Sandringham/beach blocks all sit correctly against Algarve time. Yesterday's "confirm boarding passes are actually issued" concern is resolved by the fact of arrival, no separate confirmation needed. <!-- linear:HWL-128 -->
+- LOR sent a BACS remittance notification 20 July 16:07, addressed to HWL Studio Limited. Very likely the £1,350 overdue receivable, exact amount unconfirmed (PDF attachment).
+- New: Landform (Catherine McDonald) sent the Royal Legacy Garden social media protocol doc 20 July evening, cc'd to Michael Buck. Filed, no action needed today.
 
 Not landed:
-- Calendar still shows the wrong Algarve return date. Unresolved since first flagged Saturday.
-- Creepers thank-you / £950 Sandringham rate confirmation / £3,500 retainer chase, and the BaW weekly progress email to Cathal, all still sitting drafted and unsent, no send evidence since 18 July.
-- OnlineJobs.ph card decline, last confirmed 18 July (third day running at that point), no resolution evidence since.
-- Starling balance still unconfirmed. Last known figure is £231.91 from 1 July, now 19 days stale.
+- Algarve return-date calendar fix. Checked directly: the "Check out Viceroy + fly home" placeholder still sits on Saturday 25 July, still reads "I couldn't see your flights anywhere on the calendar, send me the return details." The real flight is Friday 24 July, W9 5732, Faro 11:20 to Gatwick 14:10. Fourth day this has been named and not fixed. <!-- linear:HWL-140 -->
+- The three drafted client comms: Creepers thank-you + £950 rate confirmation + £3,500 retainer chase to Anna and Sarah-Louise, and the BaW weekly progress email to Cathal. Checked Gmail sent mail directly, zero sends to either in the last 5 days. <!-- linear:HWL-141 -->
+- OnlineJobs.ph card decline. No new evidence either way since 18 July, so status is unconfirmed rather than a fresh miss, but nothing suggests it's fixed. <!-- linear:HWL-142 -->
+- Starling balance still unconfirmed, now 20 days stale (last known £231.91, 1 July).
 
 ## Today
 
-- [ ] Confirm Wizz boarding passes are actually issued for both travellers. Only check-in-contact and account-activation emails found so far (19 Jul), no confirmed boarding pass evidence, and the flight is inside the hour. <!-- linear:HWL-128 -->
-- [ ] Fix the Algarve return date on the calendar. Swap the Saturday 25 July placeholder for the real Friday 24 July 14:10 flight (W9 5732). <!-- linear:HWL-140 -->
-- [ ] Send the three drafted client comms: Creepers thank-you + £950 rate confirmation + £3,500 retainer chase to Anna and Sarah-Louise, and the BaW weekly progress email to Cathal. Nothing left to write, only the tap. <!-- linear:HWL-141 -->
-- [ ] Update the OnlineJobs.ph card on file. Declined three days running as of 18 July. <!-- linear:HWL-142 -->
-- [ ] Decide: move or keep tomorrow's 16:00 Kerri call and Thursday's 11:30 Cathal call. Both still sit unmoved mid-trip on the calendar, each with a standing note flagging it. <!-- linear:HWL-143 -->
+- [ ] Fix the Algarve return date on the calendar. Swap the Saturday 25 July placeholder for the real Friday 24 July 14:10 flight (W9 5732). Named four days running now. <!-- linear:HWL-140 -->
+- [ ] Decide on today's 16:00 Kerri call: take it as scheduled, move it, or take it poolside. It's on the calendar as-is and the week's own plan flagged it needs a deliberate choice, not a default. <!-- linear:HWL-144 -->
+- [ ] Send the three drafted client comms: Creepers thank-you + £950 rate confirmation + £3,500 retainer chase to Anna and Sarah-Louise, and the BaW weekly progress email to Cathal. Confirmed unsent via Gmail. <!-- linear:HWL-141 -->
+- [ ] Decide golf clubs v2 batch-1: send the five drafted openers, hold with a new date, or kill the wave. Live state reads auto-kill on the 24 July chaser run if still untouched, the same day as the Cathal call and the real flight home. <!-- linear:HWL-145 -->
+- [ ] Update the OnlineJobs.ph card on file. Status unconfirmed since 18 July, no evidence either way. <!-- linear:HWL-142 -->
 
 ## Awaiting response
 
-- LOR £1,350: no landing confirmation, roughly seven weeks overdue.
-- LOR Early Talent budget: Emma due to confirm the ~£28k trim on her return today, 20 July. Nothing in yet, it's the same day.
+- LOR remittance received 20 July: amount unconfirmed, check the PDF or bank feed to confirm it's the £1,350 line.
+- LOR June Global Comms ~£6k: not yet raised, blocked on a scope call that hasn't happened since 25 June.
+- LOR Early Talent budget: Emma was due to confirm the ~£28k trim on her return today. No email evidence yet, still same day.
 - Creepers June £3,500 and Sandringham £950: no remittance or written confirmation, tied to the unsent draft above.
-- Fazila / VAT number: still not landed, roughly three weeks since the 30 June submission.
-- BaW / Acast: Cathal forwarded the Marketplace/Tipalti payout registration again 19 July, still unactioned.
+- Fazila / VAT number: day 21 since the 30 June submission, inside the typical 2-3 week window but nothing landed yet.
+- BaW / Acast: Cathal's forwarded Marketplace/Tipalti payout registration, still unactioned.
 - Michael Buck: RHS award wording and the Baz Grainger garden name still block the Creepers hero-film captions.
 
 ## In flight
 
-- Golf clubs v2: zero sends, zero replies since the 2 July draft. Auto-kill fires 23-24 July if the batch-1 decision (send, hold, or kill) isn't made, which lands mid-trip.
-- New-client campaign (1 by 31 July): 11 days left. Tasks 2 (name 10 warm targets) and 3 (LOR proof one-pager) are both still untouched Harrison inputs. this-week.md already reads the 31 July close as unlikely without one landing before travel.
+- New-client campaign (1 by 31 July): 10 days left. Tasks 2 (name 10 warm targets) and 3 (LOR proof one-pager) both still untouched Harrison inputs, task 4 (proof-led post) now well overdue with no prep. this-week.md already reads the 31 July close as unlikely without one landing this week.
 - Creepers hero film, peat carousel, and the Sandringham weekend carousel are all sitting on sign-off or a missing fact, no action needed today.
-- LOR relay-video reference and Aleisha's Loomly Sustainability swap, plus the BaW Vercel deploy failure and an old failed Buffer IG notification, all real but lower priority, no push this week.
+- BaW distribution gap (Best-of #1 not in the feed, question link not live, listen rows empty) is real but not a today item.
+- LOR relay-video reference, Aleisha's Loomly Sustainability swap, the BaW Vercel deploy failure, and an old failed Buffer IG notification, all real but lower priority, no push this week.
 
 ## Standing
 
-- **Body:** RHR 45, sleep 5.0h (score 64), HRV 69ms UNBALANCED, readiness 60 MODERATE. Short night before an early flight, not a training flag. Weight and body fat still stale from 29 April, 82 days now, re-export from iPhone whenever convenient.
-- **Training:** W28, Algarve week per the plan. Prescribed sessions exist but this-week.md already calls it correctly: move when it's easy (beach walks, Thursday's golf round), don't force sessions against airports and pool days.
-- **Money:** Amex resolved, £500 landed 19 July. Still open: LOR £1,350, Creepers £3,500 + £950, Starling balance unconfirmed 19 days running, OnlineJobs.ph card unresolved since 18 July, tax reserve reads ~£8,000 but unchanged and unverified since 1 July.
-- **Clients:** LOR Early Talent budget confirmation due from Emma today. Creepers and BaW comms drafted, unsent. Golf clubs decision due this week. LOR Retainer stays PARKED, correctly, no action.
+- **Body:** RHR 51 (fresh reading), sleep 5.0h (score 64) and HRV 69ms UNBALANCED both carried from Sunday night, watch hasn't synced since. Weight and body fat still stale from 29 April, 83 days now.
+- **Training:** W28, recovery week per this-week.md, Algarve week. Move when it's easy, beach walks and Thursday's golf round count, don't force sessions against airports and pool days.
+- **Money:** LOR remittance landed 20 July, amount unconfirmed, likely clears the £1,350 line. Still open: Creepers £3,500 + £950, Starling balance unconfirmed 20 days running, OnlineJobs.ph unresolved since 18 July, tax reserve reads ~£8,000 but unchanged and unverified since 1 July.
+- **Clients:** Kerri call sits at 16:00 today needing a decision. Cathal call Thu 24 11:30 still unmoved, same day golf clubs auto-kills and the real flight home happens. LOR Early Talent budget due from Emma today, not yet in. Creepers and BaW comms drafted, unsent. LOR Retainer stays PARKED, correctly, no action.
 
 ## Lens
 
-The calendar fix has been named the week's top priority twice now and it's still wrong as you board. That's the same shape as the three unsent drafts and the golf-clubs decision sitting since last weekend: the work is done, only the tap is missing. Fix the return date from your phone before you land, it takes thirty seconds and it's the one thing on this list that gets harder to notice the longer Portugal goes unattended.
+The calendar fix has now been named four days running and it's still wrong. That's not a hard task, it's a thirty-second edit, which means the thing actually being tested isn't ability, it's whether a flagged item gets touched at all once you're somewhere nice. Same shape sits under the three unsent drafts and the golf-clubs decision: the work is finished, only the tap is missing, every single time. Today puts a live decision in front of you too, the 16:00 Kerri call, so this is a good day to prove the pattern isn't permanent rather than add a fifth day to the streak.
 
-Sources: Garmin sync 20 Jul 06:15, Baseline read API :8765, Gmail through 20 Jul 06:15 (business + personal both visible), Google Calendar 20-25 Jul, Strava through 18 Jul, Granola 13-14 Jul (no new meetings), Linear deltas (zero since last brief), agents/_log.md and capture/inbox.md through 20 Jul, campaign files (golf-clubs.md, new-client-2026-07.md), this-week.md and money/weekly.md (both generated 17-19 Jul).
+Sources: Garmin sync 21 Jul 06:15 (read-health.sh, watch not synced overnight), Baseline read API :8765, Google Calendar 21-25 Jul, Gmail through 21 Jul 06:30 (business account, targeted searches on LOR/Creepers/BaW/Fazila/Emma/Amex/Wizz), Strava through 18 Jul (no new activity since), Granola (no meetings matching Kerri/Cathal/Creepers/Sarah/Anna since last brief), Linear deltas (zero new since last brief, section omitted), agents/_log.md and capture/inbox.md through 21 Jul (no new Telegram replies since 7 Jul), campaign files (golf-clubs.md, new-client-2026-07.md), this-week.md (generated 19 Jul) and money/weekly.md (generated 17 Jul).

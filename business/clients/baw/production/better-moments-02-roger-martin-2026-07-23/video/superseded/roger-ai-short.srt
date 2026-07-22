@@ -1,0 +1,71 @@
+1
+00:00:00,000 --> 00:00:02,000
+So AI, LLM AI,
+
+2
+00:00:02,000 --> 00:00:05,210
+is a mode-seeking device.
+
+3
+00:00:05,210 --> 00:00:09,900
+The tricky thing is this:
+
+4
+00:00:09,900 --> 00:00:14,900
+if you want the tail of the distribution,
+
+5
+00:00:14,900 --> 00:00:19,450
+something way out on the right tail,
+
+6
+00:00:19,450 --> 00:00:22,180
+and you ask AI for that...
+
+7
+00:00:22,180 --> 00:00:25,420
+you get a modal answer, regardless.
+
+8
+00:00:25,420 --> 00:00:29,120
+If you want to find the mode
+
+9
+00:00:29,120 --> 00:00:33,900
+faster, cheaper and more accurately,
+
+10
+00:00:33,900 --> 00:00:35,000
+use AI.
+
+11
+00:00:35,000 --> 00:00:38,350
+If you want something on the tail, don't.
+
+12
+00:00:38,350 --> 00:00:40,870
+It's not set up to do that.
+
+13
+00:00:40,870 --> 00:00:42,460
+I don't like the idea
+
+14
+00:00:42,460 --> 00:00:47,960
+of giving your problem set to AI and asking:
+
+15
+00:00:47,960 --> 00:00:50,780
+“What should my strategy be?”
+
+16
+00:00:50,780 --> 00:00:52,540
+You'll get a modal strategy.
+
+17
+00:00:52,540 --> 00:00:54,860
+If you're doing what everybody else is doing,
+
+18
+00:00:54,860 --> 00:00:58,300
+it's not distinctive. It's not worth having.

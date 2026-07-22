@@ -10,6 +10,9 @@ Format per entry:
 
 ---
 
+## 2026-07-22
+- **Should I Say Something?** (£25), Vanessa Bohns / Hachette. Cornell org-behavior professor on when to speak up versus hold back at work, science of oversharing versus appropriate vulnerability. BaW guest-hit-list adjacent, a genuinely new angle. Releases 29 Oct 2026. [https://www.vanessabohns.com/]. Status: auto-approved.
+
 ## 2026-07-13
 - **Run Forever: The Secrets to Becoming an Ageless Athlete** (~£17), Damian Hall / Vertebrate Publishing. GB ultrarunner on training strength, speed and longevity through your 40s and beyond, chapters on mindset, sleep and nutrition. Lands straight off RTTS, where you trained through ITB and patellar issues for months. Releases 6 Aug. [https://blackwells.co.uk/bookshop/product/Run-Forever-by-Damian-Hall/9781839812873]. Status: auto-approved.
 

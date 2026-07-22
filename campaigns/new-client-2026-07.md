@@ -6,14 +6,14 @@
 
 ## Live state
 
-> Updated by campaign-chaser agent, 2026-07-20.
+> Updated by campaign-chaser agent, 2026-07-22.
 
 ```
-Last action: Task 1 (Diagnosis) reconfirmed live 20 Jul (hwlstudio.com/#diagnosis returns 200), unchanged. Task 2 (10 warm intro asks) still blocked: life/relationships.md checked directly 20 Jul, still says "list currently undefined," now 19 days past its own 1 Jul due date. Task 3 (LOR proof one-pager, due 4 Jul) checked 20 Jul: still no file anywhere in the repo (full-repo grep, only unrelated archived one-pager templates), still unstarted, now 16 days overdue. Task 4 (proof-led public post, was due 11 Jul) checked 20 Jul: content/pipeline.md read in full, zero draft or prep entry for the legibility thesis / proof-led post, now 9 days overdue with no work started.
-Days since last action (decompose): 22
-Next move: Same two Harrison inputs as the last six flags, unchanged: (1) name the 10 warm targets in life/relationships.md, that single input unblocks task 2 drafting; (2) decide whether/how to scope the LOR proof one-pager. Neither is a tap, both are genuinely stuck on Harrison. Telegram pushed 8 Jul (msg_id=523), 13 Jul (msg_id=533) and 17 Jul (msg_id=543), zero reply logged across any gap. Re-pushed this run: deadline runway now 11 days, task 5 (qualified call) due in 5 days (25 Jul) sitting behind two fully stalled feeder tasks now overdue by 19 and 16 days respectively. Harrison is travelling (Algarve, 20-25 Jul) as of this run, factor into urgency framing.
+Last action: Task 1 (Diagnosis) reconfirmed live 22 Jul (hwlstudio.com/#diagnosis returns 200 after redirect), unchanged. Task 2 (10 warm intro asks) still blocked: life/relationships.md checked directly 22 Jul (file untouched since 11 May), still says "list currently undefined," now 21 days past its own 1 Jul due date. Task 3 (LOR proof one-pager, due 4 Jul) checked 22 Jul: still no file anywhere in the repo (full-repo find, only unrelated archived one-pager templates), still unstarted, now 18 days overdue. Task 4 (proof-led public post, was due 11 Jul) checked 22 Jul: content/pipeline.md unchanged since 12 Jul, zero draft or prep entry for the legibility thesis / proof-led post, now 11 days overdue with no work started.
+Days since last action (decompose): 24
+Next move: Same two Harrison inputs, unchanged: (1) name the 10 warm targets in life/relationships.md, that single input unblocks task 2 drafting; (2) decide whether/how to scope the LOR proof one-pager. Neither is a tap, both are genuinely stuck on Harrison. Telegram pushed 8 Jul (msg_id=523), 13 Jul (msg_id=533), 17 Jul (msg_id=543) and 20 Jul (msg_id=554), zero reply logged across any gap. Re-pushed this run: deadline runway now 9 days, task 5 (qualified call) due in 3 days (25 Jul) sitting behind two fully stalled feeder tasks now overdue by 21 and 18 days respectively. Harrison flies home from Algarve 24 Jul.
 Blocker: Harrison input (name 10 targets) + Harrison scoping decision (one-pager). Campaign-chaser cannot draft either without this.
-Status: open, decision overdue. Day 22, 11 days to 31 Jul deadline. 1 of 5 tasks done, tasks 2 and 3 both static and overdue since the last six flags, task 4 now 9 days overdue with no prep evidence. Deadline at real risk: task 5 cannot happen on schedule with tasks 2/3 both untouched.
+Status: open, decision overdue. Day 24, 9 days to 31 Jul deadline. 1 of 5 tasks done, tasks 2 and 3 both static and overdue since the last seven flags, task 4 now 11 days overdue with no prep evidence. Deadline at real risk: task 5 cannot happen on schedule with tasks 2/3 both untouched.
 ```
 
 OPEN. Decomposed 28 June.

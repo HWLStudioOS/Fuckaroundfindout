@@ -1,0 +1,56 @@
+[Script Info]
+Title: Roger Martin micromanagement short
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Helvetica Now Display,96,&H00FFFFFF,&H00FFFFFF,&H70000000,&H00000000,-1,0,0,0,100,100,-1.5,0,1,1.6,0.8,2,70,70,430,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.61,Caption,,0,0,0,,That's
+Dialogue: 0,0:00:00.61,0:00:01.94,Caption,,0,0,0,,micromanaging.
+Dialogue: 0,0:00:01.94,0:00:03.05,Caption,,0,0,0,,Because what
+Dialogue: 0,0:00:03.05,0:00:03.65,Caption,,0,0,0,,are you
+Dialogue: 0,0:00:03.65,0:00:04.47,Caption,,0,0,0,,managing?
+Dialogue: 0,0:00:04.47,0:00:06.07,Caption,,0,0,0,,Inputs, right?
+Dialogue: 0,0:00:06.20,0:00:07.18,Caption,,0,0,0,,You're saying,
+Dialogue: 0,0:00:07.21,0:00:07.96,Caption,,0,0,0,,I want you
+Dialogue: 0,0:00:07.96,0:00:08.80,Caption,,0,0,0,,to do these
+Dialogue: 0,0:00:08.80,0:00:09.37,Caption,,0,0,0,,things
+Dialogue: 0,0:00:09.37,0:00:10.23,Caption,,0,0,0,,instead of
+Dialogue: 0,0:00:10.23,0:00:11.48,Caption,,0,0,0,,managing
+Dialogue: 0,0:00:11.48,0:00:12.00,Caption,,0,0,0,,outputs.
+Dialogue: 0,0:00:12.00,0:00:13.70,Caption,,0,0,0,,You figure
+Dialogue: 0,0:00:13.70,0:00:14.56,Caption,,0,0,0,,it out,
+Dialogue: 0,0:00:14.56,0:00:15.17,Caption,,0,0,0,,but the
+Dialogue: 0,0:00:15.17,0:00:15.62,Caption,,0,0,0,,output has
+Dialogue: 0,0:00:15.62,0:00:16.60,Caption,,0,0,0,,got to look
+Dialogue: 0,0:00:16.60,0:00:17.79,Caption,,0,0,0,,like this.
+Dialogue: 0,0:00:17.79,0:00:18.59,Caption,,0,0,0,,If you do
+Dialogue: 0,0:00:18.59,0:00:20.12,Caption,,0,0,0,,the former:
+Dialogue: 0,0:00:20.12,0:00:20.42,Caption,,0,0,0,,input.
+Dialogue: 0,0:00:20.42,0:00:21.77,Caption,,0,0,0,,Then they're
+Dialogue: 0,0:00:21.77,0:00:22.37,Caption,,0,0,0,,like,
+Dialogue: 0,0:00:22.37,0:00:23.28,Caption,,0,0,0,,What am I
+Dialogue: 0,0:00:23.28,0:00:24.08,Caption,,0,0,0,,a dog?
+Dialogue: 0,0:00:24.08,0:00:25.56,Caption,,0,0,0,,And if you
+Dialogue: 0,0:00:25.56,0:00:26.04,Caption,,0,0,0,,do the
+Dialogue: 0,0:00:26.04,0:00:27.16,Caption,,0,0,0,,output thing,
+Dialogue: 0,0:00:27.24,0:00:28.08,Caption,,0,0,0,,they say,
+Dialogue: 0,0:00:28.08,0:00:28.54,Caption,,0,0,0,,Man,
+Dialogue: 0,0:00:28.54,0:00:29.45,Caption,,0,0,0,,does my boss
+Dialogue: 0,0:00:29.45,0:00:30.23,Caption,,0,0,0,,ever have
+Dialogue: 0,0:00:30.23,0:00:30.69,Caption,,0,0,0,,a lot of
+Dialogue: 0,0:00:30.69,0:00:31.69,Caption,,0,0,0,,confidence
+Dialogue: 0,0:00:31.69,0:00:32.16,Caption,,0,0,0,,in my
+Dialogue: 0,0:00:32.16,0:00:32.64,Caption,,0,0,0,,thinking
+Dialogue: 0,0:00:32.64,0:00:33.52,Caption,,0,0,0,,capability?
+Dialogue: 0,0:00:33.53,0:00:34.17,Caption,,0,0,0,,What a great
+Dialogue: 0,0:00:34.17,0:00:35.02,Caption,,0,0,0,,boss I've got,
+Dialogue: 0,0:00:35.02,0:00:35.60,Caption,,0,0,0,,right?

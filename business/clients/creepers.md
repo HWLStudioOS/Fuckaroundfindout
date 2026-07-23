@@ -8,7 +8,7 @@ Active. Sandringham 2026 is the current content centrepiece. Shoot completed 17 
 
 ## Active state, 18 July 2026
 
-- **Sandringham shoot landed Friday 17 July.** Royal Legacy Garden coverage is in hand, including the Careys and Catharine interview plan. The stills card contains 252 Nikon RAWs on the UGREEN drive.
+- **Sandringham shoot landed Friday 17 July.** Royal Legacy Garden coverage is in hand, including the Careys and Catherine MacDonald interview plan. The stills card contains 252 Nikon RAWs on the UGREEN drive.
 - **Weekend post ready.** Five-photo field-note carousel exported to `output/social/creepers-sandringham-2026-07-18/`. Caption and upload order live in `business/clients/creepers-sandringham-weekend-post-2026-07-18.md`.
 - **Money needs closing.** The £950 Sandringham all-in day rate is still verbal only. June's £3,500 retainer still has no payment evidence. A combined thank-you, written-rate confirmation and retainer-check email is sitting in Gmail drafts to Anna and Sarah-Louise.
 - **Hero film remains blocked** on Michael Buck's exact RHS award wording and the Baz Grainger garden name.
@@ -37,7 +37,7 @@ Premium horticulture. Slow, considered. Documentary, not corporate. Director-of-
 | **Jemma Brown** | Marketing / Brand. |
 | **Michael Buck** | Head of Horticulture. Content star. |
 | **Baz Grainger** (Landform) | Chelsea designer. New Forest shoot. Spelling GRAINGER confirmed 11 Jun (RHS + Gardens Illustrated). |
-| **Catherine McDonald** (Landform) | Lead Garden Designer. Royal contracts. |
+| **Catherine MacDonald** (Landform) | Lead Garden Designer. Royal contracts. |
 
 ## Prior active state, last refreshed 25 May 2026
 

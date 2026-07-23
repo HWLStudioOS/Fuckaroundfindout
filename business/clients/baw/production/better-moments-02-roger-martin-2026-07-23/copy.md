@@ -67,7 +67,11 @@ Roger Martin says the difference is simple. Planning gives you initiatives. Stra
 
 This 13-minute Better Moment covers the question he uses to get a divided room moving, and why asking AI to write your strategy is likely to give you exactly what everyone else has.
 
-Roger Martin, in 13 minutes. Better Moments #2 is out now. Link in bio.
+We also turned the episode into a four-page Sum Up you can use with your team.
+
+Comment STRATEGY and we'll send it to you.
+
+Roger Martin, in 13 minutes. Better Moments #2 is out now. Episode link in bio.
 
 ## Cathal LinkedIn launch
 
@@ -89,6 +93,8 @@ Better Moments #2 with Roger Martin is out now.
 
 Posting note: put the episode link in the first comment. Tag Roger Martin and Better at Work.
 
+Artwork: `artwork/BetterAtWork-BetterMoments-02-RogerMartin-LinkedIn.png`
+
 ## Instagram story
 
 Frame 1:
@@ -107,7 +113,7 @@ OUT NOW
 
 Add the episode link sticker on frame 2.
 
-## Saturday vertical clip
+## Social vertical clip
 
 ### Working title
 
@@ -115,7 +121,7 @@ Roger Martin: Why Clarity Is Not Micromanagement
 
 ### On-screen treatment
 
-No hook card, logo, lower third or end card. White Helvetica Now Display captions only.
+No hook card, logo, lower third or end card. White Helvetica Now Display Bold captions only. Use single-line beats of 14 characters or fewer, with the tracking reduced slightly.
 
 ### Instagram caption
 
@@ -127,7 +133,7 @@ Manage the inputs and people are left thinking, "What am I, a dog?"
 
 Make the output unmistakably clear, then leave room for someone else to think.
 
-Better Moments #2 is out now. Link in bio.
+A new Better Moment with Roger lands tomorrow afternoon.
 
 ### Cathal LinkedIn caption
 
@@ -139,22 +145,22 @@ When you manage inputs, you tell someone which steps to take. When you manage th
 
 That is the difference between "do these five things" and "here is the result we need, show me how you would get there".
 
-This 35-second clip is from our conversation. Better Moments #2 with Roger Martin is out now. Link in the first comment.
+We went back through our conversation with Roger for the next Better Moment. It lands tomorrow afternoon.
 
 ## Message to Cathal about the later slot
 
 Moved the Roger Better Moment to 12:30 tomorrow. These shorter summer cuts do not need to inherit the 7am full-episode slot. Midday gives people a realistic lunchtime listen, then the social post can land at 12:45 once it is live everywhere.
 
-## Optional Sum Up insert, only after the funnel is live
-
-### Show notes
-
-Turn Roger's ideas into a four-page strategy conversation with the free Roger Martin Sum Up: [TRACKED LINK]
+## Sum Up distribution
 
 ### Instagram
 
-We also turned the framework into a four-page Sum Up you can use with your team. Get it through the link in bio.
+We also turned the episode into a four-page Sum Up you can use with your team.
 
-### LinkedIn
+Comment STRATEGY and we'll send it to you.
 
-We turned the framework into a short Sum Up for the next time your team needs to get underneath the plan. Link in the first comment.
+This line is live only after the ManyChat automation has passed an end-to-end test from a non-admin Instagram account.
+
+### Acast, YouTube and LinkedIn
+
+Keep the Sum Up out for this launch. Those channels need a public landing page, which is a separate build.

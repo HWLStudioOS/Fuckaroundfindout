@@ -41,4 +41,4 @@ Final length: 35.690 seconds.
 |---|---:|---:|---:|
 | Raw Roger camera and enhanced audio | 00:43:52.510 | 00:44:28.200 | 00:00:00 |
 
-The clip is one uninterrupted argument. Roger distinguishes managing inputs from managing outputs, lands the "What am I, a dog?" line, and finishes on the trust created when a leader leaves room for someone else to think. It uses a face-aware 9:16 crop and white Helvetica Now Display captions with a subtle outline for legibility. There is no hook card, logo, lower third, caption background or end card.
+The clip is one uninterrupted argument. Roger distinguishes managing inputs from managing outputs, lands the "What am I, a dog?" line, and finishes on the trust created when a leader leaves room for someone else to think. It uses a face-aware 9:16 crop and white Helvetica Now Display Bold captions at 96 px. Tracking is reduced by 1.5 and every single-line beat is 14 characters or fewer. There is no hook card, logo, lower third, caption background or end card.

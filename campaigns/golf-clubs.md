@@ -130,11 +130,11 @@ Thanks H
 > Auto-updated by campaign-chaser agent.
 
 ```
-Last action: Batch-1 openers still unsent, drafted 2 Jul, now 20 days past their own 4 Jul expiry. Reconfirmed via Gmail 22 Jul (combined sent + received search across all five club domains, zero results both directions). Tenth consecutive campaign-chaser cycle finding no movement.
-Days since last action: 20 (draft, 2 Jul)
-Next move: Same decision as the last nine flags, unchanged: (a) approve and send the five batch-1 openers as-is, (b) revise first, or (c) explicitly kill/hold this wave. Last cycle in the 11-20 day decision-overdue bracket. Next scheduled run 24 Jul is day 22, past the 21-day auto-kill threshold: if still untouched then, this wave auto-kills per the v2 rule. 24 Jul is also Harrison's flight home from Algarve (confirmed on calendar, moved earlier than the 25 Jul originally planned), so the auto-kill run lands on travel day.
-Blocker: Harrison decision + tap.
-Status: active, decision overdue. Zero sends, zero replies, tenth flag. Telegram pushed this run.
+Last action: Batch-1 openers auto-killed 2026-07-24. Drafted 2 Jul, never approved, now 22 days past draft and 20 days past the 4 Jul expiry. Reconfirmed via Gmail 24 Jul (combined sent + received search across all five club domains, zero results both directions) and Calendar (no meeting booked with any of the five). Eleventh consecutive campaign-chaser cycle finding no movement, now closed per the wave's own 21-day auto-kill rule.
+Days since last action: 22 (draft, 2 Jul)
+Next move: None pending on Batch 1. If Harrison wants to restart, redraft with fresh copy rather than resend expired openers (per v2's own post-mortem logic, stale drafts shouldn't go out silently). Batch 2 (Berkshire, Addington, Hadley Wood) still needs contact verification before any new send.
+Blocker: none (wave closed)
+Status: killed. Batch 1 auto-killed on schedule (day 22), zero sends across all 5 targets, zero replies, zero bites, eleven flags with no Harrison response. Not re-opening from silence, this is a positive dated close per the v2 rule embedded in this file.
 ```
 
 ## What Harrison does

@@ -1865,5 +1865,16 @@
     "readinessLevel": "HIGH",
     "acwr": 1.0,
     "acuteLoad": 113.0
+  },
+  {
+    "date": "2026-07-25",
+    "hrv": 57.0,
+    "hrvStatus": "BALANCED",
+    "stressAvg": -1,
+    "trainingReadiness": 87,
+    "readinessLevel": "HIGH",
+    "acwr": 1.0,
+    "acuteLoad": 98.0,
+    "vo2Max": 45.0
   }
 ]

@@ -1,0 +1,1775 @@
+{
+  "pulled_at": "2026-07-25T11:00:04.748476",
+  "date": "2026-07-25",
+  "raw": {
+    "stats_and_body": {
+      "userProfileId": 140456398,
+      "totalKilocalories": 774.0,
+      "activeKilocalories": 3.0,
+      "bmrKilocalories": 771.0,
+      "wellnessKilocalories": 774.0,
+      "burnedKilocalories": null,
+      "consumedKilocalories": null,
+      "remainingKilocalories": null,
+      "totalSteps": 106,
+      "netCalorieGoal": null,
+      "totalDistanceMeters": 88,
+      "wellnessDistanceMeters": 88,
+      "wellnessActiveKilocalories": 3.0,
+      "netRemainingKilocalories": 3.0,
+      "userDailySummaryId": 140456398,
+      "calendarDate": "2026-07-25",
+      "rule": {
+        "typeId": 2,
+        "typeKey": "private"
+      },
+      "uuid": "14b7535b3453474f9aed09d9259d0289",
+      "dailyStepGoal": 7960,
+      "wellnessStartTimeGmt": "2026-07-24T23:00:00.0",
+      "wellnessStartTimeLocal": "2026-07-25T00:00:00.0",
+      "wellnessEndTimeGmt": "2026-07-25T07:05:00.0",
+      "wellnessEndTimeLocal": "2026-07-25T08:05:00.0",
+      "durationInMilliseconds": 29100000,
+      "wellnessDescription": null,
+      "highlyActiveSeconds": 60,
+      "activeSeconds": 0,
+      "sedentarySeconds": 29040,
+      "sleepingSeconds": 0,
+      "includesWellnessData": true,
+      "includesActivityData": false,
+      "includesCalorieConsumedData": false,
+      "privacyProtected": false,
+      "moderateIntensityMinutes": 0,
+      "vigorousIntensityMinutes": 0,
+      "floorsAscendedInMeters": 0.0,
+      "floorsDescendedInMeters": 3.113,
+      "floorsAscended": 0.0,
+      "floorsDescended": 1.02133,
+      "intensityMinutesGoal": 150,
+      "userFloorsAscendedGoal": 10,
+      "minHeartRate": null,
+      "maxHeartRate": null,
+      "restingHeartRate": null,
+      "lastSevenDaysAvgRestingHeartRate": null,
+      "source": "GARMIN",
+      "averageStressLevel": -1,
+      "maxStressLevel": null,
+      "stressDuration": null,
+      "restStressDuration": null,
+      "activityStressDuration": null,
+      "uncategorizedStressDuration": 28980,
+      "totalStressDuration": 28980,
+      "lowStressDuration": null,
+      "mediumStressDuration": null,
+      "highStressDuration": null,
+      "stressPercentage": 0.0,
+      "restStressPercentage": 0.0,
+      "activityStressPercentage": 0.0,
+      "uncategorizedStressPercentage": 100.0,
+      "lowStressPercentage": 0.0,
+      "mediumStressPercentage": 0.0,
+      "highStressPercentage": 0.0,
+      "stressQualifier": "UNKNOWN",
+      "measurableAwakeDuration": 0,
+      "measurableAsleepDuration": 0,
+      "lastSyncTimestampGMT": "2026-07-25T07:05:48.533",
+      "minAvgHeartRate": null,
+      "maxAvgHeartRate": null,
+      "bodyBatteryChargedValue": null,
+      "bodyBatteryDrainedValue": null,
+      "bodyBatteryHighestValue": null,
+      "bodyBatteryLowestValue": null,
+      "bodyBatteryMostRecentValue": null,
+      "bodyBatteryDuringSleep": null,
+      "bodyBatteryAtWakeTime": null,
+      "bodyBatteryVersion": null,
+      "abnormalHeartRateAlertsCount": null,
+      "averageSpo2": null,
+      "lowestSpo2": null,
+      "latestSpo2": null,
+      "latestSpo2ReadingTimeGmt": null,
+      "latestSpo2ReadingTimeLocal": null,
+      "averageMonitoringEnvironmentAltitude": 207.0,
+      "restingCaloriesFromActivity": null,
+      "bodyBatteryDynamicFeedbackEvent": {
+        "eventTimestampGmt": "2026-07-25T07:00:44",
+        "bodyBatteryLevel": "HIGH",
+        "feedbackShortType": "NO_DATA",
+        "feedbackLongType": "NO_DATA"
+      },
+      "from": 1784937600000,
+      "until": 1785023999999,
+      "weight": null,
+      "bmi": null,
+      "bodyFat": null,
+      "bodyWater": null,
+      "boneMass": null,
+      "muscleMass": null,
+      "physiqueRating": null,
+      "visceralFat": null,
+      "metabolicAge": null,
+      "trend": null
+    },
+    "sleep": {
+      "dailySleepDTO": {
+        "id": null,
+        "userProfilePK": 140456398,
+        "calendarDate": "2026-07-25",
+        "sleepTimeSeconds": null,
+        "napTimeSeconds": null,
+        "sleepWindowConfirmed": null,
+        "sleepWindowConfirmationType": null,
+        "sleepStartTimestampGMT": null,
+        "sleepEndTimestampGMT": null,
+        "sleepStartTimestampLocal": null,
+        "sleepEndTimestampLocal": null,
+        "autoSleepStartTimestampGMT": null,
+        "autoSleepEndTimestampGMT": null,
+        "sleepQualityTypePK": null,
+        "sleepResultTypePK": null,
+        "unmeasurableSleepSeconds": null,
+        "deepSleepSeconds": null,
+        "lightSleepSeconds": null,
+        "remSleepSeconds": null,
+        "awakeSleepSeconds": null,
+        "deviceRemCapable": false,
+        "retro": false,
+        "sleepNeed": {
+          "userProfilePk": 140456398,
+          "calendarDate": "2026-07-25",
+          "deviceId": 3615229444,
+          "timestampGmt": "2026-07-24T06:31:21",
+          "baseline": 480,
+          "actual": 480,
+          "feedback": "NO_CHANGE_NO_ADJUSTMENTS",
+          "trainingFeedback": "NO_CHANGE",
+          "sleepHistoryAdjustment": "NO_CHANGE",
+          "hrvAdjustment": "NO_CHANGE",
+          "napAdjustment": "NO_CHANGE",
+          "displayedForTheDay": false,
+          "preferredActivityTracker": true
+        },
+        "nextSleepNeed": {
+          "userProfilePk": 140456398,
+          "calendarDate": "2026-07-26",
+          "deviceId": 3615229444,
+          "timestampGmt": "2026-07-25T05:03:36",
+          "baseline": 480,
+          "actual": 480,
+          "feedback": "NO_CHANGE_NO_ADJUSTMENTS",
+          "trainingFeedback": "NO_CHANGE",
+          "sleepHistoryAdjustment": "NO_CHANGE",
+          "hrvAdjustment": "NO_DATA",
+          "napAdjustment": "NO_CHANGE",
+          "displayedForTheDay": false,
+          "preferredActivityTracker": true
+        }
+      },
+      "sleepMovement": null,
+      "remSleepData": null,
+      "sleepLevels": null
+    },
+    "hrv": {
+      "userProfilePk": 140456398,
+      "hrvSummary": {
+        "calendarDate": "2026-07-25",
+        "weeklyAvg": 57,
+        "lastNightAvg": null,
+        "lastNight5MinHigh": null,
+        "baseline": {
+          "lowUpper": 49,
+          "balancedLow": 53,
+          "balancedUpper": 73,
+          "markerValue": 0.34999084
+        },
+        "status": "BALANCED",
+        "feedbackPhrase": "HRV_BALANCED_8",
+        "createTimeStamp": "2026-07-25T05:03:43.470"
+      },
+      "hrvReadings": [],
+      "startTimestampGMT": "2026-07-25T05:03:36.0",
+      "endTimestampGMT": "2026-07-25T05:03:38.0",
+      "startTimestampLocal": "2026-07-25T06:03:36.0",
+      "endTimestampLocal": "2026-07-25T06:03:38.0",
+      "sleepStartTimestampGMT": null,
+      "sleepEndTimestampGMT": null,
+      "sleepStartTimestampLocal": null,
+      "sleepEndTimestampLocal": null
+    },
+    "rhr": {
+      "userProfileId": 140456398,
+      "statisticsStartDate": "2026-07-25",
+      "statisticsEndDate": "2026-07-25",
+      "allMetrics": {
+        "metricsMap": {
+          "WELLNESS_RESTING_HEART_RATE": [
+            {
+              "value": null,
+              "calendarDate": "2026-07-25"
+            }
+          ]
+        }
+      },
+      "groupedMetrics": null
+    },
+    "stress": {
+      "userProfilePK": 140456398,
+      "calendarDate": "2026-07-25",
+      "startTimestampGMT": "2026-07-24T23:00:00.0",
+      "endTimestampGMT": "2026-07-25T07:05:00.0",
+      "startTimestampLocal": "2026-07-25T00:00:00.0",
+      "endTimestampLocal": "2026-07-25T08:05:00.0",
+      "maxStressLevel": null,
+      "avgStressLevel": -1,
+      "stressChartValueOffset": 1,
+      "stressChartYAxisOrigin": -1,
+      "stressValueDescriptorsDTOList": [
+        {
+          "index": 0,
+          "key": "timestamp"
+        },
+        {
+          "index": 1,
+          "key": "stressLevel"
+        }
+      ],
+      "stressValuesArray": [
+        [
+          1784934000000,
+          -1
+        ],
+        [
+          1784934180000,
+          -1
+        ],
+        [
+          1784934360000,
+          -1
+        ],
+        [
+          1784934540000,
+          -1
+        ],
+        [
+          1784934720000,
+          -1
+        ],
+        [
+          1784934900000,
+          -1
+        ],
+        [
+          1784935080000,
+          -1
+        ],
+        [
+          1784935260000,
+          -1
+        ],
+        [
+          1784935440000,
+          -1
+        ],
+        [
+          1784935620000,
+          -1
+        ],
+        [
+          1784935800000,
+          -1
+        ],
+        [
+          1784935980000,
+          -1
+        ],
+        [
+          1784936160000,
+          -1
+        ],
+        [
+          1784936340000,
+          -1
+        ],
+        [
+          1784936520000,
+          -1
+        ],
+        [
+          1784936700000,
+          -1
+        ],
+        [
+          1784936880000,
+          -1
+        ],
+        [
+          1784937060000,
+          -1
+        ],
+        [
+          1784937240000,
+          -1
+        ],
+        [
+          1784937420000,
+          -1
+        ],
+        [
+          1784937600000,
+          -1
+        ],
+        [
+          1784937780000,
+          -1
+        ],
+        [
+          1784937960000,
+          -1
+        ],
+        [
+          1784938140000,
+          -1
+        ],
+        [
+          1784938320000,
+          -1
+        ],
+        [
+          1784938500000,
+          -1
+        ],
+        [
+          1784938680000,
+          -1
+        ],
+        [
+          1784938860000,
+          -1
+        ],
+        [
+          1784939040000,
+          -1
+        ],
+        [
+          1784939220000,
+          -1
+        ],
+        [
+          1784939400000,
+          -1
+        ],
+        [
+          1784939580000,
+          -1
+        ],
+        [
+          1784939760000,
+          -1
+        ],
+        [
+          1784939940000,
+          -1
+        ],
+        [
+          1784940120000,
+          -1
+        ],
+        [
+          1784940300000,
+          -1
+        ],
+        [
+          1784940480000,
+          -1
+        ],
+        [
+          1784940660000,
+          -1
+        ],
+        [
+          1784940840000,
+          -1
+        ],
+        [
+          1784941020000,
+          -1
+        ],
+        [
+          1784941200000,
+          -1
+        ],
+        [
+          1784941380000,
+          -1
+        ],
+        [
+          1784941560000,
+          -1
+        ],
+        [
+          1784941740000,
+          -1
+        ],
+        [
+          1784941920000,
+          -1
+        ],
+        [
+          1784942100000,
+          -1
+        ],
+        [
+          1784942280000,
+          -1
+        ],
+        [
+          1784942460000,
+          -1
+        ],
+        [
+          1784942640000,
+          -1
+        ],
+        [
+          1784942820000,
+          -1
+        ],
+        [
+          1784943000000,
+          -1
+        ],
+        [
+          1784943180000,
+          -1
+        ],
+        [
+          1784943360000,
+          -1
+        ],
+        [
+          1784943540000,
+          -1
+        ],
+        [
+          1784943720000,
+          -1
+        ],
+        [
+          1784943900000,
+          -1
+        ],
+        [
+          1784944080000,
+          -1
+        ],
+        [
+          1784944260000,
+          -1
+        ],
+        [
+          1784944440000,
+          -1
+        ],
+        [
+          1784944620000,
+          -1
+        ],
+        [
+          1784944800000,
+          -1
+        ],
+        [
+          1784944980000,
+          -1
+        ],
+        [
+          1784945160000,
+          -1
+        ],
+        [
+          1784945340000,
+          -1
+        ],
+        [
+          1784945520000,
+          -1
+        ],
+        [
+          1784945700000,
+          -1
+        ],
+        [
+          1784945880000,
+          -1
+        ],
+        [
+          1784946060000,
+          -1
+        ],
+        [
+          1784946240000,
+          -1
+        ],
+        [
+          1784946420000,
+          -1
+        ],
+        [
+          1784946600000,
+          -1
+        ],
+        [
+          1784946780000,
+          -1
+        ],
+        [
+          1784946960000,
+          -1
+        ],
+        [
+          1784947140000,
+          -1
+        ],
+        [
+          1784947320000,
+          -1
+        ],
+        [
+          1784947500000,
+          -1
+        ],
+        [
+          1784947680000,
+          -1
+        ],
+        [
+          1784947860000,
+          -1
+        ],
+        [
+          1784948040000,
+          -1
+        ],
+        [
+          1784948220000,
+          -1
+        ],
+        [
+          1784948400000,
+          -1
+        ],
+        [
+          1784948580000,
+          -1
+        ],
+        [
+          1784948760000,
+          -1
+        ],
+        [
+          1784948940000,
+          -1
+        ],
+        [
+          1784949120000,
+          -1
+        ],
+        [
+          1784949300000,
+          -1
+        ],
+        [
+          1784949480000,
+          -1
+        ],
+        [
+          1784949660000,
+          -1
+        ],
+        [
+          1784949840000,
+          -1
+        ],
+        [
+          1784950020000,
+          -1
+        ],
+        [
+          1784950200000,
+          -1
+        ],
+        [
+          1784950380000,
+          -1
+        ],
+        [
+          1784950560000,
+          -1
+        ],
+        [
+          1784950740000,
+          -1
+        ],
+        [
+          1784950920000,
+          -1
+        ],
+        [
+          1784951100000,
+          -1
+        ],
+        [
+          1784951280000,
+          -1
+        ],
+        [
+          1784951460000,
+          -1
+        ],
+        [
+          1784951640000,
+          -1
+        ],
+        [
+          1784951820000,
+          -1
+        ],
+        [
+          1784952000000,
+          -1
+        ],
+        [
+          1784952180000,
+          -1
+        ],
+        [
+          1784952360000,
+          -1
+        ],
+        [
+          1784952540000,
+          -1
+        ],
+        [
+          1784952720000,
+          -1
+        ],
+        [
+          1784952900000,
+          -1
+        ],
+        [
+          1784953080000,
+          -1
+        ],
+        [
+          1784953260000,
+          -1
+        ],
+        [
+          1784953440000,
+          -1
+        ],
+        [
+          1784953620000,
+          -1
+        ],
+        [
+          1784953800000,
+          -1
+        ],
+        [
+          1784953980000,
+          -1
+        ],
+        [
+          1784954160000,
+          -1
+        ],
+        [
+          1784954340000,
+          -1
+        ],
+        [
+          1784954520000,
+          -1
+        ],
+        [
+          1784954700000,
+          -1
+        ],
+        [
+          1784954880000,
+          -1
+        ],
+        [
+          1784955060000,
+          -1
+        ],
+        [
+          1784955240000,
+          -1
+        ],
+        [
+          1784955420000,
+          -1
+        ],
+        [
+          1784955600000,
+          -1
+        ],
+        [
+          1784955780000,
+          -1
+        ],
+        [
+          1784955960000,
+          -1
+        ],
+        [
+          1784956140000,
+          -1
+        ],
+        [
+          1784956320000,
+          -1
+        ],
+        [
+          1784956500000,
+          -1
+        ],
+        [
+          1784956680000,
+          -1
+        ],
+        [
+          1784956860000,
+          -1
+        ],
+        [
+          1784957040000,
+          -1
+        ],
+        [
+          1784957220000,
+          -1
+        ],
+        [
+          1784957400000,
+          -1
+        ],
+        [
+          1784957580000,
+          -1
+        ],
+        [
+          1784957760000,
+          -1
+        ],
+        [
+          1784957940000,
+          -1
+        ],
+        [
+          1784958120000,
+          -1
+        ],
+        [
+          1784958300000,
+          -1
+        ],
+        [
+          1784958480000,
+          -1
+        ],
+        [
+          1784958660000,
+          -1
+        ],
+        [
+          1784958840000,
+          -1
+        ],
+        [
+          1784959020000,
+          -1
+        ],
+        [
+          1784959200000,
+          -1
+        ],
+        [
+          1784959380000,
+          -1
+        ],
+        [
+          1784959560000,
+          -1
+        ],
+        [
+          1784959740000,
+          -1
+        ],
+        [
+          1784959920000,
+          -1
+        ],
+        [
+          1784960100000,
+          -1
+        ],
+        [
+          1784960280000,
+          -1
+        ],
+        [
+          1784960460000,
+          -1
+        ],
+        [
+          1784960640000,
+          -1
+        ],
+        [
+          1784960820000,
+          -1
+        ],
+        [
+          1784961000000,
+          -1
+        ],
+        [
+          1784961180000,
+          -1
+        ],
+        [
+          1784961360000,
+          -1
+        ],
+        [
+          1784961540000,
+          -1
+        ],
+        [
+          1784961720000,
+          -1
+        ],
+        [
+          1784961900000,
+          -1
+        ],
+        [
+          1784962080000,
+          -1
+        ],
+        [
+          1784962260000,
+          -1
+        ],
+        [
+          1784962440000,
+          -1
+        ],
+        [
+          1784962620000,
+          -1
+        ],
+        [
+          1784962800000,
+          -1
+        ],
+        [
+          1784962980000,
+          -1
+        ]
+      ]
+    },
+    "body_battery": [
+      {
+        "date": "2026-07-25",
+        "charged": null,
+        "drained": null,
+        "startTimestampGMT": "2026-07-24T23:00:00.0",
+        "endTimestampGMT": "2026-07-25T07:05:00.0",
+        "startTimestampLocal": "2026-07-25T00:00:00.0",
+        "endTimestampLocal": "2026-07-25T08:05:00.0",
+        "bodyBatteryValuesArray": [
+          [
+            1784937600001,
+            null
+          ],
+          [
+            1784937600002,
+            null
+          ],
+          [
+            1784937600003,
+            null
+          ],
+          [
+            1784937600004,
+            null
+          ],
+          [
+            1784937600005,
+            null
+          ],
+          [
+            1784937600006,
+            null
+          ]
+        ],
+        "bodyBatteryValueDescriptorDTOList": [
+          {
+            "bodyBatteryValueDescriptorIndex": 0,
+            "bodyBatteryValueDescriptorKey": "timestamp"
+          },
+          {
+            "bodyBatteryValueDescriptorIndex": 1,
+            "bodyBatteryValueDescriptorKey": "bodyBatteryLevel"
+          }
+        ],
+        "bodyBatteryDynamicFeedbackEvent": {
+          "eventTimestampGmt": "2026-07-25T07:00:44.0",
+          "bodyBatteryLevel": "HIGH",
+          "feedbackShortType": "NO_DATA",
+          "feedbackLongType": "NO_DATA"
+        }
+      }
+    ],
+    "training_readiness": [
+      {
+        "userProfilePK": 140456398,
+        "calendarDate": "2026-07-25",
+        "timestamp": "2026-07-25T05:03:36.0",
+        "timestampLocal": "2026-07-25T06:03:36.0",
+        "deviceId": 3615229444,
+        "level": "HIGH",
+        "feedbackLong": "HIGH_RT_AVAILABLE_SS_UNKNOWN_ACWR_POS",
+        "feedbackShort": "WELL_RECOVERED",
+        "score": 87,
+        "sleepScore": null,
+        "sleepScoreFactorPercent": 0,
+        "sleepScoreFactorFeedback": "NONE",
+        "recoveryTime": 1,
+        "recoveryTimeFactorPercent": 99,
+        "recoveryTimeFactorFeedback": "GOOD",
+        "acwrFactorPercent": 100,
+        "acwrFactorFeedback": "VERY_GOOD",
+        "acuteLoad": 98,
+        "stressHistoryFactorPercent": 62,
+        "stressHistoryFactorFeedback": "MODERATE",
+        "hrvFactorPercent": 94,
+        "hrvFactorFeedback": "GOOD",
+        "hrvWeeklyAverage": 57,
+        "sleepHistoryFactorPercent": 65,
+        "sleepHistoryFactorFeedback": "MODERATE",
+        "validSleep": false,
+        "inputContext": "AFTER_WAKEUP_RESET",
+        "primaryActivityTracker": true,
+        "recoveryTimeChangePhrase": null
+      }
+    ],
+    "training_status": {
+      "userId": 140456398,
+      "mostRecentVO2Max": {
+        "userId": 140456398,
+        "generic": {
+          "calendarDate": "2026-07-11",
+          "vo2MaxPreciseValue": 44.6,
+          "vo2MaxValue": 45.0,
+          "fitnessAge": null,
+          "fitnessAgeDescription": null,
+          "maxMetCategory": 0
+        },
+        "cycling": null,
+        "heatAltitudeAcclimation": {
+          "calendarDate": "2026-07-25",
+          "altitudeAcclimationDate": "2026-07-24",
+          "previousAltitudeAcclimationDate": "2026-07-24",
+          "heatAcclimationDate": "2026-07-24",
+          "previousHeatAcclimationDate": "2026-07-23",
+          "altitudeAcclimation": 0,
+          "previousAltitudeAcclimation": 0,
+          "heatAcclimationPercentage": 5,
+          "previousHeatAcclimationPercentage": 7,
+          "heatTrend": "DEACCLIMATIZING",
+          "altitudeTrend": null,
+          "currentAltitude": 0,
+          "previousAltitude": 0,
+          "acclimationPercentage": 0,
+          "previousAcclimationPercentage": 0,
+          "altitudeAcclimationLocalTimestamp": "2026-07-25T00:03:36.0"
+        }
+      },
+      "mostRecentTrainingLoadBalance": {
+        "userId": 140456398,
+        "metricsTrainingLoadBalanceDTOMap": {
+          "3615229444": {
+            "calendarDate": "2026-07-25",
+            "deviceId": 3615229444,
+            "monthlyLoadAerobicLow": 656.38873,
+            "monthlyLoadAerobicHigh": 625.9431,
+            "monthlyLoadAnaerobic": 31.90445,
+            "monthlyLoadAerobicLowTargetMin": 303,
+            "monthlyLoadAerobicLowTargetMax": 822,
+            "monthlyLoadAerobicHighTargetMin": 649,
+            "monthlyLoadAerobicHighTargetMax": 1169,
+            "monthlyLoadAnaerobicTargetMin": 173,
+            "monthlyLoadAnaerobicTargetMax": 519,
+            "trainingBalanceFeedbackPhrase": "AEROBIC_HIGH_SHORTAGE",
+            "primaryTrainingDevice": true
+          }
+        },
+        "recordedDevices": [
+          {
+            "deviceId": 3615229444,
+            "imageURL": "https://res.garmin.com/en/products/010-02809-00/v/c1_01_md.png",
+            "deviceName": "Forerunner 965",
+            "category": 0
+          }
+        ]
+      },
+      "mostRecentTrainingStatus": {
+        "userId": 140456398,
+        "latestTrainingStatusData": {
+          "3615229444": {
+            "calendarDate": "2026-07-25",
+            "sinceDate": "2026-07-18",
+            "weeklyTrainingLoad": null,
+            "trainingStatus": 5,
+            "timestamp": 1784955816000,
+            "deviceId": 3615229444,
+            "loadTunnelMin": null,
+            "loadTunnelMax": null,
+            "loadLevelTrend": null,
+            "sport": "RUNNING",
+            "subSport": "GENERIC",
+            "fitnessTrendSport": "RUNNING",
+            "fitnessTrend": 2,
+            "trainingStatusFeedbackPhrase": "RECOVERY_2",
+            "trainingPaused": false,
+            "acuteTrainingLoadDTO": {
+              "acwrPercent": 8,
+              "acwrStatus": "LOW",
+              "acwrStatusFeedback": "FEEDBACK_1",
+              "dailyTrainingLoadAcute": 98,
+              "maxTrainingLoadChronic": 525.0,
+              "minTrainingLoadChronic": 280.0,
+              "dailyTrainingLoadChronic": 350,
+              "dailyAcuteChronicWorkloadRatio": 0.2
+            },
+            "primaryTrainingDevice": true
+          }
+        },
+        "recordedDevices": [
+          {
+            "deviceId": 3615229444,
+            "imageURL": "https://res.garmin.com/en/products/010-02809-00/v/c1_01_md.png",
+            "deviceName": "Forerunner 965",
+            "category": 0
+          }
+        ],
+        "showSelector": false,
+        "lastPrimarySyncDate": "2026-07-25"
+      },
+      "heatAltitudeAcclimationDTO": null
+    },
+    "max_metrics": [],
+    "activities": [
+      {
+        "activityId": 23700153477,
+        "activityName": "Treadmill Running",
+        "startTimeLocal": "2026-07-23 09:11:41",
+        "startTimeGMT": "2026-07-23 08:11:41",
+        "activityType": {
+          "typeId": 18,
+          "typeKey": "treadmill_running",
+          "parentTypeId": 1,
+          "isHidden": false,
+          "restricted": false,
+          "trimmable": true
+        },
+        "eventType": {
+          "typeId": 9,
+          "typeKey": "uncategorized",
+          "sortOrder": 10
+        },
+        "distance": 5062.75,
+        "duration": 1873.85595703125,
+        "elapsedDuration": 1873.85595703125,
+        "movingDuration": 1854.4240112304688,
+        "averageSpeed": 2.7019999027252197,
+        "maxSpeed": 3.013999938964844,
+        "hasPolyline": false,
+        "hasImages": false,
+        "ownerId": 140456398,
+        "ownerDisplayName": "83207c5a-c7de-42a5-9c50-a4f60a66466a",
+        "ownerFullName": "Harrison Living",
+        "calories": 357.0,
+        "bmrCalories": 50.0,
+        "averageHR": 144.0,
+        "maxHR": 166.0,
+        "averageRunningCadenceInStepsPerMinute": 154.84375,
+        "maxRunningCadenceInStepsPerMinute": 167.0,
+        "steps": 4820,
+        "userRoles": [
+          "SCOPE_GOLF_API_READ",
+          "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+          "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+          "SCOPE_ATP_READ",
+          "SCOPE_DIVE_API_WRITE",
+          "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
+          "SCOPE_DIVE_API_READ",
+          "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
+          "SCOPE_DI_OAUTH_2_CLIENT_READ",
+          "SCOPE_CONNECT_WRITE",
+          "SCOPE_COMMUNITY_COURSE_WRITE",
+          "SCOPE_CONNECT_MCT_DAILY_LOG_READ",
+          "SCOPE_CONNECT_API_CREATE_UPDATE_USER",
+          "SCOPE_MESSAGE_GENERATION_READ",
+          "SCOPE_DI_OAUTH_2_CLIENT_REVOCATION_ADMIN",
+          "SCOPE_CONNECT_WEB_TEMPLATE_RENDER",
+          "SCOPE_ACTIVITY_DETECTION_READ",
+          "SCOPE_OMT_SUBSCRIPTION_ADMIN_READ",
+          "SCOPE_DI_OAUTH_2_MANAGED_STATUS_ADMIN_WRITE",
+          "SCOPE_CONNECT_NON_SOCIAL_SHARED_READ",
+          "SCOPE_CONNECT_READ",
+          "SCOPE_DI_OAUTH_2_PRERELEASE_PERMISSIONS_ADMIN_WRITE",
+          "SCOPE_DI_OAUTH_2_TOKEN_ADMIN",
+          "SCOPE_ATP_WRITE",
+          "ROLE_CONNECTUSER",
+          "ROLE_FITNESS_USER",
+          "ROLE_WELLNESS_USER",
+          "ROLE_OUTDOOR_USER",
+          "ROLE_GARMIN_USER"
+        ],
+        "privacy": {
+          "typeId": 2,
+          "typeKey": "private"
+        },
+        "userPro": false,
+        "hasVideo": false,
+        "timeZoneId": 159,
+        "beginTimestamp": 1784794301000,
+        "sportTypeId": 1,
+        "avgPower": 320.0,
+        "maxPower": 386.0,
+        "aerobicTrainingEffect": 3.0,
+        "anaerobicTrainingEffect": 0.0,
+        "normPower": 331.0,
+        "avgVerticalOscillation": 9.05999984741211,
+        "avgGroundContactTime": 288.20001220703125,
+        "avgStrideLength": 104.9,
+        "avgVerticalRatio": 8.649999618530273,
+        "deviceId": 3615229444,
+        "maxDoubleCadence": 167.0,
+        "summarizedDiveInfo": {
+          "summarizedDiveGases": []
+        },
+        "manufacturer": "GARMIN",
+        "lapCount": 6,
+        "waterEstimated": 520.0,
+        "trainingEffectLabel": "AEROBIC_BASE",
+        "activityTrainingLoad": 70.98721313476562,
+        "minActivityLapDuration": 22.802000045776367,
+        "aerobicTrainingEffectMessage": "IMPROVING_AEROBIC_BASE_8",
+        "anaerobicTrainingEffectMessage": "NO_ANAEROBIC_BENEFIT_0",
+        "splitSummaries": [
+          {
+            "noOfSplits": 1,
+            "duration": 1873.85595703125,
+            "splitType": "INTERVAL_ACTIVE",
+            "numClimbSends": 0,
+            "maxDistance": 5062,
+            "maxDistanceWithPrecision": 5062.75,
+            "distance": 5062.75,
+            "averageSpeed": 2.7019999027252197,
+            "maxSpeed": 3.0139999389648438,
+            "numFalls": 0
+          },
+          {
+            "noOfSplits": 2,
+            "duration": 17.000999450683594,
+            "splitType": "RWD_STAND",
+            "numClimbSends": 0,
+            "maxDistance": 0,
+            "maxDistanceWithPrecision": 0.0,
+            "distance": 0.0,
+            "averageSpeed": 0.0,
+            "maxSpeed": 0.0,
+            "numFalls": 0
+          },
+          {
+            "noOfSplits": 1,
+            "duration": 1749.8280029296875,
+            "splitType": "RWD_RUN",
+            "numClimbSends": 0,
+            "maxDistance": 4910,
+            "maxDistanceWithPrecision": 4910.1298828125,
+            "distance": 4910.1298828125,
+            "averageSpeed": 2.805999994277954,
+            "maxSpeed": 3.0139999389648438,
+            "numFalls": 0
+          },
+          {
+            "noOfSplits": 2,
+            "duration": 107.0,
+            "splitType": "RWD_WALK",
+            "numClimbSends": 0,
+            "maxDistance": 152,
+            "maxDistanceWithPrecision": 152.61000061035156,
+            "distance": 152.61000061035156,
+            "averageSpeed": 1.4259999990463257,
+            "maxSpeed": 1.5859999656677246,
+            "numFalls": 0
+          }
+        ],
+        "hasSplits": true,
+        "hasIntensityIntervals": false,
+        "moderateIntensityMinutes": 2,
+        "vigorousIntensityMinutes": 26,
+        "differenceBodyBattery": -7,
+        "hasHeatMap": false,
+        "hrTimeInZone_1": 453.968,
+        "hrTimeInZone_2": 916.978,
+        "hrTimeInZone_3": 348.664,
+        "hrTimeInZone_4": 0.0,
+        "hrTimeInZone_5": 0.0,
+        "powerTimeInZone_1": 31.688,
+        "powerTimeInZone_2": 1167.945,
+        "powerTimeInZone_3": 535.979,
+        "powerTimeInZone_4": 1.999,
+        "powerTimeInZone_5": 0.0,
+        "endTimeGMT": "2026-07-23 08:42:54",
+        "qualifyingDive": false,
+        "activityUUID": "28bdb7bb-ae90-4efc-9e96-241903111418",
+        "parent": false,
+        "purposeful": false,
+        "favorite": false,
+        "decoDive": false,
+        "pr": false,
+        "manualActivity": false,
+        "autoCalcCalories": false,
+        "elevationCorrected": false,
+        "atpActivity": false
+      },
+      {
+        "activityId": 23687491228,
+        "activityName": "Strength",
+        "startTimeLocal": "2026-07-22 08:50:55",
+        "startTimeGMT": "2026-07-22 07:50:55",
+        "activityType": {
+          "typeId": 13,
+          "typeKey": "strength_training",
+          "parentTypeId": 29,
+          "isHidden": false,
+          "restricted": false,
+          "trimmable": false
+        },
+        "eventType": {
+          "typeId": 9,
+          "typeKey": "uncategorized",
+          "sortOrder": 10
+        },
+        "distance": 0.0,
+        "duration": 2573.741943359375,
+        "elapsedDuration": 2573.741943359375,
+        "movingDuration": 2414.925048828125,
+        "averageSpeed": 0.0,
+        "hasPolyline": false,
+        "hasImages": false,
+        "ownerId": 140456398,
+        "ownerDisplayName": "83207c5a-c7de-42a5-9c50-a4f60a66466a",
+        "ownerFullName": "Harrison Living",
+        "calories": 206.0,
+        "bmrCalories": 68.0,
+        "averageHR": 100.0,
+        "maxHR": 146.0,
+        "steps": 18,
+        "userRoles": [
+          "SCOPE_GOLF_API_READ",
+          "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+          "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+          "SCOPE_ATP_READ",
+          "SCOPE_DIVE_API_WRITE",
+          "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
+          "SCOPE_DIVE_API_READ",
+          "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
+          "SCOPE_DI_OAUTH_2_CLIENT_READ",
+          "SCOPE_CONNECT_WRITE",
+          "SCOPE_COMMUNITY_COURSE_WRITE",
+          "SCOPE_CONNECT_MCT_DAILY_LOG_READ",
+          "SCOPE_CONNECT_API_CREATE_UPDATE_USER",
+          "SCOPE_MESSAGE_GENERATION_READ",
+          "SCOPE_DI_OAUTH_2_CLIENT_REVOCATION_ADMIN",
+          "SCOPE_CONNECT_WEB_TEMPLATE_RENDER",
+          "SCOPE_ACTIVITY_DETECTION_READ",
+          "SCOPE_OMT_SUBSCRIPTION_ADMIN_READ",
+          "SCOPE_DI_OAUTH_2_MANAGED_STATUS_ADMIN_WRITE",
+          "SCOPE_CONNECT_NON_SOCIAL_SHARED_READ",
+          "SCOPE_CONNECT_READ",
+          "SCOPE_DI_OAUTH_2_PRERELEASE_PERMISSIONS_ADMIN_WRITE",
+          "SCOPE_DI_OAUTH_2_TOKEN_ADMIN",
+          "SCOPE_ATP_WRITE",
+          "ROLE_CONNECTUSER",
+          "ROLE_FITNESS_USER",
+          "ROLE_WELLNESS_USER",
+          "ROLE_OUTDOOR_USER",
+          "ROLE_GARMIN_USER"
+        ],
+        "privacy": {
+          "typeId": 2,
+          "typeKey": "private"
+        },
+        "userPro": false,
+        "hasVideo": false,
+        "timeZoneId": 159,
+        "beginTimestamp": 1784706655000,
+        "sportTypeId": 10,
+        "aerobicTrainingEffect": 0.6000000238418579,
+        "anaerobicTrainingEffect": 0.0,
+        "deviceId": 3615229444,
+        "summarizedExerciseSets": [
+          {
+            "category": "SIT_UP",
+            "reps": 4,
+            "volume": 0,
+            "duration": 493763.00048828125,
+            "sets": 1,
+            "maxWeight": 0
+          },
+          {
+            "category": "SHRUG",
+            "reps": 5,
+            "volume": 0,
+            "duration": 1921161.9873046875,
+            "sets": 1,
+            "maxWeight": 0
+          }
+        ],
+        "summarizedDiveInfo": {
+          "summarizedDiveGases": []
+        },
+        "manufacturer": "GARMIN",
+        "lapCount": 1,
+        "waterEstimated": 421.0,
+        "totalSets": 2,
+        "activeSets": 2,
+        "totalReps": 9,
+        "trainingEffectLabel": "AEROBIC_BASE",
+        "activityTrainingLoad": 7.6556549072265625,
+        "minActivityLapDuration": 2573.741943359375,
+        "aerobicTrainingEffectMessage": "MINOR_AEROBIC_BENEFIT_6",
+        "anaerobicTrainingEffectMessage": "NO_ANAEROBIC_BENEFIT_0",
+        "splitSummaries": [],
+        "hasSplits": false,
+        "hasIntensityIntervals": false,
+        "moderateIntensityMinutes": 20,
+        "vigorousIntensityMinutes": 0,
+        "differenceBodyBattery": -6,
+        "hasHeatMap": false,
+        "hrTimeInZone_1": 457.549,
+        "hrTimeInZone_2": 11.749,
+        "hrTimeInZone_3": 0.0,
+        "hrTimeInZone_4": 0.0,
+        "hrTimeInZone_5": 0.0,
+        "endTimeGMT": "2026-07-22 08:33:48",
+        "qualifyingDive": false,
+        "activityUUID": "006e6d2f-5c8c-4f68-bd25-adea195a22af",
+        "parent": false,
+        "purposeful": false,
+        "favorite": false,
+        "decoDive": false,
+        "pr": false,
+        "manualActivity": false,
+        "autoCalcCalories": false,
+        "elevationCorrected": false,
+        "atpActivity": false
+      },
+      {
+        "activityId": 23673961490,
+        "activityName": "Strength",
+        "startTimeLocal": "2026-07-21 07:54:17",
+        "startTimeGMT": "2026-07-21 06:54:17",
+        "activityType": {
+          "typeId": 13,
+          "typeKey": "strength_training",
+          "parentTypeId": 29,
+          "isHidden": false,
+          "restricted": false,
+          "trimmable": false
+        },
+        "eventType": {
+          "typeId": 9,
+          "typeKey": "uncategorized",
+          "sortOrder": 10
+        },
+        "distance": 0.0,
+        "duration": 2744.8330078125,
+        "elapsedDuration": 2744.8330078125,
+        "movingDuration": 2596.701904296875,
+        "averageSpeed": 0.0,
+        "hasPolyline": false,
+        "hasImages": false,
+        "ownerId": 140456398,
+        "ownerDisplayName": "83207c5a-c7de-42a5-9c50-a4f60a66466a",
+        "ownerFullName": "Harrison Living",
+        "calories": 217.0,
+        "bmrCalories": 73.0,
+        "averageHR": 99.0,
+        "maxHR": 159.0,
+        "steps": 12,
+        "userRoles": [
+          "SCOPE_GOLF_API_READ",
+          "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+          "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+          "SCOPE_ATP_READ",
+          "SCOPE_DIVE_API_WRITE",
+          "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
+          "SCOPE_DIVE_API_READ",
+          "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
+          "SCOPE_DI_OAUTH_2_CLIENT_READ",
+          "SCOPE_CONNECT_WRITE",
+          "SCOPE_COMMUNITY_COURSE_WRITE",
+          "SCOPE_CONNECT_MCT_DAILY_LOG_READ",
+          "SCOPE_CONNECT_API_CREATE_UPDATE_USER",
+          "SCOPE_MESSAGE_GENERATION_READ",
+          "SCOPE_DI_OAUTH_2_CLIENT_REVOCATION_ADMIN",
+          "SCOPE_CONNECT_WEB_TEMPLATE_RENDER",
+          "SCOPE_ACTIVITY_DETECTION_READ",
+          "SCOPE_OMT_SUBSCRIPTION_ADMIN_READ",
+          "SCOPE_DI_OAUTH_2_MANAGED_STATUS_ADMIN_WRITE",
+          "SCOPE_CONNECT_NON_SOCIAL_SHARED_READ",
+          "SCOPE_CONNECT_READ",
+          "SCOPE_DI_OAUTH_2_PRERELEASE_PERMISSIONS_ADMIN_WRITE",
+          "SCOPE_DI_OAUTH_2_TOKEN_ADMIN",
+          "SCOPE_ATP_WRITE",
+          "ROLE_CONNECTUSER",
+          "ROLE_FITNESS_USER",
+          "ROLE_WELLNESS_USER",
+          "ROLE_OUTDOOR_USER",
+          "ROLE_GARMIN_USER"
+        ],
+        "privacy": {
+          "typeId": 2,
+          "typeKey": "private"
+        },
+        "userPro": false,
+        "hasVideo": false,
+        "timeZoneId": 159,
+        "beginTimestamp": 1784616857000,
+        "sportTypeId": 10,
+        "aerobicTrainingEffect": 0.699999988079071,
+        "anaerobicTrainingEffect": 1.0,
+        "deviceId": 3615229444,
+        "summarizedExerciseSets": [
+          {
+            "category": "UNKNOWN",
+            "reps": 6,
+            "volume": 0,
+            "duration": 2596702.0263671875,
+            "sets": 2,
+            "maxWeight": 0
+          }
+        ],
+        "summarizedDiveInfo": {
+          "summarizedDiveGases": []
+        },
+        "manufacturer": "GARMIN",
+        "lapCount": 1,
+        "waterEstimated": 449.0,
+        "totalSets": 2,
+        "activeSets": 2,
+        "totalReps": 6,
+        "trainingEffectLabel": "ANAEROBIC_CAPACITY",
+        "activityTrainingLoad": 19.868682861328125,
+        "minActivityLapDuration": 2744.8330078125,
+        "aerobicTrainingEffectMessage": "MINOR_AEROBIC_BENEFIT_6",
+        "anaerobicTrainingEffectMessage": "MINOR_ANAEROBIC_BENEFIT_15",
+        "splitSummaries": [],
+        "hasSplits": false,
+        "hasIntensityIntervals": false,
+        "moderateIntensityMinutes": 13,
+        "vigorousIntensityMinutes": 2,
+        "differenceBodyBattery": -6,
+        "hasHeatMap": false,
+        "hrTimeInZone_1": 348.482,
+        "hrTimeInZone_2": 58.999,
+        "hrTimeInZone_3": 4.001,
+        "hrTimeInZone_4": 0.0,
+        "hrTimeInZone_5": 0.0,
+        "endTimeGMT": "2026-07-21 07:40:01",
+        "qualifyingDive": false,
+        "activityUUID": "f7284c09-0890-4238-ab47-fc13604fc6cc",
+        "parent": false,
+        "purposeful": false,
+        "favorite": false,
+        "decoDive": false,
+        "pr": false,
+        "manualActivity": false,
+        "autoCalcCalories": false,
+        "elevationCorrected": false,
+        "atpActivity": false
+      },
+      {
+        "activityId": 23639069106,
+        "activityName": "Camden Walking",
+        "startTimeLocal": "2026-07-18 09:16:32",
+        "startTimeGMT": "2026-07-18 08:16:32",
+        "activityType": {
+          "typeId": 9,
+          "typeKey": "walking",
+          "parentTypeId": 17,
+          "isHidden": false,
+          "restricted": false,
+          "trimmable": true
+        },
+        "eventType": {
+          "typeId": 9,
+          "typeKey": "uncategorized",
+          "sortOrder": 10
+        },
+        "distance": 2422.8701171875,
+        "duration": 1841.5870361328125,
+        "elapsedDuration": 1841.5870361328125,
+        "movingDuration": 1758.0,
+        "elevationGain": 45.0,
+        "elevationLoss": 47.0,
+        "averageSpeed": 1.315999984741211,
+        "maxSpeed": 2.3510000705718994,
+        "startLatitude": 51.56119907274842,
+        "startLongitude": -0.1509035937488079,
+        "hasPolyline": true,
+        "hasImages": false,
+        "ownerId": 140456398,
+        "ownerDisplayName": "83207c5a-c7de-42a5-9c50-a4f60a66466a",
+        "ownerFullName": "Harrison Living",
+        "calories": 171.0,
+        "bmrCalories": 49.0,
+        "averageHR": 88.0,
+        "maxHR": 128.0,
+        "averageRunningCadenceInStepsPerMinute": 99.46875,
+        "maxRunningCadenceInStepsPerMinute": 207.0,
+        "steps": 3126,
+        "userRoles": [
+          "SCOPE_GOLF_API_READ",
+          "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+          "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+          "SCOPE_ATP_READ",
+          "SCOPE_DIVE_API_WRITE",
+          "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
+          "SCOPE_DIVE_API_READ",
+          "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
+          "SCOPE_DI_OAUTH_2_CLIENT_READ",
+          "SCOPE_CONNECT_WRITE",
+          "SCOPE_COMMUNITY_COURSE_WRITE",
+          "SCOPE_CONNECT_MCT_DAILY_LOG_READ",
+          "SCOPE_CONNECT_API_CREATE_UPDATE_USER",
+          "SCOPE_MESSAGE_GENERATION_READ",
+          "SCOPE_DI_OAUTH_2_CLIENT_REVOCATION_ADMIN",
+          "SCOPE_CONNECT_WEB_TEMPLATE_RENDER",
+          "SCOPE_ACTIVITY_DETECTION_READ",
+          "SCOPE_OMT_SUBSCRIPTION_ADMIN_READ",
+          "SCOPE_DI_OAUTH_2_MANAGED_STATUS_ADMIN_WRITE",
+          "SCOPE_CONNECT_NON_SOCIAL_SHARED_READ",
+          "SCOPE_CONNECT_READ",
+          "SCOPE_DI_OAUTH_2_PRERELEASE_PERMISSIONS_ADMIN_WRITE",
+          "SCOPE_DI_OAUTH_2_TOKEN_ADMIN",
+          "SCOPE_ATP_WRITE",
+          "ROLE_CONNECTUSER",
+          "ROLE_FITNESS_USER",
+          "ROLE_WELLNESS_USER",
+          "ROLE_OUTDOOR_USER",
+          "ROLE_GARMIN_USER"
+        ],
+        "privacy": {
+          "typeId": 2,
+          "typeKey": "private"
+        },
+        "userPro": false,
+        "hasVideo": false,
+        "timeZoneId": 159,
+        "beginTimestamp": 1784362592000,
+        "sportTypeId": 11,
+        "aerobicTrainingEffect": 0.5,
+        "anaerobicTrainingEffect": 0.0,
+        "avgStrideLength": 79.42599124335942,
+        "vO2MaxValue": 44.0,
+        "deviceId": 3615229444,
+        "minElevation": 55.0,
+        "maxElevation": 98.5999984741211,
+        "avgElevation": 72.57762083004896,
+        "maxDoubleCadence": 207.0,
+        "summarizedDiveInfo": {
+          "summarizedDiveGases": []
+        },
+        "maxVerticalSpeed": 0.20000457763671875,
+        "manufacturer": "GARMIN",
+        "locationName": "Camden",
+        "lapCount": 3,
+        "endLatitude": 51.56182235106826,
+        "endLongitude": -0.15013103373348713,
+        "waterEstimated": 221.0,
+        "trainingEffectLabel": "RECOVERY",
+        "activityTrainingLoad": 7.0961151123046875,
+        "minActivityLapDuration": 333.7099914550781,
+        "aerobicTrainingEffectMessage": "RECOVERY_5",
+        "anaerobicTrainingEffectMessage": "NO_ANAEROBIC_BENEFIT_0",
+        "splitSummaries": [],
+        "hasSplits": false,
+        "hasIntensityIntervals": false,
+        "moderateIntensityMinutes": 23,
+        "vigorousIntensityMinutes": 0,
+        "differenceBodyBattery": -3,
+        "hasHeatMap": false,
+        "hrTimeInZone_1": 122.999,
+        "hrTimeInZone_2": 0.0,
+        "hrTimeInZone_3": 0.0,
+        "hrTimeInZone_4": 0.0,
+        "hrTimeInZone_5": 0.0,
+        "endTimeGMT": "2026-07-18 08:47:13",
+        "qualifyingDive": false,
+        "activityUUID": "a1b9776b-40e9-46ef-8f38-ca269c831fe2",
+        "parent": false,
+        "purposeful": false,
+        "favorite": false,
+        "decoDive": false,
+        "pr": false,
+        "manualActivity": false,
+        "autoCalcCalories": false,
+        "elevationCorrected": false,
+        "atpActivity": false
+      },
+      {
+        "activityId": 23618623653,
+        "activityName": "Hackney Walking",
+        "startTimeLocal": "2026-07-16 13:16:25",
+        "startTimeGMT": "2026-07-16 12:16:25",
+        "activityType": {
+          "typeId": 9,
+          "typeKey": "walking",
+          "parentTypeId": 17,
+          "isHidden": false,
+          "restricted": false,
+          "trimmable": true
+        },
+        "eventType": {
+          "typeId": 9,
+          "typeKey": "uncategorized",
+          "sortOrder": 10
+        },
+        "distance": 2700.330078125,
+        "duration": 1865.8909912109375,
+        "elapsedDuration": 1865.8909912109375,
+        "movingDuration": 1864.0,
+        "elevationGain": 11.0,
+        "elevationLoss": 6.0,
+        "averageSpeed": 1.4470000267028809,
+        "maxSpeed": 2.062000036239624,
+        "startLatitude": 51.5391653124243,
+        "startLongitude": -0.05395841784775257,
+        "hasPolyline": true,
+        "hasImages": false,
+        "ownerId": 140456398,
+        "ownerDisplayName": "83207c5a-c7de-42a5-9c50-a4f60a66466a",
+        "ownerFullName": "Harrison Living",
+        "calories": 181.0,
+        "bmrCalories": 50.0,
+        "averageHR": 86.0,
+        "maxHR": 110.0,
+        "averageRunningCadenceInStepsPerMinute": 107.734375,
+        "maxRunningCadenceInStepsPerMinute": 217.0,
+        "steps": 3384,
+        "userRoles": [
+          "SCOPE_GOLF_API_READ",
+          "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+          "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+          "SCOPE_ATP_READ",
+          "SCOPE_DIVE_API_WRITE",
+          "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
+          "SCOPE_DIVE_API_READ",
+          "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
+          "SCOPE_DI_OAUTH_2_CLIENT_READ",
+          "SCOPE_CONNECT_WRITE",
+          "SCOPE_COMMUNITY_COURSE_WRITE",
+          "SCOPE_CONNECT_MCT_DAILY_LOG_READ",
+          "SCOPE_CONNECT_API_CREATE_UPDATE_USER",
+          "SCOPE_MESSAGE_GENERATION_READ",
+          "SCOPE_DI_OAUTH_2_CLIENT_REVOCATION_ADMIN",
+          "SCOPE_CONNECT_WEB_TEMPLATE_RENDER",
+          "SCOPE_ACTIVITY_DETECTION_READ",
+          "SCOPE_OMT_SUBSCRIPTION_ADMIN_READ",
+          "SCOPE_DI_OAUTH_2_MANAGED_STATUS_ADMIN_WRITE",
+          "SCOPE_CONNECT_NON_SOCIAL_SHARED_READ",
+          "SCOPE_CONNECT_READ",
+          "SCOPE_DI_OAUTH_2_PRERELEASE_PERMISSIONS_ADMIN_WRITE",
+          "SCOPE_DI_OAUTH_2_TOKEN_ADMIN",
+          "SCOPE_ATP_WRITE",
+          "ROLE_CONNECTUSER",
+          "ROLE_FITNESS_USER",
+          "ROLE_WELLNESS_USER",
+          "ROLE_OUTDOOR_USER",
+          "ROLE_GARMIN_USER"
+        ],
+        "privacy": {
+          "typeId": 2,
+          "typeKey": "private"
+        },
+        "userPro": false,
+        "hasVideo": false,
+        "timeZoneId": 159,
+        "beginTimestamp": 1784204185000,
+        "sportTypeId": 11,
+        "aerobicTrainingEffect": 0.6000000238418579,
+        "anaerobicTrainingEffect": 0.0,
+        "avgStrideLength": 80.62893980929499,
+        "vO2MaxValue": 45.0,
+        "deviceId": 3615229444,
+        "minElevation": 12.800000190734863,
+        "maxElevation": 22.200000762939453,
+        "avgElevation": 17.578670984679096,
+        "maxDoubleCadence": 217.0,
+        "summarizedDiveInfo": {
+          "summarizedDiveGases": []
+        },
+        "maxVerticalSpeed": 0.20000076293945312,
+        "manufacturer": "GARMIN",
+        "locationName": "Hackney",
+        "lapCount": 3,
+        "endLatitude": 51.53948030434549,
+        "endLongitude": -0.054384637624025345,
+        "waterEstimated": 285.0,
+        "trainingEffectLabel": "RECOVERY",
+        "activityTrainingLoad": 7.789215087890625,
+        "minActivityLapDuration": 471.7640075683594,
+        "aerobicTrainingEffectMessage": "RECOVERY_5",
+        "anaerobicTrainingEffectMessage": "NO_ANAEROBIC_BENEFIT_0",
+        "splitSummaries": [],
+        "hasSplits": false,
+        "hasIntensityIntervals": false,
+        "moderateIntensityMinutes": 28,
+        "vigorousIntensityMinutes": 0,
+        "differenceBodyBattery": -2,
+        "hasHeatMap": false,
+        "hrTimeInZone_1": 0.0,
+        "hrTimeInZone_2": 0.0,
+        "hrTimeInZone_3": 0.0,
+        "hrTimeInZone_4": 0.0,
+        "hrTimeInZone_5": 0.0,
+        "endTimeGMT": "2026-07-16 12:47:30",
+        "qualifyingDive": false,
+        "activityUUID": "19eee83a-ba95-450b-a7d6-ec6728668eb9",
+        "parent": false,
+        "purposeful": false,
+        "favorite": false,
+        "decoDive": false,
+        "pr": false,
+        "manualActivity": false,
+        "autoCalcCalories": false,
+        "elevationCorrected": false,
+        "atpActivity": false
+      }
+    ]
+  }
+}

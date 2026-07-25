@@ -387,3 +387,6 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 - 2026-07-24 14:00  | health-sync | OK 2026-07-24: RHR 50, sleep 6.7h (score 76), HRV 54 BALANCED, readiness 81
 2026-07-24 14:07 | discovery-scan | 6 items posted, 0 buyable queued
 2026-07-24T19:08:00+01:00 | evening-reflection | Cathal 11:30 call clash confirmed unresolved (calendar unchanged, event still overlapping 11:20-14:10 flight, exactly yesterday's named first action). Three drafted client comms confirmed still unsent (Gmail business account, zero sends in 2 days). Golf-clubs Batch 1 auto-killed today by campaign-chaser (system action, day-22 rule), counted as 1 campaign moved. New-client campaign static, fifth Telegram push, zero reply. No prescribed training today (W28 Algarve recovery, flight-home day), no Garmin/Strava activity logged, not scored. No shipped item confirmable via any positive signal. No Telegram push (no confirmable training miss). Wrote agents/_evening-log.md.
+- 2026-07-24 22:30 BST | nightly-backup | committed locally, PUSH FAILED: branches diverged with conflicts, manual merge needed
+- 2026-07-25 06:15  | health-sync | OK 2026-07-25: RHR None, sleep 6.7h (score 76), HRV 54 BALANCED, readiness 87
+- 2026-07-25 11:00  | health-sync | OK 2026-07-25: RHR None, sleep 6.7h (score 76), HRV 54 BALANCED, readiness 87

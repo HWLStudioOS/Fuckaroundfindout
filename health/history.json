@@ -1870,11 +1870,13 @@
     "date": "2026-07-25",
     "hrv": 57.0,
     "hrvStatus": "BALANCED",
-    "stressAvg": -1,
+    "stressAvg": 35,
     "trainingReadiness": 87,
     "readinessLevel": "HIGH",
     "acwr": 1.0,
     "acuteLoad": 98.0,
-    "vo2Max": 45.0
+    "vo2Max": 45.0,
+    "restingHR": 51,
+    "bodyBattery": 78
   }
 ]

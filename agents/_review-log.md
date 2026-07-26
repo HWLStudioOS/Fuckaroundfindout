@@ -321,3 +321,46 @@ No formal plan existed. Top 3 inferred from active state at week start (22 June)
 - Building systems to avoid obvious work: yes, again, same pattern flagged 5 July, now with more evidence: a 2-day prototype build and a full production week landed clean while three one-tap sends didn't move at all.
 
 ---
+
+## 2026-07-26 Sunday review (week W28 ending 2026-07-26)
+
+### Shipped
+
+- Golf clubs v2 Batch 1: closed. Not a Harrison tap, the wave's own 21-day auto-kill rule fired 24 Jul, zero sends/replies across all five targets after eleven consecutive flags. The named risk from last week's review ("silence isn't a decision, it's the same pattern that killed Wave 1") is exactly what happened, the system closed it by default rather than Harrison choosing.
+- BaW Roger Martin content actually moved today. "Your Roger Martin Sum Up" newsletter went out via Mailchimp (test + live copy landed in Gmail 12:37-12:42), and a LinkedIn carousel PDF + three social preview images were built this afternoon (13:04-13:43, `output/pdf/BetterAtWork-RogerMartin-LinkedIn-Carousel.pdf`, `tmp/pdfs/roger-linkedin-carousel/`). Real output, outside the formal top-3.
+- Creepers confirmed as a plant supplier on the RHS Sandringham Royal Legacy Garden, show ran 22-26 Jul, Sarah-Louise green-lit talking about it. Weekend + mid-show social assets built.
+
+### Missed
+
+- All three named top-3 outcomes from last week, missed or only nominally resolved:
+  1. Calendar/admin cleanup: the "Check out Viceroy + fly home" placeholder still shows Sat 25 Jul, was never manually corrected (a separate correct flight event exists via Gmail auto-sync, but the actual ask, fix the placeholder, was never done). Amex and OnlineJobs.ph: no resolution evidence found for either.
+  2. Golf clubs: technically closed, but by the system's default rule, not by Harrison's tap. Same pattern named as a risk last week.
+  3. The three drafted client comms (Creepers thank-you + £950 rate + £3,500 chase to Anna/Sarah-Louise, BaW weekly progress to Cathal): confirmed still unsent, zero sends on the business Gmail account in the last 3 days. Now 10 days unsent, a second consecutive weekly review naming the identical miss.
+- Cathal's 11:30 call clash against the 11:20 flight (24 Jul): never resolved, both stayed on the calendar overlapping the whole day.
+- New-client-by-31-July: tasks 2 (10 warm targets), 3 (LOR proof one-pager), 4 (proof-led post) all still untouched. Task 5 (qualified discovery call, due 25 Jul) never got a calendar event. Fifth Telegram push, zero reply logged across any of the five.
+- LOR ET distilled content plan doc + cohort self-filming brief: drafted 9 Jul, still unsent to Kerri/Sarah, now 17 days. Second consecutive miss on the identical task.
+
+### Reality check
+
+- Money: Starling unconfirmed for 26 days running (last known £231.91, 1 Jul), the gap that's grown every week since (9→16→23→26). LOR remittance landed 20 Jul but the amount sits unread in a PDF, not counted as confirmed cash. Creepers £3,500 June + £950 Sandringham both still unconfirmed, blocked on the same unsent draft. Tax reserve ~£8,000, unchanged. PAYE/NIC £339 unconfirmed 42+ days. VAT number still not landed.
+- Health: W28 was a deliberately loose Algarve recovery week, training-plan.md explicitly said "move when it's easy, don't force." Logged activity on 4 of 7 days (weight training 21/22 Jul, runs 23 + 26 Jul), nothing flagged as a miss. Garmin didn't sync overnight into today, first sync gap since the return (all null in this morning's read). Weight stale 88 days (29 Apr).
+- Clients: LOR ET production stays locked pending Emma's ~£28k trim confirmation, still not landed since the ~20 Jul target; Kerri catch-up moved to Tue 28 Jul 16:00. Creepers Sandringham show completed clean, Royal Legacy Garden supplier credit confirmed; the money side stays stuck behind the same unsent draft. BaW: Roger Martin newsletter + carousel genuinely shipped today; the distribution gap (Best-of #1, question link, listen rows) is still open.
+- Content: personal substance still silent, 8 weeks since 1 June. Client content (BaW) had a real production day today, the two shouldn't be conflated.
+- Capture inbox: 16 items added this week (3 discovery-scan batches, 20/22/24 Jul), 0 processed as they landed. This pass archived 5 stale discovery-scan batches (1, 3, 6, 8, 10 Jul), all over 14 days old with nobody having promoted an item from any of them.
+- Attention: RescueTime's weekly summary landed today, 2h 01m logged under "Entertainment" this week. No deeper breakdown pulled, first time this signal has been available at all.
+- Maya: together in the Algarve the entire week, genuine unstructured time. The specific Sunday-coffee ritual itself still has no captured evidence, but it's moot given the week they actually had.
+
+### Risks
+
+- The same three client comms are now the longest-running miss in the system, 10 days unsent and named across two consecutive weekly reviews without a single send. This is the H17 pattern by name, not a new problem.
+- New-client-by-31-July is functionally lost. Five days left, four of five tasks stalled, the binding task (qualified call) already missed its own date with nothing behind it. Worth an explicit call this week: supply the two blocking inputs immediately or state the deadline is missed and decide what's next, rather than let it expire a second time unnamed.
+- Nightly backup failed to push 4 of the last 5 nights (22, 23, 24, 25 Jul), branches diverged with conflicts every time. Repo is currently 1 commit ahead of origin. Infrastructure gap, not a Harrison miss, worth a direct look before it compounds further.
+- The training plan auto-escalates into Peak Build big-volume week starting Mon 27 Jul (28km Saturday, 18.5km Sunday back-to-back), built for a Lake Bled entry that was never confirmed. The plan's own written reality-check says to park at general-fitness volume instead if that's still true. Needs a decision before Saturday, not a default into the CSV.
+
+### Standards check (codex H17)
+
+- Proactive comms: no. Same three comms sat unsent through the entire holiday week and are still sitting unsent now, a second consecutive review naming the identical gap. Not a capability problem, a tap problem.
+- Self-attack disguised as discipline: not seen this week. Genuine holiday, appropriately loose, no evidence of manufactured urgency.
+- Building systems to avoid obvious work: not seen this week. Today's actual output (Roger Martin newsletter + carousel) was direct content work, not deflection into more tooling.
+
+---

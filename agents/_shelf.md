@@ -8,6 +8,8 @@ Each item ages every Friday until it goes live or gets killed. An item leaves th
 
 2026-07-05 (weekly review): ran the corrected content-based check on both remaining items. Legibility Diagnosis PASSED. Fetched `https://www.hwlstudio.com/`, the raw homepage HTML has no match, but its referenced bundle `/assets/index-Czs7SmBh.js` contains real feature content, not a stray word: nav button "Diagnosis", CTA copy "Run the diagnosis first" / "Run the diagnosis" / "Diagnose your legibility", a live scoring object (`Legibility diagnosis: ${z.score}/100 (${z.band})` with per-dimension breakdown), and a section titled "The Legibility Diagnosis". This is genuinely live in production, not a false green. Moved to history below. AI Content Engine checked (`https://hwl-content-engine.vercel.app/` returned HTTP 404) and confirmed never deployed (no `.vercel/project.json` in `~/hwl-content-engine`, no linked project). Remains unshipped.
 
+2026-07-26 (weekly review): re-ran the check. `https://hwl-content-engine.vercel.app/` still returns HTTP 404. No Telegram "shipped"/"kill" reply logged since 7 Jul. Still unshipped, 41 days on the shelf.
+
 Cap: 3 items. Only genuinely built-and-verified things belong here, never prototypes or "in progress".
 
 | item | first-seen | deploy command | done-signal |

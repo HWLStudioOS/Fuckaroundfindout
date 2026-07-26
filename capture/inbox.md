@@ -85,7 +85,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - **Balfour Beatty invests £10m in a construction AI and robotics accelerator**, Digital Construction Plus, 7 Jul. First-ever VC fund bet from Balfour Beatty, backing Pi Labs' Fund IV and opening its sites as a "living sandbox" for AI and robotics startups from October. A tier-one contractor now directly funding the construction-AI wave LOR is trying to position against. [https://digitalconstructionplus.com/balfour-beatty-invests-10m-in-ai-startup-accelerator-to-improve-project-delivery/]
 - Source: discovery-scan
 - Tag: learning
-- Status: new
+- Status: archived 26 Jul (weekly review), 16 days, discovery-scan batch, nobody promoted any item. Reference only, per rule.
 
 ## 2026-07-09 16:30 (LOR ET call debrief, Kerri + Sarah)
 - Harrison's to-dos off the 9 Jul call: (1) distilled content plan doc for Emma's return ~20 Jul, draft built at `campaigns/lor-early-talent-plan-distilled-2026-07-09.md`, review then send; (2) cohort self-filming brief, draft built at `campaigns/lor-early-talent-self-filming-brief.md`; (3) site availability for shoot day one (early Aug) needs locking, ask sits in the Gmail follow-up draft; (4) weekly catch-up already covered, recurring Kerri invite Tue 14 Jul 16:00 on calendar, no new hold needed; (5) money was not raised on the call, LOR £1,350 still to confirm in Starling.
@@ -103,7 +103,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - **The Hidden Cost of Empathy at Work**, Business Insider, 2 Jul. Harvard Business School surveyed 350+ women managers: over 80% spend at least 30% of their week absorbing colleagues' anxiety and workplace distress, unpaid and mostly invisible, 59% say the load has grown in the past year. Sharper and more gendered than the narcissism and IQ studies already banked this month, a strong BaW pitch built entirely on real numbers. [https://www.businessinsider.com/hidden-cost-empathy-tax-work-women-2026-7]
 - Source: discovery-scan
 - Tag: learning
-- Status: new
+- Status: archived 26 Jul (weekly review), 18 days, discovery-scan batch, nobody promoted any item. Reference only, per rule.
 
 ## 2026-07-07 10:37 (Telegram reply)
 - DD cleared so no worries there
@@ -127,7 +127,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - **Why social media bans are gaining steam**, Casey Newton / Platformer, 2 Jul. Developmental psychologist Candice Odgers used a TED talk to directly challenge Jonathan Haidt's Anxious Generation thesis: her longitudinal data since 2008 finds social media doesn't predict later teen depression, yet Australia, Brazil, the UK and six other democracies are banning under 16 access anyway. Direct platform risk read for a business that runs entirely on Instagram and TikTok reach. [https://www.platformer.news/social-media-bans-candice-odgers-haidt/]
 - Source: discovery-scan
 - Tag: learning
-- Status: new
+- Status: archived 26 Jul (weekly review), 20 days, discovery-scan batch, nobody promoted any item. Reference only, per rule.
 
 ## 2026-07-05 15:00 (Sunday session, window 2)
 - Watching Daniel Dalen. Harrison's own words: "don't know why I'm not just picking up the camera more and talking shit. Just like I've starting writing on the typewriter." Charge present. First entry in the substance bank since the 2 Jul rule went live. Candidate substance for the first non-football post, entirely his call. Typewriter writing is new and sticking, same mechanic as talk-to-camera: no edit layer, output exists the moment you stop.
@@ -143,7 +143,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - **Relative Energy Deficiency in Sport (REDs) in Ultra-Trail Running**, Cureus, 3 Jul. Fresh review on how chronic low energy availability in ultra-trail athletes drives performance decline, injury, and long-term hormonal and bone damage. A different mechanism to the immune and glucose studies already logged, worth a skim before the RTTS 50K taper locks fuelling. [https://www.cureus.com/articles/503769-relative-energy-deficiency-in-sport-reds-in-ultra-trail-running-implications-for-performance-injury-and-long-term-health]
 - Source: discovery-scan
 - Tag: learning
-- Status: new
+- Status: archived 26 Jul (weekly review), 23 days, discovery-scan batch, nobody promoted any item. Reference only, per rule.
 
 ## 2026-07-02 11:46 (Telegram reply)
 - Test
@@ -157,6 +157,9 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - **Project FURTHER: Physiological, Biomechanical, and Psychosocial Profile of a 6-Day Ultramarathon**, Sports Medicine Open, June 10. 10 female athletes, world-record certified event. Key finding: psychological coping strategies, social belonging, and pain management outperform physiological durability as performance determinants in multi-day events. Applicable to RTTS 50K prep. What you train mentally is as load-bearing as what you train physically. [https://link.springer.com/article/10.1186/s40798-026-01041-w]
 - **Anthropic's Safety Superpower**, Stratechery / Ben Thompson, June 19. Anthropic's belief in its own safety record gives it commercial license to act aggressively and push back on the US government (Fable/Mythos export controls being the live case). The company's safety superpower is that every action it takes looks self-serving from the outside, even as it becomes more convinced its motives are pure. Relevant because Harrison's studio runs on Claude infrastructure and the platform risk profile just changed. [https://stratechery.com/2026/the-stuff-of-mythos/]
 - **Why narcissism, not productivity, drives return-to-office mandates**, Adam Grant, Marissa Shandell, Courtney Elliott / NYT, June 22. Six years, thousands of leaders, Fortune 500 included. The trait predicting RTO opposition was narcissism, not trust in employees or enjoyment of company. Proxies: pay-package size, signature size, CEO photo prominence in annual reports. BaW-ready finding with peer-reviewed spine. [https://adamgrant.substack.com/p/the-must-read-articles-of-the-month]
+- Source: discovery-scan
+- Tag: learning
+- Status: archived 26 Jul (weekly review), 25 days, discovery-scan batch, nobody promoted any item. Reference only, per rule.
 
 ## 2026-06-29 14:07
 - **US releases Anthropic Mythos to select institutions**, Semafor, 27 Jun. After a White House export block on supply-chain grounds, Mythos 5 is now cleared for 100+ US institutions under negotiated license terms. The AI governance arc around the frontier model Harrison uses as infrastructure took a fast turn this week. Background for any client conversation about AI capability or positioning. [https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies]

@@ -1878,5 +1878,9 @@
     "vo2Max": 45.0,
     "restingHR": 51,
     "bodyBattery": 78
+  },
+  {
+    "date": "2026-07-26",
+    "vo2Max": 45.0
   }
 ]

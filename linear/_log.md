@@ -2642,3 +2642,35 @@
 [2026-07-27T10:14:09.295Z] INFO push + HWL-196 Rebuild the £6,441 tax buffer from the next receipts after s
 [2026-07-27T10:14:09.490Z] INFO push + HWL-197 Run Long + Strong week 1: 24 km across four runs, Strength A
 [2026-07-27T10:14:10.033Z] INFO Sync done. push: +15 ~0. pull: ~0.
+[2026-07-27T11:06:00.251Z] INFO Sync start. Last: 2026-07-27T10:14:10.033Z
+[2026-07-27T11:06:01.396Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T12:06:01.531Z] INFO Sync start. Last: 2026-07-27T11:06:01.394Z
+[2026-07-27T12:06:02.595Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T13:06:02.641Z] INFO Sync start. Last: 2026-07-27T12:06:02.593Z
+[2026-07-27T13:06:07.402Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T14:06:07.477Z] INFO Sync start. Last: 2026-07-27T13:06:07.399Z
+[2026-07-27T14:06:08.234Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T14:11:42.811Z] INFO Sync start. Last: 2026-07-27T14:06:08.233Z
+[2026-07-27T14:11:43.348Z] INFO push ~ HWL-183 → done
+[2026-07-27T14:11:43.487Z] INFO Sync done. push: +0 ~1. pull: ~0.
+[2026-07-27T15:06:08.412Z] INFO Sync start. Last: 2026-07-27T14:11:43.486Z
+[2026-07-27T15:06:09.175Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T16:04:00.366Z] INFO Sync start. Last: 2026-07-27T15:06:09.173Z
+[2026-07-27T16:04:00.932Z] INFO push ~ HWL-186 → done
+[2026-07-27T16:04:01.245Z] INFO Sync done. push: +0 ~1. pull: ~0.
+[2026-07-27T16:06:09.330Z] INFO Sync start. Last: 2026-07-27T16:04:01.243Z
+[2026-07-27T16:06:11.009Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T17:06:11.122Z] INFO Sync start. Last: 2026-07-27T16:06:11.007Z
+[2026-07-27T17:06:16.158Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T18:06:16.192Z] INFO Sync start. Last: 2026-07-27T17:06:16.155Z
+[2026-07-27T18:06:18.178Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T18:41:09.001Z] INFO Sync start. Last: 2026-07-27T18:06:18.176Z
+[2026-07-27T18:41:09.700Z] INFO push ~ HWL-185 → done
+[2026-07-27T18:41:09.853Z] INFO Sync done. push: +0 ~1. pull: ~0.
+[2026-07-27T19:06:18.302Z] INFO Sync start. Last: 2026-07-27T18:41:09.852Z
+[2026-07-27T19:06:20.369Z] INFO push + HWL-198 Confirm David’s £550 monthly payment date against Wise or th
+[2026-07-27T19:06:20.540Z] INFO Sync done. push: +1 ~0. pull: ~0.
+[2026-07-27T20:06:20.689Z] INFO Sync start. Last: 2026-07-27T19:06:20.535Z
+[2026-07-27T20:06:21.403Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T21:06:21.489Z] INFO Sync start. Last: 2026-07-27T20:06:21.400Z
+[2026-07-27T21:06:22.188Z] INFO Sync done. push: +0 ~0. pull: ~0.

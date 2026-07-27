@@ -1882,5 +1882,20 @@
   {
     "date": "2026-07-26",
     "vo2Max": 45.0
+  },
+  {
+    "date": "2026-07-27",
+    "hrv": 60.0,
+    "restingHR": 45,
+    "stressAvg": 13,
+    "bodyBattery": 98,
+    "trainingReadiness": 100,
+    "readinessLevel": "PRIME",
+    "acwr": 1.0,
+    "acuteLoad": 201.0,
+    "vo2Max": 45.0,
+    "hrvStatus": "BALANCED",
+    "sleepHours": 8.6,
+    "sleepScore": 94
   }
 ]

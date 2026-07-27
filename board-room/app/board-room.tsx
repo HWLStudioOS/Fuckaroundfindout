@@ -64,7 +64,11 @@ export function BoardRoom({ data }: { data: BoardData }) {
         </div>
         <div className="sync-state">
           <span className="live-dot" aria-hidden="true" />
-          Nightly source · {data.sourceCommit}
+          Nightly source · {new Date(`${data.sourceDate}T12:00:00Z`).toLocaleDateString("en-GB", {
+            day: "numeric",
+            month: "short",
+            timeZone: "Europe/London",
+          })}
         </div>
       </header>
 

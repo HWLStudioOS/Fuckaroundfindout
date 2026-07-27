@@ -1,0 +1,43 @@
+{
+  "name": "the-board-room",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.34.5",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "board:generate": "node scripts/generate-board-data.mjs",
+    "predev": "node scripts/generate-board-data.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/generate-board-data.mjs",
+    "build": "next build",
+    "start": "next start",
+    "test": "node scripts/generate-board-data.mjs && node --test tests/*.test.mjs && pnpm run build",
+    "lint": "eslint . --ignore-pattern .next"
+  },
+  "dependencies": {
+    "next": "16.2.12",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.2.12",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "brace-expansion": "5.0.8",
+      "minimatch": "10.2.5",
+      "postcss": "8.5.23",
+      "sharp": "0.35.3"
+    }
+  },
+  "type": "module"
+}

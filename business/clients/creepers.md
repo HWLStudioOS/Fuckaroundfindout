@@ -6,13 +6,15 @@
 
 Active. Sandringham 2026 is the current content centrepiece. Shoot completed 17 July, public show 22-26 July.
 
-## Active state, 18 July 2026
+## Active state, 27 July 2026
 
-- **Sandringham shoot landed Friday 17 July.** Royal Legacy Garden coverage is in hand, including the Careys and Catherine MacDonald interview plan. The stills card contains 252 Nikon RAWs on the UGREEN drive.
-- **Weekend post ready.** Five-photo field-note carousel exported to `output/social/creepers-sandringham-2026-07-18/`. Caption and upload order live in `business/clients/creepers-sandringham-weekend-post-2026-07-18.md`.
-- **Money needs closing.** The £950 Sandringham all-in day rate is still verbal only. June's £3,500 retainer still has no payment evidence. A combined thank-you, written-rate confirmation and retainer-check email is sitting in Gmail drafts to Anna and Sarah-Louise.
+- **The content calendar is live:** API version 5. This week's schedule is Monday “Why build a garden around a frog?”, Tuesday 28 July Surrey shoot S4 plus “Root pruning, explained”, Wednesday “Fresh In #4”, and Friday “The future tree”.
+- **Current dependencies:** the frog and future-tree posts need Creepers' exact supply credit. Tuesday's shoot needs the normal production confirmation. These are content decisions, not evidence of a communication lapse.
+- **Calendar hygiene is behind the work:** some entries from the completed Sandringham week still have blank status fields. Reconcile the live calendar so the board reflects what shipped.
+- **Sandringham is complete:** the Royal Legacy Garden coverage and Catherine MacDonald material are in hand. The peat-free Chelsea 2027 carousel is marked posted in the live calendar.
+- **Money is unverified, not unsent:** the £950 Sandringham rate and June £3,500 retainer still need a bank or remittance check. There is no current Anna/Sarah-Louise draft in Gmail.
 - **Hero film remains blocked** on Michael Buck's exact RHS award wording and the Baz Grainger garden name.
-- **Peat carousel remains waiting on Anna's final sign-off.** Michael's three rounds of copy changes are already applied.
+- **3 and 4 August hero-film production is scheduled** in the live calendar and still needs the factual checks cleared before final captions.
 
 ## Positioning
 

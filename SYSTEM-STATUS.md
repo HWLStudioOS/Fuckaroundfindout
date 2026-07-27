@@ -2,7 +2,7 @@
 
 Current engineering handoff for Harrison, Claude, and Codex. Read this on session start. Update it only when system architecture, rollout state, automation ownership, or safety boundaries change. Daily business state stays in `today.md` and the domain files.
 
-Last updated: 14 July 2026
+Last updated: 27 July 2026
 
 ## Operating model
 
@@ -34,6 +34,9 @@ Verified on the Mac mini:
 ## Live rollout state
 
 - The foundation and coordination handoff are on GitHub `main`. CI passed for the foundation push and the following nightly backup.
+- Nightly backup was manually reconciled on 27 July after five misleading failure reports. Local and remote `main` are synchronised. `agents/nightly-backup.sh` now records the exact push, fetch, rebase or retry error and exits non-zero on a real failure instead of labelling every failure as a merge conflict.
+- Morning brief, verifier, weekly review and campaign chaser source rules were corrected on 27 July. They must verify the connected Gmail identity, check live Creepers and Better at Work dashboards, validate draft claims against Gmail, use only the canonical training plan, and diagnose a failure before escalating it.
+- The stale-state incident on 27 July is a failed acceptance run. The brief resurrected published work, a cancelled meeting, an abandoned race, non-existent drafts and a campaign target that had already been hit. Acceptance progress resets until the next clean weekday run.
 - `com.hwl.telegram-agent` was restarted at 10:37 BST on 14 July. The new restricted-mode process is live and its private durable queue database was created successfully.
 - The queue was empty immediately after restart. The next non-command task is the first live proof that the new process persists before acknowledgement and writes only a task fingerprint to logs.
 - The 14 July morning brief used the fail-closed verifier path and sent Telegram message 536 after checking 30 claims and correcting one. The missing Monday 13 July run should be monitored for recurrence.

@@ -1,92 +1,101 @@
 ---
-week: training W29, back from Algarve (27 July-2 August 2026)
-generated: 2026-07-26 18:00 BST (weekly-review agent)
-prior_review: agents/_review-log.md 2026-07-26
+week: 27 July to 2 August 2026
+generated: manually reconciled 27 July 2026
 ---
 
-# This week, 27 July-2 August 2026
+# This week, 27 July to 2 August 2026
 
 ## Theme
 
-Back from the Algarve, full week at home, nothing left to blame on travel. Three things carried straight through the holiday untouched: three drafted client comms, the new-client-by-31-July deadline, and the LOR ET content plan doc. All three are cheaper to fix now than they were a week ago. The training plan also quietly escalates into big-volume week this week on an assumption (Lake Bled) nobody's confirmed. Four clear decisions, no more defaults.
+Convert the Squiggly Careers win, deliver the current Creepers and Better at Work weeks, and reset Laing O'Rourke's ET decision path. Keep the board tied to live evidence. No Bled, no golf, no imaginary drafts, no published work returning as an open loop.
 
-## Top 3 outcomes for the week
+## Top 3 outcomes
 
-1. **Send the three drafted client comms.** Creepers thank-you + £950 Sandringham rate confirmation + £3,500 retainer chase (to Anna and Sarah-Louise), and the BaW weekly progress email to Cathal. Confirmed via Gmail: zero sends on the business account in 3 days. These have now sat finished and unsent for 10 days, named across two consecutive weekly reviews. Nothing left to draft, only the tap.
-2. **Decide new-client-by-31-July, don't let it expire quietly again.** Five days to the deadline, four of five tasks stalled (10 warm targets still "undefined" in `life/relationships.md`, LOR proof one-pager still has no file, proof-led post has zero prep, task 5's qualified call never got booked and was due two days ago). Either supply the two blocking Harrison-only inputs this week, or explicitly call the deadline missed and set the next move. Don't let a fifth Telegram push go unanswered into a sixth.
-3. **Resolve the Bled question before Saturday's long run.** The training CSV moves into Peak Build this week (28km Saturday, 18.5km Sunday back-to-back), built for a Lake Bled 80K entry that was never confirmed. The plan's own written reality-check (`health/training-plan.md`) says if that's still true by now, treat this as general-fitness volume instead, not race-prep. Decide, then size the weekend accordingly.
+1. Turn Helen Tupper's commercial handover into a clear Squiggly Careers offer and next step.
+2. Deliver the live client week: Creepers' current calendar and Better at Work Week 4, with status and numbers updated as the work ships.
+3. Re-establish Laing O'Rourke's ET production path after Kerri cancelled the 28 July catch-up.
 
-## By area
+## Active board
 
-### Money
+### New business
 
-- **Starling unconfirmed for 26 days running** (last known £231.91, 1 Jul), the longest this gap has run. Worth an actual check, not another week of "don't know."
-- **LOR remittance landed 20 Jul** but the amount is still unread in a PDF attachment, not counted as confirmed cash. Open it.
-- **Creepers £3,500 June retainer + £950 Sandringham day rate**, both still unconfirmed, both blocked behind the same unsent draft in Top 3 item 1.
-- **Tax reserve** ~£8,000, unchanged. Two sweeps owed once the LOR remittance and Creepers land.
-- **PAYE/NIC £339** "due immediately" per the 12 Jun notice, still unconfirmed 42+ days on.
-- **VAT number** still hasn't landed, past the typical 2-3 week window since the 30 Jun submission.
+- [ ] Squiggly Careers: recommend the offer, scope boundary, transition plan and commercial structure from Helen's email and performance pack. <!-- linear:HWL-156 -->
+- [ ] Squiggly Careers: prepare the response for Harrison's review. Do not create a Gmail draft unless Harrison asks for one. <!-- linear:HWL-157 -->
 
-### Clients
+### Creepers
 
-**LOR Early Talent** (still the #1 focus, ahead of the retainer):
-- Kerri/Harrison catch-up confirmed Tue 28 Jul 16:00. Get the distilled content plan doc + cohort self-filming brief to Kerri and Sarah before that call, not after. Drafted 9 Jul, still sitting, now 17 days, second consecutive weekly review naming the same miss.
-- Emma's ~£28k budget trim confirmation still hasn't landed since the ~20 Jul target. Chase it directly on Tuesday's call if it doesn't arrive first.
-- Site availability for shoot day one (early Aug) still needs locking. This is now the closest production deadline in the file.
+- [ ] Confirm the Tuesday 28 July Surrey S4 shoot and production details. <!-- linear:HWL-158 -->
+- [ ] Get Creepers' exact supply credit for “Why build a garden around a frog?” and “The future tree”. <!-- linear:HWL-159 -->
+- [ ] Reconcile the live calendar's blank Sandringham-week statuses against what actually published. <!-- linear:HWL-160 -->
+- [ ] Clear Michael Buck's RHS award wording and Baz Grainger garden-name checks before the 3 and 4 August hero-film work. <!-- linear:HWL-161 -->
+- [ ] Complete the Catherine MacDonald interview edit when the source drive is available. <!-- linear:HWL-162 -->
 
-**Creepers:**
-- Sandringham show ran clean 22-26 Jul, Creepers confirmed as a supplier on the RHS Royal Legacy Garden, Sarah-Louise green-lit talking about it publicly. Genuine proof asset now in hand.
-- The money side (£950 rate + £3,500 retainer) is entirely blocked on the same unsent draft as Top 3 item 1. Nothing else is stopping it.
-- Hero film stays blocked on the same two Michael Buck factual checks (RHS award wording, Baz Grainger garden name), now weeks old.
-- Peat carousel still waits on Anna's final sign-off.
+### Better at Work
 
-**Better at Work:**
-- Roger Martin content actually shipped today: the "Sum Up" newsletter went via Mailchimp, and a LinkedIn carousel + social previews were built this afternoon. Real movement, keep it going.
-- Weekly progress email to Cathal is one of the three drafted comms in Top 3 item 1. He explicitly asked for this during the value trial, and it's the one thing that hasn't shown up.
-- Distribution gap is still real: Best-of #1 never reached the feed, the question link isn't live, listen-tracking rows are empty. The assets exist, the loop doesn't run yet.
-- Acast Marketplace + Tipalti payout registration, forwarded repeatedly, still unactioned.
+- [ ] Build the miniseries pitch kit. <!-- linear:HWL-163 -->
+- [ ] Package Best-of #3 with two shorts and the LinkedIn post. <!-- linear:HWL-164 -->
+- [ ] Build this week's newsletter around the Sum Up and feedback ask. <!-- linear:HWL-165 -->
+- [ ] Finish the promo page, tracked links and basic analytics. <!-- linear:HWL-166 -->
+- [ ] Run the search pass across episode pages. <!-- linear:HWL-167 -->
+- [ ] Complete brand refresh round 2. <!-- linear:HWL-168 -->
+- [ ] Enter the missing listen numbers and run Friday's dashboard review. <!-- linear:HWL-169 -->
+- [ ] Decide the Acast Marketplace profile and route Tipalti to Cathal if account-holder action is required. <!-- linear:HWL-170 -->
 
-**Golf clubs v2:** Batch 1 closed 24 Jul, but by the wave's own auto-kill rule firing on schedule, not by a Harrison decision. Batch 2 (Berkshire, Addington, Hadley Wood) still needs contact verification before any new send, no urgency this week.
+### Laing O'Rourke
 
-**New client campaign (1 by 31 Jul):** see Top 3 item 2. This is the sharpest live risk in the file.
+- [ ] Replace the cancelled Kerri review point with a current ET decision path. <!-- linear:HWL-171 -->
+- [ ] Confirm Emma's trimmed ET budget and lock site availability, talent and first-shoot timing. <!-- linear:HWL-172 -->
+- [ ] Decide whether Kerri needs a new send of the distilled content plan and cohort self-filming brief after reviewing the final slides. <!-- linear:HWL-173 -->
 
-**LOR Retainer:** PARKED, correctly. No action.
+### Money and admin
+
+- [ ] Run one consolidated cash check: LOR £1,350 bank receipt, Creepers £3,500 plus £950, current Starling balance and tax reserve. <!-- linear:HWL-174 -->
+- [ ] Close the admin bundle: PAYE/NIC status, VAT number with Fazila/HMRC, Amex and receipts. <!-- linear:HWL-175 -->
+- [ ] Update the OnlineJobs.ph payment card if it is still required. <!-- linear:HWL-176 -->
+- [ ] Resolve the standing £2,200 joint-fund transfer and the ISA/float/camera/SSD allocation only if those are still current after the cash check. <!-- linear:HWL-177 -->
 
 ### Content
 
-- Personal substance still silent, 8 weeks since 1 June. Not forcing anything, just naming it plainly: this is the load-bearing fact about content now, not a blip.
-- Substance bank still holds the Dalen/typewriter capture, drafted into LinkedIn/X copy since 6 July, unscheduled. Entirely Harrison's call.
-- BaW client content (Roger Martin) is the one place content actually moved this week, worth noting the contrast: the system ships for clients, not yet for Harrison's own audience.
+- [ ] Decide the next personal-content lane and one first piece. This is a direction decision, not a volume target. <!-- linear:HWL-178 -->
 
-### Health / Training W29 (Peak Build, per the CSV)
+### Health
 
-CSV prescribes: Mon easy 4.2km, Tue DOUBLE (AM 4.2km fasted + PM Strength A), Wed Tempo/Hills 7.6km, Thu DOUBLE (AM 3.4km + PM Strength B), Fri easy + strides 4.2km, Sat Long Mountain 28km/5.6hrs, Sun Back-to-Back 18.5km/3.4hrs. That weekend total (46.5km) is a genuine step up from the recovery fortnight just finished.
+- [ ] Complete the new maintenance week: 21.2 km easy running plus Strength A and Strength B, governed by the knee traffic lights. <!-- linear:HWL-179 -->
 
-See Top 3 item 3: this jump assumes a Lake Bled 80K entry (19 Sept) that was never confirmed. `training-plan.md`'s own reality-check section says if that's still true, park around 25-30km/week general fitness instead of pushing to 75km peak weekends with no carrot. Decide this before Saturday, don't default into the CSV by inertia.
+### Systems and experiments
 
-W28 recap: 4 of 7 days had logged activity in a deliberately loose recovery week (weight training 21/22 Jul, runs 23 + 26 Jul), nothing flagged as a miss, training-plan.md explicitly said not to force it.
+- [ ] Redeploy the Better at Work frontier site only after Harrison approves the production publish. Local clean install, build and audit are green. <!-- linear:HWL-180 -->
+- [ ] Review Edge Lab G2a after 14 paper days. Fable leads the macro comparison but trails both crypto comparators. Keep capital unarmed unless the evidence and safety gates support a later decision. <!-- linear:HWL-181 -->
+- [ ] Verify the next nightly backup reports a clean push or an exact actionable error. <!-- linear:HWL-182 -->
 
-Garmin didn't sync overnight into today (26 Jul), first gap since the return, all readings null. Watch for it to resync. Weight still stale from 29 April, now 88 days.
+## Current state by client
 
-### Life
+**Squiggly Careers:** campaign target hit on 24 July. Helen supplied a live production brief and ten-page performance pack. The opportunity is broader than straight editing: thumbnail and title packaging, faster-value clips, 8am distribution and conversion hygiene.
 
-- Full week with Maya in the Algarve, first real unstructured stretch in a while. The specific Sunday-coffee ritual has no captured evidence again, but that's moot against the week they actually had.
-- Back to normal routine this week, first chance to re-establish it if it matters to either of you.
+**Creepers:** live calendar v5. Current week has four content items plus Tuesday's Surrey shoot. The site works. The gap is status hygiene and exact supply credits, not an assumed client-communication failure.
 
-### Capture
+**Better at Work:** Summer Dashboard v37. Weeks 1 and 2 complete, Week 3 at 5 of 6, Week 4 open. Better Moments #2 is published. Roger Martin Sum Up and funnel work are live. Weekly numbers are blank.
 
-- 16 items added this week across 3 discovery-scan batches (20, 22, 24 Jul), all correctly under 14 days, nothing forced.
-- 5 stale discovery-scan batches (1, 3, 6, 8, 10 Jul) archived this pass, all over 14 days with nobody having promoted an item.
-- LOR Cambridge research stream one-pager is still genuinely outstanding (first flagged 12 Jun), now over 6 weeks. Not urgent this week but it isn't going away either.
+**Laing O'Rourke:** final ET slides sent 16 July. Kerri cancelled the 28 July catch-up. £1,350 remittance covers INV-0390 and INV-0391. The live commercial loop is budget, site and shoot timing.
 
-## Risks and asks
+## Training
 
-- **Three drafted client comms, 10 days unsent, two consecutive weekly reviews naming the identical gap.** This is the sharpest, cheapest fix available. Send them.
-- **New-client-by-31-July is functionally at risk of a second silent miss.** Five days left, decide explicitly rather than let it expire unnamed again.
-- **Nightly backup failed to push 4 of the last 5 nights** (22, 23, 24, 25 Jul), branches diverged with conflicts each time. Repo is 1 commit ahead of origin. Infrastructure issue, worth a direct look before it compounds.
-- **Training auto-escalates into a 46.5km peak weekend on an unconfirmed race assumption.** Decide Bled in or out before Saturday.
-- **Cathal call/flight clash (24 Jul) never got resolved**, a reminder that calendar conflicts don't fix themselves even when named repeatedly. Worth a general check that nothing similar is queued this week.
+Lake Bled is out. The old ultra CSV is archived. The active plan runs 27 July to 6 September, four runs and two strength sessions per week, 21.2 km this week building to a maximum of 30 km. No doubles, no back-to-back long runs, no run over 13 km.
+
+## Edge Lab
+
+Paper services are running cleanly with no halts. Crypto through 27 July: control +1.11%, rules -2.55%, Fable -4.13%. Macro through 24 July: Fable -1.88%, rules -2.49%, control -2.59%. The useful read is mixed. Fable is ahead in macro and clearly behind in crypto. That is a review signal, not a live-capital signal.
+
+## Retired from the board
+
+- Better Moments #2 publish confirmation, published.
+- New-client-by-31-July campaign, target hit via Squiggly Careers.
+- Lake Bled decision and every Bled-derived session.
+- Golf-club outreach, closed and excluded from reporting.
+- Three drafted client comms, false state. The two actual Gmail drafts were moved to Trash.
+- Tuesday 28 July Kerri call, cancelled.
+- Nightly backup manual merge, repository synchronised and failure logging repaired.
 
 ## Reality check
 
-Genuinely restful week in the Algarve, and the two proof assets that landed this week (Sandringham/Royal Legacy Garden credit, Roger Martin content actually shipping today) are real wins. But the pattern from last week's review repeated exactly: the hard strategic work moves (LOR production, Creepers shoot), the simple sends don't. Golf clubs closed by the system's own default rule rather than a Harrison tap, which is the same shape of miss wearing a different hat. Nothing here needs more building. It needs three emails sent, one deadline decision made honestly, and one training call made before Saturday.
+The system had 43 Linear Todos because old daily tasks were never retired. That is not a meaningful board. This file is the replacement: current commercial work, current client delivery, current money, one content decision, the new training block and the paper-trading review.

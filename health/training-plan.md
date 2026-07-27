@@ -1,70 +1,68 @@
 ---
-plan: Ultra Training Daily Plan
-source: ultra-training-daily-plan.csv (built Jan 12, restored as canonical 17 May 2026)
-race_anchor: Corsica TT (Sat 11 July 2026) -> RTTS swapped in
-secondary_anchor: Lake Bled 80km (Sat 19 September 2026) -> structural endpoint, likely skipped
+plan: Six-week run and strength maintenance block
+period: 27 July to 6 September 2026
+race_anchor: none
 status: ACTIVE BIBLE
+supersedes: ultra-training-daily-plan.csv
 ---
 
 # Training Plan
 
-**This is the single source of truth. All other plans superseded as of 17 May 2026.**
+**This file is the only active training prescription.**
 
-## Why this plan, why now
+Lake Bled is not happening. The old ultra CSV is historical and must not be used by the morning brief, evening reflection, weekly review, calendar agents, or any other runner. It stays in the repository only as an archive.
 
-Built in January. Drifted from it in March during the NZ trip. The RTTS 50K v2 rebuild on 11 May was the drift, not the correction. Coming back to this plan now because it's the one that was working, knee-aware, and proven across Jan-Feb base.
+## Aim
 
-The CSV at [`ultra-training-daily-plan.csv`](ultra-training-daily-plan.csv) is the daily prescription. This file is the operating context.
+Recover properly from Race to the Stones 50K, rebuild a steady running rhythm, keep the knee quiet, and regain useful strength. There are no doubles, no back-to-back long runs, and no race-specific peak block.
 
-## Race anchors
+Current starting point, 27 July: readiness 81, RHR 50, HRV 62 ms weekly average, weekly load 203, ACWR 1.0. Latest run was 6.4 km on Sunday 26 July.
 
-- **Original A-race**: Corsica TT, Sat 11 July 2026 (33km / 2400m vert). Swapped for Race to the Stones 50K mid-July. Plan structure around this date stays, race specifics differ.
-- **Original A-A-race**: Lake Bled 80km, Sat 19 September 2026 (80km / 3000m+ vert). Most likely not entering. Plan structure retained because it gives the rest of the year a shape.
+## Six-week schedule
 
-**Watch item**: a 17-week plan whose terminal race you've already opted out of will tempt drift the moment it gets hard. The structure is the value, not the finish line. Name this here so future-Harrison can't pretend it wasn't flagged.
+All easy running is conversational, RPE 2–3. Moderate work is RPE 5–6, controlled rather than raced. Run days can move by one day, but keep at least one easy or rest day after the Wednesday quality session and before Sunday's long run.
 
-## Where we are now
+| Week | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | Run total |
+|---|---|---|---|---|---|---|---|---:|
+| 27 Jul–2 Aug | 4.2 km easy | Strength A | 5 km easy | Strength B | 4 km easy + 4 strides | Rest or walk | 8 km easy | 21.2 km |
+| 3–9 Aug | 5 km easy | Strength A | 6 km rolling, 4 x 3 min moderate | Strength B | 4 km easy | Rest or walk | 10 km easy | 25 km |
+| 10–16 Aug | 5 km easy | Strength A | 6 km incl. 15 min steady tempo | Strength B | 5 km easy | Rest or walk | 11 km easy | 27 km |
+| 17–23 Aug | 4 km easy | Strength A | 5 km easy | Strength B | 4 km easy | Rest or walk | 9 km easy | 22 km |
+| 24–30 Aug | 5 km easy | Strength A | 7 km incl. 20 min steady tempo | Strength B | 5 km easy | Rest or walk | 12 km easy | 29 km |
+| 31 Aug–6 Sep | 5 km easy | Strength A | 7 km hills, 6 x 2 min controlled | Strength B | 5 km easy | Rest or walk | 13 km easy | 30 km |
 
-- Today: Sunday 17 May = W18 of plan, "Specific Build" phase, Back-to-Back RUN 12km on tired legs.
-- Tomorrow: Monday 18 May = W19 begins. Easy 5.1km 33min Z1-2.
-- Phase 3 peak builds to W23-24 around the Corsica/RTTS window.
+Strides are four relaxed 20-second accelerations with full walking recovery. Tempo and hills disappear first if sleep, readiness, or knee response is poor.
 
-## Phase map
+## Strength A, knee and lower body
 
-| Weeks | Phase | Volume | Vibe |
-|---|---|---|---|
-| 1-7 | Rehab & Base | Up to 10km long, knee checkpoint W7 | Build habit, prove consistency |
-| 8-16 | Aerobic Foundation | Up to 15km long, hills introduced W12 | Forest trails, conversational |
-| 17-24 | Specific Build | Up to 28km Sat + 16km Sun B2B | Doubles, tempo/hills, mountain Sats |
-| 25-26 | Corsica Taper -> Race | Drop volume, 4-7hr race effort | First race |
-| 27-28 | Recovery | Easy rebuild | Listen to body |
-| 29-34 | Peak Build (if Bled) | 45km biggest Sat, 75km biggest weekend | Race simulation |
-| 35-36 | Final Taper -> Race | Bled or wind down | A-race or season end |
+- Spanish squat, 3 x 45 seconds
+- Slow step-down, 3 x 8 each leg
+- Front squat, 3 x 6, leave two reps in reserve
+- Single-leg Romanian deadlift, 3 x 8 each leg
+- Standing calf raise, 3 x 12
 
-## Weekly template (Specific Build, where we are)
+## Strength B, full body
 
-- **Mon**: Easy recovery run
-- **Tue**: DOUBLE (AM fasted easy + PM Strength A, tendon/eccentric focus)
-- **Wed**: Tempo or hill repeats (quality day)
-- **Thu**: Strength B (upper + mobility)
-- **Fri**: Easy + strides (pre-long-run activation)
-- **Sat**: Long Mountain Run (trail with vert, power-hike steep, nutrition practice)
-- **Sun**: Back-to-back RUN on tired legs (this is where ultra fitness is built)
+- Bench press, 3 x 6, leave two reps in reserve
+- Row, 3 x 8
+- Pull-ups, 3 controlled sets
+- Hip thrust, 3 x 8
+- Nordic curl, 3 x 5
+- Hip and ankle mobility, 10 minutes
 
-## Standing rules
+## Guardrails
 
-- Knee history is the live ceiling. ITB + patellar tendinopathy. Strength A every Tuesday is non-negotiable.
-- Spanish squats, slow eccentric step-downs, Nordic curls = the four protective lifts. Don't skip.
-- Walk every steep climb, controlled descents.
-- Nutrition practice 200-300 cal/hr on every long run, not just race day.
-- HR under chat-pace on easy days. If HR drifts up on conversational pace, knee or sleep is the issue, not engine.
+- Green: no pain or mild awareness that settles during the warm-up and is back to baseline the next morning. Continue.
+- Amber: pain builds during the run, changes mechanics, or is still elevated after 24 hours. Remove the next run and replace it with walking or easy cycling.
+- Red: swelling, locking, giving way, sharp pain, or altered gait. Stop running and get clinical assessment.
+- If readiness is below 45 or HRV is more than 20 percent below the rolling baseline for two mornings, keep easy movement but remove quality work.
+- No single run over 13 km in this block. No weekly total above 30 km.
+- Long-run fuelling practice is optional below 75 minutes. Above 75 minutes, take water and practise 30–45 g carbohydrate per hour.
 
-## Open follow-ups
+## Evidence note
 
-- Calendar this week (W18-19) was built around the RTTS v2 plan. Tue 19, Wed 20, Sun 24 conflict with new bible. **Action: rewire calendar from W20 onward against CSV, accept this week's drift.**
-- Old RTTS v2 plan content (the 11 May rebuild) is no longer canonical. If reference needed for the academic-evidence reasoning, it lived in `research/2026-05-10-rtts-first-principles-plan.md` and `research/2026-05-10-academic-evidence-base.md`.
-- Fuel and routines (`fuel.md`, `routines.md`) stay as-is, they're plan-agnostic.
+The structure follows the UK adult baseline of regular aerobic work plus strength on at least two days each week. The post-ultra ramp is deliberately conservative because muscle-damage and inflammatory markers can remain elevated for several days after an ultramarathon, and progressive exercise plus hip and knee strengthening are standard conservative tools for common runner knee presentations.
 
-## Reality check on Bled
+## Agent rule
 
-Sep 19 is 18 weeks out. If by mid-July (post-Corsica/RTTS) Harrison hasn't entered, treat Peak Build (W29-34) as general-fitness volume not race-prep, and consider parking around 25-30km/week through autumn instead of pushing to 75km weekends with no carrot.
+When reporting training, read this file only. Never infer a session from `ultra-training-daily-plan.csv`, race calendars, or an old week number. If this file and another source disagree, this file wins.

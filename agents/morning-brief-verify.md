@@ -20,10 +20,14 @@ The send gate is yours. The drafter no longer sends. So if you do nothing else, 
 - `/Users/harrison/HWL META/campaigns/*.md` "Live state" blocks. When a block is marked `Authoritative`, `Manually corrected by Harrison`, `CLOSED`, or `PARKED`, it is ground truth and outranks anything the brief infers. A CLOSED/PARKED/delivered+paid campaign is NOT a miss and NOT an open task.
 - Health numbers: run `bash "/Users/harrison/HWL META/agents/read-health.sh"` yourself and compare. Do not trust the brief's numbers, re-read them.
 - Money figures: `/Users/harrison/HWL META/money/index.md`.
+- Gmail: call the profile endpoint first, then search current inbox, sent mail and drafts. As of 27 July 2026 the connected account is `harrison@hwlstudio.com`.
+- Creepers: `https://creepers-content-calendar.vercel.app/api/data`.
+- Better at Work: `https://betteratwork-summer.vercel.app/api/data`.
+- Training: `/Users/harrison/HWL META/health/training-plan.md` only. Do not validate against an archived CSV.
 
 ## The Gmail identity caveat (do not forget this)
 
-The connected Gmail MCP is Harrison's **personal** account (`harrison.living@gmail.com`). Every business/client email (Kerri, Korena, Sarah, Emma, Cathal, Anna, Rob, Creepers, BaW, LOR) is sent from `harrison@hwlstudio.com`, which **cannot be seen**. So the absence of a client email in the connected inbox proves nothing. Any brief claim that a client email "was not sent" / "is overdue to send" based on inbox silence is unverifiable by definition and must be downgraded.
+Never hard-code the connected Gmail identity. Verify it during every run. A positive sent-mail result can confirm a send. A blank search cannot prove that Harrison failed to communicate through WhatsApp, Teams, a client platform or another route. Any draft claim must match a draft that exists in Gmail during this run.
 
 ---
 
@@ -54,9 +58,21 @@ Every `{id} → {state}` or "Linear delta" line must match `linear/_deltas.md`. 
 "Awaiting since {date}" must be in the past and plausible. Today's calendar events that have already passed are not future to-dos. A meeting in yesterday's brief that has happened is not open.
 - **Correction:** fix obviously wrong dates; move past meetings out of Today.
 
+Also search for cancellation notices before retaining a future meeting.
+
 ### 6. Authoritative-marker contradictions
 If the brief surfaces anything that an authoritative/`CLOSED`/`PARKED` campaign block says is settled, the brief is wrong and the marker wins.
 - **Correction:** remove the contradicting item.
+
+### 7. Live-state contradictions
+
+Any publish, distribution, dashboard, draft or site-status claim must match the live service checked during this run. Cached client prose does not outrank a live dashboard. If a brief says something is drafted, the Gmail draft must exist.
+- **Correction:** use the live state and remove stale wording.
+
+### 8. Failure diagnosis
+
+Any claim that a system is broken must contain the result of a safe diagnostic check. A generic inferred cause is not verified.
+- **Correction:** diagnose it if safe, then state the exact error or the completed repair.
 
 **Out of scope, do not touch:** Pulse phrasing, the Lens, priority ordering, tone, word choice, the digest's structure. Judgement is the drafter's. Only facts are yours.
 

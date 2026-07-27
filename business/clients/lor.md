@@ -54,9 +54,19 @@ McKinsey-grade. Boardroom-ready. "Quiet Confidence" framework (Harrison built th
 - gp@invisiblehurdle.com (Invisible Hurdle consultancy)
 - bailyconsulting@gmail.com (Baily Consulting)
 
-## Active state, last refreshed 9 July 2026
+## Active state, last refreshed 27 July 2026
 
 The system maintains this section.
+
+### 27 July 2026, current email and money state
+
+- **The Tuesday 28 July 16:00 Kerri catch-up is cancelled.** Kerri's cancellation arrived 21 July. It is not a calendar commitment and must not appear in the brief.
+- **Final ET campaign slides were sent to Kerri on 16 July.** Her out-of-office reply followed. The current loop is to re-establish the review point, confirm the trimmed budget and lock site availability for shoot day one.
+- **£1,350 was paid by BACS on 20 July.** The remittance covers INV-0390, £850, and INV-0391, £500. Funds were stated to credit within two days.
+- **Invoices 0390 and 0391 were sent in the 10 July invoice update.** Do not describe this £1,350 as unread or unconfirmed again.
+- **Last positive working exchange:** Harrison sent the 9 July catch-up and next-steps note; Kerri replied “Perfect thank you.” The relationship is active. The bottleneck is the next ET production decision, not an 11-day communication lapse.
+
+**Open now:** reschedule or replace the cancelled review point; confirm Emma's trimmed ET budget; lock the first site shoot and talent; decide whether the distilled plan and self-filming brief need another send after Kerri's review.
 
 ### 9 July 2026, Kerri + Sarah call (15:00): ET production locked, ~£28k over three windows
 
@@ -72,7 +82,7 @@ The system maintains this section.
 
 **Actions:** Harrison distils the plan into a simpler doc for Emma's review, drafts the self-filming brief. Site availability for shoot day one to be confirmed. Kerri confirms budget with Emma and revisits the plan. Weekly catch-up next week.
 
-**Money:** not raised on the call. £1,350 still unconfirmed landed.
+**Money at the time:** not raised on the call. Superseded by the 20 July £1,350 remittance above.
 
 ### 12 June 2026 — Kerri call (13:30): ET deck landed, three new threads
 

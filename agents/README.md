@@ -14,13 +14,13 @@ Honest inventory of every scheduled agent. Updated after every wire / unwire / s
 
 | Agent | File | Schedule | Status | Acceptance |
 |---|---|---|---|---|
-| morning-brief | `agents/morning-brief.md` + `.sh` | 06:30 weekdays | RUNNING-DEGRADED (Apple Health via health-sync.py CSV works. Strava pulling most runs. Verifier chain keeps catching errors before send: corrections across 20-24 Jul ran 0, 1, 3, 0, 0, trending cleaner, 3 of 5 weekday runs this week were 0-correction clean). Source counts this week: 7/7, 7/7, 8/8, 8/8, 8/8. | ~13/19 RUNNING-CLEAN equivalent runs since pipeline fix. Consecutive clean count still not at 14, but this week's correction trend (0,1,3,0,0) is the cleanest stretch yet. |
-| weekly-review | `agents/weekly-review.md` | Sun 18:00 | RUNNING-DEGRADED, recovering. Ran on schedule today (26 Jul 18:00), second Sunday in a row with output after the 19 Jul catch-up run, but the true no-missed-date streak is 1 (today), since 19 Jul was itself a retro catch-up for the missed 12 Jul run. | Acceptance was hit once (2/2, 14 June) then broken by the 12 Jul miss. Rebuilding: needs 2 more consecutive on-schedule Sundays (2, 9 Aug) before trusting the streak again. |
+| morning-brief | `agents/morning-brief.md` + `.sh` | 06:30 weekdays | RUNNING-DEGRADED. The 27 Jul brief repeated stale dashboard, draft, calendar, campaign and training state. The verifier corrected only two claims and still sent a materially wrong brief. Live-dashboard, Gmail-draft, canonical-training and diagnose-first rules added 27 Jul. | Acceptance reset to 0/14 clean weekdays on 27 Jul. |
+| weekly-review | `agents/weekly-review.md` | Sun 18:00 | RUNNING-DEGRADED. The 26 Jul review fed the 27 Jul stale state: non-existent drafts, the closed new-client target and Bled mileage all survived. Live-dashboard, Edge Lab, Gmail-draft, canonical-training and diagnose-first rules added 27 Jul. | Acceptance reset to 0/2 on-schedule accurate Sundays. Next proof runs are 2 and 9 Aug. |
 | weekly-cfo | `agents/weekly-cfo.md` | Fri 16:00 | RUNNING-DEGRADED (Xero still unreachable, manual snapshot used). Sixth run 24 July, same pattern, snapshot completed and flagged Starling's growing 26-day unconfirmed gap clearly. | 6/6 runs on the degraded-but-acceptable pattern (5 Jun, 12 Jun, 26 Jun, 3 Jul, 17 Jul, 24 Jul). ACCEPTANCE HIT (2/2 achieved 12 June). Now on extended run, no gaps. |
 
 **v1 ships when all three hit acceptance simultaneously.**
 
-> As of 2026-07-26: weekly-cfo is the cleanest of the three (6 runs, no gaps, acceptance held). weekly-review is rebuilding trust after the 12 Jul miss, ran clean and on-time today, needs 2 more consecutive on-schedule Sundays before the streak counts again. morning-brief remains the sole blocker on its own acceptance bar, but this week's correction trend (0,1,3,0,0) is the cleanest stretch since the pipeline fix. v1 is close on paper but still needs one more clean fortnight across all three before the "3 agents unattended for 2 weeks" criterion is honestly met.
+> As of 27 July 2026: weekly-cfo is the cleanest of the three. Morning brief and weekly review both reset after the stale-state incident. v1 is not close to acceptance until the corrected live-source rules prove themselves over two clean weeks.
 
 ## Secondary queue (post-v1)
 
@@ -28,21 +28,21 @@ Honest inventory of every scheduled agent. Updated after every wire / unwire / s
 |---|---|---|---|---|
 | learning-brief | `agents/learning-brief.md` | Sun 09:00 | RUNNING-CLEAN. Ran 14 Jun (msg_id=449) and 28 Jun (msg_id=487). 5 items, 4 drills each run, Telegram push confirmed. | 2/2 recent runs clean. Not formally in v1 acceptance scope. |
 | discovery-scan | `agents/discovery-scan.md` | Mon/Wed/Fri 14:00 | RUNNING-CLEAN. Consistent Mon/Wed/Fri runs since 12 June. 4-5 items per run, appending to capture/inbox.md. | Multiple consecutive clean runs. Inbox is filling; drain is the open issue, not the agent. |
-| campaign-chaser | `agents/campaign-chaser.md` | Mon/Wed/Fri 10:00 | RUNNING-CLEAN. Consistent Mon/Wed/Fri runs. Respects authoritative/PARKED/CLOSED markers since 25 June accuracy fix. | Multiple consecutive clean runs. Gmail identity gap (personal only, cannot see hwlstudio.com) noted in every run. |
+| campaign-chaser | `agents/campaign-chaser.md` | Mon/Wed/Fri 10:00 | RUNNING-DEGRADED. On 27 Jul it found Helen's genuine opportunity but still called the campaign overdue, created an unwanted Gmail draft and pushed another stale Telegram prompt. Campaign win and draft-authority rules corrected the same day. | 0 clean runs since the 27 Jul correction. Pause if the next three runs repeat the failure. |
 | evening-reflection | `agents/evening-reflection.md` | Weekdays 19:00 | DRAFTED, deferred | Waits until daily check-in store exists (Phase 2 of MVP roadmap) |
 
 ## Infrastructure jobs (not agents, but scheduled)
 
 | Job | File | Schedule | Status | Notes |
 |---|---|---|---|---|
-| linear-sync | `linear/sync.js` + `sync.sh` | hourly | DRAFTED, awaits API key. Setup steps in `linear/SETUP.md`. | Bidirectional poll between markdown and Linear. Writes deltas to `linear/_deltas.md` which morning-brief now reads. |
+| linear-sync | `linear/sync.js` + `sync.sh` | hourly | RUNNING-CLEAN. API key and launchd job are live. | Bidirectional poll works. Board reconciled from 43 zombie Todos to 27 current issues on 27 Jul. |
 
 ## Known infrastructure issues to address
 
 - **Apple Health MCP schema mismatch.** Caused 5 of 5 logged morning-brief runs to skip Apple Health. Fix: `agents/refresh-health-data.sh` produces the CSV; column casts in `agents/morning-brief.md` queries need verification against the actual exported schema.
-- **Gmail MCP 404.** Codex 20 notes: plugin enabled in config.toml, .app.json connector IDs present, but no live link_id. ChatGPT app/settings don't show Gmail in Harrison's case (per codex 20, may be a plan/region restriction). Fallback: build a direct local Google API bridge using Harrison-owned OAuth credentials, or use forwarding/ICS as a simpler first bridge.
-- **Google Calendar MCP same as Gmail.** Same 404, same fallback.
-- **Strava MCP.** Listed in rewrite's CLAUDE.md allowlist, status unclear in current sessions. Verify before relying on it.
+- **Gmail identity drift.** Gmail is connected to `harrison@hwlstudio.com` as of 27 Jul. Every agent must call the profile endpoint instead of relying on a cached identity claim.
+- **Google Calendar is reachable**, but cancellation email must be checked before treating a future meeting as live.
+- **Strava and Garmin are reachable.** Use current readings, and label weekly-average HRV accurately when overnight data is absent.
 - **Granola MCP.** Free tier, route transcripts via export-to-vault rather than live MCP.
 - **Xero MCP.** Removed 26 March 2026 (rewrite WORKING.md). Needs reinstating before `weekly-cfo` can hit acceptance. Decision: Lich Fields conversation about Xero access first (codex money/index.md control priority #1: reconcile Xero).
 - **Telegram bot token.** Lives at `/Users/harrison/HWL META/.config/telegram.config.json` (still active per rewrite agents/morning-brief.md line 79). Used by morning-brief for the daily push.

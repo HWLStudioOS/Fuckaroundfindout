@@ -34,7 +34,7 @@ Convert Squiggly without buying an editing prison, finish the real client work, 
 
 ### Money and admin
 
-- [ ] Confirm David’s £550 monthly payment date against Wise or the agreement, then reply today that this month is covered.
+- [ ] Confirm David’s £550 monthly payment date against Wise or the agreement, then reply today that this month is covered. <!-- linear:HWL-198 -->
 - [ ] Decide and fund the £940.52 Monzo Flex payment before 1 August. <!-- linear:HWL-192 -->
 - [ ] Recover the £500 family reimbursement and assign it to the immediate card sequence. <!-- linear:HWL-193 -->
 - [ ] Get a replacement letterbox key, retrieve the HMRC VAT letter, record the number and effective date, then update Xero and affected invoices with Fazila. <!-- linear:HWL-194 -->

@@ -23,7 +23,7 @@ The new-client target landed. Helen Tupper brought Harrison a live Squiggly Care
 ## Today
 
 - [ ] Squiggly Careers: turn Helen's scope and performance pack into a clear recommended offer, commercial shape and response decision. Keep the supplied pricing and report confidential. <!-- linear:HWL-156 -->
-- [ ] Creepers: confirm Tuesday's Surrey S4 shoot, get the exact supply credit for the frog and future-tree posts, and reconcile the live calendar statuses from Sandringham week. <!-- linear:HWL-158 -->
+- [ ] Creepers: confirm Tuesday's Surrey S4 shoot, get the exact supply credit for the frog and future-tree posts, move the site's stale `now` pointer to w/c 27 July, and reconcile Sandringham statuses. <!-- linear:HWL-158 -->
 - [ ] Better at Work: run Week 4 from the Summer Dashboard, starting with the miniseries pitch kit and Best-of #3 package. Add the missing listen numbers before Friday review. <!-- linear:HWL-163 -->
 - [ ] Laing O'Rourke: replace the cancelled Kerri meeting with a current ET decision path covering the trimmed budget, site availability and first shoot day. <!-- linear:HWL-171 -->
 - [ ] Money: verify bank receipt of LOR's £1,350, check Creepers £3,500 plus £950, Starling balance, PAYE/NIC, VAT number and Amex in one pass. <!-- linear:HWL-174 -->
@@ -38,7 +38,7 @@ The new-client target landed. Helen Tupper brought Harrison a live Squiggly Care
 
 - Better at Work Summer Dashboard v37: Weeks 1 and 2 complete, Week 3 at 5 of 6, Week 4 open. Numbers remain blank.
 - Better at Work frontier site: lockfile repaired, Next upgraded, clean install and production build pass, zero known npm vulnerabilities. Production redeploy is not yet authorised.
-- Creepers content calendar v5: current week is populated; prior-week status hygiene needs reconciling.
+- Creepers content calendar v5: w/c 27 July is populated, but the site's `now` flag is still stuck on w/c 13 July and prior-week statuses need reconciling.
 - Edge Lab remains paper-only. Crypto through 27 July: control £10,111.05, rules £9,744.70, Fable £9,586.77. Macro through 24 July: Fable £9,812.28 leads rules £9,751.13 and control £9,740.55. No halts. G2a has enough days for a process review, but crypto Fable is underperforming, so no live-capital gate is open.
 - Catherine MacDonald interview edit and Creepers hero-film production remain active workstreams.
 - Personal content direction remains unresolved. It is a strategic choice, not a fabricated daily miss.

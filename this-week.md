@@ -26,7 +26,7 @@ Convert the Squiggly Careers win, deliver the current Creepers and Better at Wor
 
 - [ ] Confirm the Tuesday 28 July Surrey S4 shoot and production details. <!-- linear:HWL-158 -->
 - [ ] Get Creepers' exact supply credit for “Why build a garden around a frog?” and “The future tree”. <!-- linear:HWL-159 -->
-- [ ] Reconcile the live calendar's blank Sandringham-week statuses against what actually published. <!-- linear:HWL-160 -->
+- [ ] Move the live calendar's stale `now` pointer from w/c 13 July to w/c 27 July, then reconcile blank Sandringham-week statuses against what actually published. <!-- linear:HWL-160 -->
 - [ ] Clear Michael Buck's RHS award wording and Baz Grainger garden-name checks before the 3 and 4 August hero-film work. <!-- linear:HWL-161 -->
 - [ ] Complete the Catherine MacDonald interview edit when the source drive is available. <!-- linear:HWL-162 -->
 
@@ -72,7 +72,7 @@ Convert the Squiggly Careers win, deliver the current Creepers and Better at Wor
 
 **Squiggly Careers:** campaign target hit on 24 July. Helen supplied a live production brief and ten-page performance pack. The opportunity is broader than straight editing: thumbnail and title packaging, faster-value clips, 8am distribution and conversion hygiene.
 
-**Creepers:** live calendar v5. Current week has four content items plus Tuesday's Surrey shoot. The site works. The gap is status hygiene and exact supply credits, not an assumed client-communication failure.
+**Creepers:** live calendar v5. The w/c 27 July record has four content items plus Tuesday's Surrey shoot, but the site's `now` flag still points to w/c 13 July. The gap is current-week/status hygiene and exact supply credits, not an assumed client-communication failure.
 
 **Better at Work:** Summer Dashboard v37. Weeks 1 and 2 complete, Week 3 at 5 of 6, Week 4 open. Better Moments #2 is published. Roger Martin Sum Up and funnel work are live. Weekly numbers are blank.
 

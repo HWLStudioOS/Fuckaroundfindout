@@ -10,7 +10,7 @@ Active. Sandringham 2026 is the current content centrepiece. Shoot completed 17 
 
 - **The content calendar is live:** API version 5. This week's schedule is Monday “Why build a garden around a frog?”, Tuesday 28 July Surrey shoot S4 plus “Root pruning, explained”, Wednesday “Fresh In #4”, and Friday “The future tree”.
 - **Current dependencies:** the frog and future-tree posts need Creepers' exact supply credit. Tuesday's shoot needs the normal production confirmation. These are content decisions, not evidence of a communication lapse.
-- **Calendar hygiene is behind the work:** some entries from the completed Sandringham week still have blank status fields. Reconcile the live calendar so the board reflects what shipped.
+- **Calendar hygiene is behind the work:** the API's `now` flag is still stuck on w/c 13 July even though the w/c 27 July schedule exists, and some completed Sandringham entries have blank status fields. Move the current-week pointer and reconcile statuses so the site reflects what shipped.
 - **Sandringham is complete:** the Royal Legacy Garden coverage and Catherine MacDonald material are in hand. The peat-free Chelsea 2027 carousel is marked posted in the live calendar.
 - **Money is unverified, not unsent:** the £950 Sandringham rate and June £3,500 retainer still need a bank or remittance check. There is no current Anna/Sarah-Louise draft in Gmail.
 - **Hero film remains blocked** on Michael Buck's exact RHS award wording and the Baz Grainger garden name.

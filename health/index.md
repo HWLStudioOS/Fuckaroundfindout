@@ -5,9 +5,9 @@
 ## Body, 27 July 2026
 
 - Height: 6'1/2".
-- Readiness: 81, high.
-- Resting heart rate: 50.
-- HRV: 62 ms weekly average.
+- Latest Garmin pull at 11:00 BST: readiness 100, prime.
+- Resting heart rate: 45.
+- HRV: 60 ms last night, balanced.
 - Weekly load: 203, ACWR 1.0.
 - Latest run: 6.4 km on 26 July.
 - Weight and body-fat readings are stale from 29 April. Do not present them as current.

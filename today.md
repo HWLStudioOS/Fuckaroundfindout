@@ -21,6 +21,7 @@ generated: fully reconciled 27 July 2026
 - Long + Strong replaced the 21.2 km maintenance plan. The printable two-page wall sheet is ready.
 - Edge Lab passed the current two-week process gate. Crypto Fable is last, macro Fable is narrowly first, and no live capital is armed.
 - Money snapshot now uses Harrison's 27 July balances and the real five-day cash sequence.
+- Manual backup completed at 11:20 BST and pushed cleanly to `origin/main`.
 
 ## Waiting on someone else
 
@@ -31,7 +32,7 @@ generated: fully reconciled 27 July 2026
 
 ## Current body
 
-Readiness 81, resting heart rate 50, HRV 62 ms weekly average, acute load 203 and ACWR 1.0. Weight remains unknown until seven new morning weigh-ins exist.
+Latest Garmin pull at 11:00 BST: readiness 100, resting heart rate 45, HRV 60 ms and balanced, sleep 8.6 hours with a score of 94. The latest known weekly load is 203 with ACWR 1.0. Weight remains unknown until seven new morning weigh-ins exist.
 
 Today's training is 5 km easy plus four relaxed strides. If the knee is not quiet, walk and start the block tomorrow. Do not compensate later in the week.
 

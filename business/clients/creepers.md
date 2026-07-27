@@ -8,13 +8,14 @@ Active. Sandringham 2026 is the current content centrepiece. Shoot completed 17 
 
 ## Active state, 27 July 2026
 
-- **The content calendar is live:** API version 5. This week's schedule is Monday “Why build a garden around a frog?”, Tuesday 28 July Surrey shoot S4 plus “Root pruning, explained”, Wednesday “Fresh In #4”, and Friday “The future tree”.
-- **Current dependencies:** the frog and future-tree posts need Creepers' exact supply credit. Tuesday's shoot needs the normal production confirmation. These are content decisions, not evidence of a communication lapse.
-- **Calendar hygiene is behind the work:** the API's `now` flag is still stuck on w/c 13 July even though the w/c 27 July schedule exists, and some completed Sandringham entries have blank status fields. Move the current-week pointer and reconcile statuses so the site reflects what shipped.
-- **Sandringham is complete:** the Royal Legacy Garden coverage and Catherine MacDonald material are in hand. The peat-free Chelsea 2027 carousel is marked posted in the live calendar.
-- **Money is unverified, not unsent:** the £950 Sandringham rate and June £3,500 retainer still need a bank or remittance check. There is no current Anna/Sarah-Louise draft in Gmail.
-- **Hero film remains blocked** on Michael Buck's exact RHS award wording and the Baz Grainger garden name.
-- **3 and 4 August hero-film production is scheduled** in the live calendar and still needs the factual checks cleared before final captions.
+- **The content calendar is live at API version 6.** The `now` marker correctly points to w/c 27 July.
+- **Priority 1:** finish the Carey Garden Design Studio edit.
+- **Then:** publish Michael's Sandringham stock updates from Sandrine, select the incoming WhatsApp installation photos, and build the installation-page posts.
+- **Surrey S4 moves to w/c 3 August.** Exact date is pending Harrison's WhatsApp with Anna and Sarah-Louise. The calendar shows the move in both current and next week.
+- **Supply credit is confirmed.** It is no longer an open task.
+- **Michael's two factual checks are done.** They are no longer an open task.
+- **Catherine MacDonald edit is done.** It is no longer an open task.
+- Some photos have already been posted. A live Instagram review could not be completed because Instagram would not load in the available browser session, so no additional status was invented.
 
 ## Positioning
 

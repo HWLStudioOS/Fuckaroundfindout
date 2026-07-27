@@ -8,13 +8,16 @@ Active. April reset after honest conversation about declining metrics. Hourly tr
 
 ## Active state, 27 July 2026
 
-- **Summer Dashboard is current:** live API version 37. Weeks 1 and 2 are complete. Week 3 is 5 of 6 complete, with only the Friday review still open. Weekly numbers are still blank, so the delivery engine is ahead of the measurement loop.
+- **Summer Dashboard is current:** live API version 38. Weeks 1 to 3 are complete. Week 4 holds Russell, the newsletter and the single Season 5 brand and website lane. Cathal has the dashboard and knows the current numbers position. Missing listens and a Friday review are not Harrison tasks.
 - **Better Moments #2 is published.** This loop is closed and must not return to the board.
 - **Roger Martin is live:** the Sum Up was built and gated, Mailchimp test traffic went out on 26 July, Best-of #2 reached the feed, and the LinkedIn/newsletter funnel work is active.
-- **Week 4, 27 July to 2 August:** miniseries pitch kit; Best-of #3 plus two shorts and LinkedIn; newsletter with the Sum Up and feedback ask; promo page and tracked links; search pass on episode pages; brand refresh round 2; Friday review.
+- **Best-of #3 is Russell Beck.** It is third all-time at 245 Acast plays, two behind Smart Conflict, and has the stronger current AI and future-skills hook. The package starter, cold open, copy and edit spine are built in `production/better-moments-03-russell-beck-2026-07-27/`.
+- **This week's newsletter is written.** It uses Roger's “What would have to be true?” tool and asks readers whether the Sum Up is useful. It is gated on a tested public Sum Up link and Cathal's scan.
+- **The miniseries kit moves to w/c 10 August.** It is Season 5 work, not an immediate delivery miss.
+- **One Season 5 brand and website lane now holds the brand refresh, promo page, analytics and episode-page search pass.** The known Better at Work Content Templates Figma file contains the finished Helen and Roger campaign assets, but no board named Season 5, brand refresh, website or homepage. Do not pretend a missing Figma board was reviewed.
+- **Acast Marketplace and Tipalti setup is done on Harrison's side.** Await Cathal's payout account details.
 - **There is no current Cathal progress draft in Gmail.** Do not ask Harrison to send a non-existent draft. Decide the communication from the live dashboard when it is actually needed.
-- **Acast remains open:** Cathal forwarded Marketplace onboarding and Tipalti payout registration. Marketplace profile is an HWL follow-up. Tipalti appears to need Cathal as the account holder.
-- **Frontier site deploy diagnosed:** the 14 July Vercel failure came from an out-of-sync lockfile. The existing `codex/baw-frontier-site` worktree now installs cleanly, builds on Next 16.2.12 and audits at zero known vulnerabilities. Production redeploy remains a separate publish decision.
+- **Frontier site deploy diagnosed:** the existing `codex/baw-frontier-site` worktree installs cleanly, builds on Next 16.2.12 and audits at zero known vulnerabilities. Production remains held until the Season 5 brand direction is approved.
 
 ## What Harrison does
 

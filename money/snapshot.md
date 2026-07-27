@@ -1,76 +1,70 @@
 # Financial Snapshot
 
-**Canonical source:** `/Users/harrison/hwlstudio-codex/harrison-os/06-financial-snapshot.md`
+Authoritative working snapshot from Harrison's stated balances on 27 July 2026. This is a cash-control view, not reconciled accounts. Xero and Litchfields remain the accounting source.
 
-Working snapshot from Harrison's stated numbers, captured 11 May 2026. Needs reconciliation against Xero, bank accounts, and cards.
+## Cash now
 
-## Recurring revenue (clear MRR)
+| Account | Balance | Treatment |
+|---|---:|---|
+| Starling business current | £800.00 | Operating cash |
+| Revolut Business savings, tax buffer | £6,441.00 | £6,211 plus £230, restricted tax money |
+| Revolut personal | £11.00 | Personal cash |
+| Joint account | £380.00 | Household cash |
 
-- BaW / Cathal: £1,500/month.
-- Creepers Nursery: £3,500/month.
-- **Total clear MRR: £5,000/month.**
-- LOR: valuable project + billable, not yet a signed retainer.
+Business cash totals £7,241, but only £800 is operating cash. The £6,441 tax pot is not normal headroom.
 
-## Recent cash movement (stated)
+## Card liabilities
 
-- Dec: in £22k, out £10k.
-- Jan: in £5k, out £7k.
-- Feb: in £9k, out £12k.
-- Mar 2026: in £7.6k, out £6.8k.
-- Apr: in £12k, out unclear (~£357 or £3,357).
-- May: in unclear, out £496 so far.
+| Account | Owing | Timing and context |
+|---|---:|---|
+| Monzo Flex | £940.52 | Due in five days, 1 August. Immediate risk. |
+| Capital on Tap | £2,534.00 | Minimum payment selected for next month. Includes Portugal, Dublin and car costs. |
+| Amex | About £1,000.00 | £500 expected back from family is intended for card repayment. |
+| **Total stated cards** | **About £4,474.52** | Before the family reimbursement |
 
-## Receivables
+The £500 family reimbursement reduces the effective card exposure to about £3,974.52 when it actually lands. Do not count it as cash before receipt.
 
-- LOR owed as of capture: £6,633.
-- Drafted invoices: £1,350.
-- Additional promised LOR payment: £6,000.
-- Near-term receivables total: ~£13,983.
-- Possible upcoming LOR project: £8-10k.
+## Five-day decision order
 
-**Risk:** LOR payment timing is slow. One £6k is ~40 days late.
+1. Recover the £500 family money and assign it to Monzo Flex first, unless a specific Amex or Capital on Tap reimbursement trail requires otherwise.
+2. Decide how the remaining Monzo Flex balance will clear before 1 August. Protect the tax pot if a credible receipt lands first. If not, make one explicit bridge decision rather than let the payment bounce by accident.
+3. Hold non-essential personal and business spending until the Flex payment and August card minimums are covered.
+4. Keep Capital on Tap at the already-selected minimum for this cycle. Do not add new discretionary travel, car or equipment spending to it.
+5. Rebuild the tax buffer from the next receipts. The buffer was used to bridge a quiet Laing O'Rourke period and is below the level Harrison wants.
 
-## Year-to-date since 1 Sept 2025
+## VAT letter and invoicing
 
-- Income: ~£75,630.
-- Expenses: ~£16,000 (not fully reconciled).
+VAT registration was submitted and the registration letter is probably in the downstairs letterbox. Harrison has lost the key.
 
-## Tax buffer
+Immediate sequence:
 
-- Target: 20% of revenue.
-- Currently: not clearly separated, depleted by ~£13-15k visa/travel costs in March.
-- Needs immediate weekly tracking.
+1. Get a replacement letterbox key and retrieve the HMRC letter.
+2. Record the VAT registration number and effective date in Xero and the invoice template.
+3. Identify every taxable supply with a tax point on or after the effective date.
+4. Do not issue a document as a VAT invoice without the VAT number. HMRC's current VAT Notice 700 allows a newly registered business that has not yet been told its number to issue the VAT invoice within 30 days after the number is advised.
+5. Once the number arrives, invoices must show the VAT number, net amount, rate, VAT amount and gross total. Confirm any retrospective or replacement invoice treatment with Fazila before sending.
 
-## VAT
+HMRC references:
 
-- Status: not registered as of 11 May.
-- Revenue ~£75k, approaching £90k threshold.
-- Government rule: must register if last-12-month VAT-taxable turnover goes over £90k, or if expected to in the next 30 days.
-- **Action:** speak to Lich Fields immediately about timing, effective date, invoice treatment, whether any LOR contracts need updating before threshold crossed.
+- https://www.gov.uk/guidance/vat-guide-notice-700
+- https://www.gov.uk/charge-reclaim-record-vat
+- https://www.gov.uk/invoicing-and-taking-payment-from-customers/invoices-what-they-must-include
 
-## Salary / dividends
+## Position
 
-- PAYE activation expected in the next couple of weeks.
-- Planned salary once PAYE active: £1,047/month.
-- Plus dividends.
-- Personal calm number: £2,500-3,000/month. Needs clarification: inclusive or exclusive of £1,047 salary.
+Tight, not insolvent. The five-day problem is sequencing, especially Monzo Flex. The commercial response is to convert Squiggly at a proper margin, collect the family reimbursement, lock the next Laing O'Rourke deposit and stop treating the tax pot as an invisible overdraft.
 
-## Personal liquidity
+## Not on the live board
 
-Low. Business workable but fragile (depends on late corporate receivables). See `money/analysis-2026-05-11.md` for full breakdown.
+- OnlineJobs.ph card, ignored and removed.
+- ISA, camera, SSD and old float allocations, parked until the immediate card sequence is stable.
+- Old unverified bank-receipt checks that Harrison has replaced with these live balances.
 
-## Open questions (the codex asks)
+## Still unverified
 
-- Exact fixed monthly personal cost base?
-- Exact fixed monthly business cost base?
-- Is the £2.5-3k calm number inclusive or exclusive of the planned £1,047 salary?
-- What's the exact cash-out for April?
-- What's the exact cash-in for May?
-- What invoices are in the £6,633 LOR receivable?
-- What's the payment term on each LOR invoice?
-- Who in AP controls LOR invoice payment, what process do they need?
-- Which expenses since 1 Sept are business / personal / visa / travel / tax-related?
-- What VAT, corporation tax, income tax obligations are due and when?
-- Minimum monthly personal draw for Harrison + Maya?
+- Exact Amex balance and statement date.
+- Exact Capital on Tap minimum payment and due date.
+- PAYE and NIC position in Xero.
+- VAT registration number and effective date in the physical HMRC letter.
 
-These are the Lich Fields conversation agenda.
+Those four checks belong in one finance-admin pass, not as repeated daily nags.

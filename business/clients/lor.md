@@ -66,7 +66,7 @@ The system maintains this section.
 - **Invoices 0390 and 0391 were sent in the 10 July invoice update.** Do not describe this £1,350 as unread or unconfirmed again.
 - **Last positive working exchange:** Harrison sent the 9 July catch-up and next-steps note; Kerri replied “Perfect thank you.” The relationship is active. The bottleneck is the next ET production decision, not an 11-day communication lapse.
 
-**Open now:** reschedule or replace the cancelled review point; confirm Emma's trimmed ET budget; lock the first site shoot and talent; decide whether the distilled plan and self-filming brief need another send after Kerri's review.
+**Only open loop:** push one ET production decision to completion: book the first shoot day, finalise the trimmed budget, and have the first 50 per cent invoice raised against a valid purchase order. The final slides and supporting plan have already been sent. Do not split this into duplicate “send”, “review” and “reschedule” tasks.
 
 ### 9 July 2026, Kerri + Sarah call (15:00): ET production locked, ~£28k over three windows
 

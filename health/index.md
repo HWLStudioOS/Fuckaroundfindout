@@ -15,7 +15,9 @@
 
 ## Training
 
-Race to the Stones 50K was completed on 11 July 2026. Lake Bled is not happening. The active prescription is the six-week maintenance block in `health/training-plan.md`, 27 July to 6 September. The ultra CSV is archived and must not drive briefs or reminders.
+Race to the Stones 50K was completed on 11 July 2026. Lake Bled is not happening. The active prescription is the eight-week **Long + Strong** hybrid block in `health/training-plan.md`, 27 July to 20 September: four runs, two full-body strength sessions and one rest day. It builds from 24 km to 38 km, with one VO2 session and one long run each week. The old 21.2 km maintenance week and ultra CSV are retired and must not drive briefs or reminders.
+
+Printable wall sheet: `output/pdfs/long-strong-wall-plan-2026-07-27.pdf`.
 
 ## Strength
 

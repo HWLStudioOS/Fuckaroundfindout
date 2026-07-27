@@ -117,7 +117,7 @@
 [2026-05-13T01:52:06.013Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-05-13T08:51:35.575Z] INFO Sync start. Last: 2026-05-13T01:52:06.012Z
 [2026-05-13T08:51:37.976Z] INFO push + HWL-10 BaW monthly report: 5 days overdue. Write and send to Cathal
-[2026-05-13T08:51:38.303Z] INFO push + HWL-11 LOR V8 retainer: nudge Korena or hold. Today is the mid-May 
+[2026-05-13T08:51:38.303Z] INFO push + HWL-11 LOR V8 retainer: nudge Korena or hold. Today is the mid-May
 [2026-05-13T08:51:38.698Z] INFO push + HWL-12 Golf Day 5 follow-ups: 6 cold clubs (Royal Blackheath, The B
 [2026-05-13T08:51:39.266Z] INFO push + HWL-13 Creepers Chelsea: brief from Anna for Fri 15 due from Anna b
 [2026-05-13T08:51:39.843Z] INFO push + HWL-14 Easy aerobic 6km at 17:00. HR under 150. 6:30/km. RTTS W1 Da
@@ -169,7 +169,7 @@
 [2026-05-18T08:38:03.025Z] INFO push + HWL-16 Send Korena V8 retainer nudge. Warm, direct. Reference AS wr
 [2026-05-18T08:38:03.391Z] INFO push + HWL-17 Build 15 LOR-shaped new outreach targets for capture/inbox.m
 [2026-05-18T08:38:03.540Z] INFO push + HWL-18 Chelsea prep: scan existing footage, draft 3 post-embargo Li
-[2026-05-18T08:38:03.934Z] INFO push + HWL-19 Golf Wave 1 Day 12: collapse Day 5 + 12 into single send to 
+[2026-05-18T08:38:03.934Z] INFO push + HWL-19 Golf Wave 1 Day 12: collapse Day 5 + 12 into single send to
 [2026-05-18T08:38:04.100Z] INFO Sync done. push: +5 ~0. pull: ~0.
 [2026-05-18T09:38:04.210Z] INFO Sync start. Last: 2026-05-18T08:38:04.098Z
 [2026-05-18T09:38:09.413Z] INFO Sync done. push: +0 ~0. pull: ~0.
@@ -215,7 +215,7 @@
 [2026-05-19T05:39:12.822Z] INFO push + HWL-20 Chelsea Day 1: check WhatsApp from Anna or Michael for shoot
 [2026-05-19T05:39:13.001Z] INFO push + HWL-21 Kerri/Harrison catch-up, 16:00 Teams. Agenda: June Global Co
 [2026-05-19T05:39:13.153Z] INFO push + HWL-22 Korena V8 nudge (if not sent yesterday): send by 10:30. Warm
-[2026-05-19T05:39:13.318Z] INFO push + HWL-23 Golf Wave 1 Day 12: send to 6 cold clubs (Royal Blackheath, 
+[2026-05-19T05:39:13.318Z] INFO push + HWL-23 Golf Wave 1 Day 12: send to 6 cold clubs (Royal Blackheath,
 [2026-05-19T05:39:13.769Z] INFO push + HWL-24 Cathal warmup ping, 17:00. WhatsApp or email. Reference Wend
 [2026-05-19T05:39:14.830Z] INFO Sync done. push: +5 ~0. pull: ~0.
 [2026-05-19T06:39:14.915Z] INFO Sync start. Last: 2026-05-19T05:39:14.829Z
@@ -300,7 +300,7 @@
 [2026-05-21T04:43:15.123Z] INFO Sync start. Last: 2026-05-21T03:43:15.040Z
 [2026-05-21T04:43:16.992Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-05-21T05:43:17.150Z] INFO Sync start. Last: 2026-05-21T04:43:16.991Z
-[2026-05-21T05:43:19.025Z] INFO push + HWL-30 Chelsea Day 3: check WhatsApp from Anna right now. No brief 
+[2026-05-21T05:43:19.025Z] INFO push + HWL-30 Chelsea Day 3: check WhatsApp from Anna right now. No brief
 [2026-05-21T05:43:19.246Z] INFO push + HWL-31 Kerri catch-up: find the time from the invite (in calendar o
 [2026-05-21T05:43:19.382Z] INFO push + HWL-32 Golf Wave 1 Day 12: 6 cold clubs (Royal Blackheath, The Berk
 [2026-05-21T05:43:19.541Z] INFO push + HWL-33 Strength B: upper + mobility. Non-negotiable per ITB/patella
@@ -353,7 +353,7 @@
 [2026-05-22T04:43:33.049Z] INFO Sync start. Last: 2026-05-22T03:43:32.932Z
 [2026-05-22T04:43:33.802Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-05-22T05:43:33.827Z] INFO Sync start. Last: 2026-05-22T04:43:33.800Z
-[2026-05-22T05:43:34.464Z] INFO push + HWL-35 Essay publish: 11:00 sharp. Edit block 08:00-10:00. Publish 
+[2026-05-22T05:43:34.464Z] INFO push + HWL-35 Essay publish: 11:00 sharp. Edit block 08:00-10:00. Publish
 [2026-05-22T05:43:34.613Z] INFO push + HWL-36 LOR Early Talent quote email: send before 11:00. £20,250 (£1
 [2026-05-22T05:43:34.796Z] INFO push + HWL-37 Golf Day 12: 6 cold clubs, Chelsea case study format. Day 17
 [2026-05-22T05:43:34.938Z] INFO push + HWL-38 DFMA carousel + ghostwritten posts: one email to Kerri befor
@@ -499,7 +499,7 @@
 [2026-05-26T03:23:54.377Z] INFO Sync start. Last: 2026-05-25T20:04:21.407Z
 [2026-05-26T03:23:54.855Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-05-26T09:08:46.990Z] INFO Sync start. Last: 2026-05-26T03:23:54.854Z
-[2026-05-26T09:08:47.559Z] INFO push + HWL-45 LOR ET quote (£20,250): confirm sent or send now. Must land 
+[2026-05-26T09:08:47.559Z] INFO push + HWL-45 LOR ET quote (£20,250): confirm sent or send now. Must land
 [2026-05-26T09:08:47.717Z] INFO push + HWL-46 Kerri/Harrison catch-up, 16:00 Teams. Agenda: ET quote statu
 [2026-05-26T09:08:47.853Z] INFO push + HWL-47 Creepers footage decision block, 09:00-10:30. Name one of th
 [2026-05-26T09:08:48.045Z] INFO push + HWL-48 PM Strength A, 18:00. Spanish squats, step-downs, Nordic cur
@@ -534,7 +534,7 @@
 [2026-05-26T23:09:13.268Z] INFO Sync start. Last: 2026-05-26T22:09:13.217Z
 [2026-05-26T23:09:14.229Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-06-01T19:40:03.460Z] INFO Sync start. Last: 2026-05-26T23:09:14.228Z
-[2026-06-01T19:40:05.517Z] INFO push + HWL-50 New Forest Visit 07:30-15:00. Show up, shoot if that is the 
+[2026-06-01T19:40:05.517Z] INFO push + HWL-50 New Forest Visit 07:30-15:00. Show up, shoot if that is the
 [2026-06-01T19:40:05.970Z] INFO push + HWL-51 Workshop talking points doc 15:00-16:30. Nine June is 8 days
 [2026-06-01T19:40:06.196Z] INFO push + HWL-52 Creepers Chelsea footage decision. Three weeks of limbo. Nam
 [2026-06-01T19:40:07.216Z] INFO push + HWL-53 Golf Wave 1 breakup draft. Breakup sequence triggers Thursda
@@ -543,8 +543,8 @@
 [2026-06-01T20:40:09.434Z] INFO Sync start. Last: 2026-06-01T19:40:08.449Z
 [2026-06-01T20:40:10.261Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-06-02T06:48:37.581Z] INFO Sync start. Last: 2026-06-01T20:40:10.261Z
-[2026-06-02T06:48:38.257Z] INFO push + HWL-55 Kerri/Harrison catch-up 16:00. Full queue: ET quote £20,250 
-[2026-06-02T06:48:38.816Z] INFO push + HWL-56 Workshop Year One talking points doc. Seven days to 9 June. 
+[2026-06-02T06:48:38.257Z] INFO push + HWL-55 Kerri/Harrison catch-up 16:00. Full queue: ET quote £20,250
+[2026-06-02T06:48:38.816Z] INFO push + HWL-56 Workshop Year One talking points doc. Seven days to 9 June.
 [2026-06-02T06:48:39.011Z] INFO push + HWL-57 Golf Wave 1 breakup draft. Day 30 trigger fires tomorrow (Th
 [2026-06-02T06:48:39.183Z] INFO push + HWL-58 Creepers Chelsea footage decision. Four weeks in limbo. Pick
 [2026-06-02T06:48:39.376Z] INFO push + HWL-59 AM fasted 3.8km easy (06:30, on calendar) + PM Strength A. D
@@ -681,7 +681,7 @@
 [2026-06-05T06:29:18.655Z] INFO push + HWL-74 David (PH editor): confirm Monday start. Last contact 27 May
 [2026-06-05T06:29:20.316Z] INFO push + HWL-75 Golf breakup: send Option A, six emails, draft staged in cam
 [2026-06-05T06:29:23.217Z] INFO push + HWL-76 Workshop backup demo clip at 17:00, 30 min, screen-recorded.
-[2026-06-05T06:29:23.586Z] INFO push + HWL-77 Easy 4.9km + strides at 17:00. Pre-long-run activation. Fit 
+[2026-06-05T06:29:23.586Z] INFO push + HWL-77 Easy 4.9km + strides at 17:00. Pre-long-run activation. Fit
 [2026-06-05T06:29:24.003Z] INFO push + HWL-78 LOR ET £20,250 quote: if not confirmed sent to Emma Simpson,
 [2026-06-05T06:29:24.128Z] INFO Sync done. push: +5 ~0. pull: ~0.
 [2026-06-05T07:29:24.180Z] INFO Sync start. Last: 2026-06-05T06:29:24.127Z
@@ -818,7 +818,7 @@
 [2026-06-08T10:33:22.410Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-06-08T11:33:22.498Z] INFO Sync start. Last: 2026-06-08T10:33:22.409Z
 [2026-06-08T11:33:23.494Z] INFO push + HWL-79 Workshop dry-run plus tech check (per this-week: dry-run 14:
-[2026-06-08T11:33:23.743Z] INFO push + HWL-80 BUILD the sanitised demo folder before the live share. Copy 
+[2026-06-08T11:33:23.743Z] INFO push + HWL-80 BUILD the sanitised demo folder before the live share. Copy
 [2026-06-08T11:33:23.890Z] INFO push + HWL-81 Confirm the ET quote pre-read (costed breakdown plus AS link
 [2026-06-08T11:33:24.105Z] INFO push + HWL-82 Training (this-week Mon: Easy 6.1km Z1-2, 17:00). Then lunch
 [2026-06-08T11:33:24.209Z] INFO Sync done. push: +4 ~0. pull: ~0.
@@ -1080,7 +1080,7 @@
 [2026-06-14T19:58:39.546Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-06-15T08:18:20.293Z] INFO Sync start. Last: 2026-06-14T19:58:39.545Z
 [2026-06-15T08:18:20.897Z] INFO push + HWL-91 Pay HMRC £339 via Faster Payments to HMRC Cumbernauld. P30 2
-[2026-06-15T08:18:21.121Z] INFO push + HWL-92 Check Starling: LOR INV-0392 (£3,885) landed? If yes, sweep 
+[2026-06-15T08:18:21.121Z] INFO push + HWL-92 Check Starling: LOR INV-0392 (£3,885) landed? If yes, sweep
 [2026-06-15T08:18:21.274Z] INFO push + HWL-93 Email Fazila (fazila@litchfields.co.uk) on VAT: ask her to c
 [2026-06-15T08:18:21.453Z] INFO push + HWL-94 Nudge Anna + Sarah (Creepers): content plan sent Thursday 11
 [2026-06-15T08:18:21.914Z] INFO push + HWL-95 Reply Fazila payroll thread: confirm Option 1 (£5,241 gross,
@@ -1212,7 +1212,7 @@
 [2026-06-19T08:53:53.061Z] INFO push ~ HWL-93 → done
 [2026-06-19T08:53:53.204Z] INFO push ~ HWL-94 → done
 [2026-06-19T08:53:53.384Z] INFO push + HWL-96 David handoff pack. Client links, fonts, palettes, video ref
-[2026-06-19T08:53:53.814Z] INFO push + HWL-97 Tomorrow logistics. The shoot day at 11:00 follows a 28km / 
+[2026-06-19T08:53:53.814Z] INFO push + HWL-97 Tomorrow logistics. The shoot day at 11:00 follows a 28km /
 [2026-06-19T08:53:53.996Z] INFO push + HWL-98 Golf Wave 2 prep. Retrieve or rewrite the Wave 1 email body,
 [2026-06-19T08:53:54.219Z] INFO push + HWL-99 ET deck: one condensing pass (fluff out, per Kerri's 16 June
 [2026-06-19T08:53:54.320Z] INFO pull ~ HWL-96 → todo
@@ -1282,7 +1282,7 @@
 [2026-06-23T19:40:33.519Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-06-24T07:07:08.801Z] INFO Sync start. Last: 2026-06-23T19:40:33.518Z
 [2026-06-24T07:07:09.429Z] INFO push + HWL-103 Tempo/Hills 14km, IN PROGRESS (06:30-07:50 BST). Last qualit
-[2026-06-24T07:07:09.625Z] INFO push + HWL-104 Cambridge one-pager: draft for Kerri's end-of-June meeting. 
+[2026-06-24T07:07:09.625Z] INFO push + HWL-104 Cambridge one-pager: draft for Kerri's end-of-June meeting.
 [2026-06-24T07:07:09.748Z] INFO Sync done. push: +2 ~0. pull: ~0.
 [2026-06-24T10:08:16.411Z] INFO Sync start. Last: 2026-06-24T07:07:09.747Z
 [2026-06-24T10:08:17.241Z] INFO Sync done. push: +0 ~0. pull: ~0.
@@ -1298,7 +1298,7 @@
 [2026-06-24T20:54:33.664Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-06-25T05:51:06.417Z] INFO Sync start. Last: 2026-06-24T20:54:33.663Z
 [2026-06-25T05:51:07.023Z] INFO push + HWL-105 Chase David (WhatsApp): Creepers rough cut deadline was 20 J
-[2026-06-25T05:51:07.185Z] INFO push + HWL-106 Strength B: Spanish squats, step-downs, Nordic curls. Taper 
+[2026-06-25T05:51:07.185Z] INFO push + HWL-106 Strength B: Spanish squats, step-downs, Nordic curls. Taper
 [2026-06-25T05:51:07.277Z] INFO Sync done. push: +2 ~0. pull: ~0.
 [2026-06-25T06:51:07.334Z] INFO Sync start. Last: 2026-06-25T05:51:07.275Z
 [2026-06-25T06:51:07.696Z] INFO Sync done. push: +0 ~0. pull: ~0.
@@ -1458,7 +1458,7 @@
 [2026-06-28T10:58:34.385Z] INFO Sync start. Last: 2026-06-28T09:58:34.271Z
 [2026-06-28T10:58:34.822Z] INFO push + HWL-112 Golf clubs: send the 6 breakup Gmail drafts. Nine days since
 [2026-06-28T10:58:34.979Z] INFO push + HWL-113 Prep Kerri call (Tuesday 30 June 16:00): ET agenda in lor-ea
-[2026-06-28T10:58:35.216Z] INFO push + HWL-114 Confirm delivery timeline with David (PH editor): rough-cut 
+[2026-06-28T10:58:35.216Z] INFO push + HWL-114 Confirm delivery timeline with David (PH editor): rough-cut
 [2026-06-28T10:58:35.320Z] INFO Sync done. push: +3 ~0. pull: ~0.
 [2026-06-28T11:58:35.423Z] INFO Sync start. Last: 2026-06-28T10:58:35.318Z
 [2026-06-28T11:58:36.078Z] INFO Sync done. push: +0 ~0. pull: ~0.
@@ -1498,7 +1498,7 @@
 [2026-06-29T04:58:47.155Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-06-29T05:58:47.237Z] INFO Sync start. Last: 2026-06-29T04:58:47.153Z
 [2026-06-29T05:58:49.025Z] INFO push + HWL-115 New client day-one: deploy Legibility Diagnosis (~/hwlstudio
-[2026-06-29T05:58:49.280Z] INFO push + HWL-116 Cathal x Harrison check-in 11:30. BaW fortnightly catch-up. 
+[2026-06-29T05:58:49.280Z] INFO push + HWL-116 Cathal x Harrison check-in 11:30. BaW fortnightly catch-up.
 [2026-06-29T05:58:49.377Z] INFO Sync done. push: +2 ~0. pull: ~0.
 [2026-06-29T06:58:49.393Z] INFO Sync start. Last: 2026-06-29T05:58:49.376Z
 [2026-06-29T06:58:49.924Z] INFO Sync done. push: +0 ~0. pull: ~0.
@@ -1875,7 +1875,7 @@
 [2026-07-10T05:29:46.538Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-07-10T06:29:46.633Z] INFO Sync start. Last: 2026-07-10T05:29:46.535Z
 [2026-07-10T06:29:47.068Z] INFO push + HWL-125 Race prep (the actual job today): pack the cool box, mix + f
-[2026-07-10T06:29:47.226Z] INFO push + HWL-126 LOR: read and send the distilled ET plan doc + self-filming 
+[2026-07-10T06:29:47.226Z] INFO push + HWL-126 LOR: read and send the distilled ET plan doc + self-filming
 [2026-07-10T06:29:47.405Z] INFO push + HWL-127 Creepers: reply to Sarah-Louise's Sandringham/Royal Legacy G
 [2026-07-10T06:29:47.616Z] INFO push + HWL-128 Money: check Starling for LOR £1,350 and Creepers £3,500, an
 [2026-07-10T06:29:47.722Z] INFO Sync done. push: +4 ~0. pull: ~0.
@@ -2053,8 +2053,8 @@
 [2026-07-16T05:30:26.664Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-07-16T09:13:19.200Z] INFO Sync start. Last: 2026-07-16T05:30:26.662Z
 [2026-07-16T09:13:19.724Z] INFO push + HWL-131 Creepers: replied to Anna/Michael's 14 Jul Sandringham threa
-[2026-07-16T09:13:19.859Z] INFO push + HWL-132 Sandringham prep, 16:00-18:00: kit, batteries, cards, route 
-[2026-07-16T09:13:20.072Z] INFO push + HWL-133 YouTube long-form deep-work block (08:15-13:30): shape this 
+[2026-07-16T09:13:19.859Z] INFO push + HWL-132 Sandringham prep, 16:00-18:00: kit, batteries, cards, route
+[2026-07-16T09:13:20.072Z] INFO push + HWL-133 YouTube long-form deep-work block (08:15-13:30): shape this
 [2026-07-16T09:13:20.156Z] INFO Sync done. push: +3 ~0. pull: ~0.
 [2026-07-16T10:13:20.232Z] INFO Sync start. Last: 2026-07-16T09:13:20.152Z
 [2026-07-16T10:13:20.675Z] INFO Sync done. push: +0 ~0. pull: ~0.
@@ -2088,7 +2088,7 @@
 [2026-07-17T05:34:17.847Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-07-17T06:34:17.960Z] INFO Sync start. Last: 2026-07-17T05:34:17.846Z
 [2026-07-17T06:34:18.332Z] INFO push + HWL-134 LOR: send the relay-video reference (law firm example) to Ke
-[2026-07-17T06:34:18.455Z] INFO push + HWL-135 Quick admin in a gap: action Aleisha's Loomly comment (swap 
+[2026-07-17T06:34:18.455Z] INFO push + HWL-135 Quick admin in a gap: action Aleisha's Loomly comment (swap
 [2026-07-17T06:34:18.547Z] INFO Sync done. push: +2 ~0. pull: ~0.
 [2026-07-17T07:39:46.344Z] INFO Sync start. Last: 2026-07-17T06:34:18.546Z
 [2026-07-17T07:39:46.656Z] INFO Sync done. push: +0 ~0. pull: ~0.
@@ -2139,7 +2139,7 @@
 [2026-07-18T09:28:31.019Z] INFO Sync start. Last: 2026-07-18T08:19:02.591Z
 [2026-07-18T09:28:31.377Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-07-18T10:28:31.468Z] INFO Sync start. Last: 2026-07-18T09:28:31.373Z
-[2026-07-18T10:28:31.867Z] INFO push + HWL-136 LOR ET deck had already gone to Kerri Thursday at 10:40. No 
+[2026-07-18T10:28:31.867Z] INFO push + HWL-136 LOR ET deck had already gone to Kerri Thursday at 10:40. No
 [2026-07-18T10:28:32.379Z] INFO push + HWL-137 Buffer subscription payment of $43.20 succeeded Friday eveni
 [2026-07-18T10:28:32.723Z] INFO Sync done. push: +2 ~0. pull: ~0.
 [2026-07-18T11:45:49.055Z] INFO Sync start. Last: 2026-07-18T10:28:32.721Z
@@ -2529,3 +2529,116 @@
 [2026-07-26T20:05:44.508Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-07-26T21:05:44.664Z] INFO Sync start. Last: 2026-07-26T20:05:44.507Z
 [2026-07-26T21:05:44.983Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-26T22:05:45.107Z] INFO Sync start. Last: 2026-07-26T21:05:44.982Z
+[2026-07-26T22:05:46.745Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-26T23:05:46.831Z] INFO Sync start. Last: 2026-07-26T22:05:46.742Z
+[2026-07-26T23:05:50.476Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T00:05:50.613Z] INFO Sync start. Last: 2026-07-26T23:05:50.473Z
+[2026-07-27T00:05:50.947Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T01:05:51.073Z] INFO Sync start. Last: 2026-07-27T00:05:50.945Z
+[2026-07-27T01:05:51.378Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T02:05:51.504Z] INFO Sync start. Last: 2026-07-27T01:05:51.377Z
+[2026-07-27T02:05:51.799Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T03:05:51.901Z] INFO Sync start. Last: 2026-07-27T02:05:51.797Z
+[2026-07-27T03:05:53.024Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T04:05:53.154Z] INFO Sync start. Last: 2026-07-27T03:05:53.022Z
+[2026-07-27T04:05:53.578Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T05:05:53.711Z] INFO Sync start. Last: 2026-07-27T04:05:53.575Z
+[2026-07-27T05:05:54.039Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T06:05:54.195Z] INFO Sync start. Last: 2026-07-27T05:05:54.036Z
+[2026-07-27T06:05:54.576Z] INFO push ~ HWL-145 → done
+[2026-07-27T06:05:54.737Z] INFO push + HWL-149 Fix the nightly backup: push has failed 5 nights running (22
+[2026-07-27T06:05:54.934Z] INFO push + HWL-150 Decide Lake Bled (19 Sept) in or out before Saturday. W29's
+[2026-07-27T06:05:55.015Z] INFO Sync done. push: +2 ~1. pull: ~0.
+[2026-07-27T07:05:55.192Z] INFO Sync start. Last: 2026-07-27T06:05:55.013Z
+[2026-07-27T07:05:55.530Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T08:05:55.622Z] INFO Sync start. Last: 2026-07-27T07:05:55.529Z
+[2026-07-27T08:05:56.054Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T09:05:56.141Z] INFO Sync start. Last: 2026-07-27T08:05:56.052Z
+[2026-07-27T09:05:59.373Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T09:16:46.589Z] INFO Sync start. Last: 2026-07-27T09:05:59.372Z
+[2026-07-27T09:16:47.167Z] INFO push + HWL-151 Squiggly Careers: turn Helen's scope and performance pack in
+[2026-07-27T09:16:47.391Z] INFO push + HWL-152 Creepers: confirm Tuesday's Surrey S4 shoot, get the exact s
+[2026-07-27T09:16:47.847Z] INFO push + HWL-153 Better at Work: run Week 4 from the Summer Dashboard, starti
+[2026-07-27T09:16:48.035Z] INFO push + HWL-154 Laing O'Rourke: replace the cancelled Kerri meeting with a c
+[2026-07-27T09:16:48.232Z] INFO push + HWL-155 Money: verify bank receipt of LOR's £1,350, check Creepers £
+[2026-07-27T09:16:48.388Z] INFO push + HWL-156 Squiggly Careers: recommend the offer, scope boundary, trans
+[2026-07-27T09:16:48.565Z] INFO push + HWL-157 Squiggly Careers: prepare the response for Harrison's review
+[2026-07-27T09:16:48.877Z] INFO push + HWL-158 Confirm the Tuesday 28 July Surrey S4 shoot and production d
+[2026-07-27T09:16:49.057Z] INFO push + HWL-159 Get Creepers' exact supply credit for “Why build a garden ar
+[2026-07-27T09:16:50.020Z] INFO push + HWL-160 Reconcile the live calendar's blank Sandringham-week statuse
+[2026-07-27T09:16:50.227Z] INFO push + HWL-161 Clear Michael Buck's RHS award wording and Baz Grainger gard
+[2026-07-27T09:16:50.378Z] INFO push + HWL-162 Complete the Catherine MacDonald interview edit when the sou
+[2026-07-27T09:16:50.542Z] INFO push + HWL-163 Build the miniseries pitch kit.
+[2026-07-27T09:16:50.687Z] INFO push + HWL-164 Package Best-of #3 with two shorts and the LinkedIn post.
+[2026-07-27T09:16:51.060Z] INFO push + HWL-165 Build this week's newsletter around the Sum Up and feedback
+[2026-07-27T09:16:51.239Z] INFO push + HWL-166 Finish the promo page, tracked links and basic analytics.
+[2026-07-27T09:16:51.396Z] INFO push + HWL-167 Run the search pass across episode pages.
+[2026-07-27T09:16:51.555Z] INFO push + HWL-168 Complete brand refresh round 2.
+[2026-07-27T09:16:51.698Z] INFO push + HWL-169 Enter the missing listen numbers and run Friday's dashboard
+[2026-07-27T09:16:51.886Z] INFO push + HWL-170 Decide the Acast Marketplace profile and route Tipalti to Ca
+[2026-07-27T09:16:52.033Z] INFO push + HWL-171 Replace the cancelled Kerri review point with a current ET d
+[2026-07-27T09:16:52.214Z] INFO push + HWL-172 Confirm Emma's trimmed ET budget and lock site availability,
+[2026-07-27T09:16:52.357Z] INFO push + HWL-173 Decide whether Kerri needs a new send of the distilled conte
+[2026-07-27T09:16:52.524Z] INFO push + HWL-174 Run one consolidated cash check: LOR £1,350 bank receipt, Cr
+[2026-07-27T09:16:53.071Z] INFO push + HWL-175 Close the admin bundle: PAYE/NIC status, VAT number with Faz
+[2026-07-27T09:16:53.321Z] INFO push + HWL-176 Update the OnlineJobs.ph payment card if it is still require
+[2026-07-27T09:16:53.538Z] INFO push + HWL-177 Resolve the standing £2,200 joint-fund transfer and the ISA/
+[2026-07-27T09:16:53.972Z] INFO push + HWL-178 Decide the next personal-content lane and one first piece. T
+[2026-07-27T09:16:54.502Z] INFO push + HWL-179 Complete the new maintenance week: 21.2 km easy running plus
+[2026-07-27T09:16:54.719Z] INFO push + HWL-180 Redeploy the Better at Work frontier site only after Harriso
+[2026-07-27T09:16:54.885Z] INFO push + HWL-181 Review Edge Lab G2a after 14 paper days. Fable leads the mac
+[2026-07-27T09:16:55.152Z] INFO push + HWL-182 Verify the next nightly backup reports a clean push or an ex
+[2026-07-27T09:16:55.385Z] INFO Sync done. push: +32 ~0. pull: ~0.
+[2026-07-27T09:19:55.964Z] INFO Sync start. Last: 2026-07-27T09:16:55.383Z
+[2026-07-27T09:19:56.380Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T10:05:59.465Z] INFO Sync start. Last: 2026-07-27T09:19:56.379Z
+[2026-07-27T10:06:00.154Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-07-27T10:12:42.097Z] INFO Sync start. Last: 2026-07-27T10:06:00.153Z
+[2026-07-27T10:12:42.102Z] ERROR Sync failed: LINEAR_API_KEY is not set. Generate a Personal API Key at https://linear.app/settings/api and export it: `export LINEAR_API_KEY=lin_api_...`
+[2026-07-27T10:12:56.354Z] INFO Sync start. Last: 2026-07-27T10:06:00.153Z
+[2026-07-27T10:12:57.057Z] INFO push ~ HWL-156 → done
+[2026-07-27T10:12:57.197Z] INFO push ~ HWL-157 → done
+[2026-07-27T10:12:57.341Z] INFO push ~ HWL-158 → done
+[2026-07-27T10:12:57.645Z] INFO push ~ HWL-159 → done
+[2026-07-27T10:12:57.785Z] INFO push ~ HWL-160 → done
+[2026-07-27T10:12:57.918Z] INFO push ~ HWL-161 → done
+[2026-07-27T10:12:58.072Z] INFO push ~ HWL-162 → done
+[2026-07-27T10:12:58.268Z] INFO push ~ HWL-163 → done
+[2026-07-27T10:12:58.432Z] INFO push ~ HWL-164 → done
+[2026-07-27T10:12:58.607Z] INFO push ~ HWL-165 → done
+[2026-07-27T10:12:58.782Z] INFO push ~ HWL-166 → done
+[2026-07-27T10:12:58.934Z] INFO push ~ HWL-167 → done
+[2026-07-27T10:12:59.082Z] INFO push ~ HWL-168 → done
+[2026-07-27T10:12:59.233Z] INFO push ~ HWL-169 → done
+[2026-07-27T10:12:59.385Z] INFO push ~ HWL-170 → done
+[2026-07-27T10:12:59.825Z] INFO push ~ HWL-171 → done
+[2026-07-27T10:12:59.999Z] INFO push ~ HWL-172 → done
+[2026-07-27T10:13:00.148Z] INFO push ~ HWL-173 → done
+[2026-07-27T10:13:00.320Z] INFO push ~ HWL-174 → done
+[2026-07-27T10:13:00.499Z] INFO push ~ HWL-175 → done
+[2026-07-27T10:13:00.841Z] INFO push ~ HWL-176 → done
+[2026-07-27T10:13:01.433Z] INFO push ~ HWL-177 → done
+[2026-07-27T10:13:01.623Z] INFO push ~ HWL-178 → done
+[2026-07-27T10:13:01.840Z] INFO push ~ HWL-179 → done
+[2026-07-27T10:13:02.579Z] INFO push ~ HWL-180 → done
+[2026-07-27T10:13:02.740Z] INFO push ~ HWL-181 → done
+[2026-07-27T10:13:02.896Z] INFO push ~ HWL-182 → done
+[2026-07-27T10:13:03.017Z] INFO Sync done. push: +0 ~27. pull: ~0.
+[2026-07-27T10:14:01.726Z] INFO Sync start. Last: 2026-07-27T10:13:03.016Z
+[2026-07-27T10:14:03.632Z] INFO push + HWL-183 Squiggly Careers: review and send the three-month pilot at £
+[2026-07-27T10:14:03.807Z] INFO push + HWL-184 Finish the Carey Garden Design Studio edit. <!-- priority:ur
+[2026-07-27T10:14:04.826Z] INFO push + HWL-185 WhatsApp Anna and Sarah-Louise: move Surrey S4 to w/c 3 Augu
+[2026-07-27T10:14:05.043Z] INFO push + HWL-186 Select and publish the installation-page photo set when the
+[2026-07-27T10:14:05.212Z] INFO push + HWL-187 Build and post Michael's Sandringham stock updates from Sand
+[2026-07-27T10:14:06.107Z] INFO push + HWL-188 Finish Better Moments #3 with Russell Beck: source pull, edi
+[2026-07-27T10:14:06.310Z] INFO push + HWL-189 Test the public Roger Sum Up link, get Cathal's scan and sen
+[2026-07-27T10:14:06.927Z] INFO push + HWL-190 Continue the single Season 5 brand and website lane: refresh
+[2026-07-27T10:14:07.169Z] INFO push + HWL-191 Push one ET production decision through: book the first shoo
+[2026-07-27T10:14:07.571Z] INFO push + HWL-192 Decide and fund the £940.52 Monzo Flex payment before 1 Augu
+[2026-07-27T10:14:08.515Z] INFO push + HWL-193 Recover the £500 family reimbursement and assign it to the i
+[2026-07-27T10:14:08.758Z] INFO push + HWL-194 Get a replacement letterbox key, retrieve the HMRC VAT lette
+[2026-07-27T10:14:08.914Z] INFO push + HWL-195 Confirm the exact Amex balance and date, Capital on Tap mini
+[2026-07-27T10:14:09.295Z] INFO push + HWL-196 Rebuild the £6,441 tax buffer from the next receipts after s
+[2026-07-27T10:14:09.490Z] INFO push + HWL-197 Run Long + Strong week 1: 24 km across four runs, Strength A
+[2026-07-27T10:14:10.033Z] INFO Sync done. push: +15 ~0. pull: ~0.

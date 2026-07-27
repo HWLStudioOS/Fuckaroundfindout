@@ -2,6 +2,20 @@
 
 HWL Studio Limited. Sole director/shareholder. Started trading 29 August 2025.
 
+## Live position, 27 July 2026
+
+- Starling business current: **£800**.
+- Revolut Business savings, tax buffer: **£6,441** (£6,211 plus £230).
+- Capital on Tap: **£2,534 owing**, minimum payment selected for next month.
+- Amex: **about £1,000 owing**.
+- Monzo Flex: **£940.52 due 1 August**, the immediate cash-sequence risk.
+- Revolut personal: **£11**. Joint: **£380**.
+- Family reimbursement due: **about £500**, intended for card repayment.
+- Position: tight, not catastrophic. Protect the next five days, then rebuild the tax buffer from receipts.
+- VAT letter is probably in the downstairs letterbox. Get a replacement key, record the number and effective date, then correct the invoice template and affected invoices with Fazila.
+
+Full decision sequence: `money/snapshot.md`.
+
 ## Setup
 
 - Salary £1,047.50/month (utilises personal allowance)
@@ -16,7 +30,7 @@ HWL Studio Limited. Sole director/shareholder. Started trading 29 August 2025.
 - **Starling Bank** (business current), primary
 - **Capital on Tap**, business credit
 - **Amex**, business
-- **Monzo**, personal credit (cleared 1 Apr)
+- **Monzo Flex**, personal credit, £940.52 due 1 August 2026
 - **Vanguard ISA**, personal investment (active April)
 
 ## Revenue (run rate ~£11k/month, May lifted by Chelsea)
@@ -27,7 +41,7 @@ HWL Studio Limited. Sole director/shareholder. Started trading 29 August 2025.
 | Creepers Nursery | 3,500 + Chelsea uplift in May | Reliable monthly. |
 | Better at Work | back this month after April skip | Hourly trial post-reset. Combined Creepers + BaW May ~£5,000 base. |
 | Colin Fisher | 0 | Off the board. |
-| Golf Clubs | 0 (target 2,500-3,500 each) | Outreach campaign pre-launch. Drafts pending send. |
+| Squiggly Careers | proposed £4,250 | New-client opportunity from Helen Tupper. Three-month pilot offer prepared, not yet agreed. |
 
 ## Targets
 

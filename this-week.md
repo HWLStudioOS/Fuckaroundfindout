@@ -72,4 +72,4 @@ Convert Squiggly without buying an editing prison, finish the real client work, 
 - Acast and Tipalti setup is done on Harrison's side.
 - Cathal owns the dashboard numbers view.
 - There are no Gmail drafts to send.
-- The nightly backup failure was diagnosed and repaired. The final manual verification belongs to the end of this work session.
+- The nightly backup failure was diagnosed and repaired. Manual verification completed at 11:20 BST on 27 July: commit pushed and local `main` matched `origin/main`.

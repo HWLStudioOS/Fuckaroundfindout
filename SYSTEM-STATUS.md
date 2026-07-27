@@ -16,6 +16,8 @@ Last updated: 27 July 2026
 
 Launchd remains the only production scheduler for the existing workflows. Do not create Codex, cron, or second launchd schedules for the same job.
 
+The Board Room refresh is part of `com.hwl.nightly-backup`, not a separate schedule. The backup generates `board-room/app/generated-board.json` before committing and pushing, then deploys the private Vercel project after a successful push. A Vercel failure is logged separately and does not misreport the Git backup as failed.
+
 Codex-side automation is intentionally deferred until the action gateway is connected. The first suitable Codex automation is a read-only engineering audit that runs tests, runs `scripts/doctor.py`, reviews agent failures, and reports findings without editing business state or sending externally. It must not overlap morning-brief, weekly-review, weekly-cfo, Telegram, health sync, backup, or campaign schedules.
 
 ## Installed foundation
@@ -35,6 +37,8 @@ Verified on the Mac mini:
 
 - The foundation and coordination handoff are on GitHub `main`. CI passed for the foundation push and the following nightly backup.
 - Nightly backup was manually reconciled on 27 July after five misleading failure reports. Local and remote `main` are synchronised. `agents/nightly-backup.sh` now records the exact push, fetch, rebase or retry error and exits non-zero on a real failure instead of labelling every failure as a merge conflict.
+- The private, read-only Board Room is live at `https://the-board-room-nine.vercel.app`. It ranks the canonical weekly board, separates waiting, scheduled and parked loops, and records partial work as in motion. Production access uses Basic Auth. The username is `harrison`; the generated password is stored in macOS Keychain under service `The Board Room`.
+- Vercel could not attach the repository because the Vercel account has no GitHub login connection. The existing nightly backup therefore owns the refresh and production deployment path through the locally linked Vercel project. No additional scheduler was created.
 - Morning brief, verifier, weekly review and campaign chaser source rules were corrected on 27 July. They must verify the connected Gmail identity, check live Creepers and Better at Work dashboards, validate draft claims against Gmail, use only the canonical training plan, and diagnose a failure before escalating it.
 - The stale-state incident on 27 July is a failed acceptance run. The brief resurrected published work, a cancelled meeting, an abandoned race, non-existent drafts and a campaign target that had already been hit. Acceptance progress resets until the next clean weekday run.
 - `com.hwl.telegram-agent` was restarted at 10:37 BST on 14 July. The new restricted-mode process is live and its private durable queue database was created successfully.

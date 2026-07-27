@@ -8,8 +8,8 @@ The Board Room is Harrison Living's private, read-only view of every open loop i
 - `today.md` supplies daily progress and recently closed work.
 - `scripts/generate-board-data.mjs` parses both files before every local or Vercel build.
 - `priority-overrides.json` holds deliberate ranking decisions. Tasks without an override use the automatic scoring rules.
-- Vercel rebuilds the site whenever the existing nightly backup pushes `main` to GitHub. There is no second scheduler.
-- Direct CLI previews use the committed board snapshot because Vercel only uploads the project directory. Git deployments read the canonical files above the project root.
+- The existing nightly backup refreshes the committed snapshot before its Git push, then triggers the Vercel production deployment after a successful push. There is no second scheduler.
+- Direct CLI deployments use the committed board snapshot because Vercel only uploads the project directory.
 
 ## Local development
 

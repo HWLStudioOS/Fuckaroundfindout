@@ -7,8 +7,8 @@ generated: fully reconciled 27 July 2026
 
 ## What matters
 
-1. Verify the exported Carey Garden Design Studio edit and close it.
-2. Tell Anna and Sarah-Louise the Surrey S4 shoot is moving to w/c 3 August and lock the date.
+1. Confirm David’s £550 payment date against Wise or the agreement, then answer him today.
+2. Verify the exported Carey Garden Design Studio edit and close it.
 3. Decide the £940.52 Monzo Flex payment path before 1 August.
 4. Pull the Russell Beck source and turn the package starter into the actual edit.
 
@@ -18,6 +18,7 @@ generated: fully reconciled 27 July 2026
 - Better at Work Summer Dashboard live at version 38. Russell is the third Best-of, the newsletter is written, the miniseries kit is moved to w/c 10 August, and Season 5 brand plus website is one lane.
 - Squiggly offer and response are agreed. The reply to Helen has been sent.
 - Creepers installation-page photo set has been published. Michael's Sandringham stock post moves to tomorrow, 28 July.
+- Harrison confirms the Surrey S4 move message was sent to Anna and Sarah-Louise on WhatsApp. It was not missed. The exact date is now with them.
 - Long + Strong replaced the 21.2 km maintenance plan. The printable two-page wall sheet is ready.
 - Edge Lab passed the current two-week process gate. Crypto Fable is last, macro Fable is narrowly first, and no live capital is armed.
 - Money snapshot now uses Harrison's 27 July balances and the real five-day cash sequence.
@@ -26,7 +27,7 @@ generated: fully reconciled 27 July 2026
 ## Waiting on someone else
 
 - Cathal: Acast payout account details and newsletter scan.
-- Anna and Sarah-Louise: exact S4 date after Harrison sends the move message.
+- Anna and Sarah-Louise: exact S4 date after Harrison sent the move message.
 - Family: about £500 reimbursement.
 - HMRC letter: VAT number and effective date, behind the missing letterbox key.
 

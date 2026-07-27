@@ -5,6 +5,7 @@ Hired June 2026. First contract sent 8 June, intro call 10 June. Unblocks delive
 ## Terms
 
 - £550/month flat, trial month. Speed irrelevant: if it takes 2-3 days, the rest of the week is his.
+- Paid through Wise. Harrison's current recollection on 27 July is that the monthly payment date is the 8th. Check the signed agreement or the last Wise payment before promising the exact date.
 - Async-first. Later time zone than UK (~8h ahead). No instant-reply expectation.
 - Open offer: HWL buys any plugin/subscription he needs for client work.
 

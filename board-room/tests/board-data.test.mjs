@@ -33,6 +33,9 @@ test("does not turn waiting or parked work into active work", () => {
 });
 
 test("closes a task immediately and recalculates the room", () => {
+  const expectedNext = data.tasks
+    .filter((task) => task.id !== "HWL-184" && (task.state === "todo" || task.state === "in-progress"))
+    .sort((a, b) => b.score - a.score)[0].id;
   const updated = mergeBoardEvents(data, [{
     version: 1,
     id: "HWL-184",
@@ -43,7 +46,7 @@ test("closes a task immediately and recalculates the room", () => {
   assert.equal(updated.tasks.find((task) => task.id === "HWL-184").state, "done");
   assert.equal(updated.summary.active, data.summary.active - 1);
   assert.equal(updated.summary.closedThisWeek, data.summary.closedThisWeek + 1);
-  assert.equal(updated.tasks.find((task) => task.rank === 1).id, "HWL-185");
+  assert.equal(updated.tasks.find((task) => task.rank === 1).id, expectedNext);
 });
 
 test("uses the newest edit for a task", () => {

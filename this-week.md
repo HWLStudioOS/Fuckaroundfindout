@@ -18,7 +18,7 @@ Convert Squiggly without buying an editing prison, finish the real client work, 
 ### Creepers, in order
 
 - [ ] Finish the Carey Garden Design Studio edit. Exporting now, verify the final file before closing. <!-- linear:HWL-184 -->
-- [ ] WhatsApp Anna and Sarah-Louise: move Surrey S4 to w/c 3 August and lock the date. <!-- linear:HWL-185 -->
+- [x] Sent Anna and Sarah-Louise a WhatsApp moving Surrey S4 to w/c 3 August. The exact date is now awaiting their reply. <!-- linear:HWL-185 -->
 - [x] Selected and published the installation-page photo set. <!-- linear:HWL-186 -->
 - [ ] Tomorrow, 28 July: build and post Michael's Sandringham stock updates from Sandrine's latest information. <!-- linear:HWL-187 -->
 
@@ -34,6 +34,7 @@ Convert Squiggly without buying an editing prison, finish the real client work, 
 
 ### Money and admin
 
+- [ ] Confirm David’s £550 monthly payment date against Wise or the agreement, then reply today that this month is covered.
 - [ ] Decide and fund the £940.52 Monzo Flex payment before 1 August. <!-- linear:HWL-192 -->
 - [ ] Recover the £500 family reimbursement and assign it to the immediate card sequence. <!-- linear:HWL-193 -->
 - [ ] Get a replacement letterbox key, retrieve the HMRC VAT letter, record the number and effective date, then update Xero and affected invoices with Fazila. <!-- linear:HWL-194 -->
@@ -47,7 +48,7 @@ Convert Squiggly without buying an editing prison, finish the real client work, 
 ## Awaiting, not Harrison work
 
 - Cathal: Acast payout account details.
-- Anna and Sarah-Louise: exact Surrey S4 shoot date after Harrison sends the move message.
+- Anna and Sarah-Louise: exact Surrey S4 shoot date after Harrison sent the move message.
 - HMRC: VAT registration letter, physically inaccessible until the replacement key is sorted.
 
 ## Scheduled later
@@ -73,4 +74,5 @@ Convert Squiggly without buying an editing prison, finish the real client work, 
 - Cathal owns the dashboard numbers view.
 - The Squiggly Careers reply to Helen Tupper has been sent.
 - The Creepers installation-page photo set has been published.
+- The Surrey S4 move message was sent to Anna and Sarah-Louise on WhatsApp. Gmail absence was not evidence that it was missed.
 - The nightly backup failure was diagnosed and repaired. Manual verification completed at 11:20 BST on 27 July: commit pushed and local `main` matched `origin/main`.

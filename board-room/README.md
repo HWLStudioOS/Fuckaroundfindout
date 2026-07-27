@@ -1,6 +1,6 @@
 # The Board Room
 
-The Board Room is Harrison Living's private, editable view of every open loop in the operating system.
+The Board Room is Harrison Living's editable view of every open loop in the operating system.
 
 ## How it works
 
@@ -28,13 +28,6 @@ pnpm run lint
 pnpm test
 ```
 
-## Private access
+## Access
 
-Production requires both variables below. Requests fail closed if either is absent.
-
-```text
-BOARD_ROOM_USER
-BOARD_ROOM_PASSWORD
-```
-
-Live edits are stored privately and appear immediately. The existing nightly backup reconciles them into the Markdown source of truth before rebuilding the dashboard.
+The production dashboard has no login. Anyone with the URL can view and edit its tasks. Live edits appear immediately. The existing nightly backup reconciles them into the Markdown source of truth before rebuilding the dashboard.

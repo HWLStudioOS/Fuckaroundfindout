@@ -10,7 +10,8 @@ Active. Sandringham 2026 is the current content centrepiece. Shoot completed 17 
 
 - **The content calendar is live at API version 6.** The `now` marker correctly points to w/c 27 July.
 - **Priority 1:** finish the Carey Garden Design Studio edit.
-- **Then:** publish Michael's Sandringham stock updates from Sandrine, select the incoming WhatsApp installation photos, and build the installation-page posts.
+- **Installation-page photos are published.** This loop is closed.
+- **Tomorrow, 28 July:** build and publish Michael's Sandringham stock updates from Sandrine.
 - **Surrey S4 moves to w/c 3 August.** Exact date is pending Harrison's WhatsApp with Anna and Sarah-Louise. The calendar shows the move in both current and next week.
 - **Supply credit is confirmed.** It is no longer an open task.
 - **Michael's two factual checks are done.** They are no longer an open task.

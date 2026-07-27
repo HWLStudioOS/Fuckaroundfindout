@@ -1,89 +1,88 @@
 # Squiggly Careers production offer
 
-Prepared 27 July 2026 from Helen Tupper's 24 July email, the Podcast House scope and performance pack, and Harrison's phone-call context. The supplied commercial information is confidential.
+Prepared 27 July 2026 from Helen Tupper's 24 July email, the Podcast House scope and performance pack, Harrison's phone-call context, and Harrison's revised commercial direction. The supplied commercial information is confidential.
 
-## Decision
+Status: reply sent to Helen on 27 July 2026 with the £3,600 to £4,400 range and Farringdon days priced separately.
 
-Offer a three-month pilot at **£4,250 per month plus VAT when applicable**.
+## Current position
 
-This is the right number for the core operation. It is not eight isolated edits. It is a twice-weekly publishing system, monthly recording attendance and enough editorial authority to improve the thing Helen is unhappy with.
+Give Helen an indicative range of **£3,600 to £4,400 per month plus VAT when applicable**.
 
-Opening position: £4,500 per month. Sensible landing point: £4,250. Hard floor: £4,000 only if the scope stays exactly as written below. Do not accept £3,500 for the full scope. At that number the account becomes a high-pressure editing retainer with no room for the strategy work that makes Harrison the better choice.
+This is not another discovery email. Harrison and Helen have already discussed the editorial problem and the likely handover. The response should confirm the shape, explain what moves the price within the range, and give Helen a low-risk way to see the work.
 
-## Core scope, £4,250 per month
+Do not quote one fixed price until the packaging scope is clear. The lower end assumes episode production, publishing and editorial input using established brand assets. The upper end allows Harrison to take on more of the thumbnails and launch packaging.
 
-- Four Borrowed Brilliance episodes, approximately 30 minutes each.
-- Four Squiggly Shortcuts episodes, approximately 10 minutes each.
-- Audio and video post-production, cleanup, pacing, music and final quality control.
-- Publishing and distribution to the existing RSS, Spotify, Apple Podcasts and YouTube destinations.
-- One Farringdon recording day each month, scheduled in advance.
-- One monthly editorial and performance review covering format, hooks, structure, packaging and what to change next.
-- One consolidated revision round per episode.
-- A shared production calendar, file handoff standard and approval deadline.
+## Monthly scope behind the range
 
-## Not included in the core retainer
+- Four Borrowed Brilliance long-form episodes.
+- Four Squiggly Shortcuts episodes.
+- Audio and video post-production, including cleanup, pacing, music, mastering and final quality control.
+- Publishing and distribution across the existing podcast feed and YouTube channel, including titles, descriptions and scheduling.
+- Editorial input on format, openings, pacing, recurring segments and the wider content strategy.
+- One consolidated feedback round per episode.
+- A shared production calendar, source handover standard and approval rhythm.
+- At the upper end of the range, agreed launch packaging such as thumbnails, launch graphics or carousels.
 
-- Studio hire or external crew.
-- Social clips, trailers and thumbnails.
-- More than one revision round.
-- Rush turnarounds caused by late source delivery or late approvals.
-- Channel community management, paid promotion or wider social posting.
+## Separate from the monthly range
 
-These boundaries matter. Helen's pack says thumbnails and social clips moved in house and trailers stopped because cost and brand control were difficult. They should not quietly return inside the £4,250 fee.
+Farringdon recording days are priced separately. The day rate depends on whether Harrison is attending as the in-house producer only, or whether the day also includes capturing short social content and photography.
 
-## Add-ons
+Other work that remains separate unless expressly included:
 
-- Eight vertical clips per month, one per episode: **£800 per month**.
-- YouTube thumbnail and title packaging for eight episodes: **£400 per month**.
-- Extra recording day: **£650 plus travel and studio costs**.
-- Additional revision or substantial recut: quoted at **£95 per hour**.
+- Studio hire and external crew.
+- A recurring volume of social clips or trailers.
+- More than one consolidated feedback round.
+- Rush work caused by late source delivery or approvals.
+- Channel community management or paid promotion.
 
-Core plus one clip per episode is therefore £5,050 per month. Core plus clips and thumbnails is £5,450.
+## Pilot and production rhythm
 
-## Capacity model
+- Start with a three-month pilot.
+- Receive the first batch of source files at least one month before its first publication date.
+- Use that lead time to establish the edit language, templates and approval process.
+- Maintain a four-week production buffer so the team is not operating against each week's deadline.
 
-| Work | Monthly estimate |
-|---|---:|
-| Four 30-minute episodes | 20 to 28 hours |
-| Four 10-minute episodes | 8 to 12 hours |
-| Uploads, metadata, QC and distribution | 8 to 10 hours |
-| Monthly Farringdon day, prep and travel | 9 to 11 hours |
-| Editorial review, client comms and one revision round | 10 to 12 hours |
-| **Core total** | **55 to 73 hours** |
-| Eight clips, if added | 16 to 24 hours |
+## Trial routes
 
-At £4,250 the core account yields roughly £58 to £77 per delivery hour before software, travel and tax. At £3,500 it falls to roughly £48 to £64 and leaves no protection against a difficult edit month. Clips can take the account beyond 90 hours, so they need their own line.
+Before locking the pilot, Helen can choose one of two tests:
 
-## Operating terms to lock before yes
+1. One long-form episode edit.
+2. One long-form episode edit plus a thumbnail and one launch graphic or carousel.
 
-1. Source media lands on an agreed day each week.
-2. One named approver gives consolidated notes.
-3. Approval is due within one working day to protect the twice-weekly cadence.
-4. One revision round is included.
-5. The first month includes an archive, feed and channel audit.
-6. Harrison has a voice in episode structure, titles, openings and recurring format decisions.
-7. The pilot begins only when the first recording day, handover owner and production calendar are agreed.
+For the fuller test, Helen needs to provide the brand guidelines, brand assets, current templates and source material. The email does not describe the trial as free. Scope and price can be agreed once Helen chooses the useful version.
 
-## Response for Harrison to send
+## Revised response for Harrison to send
 
 Subject: Re: Squiggly Careers Production
 
 Hi Helen,
 
-Thanks for sending this through. It was useful to see the current scope and the performance pack alongside our call.
+I've had a proper first pass at the shape and cost since our call.
 
-I would be happy to take this on. My recommendation is a three-month production pilot covering the eight monthly episodes, publishing and distribution, one Farringdon recording day each month, and a monthly editorial review so I can help improve the formats rather than only inherit the edits.
+Based on an initial review and working through what the production flow could look like, I think the monthly fee would probably sit somewhere between £3,600 and £4,400 plus VAT. The exact point within that range would depend on how much of the episode packaging we bring into my scope, but it could cover:
 
-For that core scope, I would price it at £4,250 per month plus VAT when applicable. That includes one consolidated revision round per episode. Studio hire, social clips, trailers and thumbnails would sit outside the core retainer, so we can add only the pieces you actually want.
+- editing four Borrowed Brilliance episodes each month
+- editing four Squiggly Shortcuts episodes each month
+- full audio and video post-production
+- publishing and distribution across the podcast feed and YouTube
+- editorial input on the formats, openings, pacing and wider content strategy
+- one consolidated feedback round per episode
+- agreed launch packaging, such as thumbnails, launch graphics or carousels
 
-If clips are useful, I would add eight per month for £800. I would keep thumbnails separate at £400 per month because the pack suggests packaging is one of the clearest opportunities, but I know you have brought that work in house.
+If you'd prefer to keep the first phase closer to the scope Podcast House currently covers, I'm also happy to strip this back and price a narrower version. These are just my initial thoughts based on what I've reviewed so far, so we can shape the pilot around what will be most useful.
 
-The practical next step would be a handover session with whoever owns the current production flow, then we can lock source-delivery days, approvals, the first Farringdon date and a start week.
+I would price the in-person Farringdon days separately, depending on the dates and what you need from me. That could be coming in as the producer for the day, or also using the time to capture short social content and photography.
 
-Happy to talk it through this week.
+My initial thought would be to run this as a three-month pilot. To make the schedule comfortable for everybody, I would want access to the first batch of recordings at least a month before the first episode is due to go out. We could then keep working around four weeks ahead rather than editing against each week's deadline.
+
+Before we lock the full scope, I would also be happy to run a trial edit of one episode. That could either be the episode edit on its own, or, if it would be more useful, I could do a long-form episode with a thumbnail and a launch graphic or carousel. For the fuller version, I would just need the brand guidelines, brand assets and any current templates alongside the source files.
+
+If that range and approach feel sensible, send me the episode you think would be the best test and we can decide how full the trial should be.
+
+Thanks,
 
 Harrison
 
 ## Negotiation rule
 
-Trade scope, not the standard. If Helen needs the monthly number nearer £3,500, remove the recording day and editorial review or reduce the output. Do not promise the full eight-episode operation, monthly attendance and strategic ownership at a discounted rate.
+The range buys flexibility, but the scope still moves with the number. Do not allow £3,600 to become eight episodes, publishing, all launch assets, recurring clips and Farringdon attendance. If Helen wants the upper-end package at the lower-end price, reduce packaging or agree a narrower pilot.

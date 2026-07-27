@@ -134,7 +134,11 @@ for (const line of boardText.split("\n")) {
 
 for (const task of tasks) {
   const override = overrides[task.id];
-  task.score = task.state === "done" ? 0 : override?.score ?? automaticScore(task);
+  task.baseScore = override?.score ?? automaticScore({
+    ...task,
+    state: task.state === "done" ? "todo" : task.state,
+  });
+  task.score = task.state === "done" ? 0 : task.baseScore;
   task.reason = override?.reason ?? automaticReason(task);
   task.tier = task.state === "done" ? "Closed"
     : task.score >= 90 ? "Critical"

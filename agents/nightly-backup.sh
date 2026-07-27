@@ -37,6 +37,18 @@ refresh_board_room_snapshot() {
   fi
 }
 
+reconcile_board_room_events() {
+  if [[ ! -x "$NODE_BIN" || ! -f "$BOARD_ROOM_DIR/scripts/reconcile-board-events.mjs" ]]; then
+    echo "- $STAMP | board-room | reconciliation skipped, script or Node runtime missing" >> "$LOG"
+    return
+  fi
+
+  : > "$ERR_FILE"
+  if ! "$NODE_BIN" "$BOARD_ROOM_DIR/scripts/reconcile-board-events.mjs" >"$ERR_FILE" 2>&1; then
+    echo "- $STAMP | board-room | RECONCILIATION FAILED: $(error_tail_summary)" >> "$LOG"
+  fi
+}
+
 deploy_board_room() {
   if [[ ! -x "$NPX_BIN" || ! -f "$BOARD_ROOM_DIR/.vercel/project.json" ]]; then
     echo "- $STAMP | board-room | deploy skipped, local Vercel link or npx missing" >> "$LOG"
@@ -51,6 +63,7 @@ deploy_board_room() {
   fi
 }
 
+reconcile_board_room_events
 refresh_board_room_snapshot
 
 # Nothing to do if no changes and nothing unpushed.

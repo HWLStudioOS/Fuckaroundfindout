@@ -11,6 +11,7 @@ export type BoardTask = {
   title: string;
   area: string;
   state: TaskState;
+  baseScore: number;
   score: number;
   tier: "Critical" | "High" | "Next" | "Later" | "Closed";
   reason: string;
@@ -37,4 +38,12 @@ export type BoardData = {
     level: number;
   };
   tasks: BoardTask[];
+};
+
+export type BoardEvent = {
+  version: 1;
+  id: string;
+  title?: string;
+  state?: "todo" | "done";
+  updatedAt: string;
 };

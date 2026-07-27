@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { type FormEvent, useEffect, useMemo, useState } from "react";
 import type { BoardData, BoardTask, TaskState } from "./types";
 
 type Filter = "priority" | "waiting" | "scheduled" | "parked" | "closed";
@@ -42,8 +42,13 @@ function Metric({ label, value, suffix }: { label: string; value: number; suffix
   );
 }
 
-export function BoardRoom({ data }: { data: BoardData }) {
+export function BoardRoom({ data: initialData }: { data: BoardData }) {
+  const [data, setData] = useState(initialData);
   const [filter, setFilter] = useState<Filter>("priority");
+  const [pendingId, setPendingId] = useState<string | null>(null);
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [draftTitle, setDraftTitle] = useState("");
+  const [notice, setNotice] = useState<string | null>(null);
   const visibleTasks = useMemo(
     () => tasksForFilter(data.tasks, filter),
     [data.tasks, filter],
@@ -51,6 +56,59 @@ export function BoardRoom({ data }: { data: BoardData }) {
   const lead = data.tasks.find(
     (task) => task.state === "in-progress" || task.state === "todo",
   );
+
+  useEffect(() => {
+    const controller = new AbortController();
+    fetch("/api/board", { cache: "no-store", signal: controller.signal })
+      .then(async (response) => {
+        if (!response.ok) throw new Error("Live changes could not be loaded.");
+        return response.json() as Promise<BoardData>;
+      })
+      .then(setData)
+      .catch((error: Error) => {
+        if (error.name !== "AbortError") setNotice(error.message);
+      });
+    return () => controller.abort();
+  }, []);
+
+  async function updateTask(id: string, change: { title?: string; state?: "todo" | "done" }) {
+    setPendingId(id);
+    setNotice(null);
+    try {
+      const response = await fetch("/api/board", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, ...change }),
+      });
+      const result = await response.json() as BoardData | { error?: string };
+      if (!response.ok) {
+        throw new Error("error" in result && result.error ? result.error : "The change could not be saved.");
+      }
+      setData(result as BoardData);
+      setEditingId(null);
+      setDraftTitle("");
+      setNotice(change.state === "done" ? "Loop closed." : change.state === "todo" ? "Loop reopened." : "Task updated.");
+    } catch (error) {
+      setNotice(error instanceof Error ? error.message : "The change could not be saved.");
+    } finally {
+      setPendingId(null);
+    }
+  }
+
+  function startEditing(task: BoardTask) {
+    setFilter(task.state === "done" ? "closed" : "priority");
+    setEditingId(task.id);
+    setDraftTitle(task.title);
+    setNotice(null);
+    window.setTimeout(() => {
+      document.getElementById(`task-${task.id}`)?.scrollIntoView({ behavior: "smooth", block: "center" });
+    }, 0);
+  }
+
+  function submitEdit(event: FormEvent<HTMLFormElement>, task: BoardTask) {
+    event.preventDefault();
+    void updateTask(task.id, { title: draftTitle });
+  }
 
   return (
     <main className="shell">
@@ -108,6 +166,18 @@ export function BoardRoom({ data }: { data: BoardData }) {
             </div>
             <h2 id="next-move-title">{lead.title}</h2>
             <p>{lead.reason}</p>
+            <div className="decision-actions">
+              <button
+                type="button"
+                onClick={() => void updateTask(lead.id, { state: "done" })}
+                disabled={pendingId === lead.id}
+              >
+                {pendingId === lead.id ? "Saving…" : "Mark done"}
+              </button>
+              <button type="button" className="quiet" onClick={() => startEditing(lead)}>
+                Edit task
+              </button>
+            </div>
           </div>
           <div className="decision-score">
             <span>Priority</span>
@@ -146,9 +216,11 @@ export function BoardRoom({ data }: { data: BoardData }) {
           </nav>
         </div>
 
+        {notice ? <div className="board-notice" role="status">{notice}</div> : null}
+
         <div className="task-list">
           {visibleTasks.length ? visibleTasks.map((task, index) => (
-            <article className={`task-row task-${task.state}`} key={task.id}>
+            <article id={`task-${task.id}`} className={`task-row task-${task.state}`} key={task.id}>
               <div className="task-rank">
                 {filter === "priority" ? String(index + 1).padStart(2, "0") : "·"}
               </div>
@@ -158,12 +230,58 @@ export function BoardRoom({ data }: { data: BoardData }) {
                   <span className={`state state-${task.state}`}>{STATE_LABELS[task.state]}</span>
                   {task.id.startsWith("HWL-") ? <span>{task.id}</span> : null}
                 </div>
-                <h3>{task.title}</h3>
-                <p>{task.reason}</p>
+                {editingId === task.id ? (
+                  <form className="task-edit" onSubmit={(event) => submitEdit(event, task)}>
+                    <label htmlFor={`title-${task.id}`}>Task</label>
+                    <input
+                      id={`title-${task.id}`}
+                      value={draftTitle}
+                      maxLength={280}
+                      onChange={(event) => setDraftTitle(event.target.value)}
+                      autoFocus
+                    />
+                    <div>
+                      <button type="submit" disabled={pendingId === task.id}>Save</button>
+                      <button
+                        type="button"
+                        className="quiet"
+                        onClick={() => setEditingId(null)}
+                        disabled={pendingId === task.id}
+                      >
+                        Cancel
+                      </button>
+                    </div>
+                  </form>
+                ) : (
+                  <>
+                    <h3>{task.title}</h3>
+                    <p>{task.reason}</p>
+                  </>
+                )}
               </div>
-              <div className="task-score" aria-label={`Priority score ${task.score}`}>
-                <span>{task.tier}</span>
-                <strong>{task.score}</strong>
+              <div className="task-side">
+                <div className="task-score" aria-label={`Priority score ${task.score}`}>
+                  <span>{task.tier}</span>
+                  <strong>{task.score}</strong>
+                </div>
+                {task.id.startsWith("HWL-") ? (
+                  <div className="task-actions">
+                    <button
+                      type="button"
+                      onClick={() => void updateTask(task.id, {
+                        state: task.state === "done" ? "todo" : "done",
+                      })}
+                      disabled={pendingId === task.id}
+                    >
+                      {pendingId === task.id
+                        ? "Saving…"
+                        : task.state === "done" ? "Reopen" : "Done"}
+                    </button>
+                    <button type="button" className="quiet" onClick={() => startEditing(task)}>
+                      Edit
+                    </button>
+                  </div>
+                ) : null}
               </div>
             </article>
           )) : (
@@ -173,7 +291,7 @@ export function BoardRoom({ data }: { data: BoardData }) {
       </section>
 
       <footer>
-        <span>Read-only by design</span>
+        <span>Edits sync into the nightly source</span>
         <span>Generated {new Date(data.generatedAt).toLocaleString("en-GB", {
           day: "numeric",
           month: "short",

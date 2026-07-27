@@ -102,8 +102,8 @@ Cathal confirmed the BaW invoice is paid (his email, 7 Jul: "Now paid sir, thank
 **Refill trigger status (from 1 June plan):**
 - [x] 25% sweep on Creepers + Cathal → reserve. Done (£1,800). <!-- linear:HWL-65 -->
 - [x] Refill £1,000 bridge → reserve. Absorbed. <!-- linear:HWL-66 -->
-- [ ] Fund joint £2,200 — settle Maya for fronting the week. **Still open.** <!-- linear:HWL-67 -->
-- [ ] Resume: ISA catch-up £500, float top-up, camera + SSD. <!-- linear:HWL-68 -->
+- [x] Superseded by the consolidated current-week money decision. Fund joint £2,200 only if still current after the cash check. <!-- linear:HWL-67 -->
+- [x] Superseded by the consolidated current-week money decision. Revisit ISA, float, camera and SSD only after the cash check. <!-- linear:HWL-68 -->
 
 **Next claims on cash, in order:**
 1. **Cap on Tap £2,600 — DD on 5 June (automatic, 2 days out).** First claim. Cash £3,931 → ~£1,331 after.

@@ -54,7 +54,7 @@ Default: no notify. Silence is correct far more often than you think. Don't flat
 
 **Only ever push for a training miss you can CONFIRM from Garmin/Strava.** That is the one signal you can trust. Do not push about client emails, admin, or campaign items, you cannot verify those and a wrong push erodes trust in the whole system.
 
-If a prescribed session is confirmed missed (no matching Garmin/Strava activity) in a critical week (W7 RTTS taper, W12 Bled taper, race week), push:
+If a prescribed session is confirmed missed and `health/training-plan.md` explicitly marks the week as a race or taper week, push:
 ```
 Evening. {session} missed (no activity on Garmin). {n} consecutive. Worth a look at the week.
 ```

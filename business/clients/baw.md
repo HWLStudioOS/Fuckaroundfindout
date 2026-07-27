@@ -6,14 +6,15 @@ Workplace podcast. Hosts: **Cathal Quinlan** (primary contact) + **Annette Sloan
 
 Active. April reset after honest conversation about declining metrics. Hourly trial in place. April skipped by mutual agreement (March deliverables didn't meet standard).
 
-## Active state, 18 July 2026
+## Active state, 27 July 2026
 
-- **Summer value trial is live.** Cathal has explicitly asked for a private weekly progress email and listen-number tracking through early September because this is the first off-season he has paid someone to keep the engine running.
-- **Built this week:** Season 4 Student Guide, Roger Martin Sum Up, Helen Tupper launch artwork, rebuilt eight-week summer tracker, and the first workplace-meme pilot.
-- **Distribution miss:** Best-of #1 did not reach the feed, the question link is not live, and the weekly listen rows are still empty. The assets moved, the engine did not yet prove distribution.
-- **Work-meme pilot ready:** `output/social/BetterAtWork-Work-Meme-Hard-Stop-2026-07-18-v2.png`, built in Figma from the live B@W content templates and Better Work Brand Playground, using the season-finale “John has a hard stop at 2” exchange. Caption and source live in `business/clients/baw/work-meme-hard-stop-2026-07-18.md`.
-- **Weekly progress email drafted to Cathal.** It names both the real build progress and the distribution misses. Awaiting Harrison's send tap.
-- **Acast:** Cathal forwarded Marketplace onboarding and Tipalti payout registration. Marketplace profile is an HWL follow-up. Tipalti appears to need Cathal as the account holder.
+- **Summer Dashboard is current:** live API version 37. Weeks 1 and 2 are complete. Week 3 is 5 of 6 complete, with only the Friday review still open. Weekly numbers are still blank, so the delivery engine is ahead of the measurement loop.
+- **Better Moments #2 is published.** This loop is closed and must not return to the board.
+- **Roger Martin is live:** the Sum Up was built and gated, Mailchimp test traffic went out on 26 July, Best-of #2 reached the feed, and the LinkedIn/newsletter funnel work is active.
+- **Week 4, 27 July to 2 August:** miniseries pitch kit; Best-of #3 plus two shorts and LinkedIn; newsletter with the Sum Up and feedback ask; promo page and tracked links; search pass on episode pages; brand refresh round 2; Friday review.
+- **There is no current Cathal progress draft in Gmail.** Do not ask Harrison to send a non-existent draft. Decide the communication from the live dashboard when it is actually needed.
+- **Acast remains open:** Cathal forwarded Marketplace onboarding and Tipalti payout registration. Marketplace profile is an HWL follow-up. Tipalti appears to need Cathal as the account holder.
+- **Frontier site deploy diagnosed:** the 14 July Vercel failure came from an out-of-sync lockfile. The existing `codex/baw-frontier-site` worktree now installs cleanly, builds on Next 16.2.12 and audits at zero known vulnerabilities. Production redeploy remains a separate publish decision.
 
 ## What Harrison does
 

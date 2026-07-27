@@ -10,6 +10,12 @@ LOG="$HWL_META_DIR/agents/_log.md"
 cd "$HWL_META_DIR" || exit 1
 
 STAMP="$(date '+%Y-%m-%d %H:%M %Z')"
+ERR_FILE="$(mktemp /tmp/hwl-nightly-backup.XXXXXX)"
+trap 'rm -f "$ERR_FILE"' EXIT
+
+error_summary() {
+  tr '\n' ' ' < "$ERR_FILE" | cut -c1-500
+}
 
 # Nothing to do if no changes and nothing unpushed.
 if [[ -z "$(git status --porcelain)" ]] && git diff --quiet origin/main 2>/dev/null; then
@@ -24,21 +30,33 @@ fi
 
 # Push only to the configured private origin. Never create or change a remote here.
 if git remote get-url origin >/dev/null 2>&1; then
-  if git push -q origin main 2>/dev/null; then
+  : > "$ERR_FILE"
+  if git push -q origin main 2>"$ERR_FILE"; then
     echo "- $STAMP | nightly-backup | committed + pushed to origin" >> "$LOG"
   else
-    # Push rejected almost always means the branch diverged because another
-    # machine pushed since the last run (non-fast-forward), NOT auth. Reconcile
-    # by rebasing local backups onto the remote, then retry. The tree is already
-    # clean here (we committed above), so no stash is needed.
-    git fetch -q origin 2>/dev/null
-    if git rebase -q origin/main 2>/dev/null && git push -q origin main 2>/dev/null; then
-      echo "- $STAMP | nightly-backup | committed + reconciled (rebase) + pushed to origin" >> "$LOG"
+    FIRST_PUSH_ERROR="$(error_summary)"
+    : > "$ERR_FILE"
+    if ! git fetch -q origin 2>"$ERR_FILE"; then
+      echo "- $STAMP | nightly-backup | committed locally, PUSH FAILED: initial push: $FIRST_PUSH_ERROR | fetch: $(error_summary)" >> "$LOG"
+      exit 1
+    fi
+
+    : > "$ERR_FILE"
+    if git rebase -q origin/main 2>"$ERR_FILE"; then
+      : > "$ERR_FILE"
+      if git push -q origin main 2>"$ERR_FILE"; then
+        echo "- $STAMP | nightly-backup | committed + reconciled (rebase) + pushed to origin" >> "$LOG"
+        exit 0
+      fi
+      echo "- $STAMP | nightly-backup | committed + rebased, PUSH RETRY FAILED: $(error_summary)" >> "$LOG"
+      exit 1
     else
-      # Genuine conflict (e.g. both machines edited capture/inbox.md). Abort so the
-      # repo is left clean and the NEXT run is not corrupted by committing markers.
-      git rebase --abort 2>/dev/null || true
-      echo "- $STAMP | nightly-backup | committed locally, PUSH FAILED: branches diverged with conflicts, manual merge needed" >> "$LOG"
+      REBASE_ERROR="$(error_summary)"
+      # Leave the repository out of an in-progress rebase. The local backup
+      # commit is retained and the exact failure is logged for diagnosis.
+      git rebase --abort >/dev/null 2>&1 || true
+      echo "- $STAMP | nightly-backup | committed locally, REBASE FAILED: $REBASE_ERROR | initial push: $FIRST_PUSH_ERROR" >> "$LOG"
+      exit 1
     fi
   fi
 else

@@ -2,21 +2,20 @@
 
 **Canonical source:** `/Users/harrison/hwlstudio-codex/harrison-os/09-health-performance.md`
 
-## Body
+## Body, 27 July 2026
 
 - Height: 6'1/2".
-- Weight: 85.7 kg.
-- Biological age (Bevel): 23.2.
-- VO2 max: 45.
-- Resting heart rate: 52 (current), 54.7 (last year avg).
-- HRV baseline: 59.5 ms (6 mo) / 59.7 ms (12 mo).
-- Lean body mass: 70.1 kg, decreasing.
-- Body fat (last year avg): 18.3%.
-- Heart rate recovery: 42 bpm (excellent).
+- Readiness: 81, high.
+- Resting heart rate: 50.
+- HRV: 62 ms weekly average.
+- Weekly load: 203, ACWR 1.0.
+- Latest run: 6.4 km on 26 July.
+- Weight and body-fat readings are stale from 29 April. Do not present them as current.
+- Historical VO2 max: 45. Heart-rate recovery: 42 bpm.
 
-## Training event
+## Training
 
-50K race, 11 July 2026. See `health/training-plan.md` (RTTS Plan v2.0 from rewrite, dated 10 May).
+Race to the Stones 50K was completed on 11 July 2026. Lake Bled is not happening. The active prescription is the six-week maintenance block in `health/training-plan.md`, 27 July to 6 September. The ultra CSV is archived and must not drive briefs or reminders.
 
 ## Strength
 

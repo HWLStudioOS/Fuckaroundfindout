@@ -1,4 +1,8 @@
 {
+  "active-confirm-david-s-550-monthly-payment-date-against": {
+    "score": 98,
+    "reason": "David has asked directly after a two-week communication gap. Check the date, answer plainly and close the relationship loop."
+  },
   "HWL-184": {
     "score": 100,
     "reason": "The edit is already exporting. Verify it, close it cleanly, then stop carrying it."

@@ -2,8 +2,8 @@
   "title": "The Board Room",
   "week": "27 July to 2 August 2026",
   "sourceDate": "2026-07-27",
-  "generatedAt": "2026-07-27T16:50:29.001Z",
-  "sourceCommit": "56a5930",
+  "generatedAt": "2026-07-27T18:44:42.114Z",
+  "sourceCommit": "e4113f5",
   "summary": {
     "open": 23,
     "active": 13,
@@ -11,9 +11,9 @@
     "waiting": 3,
     "scheduled": 3,
     "parked": 4,
-    "closedThisWeek": 2,
-    "completion": 13,
-    "xp": 265,
+    "closedThisWeek": 3,
+    "completion": 19,
+    "xp": 385,
     "level": 1
   },
   "tasks": [
@@ -30,14 +30,14 @@
       "rank": 1
     },
     {
-      "id": "HWL-185",
-      "title": "WhatsApp Anna and Sarah-Louise: move Surrey S4 to w/c 3 August and lock the date.",
-      "area": "Creepers, in order",
+      "id": "active-confirm-david-s-550-monthly-payment-date-against",
+      "title": "Confirm David’s £550 monthly payment date against Wise or the agreement, then reply today that this month is covered.",
+      "area": "Money and admin",
       "state": "todo",
-      "due": "2026-08-03",
-      "baseScore": 94,
-      "score": 94,
-      "reason": "One short client message unlocks next week's Surrey shoot.",
+      "due": null,
+      "baseScore": 98,
+      "score": 98,
+      "reason": "David has asked directly after a two-week communication gap. Check the date, answer plainly and close the relationship loop.",
       "tier": "Critical",
       "rank": 2
     },
@@ -187,7 +187,7 @@
     },
     {
       "id": "waiting-anna-and-sarah-louise-exact-surrey-s4-shoot-date",
-      "title": "Anna and Sarah-Louise: exact Surrey S4 shoot date after Harrison sends the move message.",
+      "title": "Anna and Sarah-Louise: exact Surrey S4 shoot date after Harrison sent the move message.",
       "area": "Awaiting",
       "state": "waiting",
       "due": null,
@@ -302,6 +302,18 @@
       "baseScore": 72,
       "score": 0,
       "reason": "Closed in the canonical weekly board.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-185",
+      "title": "Sent Anna and Sarah-Louise a WhatsApp moving Surrey S4 to w/c 3 August. The exact date is now awaiting their reply.",
+      "area": "Creepers, in order",
+      "state": "done",
+      "due": "2026-08-03",
+      "baseScore": 94,
+      "score": 0,
+      "reason": "One short client message unlocks next week's Surrey shoot.",
       "tier": "Closed",
       "rank": null
     },

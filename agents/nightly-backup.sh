@@ -10,7 +10,7 @@ LOG="$HWL_META_DIR/agents/_log.md"
 BOARD_ROOM_DIR="$HWL_META_DIR/board-room"
 NODE_BIN="/usr/local/bin/node"
 NPX_BIN="/usr/local/bin/npx"
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 cd "$HWL_META_DIR" || exit 1
 
 STAMP="$(date '+%Y-%m-%d %H:%M %Z')"

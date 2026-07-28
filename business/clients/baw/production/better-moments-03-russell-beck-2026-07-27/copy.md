@@ -1,55 +1,140 @@
-# Copy starter
+# Publishing copy
 
-## Acast and YouTube title
+## Acast
 
-The three human skills that matter more because of AI | Better Moments #3 | Russell Beck
+### Title
 
-## Description
+AI Doesn't Destroy Jobs. It Destroys Skills | Better Moments #3 | Russell Beck
 
-The future of work is usually framed as a contest between people and technology. Russell Beck thinks that is the wrong contest.
+### Description
 
-In this Better Moment, Russell explains why technology changes skills before it removes whole jobs, and why creativity, self-efficacy and leadership become more valuable as AI gets better. The practical challenge is not whether machines can think. It is whether people keep doing it.
+The loudest predictions about AI count the jobs it might destroy. Russell Beck says that is the wrong unit of analysis.
+
+Technology is very good at removing the scarce skill inside a job. Russell's example is a naval shipyard worker wearing an exoskeleton. The job remains. The work becomes safer. The employer gains a wider talent pool. Physical strength stops being the thing that makes one person uniquely qualified.
+
+In this eight-minute Better Moment, Russell explains where the advantage moves next: creativity, self-efficacy and leadership.
 
 Russell Beck is the author of *The World of Work to 2030*. He has worked in 25 countries and was European Head of Talent at Yahoo.
 
-Listen to Better at Work for practical conversations about making work better.
+Listen to the full conversation: [FULL EPISODE LINK]
 
-## Cold open
+Follow Better at Work so season five lands in your feed when we return in September.
 
-AI is already changing the work in front of us. The unhelpful question is whether it will take your job.
+## YouTube
 
-Russell Beck gave us a better one: which parts of being human become more valuable as the technology gets better?
+### Title
 
-His answer is creativity, self-efficacy and leadership. Not as soft skills, but as the things that let you use new tools without handing over your judgement.
+Russell Beck: AI Doesn't Destroy Jobs. It Destroys Skills
 
-This conversation first ran in January and became one of the most-played episodes in the Better at Work catalogue. Here is the sharpest version of it.
+### Description
 
-## LinkedIn post
+AI rarely removes a job in one clean hit. It makes a skill that used to be scarce available to far more people.
 
-The future of work is not a contest between you and AI.
+Russell Beck uses a naval shipyard exoskeleton to show what that change looks like in practice. The worker is safer and more productive. The employer can hire from a wider talent pool. The physical strength that once decided who got the job is no longer the advantage.
 
-Russell Beck's warning is more uncomfortable: technology may improve while our own ability to think, listen and lead gets weaker.
+So what becomes more valuable? Russell puts the answer into three buckets: creativity, self-efficacy and leadership.
 
-He puts the human response into three buckets:
+Russell is the author of *The World of Work to 2030*. This is Better Moments #3, the strongest eight minutes from his Better at Work conversation.
 
-- Creativity, seeing and making connections a system was not asked to find.
-- Self-efficacy, believing you can learn, adapt and act.
-- Leadership, helping other people do the same.
+Watch the full episode: [FULL EPISODE LINK]
 
-That is why this conversation has held up. It is not another list of tools. It is an argument for becoming more capable as the tools do.
+Chapters:
+
+00:00 Technology removes skills before jobs
+00:12 Why job destruction is the wrong headline
+01:05 The shipyard exoskeleton
+02:08 What changed
+03:18 AI removes uniqueness
+03:50 Three capability buckets
+04:00 Creativity and artist-engineers
+05:12 Self-efficacy and learning
+06:07 Leadership and management
+07:35 What do you think?
+
+## Tuesday carousel, Better at Work Instagram
+
+AI rarely removes a job in one clean hit.
+
+It makes one part of the job easier, cheaper and available to more people. The work may remain. The skill that made someone hard to replace does not.
+
+Russell Beck's shipyard example makes the trade clear. An exoskeleton turns a heavy tool into something almost anyone can guide. The worker is safer. The employer gains a wider talent pool. Physical strength stops being the advantage.
+
+So the value moves.
+
+Russell puts it in three places: creativity, self-efficacy and leadership.
+
+Eight slides on what each one means, and the question to ask about your own work.
+
+Better Moments #3 lands Thursday.
+
+## Tuesday carousel, Cathal LinkedIn
+
+The headlines count jobs. Russell Beck made me look at the skill inside the job.
+
+His example comes from a naval shipyard.
+
+Before an exoskeleton, the work required the strength to wield heavy tools for hours. Put the worker in the exoskeleton and the tool becomes almost weightless. The job is still there. It is safer. More people can do it.
+
+But the old advantage has gone.
+
+That is Russell's point about technology. It often changes the price of entry before it removes the job.
+
+So where does the value move?
+
+Into creativity. Self-efficacy. Leadership.
+
+I pulled the argument into eight slides, including one exercise for working out what only you can add when the tool makes the old skill easier.
+
+A new eight-minute Better Moment with Russell lands Thursday.
+
+## Instagram launch, Better at Work
+
+Technology does not need to remove your whole job to change its value.
+
+It can make one scarce skill available to everyone.
+
+Russell Beck explains it through a naval shipyard worker wearing an exoskeleton. The job remains. The work becomes safer. The talent pool gets wider. Physical strength stops being the price of entry.
+
+Then he names the three capabilities that become more valuable as the tools improve: creativity, self-efficacy and leadership.
+
+Russell Beck, in eight minutes. Better Moments #3 is out now.
+
+Episode link in bio.
+
+## Cathal LinkedIn launch
+
+I have heard hundreds of predictions about AI and jobs. Russell Beck gave me a more useful sentence:
+
+Technology doesn't destroy jobs. It democratises work by destroying skills.
+
+The distinction matters.
+
+An exoskeleton does not remove the shipyard worker. It makes a heavy tool almost weightless. The work is safer. More people can do it. The physical strength that once decided who got the job is no longer scarce.
+
+That is the career question underneath a lot of AI anxiety. If the tool makes one part of my work available to everyone, where does my value move next?
+
+Russell's answer is creativity, self-efficacy and leadership.
+
+We cut the argument into eight minutes. It is practical, specific and ends with the question most of us do not give ourselves enough time to answer: what do you think?
 
 Better Moments #3 with Russell Beck is out now.
 
-[EPISODE LINK]
+Posting note: put the episode link in the first comment. Tag Russell Beck and Better at Work.
 
-## Short 1
+## Instagram story
 
-Hook: **AI is not the skill. Knowing what to do with it is.**
+Frame 1:
 
-Select the strongest complete source passage that names creativity, self-efficacy and leadership. Use only exact transcript words in subtitles.
+AI rarely removes a job in one clean hit.
 
-## Short 2
+It removes the skill that made someone scarce.
 
-Hook: **The risk is not that AI starts thinking.**
+Frame 2:
 
-Build to Russell's exact source line about whether humans are thinking. Verify the wording and timecode before publishing.
+Russell Beck, in eight minutes.
+
+Better Moments #3
+
+OUT NOW
+
+Add the episode link sticker on frame 2.

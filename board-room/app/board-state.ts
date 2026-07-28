@@ -1,6 +1,7 @@
 import type { BoardData, BoardEvent, BoardTask } from "./types";
 
 const ACTIVE_STATES = new Set(["todo", "in-progress"]);
+const EDITABLE_STATES = new Set(["todo", "in-progress", "done"]);
 const STATE_ORDER: Record<BoardTask["state"], number> = {
   "in-progress": 0,
   todo: 1,
@@ -18,6 +19,10 @@ function tierFor(score: number, state: BoardTask["state"]): BoardTask["tier"] {
   return "Later";
 }
 
+export function isEditableTask(task: BoardTask) {
+  return EDITABLE_STATES.has(task.state);
+}
+
 export function mergeBoardEvents(source: BoardData, events: BoardEvent[]): BoardData {
   const latestById = new Map<string, BoardEvent>();
 
@@ -29,8 +34,10 @@ export function mergeBoardEvents(source: BoardData, events: BoardEvent[]): Board
   const tasks = source.tasks.map((sourceTask) => {
     const task = { ...sourceTask };
     const event = latestById.get(task.id);
-    if (event?.title) task.title = event.title;
-    if (event?.state && task.id.startsWith("HWL-")) task.state = event.state;
+    if (event && isEditableTask(task)) {
+      if (event.title) task.title = event.title;
+      if (event.state) task.state = event.state;
+    }
     task.score = task.state === "done" ? 0 : task.baseScore;
     task.tier = tierFor(task.score, task.state);
     task.rank = null;

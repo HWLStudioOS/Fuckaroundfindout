@@ -1,6 +1,7 @@
 "use client";
 
 import { type FormEvent, useEffect, useMemo, useState } from "react";
+import { isEditableTask } from "./board-state";
 import type { BoardData, BoardTask, TaskState } from "./types";
 
 type Filter = "priority" | "waiting" | "scheduled" | "parked" | "closed";
@@ -264,7 +265,7 @@ export function BoardRoom({ data: initialData }: { data: BoardData }) {
                   <span>{task.tier}</span>
                   <strong>{task.score}</strong>
                 </div>
-                {task.id.startsWith("HWL-") ? (
+                {isEditableTask(task) ? (
                   <div className="task-actions">
                     <button
                       type="button"

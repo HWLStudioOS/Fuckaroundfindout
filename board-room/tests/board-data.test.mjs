@@ -71,6 +71,24 @@ test("uses the newest edit for a task", () => {
   assert.equal(task.title, "Check and send the finished Carey Garden edit.");
 });
 
+test("closes an active task before it has a Linear ID", () => {
+  const fallbackTask = {
+    ...data.tasks.find((task) => task.id === "HWL-184"),
+    id: "active-confirm-david-s-550-monthly-payment-date-against",
+  };
+  const source = { ...data, tasks: [fallbackTask] };
+  const updated = mergeBoardEvents(source, [{
+    version: 1,
+    id: fallbackTask.id,
+    state: "done",
+    updatedAt: "2026-07-28T09:30:00.000Z",
+  }]);
+
+  assert.equal(updated.tasks[0].state, "done");
+  assert.equal(updated.summary.active, 0);
+  assert.equal(updated.summary.closedThisWeek, 1);
+});
+
 test("reconciles a live edit into the canonical checkbox line", () => {
   const source = "- [ ] Old task title. <!-- linear:HWL-999 -->\n";
   const firstPass = reconcileBoardText(source, [{
@@ -94,4 +112,24 @@ test("reconciles a live edit into the canonical checkbox line", () => {
   }]);
   assert.equal(secondPass.applied, 0);
   assert.deepEqual(secondPass.settledTaskIds, ["HWL-999"]);
+});
+
+test("reconciles and settles a markerless active task", () => {
+  const id = "active-confirm-david-s-550-monthly-payment-date-against";
+  const source = "- [ ] Confirm David’s £550 monthly payment date against Wise or the agreement.\n";
+  const event = {
+    version: 1,
+    id,
+    title: "Confirm David's £550 payment date and reply.",
+    state: "done",
+    updatedAt: "2026-07-28T09:31:00.000Z",
+  };
+  const firstPass = reconcileBoardText(source, [event]);
+
+  assert.equal(firstPass.text, "- [x] Confirm David's £550 payment date and reply.\n");
+  assert.equal(firstPass.applied, 1);
+
+  const secondPass = reconcileBoardText(firstPass.text, [event]);
+  assert.equal(secondPass.applied, 0);
+  assert.deepEqual(secondPass.settledTaskIds, [id]);
 });

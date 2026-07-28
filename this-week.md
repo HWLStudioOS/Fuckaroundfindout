@@ -17,7 +17,7 @@ Convert Squiggly without buying an editing prison, finish the real client work, 
 
 ### Creepers, in order
 
-- [ ] Finish the Carey Garden Design Studio edit. Exporting now, verify the final file before closing. <!-- linear:HWL-184 -->
+- [x] Finish the Carey Garden Design Studio edit. Exporting now, verify the final file before closing. <!-- linear:HWL-184 -->
 - [x] Sent Anna and Sarah-Louise a WhatsApp moving Surrey S4 to w/c 3 August. The exact date is now awaiting their reply. <!-- linear:HWL-185 -->
 - [x] Selected and published the installation-page photo set. <!-- linear:HWL-186 -->
 - [ ] Tomorrow, 28 July: build and post Michael's Sandringham stock updates from Sandrine's latest information. <!-- linear:HWL-187 -->
@@ -25,7 +25,7 @@ Convert Squiggly without buying an editing prison, finish the real client work, 
 ### Better at Work
 
 - [ ] Finish Better Moments #3 with Russell Beck: source pull, edit decision list, two shorts and LinkedIn package. <!-- linear:HWL-188 -->
-- [ ] Test the public Roger Sum Up link, get Cathal's scan and send this week's Better Bits issue. <!-- linear:HWL-189 -->
+- [x] Test the public Roger Sum Up link, get Cathal's scan and send this week's Better Bits issue. <!-- linear:HWL-189 -->
 - [ ] Continue the single Season 5 brand and website lane: refresh, promo page, tracked analytics and episode-page search. Deploy the frontier site only after this direction is approved. <!-- linear:HWL-190 -->
 
 ### Laing O'Rourke
@@ -34,10 +34,10 @@ Convert Squiggly without buying an editing prison, finish the real client work, 
 
 ### Money and admin
 
-- [ ] Confirm David’s £550 monthly payment date against Wise or the agreement, then reply today that this month is covered. <!-- linear:HWL-198 -->
+- [x] Confirm David’s £550 monthly payment date against Wise or the agreement, then reply today that this month is covered. <!-- linear:HWL-198 -->
 - [ ] Decide and fund the £940.52 Monzo Flex payment before 1 August. <!-- linear:HWL-192 -->
 - [ ] Recover the £500 family reimbursement and assign it to the immediate card sequence. <!-- linear:HWL-193 -->
-- [ ] Get a replacement letterbox key, retrieve the HMRC VAT letter, record the number and effective date, then update Xero and affected invoices with Fazila. <!-- linear:HWL-194 -->
+- [x] Get a replacement letterbox key, retrieve the HMRC VAT letter, record the number and effective date, then update Xero and affected invoices with Fazila. <!-- linear:HWL-194 -->
 - [ ] Confirm the exact Amex balance and date, Capital on Tap minimum and date, and PAYE/NIC state in one finance-admin pass. <!-- linear:HWL-195 -->
 - [ ] Rebuild the £6,441 tax buffer from the next receipts after separating VAT and corporation-tax obligations. <!-- linear:HWL-196 -->
 

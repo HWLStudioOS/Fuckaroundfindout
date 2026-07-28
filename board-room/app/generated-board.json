@@ -2,45 +2,21 @@
   "title": "The Board Room",
   "week": "27 July to 2 August 2026",
   "sourceDate": "2026-07-28",
-  "generatedAt": "2026-07-28T09:37:11.216Z",
-  "sourceCommit": "043e7b9",
+  "generatedAt": "2026-07-28T21:30:05.793Z",
+  "sourceCommit": "e8eb746",
   "summary": {
-    "open": 23,
-    "active": 13,
-    "inProgress": 1,
+    "open": 19,
+    "active": 9,
+    "inProgress": 0,
     "waiting": 3,
     "scheduled": 3,
     "parked": 4,
-    "closedThisWeek": 3,
-    "completion": 19,
-    "xp": 385,
-    "level": 1
+    "closedThisWeek": 7,
+    "completion": 44,
+    "xp": 840,
+    "level": 2
   },
   "tasks": [
-    {
-      "id": "HWL-184",
-      "title": "Finish the Carey Garden Design Studio edit. Exporting now, verify the final file before closing.",
-      "area": "Creepers, in order",
-      "state": "in-progress",
-      "due": null,
-      "baseScore": 100,
-      "score": 100,
-      "reason": "The edit is already exporting. Verify it, close it cleanly, then stop carrying it.",
-      "tier": "Critical",
-      "rank": 1
-    },
-    {
-      "id": "HWL-198",
-      "title": "Confirm David’s £550 monthly payment date against Wise or the agreement, then reply today that this month is covered.",
-      "area": "Money and admin",
-      "state": "todo",
-      "due": null,
-      "baseScore": 98,
-      "score": 98,
-      "reason": "David has asked directly after a two-week communication gap. Check the date, answer plainly and close the relationship loop.",
-      "tier": "Critical",
-      "rank": 2
-    },
     {
       "id": "HWL-192",
       "title": "Decide and fund the £940.52 Monzo Flex payment before 1 August.",
@@ -51,7 +27,7 @@
       "score": 90,
       "reason": "£940.52 is due before 1 August. Cash consequence beats optional creative work.",
       "tier": "Critical",
-      "rank": 3
+      "rank": 1
     },
     {
       "id": "HWL-191",
@@ -63,7 +39,7 @@
       "score": 86,
       "reason": "The decision unlocks the shoot, the purchase order and the first 50 per cent invoice.",
       "tier": "High",
-      "rank": 4
+      "rank": 2
     },
     {
       "id": "HWL-187",
@@ -75,31 +51,7 @@
       "score": 82,
       "reason": "Named client delivery for tomorrow, using information already supplied by Sandrine.",
       "tier": "High",
-      "rank": 5
-    },
-    {
-      "id": "HWL-194",
-      "title": "Get a replacement letterbox key, retrieve the HMRC VAT letter, record the number and effective date, then update Xero and affected invoices with Fazila.",
-      "area": "Money and admin",
-      "state": "todo",
-      "due": null,
-      "baseScore": 76,
-      "score": 76,
-      "reason": "The lost key is blocking the VAT number, Xero and correct invoicing.",
-      "tier": "High",
-      "rank": 6
-    },
-    {
-      "id": "HWL-189",
-      "title": "Test the public Roger Sum Up link, get Cathal's scan and send this week's Better Bits issue.",
-      "area": "Better at Work",
-      "state": "todo",
-      "due": null,
-      "baseScore": 72,
-      "score": 72,
-      "reason": "The newsletter exists. Testing the link and getting Cathal's scan turns preparation into distribution.",
-      "tier": "Next",
-      "rank": 7
+      "rank": 3
     },
     {
       "id": "HWL-188",
@@ -111,7 +63,7 @@
       "score": 68,
       "reason": "Russell is the next Better Moments delivery and the starter package is already built.",
       "tier": "Next",
-      "rank": 8
+      "rank": 4
     },
     {
       "id": "HWL-195",
@@ -123,7 +75,7 @@
       "score": 64,
       "reason": "Exact balances and dates are required before another cash decision.",
       "tier": "Next",
-      "rank": 9
+      "rank": 5
     },
     {
       "id": "HWL-193",
@@ -135,7 +87,7 @@
       "score": 60,
       "reason": "Recoverable cash should return to the immediate card sequence.",
       "tier": "Next",
-      "rank": 10
+      "rank": 6
     },
     {
       "id": "HWL-196",
@@ -147,7 +99,7 @@
       "score": 54,
       "reason": "Important, but it starts with future receipts after the five-day cash pressure is handled.",
       "tier": "Later",
-      "rank": 11
+      "rank": 7
     },
     {
       "id": "HWL-197",
@@ -159,7 +111,7 @@
       "score": 50,
       "reason": "Consistency matters this week, but individual sessions fit around the immediate client and cash moves.",
       "tier": "Later",
-      "rank": 12
+      "rank": 8
     },
     {
       "id": "HWL-190",
@@ -171,7 +123,7 @@
       "score": 42,
       "reason": "The direction is valuable but deployment is deliberately gated by approval.",
       "tier": "Later",
-      "rank": 13
+      "rank": 9
     },
     {
       "id": "waiting-cathal-acast-payout-account-details",
@@ -306,6 +258,18 @@
       "rank": null
     },
     {
+      "id": "HWL-184",
+      "title": "Finish the Carey Garden Design Studio edit. Exporting now, verify the final file before closing.",
+      "area": "Creepers, in order",
+      "state": "done",
+      "due": null,
+      "baseScore": 100,
+      "score": 0,
+      "reason": "The edit is already exporting. Verify it, close it cleanly, then stop carrying it.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
       "id": "HWL-185",
       "title": "Sent Anna and Sarah-Louise a WhatsApp moving Surrey S4 to w/c 3 August. The exact date is now awaiting their reply.",
       "area": "Creepers, in order",
@@ -326,6 +290,42 @@
       "baseScore": 44,
       "score": 0,
       "reason": "Closed in the canonical weekly board.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-189",
+      "title": "Test the public Roger Sum Up link, get Cathal's scan and send this week's Better Bits issue.",
+      "area": "Better at Work",
+      "state": "done",
+      "due": null,
+      "baseScore": 72,
+      "score": 0,
+      "reason": "The newsletter exists. Testing the link and getting Cathal's scan turns preparation into distribution.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-198",
+      "title": "Confirm David’s £550 monthly payment date against Wise or the agreement, then reply today that this month is covered.",
+      "area": "Money and admin",
+      "state": "done",
+      "due": null,
+      "baseScore": 98,
+      "score": 0,
+      "reason": "David has asked directly after a two-week communication gap. Check the date, answer plainly and close the relationship loop.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-194",
+      "title": "Get a replacement letterbox key, retrieve the HMRC VAT letter, record the number and effective date, then update Xero and affected invoices with Fazila.",
+      "area": "Money and admin",
+      "state": "done",
+      "due": null,
+      "baseScore": 76,
+      "score": 0,
+      "reason": "The lost key is blocking the VAT number, Xero and correct invoicing.",
       "tier": "Closed",
       "rank": null
     }

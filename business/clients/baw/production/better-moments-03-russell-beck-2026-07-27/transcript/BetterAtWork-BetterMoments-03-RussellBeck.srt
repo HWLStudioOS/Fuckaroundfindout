@@ -1,0 +1,539 @@
+1
+00:00:00,080 --> 00:00:08,090
+ What we miss is that technology doesn't destroy jobs. Technology democratises
+
+2
+00:00:08,090 --> 00:00:11,320
+ work by destroying skills.
+
+3
+00:00:12,120 --> 00:00:17,730
+ But I think there's a misconception in the press and in the headlines at the moment
+
+4
+00:00:17,730 --> 00:00:23,750
+ about the headlines are job destruction. And the threat of technology destroying
+
+5
+00:00:23,750 --> 00:00:29,080
+ jobs has been present since before the Luddites were destroying looms in the
+
+6
+00:00:29,080 --> 00:00:31,140
+ Industrial Revolution.
+
+7
+00:00:31,140 --> 00:00:36,560
+ It's been there for centuries. And if you take a macro view right here, right now,
+
+8
+00:00:36,560 --> 00:00:42,480
+ here we are 200 years after the Luddites, there are more people in work today than
+
+9
+00:00:42,480 --> 00:00:43,620
+ ever before.
+
+10
+00:00:43,620 --> 00:00:49,630
+ And the unemployment rate across the developed world is broadly, it has picked up
+
+11
+00:00:49,630 --> 00:00:54,740
+ in the last couple of months, but is broadly at multi-decade lows.
+
+12
+00:00:54,740 --> 00:01:00,200
+ I am far, far, far from saying everything's perfect. It isn't.
+
+13
+00:01:01,140 --> 00:01:04,620
+ But there's more people in work and we have multi-decade lows of unemployment.
+
+14
+00:01:04,620 --> 00:01:08,820
+ It does specific things very, very well.
+
+15
+00:01:08,820 --> 00:01:15,540
+ The example I use in the book is of naval shipyard workers wearing exoskeletons.
+
+16
+00:01:15,540 --> 00:01:20,970
+ Anyone of my generation who remembers Aliens, the movie, the last scene in the
+
+17
+00:01:20,970 --> 00:01:26,800
+ spaceship is where the hero, Ripley, is wearing the exoskeleton and there are servo
+
+18
+00:01:26,800 --> 00:01:29,060
+ motors and whatever going.
+
+19
+00:01:29,380 --> 00:01:34,200
+ Now, prior to wearing the exoskeleton, the work was characterised by having to lift
+
+20
+00:01:34,200 --> 00:01:38,560
+ really heavy tools, hours on end, lugging them around.
+
+21
+00:01:38,560 --> 00:01:41,460
+ You know, physically, totally demanding.
+
+22
+00:01:41,460 --> 00:01:44,000
+ More sick days than the average worker.
+
+23
+00:01:44,000 --> 00:01:48,120
+ So demanding that the quality of life was poor at best.
+
+24
+00:01:48,120 --> 00:01:50,120
+ Go home from work, crash out on the couch.
+
+25
+00:01:50,700 --> 00:01:53,780
+ Now wearing the tool, it's weightless.
+
+26
+00:01:53,780 --> 00:01:56,000
+ You guide it rather than wielding it.
+
+27
+00:01:56,000 --> 00:01:57,420
+ You can't drop it on your foot.
+
+28
+00:01:57,420 --> 00:02:01,360
+ Quality of life immeasurably improved.
+
+29
+00:02:01,360 --> 00:02:05,760
+ And two people are more productive than three people without.
+
+30
+00:02:05,760 --> 00:02:06,860
+ Fine.
+
+31
+00:02:08,180 --> 00:02:10,180
+ But notice what has happened.
+
+32
+00:02:10,180 --> 00:02:15,860
+ Before the implementation of the exoskeleton, how would you get the job?
+
+33
+00:02:15,860 --> 00:02:20,680
+ And for those of you on the video watching this, I suspect that neither I or your
+
+34
+00:02:20,680 --> 00:02:22,960
+ good self would have got the job.
+
+35
+00:02:22,960 --> 00:02:23,900
+ Probably not.
+
+36
+00:02:23,900 --> 00:02:25,460
+ Because what did you need?
+
+37
+00:02:25,460 --> 00:02:29,260
+ What characteristics, skill, behaviour, competence, whatever you want to call it,
+
+38
+00:02:29,260 --> 00:02:30,580
+ would you need to get the job?
+
+39
+00:02:30,860 --> 00:02:33,900
+ You'd need to be able to lift heavy weights, hours on end.
+
+40
+00:02:33,900 --> 00:02:35,380
+ That's neither of us two.
+
+41
+00:02:35,380 --> 00:02:35,760
+ No.
+
+42
+00:02:35,760 --> 00:02:36,900
+ You'd need a gym bunny.
+
+43
+00:02:36,900 --> 00:02:42,560
+ The strap line for the job advert would be, why not work out and get paid?
+
+44
+00:02:42,560 --> 00:02:43,560
+ That kind of thing.
+
+45
+00:02:43,560 --> 00:02:50,960
+ But now with an exoskeleton, anyone can do the job regardless of physical ability.
+
+46
+00:02:50,960 --> 00:02:54,840
+ So the technology has democratised the work.
+
+47
+00:02:54,840 --> 00:02:59,240
+ It has opened up talent pools the employer has never previously considered.
+
+48
+00:03:00,160 --> 00:03:06,560
+ And it has removed the uniqueness in the individual who historically would have got
+
+49
+00:03:06,560 --> 00:03:07,480
+ the job.
+
+50
+00:03:07,480 --> 00:03:09,880
+ No longer need you to be fit and butch.
+
+51
+00:03:09,880 --> 00:03:11,420
+ The dream is ours.
+
+52
+00:03:11,420 --> 00:03:13,460
+ We can go and get jobs in naval shipyards now.
+
+53
+00:03:13,460 --> 00:03:15,680
+ But that's the point.
+
+54
+00:03:15,680 --> 00:03:17,900
+ It removes our uniqueness.
+
+55
+00:03:17,900 --> 00:03:24,680
+ So ChatGPT, Copilot, Claude, whatever is your AI of choice, kind of dumbs down
+
+56
+00:03:24,680 --> 00:03:26,080
+ doing things.
+
+57
+00:03:26,080 --> 00:03:27,720
+ It will give us a presentation.
+
+58
+00:03:27,720 --> 00:03:29,000
+ It will give us a marketing plan.
+
+59
+00:03:29,000 --> 00:03:30,000
+ It will give us a finance plan.
+
+60
+00:03:30,000 --> 00:03:31,320
+ And it will give us a starter for 10.
+
+61
+00:03:31,320 --> 00:03:34,900
+ Still need some capability to know if it's any good.
+
+62
+00:03:34,900 --> 00:03:35,320
+ Yeah.
+
+63
+00:03:35,320 --> 00:03:40,770
+ Still need to have that intelligence, human intelligence, to parse the answer and
+
+64
+00:03:40,770 --> 00:03:41,620
+ so forth.
+
+65
+00:03:41,620 --> 00:03:43,340
+ But that's what technology does.
+
+66
+00:03:43,340 --> 00:03:46,800
+ It democratises work by removing skills.
+
+67
+00:03:48,380 --> 00:03:49,500
+ And that's the difference.
+
+68
+00:03:49,500 --> 00:03:56,170
+ And broadly, and for brevity and time, the skills that they identify, the top 16
+
+69
+00:03:56,170 --> 00:03:59,040
+ skills they identify fall into three buckets.
+
+70
+00:04:00,200 --> 00:04:08,400
+ The first bucket is the skills around creativity, innovation, you know, seeing the
+
+71
+00:04:08,400 --> 00:04:15,920
+ hidden meaning in things, visualisation, the storytellers, the people who can assimilate
+
+72
+00:04:15,920 --> 00:04:21,250
+ the data, package it, and communicate to others and engage them, motivate them and
+
+73
+00:04:21,250 --> 00:04:25,520
+ tell a compelling story to help us move directions and so forth.
+
+74
+00:04:25,580 --> 00:04:30,820
+ And interestingly, in that context, you've seen in schooling, 15-year-old daughter
+
+75
+00:04:30,820 --> 00:04:34,900
+ again, you've seen in schooling a shift from a focus on STEM.
+
+76
+00:04:34,900 --> 00:04:39,420
+ And certainly, if you rewound five years, it was, get your kids into STEM, science,
+
+77
+00:04:39,420 --> 00:04:43,780
+ technology, engineering, maths, STEM, STEM, STEM, STEM, coding, etc.
+
+78
+00:04:43,780 --> 00:04:46,120
+ Coding is no longer a golden ticket.
+
+79
+00:04:46,120 --> 00:04:48,120
+ AI is doing that very effectively.
+
+80
+00:04:48,500 --> 00:04:50,940
+ And that STEM has shifted to STEAM.
+
+81
+00:04:50,940 --> 00:04:54,760
+ And the A, the addition of the A is for art.
+
+82
+00:04:54,760 --> 00:05:00,060
+ And again, fascinatingly, future of work, this is the rise of artist engineers.
+
+83
+00:05:00,060 --> 00:05:05,100
+ This is turning the clock back 500 years to the original artist engineer, Leonardo
+
+84
+00:05:05,100 --> 00:05:05,700
+ da Vinci.
+
+85
+00:05:05,700 --> 00:05:09,840
+ So it's that visualisation, hidden meaning, what's going on, creativity, innovation.
+
+86
+00:05:09,840 --> 00:05:10,720
+ That's one bucket.
+
+87
+00:05:11,500 --> 00:05:15,640
+ Second bucket is what the WEF calls self-efficacy.
+
+88
+00:05:15,640 --> 00:05:17,500
+ This is how we are.
+
+89
+00:05:17,500 --> 00:05:19,440
+ How are we looking after ourselves?
+
+90
+00:05:19,440 --> 00:05:20,940
+ How are we developing and growing?
+
+91
+00:05:20,940 --> 00:05:22,460
+ How are we looking after our careers?
+
+92
+00:05:22,460 --> 00:05:23,960
+ How resilient are we?
+
+93
+00:05:23,960 --> 00:05:24,760
+ How are we learning?
+
+94
+00:05:24,760 --> 00:05:32,960
+ An interesting challenge is if you consider how much money you spend on training
+
+95
+00:05:32,960 --> 00:05:40,490
+ yourself, learning, developing in your lifetime, your 85-whatever years on planet
+
+96
+00:05:40,490 --> 00:05:46,200
+ Earth, how much of that learning budget has been spent by the time you leave
+
+97
+00:05:46,200 --> 00:05:48,840
+ university at the age of 23?
+
+98
+00:05:50,360 --> 00:05:55,340
+ I would suggest it's probably 70, 80%.
+
+99
+00:05:55,340 --> 00:06:00,820
+ So you've spent 70 to 80%, if not more, on your entire lifetime learning.
+
+100
+00:06:00,820 --> 00:06:04,060
+ By the time you hit 24 and you've got 50 years in work.
+
+101
+00:06:04,060 --> 00:06:06,040
+ That's an interesting discussion.
+
+102
+00:06:06,040 --> 00:06:07,200
+ So how do you keep learning?
+
+103
+00:06:07,200 --> 00:06:15,400
+ And the third bucket and the biggest bucket in the WEF report is leadership and
+
+104
+00:06:15,400 --> 00:06:16,320
+ management skills.
+
+105
+00:06:17,040 --> 00:06:21,820
+ And of all the skills they identified in that update, since the book was published,
+
+106
+00:06:21,820 --> 00:06:27,770
+ those connected with leadership and management of others saw the biggest increase
+
+107
+00:06:27,770 --> 00:06:29,160
+ in importance.
+
+108
+00:06:29,160 --> 00:06:37,670
+ By 2030, the biggest skills gap between the demand of employers and supply will be
+
+109
+00:06:37,670 --> 00:06:39,420
+ in technology.
+
+110
+00:06:39,420 --> 00:06:42,780
+ Yeah, that's possibly not the biggest insight ever known to mankind.
+
+111
+00:06:43,520 --> 00:06:49,040
+ The second biggest gap, and it is only marginally smaller, is people and leadership
+
+112
+00:06:49,040 --> 00:06:49,840
+ skills.
+
+113
+00:06:49,840 --> 00:06:58,040
+ And if you think, what's the single biggest line item on the vast majority of
+
+114
+00:06:58,040 --> 00:07:00,400
+ organisations' P&Ls?
+
+115
+00:07:00,400 --> 00:07:02,320
+ It's people costs.
+
+116
+00:07:02,500 --> 00:07:03,620
+ It's people.
+
+117
+00:07:03,620 --> 00:07:07,580
+ Whether it's direct or indirect, whether it's the offices to house them or the
+
+118
+00:07:07,580 --> 00:07:09,880
+ salaries to pay for them or whatever it is.
+
+119
+00:07:09,880 --> 00:07:10,700
+ It's people.
+
+120
+00:07:10,700 --> 00:07:17,010
+ If I could raise the productivity of your people by just 1%, you would probably
+
+121
+00:07:17,010 --> 00:07:18,880
+ thank me an awful lot.
+
+122
+00:07:19,940 --> 00:07:26,720
+ And managers, leaders have a massive, massive impact on us.
+
+123
+00:07:26,720 --> 00:07:32,250
+ The impact of our manager on an employee's mental health is the same as the impact
+
+124
+00:07:32,250 --> 00:07:35,180
+ of your partner on your mental health.
+
+125
+00:07:35,940 --> 00:07:37,400
+ So what are you thinking?
+
+126
+00:07:37,400 --> 00:07:38,680
+ What do you think?
+
+127
+00:07:38,680 --> 00:07:40,640
+ I don't think we spend enough time.
+
+128
+00:07:40,640 --> 00:07:41,660
+ I think we're so busy.
+
+129
+00:07:41,660 --> 00:07:45,040
+ But actually, what do you think?
+
+130
+00:07:45,040 --> 00:07:50,580
+ And it goes back to this: I'm not worried about whether machines are thinking.
+
+131
+00:07:50,580 --> 00:07:52,360
+ I'm worried about whether humans think.
+
+132
+00:07:52,360 --> 00:07:55,180
+ Just what do you think?
+
+133
+00:07:55,180 --> 00:07:59,720
+ And if you need time to work out what your opinion is, create the time.
+
+134
+00:07:59,720 --> 00:08:04,080
+ Because otherwise, I just think we get bobbed along and carried on the flow and the
+
+135
+00:08:04,080 --> 00:08:05,260
+ ebbs and so forth.

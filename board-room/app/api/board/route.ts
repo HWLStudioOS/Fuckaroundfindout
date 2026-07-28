@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import initialBoard from "../../generated-board.json";
 import { readBoardEvents, writeBoardEvent } from "../../board-events";
-import { mergeBoardEvents } from "../../board-state";
+import { isEditableTask, mergeBoardEvents } from "../../board-state";
 import type { BoardData, BoardEvent } from "../../types";
 
 export const dynamic = "force-dynamic";
@@ -49,12 +49,15 @@ export async function PATCH(request: NextRequest) {
     return privateJson({ error: "Invalid JSON." }, 400);
   }
 
-  if (typeof body.id !== "string" || !body.id.startsWith("HWL-")) {
+  if (typeof body.id !== "string") {
     return privateJson({ error: "Only active board tasks can be changed here." }, 400);
   }
 
   const task = source.tasks.find((candidate) => candidate.id === body.id);
   if (!task) return privateJson({ error: "Task not found." }, 404);
+  if (!isEditableTask(task)) {
+    return privateJson({ error: "Only active board tasks can be changed here." }, 400);
+  }
 
   const event: BoardEvent = {
     version: 1,

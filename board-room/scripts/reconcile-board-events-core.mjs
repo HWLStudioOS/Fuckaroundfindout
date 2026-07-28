@@ -1,3 +1,34 @@
+function cleanTitle(value) {
+  return value
+    .replace(/<!--\s*linear:[^>]+-->/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function slug(value) {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 48);
+}
+
+function findTaskLine(lines, id, event) {
+  if (/^HWL-\d+$/.test(id)) {
+    const marker = `<!-- linear:${id} -->`;
+    return lines.findIndex((line) => line.includes(marker));
+  }
+
+  if (!id.startsWith("active-")) return -1;
+  const lineIndex = lines.findIndex((line) => {
+    const match = line.match(/^\s*-\s+\[[ xX]\]\s+(.+)$/);
+    return match && `active-${slug(cleanTitle(match[1]))}` === id;
+  });
+  if (lineIndex !== -1 || !event.title) return lineIndex;
+
+  const desiredTitle = cleanTitle(event.title);
+  return lines.findIndex((line) => {
+    const match = line.match(/^\s*-\s+\[[ xX]\]\s+(.+)$/);
+    return match && cleanTitle(match[1]) === desiredTitle;
+  });
+}
+
 export function reconcileBoardText(boardText, events) {
   const latestByTask = new Map();
   for (const event of events) {
@@ -10,12 +41,10 @@ export function reconcileBoardText(boardText, events) {
   let applied = 0;
 
   for (const [id, event] of latestByTask) {
-    if (!/^HWL-\d+$/.test(id)) continue;
-    const marker = `<!-- linear:${id} -->`;
-    const lineIndex = lines.findIndex((line) => line.includes(marker));
+    const lineIndex = findTaskLine(lines, id, event);
     if (lineIndex === -1) continue;
 
-    const match = lines[lineIndex].match(/^(\s*-\s+\[)([ xX])(\]\s+)(.*?)(\s+<!--\s*linear:[^>]+-->\s*)$/);
+    const match = lines[lineIndex].match(/^(\s*-\s+\[)([ xX])(\]\s+)(.*?)(\s+<!--\s*linear:[^>]+-->\s*)?$/);
     if (!match) continue;
 
     const currentState = match[2].toLowerCase() === "x" ? "done" : "todo";
@@ -28,7 +57,7 @@ export function reconcileBoardText(boardText, events) {
       continue;
     }
 
-    lines[lineIndex] = `${match[1]}${desiredState === "done" ? "x" : " "}${match[3]}${desiredTitle}${match[5]}`;
+    lines[lineIndex] = `${match[1]}${desiredState === "done" ? "x" : " "}${match[3]}${desiredTitle}${match[5] ?? ""}`;
     applied += 1;
   }
 

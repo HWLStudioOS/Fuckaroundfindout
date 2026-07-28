@@ -1,9 +1,9 @@
 {
   "title": "The Board Room",
   "week": "27 July to 2 August 2026",
-  "sourceDate": "2026-07-27",
-  "generatedAt": "2026-07-27T21:30:05.718Z",
-  "sourceCommit": "2ccdf72",
+  "sourceDate": "2026-07-28",
+  "generatedAt": "2026-07-28T09:37:11.216Z",
+  "sourceCommit": "043e7b9",
   "summary": {
     "open": 23,
     "active": 13,
@@ -30,6 +30,18 @@
       "rank": 1
     },
     {
+      "id": "HWL-198",
+      "title": "Confirm David’s £550 monthly payment date against Wise or the agreement, then reply today that this month is covered.",
+      "area": "Money and admin",
+      "state": "todo",
+      "due": null,
+      "baseScore": 98,
+      "score": 98,
+      "reason": "David has asked directly after a two-week communication gap. Check the date, answer plainly and close the relationship loop.",
+      "tier": "Critical",
+      "rank": 2
+    },
+    {
       "id": "HWL-192",
       "title": "Decide and fund the £940.52 Monzo Flex payment before 1 August.",
       "area": "Money and admin",
@@ -39,7 +51,7 @@
       "score": 90,
       "reason": "£940.52 is due before 1 August. Cash consequence beats optional creative work.",
       "tier": "Critical",
-      "rank": 2
+      "rank": 3
     },
     {
       "id": "HWL-191",
@@ -51,7 +63,7 @@
       "score": 86,
       "reason": "The decision unlocks the shoot, the purchase order and the first 50 per cent invoice.",
       "tier": "High",
-      "rank": 3
+      "rank": 4
     },
     {
       "id": "HWL-187",
@@ -62,18 +74,6 @@
       "baseScore": 82,
       "score": 82,
       "reason": "Named client delivery for tomorrow, using information already supplied by Sandrine.",
-      "tier": "High",
-      "rank": 4
-    },
-    {
-      "id": "HWL-198",
-      "title": "Confirm David’s £550 monthly payment date against Wise or the agreement, then reply today that this month is covered.",
-      "area": "Money and admin",
-      "state": "todo",
-      "due": null,
-      "baseScore": 78,
-      "score": 78,
-      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
       "tier": "High",
       "rank": 5
     },

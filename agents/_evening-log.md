@@ -1,3 +1,10 @@
+## 2026-07-29 evening
+- Shipped: golf round played at West Essex (Strava confirmed, "Lunch Golf" 11:07-14:38, matches this morning's calendar hold), campaign pipeline reviewed clean (campaign-chaser's 10:07 run, 8 files checked, zero touched, confirms zero open loops).
+- Missed: Strength A (squat and bench emphasis), no matching activity on Garmin/Strava as of 19:07.
+- Training: golf happened (not prescribed, but real, matches calendar). Prescribed Strength A not logged on Garmin/Strava as of this check. Not a race or taper week (training-plan.md status ACTIVE BIBLE, week 1 of 8, race_anchor none), so no push threshold applies.
+- Campaigns moved: 0, confirmed directly by campaign-chaser's own 10:07 log entry (8 files checked, zero touched, first run with nothing active).
+- Tomorrow's first action: Send the LOR Early Talent site-availability message to Kerri or Sarah Garside, unsent two mornings running with shoot day one due early August.
+
 ## 2026-07-22 evening
 - Shipped: BaW Better Moments #2 (Roger Martin) fully produced, publish-ready for Thursday's 12:30pm release. Full package built today (business/clients/baw/production/better-moments-02-roger-martin-2026-07-23/, files timestamped 13:54-15:03): audio locked and mastered, YouTube and vertical social cuts rendered and checked, IG/YouTube artwork exported from Figma, Acast/YouTube/IG/LinkedIn/Saturday-clip copy all written, publish-checklist's "tonight" section fully ticked. Morning Weight Training done (Strava, 08:50, 43min, 206 cal).
 - Missed: none confirmed. Golf-clubs batch-1 decision and the three drafted client comms were both open in this morning's brief, but campaign-chaser's check was 10:07 only, nothing confirms either way for the rest of the day, not scored.

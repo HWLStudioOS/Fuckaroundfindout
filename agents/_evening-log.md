@@ -1,3 +1,10 @@
+## 2026-07-30 evening
+- Shipped: LOR site-availability message sent to Kerri or Sarah Garside, Monzo Flex funded/decided, BaW Best-of #3 sent to Cathal, David's payment date confirmed, all per Harrison's own 08:12 Telegram reply ("All of those today's are done"), the one non-training signal trusted fully.
+- Missed: Creepers backlog (Carey Garden edit, Sandringham stock update, installation-page photo bank), the live calendar (creepers-content-calendar.vercel.app, week w/c 27 Jul) still shows all three at status "None" (unposted) as of this evening, directly contradicting the "all done" reply for this one item specifically. Today's prescribed 4km easy run, no matching activity on Garmin or Strava as of 19:07 (last Strava activity is Wednesday's golf).
+- Training: 4km easy prescribed, not logged. Not a race or taper week (training-plan.md, week 1 of 8, race_anchor none), so no push threshold applies.
+- Campaigns moved: 1 (LOR Early Talent, per the Telegram reply). Creepers explicitly did not move despite the same reply, live calendar overrides self-report here.
+- Tomorrow's first action: Post the Creepers backlog (Carey Garden edit, Sandringham stock update, installation-page photo bank), still unposted on the live calendar despite tonight's "done" claim.
+
 ## 2026-07-29 evening
 - Shipped: golf round played at West Essex (Strava confirmed, "Lunch Golf" 11:07-14:38, matches this morning's calendar hold), campaign pipeline reviewed clean (campaign-chaser's 10:07 run, 8 files checked, zero touched, confirms zero open loops).
 - Missed: Strength A (squat and bench emphasis), no matching activity on Garmin/Strava as of 19:07.

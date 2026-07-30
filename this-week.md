@@ -24,7 +24,7 @@ Convert Squiggly without buying an editing prison, finish the real client work, 
 
 ### Better at Work
 
-- [ ] Finish Better Moments #3 with Russell Beck: source pull, edit decision list, two shorts and LinkedIn package. <!-- linear:HWL-188 -->
+- [x] Finish Better Moments #3 with Russell Beck: source pull, edit decision list, two shorts and LinkedIn package. <!-- linear:HWL-188 -->
 - [x] Test the public Roger Sum Up link, get Cathal's scan and send this week's Better Bits issue. <!-- linear:HWL-189 -->
 - [ ] Continue the single Season 5 brand and website lane: refresh, promo page, tracked analytics and episode-page search. Deploy the frontier site only after this direction is approved. <!-- linear:HWL-190 -->
 
@@ -36,7 +36,7 @@ Convert Squiggly without buying an editing prison, finish the real client work, 
 
 - [x] Confirm David’s £550 monthly payment date against Wise or the agreement, then reply today that this month is covered. <!-- linear:HWL-198 -->
 - [ ] Decide and fund the £940.52 Monzo Flex payment before 1 August. <!-- linear:HWL-192 -->
-- [ ] Recover the £500 family reimbursement and assign it to the immediate card sequence. <!-- linear:HWL-193 -->
+- [x] Recover the £500 family reimbursement and assign it to the immediate card sequence. <!-- linear:HWL-193 -->
 - [x] Get a replacement letterbox key, retrieve the HMRC VAT letter, record the number and effective date, then update Xero and affected invoices with Fazila. <!-- linear:HWL-194 -->
 - [ ] Confirm the exact Amex balance and date, Capital on Tap minimum and date, and PAYE/NIC state in one finance-admin pass. <!-- linear:HWL-195 -->
 - [ ] Rebuild the £6,441 tax buffer from the next receipts after separating VAT and corporation-tax obligations. <!-- linear:HWL-196 -->

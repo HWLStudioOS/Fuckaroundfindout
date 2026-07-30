@@ -4,6 +4,12 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-07-30 08:12 (Telegram reply)
+- All of those today’s are done
+- Source: telegram reply (authoritative, Harrison's own words)
+- Tag: capture
+- Status: new
+
 ## 2026-07-29 14:07
 - **Claude Code ships hard limits on subagent delegation**, byteiota / Anthropic changelog, 21-28 Jul. Three versions in four days (v2.1.216-219) added a concurrency cap of 20 simultaneous subagents, a 200-per-session spawn total, and a nesting depth cap Anthropic disabled entirely then reinstated at 3 within three days, live calibration on a production system used by hundreds of thousands of developers. A `--max-budget-usd` bug that let background agents overspend past their cap is also fixed as of v2.1.216. Direct operational relevance, this is the exact delegation pattern the whole agent fleet runs on unattended. Worth checking `claude --version` and auditing spend from before 21 Jul if any workflow used budget caps. [https://byteiota.com/claude-code-subagent-guardrails-three-limits-four-days/]
 - **Congress introduces the AI Kill Switch Act, citing Anthropic by name**, Casey Newton / Platformer + Ars Technica, 23-27 Jul. Reps. Ted Lieu and Nathaniel Moran's bipartisan bill would force AI firms over $500m revenue to build in a government-orderable shutdown capability. The launch announcement cites "Anthropic's Mythos 5 and Fable 5 models had cyber hacking capabilities so advanced that the Department of Commerce had to awkwardly use an export law to shut down those systems" as justification, alongside OpenAI's Hugging Face incident. Direct platform-risk read on the model layer the whole studio runs on. [https://www.platformer.news/a-big-week-for-ai-denialism/]

@@ -1,20 +1,20 @@
 {
   "title": "The Board Room",
   "week": "27 July to 2 August 2026",
-  "sourceDate": "2026-07-29",
-  "generatedAt": "2026-07-29T21:30:04.139Z",
-  "sourceCommit": "ff96dad",
+  "sourceDate": "2026-07-30",
+  "generatedAt": "2026-07-30T21:30:06.497Z",
+  "sourceCommit": "936a41a",
   "summary": {
-    "open": 19,
-    "active": 9,
+    "open": 17,
+    "active": 7,
     "inProgress": 0,
     "waiting": 3,
     "scheduled": 3,
     "parked": 4,
-    "closedThisWeek": 7,
-    "completion": 44,
-    "xp": 840,
-    "level": 2
+    "closedThisWeek": 9,
+    "completion": 56,
+    "xp": 1080,
+    "level": 3
   },
   "tasks": [
     {
@@ -54,18 +54,6 @@
       "rank": 3
     },
     {
-      "id": "HWL-188",
-      "title": "Finish Better Moments #3 with Russell Beck: source pull, edit decision list, two shorts and LinkedIn package.",
-      "area": "Better at Work",
-      "state": "todo",
-      "due": null,
-      "baseScore": 68,
-      "score": 68,
-      "reason": "Russell is the next Better Moments delivery and the starter package is already built.",
-      "tier": "Next",
-      "rank": 4
-    },
-    {
       "id": "HWL-195",
       "title": "Confirm the exact Amex balance and date, Capital on Tap minimum and date, and PAYE/NIC state in one finance-admin pass.",
       "area": "Money and admin",
@@ -75,19 +63,7 @@
       "score": 64,
       "reason": "Exact balances and dates are required before another cash decision.",
       "tier": "Next",
-      "rank": 5
-    },
-    {
-      "id": "HWL-193",
-      "title": "Recover the £500 family reimbursement and assign it to the immediate card sequence.",
-      "area": "Money and admin",
-      "state": "todo",
-      "due": null,
-      "baseScore": 60,
-      "score": 60,
-      "reason": "Recoverable cash should return to the immediate card sequence.",
-      "tier": "Next",
-      "rank": 6
+      "rank": 4
     },
     {
       "id": "HWL-196",
@@ -99,7 +75,7 @@
       "score": 54,
       "reason": "Important, but it starts with future receipts after the five-day cash pressure is handled.",
       "tier": "Later",
-      "rank": 7
+      "rank": 5
     },
     {
       "id": "HWL-197",
@@ -111,7 +87,7 @@
       "score": 50,
       "reason": "Consistency matters this week, but individual sessions fit around the immediate client and cash moves.",
       "tier": "Later",
-      "rank": 8
+      "rank": 6
     },
     {
       "id": "HWL-190",
@@ -123,7 +99,7 @@
       "score": 42,
       "reason": "The direction is valuable but deployment is deliberately gated by approval.",
       "tier": "Later",
-      "rank": 9
+      "rank": 7
     },
     {
       "id": "waiting-cathal-acast-payout-account-details",
@@ -294,6 +270,18 @@
       "rank": null
     },
     {
+      "id": "HWL-188",
+      "title": "Finish Better Moments #3 with Russell Beck: source pull, edit decision list, two shorts and LinkedIn package.",
+      "area": "Better at Work",
+      "state": "done",
+      "due": null,
+      "baseScore": 68,
+      "score": 0,
+      "reason": "Russell is the next Better Moments delivery and the starter package is already built.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
       "id": "HWL-189",
       "title": "Test the public Roger Sum Up link, get Cathal's scan and send this week's Better Bits issue.",
       "area": "Better at Work",
@@ -314,6 +302,18 @@
       "baseScore": 98,
       "score": 0,
       "reason": "David has asked directly after a two-week communication gap. Check the date, answer plainly and close the relationship loop.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-193",
+      "title": "Recover the £500 family reimbursement and assign it to the immediate card sequence.",
+      "area": "Money and admin",
+      "state": "done",
+      "due": null,
+      "baseScore": 60,
+      "score": 0,
+      "reason": "Recoverable cash should return to the immediate card sequence.",
       "tier": "Closed",
       "rank": null
     },

@@ -2,13 +2,13 @@
 
 HWL Studio Limited. Sole director/shareholder. Started trading 29 August 2025.
 
-## Live position, 27 July 2026
+## Live position, 31 July 2026, partial check-in
 
 - Starling business current: **£800**.
 - Revolut Business savings, tax buffer: **£6,441** (£6,211 plus £230).
 - Capital on Tap: **£2,534 owing**, minimum payment selected for next month.
 - Amex: **about £1,000 owing**.
-- Monzo Flex: **£940.52 due 1 August**, the immediate cash-sequence risk.
+- Monzo Flex: **£940.52 due 1 August. Harrison confirmed at 10:03 on 31 July that this has not been sorted.** This is today's immediate cash-sequence risk.
 - Revolut personal: **£11**. Joint: **£380**.
 - Family reimbursement due: **about £500**, intended for card repayment.
 - Position: tight, not catastrophic. Protect the next five days, then rebuild the tax buffer from receipts.

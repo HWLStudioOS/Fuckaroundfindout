@@ -2,7 +2,7 @@
 
 Current engineering handoff for Harrison, Claude, and Codex. Read this on session start. Update it only when system architecture, rollout state, automation ownership, or safety boundaries change. Daily business state stays in `today.md` and the domain files.
 
-Last updated: 27 July 2026
+Last updated: 31 July 2026
 
 ## Operating model
 
@@ -40,6 +40,7 @@ Verified on the Mac mini:
 - The private, editable Board Room is live at `https://the-board-room-nine.vercel.app`. Harrison can close, reopen and rename active tasks. Changes appear immediately, then reconcile into the canonical weekly board through the existing nightly backup. It ranks the board, separates waiting, scheduled and parked loops, and records partial work as in motion. Production access uses Basic Auth. The username is `harrison`; the generated password is stored in macOS Keychain under service `The Board Room`.
 - Vercel could not attach the repository because the Vercel account has no GitHub login connection. The existing nightly backup therefore owns the refresh and production deployment path through the locally linked Vercel project. No additional scheduler was created.
 - Morning brief, verifier, weekly review and campaign chaser source rules were corrected on 27 July. They must verify the connected Gmail identity, check live Creepers and Better at Work dashboards, validate draft claims against Gmail, use only the canonical training plan, and diagnose a failure before escalating it.
+- Publication-source precedence was corrected on 31 July after the Creepers calendar falsely contradicted content that was already live. Planning dashboards now govern planned work and queue order only. Harrison's explicit correction, the live social post or Buffer's published record governs whether content shipped. The existing Buffer MCP needs re-authentication before it can provide unattended published and failed-post checks. No new scheduler was created.
 - The stale-state incident on 27 July is a failed acceptance run. The brief resurrected published work, a cancelled meeting, an abandoned race, non-existent drafts and a campaign target that had already been hit. Acceptance progress resets until the next clean weekday run.
 - `com.hwl.telegram-agent` was restarted at 10:37 BST on 14 July. The new restricted-mode process is live and its private durable queue database was created successfully.
 - The queue was empty immediately after restart. The next non-command task is the first live proof that the new process persists before acknowledgement and writes only a task fingerprint to logs.

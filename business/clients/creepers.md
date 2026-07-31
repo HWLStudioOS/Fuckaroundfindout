@@ -6,17 +6,19 @@
 
 Active. Sandringham 2026 is the current content centrepiece. Shoot completed 17 July, public show 22-26 July.
 
-## Active state, 27 July 2026
+## Active state, 31 July 2026
 
-- **The content calendar is live at API version 6.** The `now` marker correctly points to w/c 27 July.
-- **Priority 1:** finish the Carey Garden Design Studio edit.
-- **Installation-page photos are published.** This loop is closed.
-- **Tomorrow, 28 July:** build and publish Michael's Sandringham stock updates from Sandrine.
+- **Creepers is not in dispute.** Harrison confirmed the week's scheduled content has been handled, apart from Michael's Sandringham stock update, which is today's open post.
+- **Carey Garden Design Studio is live.** The Laura Carey Pollywiggle Garden reel was verified on `@creepersnursery`, published 28 July.
+- **Catherine MacDonald is live.** The Royal Legacy Garden reel was verified on `@creepersnursery`, published 23 July.
+- **Nursery stock content is live.** The Verbena Lollipop New Forest post was verified on `@creepersnursery`, published 27 July. Harrison also confirms further new flora and nursery-stock material has gone out through the nursery page.
+- **Installation content is live.** The before-and-after hedge carousel was verified on `@creepersinstallation`, published 30 July. The installation photo-bank loop is closed.
+- **Today:** build and publish Michael's Sandringham stock update from Sandrine.
 - **Surrey S4 moves to w/c 3 August.** Harrison sent the WhatsApp to Anna and Sarah-Louise. The exact date is pending their reply. The calendar shows the move in both current and next week.
 - **Supply credit is confirmed.** It is no longer an open task.
 - **Michael's two factual checks are done.** They are no longer an open task.
 - **Catherine MacDonald edit is done.** It is no longer an open task.
-- Some photos have already been posted. A live Instagram review could not be completed because Instagram would not load in the available browser session, so no additional status was invented.
+- **Monitoring correction:** Codex can read the public Instagram grids and individual post metadata directly. Future briefs should verify the live feeds before carrying an Instagram item.
 
 ## Positioning
 

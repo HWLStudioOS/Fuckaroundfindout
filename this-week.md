@@ -45,6 +45,10 @@ Convert Squiggly without buying an editing prison, finish the real client work, 
 
 - [ ] Run Long + Strong week 1: 24 km across four runs, Strength A and Strength B, with Saturday off and the knee rails governing intensity. <!-- linear:HWL-197 -->
 
+### System
+
+- [ ] Re-authenticate the existing Buffer MCP, map which client channels it can read, then add published-post and failed-post checks to the existing morning brief. Do not create another scheduler. Instagram first, LinkedIn after the read path is proven. <!-- linear:HWL-202 -->
+
 ## Awaiting, not Harrison work
 
 - Cathal: Acast payout account details.

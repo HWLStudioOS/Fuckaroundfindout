@@ -6,18 +6,19 @@ Workplace podcast. Hosts: **Cathal Quinlan** (primary contact) + **Annette Sloan
 
 Active. April reset after honest conversation about declining metrics. Hourly trial in place. April skipped by mutual agreement (March deliverables didn't meet standard).
 
-## Active state, 27 July 2026
+## Active state, 31 July 2026
 
-- **Summer Dashboard is current:** live API version 38. Weeks 1 to 3 are complete. Week 4 holds Russell, the newsletter and the single Season 5 brand and website lane. Cathal has the dashboard and knows the current numbers position. Missing listens and a Friday review are not Harrison tasks.
+- **Summer Dashboard is current:** live API version 43. Weeks 1 to 3 are complete. Week 4's three HWL delivery tasks are complete. Acast payout details remain with Cathal, and the single Season 5 brand and website lane remains open. Cathal has the dashboard and knows the current numbers position.
 - **Better Moments #2 is published.** This loop is closed and must not return to the board.
 - **Roger Martin is live:** the Sum Up was built and gated, Mailchimp test traffic went out on 26 July, Best-of #2 reached the feed, and the LinkedIn/newsletter funnel work is active.
-- **Best-of #3 is Russell Beck.** It is third all-time at 245 Acast plays, two behind Smart Conflict, and has the stronger current AI and future-skills hook. The package starter, cold open, copy and edit spine are built in `production/better-moments-03-russell-beck-2026-07-27/`.
+- **Best-of #3, Russell Beck, shipped cleanly.** The AI and skills carousel went live 28 July, the teaser reel went live 29 July, and the launch post went live 30 July on `@betteratworkpod`. The package was sent to Cathal. Do not carry it as unsent.
 - **This week's newsletter is written.** It uses Roger's “What would have to be true?” tool and asks readers whether the Sum Up is useful. It is gated on a tested public Sum Up link and Cathal's scan.
 - **The miniseries kit moves to w/c 10 August.** It is Season 5 work, not an immediate delivery miss.
 - **One Season 5 brand and website lane now holds the brand refresh, promo page, analytics and episode-page search pass.** The known Better at Work Content Templates Figma file contains the finished Helen and Roger campaign assets, but no board named Season 5, brand refresh, website or homepage. Do not pretend a missing Figma board was reviewed.
 - **Acast Marketplace and Tipalti setup is done on Harrison's side.** Await Cathal's payout account details.
 - **There is no current Cathal progress draft in Gmail.** Do not ask Harrison to send a non-existent draft. Decide the communication from the live dashboard when it is actually needed.
 - **Frontier site deploy diagnosed:** the existing `codex/baw-frontier-site` worktree installs cleanly, builds on Next 16.2.12 and audits at zero known vulnerabilities. Production remains held until the Season 5 brand direction is approved.
+- **Monitoring correction:** Codex can read the public `@betteratworkpod` grid and individual post metadata directly. Future briefs should verify it before carrying publication claims.
 
 ## What Harrison does
 

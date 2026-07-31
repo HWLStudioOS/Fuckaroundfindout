@@ -21,8 +21,9 @@ The send gate is yours. The drafter no longer sends. So if you do nothing else, 
 - Health numbers: run `bash "/Users/harrison/HWL META/agents/read-health.sh"` yourself and compare. Do not trust the brief's numbers, re-read them.
 - Money figures: `/Users/harrison/HWL META/money/index.md`.
 - Gmail: call the profile endpoint first, then search current inbox, sent mail and drafts. As of 27 July 2026 the connected account is `harrison@hwlstudio.com`.
-- Creepers: `https://creepers-content-calendar.vercel.app/api/data`.
-- Better at Work: `https://betteratwork-summer.vercel.app/api/data`.
+- Creepers planning: `https://creepers-content-calendar.vercel.app/api/data`. This is not a publication ledger. For whether content shipped, Harrison's explicit correction, a live Instagram post or Buffer's published record wins.
+- Better at Work planning: `https://betteratwork-summer.vercel.app/api/data`. For whether content shipped, Harrison's explicit correction, a live social post or Buffer's published record wins.
+- Buffer: if the MCP is connected, check recent published, scheduled and failed posts. If it needs authentication, report that limitation. Never turn a planning status of `None` into proof that a post was missed.
 - Training: `/Users/harrison/HWL META/health/training-plan.md` only. Do not validate against an archived CSV.
 
 ## The Gmail identity caveat (do not forget this)
@@ -66,7 +67,7 @@ If the brief surfaces anything that an authoritative/`CLOSED`/`PARKED` campaign 
 
 ### 7. Live-state contradictions
 
-Any publish, distribution, dashboard, draft or site-status claim must match the live service checked during this run. Cached client prose does not outrank a live dashboard. If a brief says something is drafted, the Gmail draft must exist.
+Any publish, distribution, dashboard, draft or site-status claim must match the service that directly records that event. Cached client prose does not outrank a live source. A planning dashboard does not outrank a live social post, Buffer's published record or Harrison's explicit correction for publication. If a brief says something is drafted, the Gmail draft must exist.
 - **Correction:** use the live state and remove stale wording.
 
 ### 8. Failure diagnosis

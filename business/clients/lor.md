@@ -8,6 +8,13 @@ Harrison is **strategic communications advisor**, not content producer. In the r
 
 Largest client. ~£7-10k/month run rate. Multiple active streams. Largest single project: Assembly Specialist Recruitment Campaign (37 assets, 5 months, May/June cohort).
 
+## Active state, 31 July 2026
+
+- Kerri has not come back on the current Laing O'Rourke lane. Early Talent themes and production decisions remain slow.
+- The LOR site-availability message was sent, per Harrison's direct 30 July completion signal. Do not carry it as unsent.
+- Public channel check: `@laingorourke` is active. Its five most recent Instagram posts through 30 July cover Hillingdon Hospital, Sizewell C, AUKUS, NAWIC awards and Clare Rodgers. None advances Harrison's 2026 Early Talent themes.
+- LinkedIn is also active at corporate level, including a recent apprenticeship-employer recognition post. Corporate publishing activity is not evidence that Kerri's campaign lane has moved.
+
 ## Tone
 
 McKinsey-grade. Boardroom-ready. "Quiet Confidence" framework (Harrison built this). "Raw and real" not "box-ticking celebration content" (Helen Fraser directive, internalised). Demographic-differentiated messaging (a 22-year-old apprentice and a 50-year-old project director don't read the same way).

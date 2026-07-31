@@ -1,18 +1,18 @@
 {
   "title": "The Board Room",
   "week": "27 July to 2 August 2026",
-  "sourceDate": "2026-07-30",
-  "generatedAt": "2026-07-30T21:30:06.497Z",
-  "sourceCommit": "936a41a",
+  "sourceDate": "2026-07-31",
+  "generatedAt": "2026-07-31T21:30:06.453Z",
+  "sourceCommit": "cd86236",
   "summary": {
-    "open": 17,
-    "active": 7,
+    "open": 18,
+    "active": 8,
     "inProgress": 0,
     "waiting": 3,
     "scheduled": 3,
     "parked": 4,
     "closedThisWeek": 9,
-    "completion": 56,
+    "completion": 53,
     "xp": 1080,
     "level": 3
   },
@@ -90,6 +90,18 @@
       "rank": 6
     },
     {
+      "id": "HWL-202",
+      "title": "Re-authenticate the existing Buffer MCP, map which client channels it can read, then add published-post and failed-post checks to the existing morning brief. Do not create another scheduler. Instagram first, LinkedIn after the read path is proven.",
+      "area": "System",
+      "state": "todo",
+      "due": null,
+      "baseScore": 44,
+      "score": 44,
+      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
+      "tier": "Later",
+      "rank": 7
+    },
+    {
       "id": "HWL-190",
       "title": "Continue the single Season 5 brand and website lane: refresh, promo page, tracked analytics and episode-page search. Deploy the frontier site only after this direction is approved.",
       "area": "Better at Work",
@@ -99,7 +111,7 @@
       "score": 42,
       "reason": "The direction is valuable but deployment is deliberately gated by approval.",
       "tier": "Later",
-      "rank": 7
+      "rank": 8
     },
     {
       "id": "waiting-cathal-acast-payout-account-details",

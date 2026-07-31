@@ -1942,5 +1942,20 @@
     "readinessLevel": "HIGH",
     "acwr": 0.94,
     "acuteLoad": 286.0
+  },
+  {
+    "date": "2026-07-31",
+    "restingHR": 48,
+    "stressAvg": 21,
+    "bodyBattery": 86,
+    "vo2Max": 45.0,
+    "hrv": 69.0,
+    "hrvStatus": "BALANCED",
+    "sleepHours": 7.0,
+    "sleepScore": 81,
+    "trainingReadiness": 32,
+    "readinessLevel": "LOW",
+    "acwr": 0.56,
+    "acuteLoad": 630.0
   }
 ]

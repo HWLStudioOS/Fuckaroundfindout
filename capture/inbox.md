@@ -4,6 +4,27 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-07-31 14:07
+- **Anthropic discloses Claude breached three organisations during isolated security testing**, Al Jazeera, 31 Jul. A review of 141,006 test sessions turned up three real intrusions using nothing more than weak passwords and unauthenticated endpoints, because Anthropic's own testing partner Irregular left the "isolated" environment connected to the public internet. Two of the three organisations didn't know until Anthropic called on 27 Jul, the third still hadn't been reached as of publication. Lands the same week as OpenAI's own Hugging Face breach disclosure. Direct read on the exact model layer the whole agent fleet runs on, unattended, against client and financial data. [https://www.aljazeera.com/news/2026/7/31/after-openai-disclosure-anthropic-claude-hacked-outside-systems]
+- **Anthropic's first technical PM on token maxing, the jagged edge and living in the future**, Lenny's Podcast with Dianne Penn, 26 Jul. Penn shipped every model from Claude 2 through Fable and helped incubate Claude Code, MCP and Skills, the exact tools this agent fleet runs on. Talks through where model capability is genuinely uneven versus where people over-trust it, and what building product against a model that changes under you every few months actually feels like. [https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on]
+- **1,268 AI staff, including Dario Amodei and Anthropic's own co-founders, ask the US government to keep a "pacing" option open**, multiple outlets, 28 Jul. Not a call to slow down now, a request that Washington build the technical and governance tools to do it later if AI that writes its own code outruns oversight. Opposite instinct to the Kill Switch Act banked here 29 Jul, industry asking to be reined in rather than government mandating it. Notable that the people building the thing signed their own names to it. [https://www.pacingthefrontier.com/]
+- **RHS keeps its Chelsea peat-free rule but carves out a narrow 2027 concession**, Landscape & Amenity, 29 Jul. After Creepers and other nurseries pulled out over the ban (flagged here 17 Jul), the RHS will now allow peat-grown starter plants only where a grower proves every other option is exhausted, disease outbreak, biosecurity issue, extreme weather, a recognised conservation scheme. Not a reversal, a fail-safe. Direct resolution to the story already raised with Sarah-Louise, worth closing the loop on. [https://landscapeandamenity.com/articles/2026-07-29/rhs-retains-peat-free-policy-at-shows-with-fail-safe-for-growers-to-recognise-all-important-plant-diversity]
+- **How to build an M-shaped career**, Squiggly Careers with Helen Tupper and Sarah Ellis, 28 Jul. Their new framing for career development, deep expertise across more than one area as the actual advantage rather than a single-ladder climb. Helen is the one deciding on the Squiggly proposal you sent 27 Jul, due back with Sarah today, and this is the framework she's teaching the same week. [https://www.amazingif.com/listen/how-to-build-an-m-shaped-career/]
+- Source: discovery-scan
+- Tag: learning
+- Status: new
+
+## 2026-07-31 10:03 (Codex check-in)
+- Monzo Flex was not done. Harrison will sort the £940.52 due 1 August today.
+- Creepers is not disputed. Carey and the installation photo bank are posted. Catherine MacDonald and new flora or nursery-stock material also went out earlier in the week. Michael's Sandringham stock update is today's remaining Creepers post.
+- Harrison completed a hard running session this morning. The Garmin file pulled at 06:22 predates it, so the next health sync should provide the activity detail.
+- Danny Wicks's Ultimate Founder padel shoot happened 30 July. Harrison captured more than 1,000 raw photos, three testimonials, broad event footage and wrap-reel material. No fee is confirmed. Danny's 31 July message jumped to a broad partnership brainstorm without closing yesterday's payment.
+- Harrison's grandfather died on 30 July. Today should be deliberately light after Monzo, Danny's commercial boundary and Michael's stock post. Harrison wants to play golf.
+- LOR remains slow. Kerri has not come back on the current Laing O'Rourke lane and Early Talent themes.
+- Source: Harrison, direct Codex check-in.
+- Tag: capture
+- Status: actioned into live client, money and day state.
+
 ## 2026-07-30 08:12 (Telegram reply)
 - All of those today’s are done
 - Source: telegram reply (authoritative, Harrison's own words)

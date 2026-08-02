@@ -450,3 +450,8 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 - 2026-08-01 06:15  | health-sync | OK 2026-08-01: RHR 52, sleep 7.0h (score 81), HRV 69 BALANCED, readiness 50
 - 2026-08-01 11:00  | health-sync | OK 2026-08-01: RHR 51, sleep 7.4h (score 78), HRV 54 BALANCED, readiness 51
 - 2026-08-01 14:00  | health-sync | OK 2026-08-01: RHR 51, sleep 7.4h (score 78), HRV 54 BALANCED, readiness 51
+- 2026-08-01 22:33 BST | nightly-backup | committed + pushed to origin
+- 2026-08-01 22:33 BST | board-room | deployed production from the nightly snapshot
+- 2026-08-02 06:26  | health-sync | OK 2026-08-02: RHR 51, sleep 7.4h (score 78), HRV 54 BALANCED, readiness None
+- 2026-08-02 11:01  | health-sync | OK 2026-08-02: RHR 48, sleep 7.3h (score 85), HRV 71 BALANCED, readiness 51
+- 2026-08-02 14:00  | health-sync | OK 2026-08-02: RHR 48, sleep 7.3h (score 85), HRV 71 BALANCED, readiness 51

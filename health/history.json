@@ -1972,5 +1972,20 @@
     "hrvStatus": "BALANCED",
     "sleepHours": 7.4,
     "sleepScore": 78
+  },
+  {
+    "date": "2026-08-02",
+    "restingHR": 48,
+    "stressAvg": 12,
+    "bodyBattery": 95,
+    "vo2Max": 45.0,
+    "hrv": 71.0,
+    "hrvStatus": "BALANCED",
+    "sleepHours": 7.3,
+    "sleepScore": 85,
+    "trainingReadiness": 51,
+    "readinessLevel": "MODERATE",
+    "acwr": 0.58,
+    "acuteLoad": 623.0
   }
 ]

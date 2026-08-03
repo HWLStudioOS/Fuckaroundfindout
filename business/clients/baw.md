@@ -6,6 +6,12 @@ Workplace podcast. Hosts: **Cathal Quinlan** (primary contact) + **Annette Sloan
 
 Active. April reset after honest conversation about declining metrics. Hourly trial in place. April skipped by mutual agreement (March deliverables didn't meet standard).
 
+## Finance correction, 3 August 2026
+
+- Harrison confirms invoicing and finance administration are current.
+- Better at Work forms part of about **£7,000 currently owed across Better at Work and Creepers combined**. Harrison did not state the client split.
+- Historical invoice nudges and unknown-hours checks are not live finance tasks and must not be resurrected.
+
 ## Active state, 31 July 2026
 
 - **Summer Dashboard is current:** live API version 43. Weeks 1 to 3 are complete. Week 4's three HWL delivery tasks are complete. Acast payout details remain with Cathal, and the single Season 5 brand and website lane remains open. Cathal has the dashboard and knows the current numbers position.
@@ -56,7 +62,7 @@ Episode packaging (clips, captions, titles, YouTube), LinkedIn ghostwriting for 
 
 **MMH Partnership: DEAD.** Agency route never materialised. Replaced by direct PH editor hire (see [[project-david-ph-editor]]). BaW packaging work flows through the new editor once interview stage closes (target this week, 25-31 May).
 
-## Money state
+## Historical money state, April 2026
 
 - April retainer skipped (mutual)
 - Hourly trial in place

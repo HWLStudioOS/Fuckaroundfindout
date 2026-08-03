@@ -2,7 +2,22 @@
 
 HWL Studio Limited. Sole director/shareholder. Started trading 29 August 2025.
 
-## Live position, 31 July 2026, partial check-in
+## Live commercial position, 3 August 2026
+
+Harrison's explicit correction at 20:38 BST is the current source of truth:
+
+- Invoicing and finance administration are up to date.
+- About **£7,000 is currently owed across Better at Work and Creepers combined**. The split was not stated.
+- About **£7,000 from LOR is expected during August 2026**.
+- Known near-term client cash is therefore about **£14,000**.
+- No other current receivable, unbilled-work obligation or finance-admin task was reported.
+- Exact bank, card, PAYE/NIC and tax-reserve balances were not restated. Do not carry the 27 or 31 July figures forward as current.
+
+Source precedence for money state is Harrison's latest dated correction, then fresh accounting or bank evidence, then older generated reports. `money/weekly.md` and the 27 July snapshot are explicitly superseded for current action.
+
+## Superseded partial check-in, 31 July 2026
+
+> Historical only. The balances and action list below were the last partial check-in before Harrison's 3 August correction. They must not be used as current tasks or proof of current balances.
 
 - Starling business current: **£800**.
 - Revolut Business savings, tax buffer: **£6,441** (£6,211 plus £230).
@@ -11,8 +26,8 @@ HWL Studio Limited. Sole director/shareholder. Started trading 29 August 2025.
 - Monzo Flex: **£940.52 due 1 August. Harrison confirmed at 10:03 on 31 July that this has not been sorted.** This is today's immediate cash-sequence risk.
 - Revolut personal: **£11**. Joint: **£380**.
 - Family reimbursement due: **about £500**, intended for card repayment.
-- Position: tight, not catastrophic. Protect the next five days, then rebuild the tax buffer from receipts.
-- VAT letter is probably in the downstairs letterbox. Get a replacement key, record the number and effective date, then correct the invoice template and affected invoices with Fazila.
+- Historical position at the time: tight, not catastrophic. The five-day sequence is now superseded.
+- The VAT-letter action is resolved. VAT registration administration was completed with Fazila.
 
 Full decision sequence: `money/snapshot.md`.
 
@@ -21,7 +36,7 @@ Full decision sequence: `money/snapshot.md`.
 - Salary £1,047.50/month (utilises personal allowance)
 - Dividends ~£2,000/month
 - 25% tax reserve on all revenue (raised from 20% per Litchfields 11 May)
-- VAT: threshold EXCEEDED (~£94-95k rolling 12-month, confirmed June 2026). Registration in progress with Fazila (Litchfields). Invoice "pending VAT registration" until the number lands. Cash Accounting Scheme election intended (slow payers).
+- VAT: **registered effective 30 June 2026**. Registration administration is complete with Fazila. Use the accountant-approved VAT invoice treatment for supplies from the effective date. Cash Accounting Scheme status was not restated on 3 August.
 - BA Amex for business expenses (companion voucher target: £15,000 spend in membership year)
 - Cupra Leon Estate hybrid on business lease
 
@@ -30,16 +45,16 @@ Full decision sequence: `money/snapshot.md`.
 - **Starling Bank** (business current), primary
 - **Capital on Tap**, business credit
 - **Amex**, business
-- **Monzo Flex**, personal credit, £940.52 due 1 August 2026
+- **Monzo Flex**, personal credit. The 31 July amount and due-date warning are superseded and are not a current balance.
 - **Vanguard ISA**, personal investment (active April)
 
 ## Revenue (run rate ~£11k/month, May lifted by Chelsea)
 
 | Client | £/month | Status |
 |---|---|---|
-| Laing O'Rourke | 7,000-10,000 | Active. Lumpy on AS payments. |
-| Creepers Nursery | 3,500 + Chelsea uplift in May | Reliable monthly. |
-| Better at Work | back this month after April skip | Hourly trial post-reset. Combined Creepers + BaW May ~£5,000 base. |
+| Laing O'Rourke | 7,000-10,000 | Active. About £7,000 expected during August 2026. Finance admin is current. |
+| Creepers Nursery | 3,500 + Chelsea uplift in May | Active. Forms part of the roughly £7,000 combined Better at Work and Creepers receivable. |
+| Better at Work | Variable, hourly trial post-reset | Active. Forms part of the roughly £7,000 combined Better at Work and Creepers receivable. |
 | Colin Fisher | 0 | Off the board. |
 | Squiggly Careers | proposed £4,250 | New-client opportunity from Helen Tupper. Three-month pilot offer prepared, not yet agreed. |
 
@@ -53,15 +68,15 @@ Full decision sequence: `money/snapshot.md`.
 
 Real goal isn't the £200k cap. Real goal is **passive income through code + AI products** so Harrison can stop being on shoots. Off the production treadmill, into IP. Year one of HWL is the runway. The next phase is building products that earn while he sleeps. The system should track this as a quiet third stream and surface opportunities.
 
-## June 2026 financial program (active)
+## Historical June 2026 financial program
 
-End-of-month joint review with Maya 28 May 2026 produced a one-pager program for June: see **[`money/june-2026-program.md`](june-2026-program.md)**. Sets H+M Takapuna Beach 5-year goal (£180k deposit, £3k/mo savings rate), Harrison's UK-Ltd-optimised £4,547.50 monthly draw, Maya's £3,600 deployment, joint pocket caps, ISA + Marcus account opening tonight, 25% tax sweep, and 30 June acceptance criteria.
+The 28 May review with Maya produced a one-month program for June: see **[`money/june-2026-program.md`](june-2026-program.md)**. It is retained as historical planning. Its standing orders, account-opening checklist and 30 June acceptance criteria are not current August tasks unless Harrison explicitly renews them.
 
 Decisions captured in `SESSION_LOG.md` at project root.
 
-## Live state, last refreshed 26 June 2026 (from Harrison)
+## Historical operating log, June to July 2026
 
-> Hand-maintained by Harrison + sessions. The weekly-cfo agent writes `money/weekly.md`, not this file. Xero is not wired; nothing in this file updates automatically. (Header corrected 1 Jul 2026, it previously claimed auto-update that never existed.)
+> Retained for chronology. Individual outstanding balances and actions below are not live unless independently reconfirmed after Harrison's 3 August correction. The weekly-cfo agent writes `money/weekly.md`, but Xero is not wired and nothing in this file updates automatically.
 
 ### 7 July 2026 — BaW £1,500 landed
 

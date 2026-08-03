@@ -1,8 +1,22 @@
 # Financial Snapshot
 
-Authoritative working snapshot from Harrison's stated balances on 27 July 2026. This is a cash-control view, not reconciled accounts. Xero and Litchfields remain the accounting source.
+## Current override, 3 August 2026
 
-## Cash now
+Harrison confirmed that invoicing and finance administration are up to date. The current client-cash picture is:
+
+| Source | Current position |
+|---|---:|
+| Better at Work and Creepers, combined | About £7,000 owed now |
+| LOR | About £7,000 expected during August |
+| **Known near-term client cash** | **About £14,000** |
+
+The split between Better at Work and Creepers was not stated. No other current receivable, unbilled-work obligation or finance-admin task was reported. Exact bank, card, PAYE/NIC and reserve balances were not refreshed, so this file does not infer them.
+
+## Superseded snapshot, 27 July 2026
+
+> Everything below is retained as a historical cash-control snapshot. It was not reconciled accounts. It is superseded for current action by Harrison's 3 August correction. Do not reopen its payment, card, VAT-letter or tax-buffer tasks without fresh evidence.
+
+### Historical cash position
 
 | Account | Balance | Treatment |
 |---|---:|---|
@@ -13,7 +27,7 @@ Authoritative working snapshot from Harrison's stated balances on 27 July 2026. 
 
 Business cash totals £7,241, but only £800 is operating cash. The £6,441 tax pot is not normal headroom.
 
-## Card liabilities
+### Historical card liabilities
 
 | Account | Owing | Timing and context |
 |---|---:|---|
@@ -24,7 +38,7 @@ Business cash totals £7,241, but only £800 is operating cash. The £6,441 tax 
 
 The £500 family reimbursement reduces the effective card exposure to about £3,974.52 when it actually lands. Do not count it as cash before receipt.
 
-## Five-day decision order
+### Historical five-day decision order
 
 1. Recover the £500 family money and assign it to Monzo Flex first, unless a specific Amex or Capital on Tap reimbursement trail requires otherwise.
 2. Decide how the remaining Monzo Flex balance will clear before 1 August. Protect the tax pot if a credible receipt lands first. If not, make one explicit bridge decision rather than let the payment bounce by accident.
@@ -32,7 +46,7 @@ The £500 family reimbursement reduces the effective card exposure to about £3,
 4. Keep Capital on Tap at the already-selected minimum for this cycle. Do not add new discretionary travel, car or equipment spending to it.
 5. Rebuild the tax buffer from the next receipts. The buffer was used to bridge a quiet Laing O'Rourke period and is below the level Harrison wants.
 
-## VAT letter and invoicing
+### Historical VAT-letter and invoicing state
 
 VAT registration was submitted and the registration letter is probably in the downstairs letterbox. Harrison has lost the key.
 
@@ -50,17 +64,17 @@ HMRC references:
 - https://www.gov.uk/charge-reclaim-record-vat
 - https://www.gov.uk/invoicing-and-taking-payment-from-customers/invoices-what-they-must-include
 
-## Position
+### Historical position
 
 Tight, not insolvent. The five-day problem is sequencing, especially Monzo Flex. The commercial response is to convert Squiggly at a proper margin, collect the family reimbursement, lock the next Laing O'Rourke deposit and stop treating the tax pot as an invisible overdraft.
 
-## Not on the live board
+### Items that were not on the 27 July live board
 
 - OnlineJobs.ph card, ignored and removed.
 - ISA, camera, SSD and old float allocations, parked until the immediate card sequence is stable.
 - Old unverified bank-receipt checks that Harrison has replaced with these live balances.
 
-## Still unverified
+### Items that were unverified on 27 July
 
 - Exact Amex balance and statement date.
 - Exact Capital on Tap minimum payment and due date.

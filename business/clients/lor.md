@@ -8,6 +8,13 @@ Harrison is **strategic communications advisor**, not content producer. In the r
 
 Largest client. ~£7-10k/month run rate. Multiple active streams. Largest single project: Assembly Specialist Recruitment Campaign (37 assets, 5 months, May/June cohort).
 
+## Finance correction, 3 August 2026
+
+- Harrison confirms invoicing and finance administration are current.
+- About **£7,000 from LOR is expected during August**.
+- There is no live LOR invoice, PO or finance-admin chase in Harrison's current state.
+- Older sections describing unbilled Global Comms work, an Early Talent first-invoice action or a £6,000 receivable are historical and superseded for finance truth. Production timing and site decisions remain separate client-delivery questions only if independently current.
+
 ## Active state, 31 July 2026
 
 - Kerri has not come back on the current Laing O'Rourke lane. Early Talent themes and production decisions remain slow.
@@ -167,7 +174,7 @@ Relationship warm: Kerri apologetic, "you are making my life easier, thank you."
 
 **Calendar note:** Kerri OOO w/c 25 May (Bordeaux). Pick up Early Talent and PO follow-up w/c 1 June.
 
-## Money state
+## Historical money state, April to May 2026
 
 - £600 (March comms) landed 24 Apr against £6k still outstanding.
 - AS PO raised by Kerri 22 Apr, AP is the bottleneck, not Kerri.
@@ -176,6 +183,6 @@ Relationship warm: Kerri apologetic, "you are making my life easier, thank you."
 - **PO status (20 May catch-up):** Kerri got muddled on invoice 0384. Confirmed paid was an earlier invoice. Invoice 0384 (April comms work, sent 5 May "April invoices" email) — Kerri to raise PO. Football shoot invoice — Kerri to confirm with Claire whether that falls under comms PO or needs separate. Remaining 50% AS will run against the same PO as posts ship through May/June.
 - **Email volume signal:** Kerri said "you've sent me a lot of emails" on the 20 May call. Half-joke, half-real. Consolidate going forward: one weekly status email beats multiple thread fragments. Owner: Harrison.
 
-## Active risk
+## Historical finance risk, superseded 3 August 2026
 
-Six-thousand-pound receivable is large enough to matter. AP delays are LOR-systemic, not Kerri-fault. Korena escalation kept warm if needed.
+At the time, the £6,000 receivable was large enough to matter and AP delay was treated as LOR-systemic rather than Kerri's fault. This is not a live receivable or escalation instruction. Harrison's current state is about £7,000 expected from LOR during August, with finance admin up to date.

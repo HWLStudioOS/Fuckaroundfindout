@@ -2,9 +2,13 @@
 generated: 2026-07-31 16:00 BST
 week_covered: w/c 27 July 2026 (Mon 27 Jul - Fri 31 Jul)
 xero_status: unreachable (MCP not wired), manual snapshot from Gmail (Litchfields, Capital on Tap, Amex, LOR AP, Creepers, BaW) + hand-maintained money/index.md, money/snapshot.md and business/clients/*.md live-state blocks
+status: superseded
+superseded_by: Harrison correction, 2026-08-03 20:38 BST
 ---
 
 # CFO Weekly, w/c 27 July 2026
+
+> **Superseded on 3 August 2026.** Harrison confirmed that invoicing and finance administration are up to date. About £7,000 is currently owed across Better at Work and Creepers combined, and about £7,000 from LOR is expected during August. The £21,000 to £22,000 unbilled estimate, Monday invoice action and 31 July card-admin warnings below are not current. This generated report is retained unchanged as a historical record. Do not carry any balance or action forward without fresh evidence.
 
 > Xero still isn't wired. Every figure below is from Gmail and the hand-maintained files, not a bank feed. Treat balances as Harrison's own reporting, not reconciled accounts.
 

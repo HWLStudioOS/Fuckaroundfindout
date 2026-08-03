@@ -1,37 +1,38 @@
 # Tax Architecture
 
-**Status:** scaffold. Populated as the Lich Fields conversation and self-Assessment / corp-tax planning happen.
+**Status:** working architecture. VAT and finance-admin status corrected from Harrison's explicit 3 August 2026 update. Longer-term investment and retained-earnings sections remain planning material, not accountant-approved instructions.
 
 This was a gap in the rewrite (`hwlstudio-rewrite/money/index.md` didn't cover SIPP, ISA, EIS/SEIS, retained earnings). Codex Finance Analysis (file 10) names it as a control priority. This file gets it on the system.
 
 ## VAT
 
 - Threshold: £90,000 rolling 12-month UK VAT-taxable turnover.
-- Current revenue: ~£75k since 1 Sept 2025.
-- Status: not registered.
-- **Action immediately:** Lich Fields conversation on timing, effective date, invoice treatment, whether LOR contracts need updating before threshold crossed.
+- Status: **registered effective 30 June 2026**.
+- Registration administration is complete with Fazila at Litchfields. There is no live VAT-registration or missing-letter task.
+- Apply the accountant-approved VAT treatment and compliant invoice template to supplies from the effective date.
+- The exact current rolling-12-month turnover, Cash Accounting Scheme status and next return balance were not restated on 3 August. Verify those from Xero or Litchfields when needed, not from the old threshold estimate.
 
 ## Corporation Tax
 
 - Due ~mid-2027 (first full year, Aug 2026 year-end).
 - Target: 20-25% of revenue ring-fenced from each invoice.
-- Currently: not separated. Depleted by visa/travel costs in March.
-- **Action:** four business buckets in Starling or via Xero, tax, operating cash, owner pay, profit/buffer.
+- Last recorded combined VAT and corporation-tax reserve was £6,441 on 31 July. Harrison did not refresh that balance on 3 August, so it is historical rather than a current shortfall or action.
+- The architectural preference remains separate tax, operating cash, owner pay and profit/buffer buckets. Implementation state should be confirmed from the accounts before presenting it as incomplete.
 
 ## PAYE / Salary
 
-- PAYE activation expected within ~2 weeks of 11 May.
+- Harrison confirmed finance administration is current on 3 August. The old PAYE activation and PAYE/NIC check tasks are superseded.
 - Planned monthly salary: £1,047 (utilises personal allowance).
 - Plus dividends on top.
 
 ## SIPP via Ltd contribution
 
-**Gap.** Not currently set up. The 2026-strategy.md archive flagged this as a Path 4 priority:
+**Planning gap.** Setup state has not been refreshed. The 2026-strategy.md archive flagged this as a Path 4 priority:
 - SIPP contributions from the Ltd are deductible against corporation tax.
 - Limit: up to £60k/yr (subject to total earnings and tapering).
 - Realistic at Harrison's numbers: £40-50k/yr.
 - Sits tax-free in pension wrapper until 55-58.
-- **Decision needed:** confirm with Lich Fields, set up provider (Vanguard, Nutmeg, AJ Bell), define monthly contribution.
+- **Decision needed:** confirm with Litchfields, set up provider (Vanguard, Nutmeg, AJ Bell), define monthly contribution.
 
 ## ISA
 
@@ -48,7 +49,7 @@ This was a gap in the rewrite (`hwlstudio-rewrite/money/index.md` didn't cover S
 - Loss relief.
 - For someone earning Harrison's income with strong AI conviction: worth considering for £5-15k cheques into AI tools he actually uses.
 - **Risk:** capital lock-up, business failure rate.
-- **Action:** raise with Lich Fields or a specialist EIS advisor when the consulting baseline is stable.
+- **Action:** raise with Litchfields or a specialist EIS adviser when the consulting baseline is stable.
 
 ## Retained earnings policy
 
@@ -60,25 +61,24 @@ This was a gap in the rewrite (`hwlstudio-rewrite/money/index.md` didn't cover S
 ## Self Assessment
 
 - Annual filing required for dividends.
-- Lich Fields handles.
+- Litchfields handles.
 
 ## Annual accounts
 
 - Year-end August 2026 (first full year).
-- Lich Fields prepares and files Companies House return.
+- Litchfields prepares and files Companies House return.
 
-## Accountant decision (open)
+## Accountant decision, parked
 
-The 2026-strategy.md archive recommended replacing Lich Fields with a sharper firm specializing in solo founders / creators in Harrison's bracket. The codex carries the verbatim "verify by asking three operators in your bracket who they use." Currently parked.
+The 2026-strategy.md archive recommended replacing Litchfields with a sharper firm specialising in solo founders and creators in Harrison's bracket. The codex carries the verbatim "verify by asking three operators in your bracket who they use." This remains parked and is not a current finance-admin task.
 
-**Decision triggers a switch:** Lich Fields fails to deliver on VAT timing, doesn't surface SIPP / EIS structures, or doesn't engage on Harrison's actual income trajectory.
+**Decision triggers a switch:** Litchfields fails to deliver on ongoing VAT compliance, does not surface SIPP or EIS structures, or does not engage on Harrison's actual income trajectory.
 
-## Lich Fields conversation agenda (priority order)
+## Future Litchfields planning agenda
 
-1. VAT registration timing (most urgent).
-2. Tax buffer rebuilding (depleted by visa).
-3. PAYE activation status.
-4. SIPP via Ltd setup.
-5. Owner draw / director loan classification of mixed business card charges (Golf Warehouse, Airbnb, Te Arai Links, etc.).
-6. Retained earnings strategy.
-7. ISA + EIS / SEIS architecture (longer arc).
+1. Confirm the routine VAT filing cadence and Cash Accounting Scheme status at the next ordinary review.
+2. Refresh the VAT and corporation-tax reserve requirement from reconciled accounts.
+3. Review SIPP via Ltd setup.
+4. Confirm owner draw and director-loan classification of mixed business card charges.
+5. Define retained earnings strategy.
+6. Review ISA and EIS or SEIS architecture as a longer-term decision.

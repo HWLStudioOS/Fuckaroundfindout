@@ -2,6 +2,15 @@
 
 **Status:** scaffold. Populated by `agents/weekly-cfo.md` once wired (target: 2 consecutive Friday refreshes for v1 acceptance).
 
+## Current inflow baseline, 3 August 2026
+
+- About £7,000 is owed across Better at Work and Creepers combined. The split and landing date were not stated.
+- About £7,000 from LOR is expected during August.
+- No other current receivable or unbilled-work obligation was reported.
+- Exact opening cash, card balances, reserve balance and weekly outflows were not refreshed, so a defensible 13-week table cannot yet be calculated.
+
+This baseline supersedes the 31 July generated estimate of £21,000 to £22,000 unbilled. It does not convert expected cash into received cash.
+
 The codex Finance Analysis (file 10) lists "build a 13-week cash view before making product/course or hiring decisions" as a control priority. This file gets it on the system.
 
 ## Why 13 weeks

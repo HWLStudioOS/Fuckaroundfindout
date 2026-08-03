@@ -6,6 +6,12 @@
 
 Active. Sandringham 2026 is the current content centrepiece. Shoot completed 17 July, public show 22-26 July.
 
+## Finance correction, 3 August 2026
+
+- Harrison confirms invoicing and finance administration are current.
+- Creepers forms part of about **£7,000 currently owed across Creepers and Better at Work combined**. Harrison did not state the client split.
+- Historical June notes about a held or unraised retainer are not live finance tasks and must not be resurrected.
+
 ## Active state, 31 July 2026
 
 - **Creepers is not in dispute.** Harrison confirmed the week's scheduled content has been handled, apart from Michael's Sandringham stock update, which is today's open post.
@@ -71,7 +77,7 @@ Next major-event engagement with any client: press-pass / site access named as a
 **Pipeline of ideas (from competitor scan Apr 7)**
 Nobody in horticulture is doing brand-world storytelling. Premium + video space is wide open. RHS, Sarah Price, Dan Pearson, Hortus Loci all have gaps Harrison can fill.
 
-## Money state
+## Historical money state, April to June 2026
 
 - **8 June: value flare-up + reduction request.** Anna flagged a 3-week posting gap (nothing on @creepersnursery since 18 May) and asked for a reduction on the next invoice. Rob disengaging, handing to Anna + Sarah. June £3,500 retainer NOT yet raised, so it is HELD pending a reset Teams call. Reply SENT 8 June (owned comms, held value, planted the two-tier scope point); reset meeting now BOOKED (Harrison confirmed 8 June eve, day TBC in record). The Windsor / Thames Hospice "Garden of Hope" post (designed by Chloe Hamblen, Charlie Mackesy's Amara sculpture) went live 8 June, good-faith momentum on @creepersnursery before the meeting. Do not invoice June until the call. Any reduction is a Council/pricing decision, not a WhatsApp reflex. **Diagnosis (Harrison): comms lapse on HWL side + outdated expectations on Rob's side, he commissioned the premium brand-build but now measures it like a daily-feed contract.** That scope drift is the real issue, and the budget conversation runs UP (premium + a resourced daily feed) not down. Note: tempers the Q3 retainer-raise ambition (£4,500 for the Royal Thread), and Sandringham cancelled the same day.
 - **9 June: reset call (Anna + Sarah; Rob absent, fully delegated). Account saved, direction reset.** Rob has handed the relationship to Anna + Sarah and disengaged. He still holds the "Chanel of horticulture" vision but won't engage day-to-day, so **Anna is now the buyer**. Real driver surfaced: the **SALES TEAM says the Chelsea/brand content "isn't helping us."** The brief is now **HYBRID (brand + sales-supporting), not pure brand-build.** Asks: more BTS, more variety (it has become "Michael's Instagram"), everyday-customer content, not just Chelsea (which may not recur). Two ICPs confirmed distinct: **@creepersnursery = B2B wholesale → garden designers/trade; @creepersinstallation = HNW end-clients** (NDA-constrained, can show detail elements not client homes). **Scope decision (Harrison, 9 June): KEEP current retainer, NO tiered repricing yet.** Retainer now covers a higher cadence (~3x/week target) via ~fortnightly Surrey shoots + ~monthly New Forest + client-supplied stills + sourcing/scheduling/light production. **HARD BOUNDARY: any genuine full-day crewed production falls OUTSIDE scope and is quoted separately, like Chelsea.** New location in play: **Morie Street, Wandsworth** (Creepers' London cash & carry, 1 Morie Street SW18 1SL, Mon-Fri 6am-12pm, verified from creepersnursery.co.uk/london on 11 June; the call notes originally recorded this as "Murray Street, Wonersh", both wrong). Easy local quick-hit from East London, mornings only. Loose end: a possibly-defunct "Creepers Lavishop" IG page may need taking down (check if leftover agency asset). Cadence governance: **fortnightly Harrison + Anna + Sarah meeting** (before 15:30 weekdays). **Deliverable owed Thu 11 / Fri 12 June: written content plan + content pillars per ICP + posting model.** June invoice STILL HELD until that plan is agreed. Commercial note: on the call Harrison held the retainer flat and signalled travel/added cadence absorbed; the full-day-shoot boundary is the protection. Watch for scope creep past that line.

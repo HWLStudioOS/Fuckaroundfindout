@@ -2,21 +2,30 @@
 
 Honest inventory of every scheduled agent. Updated after every wire / unwire / status change. Never reference an agent as live when it isn't.
 
+## Runtime incident, 2 to 3 August 2026
+
+The Claude OAuth session expired before the 2 August learning brief. Learning brief, weekly review, morning brief, content engine, campaign chaser, discovery scan and evening reflection then failed before doing useful work. The old wrappers left the only useful diagnosis in one shared stdout file, and some job-specific evidence was missing.
+
+Claude-backed entry points now use `agents/agent-runtime.sh`. Before any prompt work they call `claude auth status --json`, without opening a login flow. A logged-out session exits 78, records `AUTH_REQUIRED` in `agents/_log.md`, writes the latest result to `.jarvis-runtime/agent-runs/<job>/latest.json`, and points to job-specific logs. Harrison must restore an expired session interactively with `claude auth login`. An unattended workflow must not attempt that login itself.
+
+This hardening does not add, replace or reload any schedule. Existing launchd jobs remain the only production schedules.
+
 ## Status legend
 
 - **DRAFTED**, prompt exists. Not scheduled. Not running.
 - **SCHEDULED**, launchd job exists or cron line set. Hasn't proven 7-day clean.
 - **RUNNING-DEGRADED**, running but with data-source skips or known bugs.
 - **RUNNING-CLEAN**, running, all sources working, output reliable.
+- **AUTH-BLOCKED**, still scheduled, but Claude cannot start until Harrison restores the interactive session.
 - **MIGRATED-TO-APP**, replaced by the TestFlight/iOS app surface (Phase 5).
 
 ## v1 priority queue (per Harrison's "all three in parallel" call)
 
 | Agent | File | Schedule | Status | Acceptance |
 |---|---|---|---|---|
-| morning-brief | `agents/morning-brief.md` + `.sh` | 06:30 weekdays | RUNNING-DEGRADED. The 27 Jul brief repeated stale dashboard, draft, calendar, campaign and training state. The verifier corrected only two claims and still sent a materially wrong brief. Live-dashboard, Gmail-draft, canonical-training and diagnose-first rules added 27 Jul. | Acceptance reset to 0/14 clean weekdays on 27 Jul. |
-| weekly-review | `agents/weekly-review.md` | Sun 18:00 | RUNNING-DEGRADED. The 26 Jul review fed the 27 Jul stale state: non-existent drafts, the closed new-client target and Bled mileage all survived. Live-dashboard, Edge Lab, Gmail-draft, canonical-training and diagnose-first rules added 27 Jul. | Acceptance reset to 0/2 on-schedule accurate Sundays. Next proof runs are 2 and 9 Aug. |
-| weekly-cfo | `agents/weekly-cfo.md` | Fri 16:00 | RUNNING-DEGRADED (Xero still unreachable, manual snapshot used). Sixth run 24 July, same pattern, snapshot completed and flagged Starling's growing 26-day unconfirmed gap clearly. | 6/6 runs on the degraded-but-acceptable pattern (5 Jun, 12 Jun, 26 Jun, 3 Jul, 17 Jul, 24 Jul). ACCEPTANCE HIT (2/2 achieved 12 June). Now on extended run, no gaps. |
+| morning-brief | `agents/morning-brief.md` + `.sh` | 06:30 weekdays | AUTH-BLOCKED since 3 Aug. Before that, RUNNING-DEGRADED after the 27 Jul stale-state incident. | Acceptance remains 0/14. A clean run can begin only after login is restored. |
+| weekly-review | `agents/weekly-review.md` | Sun 18:00 | AUTH-BLOCKED. The 2 Aug run failed authentication before review work began. | Acceptance remains 0/2. The 2 Aug run is failed, not a clean proof. |
+| weekly-cfo | `agents/weekly-cfo.md` | Fri 16:00 | AUTH-BLOCKED for its next run. The 31 Jul manual-snapshot run completed before the session expired. Xero remains unreachable. | Prior degraded acceptance remains historical. Current unattended acceptance is paused until login is restored. |
 
 **v1 ships when all three hit acceptance simultaneously.**
 
@@ -26,10 +35,11 @@ Honest inventory of every scheduled agent. Updated after every wire / unwire / s
 
 | Agent | File | Schedule | Status | Notes |
 |---|---|---|---|---|
-| learning-brief | `agents/learning-brief.md` | Sun 09:00 | RUNNING-CLEAN. Ran 14 Jun (msg_id=449) and 28 Jun (msg_id=487). 5 items, 4 drills each run, Telegram push confirmed. | 2/2 recent runs clean. Not formally in v1 acceptance scope. |
-| discovery-scan | `agents/discovery-scan.md` | Mon/Wed/Fri 14:00 | RUNNING-CLEAN. Consistent Mon/Wed/Fri runs since 12 June. 4-5 items per run, appending to capture/inbox.md. | Multiple consecutive clean runs. Inbox is filling; drain is the open issue, not the agent. |
-| campaign-chaser | `agents/campaign-chaser.md` | Mon/Wed/Fri 10:00 | RUNNING-DEGRADED. On 27 Jul it found Helen's genuine opportunity but still called the campaign overdue, created an unwanted Gmail draft and pushed another stale Telegram prompt. Campaign win and draft-authority rules corrected the same day. | 0 clean runs since the 27 Jul correction. Pause if the next three runs repeat the failure. |
-| evening-reflection | `agents/evening-reflection.md` | Weekdays 19:00 | DRAFTED, deferred | Waits until daily check-in store exists (Phase 2 of MVP roadmap) |
+| content-engine | `agents/content-engine.md` + `.sh` | Mon 07:00 | AUTH-BLOCKED. The 3 Aug run failed before content work began. | Publishing evidence remains unchanged by the failed run. |
+| learning-brief | `agents/learning-brief.md` | Sun 09:00 | AUTH-BLOCKED. The 2 Aug run failed before brief work began. | Earlier clean runs remain historical. |
+| discovery-scan | `agents/discovery-scan.md` | Mon/Wed/Fri 14:07 | AUTH-BLOCKED. The 3 Aug run failed before discovery work began. | Earlier consecutive clean runs remain historical. |
+| campaign-chaser | `agents/campaign-chaser.md` | Mon/Wed/Fri 10:07 | AUTH-BLOCKED. The 3 Aug run failed before campaign work began. | The content-quality acceptance count remains at zero. |
+| evening-reflection | `agents/evening-reflection.md` | Weekdays 19:07 | AUTH-BLOCKED. Contrary to the older table, this job is installed and was running before its 3 Aug auth failure. | Not in v1 acceptance scope. |
 
 ## Infrastructure jobs (not agents, but scheduled)
 
@@ -78,10 +88,14 @@ Any agent that's RUNNING-DEGRADED for 3 consecutive runs without a fix attempt g
 
 ## Where the logs live
 
-- Run log: `agents/_log.md` (append-only, one line per run).
-- stdout: `agents/_stdout.log`.
-- stderr: `agents/_stderr.log`.
+- Run log: `agents/_log.md` (append-only, one truthful wrapper result per run, plus agent-written detail where applicable).
+- Per-job stdout: `agents/logs/<job>.stdout.log`.
+- Per-job stderr: `agents/logs/<job>.stderr.log`.
+- Latest machine-readable result: `.jarvis-runtime/agent-runs/<job>/latest.json`.
+- Historical compatibility streams: `agents/_stdout.log` and `agents/_stderr.log`.
 - Evening reflections (when wired): `agents/_evening-log.md`.
+
+Exit 78 means Claude authentication needs Harrison. Other non-zero exits retain the underlying CLI or wrapper failure code. A zero exit means the wrapper reached its explicit success condition. For morning brief that includes the verifier send sentinel, not merely completion of the draft stage.
 
 ## Update rhythm for this file
 

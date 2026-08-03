@@ -14,23 +14,41 @@
 # Fallback: if Stage 2 produces no send sentinel (it crashed before sending), this script sends
 #           a deterministic failure notice. It never ships claims the verifier did not check.
 
-set -e
+set -Eeuo pipefail
 
-HWL_META_DIR="/Users/harrison/HWL META"
+HWL_META_DIR="${HWL_META_DIR:-/Users/harrison/HWL META}"
 BRIEF_PROMPT="$HWL_META_DIR/agents/morning-brief.md"
 VERIFY_PROMPT="$HWL_META_DIR/agents/morning-brief-verify.md"
 LOG_FILE="$HWL_META_DIR/agents/_log.md"
-STDOUT_LOG="$HWL_META_DIR/agents/_stdout.log"
-STDERR_LOG="$HWL_META_DIR/agents/_stderr.log"
 TODAY_FILE="$HWL_META_DIR/today.md"
 CANDIDATE="$HWL_META_DIR/agents/_brief-candidate.txt"
 SENT_SENTINEL="$HWL_META_DIR/agents/_brief-sent.json"
 CONFIG="$HWL_META_DIR/.config/telegram.config.json"
+RUNTIME_FILE="$HWL_META_DIR/agents/agent-runtime.sh"
+
+if [ ! -f "$RUNTIME_FILE" ]; then
+  echo "Agent runtime not found: $RUNTIME_FILE" >&2
+  exit 69
+fi
+
+# shellcheck source=agents/agent-runtime.sh
+source "$RUNTIME_FILE"
+hwl_runtime_init "morning-brief" "$HWL_META_DIR"
+
+if [ ! -f "$BRIEF_PROMPT" ] || [ ! -f "$VERIFY_PROMPT" ]; then
+  hwl_runtime_set_result "configuration_error" "morning brief or verifier prompt is missing"
+  hwl_runtime_note "CONFIGURATION_ERROR" "$HWL_RUN_DETAIL"
+  exit 66
+fi
 
 # Ensure PATH includes Homebrew + Claude
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/Users/harrison/.local/bin:$PATH"
 
 cd "$HWL_META_DIR"
+
+# Check authentication before clearing handoff files or waiting for the network.
+# An expired session needs Harrison's interactive login, not an unattended retry.
+hwl_claude_auth_preflight
 
 # Clear last run's handoff files so a stale candidate/sentinel can't be mistaken for this run's.
 rm -f "$CANDIDATE" "$SENT_SENTINEL"
@@ -53,15 +71,7 @@ NOW=$(date '+%A %d %B %Y at %H:%M %Z')
 # Run a prompt through Claude in print mode (Sonnet 5 for daemon work, upgraded 1 Jul 2026).
 # $1 = stage label for the stdout log header, $2 = full prompt text.
 run_stage () {
-  {
-    echo ""
-    echo "=== morning-brief $1 at $(date) ==="
-    echo "$2" | claude \
-      --model claude-sonnet-5 \
-      --print \
-      --permission-mode bypassPermissions \
-      --add-dir "$HWL_META_DIR"
-  } >> "$STDOUT_LOG" 2>> "$STDERR_LOG"
+  hwl_run_claude "$1" "$2"
 }
 
 # Strip any em dashes that slipped through (safety net, LLM-side rewrite is cleaner).
@@ -95,7 +105,8 @@ Use the Read, Write, Edit, and Bash tools as needed.
 
 $(cat "$VERIFY_PROMPT")"
 
-run_stage "stage 2 verify+send" "$VERIFY_PROMPT_TEXT"
+VERIFY_EXIT=0
+run_stage "stage 2 verify+send" "$VERIFY_PROMPT_TEXT" || VERIFY_EXIT=$?
 strip_emdash "$TODAY_FILE"
 strip_emdash "$CANDIDATE"
 
@@ -108,14 +119,28 @@ if [ ! -f "$SENT_SENTINEL" ]; then
   CHAT_ID=$(/usr/bin/jq -r '.telegram.chatId' "$CONFIG" 2>/dev/null || true)
   if [ -n "$TOKEN" ] && [ "$TOKEN" != "null" ] && [ -n "$CHAT_ID" ] && [ "$CHAT_ID" != "null" ]; then
     BODY="Morning brief withheld: the verifier did not complete, so no unchecked claims were sent. Check the Mini logs and rerun the brief when the failure is resolved."
-    curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+    if curl --fail --show-error --silent --max-time 20 -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
       -d "chat_id=${CHAT_ID}" \
-      --data-urlencode "text=${BODY}" >> "$STDOUT_LOG" 2>> "$STDERR_LOG"
-    echo "$(date '+%Y-%m-%dT%H:%M:%S%z') | morning-brief | WITHHELD unchecked brief, verifier stage produced no sentinel; failure notice sent" >> "$LOG_FILE"
+      --data-urlencode "text=${BODY}" >> "$HWL_JOB_STDOUT_LOG" 2>> "$HWL_JOB_STDERR_LOG"; then
+      echo "$(date '+%Y-%m-%dT%H:%M:%S%z') | morning-brief | WITHHELD unchecked brief, verifier stage produced no sentinel; failure notice sent" >> "$LOG_FILE"
+    else
+      echo "$(date '+%Y-%m-%dT%H:%M:%S%z') | morning-brief | FAIL, unchecked brief withheld; verifier produced no sentinel and failure notice send failed" >> "$LOG_FILE"
+    fi
   else
     echo "$(date '+%Y-%m-%dT%H:%M:%S%z') | morning-brief | FAIL, unchecked brief withheld; no sentinel and telegram config unreadable, no failure notice sent" >> "$LOG_FILE"
   fi
+  if [ "$VERIFY_EXIT" -ne 0 ]; then
+    exit "$VERIFY_EXIT"
+  fi
+  hwl_runtime_set_result "verification_failed" "unchecked brief withheld because the verifier produced no send sentinel"
+  exit 1
 fi
 
-# Exit cleanly
+# A verifier process failure remains a failed run even if it wrote a sentinel first.
+if [ "$VERIFY_EXIT" -ne 0 ]; then
+  exit "$VERIFY_EXIT"
+fi
+
+# A zero exit means the verifier completed and produced the send receipt.
+hwl_runtime_set_result "succeeded" "draft verified and send sentinel recorded"
 exit 0

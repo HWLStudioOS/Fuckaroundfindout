@@ -29,6 +29,16 @@ chmod +x "/Users/harrison/HWL META/agents/"*.sh
   '(.telegram.botToken | type == "string" and length > 0) and (.telegram.chatId != null)' \
   "/Users/harrison/HWL META/.config/telegram.config.json" >/dev/null \
   && echo "Telegram config present"
+
+# 6. Rebuild the pinned health environment and verify it is consistent
+python3.14 -m venv "/Users/harrison/HWL META/.venv-health"
+"/Users/harrison/HWL META/.venv-health/bin/python" -m pip install \
+  --requirement "/Users/harrison/HWL META/agents/health-requirements.txt"
+"/Users/harrison/HWL META/.venv-health/bin/python" -m pip check
+
+# 7. Confirm the blocking nightly secret scanner is installed
+command -v gitleaks >/dev/null || brew install gitleaks
+gitleaks version
 ```
 
 If any of the above fails, stop. Fix the breakage before continuing.

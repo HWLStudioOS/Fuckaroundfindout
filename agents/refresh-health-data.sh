@@ -77,4 +77,4 @@ PY
 
 echo ""
 echo "Done. CSVs at $OUT"
-ls -la "$OUT" | head -10
+find "$OUT" -maxdepth 1 -mindepth 1 -print | sed -n '1,10p'

@@ -14,6 +14,12 @@ RUNTIME = ROOT / "agents" / "agent-runtime.sh"
 
 
 class AgentRuntimeTests(unittest.TestCase):
+    def test_scheduled_runtime_never_bypasses_claude_permissions(self):
+        source = RUNTIME.read_text(encoding="utf-8")
+
+        self.assertIn("--permission-mode auto", source)
+        self.assertNotIn("--permission-mode bypassPermissions", source)
+
     def _fake_claude(self, directory, auth_json, auth_exit, prompt_output, prompt_exit):
         command = Path(directory) / "claude"
         command.write_text(

@@ -47,6 +47,20 @@ def is_authorized_private_message(message: Mapping, allowed_ids: Iterable[object
     return chat_id in allowed and sender_id in allowed
 
 
+def is_forwarded_message(message: Mapping) -> bool:
+    """Recognise current and legacy Telegram forward metadata."""
+    return any(
+        message.get(field) is not None
+        for field in (
+            "forward_origin",
+            "forward_from",
+            "forward_from_chat",
+            "forward_sender_name",
+            "forward_date",
+        )
+    )
+
+
 class TelegramTaskQueue:
     """Small SQLite queue with conservative crash recovery semantics."""
 

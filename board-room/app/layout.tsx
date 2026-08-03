@@ -22,6 +22,13 @@ export const metadata: Metadata = {
   metadataBase,
   title: "The Board Room",
   description: "Harrison's ranked view of every open loop.",
+  robots: {
+    index: false,
+    follow: false,
+    noarchive: true,
+    nosnippet: true,
+    noimageindex: true,
+  },
   openGraph: {
     title: "The Board Room",
     description: "One ranked room for every open loop.",

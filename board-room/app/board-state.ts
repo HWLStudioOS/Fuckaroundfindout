@@ -1,4 +1,4 @@
-import type { BoardData, BoardEvent, BoardTask } from "./types";
+import type { BoardData, BoardEvent, BoardTask } from "./types.ts";
 
 const ACTIVE_STATES = new Set(["todo", "in-progress"]);
 const EDITABLE_STATES = new Set(["todo", "in-progress", "done"]);

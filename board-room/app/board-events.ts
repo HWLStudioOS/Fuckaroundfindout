@@ -1,5 +1,5 @@
 import { get, list, put } from "@vercel/blob";
-import type { BoardEvent } from "./types";
+import type { BoardEvent } from "./types.ts";
 
 const EVENT_PREFIX = "board-room-events/";
 

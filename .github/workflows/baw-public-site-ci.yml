@@ -1,0 +1,61 @@
+name: Better at Work Public Site CI
+
+on:
+  push:
+    paths:
+      - ".github/workflows/baw-public-site-ci.yml"
+      - "business/clients/baw/site/**"
+  pull_request:
+    paths:
+      - ".github/workflows/baw-public-site-ci.yml"
+      - "business/clients/baw/site/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: baw-public-site-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Audit, verify, typecheck and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      NEXT_TELEMETRY_DISABLED: "1"
+    defaults:
+      run:
+        working-directory: business/clients/baw/site
+    steps:
+      - name: Check out public-site sources
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /business/clients/baw/site/
+
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: business/clients/baw/site/package-lock.json
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Audit dependencies
+        run: npm audit --audit-level=moderate
+
+      - name: Verify canonical content
+        run: npm run verify:content
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Build
+        run: npm run build

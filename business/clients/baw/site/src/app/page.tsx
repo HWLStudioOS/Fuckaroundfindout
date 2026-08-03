@@ -6,13 +6,20 @@ import {
   Mic2,
   Quote,
 } from "lucide-react";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { EpisodeCard } from "@/components/EpisodeCard";
 import { NewsletterForm } from "@/components/NewsletterForm";
+import { LiveMark } from "@/components/Logo";
 import { PlayButton } from "@/components/AudioPlayer";
 import { ProblemFinder } from "@/components/ProblemFinder";
 import { episodes, topics } from "@/lib/content";
+import { absoluteUrl } from "@/lib/site";
+
+export const metadata: Metadata = {
+  alternates: { canonical: absoluteUrl("/") },
+};
 
 const latest = episodes[0];
 
@@ -40,7 +47,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="hero__proof">
-              <span>81 conversations</span>
+              <span>{episodes.length} conversations</span>
               <span>New season in September</span>
               <span>AU · UK · US</span>
             </div>
@@ -74,8 +81,8 @@ export default function Home() {
         <div className="shell">
           <div className="section-heading section-heading--split">
             <div>
-              <span className="eyebrow">Latest episode</span>
-              <h2>Four ideas survived the season.</h2>
+              <span className="eyebrow">New in the feed</span>
+              <h2>The latest useful idea.</h2>
             </div>
             <Link className="text-link" href="/episodes">
               Browse all episodes <ArrowRight aria-hidden="true" />
@@ -83,23 +90,33 @@ export default function Home() {
           </div>
           <article className="latest-stage">
             <div className="latest-stage__art">
-              <span className="latest-stage__season">S4</span>
-              <span className="latest-stage__word latest-stage__word--one">Better</span>
-              <span className="latest-stage__word latest-stage__word--two">ideas</span>
-              <span className="latest-stage__word latest-stage__word--three">kept.</span>
-              <div className="latest-stage__stamp">Finale · 36 min</div>
+              <span className="latest-stage__season">{latest.number}</span>
+              <div className="latest-stage__live">
+                <LiveMark inverse />
+              </div>
+              <div className="latest-stage__stamp">
+                {latest.series} · {latest.duration}
+              </div>
             </div>
             <div className="latest-stage__content">
-              <span className="note-label">Recorded together in London</span>
+              <span className="note-label">{latest.date}</span>
               <h3>{latest.title}</h3>
-              <p>{latest.summary}</p>
-              <ul className="tick-list">
-                {latest.takeaways.map((takeaway) => (
-                  <li key={takeaway}>
-                    <Check aria-hidden="true" /> {takeaway}
-                  </li>
-                ))}
-              </ul>
+              <p>{latest.excerpt}</p>
+              {latest.takeaways.length ? (
+                <ul className="tick-list">
+                  {latest.takeaways.map((takeaway) => (
+                    <li key={takeaway}>
+                      <Check aria-hidden="true" /> {takeaway}
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <div className="latest-stage__topics">
+                  {latest.topics.map((topic) => (
+                    <span key={topic}>{topic}</span>
+                  ))}
+                </div>
+              )}
               <div className="latest-stage__actions">
                 <PlayButton episode={latest} />
                 <Link className="text-link" href={`/episodes/${latest.slug}`}>
@@ -134,7 +151,7 @@ export default function Home() {
               <Link
                 className="topic-card"
                 data-accent={topic.accent}
-                href={topic.slug === "leadership" ? "/topics/leadership" : "/#find"}
+                href={`/topics/${topic.slug}`}
                 key={topic.slug}
               >
                 <span className="topic-card__number">0{index + 1}</span>
@@ -158,6 +175,7 @@ export default function Home() {
               alt="Cathal and Annette smiling"
               width={400}
               height={600}
+              loading="eager"
             />
             <div className="duo-section__quote">
               <Quote aria-hidden="true" />

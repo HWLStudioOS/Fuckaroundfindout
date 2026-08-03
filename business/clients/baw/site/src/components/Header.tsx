@@ -20,6 +20,15 @@ export function Header() {
 
   useEffect(() => setOpen(false), [pathname]);
 
+  useEffect(() => {
+    if (!open) return;
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setOpen(false);
+    };
+    window.addEventListener("keydown", closeOnEscape);
+    return () => window.removeEventListener("keydown", closeOnEscape);
+  }, [open]);
+
   return (
     <header className="site-header">
       <div className="shell site-header__inner">
@@ -40,7 +49,17 @@ export function Header() {
           aria-label="Primary navigation"
         >
           {links.map((link) => (
-            <Link key={link.href} href={link.href}>
+            <Link
+              key={link.href}
+              href={link.href}
+              aria-current={
+                link.href.startsWith("/#")
+                  ? undefined
+                  : pathname === link.href || pathname.startsWith(`${link.href}/`)
+                    ? "page"
+                    : undefined
+              }
+            >
               {link.label}
             </Link>
           ))}

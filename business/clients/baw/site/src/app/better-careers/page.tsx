@@ -1,11 +1,19 @@
 import type { Metadata } from "next";
 import { ArrowRight, Check, Download, Quote, Sparkles } from "lucide-react";
 import Image from "next/image";
+import { absoluteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Better Careers",
   description:
     "A practical six-step process for experienced professionals deciding what comes next.",
+  alternates: { canonical: absoluteUrl("/better-careers") },
+  openGraph: {
+    title: "Better Careers",
+    description:
+      "A practical six-step process for experienced professionals deciding what comes next.",
+    url: absoluteUrl("/better-careers"),
+  },
 };
 
 const steps = ["Reflect", "Plan", "Network", "Apply", "Interview", "Thrive"];
@@ -24,14 +32,14 @@ export default function CareersPage() {
             </p>
             <div className="careers-hero__price">
               <strong>£20</strong>
-              <span>One payment · Instant digital access</span>
+              <span>Planned one-off price · Checkout is not connected</span>
             </div>
-            <button className="button button--yellow" type="button">
-              Get Better Careers <ArrowRight aria-hidden="true" />
+            <button className="button button--yellow" type="button" disabled>
+              Checkout not live <ArrowRight aria-hidden="true" />
             </button>
             <small className="prototype-note">
-              <Sparkles aria-hidden="true" /> Prototype checkout. Stripe is connected after
-              approval.
+              <Sparkles aria-hidden="true" /> This draft cannot take payment. Nothing will
+              be charged.
             </small>
           </div>
           <div className="careers-hero__product">
@@ -90,7 +98,7 @@ export default function CareersPage() {
               <Check aria-hidden="true" /> Downloadable, reusable worksheets
             </li>
             <li>
-              <Download aria-hidden="true" /> Immediate digital access
+              <Download aria-hidden="true" /> Digital access when checkout is live
             </li>
           </ul>
         </div>
@@ -109,8 +117,8 @@ export default function CareersPage() {
           <div>
             <strong>Ready when you are.</strong>
             <p>One payment. No membership. Keep the guide and return whenever work shifts.</p>
-            <button className="button button--ink" type="button">
-              Get Better Careers for £20 <ArrowRight aria-hidden="true" />
+            <button className="button button--ink" type="button" disabled>
+              Checkout coming soon <ArrowRight aria-hidden="true" />
             </button>
           </div>
         </div>

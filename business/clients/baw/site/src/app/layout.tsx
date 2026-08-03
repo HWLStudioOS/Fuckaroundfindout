@@ -3,6 +3,14 @@ import { IBM_Plex_Mono, Manrope, Newsreader } from "next/font/google";
 import { AudioProvider } from "@/components/AudioPlayer";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { ACAST_FEED_URL } from "@/lib/content";
+import {
+  absoluteUrl,
+  isIndexable,
+  siteDescription,
+  siteName,
+  siteUrl,
+} from "@/lib/site";
 import "./globals.css";
 
 const manrope = Manrope({
@@ -14,6 +22,7 @@ const manrope = Manrope({
 const newsreader = Newsreader({
   subsets: ["latin"],
   variable: "--font-serif",
+  style: ["normal", "italic"],
   display: "swap",
 });
 
@@ -25,17 +34,40 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://better-at-work-frontier.vercel.app"),
+  metadataBase: siteUrl,
   title: {
-    default: "Better@Work | Useful ideas for working better",
-    template: "%s | Better@Work",
+    default: "Better at Work | Conversations for the work ahead",
+    template: "%s | Better at Work",
   },
-  description:
-    "Honest conversations and useful ideas for better careers, teams and leadership, with Cathal Quinlan and Annette Sloan.",
+  description: siteDescription,
+  applicationName: siteName,
+  authors: [{ name: "Cathal Quinlan" }, { name: "Annette Sloan" }],
+  category: "Business",
+  referrer: "origin-when-cross-origin",
+  robots: isIndexable
+    ? { index: true, follow: true }
+    : { index: false, follow: false, noarchive: true, nocache: true },
   openGraph: {
-    title: "Better@Work",
-    description: "Honest conversations. Useful ways to work better.",
+    title: "Better at Work",
+    description: siteDescription,
     type: "website",
+    locale: "en_GB",
+    siteName,
+    url: absoluteUrl("/"),
+    images: [
+      {
+        url: absoluteUrl("/og.png"),
+        width: 1200,
+        height: 630,
+        alt: "Better at Work. Conversations for the work ahead.",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Better at Work",
+    description: siteDescription,
+    images: [absoluteUrl("/og.png")],
   },
 };
 
@@ -43,15 +75,14 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   const podcastSchema = {
     "@context": "https://schema.org",
     "@type": "PodcastSeries",
-    name: "Better@Work",
-    url: "https://better-at-work-frontier.vercel.app",
-    description:
-      "Honest conversations and useful ideas for better careers, teams and leadership.",
+    name: siteName,
+    url: absoluteUrl("/"),
+    description: siteDescription,
     author: [
       { "@type": "Person", name: "Cathal Quinlan" },
       { "@type": "Person", name: "Annette Sloan" },
     ],
-    webFeed: "https://feeds.acast.com/public/shows/69d60ca52a193257adc683b0",
+    webFeed: ACAST_FEED_URL,
   };
 
   return (
@@ -68,7 +99,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             Skip to content
           </a>
           <Header />
-          <main id="main-content">{children}</main>
+          <main id="main-content" tabIndex={-1}>{children}</main>
           <Footer />
         </AudioProvider>
       </body>

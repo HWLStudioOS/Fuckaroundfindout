@@ -1,20 +1,24 @@
-# Better@Work frontier prototype
+# Better at Work public-site draft
 
-A clean-room Next.js redesign for Better@Work. This is a conviction prototype for the Season 5 client conversation, not a migration of the current WordPress build.
+A clean-room Next.js redesign for Better at Work. This is the Season 5 public-site draft, not yet a replacement for the current WordPress build.
 
 ## What is working
 
-- Responsive homepage with a new editorial design system
+- Responsive homepage using the locked Season 5 masthead, live mark and seal
 - Persistent Acast-backed audio player
-- Structured episode archive and eight complete episode routes
+- Normalised snapshot of all 84 episodes in the canonical public Acast RSS feed
+- Static episode routes for the full archive
+- Working archive topic filters and four real topic collections
+- Timestamp links that start the persistent player at the selected moment
 - Work Problem Finder with grounded, deterministic archive retrieval
 - Better Leadership Season 5 landing page
 - Better Careers conversion page
-- About page, newsletter and lead-form prototype states
-- PodcastSeries and PodcastEpisode structured data
-- Sitemap, robots and social metadata
+- About page and truthful unavailable states for services that need credentials
+- One production transcript and one finished Sum Up connected where source files exist
+- Environment-aware canonicals, PodcastSeries and PodcastEpisode structured data
+- Sitemap, robots, generated seal icon and a dedicated social preview
 
-The prototype forms do not store or send data. Stripe, Kit, Sanity and analytics are intentionally not connected until the direction is approved.
+The draft does not store form data, accept payment or pretend to complete those actions. Stripe, Kit, a CMS and analytics remain intentionally disconnected.
 
 ## Local use
 
@@ -26,6 +30,7 @@ npm run dev
 Production checks:
 
 ```bash
+npm run verify:content
 npm run typecheck
 npm run build
 npm audit --audit-level=moderate
@@ -33,13 +38,20 @@ npm audit --audit-level=moderate
 
 ## Content model
 
-Episode data currently lives in `src/lib/content.ts`. The production build should move the same shape into Sanity and ingest canonical episode metadata from the public Acast RSS feed.
+The canonical feed snapshot lives in `src/data/acast-episodes.json`. Rich editorial overrides and deterministic topic classification live in `src/lib/content.ts`.
+
+Refresh the public archive with:
+
+```bash
+npm run sync:acast
+```
+
+Set `NEXT_PUBLIC_SITE_URL` to the final public origin before production. Vercel preview builds fall back to their own deployment URL. Local builds use `http://localhost:3000`.
 
 ## Production path
 
-1. Approve the brand and information architecture.
-2. Audit and migrate the full episode archive.
-3. Connect Sanity, Stripe, Kit and first-party analytics.
-4. Replace prototype actions with live checkout, forms, transcripts and downloads.
-5. Validate redirects from the current WordPress URL set.
-6. Launch on the existing domain, with WordPress retained only as a rollback during DNS cutover.
+1. Confirm the final domain and production service owners.
+2. Connect Kit, checkout, contact routing and first-party analytics.
+3. Decide whether the checked-in archive remains sufficient or needs a CMS workflow.
+4. Validate redirects from the current WordPress URL set.
+5. Launch on the existing domain, with WordPress retained as rollback during DNS cutover.

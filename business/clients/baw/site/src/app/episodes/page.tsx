@@ -1,14 +1,21 @@
 import type { Metadata } from "next";
-import { ArrowRight, SlidersHorizontal } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Link from "next/link";
-import { EpisodeCard } from "@/components/EpisodeCard";
+import { EpisodeArchive } from "@/components/EpisodeArchive";
 import { ProblemFinder } from "@/components/ProblemFinder";
-import { episodes } from "@/lib/content";
+import { episodes, topics } from "@/lib/content";
+import { absoluteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Episodes",
   description:
     "Browse Better@Work conversations about leadership, careers, teams, strategy and sustainable performance.",
+  alternates: { canonical: absoluteUrl("/episodes") },
+  openGraph: {
+    title: "Better at Work episode archive",
+    description: "Browse every conversation in the public Better at Work Acast archive.",
+    url: absoluteUrl("/episodes"),
+  },
 };
 
 export default function EpisodesPage() {
@@ -17,7 +24,7 @@ export default function EpisodesPage() {
       <section className="page-hero page-hero--episodes">
         <div className="shell page-hero__grid">
           <div>
-            <span className="note-label">81 conversations and counting</span>
+            <span className="note-label">{episodes.length} conversations and counting</span>
             <h1>Find the idea you need now.</h1>
           </div>
           <div>
@@ -40,18 +47,12 @@ export default function EpisodesPage() {
         <div className="shell">
           <div className="archive-toolbar">
             <div>
-              <span className="eyebrow">Season 4</span>
-              <h2>Latest conversations</h2>
+              <span className="eyebrow">Canonical Acast archive</span>
+              <h2>Every public conversation</h2>
             </div>
-            <button type="button" aria-label="Filter episodes">
-              <SlidersHorizontal aria-hidden="true" /> Filter by topic
-            </button>
+            <p>Choose a topic or browse newest to oldest.</p>
           </div>
-          <div className="episode-grid episode-grid--archive">
-            {episodes.map((episode) => (
-              <EpisodeCard episode={episode} key={episode.slug} />
-            ))}
-          </div>
+          <EpisodeArchive episodes={episodes} topics={topics} />
         </div>
       </section>
     </>

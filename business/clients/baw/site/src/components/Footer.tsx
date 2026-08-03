@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Logo } from "./Logo";
+import { BrandSeal, Logo } from "./Logo";
 
 export function Footer() {
   return (
@@ -8,6 +8,7 @@ export function Footer() {
         <div>
           <Logo inverse />
           <p>Honest conversations. Useful ways to work better.</p>
+          <BrandSeal inverse />
         </div>
         <div>
           <span className="eyebrow">Explore</span>
@@ -28,7 +29,7 @@ export function Footer() {
       </div>
       <div className="shell site-footer__bottom">
         <span>© 2026 Better@Work</span>
-        <span>Private HWL prototype · No forms are live</span>
+        <span>Draft site · Forms and checkout are not yet live</span>
       </div>
     </footer>
   );

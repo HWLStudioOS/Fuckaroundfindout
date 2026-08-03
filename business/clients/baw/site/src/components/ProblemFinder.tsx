@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, Check, Search, Sparkles } from "lucide-react";
+import { ArrowRight, Check, Copy, Search, Sparkles } from "lucide-react";
 import Link from "next/link";
 import { type FormEvent, useMemo, useState } from "react";
 import { episodes, type Episode } from "@/lib/content";
@@ -65,8 +65,7 @@ const scoreEpisode = (episode: Episode, query: string) => {
 export function ProblemFinder({ compact = false }: { compact?: boolean }) {
   const [query, setQuery] = useState("");
   const [searched, setSearched] = useState(false);
-  const [emailOpen, setEmailOpen] = useState(false);
-  const [sent, setSent] = useState(false);
+  const [copyState, setCopyState] = useState<"idle" | "copied" | "unavailable">("idle");
 
   const results = useMemo(() => {
     if (!query.trim()) return [];
@@ -79,7 +78,26 @@ export function ProblemFinder({ compact = false }: { compact?: boolean }) {
 
   const search = (event?: FormEvent) => {
     event?.preventDefault();
-    if (query.trim()) setSearched(true);
+    if (query.trim()) {
+      setSearched(true);
+      setCopyState("idle");
+    }
+  };
+
+  const copyPlaylist = async () => {
+    const playlist = results
+      .map(
+        ({ episode }, index) =>
+          `${index + 1}. ${episode.shortTitle}\n${window.location.origin}/episodes/${episode.slug}`,
+      )
+      .join("\n\n");
+
+    try {
+      await navigator.clipboard.writeText(playlist);
+      setCopyState("copied");
+    } catch {
+      setCopyState("unavailable");
+    }
   };
 
   return (
@@ -133,8 +151,9 @@ export function ProblemFinder({ compact = false }: { compact?: boolean }) {
               </h3>
             </div>
             {results.length ? (
-              <button className="text-button" type="button" onClick={() => setEmailOpen(true)}>
-                Email this playlist <ArrowRight aria-hidden="true" />
+              <button className="text-button" type="button" onClick={copyPlaylist}>
+                <Copy aria-hidden="true" />
+                {copyState === "copied" ? "Playlist links copied" : "Copy playlist links"}
               </button>
             ) : null}
           </div>
@@ -150,7 +169,7 @@ export function ProblemFinder({ compact = false }: { compact?: boolean }) {
                     <h4>
                       <Link href={`/episodes/${episode.slug}`}>{episode.shortTitle}</Link>
                     </h4>
-                    <p>{episode.takeaways[0]}</p>
+                    <p>{episode.takeaways[0] ?? episode.excerpt}</p>
                     <div className="finder-result__source">
                       <Check aria-hidden="true" /> Source attached · {episode.guest}
                     </div>
@@ -165,34 +184,13 @@ export function ProblemFinder({ compact = false }: { compact?: boolean }) {
               the work cannot stop” or “our strategy has too many priorities”.
             </p>
           )}
-        </div>
-      ) : null}
-      {emailOpen ? (
-        <form
-          className="finder-email"
-          onSubmit={(event) => {
-            event.preventDefault();
-            setSent(true);
-          }}
-        >
-          {sent ? (
-            <p>
-              <Check aria-hidden="true" /> Playlist ready. In production, this hands off to
-              Kit with your chosen topic only.
+          {copyState === "unavailable" ? (
+            <p className="finder-copy-status" role="status">
+              Clipboard access is unavailable in this browser. Open each episode and copy
+              its address instead.
             </p>
-          ) : (
-            <>
-              <label htmlFor="finder-email">Send this listening list to</label>
-              <div>
-                <input id="finder-email" type="email" placeholder="you@example.com" required />
-                <button className="button button--ink" type="submit">
-                  Send playlist
-                </button>
-              </div>
-              <small>Prototype only. No address is stored or sent.</small>
-            </>
-          )}
-        </form>
+          ) : null}
+        </div>
       ) : null}
     </div>
   );

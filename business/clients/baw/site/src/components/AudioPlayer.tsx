@@ -25,6 +25,7 @@ type AudioContextValue = {
   current: Episode | null;
   isPlaying: boolean;
   playEpisode: (episode: Episode) => void;
+  seekToEpisode: (episode: Episode, seconds: number) => void;
   toggle: () => void;
 };
 
@@ -39,6 +40,7 @@ const formatTime = (seconds: number) => {
 
 export function AudioProvider({ children }: { children: ReactNode }) {
   const audioRef = useRef<HTMLAudioElement>(null);
+  const pendingSeekRef = useRef<{ slug: string; seconds: number } | null>(null);
   const [current, setCurrent] = useState<Episode | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
@@ -67,10 +69,20 @@ export function AudioProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     if (!current || !audioRef.current) return;
-    audioRef.current.src = current.audioUrl;
+    const audio = audioRef.current;
+    audio.src = current.audioUrl;
+    const pendingSeek = pendingSeekRef.current;
     const saved = window.localStorage.getItem(`baw-progress:${current.slug}`);
-    if (saved) audioRef.current.currentTime = Number(saved) || 0;
-    void audioRef.current.play().catch(() => setIsPlaying(false));
+    const startTime =
+      pendingSeek?.slug === current.slug ? pendingSeek.seconds : Number(saved) || 0;
+    const applyStartTime = () => {
+      audio.currentTime = Math.min(startTime, audio.duration || startTime);
+    };
+    if (audio.readyState >= HTMLMediaElement.HAVE_METADATA) applyStartTime();
+    else audio.addEventListener("loadedmetadata", applyStartTime, { once: true });
+    pendingSeekRef.current = null;
+    void audio.play().catch(() => setIsPlaying(false));
+    return () => audio.removeEventListener("loadedmetadata", applyStartTime);
   }, [current]);
 
   useEffect(() => {
@@ -107,6 +119,25 @@ export function AudioProvider({ children }: { children: ReactNode }) {
     else audio.pause();
   }, []);
 
+  const seekToEpisode = useCallback(
+    (episode: Episode, seconds: number) => {
+      const audio = audioRef.current;
+      if (!audio) return;
+      const safeSeconds = Math.max(0, seconds);
+
+      if (current?.slug === episode.slug) {
+        audio.currentTime = safeSeconds;
+        void audio.play().catch(() => setIsPlaying(false));
+        return;
+      }
+
+      pendingSeekRef.current = { slug: episode.slug, seconds: safeSeconds };
+      setCurrent(episode);
+      setIsPlaying(true);
+    },
+    [current],
+  );
+
   const jump = (seconds: number) => {
     if (!audioRef.current) return;
     audioRef.current.currentTime = Math.max(
@@ -116,14 +147,14 @@ export function AudioProvider({ children }: { children: ReactNode }) {
   };
 
   const value = useMemo(
-    () => ({ current, isPlaying, playEpisode, toggle }),
-    [current, isPlaying, playEpisode, toggle],
+    () => ({ current, isPlaying, playEpisode, seekToEpisode, toggle }),
+    [current, isPlaying, playEpisode, seekToEpisode, toggle],
   );
 
   return (
     <AudioContext.Provider value={value}>
       {children}
-      <audio ref={audioRef} preload="metadata" />
+      <audio ref={audioRef} preload="metadata" aria-label="Better at Work episode audio" />
       {current ? (
         <aside className="global-player" aria-label="Podcast player">
           <div className="global-player__art" data-accent={current.accent}>
@@ -158,11 +189,13 @@ export function AudioProvider({ children }: { children: ReactNode }) {
               type="range"
               min="0"
               max={duration || 0}
+              step="1"
               value={Math.min(currentTime, duration || 0)}
               onChange={(event) => {
                 if (audioRef.current) audioRef.current.currentTime = Number(event.target.value);
               }}
               aria-label="Episode progress"
+              aria-valuetext={`${formatTime(currentTime)} of ${formatTime(duration)}`}
             />
             <span>{formatTime(duration)}</span>
           </div>
@@ -181,6 +214,36 @@ export function AudioProvider({ children }: { children: ReactNode }) {
         </aside>
       ) : null}
     </AudioContext.Provider>
+  );
+}
+
+const timestampToSeconds = (timestamp: string) =>
+  timestamp
+    .split(":")
+    .map(Number)
+    .reduce((total, part) => total * 60 + part, 0);
+
+export function EpisodeMomentButton({
+  episode,
+  time,
+  label,
+}: {
+  episode: Episode;
+  time: string;
+  label: string;
+}) {
+  const audio = useContext(AudioContext);
+  if (!audio) throw new Error("EpisodeMomentButton must be used inside AudioProvider");
+
+  return (
+    <button
+      type="button"
+      onClick={() => audio.seekToEpisode(episode, timestampToSeconds(time))}
+      aria-label={`Play ${episode.title} from ${time}: ${label}`}
+    >
+      <span>{time}</span>
+      {label}
+    </button>
   );
 }
 

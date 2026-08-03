@@ -1,6 +1,21 @@
+import acastArchive from "@/data/acast-episodes.json";
+
+export const ACAST_FEED_URL = acastArchive.source;
+
 export type Accent = "yellow" | "violet" | "coral" | "green" | "blue";
+export type TopicSlug =
+  | "leadership"
+  | "career-change"
+  | "teams-and-culture"
+  | "energy-and-burnout";
+
+export type EpisodeUtility = {
+  href: string;
+  label: string;
+};
 
 export type Episode = {
+  id: string;
   slug: string;
   series: string;
   number: string;
@@ -8,19 +23,41 @@ export type Episode = {
   shortTitle: string;
   guest: string;
   date: string;
+  publishedAt: string;
   duration: string;
+  durationSeconds: number;
   summary: string;
+  excerpt: string;
+  showNotes: string;
   audioUrl: string;
   acastUrl: string;
+  imageUrl?: string;
   accent: Accent;
   topics: string[];
+  topicSlugs: TopicSlug[];
   problems: string[];
   takeaways: string[];
   moments: { time: string; label: string }[];
   quote?: string;
+  transcript?: EpisodeUtility;
+  resource?: EpisodeUtility;
+  curated: boolean;
 };
 
-export const episodes: Episode[] = [
+type CuratedEpisode = Omit<
+  Episode,
+  | "id"
+  | "durationSeconds"
+  | "excerpt"
+  | "showNotes"
+  | "imageUrl"
+  | "topicSlugs"
+  | "transcript"
+  | "resource"
+  | "curated"
+>;
+
+const curatedEpisodes: CuratedEpisode[] = [
   {
     slug: "season-four-lessons-that-changed-how-we-work",
     series: "Season 4 finale",
@@ -29,6 +66,7 @@ export const episodes: Episode[] = [
     shortTitle: "Four ideas that changed how we work",
     guest: "Cathal Quinlan & Annette Sloan",
     date: "9 July 2026",
+    publishedAt: "2026-07-09T06:00:00.000Z",
     duration: "36 min",
     summary:
       "Cathal and Annette close out the season together in London and test the four ideas that actually changed how they work.",
@@ -63,6 +101,7 @@ export const episodes: Episode[] = [
     shortTitle: "Why planning isn't strategy",
     guest: "Roger L. Martin",
     date: "18 June 2026",
+    publishedAt: "2026-06-18T06:00:00.000Z",
     duration: "47 min",
     summary:
       "The world's leading strategy thinker dismantles the planning document, the laundry list and the myth that leaders make choices while everyone else executes.",
@@ -100,6 +139,7 @@ export const episodes: Episode[] = [
     shortTitle: "AI gives you the average, not the edge",
     guest: "Roger L. Martin",
     date: "25 June 2026",
+    publishedAt: "2026-06-25T06:00:00.000Z",
     duration: "48 min",
     summary:
       "Roger Martin explains the four-word question he uses in boardrooms and why a mode-seeking machine cannot make a distinctive strategic choice for you.",
@@ -136,6 +176,7 @@ export const episodes: Episode[] = [
     shortTitle: "The three needs every workspace must meet",
     guest: "Cathal Quinlan & Annette Sloan",
     date: "11 June 2026",
+    publishedAt: "2026-06-11T06:00:00.000Z",
     duration: "30 min",
     summary:
       "Agency, growth and connection explain more about a workplace than paint colour, hot desks or the number of days people come in.",
@@ -170,6 +211,7 @@ export const episodes: Episode[] = [
     shortTitle: "Design a place that helps people thrive",
     guest: "Leidy Klotz",
     date: "28 May 2026",
+    publishedAt: "2026-05-28T06:00:00.000Z",
     duration: "52 min",
     summary:
       "Behavioural scientist Leidy Klotz explains how our surroundings feed or starve agency, growth and connection.",
@@ -204,6 +246,7 @@ export const episodes: Episode[] = [
     shortTitle: "Stop starting. Start finishing.",
     guest: "Cathal Quinlan & Annette Sloan",
     date: "21 May 2026",
+    publishedAt: "2026-05-21T06:00:00.000Z",
     duration: "33 min",
     summary:
       "A practical conversation about competing priorities, both-and thinking and preparing for a competency-based interview.",
@@ -238,6 +281,7 @@ export const episodes: Episode[] = [
     shortTitle: "Lead through competing demands",
     guest: "Wendy K. Smith",
     date: "14 May 2026",
+    publishedAt: "2026-05-14T06:00:00.000Z",
     duration: "62 min",
     summary:
       "Wendy K. Smith brings both-and thinking out of the business-school case study and into the decisions leaders are making today.",
@@ -272,6 +316,7 @@ export const episodes: Episode[] = [
     shortTitle: "Burnout is not an individual failure",
     guest: "Jennifer Moss",
     date: "30 April 2026",
+    publishedAt: "2026-04-30T06:00:00.000Z",
     duration: "54 min",
     summary:
       "Jennifer Moss separates recovery habits from the organisational causes of burnout and explains what leaders can change.",
@@ -300,40 +345,302 @@ export const episodes: Episode[] = [
   },
 ];
 
-export const topics = [
+const topicDefinitions = [
   {
     slug: "leadership",
     label: "Leadership",
     prompt: "How do I lead clearly without pretending the work is simple?",
-    count: 18,
     accent: "violet" as Accent,
+    description:
+      "Conversations about judgement, management, strategy and leading when there is no tidy answer.",
+    keywords: [
+      "leader",
+      "leadership",
+      "management",
+      "manager",
+      "boss",
+      "ceo",
+      "strategy",
+      "decision",
+    ],
   },
   {
     slug: "career-change",
     label: "Career change",
     prompt: "What do I do when the old version of success stops fitting?",
-    count: 14,
     accent: "coral" as Accent,
+    description:
+      "Useful ideas for changing direction, finding meaning and making the next career move with more evidence.",
+    keywords: [
+      "career",
+      "job",
+      "interview",
+      "promotion",
+      "purpose",
+      "talent",
+      "success",
+      "work you love",
+    ],
   },
   {
     slug: "teams-and-culture",
     label: "Teams & culture",
     prompt: "How do we make the way we work feel more human?",
-    count: 21,
     accent: "green" as Accent,
+    description:
+      "Research and practical conversations about teams, trust, conflict, workplaces and the cultures people experience.",
+    keywords: [
+      "team",
+      "culture",
+      "workplace",
+      "office",
+      "trust",
+      "conflict",
+      "collaboration",
+      "belonging",
+      "relationship",
+    ],
   },
   {
     slug: "energy-and-burnout",
     label: "Energy & burnout",
     prompt: "What can change when rest is not fixing the problem?",
-    count: 12,
     accent: "yellow" as Accent,
+    description:
+      "Conversations about burnout, stress, sustainable performance and the conditions that help people recover.",
+    keywords: [
+      "burnout",
+      "wellbeing",
+      "energy",
+      "stress",
+      "rest",
+      "resilience",
+      "exhaust",
+      "mental health",
+      "health",
+    ],
   },
-];
+] satisfies Array<{
+  slug: TopicSlug;
+  label: string;
+  prompt: string;
+  accent: Accent;
+  description: string;
+  keywords: string[];
+}>;
+
+const accents: Accent[] = ["violet", "coral", "green", "blue", "yellow"];
+
+const formatDate = (publishedAt: string) =>
+  new Intl.DateTimeFormat("en-GB", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC",
+  }).format(new Date(publishedAt));
+
+const formatDuration = (seconds: number) => {
+  if (!seconds) return "Listen on Acast";
+  const minutes = Math.ceil(seconds / 60);
+  if (minutes < 60) return `${minutes} min`;
+  const hours = Math.floor(minutes / 60);
+  const remainder = minutes % 60;
+  return remainder ? `${hours} hr ${remainder} min` : `${hours} hr`;
+};
+
+const firstParagraph = (summary: string) => {
+  const paragraph =
+    summary.split(/\n\s*\n/)[0]?.replace(/\s+/g, " ").trim() ||
+    "Listen to the full conversation on Acast.";
+  if (paragraph.length <= 360) return paragraph;
+  const shortened = paragraph.slice(0, 357);
+  return `${shortened.slice(0, shortened.lastIndexOf(" "))}…`;
+};
+
+const inferSeries = (title: string) => {
+  const betterMoment = title.match(/better moments?\s*#\s*(\d+)/i);
+  if (betterMoment) return { series: "Better Moments", number: `BM ${betterMoment[1]}` };
+
+  const seasonEpisode = title.match(/\bS(?:eason)?\s*(\d+)\s*(?:E|Ep|Episode)\s*(\d+)/i);
+  if (seasonEpisode) {
+    return { series: "Podcast archive", number: `S${seasonEpisode[1]} E${seasonEpisode[2]}` };
+  }
+
+  if (/listener questions/i.test(title)) {
+    return { series: "Listener questions", number: "Q&A" };
+  }
+
+  return { series: "Podcast archive", number: "B@W" };
+};
+
+const inferGuest = (title: string) => {
+  const parts = title.split("|").map((part) => part.trim()).filter(Boolean);
+  if (/better moments?/i.test(title) && parts.length > 1) return parts.at(-1) ?? "Better at Work";
+
+  const withGuest = title.match(/\bwith\s+([^|]+)$/i);
+  if (withGuest) return withGuest[1].trim();
+
+  return /listener questions/i.test(title)
+    ? "Cathal Quinlan & Annette Sloan"
+    : "Better at Work";
+};
+
+const topicSlugsFor = (title: string, summary: string, editorialTopics: string[] = []) => {
+  const haystack = `${title} ${summary} ${editorialTopics.join(" ")}`.toLowerCase();
+  const explicit = editorialTopics.map((topic) => topic.toLowerCase());
+
+  return topicDefinitions
+    .filter((topic) => {
+      if (topic.slug === "leadership" && explicit.includes("leadership")) return true;
+      if (topic.slug === "career-change" && explicit.includes("careers")) return true;
+      if (
+        topic.slug === "teams-and-culture" &&
+        explicit.some((item) => ["teams", "culture", "workplace", "relationships"].includes(item))
+      ) {
+        return true;
+      }
+      if (
+        topic.slug === "energy-and-burnout" &&
+        explicit.some((item) => ["burnout", "wellbeing", "energy"].includes(item))
+      ) {
+        return true;
+      }
+      return topic.keywords.some((keyword) => haystack.includes(keyword));
+    })
+    .map((topic) => topic.slug);
+};
+
+const utilitiesByAudioUrl: Record<
+  string,
+  Pick<Episode, "transcript" | "resource">
+> = {
+  "https://sphinx.acast.com/p/open/s/69d60ca52a193257adc683b0/e/4a9e8aec-f93c-4c86-be25-c3776eef4b66/media.mp3": {
+    transcript: {
+      href: "/transcripts/helen-tupper-s4e01.txt",
+      label: "Download the edited Helen Tupper transcript",
+    },
+  },
+  "https://sphinx.acast.com/p/open/s/69d60ca52a193257adc683b0/e/6a32d1ae5926b9ca34a98bc6/media.mp3": {
+    resource: {
+      href: "/resources/roger-martin-sum-up.pdf",
+      label: "Download the Roger Martin Sum Up",
+    },
+  },
+  "https://sphinx.acast.com/p/open/s/69d60ca52a193257adc683b0/e/6a3c32795bb8a79968e3541a/media.mp3": {
+    resource: {
+      href: "/resources/roger-martin-sum-up.pdf",
+      label: "Download the Roger Martin Sum Up",
+    },
+  },
+};
+
+const curatedByAudioUrl = new Map(
+  curatedEpisodes.map((episode) => [episode.audioUrl, episode]),
+);
+
+const archiveEpisodes = acastArchive.episodes.map((sourceEpisode, index): Episode => {
+  const curated = curatedByAudioUrl.get(sourceEpisode.audioUrl);
+  const sourceSummary = sourceEpisode.summary.trim();
+  const inferred = inferSeries(sourceEpisode.title);
+  const topicSlugs = topicSlugsFor(
+    sourceEpisode.title,
+    sourceSummary,
+    curated?.topics,
+  );
+  const topicLabels = topicDefinitions
+    .filter((topic) => topicSlugs.includes(topic.slug))
+    .map((topic) => topic.label);
+  const utilities = utilitiesByAudioUrl[sourceEpisode.audioUrl] ?? {};
+
+  const base: Episode = {
+    id: sourceEpisode.id,
+    slug: sourceEpisode.slug,
+    series: inferred.series,
+    number: inferred.number,
+    title: sourceEpisode.title,
+    shortTitle: sourceEpisode.title.split("|")[0].trim(),
+    guest: inferGuest(sourceEpisode.title),
+    date: formatDate(sourceEpisode.publishedAt),
+    publishedAt: sourceEpisode.publishedAt,
+    duration: formatDuration(sourceEpisode.durationSeconds),
+    durationSeconds: sourceEpisode.durationSeconds,
+    summary: firstParagraph(sourceSummary),
+    excerpt: firstParagraph(sourceSummary),
+    showNotes: sourceSummary,
+    audioUrl: sourceEpisode.audioUrl,
+    acastUrl: sourceEpisode.acastUrl,
+    imageUrl: sourceEpisode.imageUrl || undefined,
+    accent: accents[index % accents.length],
+    topics: topicLabels.length ? topicLabels : ["Working life"],
+    topicSlugs,
+    problems: [],
+    takeaways: [],
+    moments: [],
+    curated: false,
+    ...utilities,
+  };
+
+  if (!curated) return base;
+
+  return {
+    ...base,
+    ...curated,
+    id: sourceEpisode.id,
+    publishedAt: sourceEpisode.publishedAt,
+    durationSeconds: sourceEpisode.durationSeconds,
+    imageUrl: sourceEpisode.imageUrl || undefined,
+    topicSlugs,
+    excerpt: curated.summary,
+    showNotes: sourceSummary,
+    curated: true,
+    ...utilities,
+  };
+});
+
+const archivedAudioUrls = new Set(archiveEpisodes.map((episode) => episode.audioUrl));
+const missingCuratedEpisodes = curatedEpisodes
+  .filter((episode) => !archivedAudioUrls.has(episode.audioUrl))
+  .map(
+    (episode, index): Episode => ({
+      ...episode,
+      id: episode.slug,
+      durationSeconds: Number.parseInt(episode.duration, 10) * 60,
+      excerpt: episode.summary,
+      showNotes: episode.summary,
+      accent: episode.accent ?? accents[index % accents.length],
+      topicSlugs: topicSlugsFor(episode.title, episode.summary, episode.topics),
+      curated: true,
+      ...(utilitiesByAudioUrl[episode.audioUrl] ?? {}),
+    }),
+  );
+
+export const episodes: Episode[] = [...archiveEpisodes, ...missingCuratedEpisodes].sort(
+  (left, right) => right.publishedAt.localeCompare(left.publishedAt),
+);
+
+export const topics = topicDefinitions.map((topic) => ({
+  slug: topic.slug,
+  label: topic.label,
+  prompt: topic.prompt,
+  accent: topic.accent,
+  description: topic.description,
+  count: episodes.filter((episode) => episode.topicSlugs.includes(topic.slug)).length,
+}));
 
 export const getEpisode = (slug: string) =>
   episodes.find((episode) => episode.slug === slug);
 
-export const leadershipEpisodes = episodes.filter((episode) =>
-  episode.topics.includes("Leadership"),
-);
+export const getTopic = (slug: string) =>
+  topics.find((topic) => topic.slug === slug);
+
+export const getTopicEpisodes = (slug: TopicSlug) =>
+  episodes.filter((episode) => episode.topicSlugs.includes(slug));
+
+export const leadershipEpisodes = getTopicEpisodes("leadership");
+
+export const durationToIso = (seconds: number) => {
+  const hours = Math.floor(seconds / 3600);
+  const minutes = Math.floor((seconds % 3600) / 60);
+  const remainingSeconds = seconds % 60;
+  return `PT${hours ? `${hours}H` : ""}${minutes ? `${minutes}M` : ""}${remainingSeconds ? `${remainingSeconds}S` : ""}`;
+};

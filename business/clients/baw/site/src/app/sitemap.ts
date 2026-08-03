@@ -1,22 +1,28 @@
 import type { MetadataRoute } from "next";
-import { episodes } from "@/lib/content";
-
-const baseUrl = "https://better-at-work-frontier.vercel.app";
+import { episodes, topics } from "@/lib/content";
+import { absoluteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages = ["", "/episodes", "/topics/leadership", "/better-careers", "/about"];
+  const pages = ["", "/episodes", "/better-careers", "/about"];
   const staticPages = pages.map((path) => ({
-    url: `${baseUrl}${path}`,
-    lastModified: new Date("2026-07-14"),
+    url: absoluteUrl(path || "/"),
+    lastModified: new Date("2026-08-03"),
     changeFrequency: path === "" ? ("weekly" as const) : ("monthly" as const),
     priority: path === "" ? 1 : 0.8,
   }));
   const episodePages = episodes.map((episode) => ({
-    url: `${baseUrl}/episodes/${episode.slug}`,
-    lastModified: new Date(episode.date),
+    url: absoluteUrl(`/episodes/${episode.slug}`),
+    lastModified: new Date(episode.publishedAt),
     changeFrequency: "yearly" as const,
     priority: 0.7,
   }));
 
-  return [...staticPages, ...episodePages];
+  const topicPages = topics.map((topic) => ({
+    url: absoluteUrl(`/topics/${topic.slug}`),
+    lastModified: new Date("2026-08-03"),
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...topicPages, ...episodePages];
 }

@@ -17,13 +17,13 @@ export function EpisodeCard({
     >
       <div className="episode-card__topline">
         <span>{episode.series}</span>
-        <span>{episode.duration}</span>
+        <time dateTime={episode.publishedAt}>{episode.date}</time>
       </div>
       <div className="episode-card__number">{episode.number}</div>
       <h3>
         <Link href={`/episodes/${episode.slug}`}>{episode.shortTitle}</Link>
       </h3>
-      <p>{episode.summary}</p>
+      <p>{episode.excerpt}</p>
       <div className="episode-card__footer">
         <PlayButton episode={episode} compact />
         <span>{episode.guest}</span>

@@ -3,11 +3,19 @@ import { ArrowRight, ArrowUpRight, Check, Mic2 } from "lucide-react";
 import Link from "next/link";
 import { EpisodeCard } from "@/components/EpisodeCard";
 import { leadershipEpisodes } from "@/lib/content";
+import { absoluteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Better Leadership",
   description:
     "Better@Work conversations and practical ideas for leading through complexity, change and pressure.",
+  alternates: { canonical: absoluteUrl("/topics/leadership") },
+  openGraph: {
+    title: "Better Leadership | Better at Work",
+    description:
+      "Conversations and practical ideas for leading through complexity, change and pressure.",
+    url: absoluteUrl("/topics/leadership"),
+  },
 };
 
 export default function LeadershipPage() {
@@ -90,22 +98,24 @@ export default function LeadershipPage() {
               willing to speak plainly about the work.
             </p>
           </div>
-          <form>
-            <label>
-              <span>Your work email</span>
-              <input type="email" placeholder="you@organisation.com" />
-            </label>
-            <label>
-              <span>The question</span>
-              <textarea placeholder="The leadership tension we cannot resolve is..." rows={4} />
-            </label>
-            <button className="button button--ink" type="button">
-              Start a conversation <ArrowUpRight aria-hidden="true" />
-            </button>
-            <small>
-              <Check aria-hidden="true" /> Prototype only. Nothing is submitted.
-            </small>
-          </form>
+          <div className="connection-notice" role="note">
+            <Check aria-hidden="true" />
+            <div>
+              <strong>This draft does not collect enquiries.</strong>
+              <p>
+                Until the new form is connected, use the existing Better at Work contact
+                route. You will leave this draft site.
+              </p>
+            </div>
+            <a
+              className="button button--ink"
+              href="https://betteratwork.net/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open current contact page <ArrowUpRight aria-hidden="true" />
+            </a>
+          </div>
         </div>
       </section>
     </>

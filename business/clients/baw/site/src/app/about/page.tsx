@@ -2,11 +2,19 @@ import type { Metadata } from "next";
 import { ArrowRight, MessageCircle } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { absoluteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About",
   description:
     "Meet Better@Work hosts Cathal Quinlan and Annette Sloan and learn how the show turns conversation into useful action.",
+  alternates: { canonical: absoluteUrl("/about") },
+  openGraph: {
+    title: "About Better at Work",
+    description:
+      "Meet Cathal Quinlan and Annette Sloan and learn how each conversation becomes something useful.",
+    url: absoluteUrl("/about"),
+  },
 };
 
 export default function AboutPage() {

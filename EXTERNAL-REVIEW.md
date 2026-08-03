@@ -2,7 +2,7 @@
 
 Review date: 3 August 2026
 
-Security baseline: `ba02f91`, `Complete system security hardening`
+Security baseline: `ce6104a`, including the final Vercel transitive dependency patch
 
 ## Executive summary
 
@@ -187,7 +187,7 @@ Current validation includes:
 - A blocking staged-secret scan in the nightly backup.
 - Commit, push and remote-SHA verification before Board deployment.
 
-GitHub CI, Board Room CI and Better at Work summer CI passed for security baseline `ba02f91`. The public-site branch CI also passed for `b8add37`.
+GitHub CI and Board Room CI passed for security baseline `ce6104a`. Better at Work summer CI passed for the preceding hardening commit, and public-site branch CI passed for `b8add37`. GitHub reports no open Dependabot alerts.
 
 The latest doctor run reports 15 passes, no failures and two warnings. The warnings are expired Claude authentication and a deliberately preserved dirty working tree.
 

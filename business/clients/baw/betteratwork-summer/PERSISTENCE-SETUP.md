@@ -4,6 +4,7 @@ Both sites now share a small backend so edits sync live for everyone, gated so o
 
 ## What's in the code already
 - `api/data.js` in each site: `GET /api/data` (public read), `POST /api/data` (write, requires the `x-edit-key` header). Connects to Redis using the `REDIS_URL` Vercel injects, via the `redis` npm package (in each site's `package.json`).
+- Better at Work also rejects cross-origin writes, enforces JSON and payload-size limits, and sends restrictive browser security headers. The edit key remains the write boundary.
 - Frontend loads from `/api/data` on open, falls back to the baked-in default only on a clean empty store, and autosaves every edit. Editing is gated by `?edit` + your key. Optimistic-concurrency (version) guards against stale-tab overwrites; a failed initial load blocks saves so nothing clobbers good data.
 
 ## Your one-time setup

@@ -13,6 +13,7 @@ sys.path.insert(0, str(AGENTS_DIR))
 from telegram_queue import (  # noqa: E402
     TelegramTaskQueue,
     is_authorized_private_message,
+    is_forwarded_message,
     normalize_telegram_ids,
 )
 
@@ -118,6 +119,11 @@ class TelegramAuthorizationTests(unittest.TestCase):
         )
         self.assertEqual(normalize_telegram_ids(["42", 99, None, "bad"]), {42, 99})
 
+    def test_forward_metadata_is_detected_without_trusting_message_text(self):
+        self.assertTrue(is_forwarded_message({"forward_origin": {"type": "user"}}))
+        self.assertTrue(is_forwarded_message({"forward_from_chat": {"id": -42}}))
+        self.assertFalse(is_forwarded_message({"text": "forwarded words"}))
+
 
 class TelegramAgentPrivacyContractTests(unittest.TestCase):
     def test_fleet_logs_use_task_hashes_not_task_text(self):
@@ -126,6 +132,27 @@ class TelegramAgentPrivacyContractTests(unittest.TestCase):
         self.assertIn("def task_ref(text):", source)
         self.assertNotIn('log(f"task ok in {elapsed}: {text[:80]!r}")', source)
         self.assertNotIn('log(f"task FAILED in {elapsed}: {text[:80]!r}', source)
+
+    def test_remote_agent_never_bypasses_claude_permissions(self):
+        source = (AGENTS_DIR / "telegram-agent.py").read_text()
+
+        self.assertIn('"--permission-mode", "auto"', source)
+        self.assertNotIn('"--permission-mode", "bypassPermissions"', source)
+
+    def test_private_runtime_files_are_written_mode_600(self):
+        source = (AGENTS_DIR / "telegram-agent.py").read_text()
+
+        self.assertIn("os.chmod(tmp, 0o600)", source)
+
+
+class TelegramInboundSecurityContractTests(unittest.TestCase):
+    def test_capture_requires_private_allowlisted_chat_and_sender(self):
+        source = (AGENTS_DIR / "telegram-inbound.py").read_text()
+
+        self.assertIn("is_authorized_private_message(msg, ALLOWED)", source)
+        self.assertIn("(Telegram forwarded material)", source)
+        self.assertIn("reference material, not Harrison's own words", source)
+        self.assertIn("atomic_private_write(OFFSET_FILE", source)
 
 
 if __name__ == "__main__":

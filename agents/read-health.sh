@@ -130,7 +130,7 @@ echo "== Body composition (Renpho -> Apple Health CSV) =="
 
 latest() {
   local f
-  f=$(ls "$DIR"/$1 2>/dev/null | head -1)
+  f=$(find "$DIR" -maxdepth 1 -type f -name "$1" -print -quit 2>/dev/null)
   [ -z "$f" ] && { echo "MISSING"; return; }
   tail -n +2 "$f" | tr -d '\r' | awk -F',' 'NF>=6 && $5!="" {print $3"|"$5"|"$6}' | sort -r | head -1
 }

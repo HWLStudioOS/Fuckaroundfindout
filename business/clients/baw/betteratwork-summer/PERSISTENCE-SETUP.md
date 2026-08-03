@@ -24,8 +24,8 @@ Copy the output.
 
 **4. Redeploy both** (env vars apply on the next deploy):
 ```
-cd ~/creepers-content-calendar && npx vercel@latest deploy --prod --yes
-cd "/Users/harrison/HWL META/business/clients/baw/betteratwork-summer" && npx vercel@latest deploy --prod --yes
+cd ~/creepers-content-calendar && npx --yes vercel@58.4.4 deploy --prod --yes
+cd "/Users/harrison/HWL META/business/clients/baw/betteratwork-summer" && npx --yes vercel@58.4.4 deploy --prod --yes
 ```
 
 **5. Unlock editing:** open `…vercel.app?edit`, paste the edit key into the Unlock box once (stored in your browser only). Now add/delete/tick/edit-numbers all save live.

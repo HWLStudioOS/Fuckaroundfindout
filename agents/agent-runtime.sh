@@ -8,6 +8,8 @@
 # - one truthful completion line in agents/_log.md
 # - exact exit-code propagation back to launchd
 
+umask 077
+
 HWL_EXIT_UNAVAILABLE=69
 HWL_EXIT_SOFTWARE=70
 HWL_EXIT_AUTH_REQUIRED=78
@@ -279,7 +281,7 @@ hwl_run_claude() {
   if "$HWL_RESOLVED_CLAUDE_BIN" \
       --model "${HWL_CLAUDE_MODEL:-claude-sonnet-5}" \
       --print \
-      --permission-mode bypassPermissions \
+      --permission-mode auto \
       --add-dir "$HWL_META_DIR" \
       > "$stdout_file" 2> "$stderr_file" <<< "$prompt"; then
     claude_exit=0

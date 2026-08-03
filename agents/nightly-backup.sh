@@ -4,14 +4,15 @@
 # Claude push guardrail. Safe, additive, reversible. Pushes ONLY to the already
 # configured private remote (origin). Secrets stay excluded via .gitignore.
 set -uo pipefail
+umask 077
 
 HWL_META_DIR="/Users/harrison/HWL META"
 LOG="$HWL_META_DIR/agents/_log.md"
 BOARD_ROOM_DIR="$HWL_META_DIR/board-room"
 NODE_BIN="/usr/local/bin/node"
-NPX_BIN="/usr/local/bin/npx"
 PNPM_BIN="/usr/local/bin/pnpm"
 CURL_BIN="/usr/bin/curl"
+GITLEAKS_BIN="/opt/homebrew/bin/gitleaks"
 BOARD_ROOM_URL="https://the-board-room-nine.vercel.app"
 BOARD_ROOM_VALID=0
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
@@ -51,7 +52,7 @@ validate_board_room() {
   if ! (
     cd "$BOARD_ROOM_DIR" &&
       "$PNPM_BIN" install --frozen-lockfile &&
-      "$PNPM_BIN" audit --audit-level moderate &&
+      "$PNPM_BIN" audit --audit-level low &&
       "$PNPM_BIN" run lint &&
       "$PNPM_BIN" test
   ) >"$ERR_FILE" 2>&1; then
@@ -76,18 +77,70 @@ reconcile_board_room_events() {
 }
 
 deploy_board_room() {
+  local pushed_sha="$1"
   local board_http_code
+  local deploy_root
+  local deploy_worktree
+  local deploy_board_dir
+  local deploy_vercel_bin
 
-  if [[ ! -x "$NPX_BIN" || ! -f "$BOARD_ROOM_DIR/.vercel/project.json" ]]; then
-    echo "- $STAMP | board-room | deploy skipped, local Vercel link or npx missing" >> "$LOG"
-    return
+  if [[ ! -x "$PNPM_BIN" || ! -f "$BOARD_ROOM_DIR/.vercel/project.json" ]]; then
+    echo "- $STAMP | board-room | deploy skipped, local Vercel link or pnpm missing" >> "$LOG"
+    return 1
+  fi
+
+  deploy_root="$(mktemp -d /tmp/hwl-board-deploy.XXXXXX)"
+  deploy_worktree="$deploy_root/repository"
+  deploy_board_dir="$deploy_worktree/board-room"
+
+  : > "$ERR_FILE"
+  if ! git worktree add --detach "$deploy_worktree" "$pushed_sha" >"$ERR_FILE" 2>&1; then
+    rmdir "$deploy_root" 2>/dev/null || true
+    echo "- $STAMP | board-room | DEPLOY BLOCKED, clean checkout failed: $(error_tail_summary)" >> "$LOG"
+    return 1
   fi
 
   : > "$ERR_FILE"
-  if ! "$NPX_BIN" --yes vercel@58.4.4 deploy --prod --yes --cwd "$BOARD_ROOM_DIR" >"$ERR_FILE" 2>&1; then
+  if ! (
+    cd "$deploy_board_dir" &&
+      "$PNPM_BIN" install --frozen-lockfile &&
+      "$PNPM_BIN" audit --audit-level low &&
+      "$PNPM_BIN" run lint &&
+      "$PNPM_BIN" test
+  ) >"$ERR_FILE" 2>&1; then
+    git worktree remove --force "$deploy_worktree" >/dev/null 2>&1 || true
+    rmdir "$deploy_root" 2>/dev/null || true
+    echo "- $STAMP | board-room | DEPLOY BLOCKED, pushed checkout validation failed: $(error_tail_summary)" >> "$LOG"
+    return 1
+  fi
+
+  if [[ -n "$(git -C "$deploy_worktree" status --porcelain)" ]]; then
+    git worktree remove --force "$deploy_worktree" >/dev/null 2>&1 || true
+    rmdir "$deploy_root" 2>/dev/null || true
+    echo "- $STAMP | board-room | DEPLOY BLOCKED, validation changed the pushed checkout" >> "$LOG"
+    return 1
+  fi
+
+  mkdir -p "$deploy_board_dir/.vercel"
+  cp "$BOARD_ROOM_DIR/.vercel/project.json" "$deploy_board_dir/.vercel/project.json"
+  deploy_vercel_bin="$deploy_board_dir/node_modules/.bin/vercel"
+  if [[ ! -x "$deploy_vercel_bin" ]]; then
+    git worktree remove --force "$deploy_worktree" >/dev/null 2>&1 || true
+    rmdir "$deploy_root" 2>/dev/null || true
+    echo "- $STAMP | board-room | DEPLOY BLOCKED, locked Vercel CLI is unavailable" >> "$LOG"
+    return 1
+  fi
+
+  : > "$ERR_FILE"
+  if ! "$deploy_vercel_bin" deploy --prod --yes --cwd "$deploy_board_dir" >"$ERR_FILE" 2>&1; then
+    git worktree remove --force "$deploy_worktree" >/dev/null 2>&1 || true
+    rmdir "$deploy_root" 2>/dev/null || true
     echo "- $STAMP | board-room | DEPLOY FAILED after successful backup: $(error_tail_summary)" >> "$LOG"
     return 1
   fi
+
+  git worktree remove --force "$deploy_worktree" >/dev/null 2>&1 || true
+  rmdir "$deploy_root" 2>/dev/null || true
 
   : > "$ERR_FILE"
   board_http_code="$($CURL_BIN --silent --show-error --output /dev/null --write-out '%{http_code}' "$BOARD_ROOM_URL/" 2>"$ERR_FILE" || true)"
@@ -114,11 +167,30 @@ fi
 
 git add -A
 if [[ -n "$(git diff --cached --name-only)" ]]; then
-  git commit -q -m "Nightly backup $STAMP" || true
+  if [[ ! -x "$GITLEAKS_BIN" ]]; then
+    git reset -q
+    echo "- $STAMP | nightly-backup | BACKUP BLOCKED, gitleaks is unavailable" >> "$LOG"
+    exit 1
+  fi
+
+  : > "$ERR_FILE"
+  if ! "$GITLEAKS_BIN" git --staged --redact --no-banner --no-color . >"$ERR_FILE" 2>&1; then
+    git reset -q
+    echo "- $STAMP | nightly-backup | BACKUP BLOCKED, staged secret scan failed: $(error_tail_summary)" >> "$LOG"
+    exit 1
+  fi
+
+  : > "$ERR_FILE"
+  if ! git commit -q -m "Nightly backup $STAMP" 2>"$ERR_FILE"; then
+    git reset -q
+    echo "- $STAMP | nightly-backup | COMMIT FAILED, nothing pushed or deployed: $(error_summary)" >> "$LOG"
+    exit 1
+  fi
 fi
 
 # Push only to the configured private origin. Never create or change a remote here.
 PUSHED=0
+PUSHED_SHA=""
 if git remote get-url origin >/dev/null 2>&1; then
   : > "$ERR_FILE"
   if git push -q origin main 2>"$ERR_FILE"; then
@@ -155,8 +227,21 @@ else
   echo "- $STAMP | nightly-backup | committed locally, no origin remote configured" >> "$LOG"
 fi
 
+if [[ "$PUSHED" -eq 1 ]]; then
+  : > "$ERR_FILE"
+  if ! git fetch -q origin 2>"$ERR_FILE"; then
+    echo "- $STAMP | nightly-backup | DEPLOY BLOCKED, pushed commit could not be verified: $(error_summary)" >> "$LOG"
+    exit 1
+  fi
+  PUSHED_SHA="$(git rev-parse HEAD)"
+  if [[ "$PUSHED_SHA" != "$(git rev-parse origin/main)" ]]; then
+    echo "- $STAMP | nightly-backup | DEPLOY BLOCKED, local HEAD does not equal origin/main" >> "$LOG"
+    exit 1
+  fi
+fi
+
 if [[ "$PUSHED" -eq 1 && "$BOARD_ROOM_VALID" -eq 1 ]]; then
-  deploy_board_room || exit 1
+  deploy_board_room "$PUSHED_SHA" || exit 1
 elif [[ "$PUSHED" -eq 1 ]]; then
   echo "- $STAMP | board-room | production deploy skipped because validation did not pass" >> "$LOG"
 fi

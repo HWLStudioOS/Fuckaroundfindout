@@ -15,6 +15,30 @@ export const runtime = "nodejs";
 const source = initialBoard as BoardData;
 const MAX_MUTATION_BYTES = 4096;
 
+class MutationBodyTooLargeError extends Error {}
+
+async function readBoundedMutationBody(request: NextRequest) {
+  const reader = request.body?.getReader();
+  if (!reader) return "";
+
+  const decoder = new TextDecoder("utf-8", { fatal: true });
+  let bytes = 0;
+  let body = "";
+
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    bytes += value.byteLength;
+    if (bytes > MAX_MUTATION_BYTES) {
+      await reader.cancel();
+      throw new MutationBodyTooLargeError();
+    }
+    body += decoder.decode(value, { stream: true });
+  }
+
+  return body + decoder.decode();
+}
+
 function privateJson(request: NextRequest, value: unknown, status = 200) {
   const response = NextResponse.json(value, {
     status,
@@ -54,9 +78,19 @@ export async function PATCH(request: NextRequest) {
     return privateJson(request, { error: "Request is too large." }, 413);
   }
 
+  let rawBody: string;
+  try {
+    rawBody = await readBoundedMutationBody(request);
+  } catch (error) {
+    if (error instanceof MutationBodyTooLargeError) {
+      return privateJson(request, { error: "Request is too large." }, 413);
+    }
+    return privateJson(request, { error: "Invalid JSON." }, 400);
+  }
+
   let parsedBody: unknown;
   try {
-    parsedBody = await request.json();
+    parsedBody = JSON.parse(rawBody);
   } catch {
     return privateJson(request, { error: "Invalid JSON." }, 400);
   }

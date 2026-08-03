@@ -17,6 +17,10 @@ Run:   .venv-health/bin/python agents/health-sync.py
 import json, os, sys, datetime
 from pathlib import Path
 
+from health_security import require_allowlisted_https_url
+
+os.umask(0o077)
+
 BASE = Path("/Users/harrison/HWL META")
 CFG = BASE / ".config/garmin.config.json"
 TOKENS = BASE / ".config/.garmin_tokens"
@@ -166,10 +170,14 @@ try:
     json.dump([by_date[k] for k in sorted(by_date)], open(hist_path, "w"), indent=2, default=str)
 
     # Push the bundle to the hosted backend, so the phone reads the data over HTTPS and never
-    # depends on this Mac being reachable. No-op until BASELINE_INGEST_URL/TOKEN are set.
+    # depends on this Mac being reachable. No-op until URL, host allowlist and token are set.
     ingest_url = os.environ.get("BASELINE_INGEST_URL")
+    ingest_host = os.environ.get("BASELINE_INGEST_HOST")
     ingest_token = os.environ.get("BASELINE_INGEST_TOKEN")
-    if ingest_url and ingest_token:
+    if ingest_url or ingest_host or ingest_token:
+        if not (ingest_url and ingest_host and ingest_token):
+            raise ValueError("Baseline ingest configuration is incomplete.")
+        ingest_url = require_allowlisted_https_url(ingest_url, ingest_host)
         import requests
         bundle = {
             "history": [by_date[k] for k in sorted(by_date)],

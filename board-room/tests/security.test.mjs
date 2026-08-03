@@ -171,6 +171,33 @@ test("the API authenticates before validating mutation requests", async () => {
   });
 });
 
+test("the API bounds chunked mutation bodies by actual bytes", async () => {
+  await withCredentials({ username: VALID_USER, password: VALID_PASSWORD }, async () => {
+    const oversizedBody = JSON.stringify({
+      id: "HWL-192",
+      title: "x".repeat(5000),
+    });
+    const stream = new ReadableStream({
+      start(controller) {
+        controller.enqueue(new TextEncoder().encode(oversizedBody));
+        controller.close();
+      },
+    });
+    const response = await PATCH(request("/api/board", {
+      method: "PATCH",
+      headers: {
+        authorization: basicAuthorization(),
+        "content-type": "application/json",
+        origin: "https://board.example",
+      },
+      body: stream,
+      duplex: "half",
+    }));
+
+    assert.equal(response.status, 413);
+  });
+});
+
 test("builds a restrictive nonce-based content security policy", () => {
   const policy = boardContentSecurityPolicy("test-nonce");
   assert.match(policy, /default-src 'none'/);

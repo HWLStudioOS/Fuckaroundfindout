@@ -42,11 +42,25 @@ updates:
     schedule:
       interval: weekly
       day: monday
-      time: "06:20"
+      time: "06:30"
       timezone: Europe/London
     open-pull-requests-limit: 3
     groups:
       actions-minor-and-patch:
+        update-types:
+          - minor
+          - patch
+
+  - package-ecosystem: pip
+    directory: /agents
+    schedule:
+      interval: weekly
+      day: monday
+      time: "06:20"
+      timezone: Europe/London
+    open-pull-requests-limit: 3
+    groups:
+      health-minor-and-patch:
         update-types:
           - minor
           - patch

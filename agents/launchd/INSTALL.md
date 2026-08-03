@@ -13,16 +13,22 @@ Everything below assumes you're logged in as `harrison` on the Mac Mini and have
 which claude
 # Expect: a path like /Users/harrison/.local/bin/claude or /opt/homebrew/bin/claude
 
-# 2. Confirm HWL META mounts cleanly
+# 2. Confirm the unattended session is authenticated
+claude auth status --text
+# Expect: logged in. If not, run `claude auth login` here in the interactive terminal.
+
+# 3. Confirm HWL META mounts cleanly
 ls "/Users/harrison/HWL META/agents/"
 # Expect: a list including morning-brief.sh, agent-runner.sh, README.md, etc.
 
-# 3. Make all .sh files executable
+# 4. Make all .sh files executable
 chmod +x "/Users/harrison/HWL META/agents/"*.sh
 
-# 4. Confirm Telegram config is in place
-cat "/Users/harrison/HWL META/.config/telegram.config.json"
-# Expect: JSON with telegram.botToken and allowedUsers fields.
+# 5. Confirm Telegram config is present without printing the token
+/usr/bin/jq -e \
+  '(.telegram.botToken | type == "string" and length > 0) and (.telegram.chatId != null)' \
+  "/Users/harrison/HWL META/.config/telegram.config.json" >/dev/null \
+  && echo "Telegram config present"
 ```
 
 If any of the above fails, stop. Fix the breakage before continuing.
@@ -42,7 +48,7 @@ Wait for it to finish (1-3 minutes typically). Then check:
 
 ```bash
 # Did it produce output?
-tail -50 "/Users/harrison/HWL META/agents/_stdout.log"
+tail -50 "/Users/harrison/HWL META/agents/logs/morning-brief.stdout.log"
 
 # Did it write today.md?
 head -20 "/Users/harrison/HWL META/today.md"
@@ -52,7 +58,7 @@ tail -5 "/Users/harrison/HWL META/agents/_log.md"
 
 # Did the Telegram digest arrive on your phone?
 # (Check WhatsApp / Telegram. If it didn't arrive, check stderr.)
-tail -50 "/Users/harrison/HWL META/agents/_stderr.log"
+tail -50 "/Users/harrison/HWL META/agents/logs/morning-brief.stderr.log"
 ```
 
 **Acceptance for Step 1:** today.md is rewritten, log line appended, Telegram message received. If any of those three fail, debug before scheduling.
@@ -60,6 +66,7 @@ tail -50 "/Users/harrison/HWL META/agents/_stderr.log"
 **Common failure modes:**
 
 - **"claude: command not found"** → PATH issue. Fix in `agents/morning-brief.sh` line 14 PATH export.
+- **Exit 78 or `AUTH_REQUIRED`** → run `claude auth login` interactively as Harrison, then confirm `claude auth status --text`. The scheduled job will not open a login flow.
 - **"Telegram error 401"** → bot token wrong or revoked. Check `/Users/harrison/HWL META/.config/telegram.config.json` and rotate token in BotFather if needed.
 - **"apple-health schema mismatch" in today.md** → expected for first runs; the agent should now self-discover and either succeed or note "skipped: apple-health" explicitly. If you see a hard crash instead, the schema discovery itself is failing; run `bash /Users/harrison/HWL META/agents/refresh-health-data.sh` to refresh from a current iPhone export.
 - **"Skipped: Strava / Gmail / Calendar / Granola"** → expected. These MCPs are partially or fully unwired. Not a blocker for acceptance.
@@ -142,7 +149,7 @@ tail -3 "/Users/harrison/HWL META/agents/_log.md"
 
 If yes: morning-brief is running. Repeat the check daily. Acceptance is 14 consecutive RUNNING-CLEAN weekdays.
 
-If no: check `_stderr.log` for the failure. Most common: Mac was asleep, or claude binary location changed.
+If no: check `agents/logs/morning-brief.stderr.log` and `.jarvis-runtime/agent-runs/morning-brief/latest.json`. The latest record distinguishes auth, verifier, CLI and wrapper failures.
 
 ---
 
@@ -177,7 +184,7 @@ chmod +x agents/content-engine.sh
 Wait 1-3 minutes. Check:
 
 ```bash
-tail -50 agents/_stdout.log    # Should show "=== content-engine.sh run at ..."
+tail -50 agents/logs/content-engine.stdout.log
 ```
 
 Expected behaviour right now: `capture/inbox.md` is empty, so the agent will send the "inbox is dry" Telegram message and stop cleanly. That's the correct first-run behaviour. Once you start populating `capture/inbox.md` with daily observations, the agent has material to draft from.

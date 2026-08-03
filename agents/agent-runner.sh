@@ -4,22 +4,38 @@
 # Each launchd job invokes this with the agent name. The agent's prompt
 # lives in agents/<name>.md. Output is logged, em dashes are stripped post-hoc.
 
-set -e
+set -Eeuo pipefail
 
-AGENT_NAME="$1"
+AGENT_NAME="${1:-}"
 if [ -z "$AGENT_NAME" ]; then
   echo "Usage: agent-runner.sh <agent-name>"
-  exit 1
+  exit 64
 fi
 
-HWL_META_DIR="/Users/harrison/HWL META"
+case "$AGENT_NAME" in
+  ''|*[!A-Za-z0-9_-]*)
+    echo "Invalid agent name: $AGENT_NAME" >&2
+    exit 64
+    ;;
+esac
+
+HWL_META_DIR="${HWL_META_DIR:-/Users/harrison/HWL META}"
 PROMPT_FILE="$HWL_META_DIR/agents/${AGENT_NAME}.md"
-STDOUT_LOG="$HWL_META_DIR/agents/_stdout.log"
-STDERR_LOG="$HWL_META_DIR/agents/_stderr.log"
+RUNTIME_FILE="$HWL_META_DIR/agents/agent-runtime.sh"
+
+if [ ! -f "$RUNTIME_FILE" ]; then
+  echo "Agent runtime not found: $RUNTIME_FILE" >&2
+  exit 69
+fi
+
+# shellcheck source=agents/agent-runtime.sh
+source "$RUNTIME_FILE"
+hwl_runtime_init "$AGENT_NAME" "$HWL_META_DIR"
 
 if [ ! -f "$PROMPT_FILE" ]; then
-  echo "Prompt file not found: $PROMPT_FILE" >> "$STDERR_LOG"
-  exit 1
+  hwl_runtime_set_result "configuration_error" "prompt file not found: agents/${AGENT_NAME}.md"
+  hwl_runtime_note "CONFIGURATION_ERROR" "$HWL_RUN_DETAIL"
+  exit 66
 fi
 
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/Users/harrison/.local/bin:$PATH"
@@ -38,15 +54,7 @@ If a data source is unreachable (MCP not wired, file not present), note it and c
 
 $(cat "$PROMPT_FILE")"
 
-{
-  echo ""
-  echo "=== ${AGENT_NAME} run at $(date) ==="
-  echo "$PROMPT" | claude \
-    --model claude-sonnet-5 \
-    --print \
-    --permission-mode bypassPermissions \
-    --add-dir "$HWL_META_DIR"
-} >> "$STDOUT_LOG" 2>> "$STDERR_LOG"
+hwl_run_claude "run" "$PROMPT"
 
 # Em dash safety net across files agents typically write
 for f in "$HWL_META_DIR/today.md" \
@@ -60,4 +68,5 @@ for f in "$HWL_META_DIR/today.md" \
   fi
 done
 
+hwl_runtime_set_result "succeeded" "Claude completed and output post-processing finished"
 exit 0

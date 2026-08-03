@@ -3,13 +3,27 @@
 # Runs Mondays at 07:00 via launchd (com.hwl.content-engine.plist)
 # Manually invokable: ./content-engine.sh
 
-set -e
+set -Eeuo pipefail
 
-HWL_META_DIR="/Users/harrison/HWL META"
+HWL_META_DIR="${HWL_META_DIR:-/Users/harrison/HWL META}"
 PROMPT_FILE="$HWL_META_DIR/agents/content-engine.md"
 LOG_FILE="$HWL_META_DIR/agents/_log.md"
-STDOUT_LOG="$HWL_META_DIR/agents/_stdout.log"
-STDERR_LOG="$HWL_META_DIR/agents/_stderr.log"
+RUNTIME_FILE="$HWL_META_DIR/agents/agent-runtime.sh"
+
+if [ ! -f "$RUNTIME_FILE" ]; then
+  echo "Agent runtime not found: $RUNTIME_FILE" >&2
+  exit 69
+fi
+
+# shellcheck source=agents/agent-runtime.sh
+source "$RUNTIME_FILE"
+hwl_runtime_init "content-engine" "$HWL_META_DIR"
+
+if [ ! -f "$PROMPT_FILE" ]; then
+  hwl_runtime_set_result "configuration_error" "prompt file not found: agents/content-engine.md"
+  hwl_runtime_note "CONFIGURATION_ERROR" "$HWL_RUN_DETAIL"
+  exit 66
+fi
 
 # Ensure PATH includes Homebrew + Claude
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/Users/harrison/.local/bin:$PATH"
@@ -32,20 +46,13 @@ CRITICAL: NO EM DASHES. Replace any em dash with a comma, full stop, or rephrase
 
 $(cat "$PROMPT_FILE")"
 
-# Run Claude in print mode with Sonnet 5 (upgraded 1 Jul 2026)
-{
-  echo ""
-  echo "=== content-engine.sh run at $(date) ==="
-  echo "$PROMPT" | claude \
-    --model claude-sonnet-5 \
-    --print \
-    --permission-mode bypassPermissions \
-    --add-dir "$HWL_META_DIR"
-} >> "$STDOUT_LOG" 2>> "$STDERR_LOG"
+# The shared runtime checks auth before any prompt work, captures per-job logs and
+# propagates Claude's exit status back to launchd.
+hwl_run_claude "content package" "$PROMPT"
 
-# Shell-side run record. The 22 and 29 Jun runs completed but the model skipped its
-# _log.md append, leaving zero evidence a run happened. This line is unconditional.
-echo "$(date '+%Y-%m-%dT%H:%M:%S%z') | content-engine | run completed (full output in _stdout.log; agent-written detail line above if present)" >> "$LOG_FILE"
+# Shell-side success record. The 22 and 29 Jun runs completed but the model skipped its
+# _log.md append, leaving zero evidence a run happened. Failed runs exit before this line.
+echo "$(date '+%Y-%m-%dT%H:%M:%S%z') | content-engine | content package completed (full output in agents/logs/content-engine.stdout.log)" >> "$LOG_FILE"
 
 # Post-process: kill any em dashes that slipped through into files the agent typically writes
 for f in "$HWL_META_DIR/content/captions/this-week.md" \
@@ -56,4 +63,5 @@ for f in "$HWL_META_DIR/content/captions/this-week.md" \
   fi
 done
 
+hwl_runtime_set_result "succeeded" "Claude completed, run evidence recorded and output post-processing finished"
 exit 0

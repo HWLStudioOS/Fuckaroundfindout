@@ -1,5 +1,6 @@
 import json
 import plistlib
+import stat
 import tempfile
 import unittest
 from pathlib import Path
@@ -8,6 +9,15 @@ from scripts import doctor
 
 
 class DoctorValidationTests(unittest.TestCase):
+    def _auth_command(self, directory, payload, exit_code):
+        command = Path(directory) / "claude"
+        command.write_text(
+            "#!/bin/sh\nprintf '%s\\n' '" + payload + "'\nexit " + str(exit_code) + "\n",
+            encoding="utf-8",
+        )
+        command.chmod(command.stat().st_mode | stat.S_IXUSR)
+        return str(command)
+
     def test_invalid_python_files_reports_only_syntax_errors(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -50,6 +60,42 @@ class DoctorValidationTests(unittest.TestCase):
             (root / "pyproject.toml").write_text("[project]\n", encoding="utf-8")
 
             self.assertEqual(doctor.repository_root(nested), root.resolve())
+
+    def test_claude_auth_check_passes_for_logged_in_session(self):
+        with tempfile.TemporaryDirectory() as directory:
+            command = self._auth_command(
+                directory,
+                '{"loggedIn": true, "authMethod": "oauth"}',
+                0,
+            )
+
+            check = doctor.check_claude_auth(command)
+
+            self.assertEqual(check.status, doctor.PASS)
+            self.assertIn("oauth", check.detail)
+
+    def test_claude_auth_check_warns_for_logged_out_session(self):
+        with tempfile.TemporaryDirectory() as directory:
+            command = self._auth_command(
+                directory,
+                '{"loggedIn": false, "authMethod": "none"}',
+                1,
+            )
+
+            check = doctor.check_claude_auth(command)
+
+            self.assertEqual(check.status, doctor.WARN)
+            self.assertIn("exit 78", check.detail)
+            self.assertIn("interactively", check.detail)
+
+    def test_claude_auth_check_warns_for_unreadable_status(self):
+        with tempfile.TemporaryDirectory() as directory:
+            command = self._auth_command(directory, "not-json", 1)
+
+            check = doctor.check_claude_auth(command)
+
+            self.assertEqual(check.status, doctor.WARN)
+            self.assertIn("unreadable", check.detail)
 
 
 if __name__ == "__main__":

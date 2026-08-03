@@ -148,6 +148,69 @@ def check_commands() -> List[Check]:
     return checks
 
 
+def check_claude_auth(command: Optional[str] = None) -> Check:
+    """Read Claude's local auth status without starting an agent or login flow."""
+    executable = command or shutil.which("claude")
+    if not executable:
+        return Check(
+            "Claude authentication",
+            WARN,
+            "Claude CLI is not installed; scheduled Claude agents are unavailable",
+        )
+
+    try:
+        result = subprocess.run(
+            [executable, "auth", "status", "--json"],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            timeout=10,
+        )
+    except (OSError, subprocess.TimeoutExpired) as exc:
+        return Check(
+            "Claude authentication",
+            WARN,
+            "non-interactive auth preflight failed: {}".format(type(exc).__name__),
+        )
+
+    try:
+        payload = json.loads(result.stdout)
+    except (TypeError, ValueError):
+        return Check(
+            "Claude authentication",
+            WARN,
+            "auth status returned unreadable data; scheduled agents will fail closed",
+        )
+
+    if not isinstance(payload, dict) or not isinstance(payload.get("loggedIn"), bool):
+        return Check(
+            "Claude authentication",
+            WARN,
+            "auth status omitted loggedIn; scheduled agents will fail closed",
+        )
+
+    if payload["loggedIn"]:
+        if result.returncode == 0:
+            method = payload.get("authMethod") or "unknown method"
+            return Check(
+                "Claude authentication",
+                PASS,
+                "logged in via {}".format(method),
+            )
+        return Check(
+            "Claude authentication",
+            WARN,
+            "auth status claimed a login but exited non-zero; scheduled agents will fail closed",
+        )
+
+    return Check(
+        "Claude authentication",
+        WARN,
+        "not logged in; scheduled agents exit 78 until Harrison runs "
+        "'claude auth login' interactively",
+    )
+
+
 def check_sources(root: Path) -> List[Check]:
     python_paths = git_files(root, ("*.py",), include_untracked=True)
     json_paths = git_files(root, ("*.json",), include_untracked=True)
@@ -278,6 +341,7 @@ def check_runtime_tracking(root: Path) -> Check:
 def run_checks(root: Path) -> List[Check]:
     checks = [check_python(), check_layout(root)]
     checks.extend(check_commands())
+    checks.append(check_claude_auth())
     checks.extend(check_sources(root))
     checks.extend(check_git(root))
     checks.append(check_runtime_tracking(root))

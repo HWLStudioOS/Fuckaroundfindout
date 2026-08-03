@@ -5,13 +5,14 @@ import { mergeBoardEvents } from "../app/board-state.ts";
 import { reconcileBoardText } from "../scripts/reconcile-board-events-core.mjs";
 
 const data = JSON.parse(await readFile(new URL("../app/generated-board.json", import.meta.url), "utf8"));
+const firstActive = data.tasks.find((task) => task.state === "todo" || task.state === "in-progress");
 
 test("generates the complete board state", () => {
   assert.equal(data.title, "The Board Room");
   assert.ok(data.summary.active > 0);
   assert.ok(data.summary.open >= data.summary.active);
   assert.ok(data.summary.closedThisWeek >= 2);
-  assert.ok(data.tasks.some((task) => task.id === "HWL-184"));
+  assert.ok(firstActive);
   assert.ok(data.tasks.some((task) => task.state === "waiting"));
   assert.ok(data.tasks.some((task) => task.state === "scheduled"));
   assert.ok(data.tasks.some((task) => task.state === "parked"));
@@ -23,7 +24,7 @@ test("keeps active priority order deterministic", () => {
   for (let index = 1; index < active.length; index += 1) {
     assert.ok(active[index - 1].score >= active[index].score);
   }
-  assert.equal(active[0].id, "HWL-184");
+  assert.equal(active[0].rank, 1);
 });
 
 test("does not turn waiting or parked work into active work", () => {
@@ -33,47 +34,50 @@ test("does not turn waiting or parked work into active work", () => {
 });
 
 test("closes a task immediately and recalculates the room", () => {
+  assert.ok(firstActive);
   const expectedNext = data.tasks
-    .filter((task) => task.id !== "HWL-184" && (task.state === "todo" || task.state === "in-progress"))
-    .sort((a, b) => b.score - a.score)[0].id;
+    .filter((task) => task.id !== firstActive.id && (task.state === "todo" || task.state === "in-progress"))
+    .sort((a, b) => b.score - a.score || a.title.localeCompare(b.title))[0].id;
   const updated = mergeBoardEvents(data, [{
     version: 1,
-    id: "HWL-184",
+    id: firstActive.id,
     state: "done",
     updatedAt: "2026-07-27T18:00:00.000Z",
   }]);
 
-  assert.equal(updated.tasks.find((task) => task.id === "HWL-184").state, "done");
+  assert.equal(updated.tasks.find((task) => task.id === firstActive.id).state, "done");
   assert.equal(updated.summary.active, data.summary.active - 1);
   assert.equal(updated.summary.closedThisWeek, data.summary.closedThisWeek + 1);
   assert.equal(updated.tasks.find((task) => task.rank === 1).id, expectedNext);
 });
 
 test("uses the newest edit for a task", () => {
+  assert.ok(firstActive);
   const updated = mergeBoardEvents(data, [
     {
       version: 1,
-      id: "HWL-184",
+      id: firstActive.id,
       state: "done",
       updatedAt: "2026-07-27T18:00:00.000Z",
     },
     {
       version: 1,
-      id: "HWL-184",
+      id: firstActive.id,
       title: "Check and send the finished Carey Garden edit.",
       state: "todo",
       updatedAt: "2026-07-27T18:01:00.000Z",
     },
   ]);
 
-  const task = updated.tasks.find((candidate) => candidate.id === "HWL-184");
+  const task = updated.tasks.find((candidate) => candidate.id === firstActive.id);
   assert.equal(task.state, "todo");
   assert.equal(task.title, "Check and send the finished Carey Garden edit.");
 });
 
 test("closes an active task before it has a Linear ID", () => {
+  assert.ok(firstActive);
   const fallbackTask = {
-    ...data.tasks.find((task) => task.id === "HWL-184"),
+    ...firstActive,
     id: "active-confirm-david-s-550-monthly-payment-date-against",
   };
   const source = { ...data, tasks: [fallbackTask] };

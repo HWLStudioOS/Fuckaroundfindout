@@ -60,7 +60,11 @@ export function BoardRoom({ data: initialData }: { data: BoardData }) {
 
   useEffect(() => {
     const controller = new AbortController();
-    fetch("/api/board", { cache: "no-store", signal: controller.signal })
+    fetch("/api/board", {
+      cache: "no-store",
+      credentials: "same-origin",
+      signal: controller.signal,
+    })
       .then(async (response) => {
         if (!response.ok) throw new Error("Live changes could not be loaded.");
         return response.json() as Promise<BoardData>;
@@ -78,6 +82,7 @@ export function BoardRoom({ data: initialData }: { data: BoardData }) {
     try {
       const response = await fetch("/api/board", {
         method: "PATCH",
+        credentials: "same-origin",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id, ...change }),
       });

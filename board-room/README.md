@@ -14,6 +14,14 @@ The Board Room is Harrison Living's editable view of every open loop in the oper
 
 ## Local development
 
+Create an ignored `.env.local` with the same required values used in production:
+
+```dotenv
+BOARD_ROOM_USER=your-private-username
+BOARD_ROOM_PASSWORD=use-a-random-password-of-at-least-20-characters
+BLOB_READ_WRITE_TOKEN=your-private-blob-token
+```
+
 ```bash
 pnpm install
 pnpm run dev
@@ -30,4 +38,8 @@ pnpm test
 
 ## Access
 
-The production dashboard has no login. Anyone with the URL can view and edit its tasks. Live edits appear immediately. The existing nightly backup reconciles them into the Markdown source of truth before rebuilding the dashboard.
+Every production and preview route, including the board API and static assets, requires HTTP Basic authentication. `BOARD_ROOM_USER` and `BOARD_ROOM_PASSWORD` are mandatory and the application fails closed when either value is missing or invalid. The password must contain at least 20 characters. Use a generated value of 32 characters or more.
+
+The API repeats the authentication check rather than relying on the route proxy. Mutations also require an exact same-origin `Origin` header. Missing, opaque and cross-origin mutation requests are rejected. Responses are private and non-cacheable, do not use wildcard CORS, and carry restrictive browser security headers.
+
+`BLOB_READ_WRITE_TOKEN` remains mandatory for loading and saving live events. Live edits appear immediately. The existing nightly backup reconciles them into the Markdown source of truth before rebuilding the dashboard.

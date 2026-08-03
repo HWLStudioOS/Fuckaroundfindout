@@ -64,6 +64,10 @@ Full decision sequence: `money/snapshot.md`.
 - Tracking toward £160-200k GBP (~£13-17k/month), still right
 - Currently at ~£11k/month, need one more retainer or a couple of projects to hit low end
 
+## Investment policy, 3 August 2026
+
+The current cash and investment implementation brief is **[`money/investment-strategy-2026-08-03.md`](investment-strategy-2026-08-03.md)**. It treats the roughly £6,000 company tax reserve as protected company cash, sets a separate £50,000 personal cash target for 3 August 2027, and permits investment only from surplus above the monthly cash hurdle. No trade or transfer has been executed from the brief.
+
 ## Long arc
 
 Real goal isn't the £200k cap. Real goal is **passive income through code + AI products** so Harrison can stop being on shoots. Off the production treadmill, into IP. Year one of HWL is the runway. The next phase is building products that earn while he sleeps. The system should track this as a quiet third stream and surface opportunities.

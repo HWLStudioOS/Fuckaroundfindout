@@ -1,0 +1,64 @@
+name: Better at Work Summer CI
+
+on:
+  push:
+    paths:
+      - ".github/workflows/baw-summer-ci.yml"
+      - "business/clients/baw/betteratwork-summer/**"
+  pull_request:
+    paths:
+      - ".github/workflows/baw-summer-ci.yml"
+      - "business/clients/baw/betteratwork-summer/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: baw-summer-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Audit and validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: business/clients/baw/betteratwork-summer
+    steps:
+      - name: Check out tracker sources
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /business/clients/baw/betteratwork-summer/
+
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: business/clients/baw/betteratwork-summer/package-lock.json
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Audit dependencies
+        run: npm audit --audit-level=moderate
+
+      - name: Check server JavaScript
+        shell: bash
+        run: |
+          checked=0
+          while IFS= read -r -d '' file; do
+            node --check "$file"
+            checked=$((checked + 1))
+          done < <(git ls-files -z -- '*.js')
+          echo "syntax-checked $checked JavaScript file(s)"
+
+      - name: Validate Vercel configuration
+        run: |
+          node -e 'JSON.parse(require("node:fs").readFileSync("vercel.json", "utf8")); console.log("validated vercel.json")'

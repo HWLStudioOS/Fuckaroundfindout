@@ -46,7 +46,7 @@ NOW=$(date '+%A %d %B %Y at %H:%M %Z')
 
 PROMPT="It is now ${NOW}. You are the ${AGENT_NAME} agent running unattended on Harrison's Mac Mini. Execute your workflow described below in full. Use Read, Write, Edit, and Bash tools as needed. Telegram bot token + chat ID live in /Users/harrison/HWL META/.config/telegram.config.json.
 
-CRITICAL: NO EM DASHES. Replace any em dash (,) with a comma, full stop, or rephrase. The script post-processes as a safety net but cleaner LLM-side prose is better.
+CRITICAL: NO EM DASHES. Replace any em dash with a comma, full stop, or rephrase. The script post-processes as a safety net but cleaner LLM-side prose is better.
 
 If a data source is unreachable (MCP not wired, file not present), note it and continue. Do not block on a single broken integration.
 

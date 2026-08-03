@@ -10,6 +10,10 @@ LOG="$HWL_META_DIR/agents/_log.md"
 BOARD_ROOM_DIR="$HWL_META_DIR/board-room"
 NODE_BIN="/usr/local/bin/node"
 NPX_BIN="/usr/local/bin/npx"
+PNPM_BIN="/usr/local/bin/pnpm"
+CURL_BIN="/usr/bin/curl"
+BOARD_ROOM_URL="https://the-board-room-nine.vercel.app"
+BOARD_ROOM_VALID=0
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 cd "$HWL_META_DIR" || exit 1
 
@@ -37,6 +41,28 @@ refresh_board_room_snapshot() {
   fi
 }
 
+validate_board_room() {
+  if [[ ! -x "$PNPM_BIN" || ! -f "$BOARD_ROOM_DIR/pnpm-lock.yaml" ]]; then
+    echo "- $STAMP | board-room | validation skipped, pnpm or lockfile missing; production deploy blocked" >> "$LOG"
+    return 1
+  fi
+
+  : > "$ERR_FILE"
+  if ! (
+    cd "$BOARD_ROOM_DIR" &&
+      "$PNPM_BIN" install --frozen-lockfile &&
+      "$PNPM_BIN" audit --audit-level moderate &&
+      "$PNPM_BIN" run lint &&
+      "$PNPM_BIN" test
+  ) >"$ERR_FILE" 2>&1; then
+    echo "- $STAMP | board-room | VALIDATION FAILED, production deploy blocked: $(error_tail_summary)" >> "$LOG"
+    return 1
+  fi
+
+  echo "- $STAMP | board-room | validation passed before backup and deploy" >> "$LOG"
+  return 0
+}
+
 reconcile_board_room_events() {
   if [[ ! -x "$NODE_BIN" || ! -f "$BOARD_ROOM_DIR/scripts/reconcile-board-events.mjs" ]]; then
     echo "- $STAMP | board-room | reconciliation skipped, script or Node runtime missing" >> "$LOG"
@@ -50,21 +76,35 @@ reconcile_board_room_events() {
 }
 
 deploy_board_room() {
+  local board_http_code
+
   if [[ ! -x "$NPX_BIN" || ! -f "$BOARD_ROOM_DIR/.vercel/project.json" ]]; then
     echo "- $STAMP | board-room | deploy skipped, local Vercel link or npx missing" >> "$LOG"
     return
   fi
 
   : > "$ERR_FILE"
-  if "$NPX_BIN" --yes vercel@57.0.0 deploy --prod --yes --cwd "$BOARD_ROOM_DIR" >"$ERR_FILE" 2>&1; then
-    echo "- $STAMP | board-room | deployed production from the nightly snapshot" >> "$LOG"
-  else
+  if ! "$NPX_BIN" --yes vercel@58.4.4 deploy --prod --yes --cwd "$BOARD_ROOM_DIR" >"$ERR_FILE" 2>&1; then
     echo "- $STAMP | board-room | DEPLOY FAILED after successful backup: $(error_tail_summary)" >> "$LOG"
+    return 1
   fi
+
+  : > "$ERR_FILE"
+  board_http_code="$($CURL_BIN --silent --show-error --output /dev/null --write-out '%{http_code}' "$BOARD_ROOM_URL/" 2>"$ERR_FILE" || true)"
+  if [[ "$board_http_code" != "401" ]]; then
+    echo "- $STAMP | board-room | SECURITY SMOKE FAILED after deploy, unauthenticated page returned ${board_http_code:-no status}: $(error_tail_summary)" >> "$LOG"
+    return 1
+  fi
+
+  echo "- $STAMP | board-room | deployed production and verified unauthenticated access returns 401" >> "$LOG"
+  return 0
 }
 
 reconcile_board_room_events
 refresh_board_room_snapshot
+if validate_board_room; then
+  BOARD_ROOM_VALID=1
+fi
 
 # Nothing to do if no changes and nothing unpushed.
 if [[ -z "$(git status --porcelain)" ]] && git diff --quiet origin/main 2>/dev/null; then
@@ -115,6 +155,8 @@ else
   echo "- $STAMP | nightly-backup | committed locally, no origin remote configured" >> "$LOG"
 fi
 
-if [[ "$PUSHED" -eq 1 ]]; then
-  deploy_board_room
+if [[ "$PUSHED" -eq 1 && "$BOARD_ROOM_VALID" -eq 1 ]]; then
+  deploy_board_room || exit 1
+elif [[ "$PUSHED" -eq 1 ]]; then
+  echo "- $STAMP | board-room | production deploy skipped because validation did not pass" >> "$LOG"
 fi

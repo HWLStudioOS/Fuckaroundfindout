@@ -1,5 +1,5 @@
 {
-  "pulled_at": "2026-08-04T11:00:07.777572",
+  "pulled_at": "2026-08-04T14:00:13.796892",
   "date": "2026-08-04",
   "raw": {
     "stats_and_body": {
@@ -9498,13 +9498,13 @@
         "recordedDevices": [
           {
             "deviceId": 3615229444,
-            "imageURL": "https://res.garmin.com/en/products/010-02809-00/v/c1_01_md.png",
-            "deviceName": "Forerunner 965",
-            "category": 0
+            "imageURL": null,
+            "deviceName": "other.device",
+            "category": null
           }
         ],
         "showSelector": false,
-        "lastPrimarySyncDate": "2026-08-04"
+        "lastPrimarySyncDate": null
       },
       "heatAltitudeAcclimationDTO": null
     },
@@ -9793,9 +9793,9 @@
         "parent": false,
         "favorite": false,
         "decoDive": false,
-        "pr": false,
         "purposeful": false,
         "manualActivity": false,
+        "pr": false,
         "autoCalcCalories": false,
         "elevationCorrected": false,
         "atpActivity": false
@@ -9918,9 +9918,9 @@
         "parent": false,
         "favorite": false,
         "decoDive": false,
-        "pr": false,
         "purposeful": false,
         "manualActivity": false,
+        "pr": false,
         "autoCalcCalories": false,
         "elevationCorrected": false,
         "atpActivity": false
@@ -10047,9 +10047,9 @@
         "parent": false,
         "favorite": false,
         "decoDive": false,
-        "pr": false,
         "purposeful": false,
         "manualActivity": false,
+        "pr": false,
         "autoCalcCalories": false,
         "elevationCorrected": false,
         "atpActivity": false
@@ -10273,9 +10273,9 @@
         "parent": false,
         "favorite": false,
         "decoDive": false,
-        "pr": false,
         "purposeful": false,
         "manualActivity": false,
+        "pr": false,
         "autoCalcCalories": false,
         "elevationCorrected": false,
         "atpActivity": false
@@ -10471,9 +10471,9 @@
         "parent": false,
         "favorite": false,
         "decoDive": false,
-        "pr": false,
         "purposeful": false,
         "manualActivity": false,
+        "pr": false,
         "autoCalcCalories": false,
         "elevationCorrected": false,
         "atpActivity": false

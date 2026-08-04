@@ -2,7 +2,7 @@
 
 Current engineering handoff for Harrison, Claude, and Codex. Read this on session start. Update it only when system architecture, rollout state, automation ownership, or safety boundaries change. Daily business state stays in `today.md` and the domain files.
 
-Last updated: 3 August 2026, 21:42 BST
+Last updated: 4 August 2026, 12:45 BST
 
 ## Operating model
 
@@ -46,7 +46,7 @@ Verified on the Mac mini:
 - Vercel could not attach the repository because the Vercel account has no GitHub login connection. The existing nightly backup therefore owns the refresh and production deployment path through the locally linked Vercel project. No additional scheduler was created.
 - Morning brief, verifier, weekly review and campaign chaser source rules were corrected on 27 July. They must verify the connected Gmail identity, check live Creepers and Better at Work dashboards, validate draft claims against Gmail, use only the canonical training plan, and diagnose a failure before escalating it.
 - Publication-source precedence was corrected on 31 July after the Creepers calendar falsely contradicted content that was already live. Planning dashboards now govern planned work and queue order only. Harrison's explicit correction, the live social post or Buffer's published record governs whether content shipped. The existing Buffer MCP needs re-authentication before it can provide unattended published and failed-post checks. No new scheduler was created.
-- Buffer was audited read-only on 3 August. The existing project-local endpoint is correctly registered at `https://mcp.buffer.com/mcp`, but Claude reports `Needs authentication` and Codex reports `Not logged in`. The morning brief and verifier already contain published, scheduled and failed-post checks from commit `ff82ad4`. The remaining work is Harrison's interactive Claude OAuth tap, followed by a read-only channel inventory and execution proof. Keep `com.hwl.morning-brief`; do not add a Buffer-specific scheduler.
+- Buffer was audited read-only on 3 August. The existing project-local endpoint is correctly registered at `https://mcp.buffer.com/mcp`, but Claude reports `Needs authentication` and Codex reports `Not logged in`. The morning brief and verifier already contain published, scheduled and failed-post checks from commit `ff82ad4`. On 4 August Harrison cancelled the Buffer OAuth task. No re-authentication or channel inventory is planned. Unattended Buffer-backed published and failed-post checks stay disabled, and briefs must not claim them. Keep `com.hwl.morning-brief`; do not add a Buffer-specific scheduler.
 - The main Claude CLI OAuth session expired before the 2 August learning brief. Learning brief, weekly review, morning brief, content engine, campaign chaser and discovery scan then failed through 3 August. Current `today.md` and `this-week.md` were rebuilt manually and are not evidence of successful scheduled runs.
 - Every Claude-backed wrapper now runs a non-interactive auth preflight before touching handoff files or attempting agent work. Authentication failures exit 78, write per-job stdout and stderr, record an atomic latest-run JSON under `.jarvis-runtime/agent-runs/`, and preserve the real CLI exit code. A live weekly-review probe at 20:56 correctly exited 78 with `auth_required` and performed no workflow work. Scheduled Claude runs now use Claude's current `auto` safety mode instead of blanket permission bypass.
 - Claude login repair is currently stopped at Anthropic's hCaptcha. Until the account-owner CAPTCHA is completed, the scheduled Claude jobs will fail clearly and safely rather than produce misleading partial state. This is distinct from Buffer's own OAuth requirement.
@@ -75,7 +75,7 @@ The foundation is not yet a hard permission boundary around Claude.
 1. Revoke the old Kraken API credential and old Telegram bot token found in the ignored trading-bot archive. Keep the archive dormant until it is rebuilt from a fresh, audited environment.
 2. Complete Anthropic's hCaptcha, finish `claude auth login`, and verify `claude auth status --text` before rerunning any Claude-backed job.
 3. After authentication, run one read-only or send-free wrapper proof first, then watch the next weekday morning brief and its verifier receipt.
-4. Complete Buffer's separate interactive OAuth and perform the existing read-only channel inventory. Do not add another scheduler.
+4. Skipped. Harrison cancelled the Buffer OAuth task on 4 August. No Buffer re-authentication or channel inventory is planned.
 5. Confirm the next non-command Telegram task appears in the durable queue lifecycle and logs only its fingerprint.
 6. Add dry-run typed adapters for one reversible internal action first.
 7. Add authenticated approval ingress, execution leases, destination receipts and independent verification.

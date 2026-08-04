@@ -3092,3 +3092,31 @@
 [2026-08-04T09:29:18.427Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-08-04T10:29:18.452Z] INFO Sync start. Last: 2026-08-04T09:29:18.425Z
 [2026-08-04T10:29:18.783Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-04T11:29:18.924Z] INFO Sync start. Last: 2026-08-04T10:29:18.782Z
+[2026-08-04T11:29:19.399Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-04T12:29:19.479Z] INFO Sync start. Last: 2026-08-04T11:29:19.396Z
+[2026-08-04T12:29:21.448Z] INFO push + HWL-221 Publish or schedule the BM4 Instagram and LinkedIn carousels
+[2026-08-04T12:29:21.914Z] INFO push + HWL-222 Finish the Creepers edit due today.
+[2026-08-04T12:29:22.279Z] INFO push + HWL-223 Reply to Kerri confirming tomorrow afternoon's mobile call. 
+[2026-08-04T12:29:22.693Z] INFO push ~ HWL-200 → done
+[2026-08-04T12:29:23.478Z] INFO push + HWL-224 Buffer interactive OAuth: killed by Harrison, 4 August. Remo
+[2026-08-04T12:29:24.305Z] INFO push + HWL-225 Year One eight-page pack: dead. Open question for Harrison: 
+[2026-08-04T12:29:24.589Z] INFO Sync done. push: +5 ~1. pull: ~0.
+[2026-08-04T13:29:24.729Z] INFO Sync start. Last: 2026-08-04T12:29:24.588Z
+[2026-08-04T13:29:25.418Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-04T14:29:25.520Z] INFO Sync start. Last: 2026-08-04T13:29:25.414Z
+[2026-08-04T14:29:26.185Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-04T15:29:26.319Z] INFO Sync start. Last: 2026-08-04T14:29:26.183Z
+[2026-08-04T15:29:27.143Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-04T16:29:27.252Z] INFO Sync start. Last: 2026-08-04T15:29:27.140Z
+[2026-08-04T16:29:27.737Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-04T17:29:27.807Z] INFO Sync start. Last: 2026-08-04T16:29:27.735Z
+[2026-08-04T17:29:28.229Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-04T18:29:28.326Z] INFO Sync start. Last: 2026-08-04T17:29:28.227Z
+[2026-08-04T18:29:28.873Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-04T19:29:29.004Z] INFO Sync start. Last: 2026-08-04T18:29:28.870Z
+[2026-08-04T19:29:29.565Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-04T20:29:29.704Z] INFO Sync start. Last: 2026-08-04T19:29:29.562Z
+[2026-08-04T20:29:30.013Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-04T21:29:30.118Z] INFO Sync start. Last: 2026-08-04T20:29:30.011Z
+[2026-08-04T21:29:30.449Z] INFO Sync done. push: +0 ~0. pull: ~0.

@@ -14,10 +14,10 @@ client: Creepers
 Last action: David in contact (the "silent since assignment" claim was inaccurate). Current rough-cut status: TO CONFIRM with Harrison.
 Next move: Harrison to confirm where the rough cut actually is. Do NOT auto-push "chase David" or "David silent / overdue".
 Blocker: none confirmed. Editing in progress with David.
-Status: in progress. The earlier "blocked / overdue / silent" framing was a false negative from missing chat evidence. STILL OPEN on this side: Michael Buck factual checks (see below), independent of David.
+Status: in progress. The earlier "blocked / overdue / silent" framing was a false negative from missing chat evidence. Michael Buck's factual checks are resolved. The only unknown is the actual rough-cut state.
 ```
 
-**Still genuinely open (Harrison's side, not David's):** the two factual checks before the film posts: (1) exact RHS award wording for the Addleshaw Goddard garden, (2) Baz Grainger garden name ("Killick Garden" vs "A Seed In Time"). These are real, confirm with Michael Buck. Everything about David being "silent / overdue" was wrong.
+**Factual checks closed, 3 August:** the Addleshaw Goddard: Flourish in the City garden won a Gold medal and RHS Chelsea Small Garden of the Year. Baz Grainger's garden is **The Killik & Co 'A Seed in Time' Garden**, also a Gold medal winner. Sources: the official RHS 2026 garden and awards pages. Do not reopen these checks.
 
 # Creepers Chelsea — hero film
 
@@ -29,13 +29,13 @@ Pacing: slow, documentary, no music-led cutting, people and process over plants.
 
 ## Medal results (from voice note 2)
 
-- **Addleshaw Goddard garden** (Joe & Laura Carey): Gold, plus best in category
-- **Baz Grainger / Landform**: Gold, Main Avenue
+- **Addleshaw Goddard: Flourish in the City** (Joe and Laura Carey): Gold, plus RHS Chelsea Small Garden of the Year
+- **The Killik & Co 'A Seed in Time' Garden** (Baz Grainger / Landform): Gold, Show Garden
 - **Catherine MacDonald / Boodles**: Silver-Gilt
 
-Two things to confirm before it posts:
-1. Michael said "best in show category." Confirm the exact RHS wording. Best in Show is the single top award across the whole show, so this is more likely "Best [category] Garden" or "Best Construction." Don't publish "Best in Show" unless that is literally what it won.
-2. The contractor brief called Baz's garden "A Seed In Time," Michael called it "the Killick Garden." Pin the right name.
+Resolved wording for publication:
+1. Use **RHS Chelsea Small Garden of the Year**, not “Best in Show”.
+2. Use **The Killik & Co 'A Seed in Time' Garden**. “Killick Garden” is incorrect.
 
 ---
 

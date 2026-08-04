@@ -3,4 +3,8 @@
 /business/clients/baw/production/better-moments-02-roger-martin-2026-07-23/audio/roger-better-moments-02-master.wav filter=lfs diff=lfs merge=lfs -text
 /business/clients/baw/production/better-moments-02-roger-martin-2026-07-23/audio/roger-better-moments-02-premaster.wav filter=lfs diff=lfs merge=lfs -text
 /business/clients/baw/production/better-moments-02-roger-martin-2026-07-23/video/BetterAtWork-BetterMoments-02-RogerMartin-YouTube.mp4 filter=lfs diff=lfs merge=lfs -text
+/business/clients/baw/production/better-moments-04-laura-gassner-otting-2026-08-03/audio/BetterAtWork-BetterMoments-04-LauraGassnerOtting-Master.wav filter=lfs diff=lfs merge=lfs -text
+/business/clients/baw/production/better-moments-04-laura-gassner-otting-2026-08-03/audio/BetterAtWork-BetterMoments-04-LauraGassnerOtting.mp3 filter=lfs diff=lfs merge=lfs -text
+/business/clients/baw/production/better-moments-04-laura-gassner-otting-2026-08-03/video/BetterAtWork-BetterMoments-04-LauraGassnerOtting-RoughCut.mp4 filter=lfs diff=lfs merge=lfs -text
+/business/clients/baw/production/better-moments-04-laura-gassner-otting-2026-08-03/video/BetterAtWork-Laura-HowAreYou-Teaser.mp4 filter=lfs diff=lfs merge=lfs -text
 *.pdf binary

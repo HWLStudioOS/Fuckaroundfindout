@@ -455,3 +455,14 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 - 2026-08-02 06:26  | health-sync | OK 2026-08-02: RHR 51, sleep 7.4h (score 78), HRV 54 BALANCED, readiness None
 - 2026-08-02 11:01  | health-sync | OK 2026-08-02: RHR 48, sleep 7.3h (score 85), HRV 71 BALANCED, readiness 51
 - 2026-08-02 14:00  | health-sync | OK 2026-08-02: RHR 48, sleep 7.3h (score 85), HRV 71 BALANCED, readiness 51
+- 2026-08-02 22:43 BST | nightly-backup | committed + pushed to origin
+- 2026-08-02 22:43 BST | board-room | deployed production from the nightly snapshot
+- 2026-08-03 06:27  | health-sync | OK 2026-08-03: RHR 47, sleep 7.3h (score 85), HRV 71 BALANCED, readiness None
+- 2026-08-03 11:00  | health-sync | OK 2026-08-03: RHR 46, sleep 7.1h (score 88), HRV 72 BALANCED, readiness 71
+- 2026-08-03 14:00  | health-sync | OK 2026-08-03: RHR 46, sleep 7.1h (score 88), HRV 72 BALANCED, readiness 75
+2026-08-03T20:56:31+0100 | weekly-review | AUTH_REQUIRED | exit=78; run=20260803T205630+0100-95712; Claude CLI is not authenticated. Harrison must run 'claude auth login' interactively, then verify 'claude auth status --text'.; logs=agents/logs/weekly-review.stdout.log,agents/logs/weekly-review.stderr.log
+- 2026-08-03 22:30 BST | board-room | validation passed before backup and deploy
+- 2026-08-03 22:30 BST | nightly-backup | BACKUP BLOCKED, staged secret scan failed: 10:30PM INF 0 commits scanned. 10:30PM INF scanned ~36724251 bytes (36.72 MB) in 824ms 10:30PM WRN leaks found: 1
+2026-08-04T06:30:59+0100 | morning-brief | AUTH_REQUIRED | exit=78; run=20260804T063059+0100-41110; Claude CLI is not authenticated. Harrison must run 'claude auth login' interactively, then verify 'claude auth status --text'.; logs=agents/logs/morning-brief.stdout.log,agents/logs/morning-brief.stderr.log
+- 2026-08-04 06:31  | health-sync | OK 2026-08-04: RHR None, sleep 7.1h (score 88), HRV 72 BALANCED, readiness 73
+- 2026-08-04 11:00  | health-sync | OK 2026-08-04: RHR 50, sleep 7.5h (score 90), HRV 61 BALANCED, readiness 20

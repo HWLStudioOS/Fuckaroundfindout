@@ -66,16 +66,15 @@ Finish the Creepers and Better at Work creative lanes, convert every other clien
 
 ## Awaiting or one-tap gates
 
-- Harrison: approve and send the Danny Wicks boundary note. The commercial scope itself remains open. <!-- linear:HWL-200 -->
-- Kerri and Emma: confirm the first ET site, date and production plan if still needed. Finance admin is current and this is not an invoice chase. <!-- linear:HWL-191 -->
-- Harrison: complete interactive Buffer OAuth for the existing project-local Claude MCP. Then run the read-only channel inventory and execution proof. <!-- linear:HWL-202 -->
+- Danny Wicks: respond to the boundary note Harrison sent on 4 August at £800 plus VAT. The ball is with Danny; no further move from our side. <!-- linear:HWL-200 -->
+- Kerri and Emma: first ET shoot day is booked for 11 August. Kerri calls Harrison Wednesday afternoon (mobile). Call goal: lock the PO route, then raise the first invoice once Emma's window-one budget confirms. Not an invoice chase. <!-- linear:HWL-191 -->
 - Better at Work: approve the protected brand and site preview before any production deployment. The wider Season 5 lane remains approval-gated. <!-- linear:HWL-190 -->
 - Anna and Sarah-Louise: exact Surrey Season 4 shoot date.
 - Anna: revised direction for the Pro Landscaper advert, due 19 August.
 - Michael and Sam: choose a replacement advert image after the Creepers browse library is shared.
 - Cathal: Acast payout account details.
 - Helen Tupper: outcome of her conversation with Sarah about the Squiggly range.
-- Laurence: confirm whether the finished Year One pack replaces the promised Looms, or whether Harrison records the three short walkthroughs.
+- Year One: the eight-page pack is dead per Harrison, 4 August. Remaining question is whether the three Looms get recorded or the obligation closes entirely.
 
 ## Scheduled later
 
@@ -104,3 +103,5 @@ Finish the Creepers and Better at Work creative lanes, convert every other clien
 - Acast and Tipalti setup is complete on Harrison's side. Cathal owns the remaining payout details.
 - The Squiggly range was sent. The next move is Helen and Sarah's response, not another pitch.
 - No client message, advert, post, upload, share or production deployment was executed during this settlement pass.
+- 4 August: Better Moments 4 is scheduled on Acast and YouTube for Thursday 12:30 by Harrison. Social carousels remain on the publish checklist.
+- 4 August: Harrison sent the Danny boundary note at £800 plus VAT and replied to Kerri. Buffer OAuth was cancelled outright. The Year One eight-page pack is dead.

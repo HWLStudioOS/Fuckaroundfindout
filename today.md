@@ -1,63 +1,58 @@
 ---
-date: 2026-08-03
-generated: manual settlement pass 12:45
-financial_truth_updated: 2026-08-03 20:38 BST
+date: 2026-08-04
+generated: Claude catch-up pass 12:40 BST from Harrison's live status
+financial_truth_updated: 2026-08-04 10:46 BST
 ---
 
-# Today, Monday 3 August 2026
+# Today, Tuesday 4 August 2026
 
 ## Pulse
 
-This is a production and settlement day. Creepers needs the Design Journal advert moved from reference to a proper proof. Better at Work needs Better Moments 4 plus the Season 5 brand and website lane moved towards final. The remaining client conversations are now drafts or explicit waits, not vague obligations. Harrison confirmed at 20:38 that invoicing and finance admin are current. The old finance carry-over is closed.
+Ship day, not a systems day. Better Moments 4 is in final export at about six minutes after Laura's changes. The Creepers edit and Michael's Sandringham stock update both go today. Kerri moved today's 4pm catch-up to a mobile call tomorrow afternoon. Everything else sits behind an external gate or later in the week.
 
 ## Today
 
-- [x] Finish and internally proof the Creepers Design Journal advert. The press proof and two review variants are complete. Nothing has been sent. <!-- linear:HWL-203 -->
-- [x] Complete and QC the Better Moments 4 Laura Gassner Otting package and its handoff checks. <!-- linear:HWL-204 -->
-- [x] Finish this session's Better at Work brand identity, component library and real public-site draft. The protected Vercel preview is ready and production is unchanged. <!-- linear:HWL-205 -->
-- [ ] Verify whether Michael's Sandringham stock update is live. Build it from Sandrine's information only if it is still missing. <!-- linear:HWL-187 -->
-- [ ] Close the fee and delivery scope for Danny's 30 July shoot before starting a substantial edit. The £1,250 plus VAT boundary note is drafted and waiting for Harrison's tap. <!-- linear:HWL-200 -->
+- [x] Export the Better Moments 4 final cut (about 6 min) and audio. Scheduled on Acast and YouTube for Thursday 12:30. <!-- linear:HWL-204 -->
+- [ ] Publish or schedule the BM4 Instagram and LinkedIn carousels per the publish checklist, after the eight-slide scan. Carousel artwork is fixed in Figma. <!-- linear:HWL-221 -->
+- [ ] Finish the Creepers edit due today. <!-- linear:HWL-222 -->
+- [ ] Finish and ship Michael's Sandringham stock update. <!-- linear:HWL-187 -->
+- [x] Reply to Kerri confirming tomorrow afternoon's mobile call. Sent this morning. <!-- linear:HWL-223 -->
 
-## Financial truth, corrected by Harrison
+## Moved or closed today
 
-- [x] Close the stale Monzo Flex carry-over. It is superseded by Harrison's 3 August confirmation that finance admin is current, not recorded here as evidence of a particular payment event. <!-- linear:HWL-192 -->
-- [x] Close the stale Amex, Capital on Tap and PAYE/NIC check. No live finance-admin action remains from the 31 July snapshot. Exact balances were not restated. <!-- linear:HWL-195 -->
-- [x] Close the stale £6,441 tax-buffer task. That was a 31 July snapshot, not a current balance or a live action after Harrison's correction. <!-- linear:HWL-196 -->
-- About **£7,000 is currently owed across Better at Work and Creepers combined**. Harrison did not state the client split.
-- About **£7,000 from LOR is expected during August**.
-- That is the full current invoice and receivables picture. Do not resurrect the older £21,000 to £22,000 unbilled estimate.
+- [x] Danny Wicks: boundary note sent at £800 plus VAT. The ball is with Danny. No further move from our side until he responds on payment. <!-- linear:HWL-200 -->
+- [x] Buffer interactive OAuth: killed by Harrison, 4 August. Removed from all waiting lists. Briefs must not rely on Buffer-backed publish checks. <!-- linear:HWL-224 -->
+- [x] Year One eight-page pack: dead. Open question for Harrison: are the three Looms still being recorded, or is the whole obligation closed? <!-- linear:HWL-225 -->
 
-## Prepared, waiting on one tap
+## Waiting on one tap
 
-- Danny Wicks: approve and send the £1,250 plus VAT event boundary note.
-- LOR: no invoice or finance-admin chase is live. About £7,000 is expected during August. Reuse the production questions in the prepared follow-up only if the site and date still need confirming.
-- Year One: choose whether the finished eight-page pack replaces the three promised Looms, or whether the Looms are recorded this week.
-- Buffer: complete interactive OAuth for the existing Claude MCP. No new monitor or scheduler is required.
-- Better at Work: approve the protected brand and site preview before any production deployment. <!-- linear:HWL-190 -->
+- Better at Work: approve the protected brand and site preview. Design work continues; Claude design review requested and queued. <!-- linear:HWL-190 -->
 
 ## Awaiting response
 
-- Anna and Sarah-Louise: exact Surrey Season 4 shoot date.
-- Anna: revised direction for the Pro Landscaper advert.
-- Michael and Sam: image choice after the Creepers browse library is shared.
-- Kerri and Emma: Early Talent site availability and production timing only. Finance admin is current.
-- Cathal: Acast payout account details.
+- Danny Wicks: payment move after the £800 plus VAT note.
+- Kerri (LOR): mobile call tomorrow afternoon. Goal: lock the 11 August first-shoot-day admin and PO route, then raise the first invoice. Emma's window-one budget confirmation is the gate.
+- Michael and Sam: replacement image choice for the Creepers Design Journal advert. Only B (Ferndale olive) is press-ready. A and C need their original photographs before press supply.
+- Cathal: photos from his week away for the personal post. Acast payout account details still open.
+- Anna: revised Pro Landscaper direction. Anna and Sarah-Louise: exact Surrey Season 4 shoot date.
+- Creepers and LOR: this week's shoot timing.
 - Helen Tupper: outcome of her conversation with Sarah about the Squiggly range.
 
-## In flight
+## Content runway this week
 
-- Creepers: Design Journal proof, asset-library plan and pot-recycling fallback package are complete internally. Replacement-image and send approval remain external gates.
-- Better at Work: Better Moments 4 is complete and QC'd. The brand system and protected website preview are ready for review. Production is unchanged.
-- Golf: a rights-cleared flyover pilot brief exists, but the old outreach batch stays killed and no club is being contacted.
+- Tuesday: BM4 carousels (IG and LinkedIn).
+- Wednesday: BM4 teaser to BaW Instagram plus Cathal LinkedIn version. Old Laura clips held as backup.
+- Thursday: BM4 launch, 12:30 BST on Acast and YouTube, social at 12:45, story at 15:30.
+- Friday: Better Bits with the live episode link.
 
 ## Standing
 
-Health: Long + Strong week 2 prescribes 28 km across four runs, Strength A and Strength B. Monday is 6 km easy plus six strides. Missed sessions are not crammed.
+Health: Long + Strong week 2 prescribes 28 km across four runs, Strength A and Strength B. Missed sessions are not crammed.
 
-Money: invoicing and finance admin are current. About £7,000 is owed across Better at Work and Creepers, with about another £7,000 expected from LOR during August. Exact bank, card and reserve balances were not refreshed.
+Money: finance admin current per this morning's money commits. About £7,000 owed across Better at Work and Creepers, about £7,000 more expected from LOR during August. Idle cash routed to protected savings per `money/investment-strategy-2026-08-03.md`.
 
-Clients: Russell Beck and Laura Gassner Otting packages are complete. The Creepers advert proof is complete. LOR is waiting after one consolidated draft. Danny remains blocked on written scope. Better at Work production remains unchanged until the preview is approved.
+System: scheduled Claude agents still blocked on the interactive CLI login (hCaptcha). Morning brief exited 78 at 06:30 today. Kraken and Telegram credential revocation is with Harrison at the providers. Buffer OAuth is cancelled, not pending.
 
 ## Lens
 
-Finish the two creative lanes. Put every external dependency behind one clear tap or one named owner. Do not turn this into another systems day.
+Ship the three deliverables, send the Kerri reply, then actually chill. No new lanes today.

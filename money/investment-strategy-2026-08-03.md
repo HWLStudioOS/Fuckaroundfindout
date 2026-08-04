@@ -2,9 +2,10 @@
 
 - **Decision date:** 3 August 2026
 - **Research cut-off:** US market close, 3 August 2026
+- **Latest cash update:** 4 August 2026 morning
 - **Target date:** 3 August 2027
 - **Status:** decision-ready brief, not standing authority, no trade or transfer has been made
-- **Assumptions:** UK tax resident, "6000k" means £6,000, and the £50,000 target means unrestricted cash economically attributable to Harrison, in addition to company tax money
+- **Assumptions:** UK tax resident, "6000k" meant the originally reported £6,000 reserve, since superseded by the £9,200 balance reported on 4 August, and the £50,000 target means unrestricted cash economically attributable to Harrison, in addition to company tax money
 
 Every initial movement of more than £40 still requires Harrison's one-tap approval under the repo rules.
 
@@ -26,10 +27,12 @@ This is already an aggressive growth portfolio. It is effectively 100% equities 
 
 - HWL Studio Limited is the trading company. Harrison is its sole director and shareholder.
 - Invoicing and finance administration are current.
-- About £7,000 is owed across Better at Work and Creepers.
+- £5,340 from Creepers landed on 4 August. Harrison moved £4,000 into the combined company tax reserve.
+- The combined VAT and Corporation Tax reserve is now £9,200. Its internal liability split is not reconciled.
+- £1,800 from Better at Work is expected on 4 August but had not landed at the morning update.
 - About £7,000 from LOR is expected during August 2026.
-- The £14,000 is company cash when received. It is not £14,000 of personal investment capital.
-- The latest stated tax reserve is about £6,000. The exact split between VAT, Corporation Tax and any PAYE or NIC is unknown.
+- The remaining expected £8,800 is company cash when received. It is not personal investment capital.
+- Harrison's rough first-year revenue estimate is £100,000. He expects costs and qualifying asset relief may bring profit toward £75,000, but £75,000 is not yet verified taxable profit.
 - Exact current bank balances, card balances, family loans, monthly fixed costs, Vanguard balance, ISA subscriptions and existing crypto holdings are not refreshed.
 - VAT registration took effect on 30 June 2026. The Cash Accounting Scheme status and first payment date need confirmation.
 - The existing Vanguard Stocks and Shares ISA is personal and active. The repo historically names VUAG, but the live holding and value need checking.
@@ -340,15 +343,15 @@ An HWL employer contribution is a company payment, not personal G. Once it lands
 
 ## Tax reserve, make it work without risking it
 
-The £6,000 reserve can earn interest. It cannot earn enough to justify market risk.
+The reserve has risen from the originally reported £6,000 to £9,200. It can earn interest. It cannot earn enough to justify market risk.
 
-- Revolut Business Savings advertises up to 3.3% AER depending on plan. At 3.3%, £6,000 earns about £198 gross in a full year.
-- Shawbrook Easy Access Business paid 3.86% AER on 3 August, with a £1,000 minimum and normal next-working-day withdrawals. At that rate, £6,000 earns about £231.60 gross, or £19.30 a month before Corporation Tax.
-- The difference is only £33.60 a year on £6,000. Clean access and verified FSCS eligibility matter more than rate chasing.
+- Revolut Business Savings advertises up to 3.3% AER depending on plan. At 3.3%, £9,200 earns about £303.60 gross in a full year.
+- Shawbrook Easy Access Business paid 3.86% AER on 3 August, with a £1,000 minimum and normal next-working-day withdrawals. At that rate, £9,200 earns about £355.12 gross, or £29.59 a month before Corporation Tax.
+- The difference is only £51.52 a year on £9,200. Clean access and verified FSCS eligibility matter more than rate chasing.
 - FSCS deposit protection is now £120,000 per eligible legal entity, per authorised banking institution. HWL Studio normally has its own limit if eligible. The limit aggregates every account sharing a banking licence, including deposits reached through Revolut or Trading 212. Check the underlying bank, not only the consumer brand.
 - Savings interest belongs to HWL Studio, must be recorded in Xero and affects the Corporation Tax calculation.
 
-Tomorrow's rule:
+Next check:
 
 1. Confirm whether the current Revolut pot is an actual Business Savings deposit.
 2. Record its AER, named deposit provider and FSCS information sheet.
@@ -363,6 +366,7 @@ No investment order comes before this list.
 - [ ] Record Starling business operating cash.
 - [ ] Record the tax reserve balance and its current AER.
 - [ ] Pull VAT due, Corporation Tax provision, PAYE and NIC from Xero or Litchfields.
+- [ ] Pull valid VAT invoices for company-owned camera and production equipment still held at 30 June 2026, plus potentially eligible services from the prior six months, for Litchfields' first-return review.
 - [ ] Record every business and personal card balance, APR and due date.
 - [ ] Record personal, joint and other unrestricted savings.
 - [ ] Record any outstanding family loan and Director's Loan Account balance.
@@ -379,19 +383,21 @@ No investment order comes before this list.
 
 Draft question for Litchfields:
 
-> Please confirm, using the current Xero position: the VAT amount and payment date, Corporation Tax provision and due date, PAYE or NIC due, current distributable reserves, and a safe range, including zero, for an employer SIPP contribution from HWL Studio. Please check every pension input, carry-forward, the 13-week cash forecast, the wholly and exclusively test and accounting-period timing. Please also confirm whether VAT Cash Accounting is active.
+> Please confirm, using the current Xero position: the VAT amount and payment date, including eligible pre-registration input VAT on company equipment still held at 30 June 2026; Corporation Tax provision and due date; PAYE or NIC due; current distributable reserves; and a safe range, including zero, for an employer SIPP contribution from HWL Studio. Please check every pension input, carry-forward, the 13-week cash forecast, the wholly and exclusively test and accounting-period timing. Please also confirm whether VAT Cash Accounting is active.
 
 Sending that message still requires Harrison's approval.
 
-## When the roughly £14,000 lands
+## When the remaining roughly £8,800 lands
 
 Do not pre-allocate it. Run each receipt through the company waterfall.
 
 Arithmetic only, not a forecast:
 
-- If £14,000 is net revenue and a 25% reserve is applied, at most £10,500 remains before operating costs and extraction.
-- If £14,000 is VAT-inclusive, removing £2,333 of VAT and reserving 25% of the £11,667 net amount leaves about £8,750 before operating costs and extraction.
+- If £8,800 is net revenue and a 25% Corporation Tax control is applied, at most £6,600 remains before operating costs and extraction. Any VAT charged on top is reserved separately.
+- If £8,800 is VAT-inclusive, removing £1,466.67 of VAT and reserving 25% of the £7,333.33 net amount leaves about £5,500 before operating costs and extraction.
 - If VAT is added on top, the VAT receipt is still not free cash.
+
+Those residuals are receipt-level arithmetic, not deployable cash. They may all be needed to cure the wider VAT or Corporation Tax shortfall, fund PAYE or NIC, preserve the operating floor and pay due company cards. A company receipt cannot clear a personal card without a legitimate reimbursement, salary, dividend or Director's Loan Account movement, followed by any required personal tax provision.
 
 Once Litchfields or current accounts confirm a lawful personal distribution, add the net personal amount to C, keep P0 fixed, and recalculate M using the remaining scheduled transfers. Do not send a guessed percentage to Kraken, Trading 212 or Vanguard.
 
@@ -402,13 +408,14 @@ Once Litchfields or current accounts confirm a lawful personal distribution, add
 - Complete the balance and ISA ledger.
 - Put the company tax reserve into interest-bearing, eligible protected cash.
 - Clear due interest-bearing card balances.
+- Match each card to its legal owner. Company cash clears company debt. Personal debt is cleared only from properly extracted or reimbursed personal cash.
 - Establish P0, C, N, M, S, G and A, then set the recurring cash transfer.
 - Read SpaceX earnings and wait through the unlock.
 - Start the first BTC tranche only if the shortfall is positive and every test is green.
 
 ### August to October 2026
 
-- Run the receipt waterfall on the Better at Work, Creepers and LOR money as it lands.
+- Reconcile the landed Creepers receipt. Run the receipt waterfall on Better at Work and LOR as each payment lands.
 - Make up to eight scheduled BTC purchases, only while the shortfall is positive and every test remains green.
 - Build SPCX only if the 10 August thesis review passes, the shortfall is positive and every test is green.
 - Direct G to the most underweight sleeve, with the global fund as the default.

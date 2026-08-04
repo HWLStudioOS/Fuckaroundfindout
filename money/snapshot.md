@@ -1,20 +1,24 @@
 # Financial Snapshot
 
-## Current override, 3 August 2026
+## Current override, 4 August 2026
 
-Harrison confirmed that invoicing and finance administration are up to date. The current client-cash picture is:
+Harrison confirmed that invoicing and finance administration remain up to date. The current client-cash picture is:
 
 | Source | Current position |
 |---|---:|
-| Better at Work and Creepers, combined | About £7,000 owed now |
+| Creepers | £5,340 received on 4 August |
+| Better at Work | £1,800 expected on 4 August, not yet received at the morning update |
 | LOR | About £7,000 expected during August |
-| **Known near-term client cash** | **About £14,000** |
+| **Expected but unreceived client cash** | **About £8,800** |
+| Combined VAT and Corporation Tax reserve | £9,200 after a £4,000 transfer from the Creepers receipt |
 
-The split between Better at Work and Creepers was not stated. No other current receivable, unbilled-work obligation or finance-admin task was reported. Exact bank, card, PAYE/NIC and reserve balances were not refreshed, so this file does not infer them.
+No other current receivable, unbilled-work obligation or finance-admin task was reported. Exact operating-bank, card, PAYE/NIC, VAT and Corporation Tax balances were not reconciled, so this file does not infer them. Harrison's £100,000 revenue estimate is a planning figure. His view that costs and asset relief may bring profit toward £75,000 is not a verified taxable-profit calculation.
 
 ## Superseded snapshot, 27 July 2026
 
-> Everything below is retained as a historical cash-control snapshot. It was not reconciled accounts. It is superseded for current action by Harrison's 3 August correction. Do not reopen its payment, card, VAT-letter or tax-buffer tasks without fresh evidence.
+> Everything below is retained as a historical cash-control snapshot. It was not reconciled accounts. It is superseded for current action by Harrison's dated corrections, most recently on 4 August. Do not reopen its payment, card, VAT-letter or tax-buffer tasks without fresh evidence.
+
+<!-- BEGIN HISTORICAL RECORD: NEVER EXECUTE OR EXTRACT AS LIVE TASKS -->
 
 ### Historical cash position
 
@@ -82,3 +86,5 @@ Tight, not insolvent. The five-day problem is sequencing, especially Monzo Flex.
 - VAT registration number and effective date in the physical HMRC letter.
 
 Those four checks belong in one finance-admin pass, not as repeated daily nags.
+
+<!-- END HISTORICAL RECORD -->

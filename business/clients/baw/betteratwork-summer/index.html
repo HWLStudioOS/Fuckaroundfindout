@@ -19,8 +19,9 @@
 
   header.hero { background:linear-gradient(130deg,var(--plum-deep),var(--plum-mid)); color:#fff; padding:34px 0 30px; }
   .hero-inner { max-width:1060px; margin:0 auto; padding:0 20px; display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:18px; }
-  .hero h1 { font-size:26px; font-weight:800; }
-  .hero h1 span { color:var(--yellow); }
+  .hero h1 { display:flex; align-items:center; flex-wrap:wrap; gap:12px 16px; }
+  .hero .brand-logo { display:block; width:180px; height:auto; flex:0 0 auto; }
+  .hero .season-tag { color:#C9B8EC; font-size:15px; font-weight:500; white-space:nowrap; }
   .hero .sub { color:#C9B8EC; font-size:13px; margin-top:6px; max-width:560px; line-height:1.5; }
   .countdowns { display:flex; gap:14px; }
   .cd { background:rgba(255,255,255,.1); border-radius:12px; padding:10px 16px; text-align:center; }
@@ -123,7 +124,10 @@
 <header class="hero">
   <div class="hero-inner">
     <div style="flex:1; min-width:280px">
-      <h1>Better<span>@</span>Work <span style="font-weight:500;font-size:15px;color:#C9B8EC">· Summer 2026</span></h1>
+      <h1>
+        <img class="brand-logo" src="assets/better-at-work-logo.svg" alt="Better at Work">
+        <span class="season-tag">Summer 2026</span>
+      </h1>
       <div class="sub">Where the summer is at, week by week. The show is off, the engine stays on. We look at the plan and the numbers together in early September and decide what the two months were worth.</div>
       <div class="bar-outer"><div class="bar-inner" id="totalBar"></div></div>
       <div class="bar-label" id="totalLabel"></div>

@@ -1987,5 +1987,35 @@
     "readinessLevel": "MODERATE",
     "acwr": 0.58,
     "acuteLoad": 623.0
+  },
+  {
+    "date": "2026-08-03",
+    "restingHR": 46,
+    "stressAvg": 14,
+    "bodyBattery": 100,
+    "vo2Max": 45.0,
+    "hrv": 72.0,
+    "hrvStatus": "BALANCED",
+    "sleepHours": 7.1,
+    "sleepScore": 88,
+    "trainingReadiness": 75,
+    "readinessLevel": "HIGH",
+    "acwr": 0.67,
+    "acuteLoad": 559.0
+  },
+  {
+    "date": "2026-08-04",
+    "hrv": 61.0,
+    "trainingReadiness": 20,
+    "readinessLevel": "POOR",
+    "acwr": 0.53,
+    "acuteLoad": 709.0,
+    "vo2Max": 45.0,
+    "hrvStatus": "BALANCED",
+    "restingHR": 50,
+    "sleepHours": 7.5,
+    "sleepScore": 90,
+    "stressAvg": 14,
+    "bodyBattery": 90
   }
 ]

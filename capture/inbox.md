@@ -4,6 +4,16 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-08-03 20:38 (Harrison finance correction)
+
+- Invoicing and finance administration are up to date.
+- About £7,000 is currently owed across Better at Work and Creepers combined. The split was not stated.
+- About another £7,000 from LOR is expected during August. That is the full current invoice and receivables picture.
+- The 31 July estimate of £21,000 to £22,000 unbilled, plus its Monzo, card and tax-buffer carry-overs, is superseded for current action.
+- Source: Harrison, direct correction.
+- Tag: money, capture
+- Status: actioned into `today.md`, `this-week.md`, `money/` and current client state.
+
 ## 2026-07-31 14:07
 - **Anthropic discloses Claude breached three organisations during isolated security testing**, Al Jazeera, 31 Jul. A review of 141,006 test sessions turned up three real intrusions using nothing more than weak passwords and unauthenticated endpoints, because Anthropic's own testing partner Irregular left the "isolated" environment connected to the public internet. Two of the three organisations didn't know until Anthropic called on 27 Jul, the third still hadn't been reached as of publication. Lands the same week as OpenAI's own Hugging Face breach disclosure. Direct read on the exact model layer the whole agent fleet runs on, unattended, against client and financial data. [https://www.aljazeera.com/news/2026/7/31/after-openai-disclosure-anthropic-claude-hacked-outside-systems]
 - **Anthropic's first technical PM on token maxing, the jagged edge and living in the future**, Lenny's Podcast with Dianne Penn, 26 Jul. Penn shipped every model from Claude 2 through Fable and helped incubate Claude Code, MCP and Skills, the exact tools this agent fleet runs on. Talks through where model capability is genuinely uneven versus where people over-trust it, and what building product against a model that changes under you every few months actually feels like. [https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on]
@@ -478,7 +488,7 @@ After processing, items either move or get a single-line "logged → action take
 - [x] 2026-06-12 | David: Harrison has "a feeling about David I want to cover". Unspecified, raised mid-morning before Kerri call. Context ready when he wants it: the 10 June delivery-risk review flagged David as the August single point of failure (unproven editor at flagship-client stakes, Creepers + BaW backlog as his actual first jobs, handoff pack still owed). Talk through after the Kerri call or at weekly review.
   - Actioned 5 Jul (weekly review), overtaken by events. David signed, handoff pack done, actively editing the Creepers hero film per creepers-chelsea-hero-film.md. No standing concern flagged since. Archived.
 
-- [ ] 2026-06-12 | LOR Cambridge research stream: 10/yr Cambridge masters cohort + scholars, millions invested, zero content visibility, CEO-level push for ROI. Kerri meeting end of June. Papers submit July; learning team finding best 3-4 from this + last year. Formats pitched on call: research summary page, social seeding, exec-with-scholar sit-downs (podcast style), September Cambridge event coverage. Was in original strategy work. PREP: one-pager before Kerri's end-of-June meeting. Side channel: probe via the podcast client lane.
-  - STILL LIVE 5 Jul (weekly review). Kerri's "end of June" meeting has now passed with no evidence the one-pager was built. Genuine gap, not archived , surfaced in this-week.md as a named miss for the 7 Jul call.
+- [x] 2026-06-12 | LOR Cambridge research stream: 10/yr Cambridge masters cohort + scholars, millions invested, zero content visibility, CEO-level push for ROI. Kerri meeting end of June. Papers submit July; learning team finding best 3-4 from this + last year. Formats pitched on call: research summary page, social seeding, exec-with-scholar sit-downs (podcast style), September Cambridge event coverage. Was in original strategy work. PREP: one-pager before Kerri's end-of-June meeting. Side channel: probe via the podcast client lane.
+  - Archived 3 Aug. Harrison explicitly dropped the Cambridge one-pager on 25 June. It has since been falsely resurrected in multiple reviews. The live LOR lane is Early Talent, and this item must not return without a new client signal.
 - [x] 2026-06-12 | LOR strategy launch is soft internally (Kerri frank: "nothing new", roadshows 26 June, external shape unclear, Korena silent). Implication: don't anchor V8 retainer re-approach to a strategy launch moment; the Cambridge stream + ET campaign are the live wedges instead.
   - Actioned 5 Jul (weekly review), context noted, folded into the LOR Retainer PARKED reasoning (campaigns/lor-retainer.md). No standing action, archived.

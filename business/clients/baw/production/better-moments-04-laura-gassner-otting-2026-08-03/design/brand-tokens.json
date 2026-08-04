@@ -1,0 +1,44 @@
+{
+  "name": "Better at Work original-logo identity, August 2026",
+  "source": {
+    "figmaFileKey": "REDACTED",
+    "approvedLogoBoard": "130:251",
+    "utilitiesRoot": "115:250",
+    "logo": {
+      "file": "design/better-at-work-logo.svg",
+      "viewBox": [0, 0, 827.3, 417.5],
+      "sha256Trimmed": "d096bd164e714c784289dba52fe096b958a1b04016d0d8f9464879fcadabe65c",
+      "includesTrademark": true,
+      "workingMinimumPixels": 200
+    }
+  },
+  "colours": {
+    "paper": "#F4F0E7",
+    "paperDeep": "#E9E2D5",
+    "ink": "#171817",
+    "inkMuted": "#5B5A55",
+    "warmWhite": "#FFFDF8",
+    "yellow": "#F6DF4F",
+    "violet": "#6A43D5",
+    "violetDeep": "#3C266E",
+    "coral": "#EF6B68",
+    "green": "#26735D",
+    "blue": "#68C5DC"
+  },
+  "type": {
+    "editorial": "Newsreader",
+    "body": "Manrope",
+    "utility": "IBM Plex Mono Medium"
+  },
+  "radii": {
+    "pill": 999,
+    "card": 24
+  },
+  "formats": {
+    "instagramCarousel": [1080, 1350],
+    "linkedinCarousel": [1200, 1500],
+    "instagramLaunch": [1080, 1350],
+    "linkedinLaunch": [1200, 1500],
+    "youtubeThumbnail": [1280, 720]
+  }
+}

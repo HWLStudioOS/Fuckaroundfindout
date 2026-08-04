@@ -3020,3 +3020,75 @@
 [2026-08-02T14:33:08.445Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-08-02T19:14:13.836Z] INFO Sync start. Last: 2026-08-02T14:33:08.443Z
 [2026-08-02T19:14:14.398Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-03T06:46:48.227Z] INFO Sync start. Last: 2026-08-02T19:14:14.396Z
+[2026-08-03T06:46:48.675Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-03T07:21:44.282Z] INFO Sync start. Last: 2026-08-03T06:46:48.672Z
+[2026-08-03T07:21:45.840Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-03T08:21:46.018Z] INFO Sync start. Last: 2026-08-03T07:21:45.838Z
+[2026-08-03T08:21:46.341Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-03T09:21:46.376Z] INFO Sync start. Last: 2026-08-03T08:21:46.339Z
+[2026-08-03T09:21:46.714Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-03T10:21:46.908Z] INFO Sync start. Last: 2026-08-03T09:21:46.712Z
+[2026-08-03T10:21:47.277Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-03T11:21:47.337Z] INFO Sync start. Last: 2026-08-03T10:21:47.274Z
+[2026-08-03T11:21:52.841Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-03T12:21:52.989Z] INFO Sync start. Last: 2026-08-03T11:21:52.838Z
+[2026-08-03T12:21:53.381Z] INFO push + HWL-203 Finish and internally proof the Creepers Design Journal adve
+[2026-08-03T12:21:53.575Z] INFO push + HWL-204 Complete and QC the Better Moments 4 Laura Gassner Otting pa
+[2026-08-03T12:21:53.940Z] INFO push + HWL-205 Finish this session's Better at Work brand identity, compone
+[2026-08-03T12:21:54.082Z] INFO push + HWL-206 Finish and internally proof the Design Journal advert from A
+[2026-08-03T12:21:54.321Z] INFO push + HWL-207 Inventory the existing Creepers asset estate and write the b
+[2026-08-03T12:21:54.565Z] INFO push + HWL-208 Prepare the black-pot recycling fallback article, social cop
+[2026-08-03T12:21:54.743Z] INFO push + HWL-209 Confirm the actual Chelsea hero-film rough-cut state with Ha
+[2026-08-03T12:21:54.906Z] INFO push + HWL-210 Close the two Chelsea factual checks with the exact RHS word
+[2026-08-03T12:21:55.087Z] INFO push + HWL-211 Complete and QC Better Moments 4 with Laura Gassner Otting:
+[2026-08-03T12:21:55.233Z] INFO push + HWL-212 Finish this session's Better at Work brand identity, compone
+[2026-08-03T12:21:55.411Z] INFO push + HWL-213 Prepare the Caroline Webb recording brief for 13 August, inc
+[2026-08-03T12:21:55.545Z] INFO push ~ HWL-199 → done
+[2026-08-03T12:21:55.724Z] INFO push + HWL-214 Draft the Danny Wicks £1,250 plus VAT event boundary note. I
+[2026-08-03T12:21:55.890Z] INFO push + HWL-215 Draft one consolidated LOR Early Talent follow-up covering t
+[2026-08-03T12:21:56.062Z] INFO push + HWL-216 Draft the Year One settlement message that forces the Looms-
+[2026-08-03T12:21:56.253Z] INFO push + HWL-217 Write a rights-cleared golf flyover pilot brief. It excludes
+[2026-08-03T12:21:56.449Z] INFO push ~ HWL-197 → done
+[2026-08-03T12:21:56.703Z] INFO push + HWL-218 Run Long + Strong week 2: 28 km across four runs, Strength A
+[2026-08-03T12:21:56.871Z] INFO push ~ HWL-201 → done
+[2026-08-03T12:21:57.053Z] INFO push + HWL-219 Audit the existing Buffer MCP and morning-brief implementati
+[2026-08-03T12:21:57.158Z] INFO Sync done. push: +17 ~3. pull: ~0.
+[2026-08-03T13:21:57.171Z] INFO Sync start. Last: 2026-08-03T12:21:57.156Z
+[2026-08-03T13:21:57.595Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-03T14:21:57.721Z] INFO Sync start. Last: 2026-08-03T13:21:57.593Z
+[2026-08-03T14:21:58.085Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-03T15:21:58.251Z] INFO Sync start. Last: 2026-08-03T14:21:58.083Z
+[2026-08-03T15:21:58.534Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-03T16:21:58.616Z] INFO Sync start. Last: 2026-08-03T15:21:58.532Z
+[2026-08-03T16:21:58.962Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-03T17:21:59.075Z] INFO Sync start. Last: 2026-08-03T16:21:58.960Z
+[2026-08-03T17:22:00.338Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-03T18:22:00.471Z] INFO Sync start. Last: 2026-08-03T17:22:00.335Z
+[2026-08-03T18:22:00.964Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-03T19:22:01.096Z] INFO Sync start. Last: 2026-08-03T18:22:00.960Z
+[2026-08-03T19:22:01.510Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-03T20:22:01.538Z] INFO Sync start. Last: 2026-08-03T19:22:01.508Z
+[2026-08-03T20:22:02.036Z] INFO push ~ HWL-192 → done
+[2026-08-03T20:22:02.166Z] INFO push ~ HWL-195 → done
+[2026-08-03T20:22:02.273Z] INFO push ~ HWL-196 → done
+[2026-08-03T20:22:02.657Z] INFO push + HWL-220 Record the current receivables truth: about £7,000 owed acro
+[2026-08-03T20:22:02.863Z] INFO Sync done. push: +1 ~3. pull: ~0.
+[2026-08-03T21:22:03.028Z] INFO Sync start. Last: 2026-08-03T20:22:02.860Z
+[2026-08-03T21:22:03.362Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-03T22:22:03.507Z] INFO Sync start. Last: 2026-08-03T21:22:03.360Z
+[2026-08-03T22:22:03.785Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-03T23:22:03.919Z] INFO Sync start. Last: 2026-08-03T22:22:03.784Z
+[2026-08-03T23:22:04.636Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-04T00:22:04.730Z] INFO Sync start. Last: 2026-08-03T23:22:04.634Z
+[2026-08-04T00:22:06.314Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-04T01:22:06.368Z] INFO Sync start. Last: 2026-08-04T00:22:06.312Z
+[2026-08-04T01:22:06.789Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-04T02:22:06.958Z] INFO Sync start. Last: 2026-08-04T01:22:06.787Z
+[2026-08-04T02:22:07.243Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-04T08:29:16.878Z] INFO Sync start. Last: 2026-08-04T02:22:07.241Z
+[2026-08-04T08:29:17.756Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-04T09:29:17.891Z] INFO Sync start. Last: 2026-08-04T08:29:17.753Z
+[2026-08-04T09:29:18.427Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-04T10:29:18.452Z] INFO Sync start. Last: 2026-08-04T09:29:18.425Z
+[2026-08-04T10:29:18.783Z] INFO Sync done. push: +0 ~0. pull: ~0.

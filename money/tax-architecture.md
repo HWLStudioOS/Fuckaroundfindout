@@ -17,7 +17,7 @@ This was a gap in the rewrite (`hwlstudio-rewrite/money/index.md` didn't cover S
 
 ## Corporation Tax
 
-- Due ~mid-2027 (first full year, Aug 2026 year-end).
+- Corporation Tax is normally due 9 months and 1 day after each confirmed accounting-period end. The exact first-period end dates and payment dates need confirmation from HMRC or Litchfields.
 - Working control: ring-fence 25% of VAT-exclusive revenue until the accounts produce a profit-based provision. Reserve VAT separately.
 - Current combined VAT and Corporation Tax reserve: **£9,200**, reported by Harrison on 4 August after moving £4,000 from the Creepers receipt. The internal VAT and Corporation Tax split is unknown.
 - Harrison's planning estimate is about £100,000 first-year revenue. He expects costs and qualifying asset relief may bring profit toward £75,000, but £75,000 is not yet verified taxable profit.
@@ -31,6 +31,7 @@ This was a gap in the rewrite (`hwlstudio-rewrite/money/index.md` didn't cover S
 
 - Harrison confirmed finance administration is current on 3 August. The old PAYE activation and PAYE/NIC check tasks are superseded.
 - Planned monthly salary: £1,047 (utilises personal allowance).
+- Harrison reports paying the scheduled £1,047.50 salary on 4 August. The bank movement is recorded as reported, not independently matched to payroll or PAYE.
 - Plus dividends on top.
 
 ## SIPP via Ltd contribution

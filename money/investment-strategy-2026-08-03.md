@@ -29,6 +29,7 @@ This is already an aggressive growth portfolio. It is effectively 100% equities 
 - Invoicing and finance administration are current.
 - £5,340 from Creepers landed on 4 August. Harrison moved £4,000 into the combined company tax reserve.
 - The combined VAT and Corporation Tax reserve is now £9,200. Its internal liability split is not reconciled.
+- Harrison paid himself the planned £1,047.50 salary on 4 August. It enters the personal waterfall and is not automatically G.
 - £1,800 from Better at Work is expected on 4 August but had not landed at the morning update.
 - About £7,000 from LOR is expected during August 2026.
 - The remaining expected £8,800 is company cash when received. It is not personal investment capital.
@@ -232,6 +233,20 @@ Before every tranche, rerun the green test, update A, calculate the positive Spa
 
 Trading 212 lists both the real share and a CFD. Use the Stocks and Shares ISA instrument. A SpaceX token, pre-IPO allocation, private-message deal or `SpaceXFX` product is a scam risk.
 
+## Sandisk request, 4 August 2026
+
+No SNDK order today.
+
+- Sandisk holds its fiscal Q4 and full-year earnings call after the US close on Wednesday 5 August. It then holds Investor Day before the US open on Thursday 13 August. [Sandisk announcement](https://www.sandisk.com/company/newsroom/press-releases/2026/2026-07-09-sandisk-report-fiscal-fourth-quarter-fiscal-year-2026-results-august-5)
+- The latest filed quarter was genuinely strong: $5.95 billion revenue, up 97% sequentially, and $3.615 billion GAAP net income. That strength is already widely visible and does not remove valuation or NAND-cycle risk. [Sandisk Q3 results](https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-third-quarter-2026-financial-results)
+- Sandisk joined the S&P 500 in November 2025. If the live Vanguard holding is VUAG, Harrison already owns indirect SNDK exposure. [S&P Dow Jones Indices notice](https://www.spglobal.com/spdji/en/documents/indexnews/announcements/20251124-1480959/1480959_ipg-pinc-hbi-56.pdf)
+
+The earliest review is Monday 17 August, after results, Investor Day and two full post-event sessions. Before any order, read the annual filing and test revenue durability, cash generation, customer concentration, Kioxia reliance, NAND pricing and capital requirements. A strong story is not enough.
+
+If both SPCX and SNDK later pass written theses, they share the existing 2% direct single-stock sleeve. SNDK is not added on top of the 92/6/2 allocation. The exact split is decided only after both reviews. Until then, SNDK's direct target is 0% and the existing SpaceX rule remains unchanged.
+
+Any purchase is personal, preferably within reconciled Stocks and Shares ISA capacity and funded from Harrison's same-name personal bank account. Trading 212 does not offer business accounts. [Trading 212 business-account policy](https://helpcentre.trading212.com/hc/en-us/articles/360007542138-Can-I-open-a-business-account)
+
 ## Bitcoin
 
 Bitcoin was around $63,700 on 3 August, roughly 49.5% below its October 2025 intraday high. That is a real drawdown. It is not proof that the bottom is in. [Kraken market data](https://www.kraken.com/prices/bitcoin)
@@ -339,7 +354,7 @@ An HWL employer contribution is a company payment, not personal G. Once it lands
 - The standard 2026/27 Capital Gains Tax annual exempt amount is £3,000. Individual rates are 18% and 24%. Confirm whether any new-resident FIG or Overseas Workday Relief claim changes Harrison's entitlement.
 - The dividend allowance is £500. Dividends above it are taxed at 10.75%, 35.75% or 39.35%, depending on the band.
 - Crypto providers began collecting reportable 2026 user and transaction data on 1 January 2026. The first UK Cryptoasset Reporting Framework reports are due between 1 January and 31 May 2027. Keep independent records.
-- Do not let the company build an equity or crypto portfolio. It can complicate tax, trading-company status and future reliefs. Revisit only with Litchfields after the first accounts.
+- Do not let the company build an equity or crypto portfolio. A UK company's realised gains on shares are usually chargeable gains within Corporation Tax. Interest and some fund returns are also taxable, while most ordinary UK and overseas company dividends are exempt. Even exempt distributions can affect augmented profits when calculating marginal relief. Material long-term investment activity can affect HWL Studio's trading-company status and Harrison's future Business Asset Disposal Relief eligibility, assessed on the facts rather than a single threshold. Revisit only with Litchfields after the first accounts. [HMRC Corporation Tax](https://www.gov.uk/corporation-tax), [HMRC marginal relief](https://www.gov.uk/hmrc-internal-manuals/company-taxation-manual/ctm03925), [HMRC trading-company indicators](https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg64090)
 
 ## Tax reserve, make it work without risking it
 
@@ -492,6 +507,9 @@ Permanent bans for this plan:
 - [AP US market close, 3 August 2026](https://apnews.com/article/f8e5f81b45c83878f5b7f69832bb0c95)
 - [FTSE Russell SpaceX index notice](https://research.ftserussell.com/products/index-notices/home/getnotice/?id=2621017)
 - [FCA warning on a SpaceX-branded unauthorised firm](https://www.fca.org.uk/news/warnings/investwithspacexfx)
+- [Sandisk Q4 results and Investor Day announcement](https://www.sandisk.com/company/newsroom/press-releases/2026/2026-07-09-sandisk-report-fiscal-fourth-quarter-fiscal-year-2026-results-august-5)
+- [Sandisk Q3 results](https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-third-quarter-2026-financial-results)
+- [S&P Dow Jones Indices Sandisk addition](https://www.spglobal.com/spdji/en/documents/indexnews/announcements/20251124-1480959/1480959_ipg-pinc-hbi-56.pdf)
 
 ### Platforms and funds
 
@@ -500,6 +518,7 @@ Permanent bans for this plan:
 - [Trading 212 UK funds and asset protection](https://helpcentre.trading212.com/hc/en-us/articles/10745029708829-Trading-212-UK-Ltd-Funds-and-assets-protection)
 - [Trading 212 Cash ISA rate tracker](https://helpcentre.trading212.com/hc/en-us/articles/32379687794077-Cash-ISA)
 - [Trading 212 ISA transfers](https://helpcentre.trading212.com/hc/en-us/articles/360007081097-Can-I-transfer-my-ISA-from-another-bank-or-provider-to-Trading-212)
+- [Trading 212 business-account policy](https://helpcentre.trading212.com/hc/en-us/articles/360007542138-Can-I-open-a-business-account)
 - [Vanguard UK account fees](https://www.vanguardinvestor.co.uk/what-we-offer/fees-explained)
 - [Vanguard FTSE Global All Cap Accumulation](https://www.vanguardinvestor.co.uk/investments/vanguard-ftse-global-all-cap-index-fund-gbp-acc/overview)
 - [Vanguard VWRP fee reduction](https://www.vanguardinvestor.co.uk/investment-information/fund-changes)
@@ -521,6 +540,9 @@ Permanent bans for this plan:
 - [HMRC controlling-director pension guidance](https://www.gov.uk/hmrc-internal-manuals/business-income-manual/bim46035)
 - [HMRC crypto disposal guidance](https://www.gov.uk/guidance/check-if-you-need-to-pay-tax-when-you-sell-cryptoassets)
 - [HMRC Cryptoasset Reporting Framework timetable](https://www.gov.uk/guidance/reporting-cryptoasset-user-and-transaction-data)
+- [HMRC Corporation Tax on investment profits and gains](https://www.gov.uk/corporation-tax)
+- [HMRC Corporation Tax marginal relief](https://www.gov.uk/hmrc-internal-manuals/company-taxation-manual/ctm03925)
+- [HMRC trading-company status indicators](https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg64090)
 - [Bank of England confirmation of the £120,000 FSCS deposit limit](https://www.bankofengland.co.uk/news/2025/november/pra-confirms-fscs-deposit-limit-to-be-increased-to-120000-from-1-december)
 - [Shawbrook Easy Access Business Savings](https://www.shawbrook.co.uk/business/business-savings/business-easy-access-savings-accounts/easy-access-business-account/)
 - [Revolut Business Savings](https://www.revolut.com/business/savings/)

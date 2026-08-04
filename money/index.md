@@ -10,12 +10,14 @@ Harrison's 4 August morning update is the current source of truth:
 - **£5,340 from Creepers landed on 4 August.** Harrison moved £4,000 of it into the combined tax reserve.
 - The combined VAT and Corporation Tax reserve is now **£9,200**. Treat it as company VAT and Corporation Tax cash only. It has not yet been split into reconciled provisions and does not cover Harrison's personal tax on dividends.
 - The £1,340 receipt-level remainder is company cash, not confirmed free headroom. Its use waits for the tax split, operating floor and current debt balances.
+- Harrison paid himself the planned **£1,047.50 salary** on 4 August. This is personal cash after payment, but it is not automatically investable surplus. Household bills, personal debt, tax and the £50,000 cash glidepath come first.
+- **Investment decision, 4 August:** no SpaceX or Sandisk purchase today and no purchase through HWL Studio. Earliest SPCX review is 10 August. Earliest SNDK review is 17 August, after its 5 August results and 13 August Investor Day. Any later order is personal and requires a positive verified investable surplus.
 - **£1,800 from Better at Work is expected on 4 August**, but is not cash until it lands.
 - About **£7,000 from LOR is expected during August 2026**.
 - Remaining expected client cash is therefore about **£8,800**.
 - Harrison's rough first-year revenue estimate is about **£100,000**. He expects costs and qualifying tax relief on business assets may bring profit toward **£75,000**, but £75,000 is not yet a verified taxable-profit figure.
 - No other current receivable, unbilled-work obligation or finance-admin task was reported.
-- Exact operating-bank, card, PAYE/NIC, VAT and Corporation Tax balances have not been reconciled. The LOR receipt cannot yet be assigned to debt. Do not carry the 27 or 31 July figures forward as current.
+- Exact operating-bank and personal-bank balances after the salary payment, card balances, PAYE/NIC, VAT and Corporation Tax balances have not been reconciled. The LOR receipt cannot yet be assigned to debt. Do not carry the 27 or 31 July figures forward as current.
 
 Source precedence for money state is Harrison's latest dated correction, then fresh accounting or bank evidence, then older generated reports. `money/weekly.md` and the 27 July snapshot are explicitly superseded for current action.
 

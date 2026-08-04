@@ -6,10 +6,11 @@
 
 - £5,340 from Creepers landed on 4 August.
 - Harrison moved £4,000 into the combined tax reserve, taking it to £9,200.
+- Harrison paid himself £1,047.50 salary from the company on 4 August.
 - £1,800 from Better at Work is expected on 4 August but had not landed at the morning update.
 - About £7,000 from LOR is expected during August.
 - No other current receivable or unbilled-work obligation was reported.
-- Exact opening operating cash, card balances, VAT provision, Corporation Tax provision and weekly outflows were not refreshed, so a defensible 13-week table cannot yet be calculated.
+- Exact operating cash after the tax transfer and salary payment, card balances, VAT provision, Corporation Tax provision and weekly outflows were not refreshed, so a defensible 13-week table cannot yet be calculated.
 
 This baseline supersedes the 3 August combined Better at Work and Creepers estimate and the 31 July generated estimate of £21,000 to £22,000 unbilled. It does not convert the expected £8,800 into received cash.
 

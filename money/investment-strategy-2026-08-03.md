@@ -1,7 +1,7 @@
 # Harrison investment strategy
 
 - **Decision date:** 3 August 2026
-- **Research cut-off:** US market close, 3 August 2026
+- **Research cut-off:** 4 August 2026, 10:40 BST for cash products; US market close, 3 August 2026 for listed investments
 - **Latest cash update:** 4 August 2026 morning
 - **Target date:** 3 August 2027
 - **Status:** decision-ready brief, not standing authority, no trade or transfer has been made
@@ -122,10 +122,10 @@ On the third working day of each month:
 
 | Purpose | Account or platform | Decision |
 |---|---|---|
-| Company VAT and Corporation Tax | Revolut Business Savings now, or Shawbrook Easy Access Business | Keep in the company's name and in an eligible FSCS deposit. Confirm the exact product, rate and deposit provider in-app. Move to Shawbrook if the current money earns nothing, lacks eligible FSCS cover, or trails by at least 0.5 percentage points. |
+| Company VAT and Corporation Tax | Shawbrook Easy Access Business Issue 20 | Keep it in the company's name and in an eligible FSCS deposit. At 3.86% variable AER, Shawbrook is the current operational choice once Harrison approves the opening and transfer. Use the current Revolut pot as the interim home only if it proves to be the actual Business Savings deposit product and its deposit provider and protection are confirmed in-app. |
 | Business operations | Starling business current | Keep the operating floor separate from tax. |
 | First £10,000 personal cash | A no-penalty instant-access savings account | This is the first layer of the £50,000 target and the immediate household runway. It counts in C only after bills and personal tax due within 30 days are deducted. |
-| Remaining personal cash target | Flexible Cash ISA, then FSCS easy access | Use only the ISA allowance remaining after every Vanguard and Trading 212 subscription. Trading 212 Cash ISA is the first choice if its live new-customer rate and eligibility still hold. Charter Savings Bank is the no-bonus Cash ISA fallback from the 3 August shortlist. Recheck rates, withdrawal rules and FSCS banking groups on the opening day. |
+| Remaining personal cash target | Flexible Cash ISA, then FSCS easy access | Use only the ISA allowance remaining after every Vanguard and Trading 212 subscription. The promotional rate quoted on 3 August is no longer verified. Trading 212 still advertises code-specific new-client promotions. If the money is personal, compare the live offer and standard rates only after the ISA ledger and Harrison's prior-account eligibility are reconciled. Recheck rates, withdrawal rules and FSCS banking groups on the opening day. |
 | Global equity core | Existing Vanguard Stocks and Shares ISA | Use Vanguard FTSE Global All Cap Index Fund GBP Accumulation, ISIN `GB00BD3RZ582`, rather than adding more S&P 500 concentration. Keep this account boring. |
 | Direct SpaceX | Trading 212 Stocks and Shares ISA | Buy the real Nasdaq share, `SPCX`, only. Never the CFD. Use Invest only if ISA capacity is unavailable, then keep full tax records. |
 | Bitcoin | Kraken Pro | Buy `BTC/GBP` spot with bank-funded limit orders. No margin, futures, staking, lending or card funding. |
@@ -137,10 +137,11 @@ The exact instant-access savings account and SIPP provider are the two unresolve
 Personal cash opening-day order:
 
 1. Calculate the ISA allowance left after all 2026/27 contributions.
-2. If Harrison is eligible for Trading 212's new-customer Cash ISA promotion and the live rate remains competitive, use it up to the remaining ISA allowance. The independently checked rate was 4.51% on 3 August, including a 12-month bonus. [MoneySavingExpert comparison](https://www.moneysavingexpert.com/savings/best-cash-isa/)
-3. If that promotion is unavailable, check Charter Savings Bank's current no-bonus Easy Access Cash ISA.
-4. For cash above the remaining ISA allowance, use an instant-access FSCS account. Chase offered an eligible-new-customer 4.50% boosted saver on 3 August. Its standard rate was only 2.25%, so do not open it after the offer disappears. [Chase rates](https://www.chase.co.uk/gb/en/support/interest-rates-explained/our-boosted-rate-offers/)
-5. Recheck the rate, bonus end date, withdrawal rules and shared banking licence immediately before opening. A rate seen tonight is not standing authority.
+2. Do not rely on the 3 August quoted Trading 212 promotional rate. Trading 212 still operates code-specific new-client promotions, so check the live code rate and confirm Harrison has never held an account before using one. Its standard Cash ISA rate tracks 0.15 percentage points below Bank Rate, currently 3.60% AER with Bank Rate at 3.75%. [Trading 212 rate rule](https://helpcentre.trading212.com/hc/en-us/articles/32379687794077-Cash-ISA)
+3. If Harrison is a new Chip customer, its flexible Smart Cash ISA currently pays 4.41% variable AER for 12 months, then 3.75%. Confirm the underlying partner banks do not duplicate other deposits before funding. [Chip Smart Cash ISA](https://www.getchip.uk/savings-accounts/smart-cash-isa)
+4. If the Chip offer is unavailable, compare Charter Savings Bank's live Easy Access Cash ISA with Marcus. Marcus currently pays 4.01% variable AER including a 12-month bonus, but is not flexible. [Marcus Cash ISA](https://www.marcus.co.uk/uk/en/savings/cash-isa)
+5. For personal cash outside an ISA, Chase pays eligible new customers 4.50% variable AER for 12 months if opened during their first 31 days. Its standard saver rate is 2.25%. [Chase saver](https://www.chase.co.uk/gb/en/product/chase-saver-account/)
+6. Recheck the rate, bonus end date, withdrawal rules and shared banking licence immediately before opening. A rate seen today is not standing authority.
 
 ### Why Vanguard remains the core
 
@@ -360,19 +361,20 @@ An HWL employer contribution is a company payment, not personal G. Once it lands
 
 The reserve has risen from the originally reported £6,000 to £9,200. It can earn interest. It cannot earn enough to justify market risk.
 
-- Revolut Business Savings advertises up to 3.3% AER depending on plan. At 3.3%, £9,200 earns about £303.60 gross in a full year.
-- Shawbrook Easy Access Business paid 3.86% AER on 3 August, with a £1,000 minimum and normal next-working-day withdrawals. At that rate, £9,200 earns about £355.12 gross, or £29.59 a month before Corporation Tax.
-- The difference is only £51.52 a year on £9,200. Clean access and verified FSCS eligibility matter more than rate chasing.
+- Revolut Business Savings currently pays 2.15% AER on Grow, 2.65% on Scale and 3.30% on Enterprise. At those rates, £9,200 earns about £197.80, £243.80 or £303.60 gross in a full year. Do not upgrade a paid plan purely for the savings rate. [Revolut Business Savings](https://www.revolut.com/business/savings/)
+- Shawbrook Easy Access Business Issue 20 pays 3.86% variable AER, with a £1,000 minimum and normal next-working-day withdrawals. At that rate, £9,200 earns about £355.12 gross over a full year before Corporation Tax. [Shawbrook Easy Access Business](https://www.shawbrook.co.uk/business/business-savings/business-easy-access-savings-accounts/easy-access-business-account/)
+- HTB Easy Access SME Issue 13 pays 3.91% variable AER, but requires at least £5,000 to open and remain open. It earns only £4.60 more than Shawbrook over a full year on £9,200. The lower Shawbrook minimum is more valuable when a VAT payment could reduce the balance. [HTB business savings](https://www.htb.co.uk/business/savings/notice-easy-access-business-accounts/)
 - FSCS deposit protection is now £120,000 per eligible legal entity, per authorised banking institution. HWL Studio normally has its own limit if eligible. The limit aggregates every account sharing a banking licence, including deposits reached through Revolut or Trading 212. Check the underlying bank, not only the consumer brand.
 - Savings interest belongs to HWL Studio, must be recorded in Xero and affects the Corporation Tax calculation.
 
-Next check:
+Decision and execution gate:
 
 1. Confirm whether the current Revolut pot is an actual Business Savings deposit.
-2. Record its AER, named deposit provider and FSCS information sheet.
-3. If all three are sound and the rate gap is below 0.5 percentage points, leave it.
-4. Otherwise check Shawbrook eligibility first. Its current business account requires all directors and beneficial owners to be UK residents and solely UK tax resident. If eligible, open it in the company's exact legal name and move the reserve only after the VAT and Corporation Tax dates are confirmed.
-5. Keep at least the next tax payment instantly or next-day accessible. Do not use a fixed bond for it.
+2. Record its exact live balance, AER, named deposit provider and FSCS information sheet.
+3. If Shawbrook's residency rules are met, open Issue 20 in HWL Studio Limited's exact legal name, linked only to the nominated company current account.
+4. After Harrison's one-tap approval, transfer only the confirmed live reserve balance from company account to company account. No personal account enters the route.
+5. Keep the whole reserve in easy access until the VAT and Corporation Tax split and payment dates are confirmed. Withdraw back to the nominated company current account at least two working days before an HMRC payment.
+6. Do not use a fixed bond, notice account, money-market fund, equity or crypto product for this reserve.
 
 ## The first 24 hours
 
@@ -517,6 +519,8 @@ Permanent bans for this plan:
 - [Trading 212 Invest, ISA and SIPP fees](https://helpcentre.trading212.com/hc/en-us/articles/11471996799517-What-are-the-fees-in-the-Invest-ISAs-and-SIPP)
 - [Trading 212 UK funds and asset protection](https://helpcentre.trading212.com/hc/en-us/articles/10745029708829-Trading-212-UK-Ltd-Funds-and-assets-protection)
 - [Trading 212 Cash ISA rate tracker](https://helpcentre.trading212.com/hc/en-us/articles/32379687794077-Cash-ISA)
+- [Chip Smart Cash ISA](https://www.getchip.uk/savings-accounts/smart-cash-isa)
+- [Marcus Cash ISA](https://www.marcus.co.uk/uk/en/savings/cash-isa)
 - [Trading 212 ISA transfers](https://helpcentre.trading212.com/hc/en-us/articles/360007081097-Can-I-transfer-my-ISA-from-another-bank-or-provider-to-Trading-212)
 - [Trading 212 business-account policy](https://helpcentre.trading212.com/hc/en-us/articles/360007542138-Can-I-open-a-business-account)
 - [Vanguard UK account fees](https://www.vanguardinvestor.co.uk/what-we-offer/fees-explained)
@@ -545,6 +549,7 @@ Permanent bans for this plan:
 - [HMRC trading-company status indicators](https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg64090)
 - [Bank of England confirmation of the £120,000 FSCS deposit limit](https://www.bankofengland.co.uk/news/2025/november/pra-confirms-fscs-deposit-limit-to-be-increased-to-120000-from-1-december)
 - [Shawbrook Easy Access Business Savings](https://www.shawbrook.co.uk/business/business-savings/business-easy-access-savings-accounts/easy-access-business-account/)
+- [HTB Easy Access and Notice Business Savings](https://www.htb.co.uk/business/savings/notice-easy-access-business-accounts/)
 - [Revolut Business Savings](https://www.revolut.com/business/savings/)
 - [MoneySavingExpert current Cash ISA comparison](https://www.moneysavingexpert.com/savings/best-cash-isa/)
 - [Chase boosted saver rates](https://www.chase.co.uk/gb/en/support/interest-rates-explained/our-boosted-rate-offers/)

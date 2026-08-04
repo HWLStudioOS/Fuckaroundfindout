@@ -11,8 +11,9 @@ Harrison confirmed that invoicing and finance administration remain up to date. 
 | LOR | About £7,000 expected during August |
 | **Expected but unreceived client cash** | **About £8,800** |
 | Combined VAT and Corporation Tax reserve | £9,200 after a £4,000 transfer from the Creepers receipt |
+| Harrison salary | £1,047.50 paid from the company on 4 August |
 
-No other current receivable, unbilled-work obligation or finance-admin task was reported. Exact operating-bank, card, PAYE/NIC, VAT and Corporation Tax balances were not reconciled, so this file does not infer them. Harrison's £100,000 revenue estimate is a planning figure. His view that costs and asset relief may bring profit toward £75,000 is not a verified taxable-profit calculation.
+No other current receivable, unbilled-work obligation or finance-admin task was reported. Exact company and personal balances after the salary payment, card, PAYE/NIC, VAT and Corporation Tax balances were not reconciled, so this file does not infer them. Harrison's £100,000 revenue estimate is a planning figure. His view that costs and asset relief may bring profit toward £75,000 is not a verified taxable-profit calculation.
 
 ## Superseded snapshot, 27 July 2026
 

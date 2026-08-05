@@ -23,8 +23,8 @@ Finish the Creepers and Better at Work creative lanes, convert every other clien
 - [x] Finish and internally proof the Design Journal advert from Anna's supplied “38 Years in the Ground” reference. One press proof and two review variants are complete. Nothing has been sent. <!-- linear:HWL-206 -->
 - [x] Inventory the existing Creepers asset estate and write the browse-library and share-folder plan. Nothing has been uploaded or shared. <!-- linear:HWL-207 -->
 - [x] Prepare the black-pot recycling fallback article, social copy and factual guardrails from Matt Taylor's source material. <!-- linear:HWL-208 -->
-- [ ] Verify whether Michael's Sandringham stock update is live. Build it only if it is genuinely missing. <!-- linear:HWL-187 -->
-- [ ] Confirm the actual Chelsea hero-film rough-cut state with Harrison. The two Michael factual checks are closed and must not be reopened. <!-- linear:HWL-209 -->
+- [x] Michael's Sandringham stock update: built and went out, 4 August. <!-- linear:HWL-187 -->
+- [x] Chelsea hero-film rough-cut card: killed by Harrison on 5 August as a stale task. Do not rebuild or resurface it. <!-- linear:HWL-209 -->
 - [x] Close the two Chelsea factual checks with the exact RHS wording and garden name. <!-- linear:HWL-210 -->
 
 ### Better at Work
@@ -33,6 +33,9 @@ Finish the Creepers and Better at Work creative lanes, convert every other clien
 - [x] Finish this session's Better at Work brand identity, component library and real public-site draft. The protected Vercel preview is ready and production is unchanged. <!-- linear:HWL-212 -->
 - [x] Prepare the Caroline Webb recording brief for 13 August, including the full-circle angle, fact checks, questions and launch hooks. <!-- linear:HWL-213 -->
 - [x] Send BaW's fully produced Best-of #3 with Russell Beck to Cathal for his scan. Publication was verified across 28 to 30 July, so the package and stale checklist are closed. <!-- linear:HWL-199 -->
+- [ ] Finish the Better at Work website, hook up checkout, and send to Cathal for review by end of week. Agreed on the 5 August call. Engineering changes go through the Codex lane per coordination rules. <!-- linear:HWL-231 -->
+- [ ] Prepare the brand-system presentation deck: photo systems, episode artwork, YouTube, Instagram, LinkedIn, guest launch kit and question bank. Source is the Brand Playground hub. <!-- linear:HWL-232 -->
+- [ ] Pull a sub-one-page listener-question sample for the Christine Lampard TV opportunity (live listener Q&A plus sit-down interview, late August or early September, back-to-work angle). <!-- linear:HWL-233 -->
 
 ### Client boundaries
 
@@ -68,7 +71,8 @@ Finish the Creepers and Better at Work creative lanes, convert every other clien
 
 - Danny Wicks: respond to the boundary note Harrison sent on 4 August at £800 plus VAT. The ball is with Danny; no further move from our side. <!-- linear:HWL-200 -->
 - Kerri and Emma: first ET shoot day is booked for 11 August. Kerri calls Harrison Wednesday afternoon (mobile). Call goal: lock the PO route, then raise the first invoice once Emma's window-one budget confirms. Not an invoice chase. <!-- linear:HWL-191 -->
-- Better at Work: approve the protected brand and site preview before any production deployment. The wider Season 5 lane remains approval-gated. <!-- linear:HWL-190 -->
+- Better at Work: brand refresh verbally approved by Cathal on 5 August. Production deployment follows his end-of-week review of the finished site with checkout. <!-- linear:HWL-190 -->
+- Cathal: submit Acast payout details (acknowledged on the 5 August call, about £12 waiting) and post his personal LinkedIn this week.
 - Anna and Sarah-Louise: exact Surrey Season 4 shoot date.
 - Anna: revised direction for the Pro Landscaper advert, due 19 August.
 - Michael and Sam: choose a replacement advert image after the Creepers browse library is shared.
@@ -105,3 +109,5 @@ Finish the Creepers and Better at Work creative lanes, convert every other clien
 - No client message, advert, post, upload, share or production deployment was executed during this settlement pass.
 - 4 August: Better Moments 4 is scheduled on Acast and YouTube for Thursday 12:30 by Harrison. Social carousels remain on the publish checklist.
 - 4 August: Harrison sent the Danny boundary note at £800 plus VAT and replied to Kerri. Buffer OAuth was cancelled outright. The Year One eight-page pack is dead.
+- 5 August, Cathal call: brand refresh approved with enthusiasm across palette, type, carousels, artwork and the logo tweak. Website green-lit; Harrison finishes it with checkout for Cathal's end-of-week review. Christine Lampard TV opportunity surfaced. Acast has about £12 in and the Russell episode is the best-performing Better Moment to date. BM4 launch choreography and Laura's tag were not covered on the call and are being confirmed async before Thursday 12:30.
+- 5 August: Sandringham is out and the Chelsea hero-film card is killed. Anna's 4 August email sets the advert image direction: concentrate on rootball pictures. The Michael and Sam library share should lead with rootball options, and the chosen image still needs its original high-resolution file.

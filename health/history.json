@@ -2017,5 +2017,20 @@
     "sleepScore": 90,
     "stressAvg": 14,
     "bodyBattery": 90
+  },
+  {
+    "date": "2026-08-05",
+    "vo2Max": 45.0,
+    "hrv": 59.0,
+    "hrvStatus": "BALANCED",
+    "restingHR": 48,
+    "sleepHours": 7.2,
+    "sleepScore": 86,
+    "stressAvg": 22,
+    "bodyBattery": 85,
+    "trainingReadiness": 56,
+    "readinessLevel": "MODERATE",
+    "acwr": 0.63,
+    "acuteLoad": 644.0
   }
 ]

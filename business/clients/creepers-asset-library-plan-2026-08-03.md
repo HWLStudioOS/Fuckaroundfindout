@@ -99,7 +99,14 @@ Every client-visible item gets:
 - Generate JPEG previews for NEF photographs and H.264 review proxies for NEV or high-bitrate camera video.
 - Put the best 20 to 40 portrait candidates for the Design Journal advert in one shortlist rather than asking the client to search hundreds of gigabytes first.
 
-## Exclusions and review gates
+## Advert image priority, added 5 August
+
+Anna's 4 August steer: concentrate on **rootball pictures**, that is the route they want for the Design Journal advert. So:
+
+- `08_ADVERT_IMAGE_SHORTLIST/` gains a leading `rootball-candidates/` folder and the shortlist build starts there: wrapped root balls, nursery stock, lifting and handling craft, root-and-soil detail.
+- Likeliest sources: `Creepers April` (Surrey nursery, 191 NEF stills), `Creepers_Jan2025`, and any stock-and-availability exports. Chelsea and installation folders are secondary for this brief.
+- Every rootball candidate must trace to an original that holds roughly 2,900 x 3,500 px or better, so it prints at 300ppi at the 240 x 297mm trim. Figma-resolution copies are preview-only, as advertgate proved.
+- Portrait orientation first, per the full-page format.
 
 - No LOR, Better at Work or personal media.
 - No licensed music, LUTs, fonts, Premiere projects, cache files or hidden system files.

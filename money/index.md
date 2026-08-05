@@ -4,7 +4,9 @@ HWL Studio Limited. Sole director/shareholder. Started trading 29 August 2025.
 
 ## Live commercial position, 4 August 2026
 
-Harrison's 4 August morning update is the current source of truth:
+Harrison's 4 August morning update is the current source of truth, with one 5 August addition below:
+
+- **5 August correction, personal investments:** Harrison bought three US positions on 4 August at 14:30 BST in Revolut General Investment (personal, taxable, GBP converted to USD): SPCX 2.28357191 shares at $117.36 ($268), NVDA 0.63249315 shares at $211.86 ($134), SNDK 0.0492647 shares at $1,360 ($67). About $569 total, roughly £430. These are outside `money/investment-strategy-2026-08-03.md` (earnings-day SPCX buy, SNDK before its review date, NVDA has no sleeve, taxable account rather than ISA). Open decision: amend the strategy with a capped scout sleeve, or fold these into the plan when it goes green. Keep GBP cost-basis records for CGT. This is personal money and does not touch any company balance.
 
 - Invoicing and finance administration are up to date.
 - **£5,340 from Creepers landed on 4 August.** Harrison moved £4,000 of it into the combined tax reserve.

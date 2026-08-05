@@ -469,3 +469,13 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 - 2026-08-04 14:00  | health-sync | OK 2026-08-04: RHR 50, sleep 7.5h (score 90), HRV 61 BALANCED, readiness 20
 2026-08-04T19:07:05+0100 | evening-reflection | AUTH_REQUIRED | exit=78; run=20260804T190704+0100-85836; Claude CLI is not authenticated. Harrison must run 'claude auth login' interactively, then verify 'claude auth status --text'.; logs=agents/logs/evening-reflection.stdout.log,agents/logs/evening-reflection.stderr.log
 - 2026-08-04 22:30 BST | board-room | validation passed before backup and deploy
+- 2026-08-04 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-08-04 22:30 BST | board-room | DEPLOY BLOCKED, validation changed the pushed checkout
+- 2026-08-05 06:15  | health-sync | OK 2026-08-05: RHR None, sleep 7.5h (score 90), HRV 61 BALANCED, readiness None
+2026-08-05T06:30:05+0100 | morning-brief | AUTH_REQUIRED | exit=78; run=20260805T063005+0100-23190; Claude CLI is not authenticated. Harrison must run 'claude auth login' interactively, then verify 'claude auth status --text'.; logs=agents/logs/morning-brief.stdout.log,agents/logs/morning-brief.stderr.log
+2026-08-05T10:07:04+0100 | campaign-chaser | AUTH_REQUIRED | exit=78; run=20260805T100703+0100-35488; Claude CLI is not authenticated. Harrison must run 'claude auth login' interactively, then verify 'claude auth status --text'.; logs=agents/logs/campaign-chaser.stdout.log,agents/logs/campaign-chaser.stderr.log
+- 2026-08-05 11:00  | health-sync | OK 2026-08-05: RHR None, sleep 7.5h (score 90), HRV 61 BALANCED, readiness None
+- 2026-08-05 14:00  | health-sync | OK 2026-08-05: RHR 48, sleep 7.2h (score 86), HRV 59 BALANCED, readiness 56
+2026-08-05T14:07:05+0100 | discovery-scan | AUTH_REQUIRED | exit=78; run=20260805T140704+0100-48929; Claude CLI is not authenticated. Harrison must run 'claude auth login' interactively, then verify 'claude auth status --text'.; logs=agents/logs/discovery-scan.stdout.log,agents/logs/discovery-scan.stderr.log
+2026-08-05T19:07:04+0100 | evening-reflection | AUTH_REQUIRED | exit=78; run=20260805T190703+0100-65557; Claude CLI is not authenticated. Harrison must run 'claude auth login' interactively, then verify 'claude auth status --text'.; logs=agents/logs/evening-reflection.stdout.log,agents/logs/evening-reflection.stderr.log
+- 2026-08-05 22:30 BST | board-room | validation passed before backup and deploy

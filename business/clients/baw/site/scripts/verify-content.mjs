@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { readFile, stat } from "node:fs/promises";
 
 const archiveUrl = new URL("../src/data/acast-episodes.json", import.meta.url);
@@ -36,11 +37,13 @@ const transcriptUrl = new URL(
   "../public/transcripts/helen-tupper-s4e01.txt",
   import.meta.url,
 );
-const ogUrl = new URL("../public/og.png", import.meta.url);
-const [pdfStats, transcript, ogImage] = await Promise.all([
+const logoUrl = new URL("../public/assets/better-at-work-logo.svg", import.meta.url);
+const socialPreviewUrl = new URL("../src/app/opengraph-image.tsx", import.meta.url);
+const [pdfStats, transcript, logo, socialPreview] = await Promise.all([
   stat(pdfUrl),
   readFile(transcriptUrl, "utf8"),
-  readFile(ogUrl),
+  readFile(logoUrl, "utf8"),
+  readFile(socialPreviewUrl, "utf8"),
 ]);
 
 assert(pdfStats.size > 1_000_000, "Roger Martin Sum Up PDF is missing or truncated");
@@ -49,12 +52,17 @@ assert(
   "Helen Tupper transcript is missing or truncated",
 );
 assert(
-  ogImage.subarray(1, 4).toString("ascii") === "PNG" &&
-    ogImage.readUInt32BE(16) === 1200 &&
-    ogImage.readUInt32BE(20) === 630,
-  "Open Graph image must be a 1200 x 630 PNG",
+  createHash("sha256").update(logo.trimEnd()).digest("hex") ===
+    "d096bd164e714c784289dba52fe096b958a1b04016d0d8f9464879fcadabe65c",
+  "Better at Work logo no longer matches the approved original vector",
+);
+assert(
+  socialPreview.includes("better-at-work-logo.svg") &&
+    socialPreview.includes("width: 1200") &&
+    socialPreview.includes("height: 630"),
+  "Open Graph image must use the approved logo at 1200 x 630",
 );
 
 console.log(
-  `Verified ${archive.episodes.length} canonical episodes, one transcript, one Sum Up PDF and the social preview`,
+  `Verified ${archive.episodes.length} canonical episodes, one transcript, one Sum Up PDF, the approved logo and its social preview`,
 );

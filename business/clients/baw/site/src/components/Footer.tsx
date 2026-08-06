@@ -1,14 +1,13 @@
 import Link from "next/link";
-import { BrandSeal, Logo } from "./Logo";
+import { Logo } from "./Logo";
 
 export function Footer() {
   return (
     <footer className="site-footer">
       <div className="shell site-footer__grid">
         <div>
-          <Logo inverse />
+          <Logo />
           <p>Honest conversations. Useful ways to work better.</p>
-          <BrandSeal inverse />
         </div>
         <div>
           <span className="eyebrow">Explore</span>

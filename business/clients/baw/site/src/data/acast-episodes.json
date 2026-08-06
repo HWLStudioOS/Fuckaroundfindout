@@ -1,8 +1,21 @@
 {
   "source": "https://feeds.acast.com/public/shows/69d60ca52a193257adc683b0",
-  "syncedAt": "2026-08-03T10:50:52.349Z",
-  "count": 84,
+  "syncedAt": "2026-08-06T11:39:25.707Z",
+  "count": 85,
   "episodes": [
+    {
+      "id": "6a71da1447235c354d4a87e0",
+      "slug": "the-four-things-that-make-work-worth-doing-better-moments-4",
+      "title": "The Four Things That Make Work Worth Doing | Better Moments #4 | Laura Gassner Otting",
+      "publishedAt": "2026-08-06T06:00:00.000Z",
+      "duration": "5:29",
+      "durationSeconds": 329,
+      "summary": "A good job is not the same for everyone.\n\nLaura Gassner Otting gives us four dials for working out whether a role actually fits: calling, connection, contribution and control.\n\nCalling is the force that pulls you forward. Connection is whether your work matters. Contribution is what the work gives your life. Control is the agency you have over your time, decisions and environment.\n\nThe practical question is not whether all four are high. It is whether the mix matches what matters to you now.\n\nLaura is a Wall Street Journal bestselling author, researcher and former executive recruiter. She is the author of * Limitless * and * Wonderhell *.\n\nWatch the full conversation: https://www.youtube.com/watch?v=e8Z0nuapNLI",
+      "audioUrl": "https://sphinx.acast.com/p/open/s/69d60ca52a193257adc683b0/e/6a71da1447235c354d4a87e0/media.mp3",
+      "acastUrl": "https://shows.acast.com/betteratworkpodcast/episodes/the-four-things-that-make-work-worth-doing-better-moments-4",
+      "imageUrl": "https://assets.pippa.io/shows/69d60ca52a193257adc683b0/show-cover.jpg",
+      "episodeType": "full"
+    },
     {
       "id": "6a6a24a2501e981514494839",
       "slug": "ai-doesnt-destroy-jobs-it-destroys-skills-better-moments-3-r",

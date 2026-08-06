@@ -4,7 +4,7 @@ A clean-room Next.js redesign for Better at Work. This is the Season 5 public-si
 
 ## What is working
 
-- Responsive homepage using the locked Season 5 masthead, live mark and seal
+- Responsive homepage using the approved original Better@Work outlined logo
 - Persistent Acast-backed audio player
 - Normalised snapshot of all 84 episodes in the canonical public Acast RSS feed
 - Static episode routes for the full archive
@@ -17,8 +17,15 @@ A clean-room Next.js redesign for Better at Work. This is the Season 5 public-si
 - One production transcript and one finished Sum Up connected where source files exist
 - Environment-aware canonicals, PodcastSeries and PodcastEpisode structured data
 - Sitemap, robots, generated seal icon and a dedicated social preview
+- Better Careers checkout wired end to end: a Stripe Checkout API route, buy
+  buttons and a noindex order-confirmation page. It stays dormant, with truthful
+  "cannot take payment" states, until `STRIPE_SECRET_KEY` and
+  `STRIPE_CHECKOUT_PRICE_ID` are set (see `.env.example`)
 
-The draft does not store form data, accept payment or pretend to complete those actions. Stripe, Kit, a CMS and analytics remain intentionally disconnected.
+The draft does not store form data or take payment while checkout is dormant.
+Kit, a CMS and analytics remain intentionally disconnected. Switching checkout
+on requires the confirmed price, currency and refund terms, plus a fulfilment
+path (webhook or delivery email), none of which are decided yet.
 
 ## Local use
 

@@ -11,7 +11,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { EpisodeCard } from "@/components/EpisodeCard";
 import { NewsletterForm } from "@/components/NewsletterForm";
-import { LiveMark } from "@/components/Logo";
+import { BrandMark } from "@/components/Logo";
 import { PlayButton } from "@/components/AudioPlayer";
 import { ProblemFinder } from "@/components/ProblemFinder";
 import { episodes, topics } from "@/lib/content";
@@ -92,7 +92,7 @@ export default function Home() {
             <div className="latest-stage__art">
               <span className="latest-stage__season">{latest.number}</span>
               <div className="latest-stage__live">
-                <LiveMark inverse />
+                <BrandMark />
               </div>
               <div className="latest-stage__stamp">
                 {latest.series} · {latest.duration}

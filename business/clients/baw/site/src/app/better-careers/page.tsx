@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
-import { ArrowRight, Check, Download, Quote, Sparkles } from "lucide-react";
+import { Check, Download, Lock, Quote, Sparkles } from "lucide-react";
 import Image from "next/image";
+import { CheckoutButton } from "@/components/CheckoutButton";
+import { isCheckoutConfigured, plannedPriceLabel } from "@/lib/checkout";
 import { absoluteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -19,6 +21,7 @@ export const metadata: Metadata = {
 const steps = ["Reflect", "Plan", "Network", "Apply", "Interview", "Thrive"];
 
 export default function CareersPage() {
+  const checkoutLive = isCheckoutConfigured();
   return (
     <>
       <section className="careers-hero">
@@ -31,15 +34,26 @@ export default function CareersPage() {
               next, without pretending the answer arrives in one brave leap.
             </p>
             <div className="careers-hero__price">
-              <strong>£20</strong>
-              <span>Planned one-off price · Checkout is not connected</span>
+              <strong>{plannedPriceLabel}</strong>
+              <span>
+                {checkoutLive
+                  ? "One-off price · Secure checkout by Stripe"
+                  : "Planned one-off price · Checkout is built, not yet switched on"}
+              </span>
             </div>
-            <button className="button button--yellow" type="button" disabled>
-              Checkout not live <ArrowRight aria-hidden="true" />
-            </button>
+            <CheckoutButton label="Buy the guide" variant="yellow" />
             <small className="prototype-note">
-              <Sparkles aria-hidden="true" /> This draft cannot take payment. Nothing will
-              be charged.
+              {checkoutLive ? (
+                <>
+                  <Lock aria-hidden="true" /> Payment is handled by Stripe. Card
+                  details never touch this site.
+                </>
+              ) : (
+                <>
+                  <Sparkles aria-hidden="true" /> This draft cannot take payment.
+                  Nothing will be charged.
+                </>
+              )}
             </small>
           </div>
           <div className="careers-hero__product">
@@ -117,9 +131,7 @@ export default function CareersPage() {
           <div>
             <strong>Ready when you are.</strong>
             <p>One payment. No membership. Keep the guide and return whenever work shifts.</p>
-            <button className="button button--ink" type="button" disabled>
-              Checkout coming soon <ArrowRight aria-hidden="true" />
-            </button>
+            <CheckoutButton label="Buy Better Careers" variant="ink" />
           </div>
         </div>
       </section>

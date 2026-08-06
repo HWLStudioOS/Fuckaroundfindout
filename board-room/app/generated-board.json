@@ -1,9 +1,9 @@
 {
   "title": "The Board Room",
   "week": "3 to 9 August 2026",
-  "sourceDate": "2026-08-05",
-  "generatedAt": "2026-08-05T21:30:09.154Z",
-  "sourceCommit": "f3e4bac",
+  "sourceDate": "2026-08-06",
+  "generatedAt": "2026-08-06T21:30:01.354Z",
+  "sourceCommit": "cbb6f87",
   "summary": {
     "open": 22,
     "active": 4,
@@ -78,11 +78,11 @@
       "rank": null
     },
     {
-      "id": "waiting-kerri-and-emma-first-et-shoot-day-is-booked-for-",
-      "title": "Kerri and Emma: first ET shoot day is booked for 11 August. Kerri calls Harrison Wednesday afternoon (mobile). Call goal: lock the PO route, then raise the first invoice once Emma's window-one budget confirms. Not an invoice chase.",
+      "id": "waiting-kerri-and-emma-wednesday-call-happened-notes-in-",
+      "title": "Kerri and Emma: Wednesday call happened, notes in `business/clients/lor-et-call-notes-2026-08-05.md`. £15k is the whole campaign across all windows (fixed ceiling, the August £7k sits inside it), \"pass the baton\" concept approved, no Dartford filming, two project visits, roles live w/c 28 September, Everton Stadium induction day added on the call. Everton is confirmed OUTSIDE the £15k and gets its own quote. Reprice the core as an allocation and boundary sheet inside £15k. Open: PO route and first invoice, Everton date and quote. Visit one is pushed past w/c 11 August per Harrison, 6 August; Kerri is away until the 17th. The A-level results posts still ship before Thursday 13 August and need a sign-off route (likely Emma) while she is away.",
       "area": "Awaiting",
       "state": "waiting",
-      "due": "2026-08-11",
+      "due": "2026-09-28",
       "baseScore": 18,
       "score": 18,
       "reason": "Visible, but owned by somebody else or blocked by an external response.",
@@ -126,11 +126,11 @@
       "rank": null
     },
     {
-      "id": "waiting-anna-revised-direction-for-the-pro-landscaper-ad",
-      "title": "Anna: revised direction for the Pro Landscaper advert, due 19 August.",
+      "id": "waiting-anna-pro-landscaper-advert-direction-landed-6-au",
+      "title": "Anna: Pro Landscaper advert direction landed 6 August. Plants-led (highlight what Creepers supply, not design or installation), no houses, minimal buildings, sky edits allowed. Assets arrived by WeTransfer (Chelsea, Installation, Hatchford folders, 1.56 GB, link expires 9 August, download first). Ideas to Creepers next week, advert deadline 19 August. Sam offered a call. Crediting or designer collaboration to be worked out after ideas go over.",
       "area": "Awaiting",
       "state": "waiting",
-      "due": "2026-08-19",
+      "due": "2026-08-06",
       "baseScore": 18,
       "score": 18,
       "reason": "Visible, but owned by somebody else or blocked by an external response.",
@@ -174,11 +174,11 @@
       "rank": null
     },
     {
-      "id": "waiting-year-one-the-eight-page-pack-is-dead-per-harriso",
-      "title": "Year One: the eight-page pack is dead per Harrison, 4 August. Remaining question is whether the three Looms get recorded or the obligation closes entirely.",
+      "id": "waiting-year-one-closed-entirely-per-harrison-6-august-t",
+      "title": "Year One: closed entirely per Harrison, 6 August. The pack was already dead and the three Looms will not be recorded. Surviving personal items: film Laurence's member testimonial (months overdue) and reply to his last WhatsApp.",
       "area": "Awaiting",
       "state": "waiting",
-      "due": "2026-08-04",
+      "due": "2026-08-06",
       "baseScore": 18,
       "score": 18,
       "reason": "Visible, but owned by somebody else or blocked by an external response.",

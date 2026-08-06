@@ -70,15 +70,15 @@ Finish the Creepers and Better at Work creative lanes, convert every other clien
 ## Awaiting or one-tap gates
 
 - Danny Wicks: respond to the boundary note Harrison sent on 4 August at £800 plus VAT. The ball is with Danny; no further move from our side. <!-- linear:HWL-200 -->
-- Kerri and Emma: first ET shoot day is booked for 11 August. Kerri calls Harrison Wednesday afternoon (mobile). Call goal: lock the PO route, then raise the first invoice once Emma's window-one budget confirms. Not an invoice chase. <!-- linear:HWL-191 -->
+- Kerri and Emma: Wednesday call happened, notes in `business/clients/lor-et-call-notes-2026-08-05.md`. £15k is the whole campaign across all windows (fixed ceiling, the August £7k sits inside it), "pass the baton" concept approved, no Dartford filming, two project visits, roles live w/c 28 September, Everton Stadium induction day added on the call. Everton is confirmed OUTSIDE the £15k and gets its own quote. Reprice the core as an allocation and boundary sheet inside £15k. Open: PO route and first invoice, Everton date and quote. Visit one is pushed past w/c 11 August per Harrison, 6 August; Kerri is away until the 17th. The A-level results posts still ship before Thursday 13 August and need a sign-off route (likely Emma) while she is away. <!-- linear:HWL-191 -->
 - Better at Work: brand refresh verbally approved by Cathal on 5 August. Production deployment follows his end-of-week review of the finished site with checkout. <!-- linear:HWL-190 -->
 - Cathal: submit Acast payout details (acknowledged on the 5 August call, about £12 waiting) and post his personal LinkedIn this week.
 - Anna and Sarah-Louise: exact Surrey Season 4 shoot date.
-- Anna: revised direction for the Pro Landscaper advert, due 19 August.
+- Anna: Pro Landscaper advert direction landed 6 August. Plants-led (highlight what Creepers supply, not design or installation), no houses, minimal buildings, sky edits allowed. Assets arrived by WeTransfer (Chelsea, Installation, Hatchford folders, 1.56 GB, link expires 9 August, download first). Ideas to Creepers next week, advert deadline 19 August. Sam offered a call. Crediting or designer collaboration to be worked out after ideas go over.
 - Michael and Sam: choose a replacement advert image after the Creepers browse library is shared.
 - Cathal: Acast payout account details.
 - Helen Tupper: outcome of her conversation with Sarah about the Squiggly range.
-- Year One: the eight-page pack is dead per Harrison, 4 August. Remaining question is whether the three Looms get recorded or the obligation closes entirely.
+- Year One: closed entirely per Harrison, 6 August. The pack was already dead and the three Looms will not be recorded. Surviving personal items: film Laurence's member testimonial (months overdue) and reply to his last WhatsApp.
 
 ## Scheduled later
 

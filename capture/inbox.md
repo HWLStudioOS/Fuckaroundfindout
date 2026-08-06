@@ -4,6 +4,18 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-08-06 21:38 (BaW website session close, to-do batch)
+
+- **Share the website preview with Cathal before Friday 11:30.** Grant access from the Vercel dashboard on deployment `better-at-work-frontier-hnyy750rx-harrison-living-s-projects.vercel.app` (project better-at-work-frontier), then send him the link. Site is finished and validated; this is the only step the machine cannot do.
+- **After Cathal's review, four Stripe decisions switch checkout on:** price and currency (page shows £20 as planned), refund and support terms, whose Stripe account (his for live, yours fine for a test-mode demo), and a fulfilment path (webhook plus delivery email). Then set `STRIPE_SECRET_KEY` + `STRIPE_CHECKOUT_PRICE_ID` in Vercel and redeploy.
+- **Production path once approved:** point betteratwork.net DNS, set `NEXT_PUBLIC_SITE_URL`, WordPress redirect map, Kit and forms. Merge `codex/baw-frontier-site` to main at the same moment.
+- **Acast show settings need an upstream clean.** Feed still carries solo-Cathal metadata and glued show-note whitespace (site now repairs it cosmetically). Raise with Cathal when convenient.
+- **Summer tracker website lane left unticked on purpose.** Its task wording bundles "tracked analytics", which is intentionally not connected, so ticking would overclaim on a client-visible surface. Reword or tick after Friday.
+- **Parked, not dead: the website money conversation.** Real posture is a few thousand plus uplifted monthly, memory saved. Hard no stays: not free inside the £1,500 retainer.
+- Source: Claude session close, 6 August evening.
+- Tag: baw, capture, todo
+- Status: new
+
 ## 2026-08-03 20:38 (Harrison finance correction)
 
 - Invoicing and finance administration are up to date.

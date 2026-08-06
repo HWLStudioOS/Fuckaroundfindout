@@ -23,26 +23,51 @@ const groups: Record<string, string[]> = {
   conflict: ["conflict", "difficult", "conversation", "disagree", "tension", "polarised"],
 };
 
+const stopWords = new Set([
+  "and",
+  "are",
+  "about",
+  "for",
+  "had",
+  "has",
+  "have",
+  "its",
+  "not",
+  "our",
+  "out",
+  "that",
+  "the",
+  "this",
+  "was",
+  "with",
+  "you",
+  "your",
+]);
+
 const normalise = (value: string) =>
   value
     .toLowerCase()
     .replace(/[^a-z0-9\s]/g, " ")
     .split(/\s+/)
-    .filter((word) => word.length > 2);
+    .filter((word) => word.length > 2 && !stopWords.has(word));
 
-const expandedTerms = (query: string) => {
-  const base = new Set(normalise(query));
+// The visitor's own words outrank group synonyms, so a specific phrase like
+// "micromanaging" beats the generic leadership cluster it also activates.
+const queryTerms = (query: string) => {
+  const direct = new Set(normalise(query));
+  const expanded = new Set<string>();
   Object.entries(groups).forEach(([label, words]) => {
     if (words.some((word) => query.toLowerCase().includes(word))) {
-      base.add(label);
-      words.forEach((word) => normalise(word).forEach((term) => base.add(term)));
+      expanded.add(label);
+      words.forEach((word) => normalise(word).forEach((term) => expanded.add(term)));
     }
   });
-  return [...base];
+  direct.forEach((term) => expanded.delete(term));
+  return { direct: [...direct], expanded: [...expanded] };
 };
 
 const scoreEpisode = (episode: Episode, query: string) => {
-  const terms = expandedTerms(query);
+  const { direct, expanded } = queryTerms(query);
   const problemText = episode.problems.join(" ").toLowerCase();
   const titleText = `${episode.title} ${episode.shortTitle}`.toLowerCase();
   const bodyText = [
@@ -54,12 +79,18 @@ const scoreEpisode = (episode: Episode, query: string) => {
     .join(" ")
     .toLowerCase();
 
-  return terms.reduce((score, term) => {
-    if (problemText.includes(term)) score += 5;
-    if (titleText.includes(term)) score += 4;
-    if (bodyText.includes(term)) score += 2;
+  const scoreTerm = (term: string, weight: number) => {
+    let score = 0;
+    if (problemText.includes(term)) score += 5 * weight;
+    if (titleText.includes(term)) score += 4 * weight;
+    if (bodyText.includes(term)) score += 2 * weight;
     return score;
-  }, 0);
+  };
+
+  return (
+    direct.reduce((score, term) => score + scoreTerm(term, 3), 0) +
+    expanded.reduce((score, term) => score + scoreTerm(term, 0.5), 0)
+  );
 };
 
 export function ProblemFinder({ compact = false }: { compact?: boolean }) {

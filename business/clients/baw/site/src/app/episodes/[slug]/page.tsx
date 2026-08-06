@@ -13,6 +13,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { EpisodeMomentButton, PlayButton } from "@/components/AudioPlayer";
 import { EpisodeCard } from "@/components/EpisodeCard";
+import { cleanFeedText, NotesParagraph } from "@/components/ShowNotes";
 import {
   ACAST_FEED_URL,
   durationToIso,
@@ -183,9 +184,11 @@ export default async function EpisodePage({ params }: PageProps) {
                 <span className="note-label">Canonical show notes</span>
                 <h2>About this episode.</h2>
                 <div className="show-notes-copy">
-                  {episode.showNotes.split(/\n\s*\n/).map((paragraph) => (
-                    <p key={paragraph}>{paragraph}</p>
-                  ))}
+                  {cleanFeedText(episode.showNotes)
+                    .split(/\n\s*\n/)
+                    .map((paragraph) => (
+                      <NotesParagraph key={paragraph} text={paragraph} />
+                    ))}
                 </div>
               </section>
             )}

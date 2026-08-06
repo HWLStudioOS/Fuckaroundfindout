@@ -21,9 +21,9 @@ export function Footer() {
           <a href="https://podcasts.apple.com/gb/podcast/better-at-work-with-cathal-quinlan/id1619332673">
             Apple Podcasts
           </a>
-          <a href="https://open.spotify.com/show/3yMfl7d6FnNjfO4oVdf39S">Spotify</a>
+          <a href="https://open.spotify.com/show/4YjMdM7YQyxDvudKRkTzkO">Spotify</a>
           <a href="https://shows.acast.com/betteratworkpodcast/episodes">Acast</a>
-          <a href="https://www.youtube.com/@betteratworkpodcast">YouTube</a>
+          <a href="https://www.youtube.com/@betteratworkpod">YouTube</a>
         </div>
       </div>
       <div className="shell site-footer__bottom">

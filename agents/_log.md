@@ -479,3 +479,12 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 2026-08-05T14:07:05+0100 | discovery-scan | AUTH_REQUIRED | exit=78; run=20260805T140704+0100-48929; Claude CLI is not authenticated. Harrison must run 'claude auth login' interactively, then verify 'claude auth status --text'.; logs=agents/logs/discovery-scan.stdout.log,agents/logs/discovery-scan.stderr.log
 2026-08-05T19:07:04+0100 | evening-reflection | AUTH_REQUIRED | exit=78; run=20260805T190703+0100-65557; Claude CLI is not authenticated. Harrison must run 'claude auth login' interactively, then verify 'claude auth status --text'.; logs=agents/logs/evening-reflection.stdout.log,agents/logs/evening-reflection.stderr.log
 - 2026-08-05 22:30 BST | board-room | validation passed before backup and deploy
+- 2026-08-05 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-08-05 22:30 BST | board-room | DEPLOY BLOCKED, validation changed the pushed checkout
+- 2026-08-06 06:23  | health-sync | OK 2026-08-06: RHR None, sleep 7.2h (score 86), HRV 59 BALANCED, readiness None
+2026-08-06T06:40:37+0100 | morning-brief | AUTH_REQUIRED | exit=78; run=20260806T064036+0100-94660; Claude CLI is not authenticated. Harrison must run 'claude auth login' interactively, then verify 'claude auth status --text'.; logs=agents/logs/morning-brief.stdout.log,agents/logs/morning-brief.stderr.log
+- 2026-08-06 11:00  | health-sync | OK 2026-08-06: RHR 53, sleep 7.2h (score 86), HRV 59 BALANCED, readiness 55
+2026-08-06T12:37:59+0100 | auth-proof | SUCCEEDED | exit=0; run=20260806T123750+0100-16981; completed; logs=agents/logs/auth-proof.stdout.log,agents/logs/auth-proof.stderr.log
+- 2026-08-06 14:00  | health-sync | OK 2026-08-06: RHR 53, sleep 7.2h (score 86), HRV 59 BALANCED, readiness 55
+2026-08-06T19:09:39+0100 | evening-reflection | SUCCEEDED | exit=0; run=20260806T190703+0100-40989; Claude completed and output post-processing finished; logs=agents/logs/evening-reflection.stdout.log,agents/logs/evening-reflection.stderr.log
+- 2026-08-06 22:30 BST | board-room | VALIDATION FAILED, production deploy blocked: �──────────────────────────────────────────┤ │ More info           │ https://github.com/advisories/GHSA-5p4m-2wfm-xmqj      │ └─────────────────────┴────────────────────────────────────────────────────────┘ 1 vulnerabilities found Severity: 1 high 

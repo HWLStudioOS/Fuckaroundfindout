@@ -3177,3 +3177,47 @@
 [2026-08-05T19:33:46.217Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-08-05T20:33:46.335Z] INFO Sync start. Last: 2026-08-05T19:33:46.214Z
 [2026-08-05T20:33:47.450Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-05T21:33:47.565Z] INFO Sync start. Last: 2026-08-05T20:33:47.446Z
+[2026-08-05T21:33:48.360Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-05T22:55:24.516Z] INFO Sync start. Last: 2026-08-05T21:33:48.357Z
+[2026-08-05T22:55:25.255Z] INFO push ~ HWL-227 → done
+[2026-08-05T22:55:25.333Z] INFO Sync done. push: +0 ~1. pull: ~0.
+[2026-08-06T02:34:53.070Z] INFO Sync start. Last: 2026-08-05T22:55:25.332Z
+[2026-08-06T02:34:53.462Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-06T08:13:29.257Z] INFO Sync start. Last: 2026-08-06T02:34:53.460Z
+[2026-08-06T08:13:29.900Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-06T09:13:30.015Z] INFO Sync start. Last: 2026-08-06T08:13:29.897Z
+[2026-08-06T09:13:30.448Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-06T10:13:30.548Z] INFO Sync start. Last: 2026-08-06T09:13:30.447Z
+[2026-08-06T10:13:31.698Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-06T11:13:31.851Z] INFO Sync start. Last: 2026-08-06T10:13:31.695Z
+[2026-08-06T11:13:32.861Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-06T12:13:32.954Z] INFO Sync start. Last: 2026-08-06T11:13:32.858Z
+[2026-08-06T12:13:33.354Z] INFO push ~ HWL-230 → done
+[2026-08-06T12:13:33.540Z] INFO push + HWL-234 Logged-out playback proof on Acast and YouTube if not alread
+[2026-08-06T12:13:33.829Z] INFO push + HWL-235 Film the Laurence Year One testimonial. Months overdue, talk
+[2026-08-06T12:13:34.049Z] INFO push ~ HWL-200 → todo
+[2026-08-06T12:13:35.160Z] INFO push + HWL-236 Follow up Michael (Creepers) on the Surrey visit, week start
+[2026-08-06T12:13:35.331Z] INFO push + HWL-237 Reply to Laurence's last WhatsApp.
+[2026-08-06T12:13:35.484Z] INFO push + HWL-238 KiwiSaver: route through Litchfields (Raj) before initiating
+[2026-08-06T12:13:35.839Z] INFO Sync done. push: +5 ~2. pull: ~0.
+[2026-08-06T13:13:35.977Z] INFO Sync start. Last: 2026-08-06T12:13:35.837Z
+[2026-08-06T13:13:36.457Z] INFO push ~ HWL-236 → done
+[2026-08-06T13:13:37.143Z] INFO push ~ HWL-229 → done
+[2026-08-06T13:13:37.242Z] INFO Sync done. push: +0 ~2. pull: ~0.
+[2026-08-06T14:13:37.325Z] INFO Sync start. Last: 2026-08-06T13:13:37.240Z
+[2026-08-06T14:13:37.624Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-06T15:13:37.723Z] INFO Sync start. Last: 2026-08-06T14:13:37.621Z
+[2026-08-06T15:13:38.201Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-06T16:13:38.299Z] INFO Sync start. Last: 2026-08-06T15:13:38.199Z
+[2026-08-06T16:13:38.642Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-06T17:13:38.772Z] INFO Sync start. Last: 2026-08-06T16:13:38.639Z
+[2026-08-06T17:13:39.087Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-06T18:13:39.224Z] INFO Sync start. Last: 2026-08-06T17:13:39.085Z
+[2026-08-06T18:13:39.537Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-06T19:13:39.640Z] INFO Sync start. Last: 2026-08-06T18:13:39.534Z
+[2026-08-06T19:13:40.711Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-06T20:13:40.820Z] INFO Sync start. Last: 2026-08-06T19:13:40.710Z
+[2026-08-06T20:13:41.499Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-06T21:13:41.665Z] INFO Sync start. Last: 2026-08-06T20:13:41.497Z
+[2026-08-06T21:13:42.042Z] INFO Sync done. push: +0 ~0. pull: ~0.

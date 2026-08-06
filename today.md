@@ -1,54 +1,68 @@
 ---
-date: 2026-08-05
-generated: Claude interactive brief, Wednesday morning
-financial_truth_updated: 2026-08-04 10:46 BST
+date: 2026-08-06
+generated: Claude interactive brief, Thursday, updated mid-afternoon
+financial_truth_updated: 2026-08-06 (Revolut Savings move, see money/index.md)
 ---
 
-# Today, Wednesday 5 August 2026
+# Today, Thursday 6 August 2026
 
 ## Pulse
 
-Launch eve. Better Moments 4 goes live tomorrow at 12:30 and today is teaser day plus two afternoon calls. Sandringham went out. The hero-film card is killed. The deep-work block is market preparation: SpaceX reported last night, its lockup opens tomorrow, and Sandisk reports tonight. No orders this week; the day-one balance inventory is the gate.
+BM4 is live and the teaser went out this morning. Launch graphic holds for tomorrow or Cathal's personal post. The rest of the day is Harrison's short board: Creepers photos, the Laurence testimonial that has waited months, footage upload for the Danny edit handoff, and two follow-ups. LOR visit one is pushed, Kerri is away until the 17th, but the A-level results posts still ship before next Thursday.
 
 ## Today
 
-- [ ] BM4 Wednesday checklist: watch the 9:16 teaser on a phone with sound on and off, confirm the caption safe area, Cathal scans teaser copy, then publish the teaser to Better at Work Instagram and the Cathal LinkedIn version. <!-- linear:HWL-226 -->
-- [ ] Confirm yesterday's IG and LinkedIn carousels actually went out. If not, ship them alongside the teaser. <!-- linear:HWL-221 -->
-- [x] 14:00 Cathal call: brand refresh approved with enthusiasm, website green-lit for launch after his end-of-week review. Payout details acknowledged as his to do. BM4 choreography, Laura tag and photos were not covered; closing async today. <!-- linear:HWL-190 -->
-- [ ] Send Cathal the launch choreography message (draft ready): his 12:45 LinkedIn post with link in first comment, Laura's tag confirmation, holiday photos. <!-- linear:HWL-230 -->
-- [ ] Around 15:00, Kerri mobile call: lock the 11 August first-shoot-day admin and PO route. First invoice follows Emma's window-one budget confirmation. <!-- linear:HWL-227 -->
-- [ ] Market prep: read the Wednesday market brief. Sandisk results tonight after US close. SpaceX review date stays Monday 10 August. Start the day-one balance inventory from `money/investment-strategy-2026-08-03.md`. <!-- linear:HWL-228 -->
-- [ ] Long + Strong week 2 session per plan. Sleep 90, HRV 61 balanced. <!-- linear:HWL-229 -->
+- [x] BM4 live on Acast and YouTube. Teaser clip posted this morning on IG and LinkedIn. <!-- linear:HWL-204 -->
+- [x] Cathal message: sent by Harrison directly (launch, photos, invoice). Awaiting his reply. <!-- linear:HWL-230 -->
+- [ ] Logged-out playback proof on Acast and YouTube if not already done. <!-- linear:HWL-234 -->
+- [ ] Creepers post, RHS Sandringham photos. Harrison posting. Safe caption ready; the Royal Legacy Garden variant needs the involvement wording verified first. <!-- linear:HWL-221 -->
+- [ ] Film the Laurence Year One testimonial. Months overdue, talk-to-camera, catch and cut, no script. <!-- linear:HWL-235 -->
+- [ ] Danny: stall reply to his team later today. Full Ultimate Founder Day footage upload moves to tomorrow. Leverage note stands: hold the share link until the £800 plus VAT is confirmed. <!-- linear:HWL-200 -->
+- [x] Michael (Creepers) Surrey follow-up: covered. Harrison spoke to Anna, Creepers loop closed for now. <!-- linear:HWL-236 -->
+- [ ] Reply to Laurence's last WhatsApp. <!-- linear:HWL-237 -->
+- [ ] LOR: on hold per Harrison until Kerri returns on the 17th. One collision on record: A-level results day is Thursday 13 August, so the results posts die by default unless they go to Emma before then. Harrison's call, made aware. <!-- linear:HWL-191 -->
+- [ ] Market: watch-only via Perplexity Finance, eyes on SNDK and SPCX. No further orders. Inventory true-up still blocked on Harrison's fills. <!-- linear:HWL-228 -->
+- [ ] KiwiSaver: route through Litchfields (Raj) before initiating. Flags in `money/index.md`. <!-- linear:HWL-238 -->
+- [x] Long + Strong week 2 session: done before midday. <!-- linear:HWL-229 -->
 
-## Moved or closed
+## Killed or superseded today
 
-- [x] Sandringham stock update: shipped. <!-- linear:HWL-187 -->
-- [x] Chelsea hero-film card: killed as stale. Not carried. <!-- linear:HWL-209 -->
-- [x] BM4 scheduled on Acast and YouTube for Thursday 12:30. Launch-sequence hold is on the calendar, 12:00 to 13:00 tomorrow. <!-- linear:HWL-204 -->
+- Story frames: skipped on Harrison's call.
+- Year One Looms: obligation closed entirely. The pack was already dead; the Looms will not be recorded. What survives is personal: Laurence's testimonial film and a WhatsApp reply.
+- Shawbrook one-tap: superseded. Harrison moved the £9,200 tax reserve into Revolut Savings at about 3% AER on 6 August.
+- Danny team reply draft: superseded by the footage-upload handoff plan.
+- LOR visit one on 11 August: pushed per Kerri's call. Kerri away until the 17th. No movement needed before then except the results posts.
 
 ## New information
 
-- BM4 fully green-lit: Cathal has signed off Laura. Launch choreography message still worth sending so his 12:45 post is armed with artwork and copy.
-- Personal scout buys recorded from 4 August (Revolut, taxable, about £430 total): SPCX $268, NVDA $134, SNDK $67. Outside the strategy doc; amend-or-fold decision pending. Review packs and inventory worksheet built.
-- Anna, 4 August, advert thread: concentrate on **rootball pictures** for the Design Journal replacement image. Shape the Michael and Sam library share around rootball options. Only B (Ferndale olive) is press-resolution today; any chosen rootball image needs its original file before supply.
+- Tax reserve is now earning: Revolut Savings, about 3% AER. Recorded in `money/index.md`.
+- Additional personal investment orders exist beyond the 4 August scouts. Fills still needed for the strategy-doc true-up.
+- 21:40: two more scout buys, $50 Micron and $50 Palantir, placed after the US close so fills land extended-hours or Friday open. Recorded in `money/index.md`. Amend-or-fold on the strategy is now overdue.
+- WeTransfer assets downloaded by Harrison (431 files, 1.6 GB, deduped to 353 unique shots). Full visual review complete same evening: ranked 15-pick shortlist in `business/clients/creepers-prolandscaper-shortlist-2026-08-06.md`, 11 print-ready and 4 needing originals (Jason Ingram and Jo Kossak files via Garden Club London, credit lines in their Credits.docx). Headline gap: **zero rootball or nursery-stock shots in the entire transfer** despite Anna's stated interest. Decision for Harrison: ask Anna and Michael for existing rootball photos, or shoot them at the Surrey visit. The Christina Cobb folder (114 files) is entirely 2000px web exports; the Installation folder is mostly iPhone shots with houses in frame; Hatchford is the strongest real-garden material with crops needed for the no-houses rule.
+- KiwiSaver withdrawal decision made, verification pending via Litchfields. The UK "tax-free lump sum" assumption is the one to test hardest.
+- Danny's team chased testimonials; Harrison's answer is a footage handoff to the editor rather than doing the edit himself. Stall reply today, upload tomorrow.
+- Squiggly Careers production chat booked: Tuesday 11 August, 16:15, Teams. It overlaps the recurring 16:00 Kerri catch-up that day, which wants declining since Kerri is away anyway.
+- Better at Work: all good per Harrison, nothing outstanding today. LOR fully on hold until the 17th.
+- Caroline Webb recording (Thursday 13 August, 16:00, Riverside): Harrison is not attending, it runs online without him. Invite left un-actioned. Note: the invite text names Harrison as on-the-day audio support, so Cathal may assume he is on the call unless told otherwise.
+- 11 August Kerri catch-up instance declined, Kerri away until the 17th.
 
 ## Awaiting response
 
 - Danny Wicks: payment move after the £800 plus VAT note.
-- Michael and Sam: advert image pick, now rootball-led per Anna.
-- Cathal: Acast payout account details, plus holiday photos for the personal post.
-- Anna: revised Pro Landscaper direction, due 19 August. Anna and Sarah-Louise: exact Surrey Season 4 shoot date.
-- Helen Tupper: outcome of her conversation with Sarah about the Squiggly range.
-- Year One: Harrison to decide whether the three Looms get recorded or the obligation closes.
+- Michael and Sam: advert image pick now live again. Anna delivered the asset folders by WeTransfer at 13:40 (Chelsea gardens 7 items, Installation projects 92 items, Hatchford 2 items, 1.56 GB, **link expires Saturday 9 August**). Rob's rules: no houses, minimal buildings, sky edits fine. Advert highlights the plants Creepers supply, not design or installation. Ideas to them next week, advert deadline 19 August. Sam offered a call.
+- Cathal: £1,800 invoice, Acast payout details, holiday photos. Harrison's combined message went today.
+- Anna: revised Pro Landscaper direction, due 19 August. Anna and Sarah-Louise: exact Surrey Season 4 shoot date (Michael follow-up going today).
+- Kerri and Emma: PO route and first invoice, Everton date and quote, new visit-one date once Kerri returns on the 17th.
+- Helen Tupper: superseded. Squiggly production chat booked for Tuesday 11 August, 16:15 to 17:00, Teams, with Helen, Sarah Ellis and Sarah Massie.
 
 ## Standing
 
-Health: Long + Strong week 2 on track. Sleep score 90, HRV 61, balanced.
+Health: sleep 7.2h score 86, HRV 59 balanced, RHR 53, training readiness 55 moderate. Long + Strong week 2: 28km across four runs plus Strength A and B, Saturday off.
 
-Money: tax reserve £9,200, Shawbrook protected-savings move prepared and waiting on the one-tap approval. £1,800 from Better at Work expected. About £7,000 from LOR during August. No investment order before the day-one inventory in the strategy doc completes and G is verified positive.
+Money: tax reserve £9,200 in Revolut Savings at about 3%. £1,800 from Better at Work outstanding, nudged today. LOR £15k is pipeline until a PO exists. Personal investing watch-only pending the inventory true-up.
 
-System: scheduled agents still blocked on the interactive Claude login (hCaptcha). Morning brief exited 78 at 06:30 again today. Nightly backup and board regeneration are healthy.
+System: scheduled agents still blocked on the interactive Claude login (hCaptcha). Board Room deploy fix and the BaW website build are both running in their own sessions.
 
 ## Lens
 
-Ship the teaser, take the two calls, do the market reading, start the inventory. Tomorrow is launch day.
+Launch shipped, board thinned. Stall Danny's team, film Laurence if the energy's there, post the photos, hit the range. The week can breathe.

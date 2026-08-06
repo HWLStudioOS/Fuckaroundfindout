@@ -2032,5 +2032,18 @@
     "readinessLevel": "MODERATE",
     "acwr": 0.63,
     "acuteLoad": 644.0
+  },
+  {
+    "date": "2026-08-06",
+    "vo2Max": 45.0,
+    "hrv": 64.0,
+    "hrvStatus": "BALANCED",
+    "restingHR": 53,
+    "stressAvg": 42,
+    "bodyBattery": 19,
+    "trainingReadiness": 55,
+    "readinessLevel": "MODERATE",
+    "acwr": 0.69,
+    "acuteLoad": 616.0
   }
 ]

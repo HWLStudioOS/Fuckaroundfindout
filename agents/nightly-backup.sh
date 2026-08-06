@@ -100,9 +100,13 @@ deploy_board_room() {
     return 1
   fi
 
+  # HWL_BOARD_FROZEN_SNAPSHOT keeps the board generator in verify-only mode so
+  # this validation cannot rewrite the tracked snapshot (generatedAt and
+  # sourceCommit are stamped pre-commit and can never match a regeneration).
   : > "$ERR_FILE"
   if ! (
     cd "$deploy_board_dir" &&
+      export HWL_BOARD_FROZEN_SNAPSHOT=1 &&
       "$PNPM_BIN" install --frozen-lockfile &&
       "$PNPM_BIN" audit --audit-level low &&
       "$PNPM_BIN" run lint &&

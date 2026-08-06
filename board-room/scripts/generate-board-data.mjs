@@ -192,5 +192,33 @@ const output = {
   tasks,
 };
 
-writeFileSync(resolve(projectRoot, "app/generated-board.json"), `${JSON.stringify(output, null, 2)}\n`);
+const snapshotPath = resolve(projectRoot, "app/generated-board.json");
+
+if (process.env.HWL_BOARD_FROZEN_SNAPSHOT === "1") {
+  // Deploy validation runs in a clean detached checkout that must stay
+  // byte-identical to the pushed commit. generatedAt and sourceCommit are
+  // stamped pre-commit, so they can never match a post-commit regeneration;
+  // everything else is a pure function of the committed sources and must match.
+  const stripVolatile = (snapshot) => {
+    const stable = { ...snapshot };
+    delete stable.generatedAt;
+    delete stable.sourceCommit;
+    return stable;
+  };
+  let committed;
+  try {
+    committed = JSON.parse(readFileSync(snapshotPath, "utf8"));
+  } catch (error) {
+    console.error(`Frozen snapshot check failed: cannot read committed snapshot: ${error.message}`);
+    process.exit(1);
+  }
+  if (JSON.stringify(stripVolatile(output), null, 2) !== JSON.stringify(stripVolatile(committed), null, 2)) {
+    console.error("Frozen snapshot check failed: app/generated-board.json does not match its canonical sources. Rerun the nightly snapshot and commit before deploying.");
+    process.exit(1);
+  }
+  console.log(`Frozen snapshot verified against canonical sources: ${output.summary.active} active, ${output.summary.open} open, ${closedThisWeek} closed. Nothing written.`);
+  process.exit(0);
+}
+
+writeFileSync(snapshotPath, `${JSON.stringify(output, null, 2)}\n`);
 console.log(`Board generated: ${output.summary.active} active, ${output.summary.open} open, ${closedThisWeek} closed.`);

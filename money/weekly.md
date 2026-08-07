@@ -1,86 +1,71 @@
 ---
-generated: 2026-07-31 16:00 BST
-week_covered: w/c 27 July 2026 (Mon 27 Jul - Fri 31 Jul)
-xero_status: unreachable (MCP not wired), manual snapshot from Gmail (Litchfields, Capital on Tap, Amex, LOR AP, Creepers, BaW) + hand-maintained money/index.md, money/snapshot.md and business/clients/*.md live-state blocks
-status: superseded
-superseded_by: Harrison correction, 2026-08-03 20:38 BST
+generated: 2026-08-07 16:00 BST
+week_covered: w/c 3 August 2026 (Mon 3 Aug - Fri 7 Aug)
+xero_status: unreachable (no Xero MCP wired), built from Gmail (Litchfields, Capital on Tap, Cathal/BaW, Creepers), money/index.md, money/snapshot.md and business/clients/*.md live-state blocks
+status: current
 ---
 
-# CFO Weekly, w/c 27 July 2026
+# CFO Weekly, w/c 3 August 2026
 
-> **Superseded on 3 August 2026.** Harrison confirmed that invoicing and finance administration are up to date. About £7,000 is currently owed across Better at Work and Creepers combined, and about £7,000 from LOR is expected during August. The £21,000 to £22,000 unbilled estimate, Monday invoice action and 31 July card-admin warnings below are not current. This generated report is retained unchanged as a historical record. Do not carry any balance or action forward without fresh evidence.
-
-> Xero still isn't wired. Every figure below is from Gmail and the hand-maintained files, not a bank feed. Treat balances as Harrison's own reporting, not reconciled accounts.
+> Xero still isn't wired. Every figure below is Harrison's own dated reporting plus what Gmail shows, not a reconciled bank feed. The Starling balance below is computed from known movements, not bank-confirmed. Get a manual Starling check this weekend if you want a real number.
 
 ## Bottom line
 
-No confirmed cash landed this week. The last receipt was the LOR £1,350 BACS remittance on 20 July, the week before this one. Starling sits at £800 this morning. Nothing is currently invoiced and outstanding over 14 days, but that's not good news: it's because Creepers hasn't been invoiced for June or July at all, £7,000 sitting unbilled with no client-side blocker, purely a Harrison-side gap. On top of that, LOR's two big lines (June Global Comms ~£6,000, Early Talent first window ~£7,000-7,500) are also unbilled, both waiting on Kerri's side. Total unbilled across LOR and Creepers is roughly £21,000-22,000. Before any Monday action matters, Monzo Flex £940.52 is due tomorrow, 1 August, and was confirmed unsorted as of 10:03 this morning. VAT registration came through this week though, that's genuinely resolved: number 523 6438 93, effective 30 June, first return due 7 October. Also noting the context: Harrison's grandfather died yesterday, this has been a lighter working day by design.
-
-**Before Monday:** sort Monzo Flex £940.52, due Saturday 1 August. **Monday action:** raise the two Creepers retainer invoices, June and July, £3,500 each. Nothing is blocking this except doing it.
+You took in £7,140 this week: £5,340 from Creepers on 4 August, £1,800 from Better at Work (INV-0399) confirmed paid this morning. Computed Starling position is about £2,614, not bank-confirmed. You're owed roughly £7,000 from LOR during August, nothing formally invoiced yet. The tax reserve sits at £9,200, moved into Revolut Savings at ~3% AER on 6 August, but £675 from this week's BaW receipt (£375 CT-control, £300 output VAT) hasn't been swept in yet. Bad news worth saying plainly: Cathal wants Better at Work capped at £1,500 including VAT, down from the current £1,800, a straight ask to cut £300/month, roughly £3,600 a year, off your thinnest-margin client. Your draft reply is sitting ready in Gmail, gated on your send. Monday: sweep the £675 into the tax pot.
 
 ## Cash position
 
 | Account | Balance | Notes |
 |---|---|---|
-| Starling (business current) | £800 | Stated this morning, 31 Jul, per Harrison's own check-in. No bank-feed confirmation. |
-| Revolut Business savings (tax buffer) | £6,441 | £6,211 plus £230. Nominally above the £6,000 minimum target, but see Tax reserve below, VAT liability now sits against this same pot. |
-| Capital on Tap | £2,780.94 closing balance | Statement period 30 Jun-29 Jul confirmed by email 30 Jul. Minimum payment £278.09, Direct Debit scheduled and confirmed for 5 Aug. |
-| Amex (BA) | ~£1,000 owing | No new statement email this week. Past-due status cleared 19 Jul (£500 payment received). A £500 family reimbursement is earmarked for this but hasn't landed. Next statement date unknown, check directly. |
-| Monzo Flex (personal credit) | £940.52 due 1 Aug | **Confirmed unsorted as of 10:03 this morning.** Immediate risk, due tomorrow. |
-| Revolut personal | £11 | Personal cash, for context only. |
-| Joint account | £380 | Household cash, for context only. |
+| Starling (business current) | ~£2,614 (computed, not confirmed) | £800 (31 Jul) + £5,340 Creepers - £4,000 to tax reserve - £1,047.50 salary + £1,800 BaW - £278.09 Capital on Tap DD. No bank feed to check this against. |
+| Revolut Business Savings (tax reserve) | £9,200 | Moved from Revolut Business (~3% AER offered) on 6 August. Combined VAT + Corporation Tax money, not headroom. |
+| Capital on Tap | Last known ~£2,780.94 pre-payment | £278.09 minimum DD scheduled for 5 Aug. No failure alert since, presumed cleared, not explicitly confirmed. |
+| Amex (BA) | ~£1,000 (stale, 31 Jul) | No statement email since 23 Jul (T&Cs notice only). Balance and due date unknown, check directly. |
+| Monzo Flex (personal credit) | £940.52 was due 1 Aug | No payment or failure confirmation found in Gmail this week. Dropped from Harrison's own dated corrections since 31 Jul, presumed resolved, not independently confirmed. |
+| Revolut personal / Joint | £11 / £380 (stale, 31 Jul) | Personal cash, for context only, no fresher figure. |
 
 ## Receivables
 
-Nothing is sitting as an aged, invoiced-and-unpaid receivable right now. The problem is upstream: money owed hasn't been billed yet.
+Nothing sitting as an aged invoiced-and-unpaid receivable right now, per Harrison's own confirmation that finance admin is current.
 
 | Client | Item | Amount | Status | Next step |
 |---|---|---|---|---|
-| Creepers | June retainer | £3,500 | Never invoiced. Held since the 9 June reset call, no invoice raised in the ~7 weeks since. No client-side blocker found in Gmail. | Raise now, apply VAT (effective 30 Jun, so this invoice needs the VAT number on it). |
-| Creepers | July retainer | £3,500 | Never invoiced. | Raise now, apply VAT. |
-| Creepers | Sandringham day rate | £950 | Verbal agreement only with Sarah-Louise, no written confirmation, not invoiced. | Get it in writing, then invoice. |
-| LOR | June Global Comms | ~£6,000 | Not raised. No scope call confirmed since Kerri's cancelled 28 Jul catch-up. Blocked on Kerri, not Harrison. | Raise once scope confirmed. Apply VAT. |
-| LOR | Early Talent, window one (50%) | ~£7,000-7,500 (50% of the ~£14-15k quote) | Not raised, no PO yet. Blocked on: site availability lock, budget confirmation with Emma, PO issuance. | Push Kerri for the PO. This is the single largest line in the pipeline and it isn't even invoiced. |
-| BaW | Hourly trial, period since INV-0397 | Unknown | INV-0397 (£1,900) paid 7 Jul. No invoice found since. Unclear whether hours worked since then have been billed. | Check what period INV-0397 covered, confirm with Cathal whether further hours are owed. |
-
-**Total known unbilled, LOR + Creepers: ~£21,000-22,000.** BaW adds an unknown amount on top.
+| LOR | August expected | ~£7,000 | Not yet invoiced or landed. No PO or invoice trail found in Gmail this week. Kerri catch-up on calendar 11 Aug and 18 Aug. | Raise it once scope/PO is confirmed with Kerri; the 11 Aug call is a live chance to ask directly. |
+| Creepers | Retainer receipt, 4 Aug | £5,340 (received) | Landed. Net/VAT split still unconfirmed against the invoice. | Confirm the split so the tax sweep is calculated on the right net figure. |
+| Better at Work | INV-0399 | £1,800 (received) | Landed, confirmed paid by Cathal this morning. | Closed. Repricing conversation is now the live item, see Bottom line. |
+| Squiggly Careers | Pilot proposal | £4,250 (proposed) | Not agreed. Podcast production chat on calendar 11 Aug. | Pipeline only, not a receivable yet. |
 
 ## Payables
 
 | Item | Amount | Due | Status |
 |---|---|---|---|
-| Monzo Flex | £940.52 | 1 Aug 2026 | 🔴 Unsorted as of this morning. Due tomorrow. |
-| Capital on Tap | £278.09 (minimum) | 5 Aug 2026 | Direct Debit scheduled and confirmed by email. On track. |
-| Amex (BA) | ~£1,000 statement balance | Unknown | No statement email this week. Confirm balance and due date directly. |
+| Capital on Tap | £278.09 (minimum) | 5 Aug 2026 | Scheduled, no bounce/failure email since. Next cycle due ~5 Sep, outside this 14-day window. |
+| Amex (BA) | ~£1,000 (stale) | Unknown | No statement email in over 2 weeks. Confirm balance and due date directly. |
+| Monzo Flex | £940.52 | Was due 1 Aug | Presumed resolved, not independently confirmed this week. |
 | Jackson (brother loan) | ~£2,000 | No fixed date | Family, interest-free, not urgent. |
-| OnlineJobs.ph | ~£78 ($99) | N/A | Card declined three times (16-18 Jul), Harrison has decided to let this lapse rather than fix billing (per 27 Jul snapshot). No action needed, just confirming it's a decision, not an oversight. |
 
 ## Tax reserve
 
 | Item | Amount |
 |---|---|
-| Current reserve | £6,441 |
+| Current reserve | £9,200 (Revolut Savings, ~3% AER, moved 6 Aug) |
 | Target (CT due mid-2027, minimum) | £6,000 |
-| Nominal surplus | £441 |
+| Nominal surplus before this week's sweep | £3,200 |
+| Owed from this week's BaW receipt, unswept | £675 (£375 CT-control on £1,500 net + £300 output VAT) |
 
-Nominally above target, but treat that as false comfort. VAT registration is now live (see below), and there's still no separate VAT pot, Fazila recommended splitting one out back on 11 May and it never happened. The first VAT return covers 30 June-31 August, due 7 October, HMRC usually takes payment around the 10th of the due month, so realistically ~10 October. Once that liability is estimated, this reserve is likely already behind, not ahead. Plan to close the gap: split a VAT pot out of this reserve now, and resume the 25% sweep on every incoming receipt, starting with whichever Creepers invoice lands first once raised.
+The £9,200 headline looks comfortable but a growing slice of it is HMRC's VAT money, not free CT buffer, and there's still no separate VAT pot. Sweep the £675 from the BaW receipt this weekend and the Creepers sweep once the net/VAT split is confirmed.
 
 ## VAT track
 
 | Item | Detail |
 |---|---|
-| Status | **Registered.** VAT number 523 6438 93, confirmed by Fazila 27 July. |
-| Effective date | 30 June 2026 |
-| First return period | 30 June-31 August 2026 |
-| First return due | 7 October 2026 |
-| Payment typically taken | ~10th of the due month, so ~10 October |
-| Rolling 12-month revenue (last estimate) | ~£93,000, vs £90,000 threshold. This is Harrison's own 29 June estimate to Fazila, no fresher figure without Xero. |
-| Agent authorisation | Litchfields need to be authorised as VAT agent on the HMRC business gateway by 17 August 2026. Harrison told Fazila this was done same day (27 Jul), but her 28 Jul reply didn't explicitly confirm receipt. Worth a one-line check it actually went through. |
-
-**Invoicing implication:** every invoice raised from 30 June onward must show the VAT number and charge VAT. That includes all four unbilled LOR and Creepers lines above, none of which have gone out yet, so this is the moment to get the invoice template updated before the next one ships, not after.
+| Status | Registered. VAT number 523 6438 93, effective 30 June 2026. |
+| First return period | 30 June-31 August 2026, due 7 October, payment typically taken ~10 October. |
+| Rolling 12-month revenue | ~£93,000 (Harrison's 29 June estimate to Fazila). No fresher figure without Xero or Litchfields contact this week. Already past the £90,000 threshold, which is why registration happened. |
+| Agent authorisation | Litchfields need HMRC business gateway agent authorisation by 17 August, ten days away. Harrison told Fazila this was actioned 27 July; her reply never explicitly confirmed receipt. Still unconfirmed, no Litchfields contact this week to check. |
 
 ## Monday action
 
-Raise the two Creepers retainer invoices, June and July, £3,500 each, £7,000 total. There is no client-side blocker on this one, it is purely a matter of doing it, and it's the fastest £7,000 available anywhere on this sheet. Before that, tonight or tomorrow: sort Monzo Flex £940.52, due 1 August, still unsorted as of this morning.
+Sweep £675 from this week's Better at Work receipt into the tax reserve (£375 CT-control on the £1,500 net, £300 output VAT). Once Creepers' net/VAT split is confirmed, sweep that too. Separately, this week: chase Fazila for explicit confirmation the HMRC agent authorisation went through before the 17 August deadline, get an Amex statement (over 2 weeks stale), and decide the Cathal repricing reply, it's drafted and just needs your send.
 
-🔴 Monzo Flex £940.52 due tomorrow, unsorted.
+No 🔴 critical flags this week. Nothing is in missed-payment or insolvency territory, but the Amex staleness and the unconfirmed VAT agent authorisation are both worth closing out before they become one.

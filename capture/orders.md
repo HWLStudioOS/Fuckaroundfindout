@@ -10,6 +10,9 @@ Format per entry:
 
 ---
 
+## 2026-08-07
+- **The Agentic Enterprise: A Leader's Guide to Orchestrating, Governing, and Scaling AI Agent Systems** (~£47), Babak Hodjat (Cognizant) / Antoine Blondeau (Sentient), O'Reilly. CxO-level playbook for multi-agent orchestration: readiness evaluation, avoiding vendor lock-in, build-versus-buy calls, guardrails for scaling agentic AI. HWL is already living several chapters ahead of most of the intended reader, worth a skim for the governance and risk framing rather than the basics. Publishes 29 Sep 2026. [https://www.oreilly.com/library/view/the-agentic-enterprise/0642572274566/]. Status: queued.
+
 ## 2026-07-22
 - **Should I Say Something?** (£25), Vanessa Bohns / Hachette. Cornell org-behavior professor on when to speak up versus hold back at work, science of oversharing versus appropriate vulnerability. BaW guest-hit-list adjacent, a genuinely new angle. Releases 29 Oct 2026. [https://www.vanessabohns.com/]. Status: auto-approved.
 

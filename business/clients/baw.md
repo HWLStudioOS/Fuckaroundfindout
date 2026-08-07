@@ -6,6 +6,19 @@ Workplace podcast. Hosts: **Cathal Quinlan** (primary contact) + **Annette Sloan
 
 Active. April reset after honest conversation about declining metrics. Hourly trial in place. April skipped by mutual agreement (March deliverables didn't meet standard).
 
+## Repricing request, 7 August 2026
+
+- Cathal's email (7 Aug, on the INV-0399 thread): invoice paid, but VAT tips him over his podcast budget. He asks for a **max £1,500/month including VAT**, which is **£1,250 net**, down from the current £1,500 net. He wants a scope-cut review and is open to discussing impacts.
+- Context: he forwarded a Level Up Leads auto-invoice 20 minutes earlier, so he is reviewing all podcast suppliers, not just HWL.
+- Reprice verdict: current £1,500 net is already at or below the delivery floor (file scope ~10 hrs/week ≈ £2,900+ at £550/day editing). Do not cut the rate. Fit the cap by cutting scope: keep episode packaging, retire the monthly report in favour of the live dashboard, drop LinkedIn ghostwriting, fold season planning into the fortnightly call.
+- First check: whether Better at Work can reclaim the VAT (if VAT registered, his real cost is unchanged). Raised in the draft reply. Separately, Harrison to confirm with Fazila which entity is actually being invoiced; if it is an Australian business entity, UK VAT place-of-supply treatment needs checking.
+- Season 5 brand/site work stays a separately priced project. It must not be absorbed into a shrunk retainer.
+- Draft reply sitting in Gmail (send-gated).
+
+## Invoice address, from August 2026
+
+Per Cathal's 7 August request, invoices go to: Eastwood, Granville Road, Weybridge, KT13 0QJ. Harrison to update in the invoicing tool before the next invoice.
+
 ## Finance correction, 3 August 2026
 
 - Harrison confirms invoicing and finance administration are current.

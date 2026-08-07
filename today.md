@@ -1,68 +1,53 @@
 ---
-date: 2026-08-06
-generated: Claude interactive brief, Thursday, updated mid-afternoon
-financial_truth_updated: 2026-08-06 (Revolut Savings move, see money/index.md)
+date: 2026-08-07
+generated: auto-generated 06:30
+financial_truth_updated: 2026-08-06 (Revolut Savings move + scout-buy pattern, see money/index.md)
 ---
 
-# Today, Thursday 6 August 2026
+# Today, Friday 7 August 2026
 
 ## Pulse
 
-BM4 is live and the teaser went out this morning. Launch graphic holds for tomorrow or Cathal's personal post. The rest of the day is Harrison's short board: Creepers photos, the Laurence testimonial that has waited months, footage upload for the Danny edit handoff, and two follow-ups. LOR visit one is pushed, Kerri is away until the 17th, but the A-level results posts still ship before next Thursday.
+Week 2 of Long + Strong, Friday is Strength B. Wednesday and Thursday both landed on plan. Client side is quiet by design, LOR is on hold until Kerri's back on the 17th, but the A-level results window closes before that so one sign-off email can't wait. Creepers has a hard Sunday deadline on the WeTransfer image picks. Cathal's fortnightly check-in is on the calendar at 11:30. The real story of the week is the drift between what Harrison says about the market (watch-only) and what he's actually doing (five personal trades in 48 hours), that decision is overdue.
+
+## Yesterday wrap
+
+Landed: BM4 live on Acast and YouTube with the teaser posted, Cathal's combined message sent (invoice, payout ask, photos), Michael/Creepers Surrey follow-up closed after Harrison's call with Anna, Long + Strong week 2 Thursday run done (4.33km at 10:00, close to the 5km prescribed). Board Room's mutation-guard fix from the 6th also shipped, the site was hardened for that specific failure mode, but a new, unrelated blocker (a dependency advisory) then blocked last night's deploy, see System below.
+
+Still open, no positive signal either way since yesterday: logged-out playback proof on Acast/YouTube, the Creepers Sandringham post, Laurence's testimonial film, Laurence's WhatsApp reply, Danny's stall reply, the LOR hold, the market decision, and KiwiSaver verification. None of these are confirmed missed, just unconfirmed, carried below.
 
 ## Today
 
-- [x] BM4 live on Acast and YouTube. Teaser clip posted this morning on IG and LinkedIn. <!-- linear:HWL-204 -->
-- [x] Cathal message: sent by Harrison directly (launch, photos, invoice). Awaiting his reply. <!-- linear:HWL-230 -->
-- [ ] Logged-out playback proof on Acast and YouTube if not already done. <!-- linear:HWL-234 -->
-- [ ] Creepers post, RHS Sandringham photos. Harrison posting. Safe caption ready; the Royal Legacy Garden variant needs the involvement wording verified first. <!-- linear:HWL-221 -->
+- [ ] Creepers: choose selects from the ranked 15-pick shortlist in `business/clients/creepers-prolandscaper-shortlist-2026-08-06.md`. All 431 delivered files were reviewed Thursday night and are downloaded locally, so the Sunday link expiry no longer bites. Rules stand: no houses, minimal buildings, sky edits fine, plants as hero. Two decisions ride along: request originals for the 4 low-res shortlist picks (Jason Ingram and Jo Kossak via Garden Club London, credit lines in their Credits.docx), and the rootball gap, zero rootball shots in the whole transfer, so either ask Anna and Michael for existing ones or shoot them at the Surrey visit. Ideas to Anna and Sam next week, final deadline 19 August. <!-- linear:HWL-239 -->
+- [ ] LOR: route the A-level results posts to Emma for sign-off. Results day is Thursday 13 August and Kerri is away until the 17th, the posts die by default without a decision before then. <!-- linear:HWL-191 -->
+- [ ] Danny Wicks: upload the full Ultimate Founder Day footage to the editor today. Hold the share link until the £800 plus VAT is confirmed. <!-- linear:HWL-200 -->
 - [ ] Film the Laurence Year One testimonial. Months overdue, talk-to-camera, catch and cut, no script. <!-- linear:HWL-235 -->
-- [ ] Danny: stall reply to his team later today. Full Ultimate Founder Day footage upload moves to tomorrow. Leverage note stands: hold the share link until the £800 plus VAT is confirmed. <!-- linear:HWL-200 -->
-- [x] Michael (Creepers) Surrey follow-up: covered. Harrison spoke to Anna, Creepers loop closed for now. <!-- linear:HWL-236 -->
-- [ ] Reply to Laurence's last WhatsApp. <!-- linear:HWL-237 -->
-- [ ] LOR: on hold per Harrison until Kerri returns on the 17th. One collision on record: A-level results day is Thursday 13 August, so the results posts die by default unless they go to Emma before then. Harrison's call, made aware. <!-- linear:HWL-191 -->
-- [ ] Market: watch-only via Perplexity Finance, eyes on SNDK and SPCX. No further orders. Inventory true-up still blocked on Harrison's fills. <!-- linear:HWL-228 -->
-- [ ] KiwiSaver: route through Litchfields (Raj) before initiating. Flags in `money/index.md`. <!-- linear:HWL-238 -->
-- [x] Long + Strong week 2 session: done before midday. <!-- linear:HWL-229 -->
-
-## Killed or superseded today
-
-- Story frames: skipped on Harrison's call.
-- Year One Looms: obligation closed entirely. The pack was already dead; the Looms will not be recorded. What survives is personal: Laurence's testimonial film and a WhatsApp reply.
-- Shawbrook one-tap: superseded. Harrison moved the £9,200 tax reserve into Revolut Savings at about 3% AER on 6 August.
-- Danny team reply draft: superseded by the footage-upload handoff plan.
-- LOR visit one on 11 August: pushed per Kerri's call. Kerri away until the 17th. No movement needed before then except the results posts.
-
-## New information
-
-- Tax reserve is now earning: Revolut Savings, about 3% AER. Recorded in `money/index.md`.
-- Additional personal investment orders exist beyond the 4 August scouts. Fills still needed for the strategy-doc true-up.
-- 21:40: two more scout buys, $50 Micron and $50 Palantir, placed after the US close so fills land extended-hours or Friday open. Recorded in `money/index.md`. Amend-or-fold on the strategy is now overdue.
-- WeTransfer assets downloaded by Harrison (431 files, 1.6 GB, deduped to 353 unique shots). Full visual review complete same evening: ranked 15-pick shortlist in `business/clients/creepers-prolandscaper-shortlist-2026-08-06.md`, 11 print-ready and 4 needing originals (Jason Ingram and Jo Kossak files via Garden Club London, credit lines in their Credits.docx). Headline gap: **zero rootball or nursery-stock shots in the entire transfer** despite Anna's stated interest. Decision for Harrison: ask Anna and Michael for existing rootball photos, or shoot them at the Surrey visit. The Christina Cobb folder (114 files) is entirely 2000px web exports; the Installation folder is mostly iPhone shots with houses in frame; Hatchford is the strongest real-garden material with crops needed for the no-houses rule.
-- KiwiSaver withdrawal decision made, verification pending via Litchfields. The UK "tax-free lump sum" assumption is the one to test hardest.
-- Danny's team chased testimonials; Harrison's answer is a footage handoff to the editor rather than doing the edit himself. Stall reply today, upload tomorrow.
-- Squiggly Careers production chat booked: Tuesday 11 August, 16:15, Teams. It overlaps the recurring 16:00 Kerri catch-up that day, which wants declining since Kerri is away anyway.
-- Better at Work: all good per Harrison, nothing outstanding today. LOR fully on hold until the 17th.
-- Caroline Webb recording (Thursday 13 August, 16:00, Riverside): Harrison is not attending, it runs online without him. Invite left un-actioned. Note: the invite text names Harrison as on-the-day audio support, so Cathal may assume he is on the call unless told otherwise.
-- 11 August Kerri catch-up instance declined, Kerri away until the 17th.
+- [ ] Investment strategy: decide amend-or-fold on the personal scout buys (SPCX, NVDA, SNDK, then MU, PLTR, five trades in 48 hours outside `money/investment-strategy-2026-08-03.md`). Either write a capped scout sleeve into the plan or stop. <!-- linear:HWL-228 -->
 
 ## Awaiting response
 
-- Danny Wicks: payment move after the £800 plus VAT note.
-- Michael and Sam: advert image pick now live again. Anna delivered the asset folders by WeTransfer at 13:40 (Chelsea gardens 7 items, Installation projects 92 items, Hatchford 2 items, 1.56 GB, **link expires Saturday 9 August**). Rob's rules: no houses, minimal buildings, sky edits fine. Advert highlights the plants Creepers supply, not design or installation. Ideas to them next week, advert deadline 19 August. Sam offered a call.
-- Cathal: £1,800 invoice, Acast payout details, holiday photos. Harrison's combined message went today.
-- Anna: revised Pro Landscaper direction, due 19 August. Anna and Sarah-Louise: exact Surrey Season 4 shoot date (Michael follow-up going today).
-- Kerri and Emma: PO route and first invoice, Everton date and quote, new visit-one date once Kerri returns on the 17th.
-- Helen Tupper: superseded. Squiggly production chat booked for Tuesday 11 August, 16:15 to 17:00, Teams, with Helen, Sarah Ellis and Sarah Massie.
+- Kerri and Emma (LOR): PO route and first invoice, Everton date and quote, new visit-one date once Kerri's back on the 17th.
+- Anna and Sarah-Louise (Creepers): exact Surrey S4 shoot date, still pending.
+- Cathal: Acast payout account details. Today's 11:30 check-in is a natural point to close this.
+
+## In flight
+
+- KiwiSaver withdrawal: verification via Litchfields (Raj) on withdrawal mechanics, the real PIE tax drag, and UK lump-sum tax treatment. Decision recorded, nothing filed yet.
+- Reply to Laurence's last WhatsApp.
+- Logged-out playback proof on Acast and YouTube for BM4, if not already done.
+- Board Room: nightly deploy blocked again, this time by a newly flagged high-severity dependency advisory (GHSA-5p4m-2wfm-xmqj) during deploy-side validation, a different failure from the mutation-guard issue fixed on the 6th. The nightly backup still committed and pushed cleanly, nothing was lost, the live site just didn't update. Codex's lane per SYSTEM-STATUS.md.
+- Squiggly Careers: production chat Tuesday 11 August, 16:15 to 17:00, Teams, with Helen, Sarah Ellis and Sarah Massie.
 
 ## Standing
 
-Health: sleep 7.2h score 86, HRV 59 balanced, RHR 53, training readiness 55 moderate. Long + Strong week 2: 28km across four runs plus Strength A and B, Saturday off.
+Health: RHR 53 this morning, up from the 6-day average of 49. Sleep and HRV are still filling in from Garmin's later daily pulls (normal lag, not stale). Training load is ACWR 0.69, Baseline flags it "Detraining." Body weight last recorded 29 April, 100 days stale, re-weigh or re-export if you want a current number.
 
-Money: tax reserve £9,200 in Revolut Savings at about 3%. £1,800 from Better at Work outstanding, nudged today. LOR £15k is pipeline until a PO exists. Personal investing watch-only pending the inventory true-up.
+Money: tax reserve £9,200 sitting in Revolut Savings at about 3% AER. £1,800 from Better at Work still outstanding. About £7,000 from LOR expected in August, no PO yet. Personal investing has drifted from stated watch-only into five scout trades in 48 hours. KiwiSaver withdrawal decided, verification pending via Litchfields.
 
-System: scheduled agents still blocked on the interactive Claude login (hCaptcha). Board Room deploy fix and the BaW website build are both running in their own sessions.
+Clients: LOR on hold until the 17th but the results-day window is live now. Creepers active, Sunday image-pick deadline, hero film content queued through August. BaW active, Cathal check-in 11:30 today, Season 5 brand and site lane still open.
+
+System: scheduled agents running clean since Thursday's auth fix (auth-proof and evening-reflection both succeeded with no corrections). Board Room deploy blocked again overnight on a fresh dependency advisory, see In flight.
 
 ## Lens
 
-Launch shipped, board thinned. Stall Danny's team, film Laurence if the energy's there, post the photos, hit the range. The week can breathe.
+You've said watch-only on the market three times this week and traded five times anyway. Either the capped scout sleeve goes into the strategy today or the watch-only line stops being true. Same shape of problem on the Creepers picks, that WeTransfer link is gone Sunday, today decides it, not next week.

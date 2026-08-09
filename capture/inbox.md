@@ -44,6 +44,12 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - Squiggly production chat Tuesday 16:15, treat as new-client development, Harrison sees it as a big one.
 - Love yourself, be brave, take risks, amor fati.
 
+**Session close, 21:15:**
+
+- Everything above plus the Board Room advisory patch (js-yaml 4.3.1, nanoid 3.3.17) and the pypdf 6.15.0 pin sits in PR #12 on branch `claude/sunday-evening-checkin-hdykdc`, three commits, draft. Harrison merges. If it is unmerged when the morning brief runs, merge it first, the state above is not on `main` until then.
+- Calendar holds set: Monday 14:30 market check. Watcher armed on PR #12 CI overnight.
+- Harrison's sign-off: bed, 5am start, day won by 10am.
+
 - Source: Harrison, Sunday night check-in, 9 August, remote session.
 - Tag: capture, corrections, todo
 - Status: new

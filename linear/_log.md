@@ -3285,3 +3285,61 @@
 [2026-08-08T19:02:53.844Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-08-08T20:18:50.723Z] INFO Sync start. Last: 2026-08-08T19:02:53.842Z
 [2026-08-08T20:18:51.467Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-08T21:35:13.596Z] INFO Sync start. Last: 2026-08-08T20:18:51.465Z
+[2026-08-08T21:35:13.986Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-08T22:46:20.887Z] INFO Sync start. Last: 2026-08-08T21:35:13.984Z
+[2026-08-08T22:46:21.168Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-08T23:46:21.246Z] INFO Sync start. Last: 2026-08-08T22:46:21.166Z
+[2026-08-08T23:46:21.509Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T01:01:21.888Z] INFO Sync start. Last: 2026-08-08T23:46:21.508Z
+[2026-08-09T01:01:22.194Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T02:16:28.911Z] INFO Sync start. Last: 2026-08-09T01:01:22.191Z
+[2026-08-09T02:16:29.309Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T03:22:37.778Z] INFO Sync start. Last: 2026-08-09T02:16:29.308Z
+[2026-08-09T03:22:38.055Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T04:22:38.148Z] INFO Sync start. Last: 2026-08-09T03:22:38.054Z
+[2026-08-09T04:22:38.731Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T05:38:23.258Z] INFO Sync start. Last: 2026-08-09T04:22:38.728Z
+[2026-08-09T05:38:23.586Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T06:38:23.688Z] INFO Sync start. Last: 2026-08-09T05:38:23.584Z
+[2026-08-09T06:38:23.991Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T07:43:25.101Z] INFO Sync start. Last: 2026-08-09T06:38:23.989Z
+[2026-08-09T07:43:25.431Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T08:47:53.280Z] INFO Sync start. Last: 2026-08-09T07:43:25.428Z
+[2026-08-09T08:47:53.762Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T09:47:53.890Z] INFO Sync start. Last: 2026-08-09T08:47:53.759Z
+[2026-08-09T09:47:54.183Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T10:58:22.406Z] INFO Sync start. Last: 2026-08-09T09:47:54.181Z
+[2026-08-09T10:58:22.690Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T12:09:02.273Z] INFO Sync start. Last: 2026-08-09T10:58:22.688Z
+[2026-08-09T12:09:03.037Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T13:09:03.132Z] INFO Sync start. Last: 2026-08-09T12:09:03.036Z
+[2026-08-09T13:09:03.428Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T14:17:38.141Z] INFO Sync start. Last: 2026-08-09T13:09:03.426Z
+[2026-08-09T14:17:38.429Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T15:17:38.558Z] INFO Sync start. Last: 2026-08-09T14:17:38.428Z
+[2026-08-09T15:17:38.994Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T16:22:46.809Z] INFO Sync start. Last: 2026-08-09T15:17:38.991Z
+[2026-08-09T16:22:47.096Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T17:24:34.592Z] INFO Sync start. Last: 2026-08-09T16:22:47.095Z
+[2026-08-09T17:24:35.196Z] INFO push + HWL-239 Confirm the exact Surrey Season 4 shoot date with Anna and S
+[2026-08-09T17:24:35.326Z] INFO push ~ HWL-223 → todo
+[2026-08-09T17:24:35.475Z] INFO push + HWL-240 Once Cathal reviews: lock the four Stripe decisions (price/c
+[2026-08-09T17:24:35.633Z] INFO push + HWL-241 Prep the Caroline Webb podcast recording, 13 August 16:00 Lo
+[2026-08-09T17:24:35.817Z] INFO push + HWL-242 Squiggly Careers x Harrison podcast production chat, 11 Augu
+[2026-08-09T17:24:35.998Z] INFO push + HWL-243 Confirm PO route and first invoice once Emma's window-one bu
+[2026-08-09T17:24:36.213Z] INFO push ~ HWL-224 → todo
+[2026-08-09T17:24:36.333Z] INFO push ~ HWL-225 → todo
+[2026-08-09T17:24:36.474Z] INFO push + HWL-244 Sweep the ~£675 owed to the tax reserve from this week's BaW
+[2026-08-09T17:24:36.572Z] INFO push ~ HWL-229 → todo
+[2026-08-09T17:24:36.700Z] INFO push + HWL-245 Watch morning-brief and weekly-review's acceptance streaks r
+[2026-08-09T17:24:36.877Z] INFO push + HWL-246 Board Room: confirm Codex has picked up the dependency-advis
+[2026-08-09T17:24:36.981Z] INFO Sync done. push: +8 ~4. pull: ~0.
+[2026-08-09T18:24:37.047Z] INFO Sync start. Last: 2026-08-09T17:24:36.979Z
+[2026-08-09T18:24:37.417Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T19:24:37.446Z] INFO Sync start. Last: 2026-08-09T18:24:37.414Z
+[2026-08-09T19:24:43.017Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T20:24:43.173Z] INFO Sync start. Last: 2026-08-09T19:24:43.013Z
+[2026-08-09T20:24:43.614Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-09T21:24:43.802Z] INFO Sync start. Last: 2026-08-09T20:24:43.612Z
+[2026-08-09T21:24:50.324Z] INFO Sync done. push: +0 ~0. pull: ~0.

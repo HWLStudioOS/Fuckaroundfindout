@@ -10,6 +10,10 @@ Claude-backed entry points now use `agents/agent-runtime.sh`. Before any prompt 
 
 This hardening does not add, replace or reload any schedule. Existing launchd jobs remain the only production schedules.
 
+## Runtime incident, 3 to 6 August 2026
+
+The Claude CLI session expired again. weekly-review (3 Aug 20:56), morning-brief (4, 5, 6 Aug), campaign-chaser (5 Aug), discovery-scan (5 Aug) and evening-reflection (4, 5 Aug) all recorded `AUTH_REQUIRED` before doing useful work, same failure shape as 2-3 Aug. `auth-proof` succeeded 6 Aug 12:37, and every job has run clean since. The 3 Aug weekly-review failure left a 2-week gap in `agents/_review-log.md`, retro-covered by the 9 Aug run. Root cause (why the session keeps expiring within days rather than lasting weeks) has not been diagnosed; worth a direct look before this happens a third time.
+
 ## Status legend
 
 - **DRAFTED**, prompt exists. Not scheduled. Not running.
@@ -23,23 +27,23 @@ This hardening does not add, replace or reload any schedule. Existing launchd jo
 
 | Agent | File | Schedule | Status | Acceptance |
 |---|---|---|---|---|
-| morning-brief | `agents/morning-brief.md` + `.sh` | 06:30 weekdays | AUTH-BLOCKED since 3 Aug. Before that, RUNNING-DEGRADED after the 27 Jul stale-state incident. | Acceptance remains 0/14. A clean run can begin only after login is restored. |
-| weekly-review | `agents/weekly-review.md` | Sun 18:00 | AUTH-BLOCKED. The 2 Aug run failed authentication before review work began. | Acceptance remains 0/2. The 2 Aug run is failed, not a clean proof. |
-| weekly-cfo | `agents/weekly-cfo.md` | Fri 16:00 | AUTH-BLOCKED for its next run. The 31 Jul manual-snapshot run completed before the session expired. Xero remains unreachable. | Prior degraded acceptance remains historical. Current unattended acceptance is paused until login is restored. |
+| morning-brief | `agents/morning-brief.md` + `.sh` | 06:30 weekdays | RUNNING-CLEAN. Restored 7 Aug after the 3-6 Aug auth outage (4, 5, 6 Aug all AUTH_REQUIRED). 7 Aug ran clean, verifier corrected 2 items, msg_id=598. | 1/14 consecutive clean weekdays since the restart (7 Aug). |
+| weekly-review | `agents/weekly-review.md` | Sun 18:00 | RUNNING-CLEAN. The 3 Aug run failed (AUTH_REQUIRED), leaving a 2-week gap in `agents/_review-log.md`. This 9 Aug run is a retro covering both missed weeks. | 1/2 after this run. Needs one more clean Sunday to hit acceptance. |
+| weekly-cfo | `agents/weekly-cfo.md` | Fri 16:00 | RUNNING-CLEAN. 31 Jul and 7 Aug both completed with Xero unreachable + manual snapshot fully done. | **2/2 consecutive clean Fridays, hits its own acceptance bar.** First of the three v1 agents to do so. v1 itself still needs all three simultaneously. |
 
 **v1 ships when all three hit acceptance simultaneously.**
 
-> As of 27 July 2026: weekly-cfo is the cleanest of the three. Morning brief and weekly review both reset after the stale-state incident. v1 is not close to acceptance until the corrected live-source rules prove themselves over two clean weeks.
+> As of 9 August 2026: weekly-cfo has reached its own acceptance criterion (2 consecutive clean Fridays, 31 Jul + 7 Aug). morning-brief and weekly-review both had their streaks reset to zero by the 3-6 Aug auth outage and are rebuilding from 7 and 9 Aug respectively. v1 is not close until all three read acceptance on the same day.
 
 ## Secondary queue (post-v1)
 
 | Agent | File | Schedule | Status | Notes |
 |---|---|---|---|---|
-| content-engine | `agents/content-engine.md` + `.sh` | Mon 07:00 | AUTH-BLOCKED. The 3 Aug run failed before content work began. | Publishing evidence remains unchanged by the failed run. |
-| learning-brief | `agents/learning-brief.md` | Sun 09:00 | AUTH-BLOCKED. The 2 Aug run failed before brief work began. | Earlier clean runs remain historical. |
-| discovery-scan | `agents/discovery-scan.md` | Mon/Wed/Fri 14:07 | AUTH-BLOCKED. The 3 Aug run failed before discovery work began. | Earlier consecutive clean runs remain historical. |
-| campaign-chaser | `agents/campaign-chaser.md` | Mon/Wed/Fri 10:07 | AUTH-BLOCKED. The 3 Aug run failed before campaign work began. | The content-quality acceptance count remains at zero. |
-| evening-reflection | `agents/evening-reflection.md` | Weekdays 19:07 | AUTH-BLOCKED. Contrary to the older table, this job is installed and was running before its 3 Aug auth failure. | Not in v1 acceptance scope. |
+| content-engine | `agents/content-engine.md` + `.sh` | Mon 07:00 | AUTH-BLOCKED as of its last scheduled run (3 Aug). Not yet reconfirmed clean since the 6 Aug fix (next due Mon 10 Aug). | Publishing evidence remains unchanged by the failed run. |
+| learning-brief | `agents/learning-brief.md` | Sun 09:00 | RUNNING-CLEAN. 9 Aug ran clean, 8 items, 5 drills. | Earlier clean runs remain historical. |
+| discovery-scan | `agents/discovery-scan.md` | Mon/Wed/Fri 14:07 | RUNNING-CLEAN. 7 Aug ran clean (6 items, 1 buyable queued), first clean run since the outage. | Earlier consecutive clean runs remain historical. |
+| campaign-chaser | `agents/campaign-chaser.md` | Mon/Wed/Fri 10:07 | RUNNING-CLEAN. 7 Aug ran clean, first clean run since the outage. | The content-quality acceptance count remains at zero. |
+| evening-reflection | `agents/evening-reflection.md` | Weekdays 19:07 | RUNNING-CLEAN. 6 and 7 Aug both ran clean after the outage. | Not in v1 acceptance scope. |
 
 ## Infrastructure jobs (not agents, but scheduled)
 

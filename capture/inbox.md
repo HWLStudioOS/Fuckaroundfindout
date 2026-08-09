@@ -25,7 +25,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - **Parked, not dead: the website money conversation.** Real posture is a few thousand plus uplifted monthly, memory saved. Hard no stays: not free inside the £1,500 retainer.
 - Source: Claude session close, 6 August evening.
 - Tag: baw, capture, todo
-- Status: new
+- Status: processed 9 Aug (weekly review). Item 1 (share preview with Cathal) did not happen, no Vercel-share or preview-link email found in Gmail sent mail through 9 Aug, carried into this-week.md as an open task, now tangled with Cathal's 7 Aug repricing ask rather than a clean review gate. Items 2-3 (Stripe decisions, production path) stay gated behind item 1, not actionable yet. Items 4-5 (Acast metadata clean-up, summer-tracker wording) folded into next week's BaW small-tasks list, low priority. Item 6 (parked money conversation, hoped uplift) is superseded: Cathal's 7 Aug email asks to cut the retainer, not raise it, see business/clients/baw.md Repricing request.
 
 ## 2026-08-03 20:38 (Harrison finance correction)
 
@@ -59,10 +59,10 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - Status: actioned into live client, money and day state.
 
 ## 2026-07-30 08:12 (Telegram reply)
-- All of those today’s are done
+- All of those today's are done
 - Source: telegram reply (authoritative, Harrison's own words)
 - Tag: capture
-- Status: new
+- Status: actioned same day by evening-reflection (30 Jul log): claim checked against the one independently verifiable piece (Creepers live calendar), which contradicted it, Carey Garden edit/Sandringham stock/installation photo bank still showed unposted that evening. The other 4 items (LOR site-availability message, Monzo Flex, BaW Best-of #3 to Cathal, David payment) were credited as shipped per the trusted Telegram signal, consistent with zero same-day Gmail sends (non-email channels). No further extraction needed, closing this pass.
 
 ## 2026-07-29 14:07
 - **Claude Code ships hard limits on subagent delegation**, byteiota / Anthropic changelog, 21-28 Jul. Three versions in four days (v2.1.216-219) added a concurrency cap of 20 simultaneous subagents, a 200-per-session spawn total, and a nesting depth cap Anthropic disabled entirely then reinstated at 3 within three days, live calibration on a production system used by hundreds of thousands of developers. A `--max-budget-usd` bug that let background agents overspend past their cap is also fixed as of v2.1.216. Direct operational relevance, this is the exact delegation pattern the whole agent fleet runs on unattended. Worth checking `claude --version` and auditing spend from before 21 Jul if any workflow used budget caps. [https://byteiota.com/claude-code-subagent-guardrails-three-limits-four-days/]
@@ -92,7 +92,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - **14 Patterns Behind the World's Greatest Minds**, Modern Wisdom with David Senra, 20 Jul. The Founders podcast host distils recurring patterns across hundreds of biographies: the "lazy workaholic" mode, ruthless curation of relationships and information diet, ideas taken more seriously than anyone else takes them, "Grand Theft Life." Same shelf as the Book of Elon material already seeded into the system. [https://chriswillx.com/podcast/]
 - Source: discovery-scan
 - Tag: learning
-- Status: new
+- Status: archived 9 Aug (weekly review), 16 days, discovery-scan batch, nobody promoted any item. Reference only, per rule.
 
 ## 2026-07-22 14:07
 - **Creepers confirmed as a plant provider on the RHS Royal Legacy Garden**, RHS Sandringham Flower Show, opens today (22-26 Jul). GardensDB lists Creepers alongside Deepdale Trees as suppliers to the King's own garden, designed by Catherine MacDonald and built by Gadd Brothers. Michael Buck's LinkedIn (13 Jun) shows the Creepers team on site discussing the garden's permanent move to Sandringham House's West Lawn after the show closes. This resolves the wrong-date confusion flagged 13 Jul and gives the Q3 Royal Thread a real, live anchor. Worth raising with Sarah-Louise today while the show is on. [https://gardensdb.com/gardens/the-rhs-royal-legacy-garden]
@@ -102,7 +102,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - **Should I Say Something?**, Vanessa Bohns, Cornell professor of organizational behavior. A field guide for when to speak up versus hold back at work, the line between oversharing and appropriate vulnerability, built on her social-influence research. Same shelf as the BaW guest hit list, and a genuinely different angle from the psychological-safety pieces already banked, this is the science of silence itself. Releases 29 Oct. [https://www.vanessabohns.com/]
 - Source: discovery-scan
 - Tag: learning
-- Status: new
+- Status: archived 9 Aug (weekly review), 18 days, discovery-scan batch, nobody promoted any item. Reference only, per rule.
 
 ## 2026-07-20 14:07
 - **Who's Afraid of Chinese Models?**, Stratechery / Ben Thompson, 20 Jul. Thompson's read: Chinese open-weight models are real competition but not an existential threat to frontier US labs, and the bigger policy need is enabling open US alternatives, not fear. Direct read on the model layer under the whole agent fleet, and a clean counter-frame for the next client who asks about the China AI threat. [https://stratechery.com/2026/whos-afraid-of-chinese-models/]
@@ -112,13 +112,14 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - **Enforced but not Enacted: how RTO policies reshape wellbeing**, Human Resource Management journal, Jun 2026. Two survey studies plus two years of interview data: enforced return-to-office mandates lower wellbeing not because of office time itself, but because they strip away volition and control over where people work, and office time alone has no effect on wellbeing once that's accounted for. Sharper mechanism than the narcissism-driven RTO piece already banked, same BaW pitch lane. [https://doi.org/10.1002/hrm.70080]
 - Source: discovery-scan
 - Tag: learning
-- Status: new
+- Status: archived 9 Aug (weekly review), 20 days, discovery-scan batch, nobody promoted any item. Reference only, per rule.
 
 ## 2026-07-19 11:20
 - **Portugal departure block, finish today.** Flight W95731 leaves Gatwick South at 07:40 on Monday 20 July and returns as W95732 to Gatwick South at 14:10 on Friday 24 July. Complete Wizz check-in for Harrison and Maya, book Gatwick South parking for roughly 04:40 Monday to 15:30 Friday, and book Faro Airport car hire for roughly 11:15 Monday to 08:15 Friday. Confirm the car registration for Gatwick, manual versus automatic, insurance/excess preference, whether Maya is a second driver, and whether the hire car needs a Via Verde toll transponder. Calendar currently carries the return and Viceroy checkout into Saturday 25 July, one day late, and needs correcting after the bookings are locked.
 - Source: Harrison weekly check-in, Trip.com flight confirmation, Google Calendar and official Gatwick/Portugal guidance.
 - Tag: travel
 - Status: actioned in part 19 Jul (weekly review). Gatwick South parking confirmed (order DW13342596HAR) and Faro car hire confirmed (Trip.com booking, Opel Corsa or similar), both per Gmail 19 Jul 13:12-13:33. Wizz check-in emails present (check-in contact + account activation) but no confirmed boarding-pass evidence for either traveller, still worth a direct look tonight. NOT done: the calendar still carries "Check out Viceroy + fly home" on Saturday 25 July against an actual Friday 24 July 14:10 flight, one day out, uncorrected. Surfaced as this week's #1 named risk in this-week.md, not fixed by this agent (calendar surgery on a live multi-day trip is Harrison's tap, not auto-executed here).
+- Archived 9 Aug (weekly review): trip concluded early August, over two weeks ago. The calendar placeholder question is moot now. No standing action.
 
 ## 2026-07-17 14:07
 - **Creepers Nursery pulls out of Chelsea 2027 over peat-free rules**, HortWeek, 13-14 Jul. Michael Buck confirmed Creepers is stepping away from Chelsea for a year, only 3 of its 26 plant suppliers are fully peat-free yet, and the story made BBC Today and national press. Direct hit on the Q3 Royal Thread content plan, this changes what "Creepers at Chelsea" means for 2027 and is worth raising with Sarah-Louise before any more content anchors to it. [https://www.hortweek.com/horticulture-supply-chain-strained-rhs-chelsea-peat-ban-creepers-pulls-updated-nursery-withdraws/article/1961544]
@@ -128,7 +129,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - **Is AI making us dumber?**, Singularity Hub, 16 Jul, citing a new Nature Human Behavior paper. "Cognitive debt": offloading mental effort to AI pays off immediately but erodes the reasoning muscle over time, though collaborating with the tool rather than just outsourcing to it doesn't show the same effect. Worth sitting with given how much of the studio now runs through Claude making decisions, not just executing them. [https://singularityhub.com/2026/07/16/is-ai-making-us-dumber/]
 - Source: discovery-scan
 - Tag: learning
-- Status: new
+- Status: archived 9 Aug (weekly review), 23 days, discovery-scan batch, nobody promoted any item. Reference only, per rule.
 
 ## 2026-07-15 14:08
 - **The OpenAI Super App, ChatGPT = Codex, Whither Chat**, Stratechery / Ben Thompson, 14 Jul. OpenAI has refashioned Codex as the new ChatGPT and Thompson reads it as OpenAI abandoning the chat category it pioneered, in favour of the agentic-coding frame. Direct read on where the layer Claude Code and the HWL agent fleet sit in is heading competitively. [https://stratechery.com/2026/the-openai-super-app-chatgpt-codex-whither-chat/]

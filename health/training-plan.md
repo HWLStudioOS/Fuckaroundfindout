@@ -2,13 +2,23 @@
 plan: Eight-week Long + Strong hybrid block
 period: 27 July to 20 September 2026
 race_anchor: none
-status: ACTIVE BIBLE
+status: ACTIVE BIBLE, paradigm shift recorded 9 August 2026
 supersedes: Six-week run and strength maintenance block
 ---
 
 # Long + Strong
 
 **This file is the only active training prescription.**
+
+## Paradigm shift, 9 August 2026
+
+Harrison's call, journaled Sunday night: change the paradigm if it is not working. The focus is now aesthetics plus engine.
+
+- Strength training moves to a bodybuilder-type approach for aesthetics, based at MuscleWorks Bethnal Green. Squat, bench and deadlift numbers stop being the goal.
+- Running exists to push VO2 max. Quality over volume.
+- A new program is to be designed around this. Until it ships, keep the run structure below with Tuesday VO2 as the protected session, and train Wednesday and Friday at MuscleWorks in a bodybuilding split instead of Strength A and B as written.
+- The weight-loss system, readiness rails and knee rails below stay in force unchanged.
+- Where this section and the older prescription below disagree, this section wins.
 
 Lake Bled is not happening. The old ultra plan and the 21.2 km maintenance week are retired. This block restores the useful Baseline plan: four runs, two full-body strength sessions, one proper rest day.
 

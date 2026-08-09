@@ -4,6 +4,49 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-08-09 21:00 (Sunday night check-in, Harrison direct)
+
+**Corrections, live state:**
+
+- Danny Wicks: DONE. Testimonial video plus b-roll delivered Friday 7 August, Harrison edited it himself. Only open thread is the £800 plus VAT payment confirmation, the chase sits with the invoice, not the delivery.
+- Creepers: Harrison spoke to Sam on Friday, big nice chat. New deliverable: send Anna and Sam the content calendar. Before it goes, update it from 1 August to now and verify it against what actually published on the Instagrams. Lower volume this week is accepted, close the loop.
+- BaW website preview: already with Cathal, ball is his. He also has not posted his personal LinkedIn this week.
+- LOR A-level results posts: stood down by Harrison, 9 August. The trigger is off, it is not next week's problem. Do not chase an Emma sign-off route. For the record only: national results day is Thursday 13 August.
+- £675 tax sweep from the BaW receipt: done. The weekly-cfo Monday action is cleared.
+- Tesla password reset on 9 August: Harrison himself at a supercharger. Not an incident.
+- Board Room deploy blocker: js-yaml and nanoid high advisories patched 9 August on branch `claude/sunday-evening-checkin-hdykdc`, draft PR open. Audit clean, lint clean, 16 tests and production build pass. Deploys with the first nightly backup after merge.
+
+**Monday 10 August to-dos:**
+
+- Laurence, first thing: reply to his latest WhatsApp (another arrived Sunday). Then film the Year One testimonial, talk to camera, catch and cut, same-day edit if it flows. Months overdue.
+- 14:30 market session with Claude, calendar hold is set: scout trades amend-or-fold against `money/investment-strategy-2026-08-03.md`.
+- Creepers content calendar: update from 1 August, verify against Instagram, send to Anna and Sam.
+- Cathal reprice: Harrison's position is the £1,500 incl VAT cap is not on after a full brand refresh and a new website delivered inside the current retainer. The reply holds the line. Draft exists send-gated from 7 August, needs his voice pass before sending.
+- Director's drawings for August: salary done, drawings not. Harrison's action, one tap.
+- Accept the Neil Mullarkey recording invite: Tuesday 15 September 14:00 to 15:30, Podcast House, Kennington. Currently unaccepted. Note the recurring 16:00 Kerri call sits directly after it that day.
+
+**Open decision, routes to Council when Harrison calls it:**
+
+- David (editor, £550 per month): output too hard to work with and quality not there, Harrison's words. He wants a way around the editing shortage and is considering replacement. Faster internet plus Harrison editing more himself is the interim workaround. Replacement is a hiring decision, Council deliberation before any move.
+
+**Infrastructure thread, new:**
+
+- 70Mb down at the flat is the named bottleneck on editing throughput. The Mac mini is also struggling with the RAW footage Harrison shoots.
+- Cheapest fix first: Hackney is one of the best-covered altnet boroughs in London. Community Fibre and Hyperoptic both sell symmetric 1Gb around £30 to £35 a month, postcode check needed. G.Network is also present but has been in administration since January 2026, avoid. If the flat can get either of the first two, the bandwidth problem dissolves for £35 a month and no move.
+- Desk fallback if the flat cannot be served: Hackney hot desks run £89 to £229 a month, dedicated desks £200 to £350, Hackney Wick studios £375 to £450. Candidates to view: Netil House (London Fields), The Trampery Fish Island, Mainyard Studios (Hackney Wick), Areaworks (Hackney Central), Second Home Spitalfields (£300 fixed desk). The question to ask on any viewing: is the line a dedicated symmetric leased line, and can he hardwire.
+- Mac mini RAW struggle: free fix before any spend, proxy media workflow plus editing off a fast external NVMe. If that fails it becomes a hardware conversation, which is money, which is timing.
+
+**Week focus, journaled Sunday:**
+
+- Training paradigm shift recorded in `health/training-plan.md`: bodybuilding for aesthetics at MuscleWorks Bethnal Green, runs for VO2 max, new program to be designed this week.
+- 5am starts this week, win the day by 10am.
+- Squiggly production chat Tuesday 16:15, treat as new-client development, Harrison sees it as a big one.
+- Love yourself, be brave, take risks, amor fati.
+
+- Source: Harrison, Sunday night check-in, 9 August, remote session.
+- Tag: capture, corrections, todo
+- Status: new
+
 ## 2026-08-07 14:07
 - **Claude Code adds cross-session messaging and quietly removes the subagent spawn cap again**, Anthropic changelog, 1-7 Aug (v2.1.219-224). Sessions can now message each other across machines with SendMessage and discover each other with ListAgents, Claude Opus 5 became the default Opus model in Claude Code, and the 200-subagent-per-session cap added three weeks ago (flagged here 29 Jul) is gone, only concurrency and depth limits remain. MCP itself moved to a new stateless spec (2026-07-28) with stronger OAuth the same week. SendMessage in particular is a direct build note, the Mac Mini daemons could talk to each other instead of only coordinating through shared files. [https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md]
 - **Replit's CEO on building a company that can run itself**, Platformer Pod with Casey Newton, 6-7 Aug. Amjad Masad on Replit's "self-driving company" bet: engineers who "only look at the code when it's about to get deployed," an internal bot that answers any question about the business by querying Notion, Postgres and the codebase at once, and the line "a CEO is a kind of glorified router" whose routing should mostly automate away. Replit has already cancelled several of its own software contracts, replacing analytics vendors with tools employees built themselves. A direct mirror of the single-operator-plus-agent-fleet bet HWL already runs, from someone doing it at real company scale. [https://www.platformer.news/replit-amjad-massad-interview-coding-design-jobs/]

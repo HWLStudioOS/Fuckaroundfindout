@@ -511,3 +511,13 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 - 2026-08-08 11:04  | health-sync | OK 2026-08-08: RHR 45, sleep 9.1h (score 87), HRV 59 BALANCED, readiness 35
 - 2026-08-08 14:00  | health-sync | OK 2026-08-08: RHR 45, sleep 9.1h (score 87), HRV 59 BALANCED, readiness 35
 - 2026-08-08 22:30 BST | board-room | VALIDATION FAILED, production deploy blocked: �──────────────────────────────────────────┤ │ More info           │ https://github.com/advisories/GHSA-2v37-7h3g-55p8      │ └─────────────────────┴────────────────────────────────────────────────────────┘ 2 vulnerabilities found Severity: 2 high 
+- 2026-08-08 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-08-08 22:30 BST | board-room | production deploy skipped because validation did not pass
+- 2026-08-09 06:15  | health-sync | OK 2026-08-09: RHR 48, sleep 9.1h (score 87), HRV 59 BALANCED, readiness None
+2026-08-09T09:09:49+01:00 | learning-brief | 8 items, 5 drills, file=learning/weekly-brief/2026-08-09-brief.md
+2026-08-09T09:10:04+0100 | learning-brief | SUCCEEDED | exit=0; run=20260809T090030+0100-5867; Claude completed and output post-processing finished; logs=agents/logs/learning-brief.stdout.log,agents/logs/learning-brief.stderr.log
+- 2026-08-09 11:00  | health-sync | OK 2026-08-09: RHR 46, sleep 7.3h (score 89), HRV 59 BALANCED, readiness 63
+- 2026-08-09 14:00  | health-sync | OK 2026-08-09: RHR 46, sleep 7.3h (score 89), HRV 59 BALANCED, readiness 63
+2026-08-09T18:12:43+0100 | weekly-review | week W32 ended (retro covering W29-W30, 27 Jul-9 Aug, 3 Aug run failed auth), 1/3 top-3, msg_id=604
+2026-08-09T18:13:05+0100 | weekly-review | SUCCEEDED | exit=0; run=20260809T180003+0100-35247; Claude completed and output post-processing finished; logs=agents/logs/weekly-review.stdout.log,agents/logs/weekly-review.stderr.log
+- 2026-08-09 22:30 BST | board-room | VALIDATION FAILED, production deploy blocked: �──────────────────────────────────────────┤ │ More info           │ https://github.com/advisories/GHSA-2v37-7h3g-55p8      │ └─────────────────────┴────────────────────────────────────────────────────────┘ 2 vulnerabilities found Severity: 2 high 

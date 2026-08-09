@@ -364,3 +364,61 @@ No formal plan existed. Top 3 inferred from active state at week start (22 June)
 - Building systems to avoid obvious work: not seen this week. Today's actual output (Roger Martin newsletter + carousel) was direct content work, not deflection into more tooling.
 
 ---
+
+## 2026-08-09 Sunday review (weeks W29-W30 ending 2 and 9 August 2026, retro-covering the missed 3 Aug run)
+
+> The scheduled 3 Aug 20:56 run failed with AUTH_REQUIRED (exit 78, Claude CLI not authenticated) before any review work began. No entry landed here and this-week.md was never agent-rewritten for the 3-9 Aug week, Harrison manually settled it himself instead ("manual settlement pass 3 August 2026"). Same single-point-of-failure shape as the 12 Jul gap. The outage also broke morning-brief, campaign-chaser, discovery-scan and evening-reflection from 3-6 Aug; auth-proof succeeded 6 Aug 12:37 and every daemon has run clean since. This entry covers both weeks against the plans in force at the time: W29's fully-reconciled 27 Jul plan and W30's 3 August manual settlement.
+
+### Shipped
+
+- Squiggly Careers reply sent 27 Jul with the £3,600-4,400/month three-month pilot range (W29 top-3 #1). Confirmed via campaigns/new-client-2026-07.md, target hit, proposal moved to its own commercial thread.
+- Creepers content actually posted: Carey Garden Design Studio edit finished and published 28 Jul, installation-page photo carousel published 30 Jul, Catherine MacDonald Royal Legacy Garden reel and Verbena Lollipop nursery-stock post both live, Michael's Sandringham stock update built and posted 4 Aug (five days later than planned, but shipped).
+- Better Moments #3 (Russell Beck) shipped clean: carousel, teaser and launch post all live 28-30 Jul on @betteratworkpod, sent to Cathal, closed. Better Moments #4 (Laura Gassner Otting) fully packaged and went live 6 Aug per the launch-sequence calendar hold.
+- BaW brand identity, component library and a real public-site draft built this session, protected Vercel preview ready. Caroline Webb's 13 Aug recording brief prepared (podcast recording confirmed on calendar).
+- HMRC VAT number landed: 523 6438 93, effective 30 Jun, confirmed by Fazila 27 Jul. A multi-week open item finally closed.
+- Money housekeeping: £500 family reimbursement recovered, David's £550 payment confirmed, Monzo Flex closed as current, tax reserve (£9,200) moved into Revolut Savings at ~3% AER on 6 Aug. £7,140 cash landed this week (Creepers £5,340 on 4 Aug, BaW INV-0399 £1,800 confirmed paid by Cathal 7 Aug).
+- Danny Wicks resolved: full edited photo set delivered to the UF WhatsApp group (warmly received), fee of £800 plus VAT agreed and confirmed by Harrison on 7 Aug, replacing weeks of ambiguity from the 30 July verbal exchange.
+- Year One's eight-page pack and three Looms declared dead by Harrison on 6 Aug, closing the largest piece of that ambient obligation.
+- Rights-cleared golf flyover pilot brief written 3 Aug without reviving the killed outreach batch.
+- Claude CLI auth outage (3-6 Aug) diagnosed and fixed same-window; every scheduled daemon has run clean since 6 Aug.
+- weekly-cfo hit its own acceptance bar: 31 Jul and 7 Aug are two consecutive clean Fridays (Xero unreachable, manual snapshot fully completed both times). First of the three v1 agents to reach its individual acceptance criterion. v1 itself still needs morning-brief and weekly-review at acceptance simultaneously, and both had to restart their streaks after the outage.
+
+### Missed
+
+- **This weekly review itself didn't run on 3 Aug.** Second time this exact failure shape has happened (first was 12 Jul). Two weeks went by with no review-log entry and no agent-authored this-week.md.
+- BaW's Season 5 website was never actually shared with Cathal. It was "finished and validated" per the 6 Aug capture note and named as this-week.md's own task (HWL-231) both weeks running, still unchecked. No Vercel share-link email found in Gmail sent mail through 9 Aug. Now further complicated by Cathal's 7 Aug email asking to cut the retainer.
+- LOR Early Talent production decision: site availability, PO route and first invoice still not fully closed. Kerri is away until 17 Aug and, as of this review, there is still no locked sign-off route through Emma for the A-level results posts due Thursday 13 Aug, a hard external date. Named as a live risk in today.md on 7 Aug, unresolved.
+- Creepers Pro Landscaper advert: stuck since 7 Aug on a phone call Sam wants about the missing rootball pictures (zero rootball shots anywhere in the 431-file transfer). No evidence the call has happened. Deadline is 19 Aug.
+- Personal investing amend-or-fold decision: named overdue in today.md on 7 Aug, still undecided. Three rounds of scout trades in six days (SPCX/NVDA/SNDK, then MU/PLTR) against a stated watch-only posture.
+- Laurence's Year One testimonial and WhatsApp reply: still not filmed or sent, "months overdue" per today.md, despite the rest of the Year One obligation being closed 6 Aug.
+- Long + Strong week 2 (3-9 Aug) ran off-plan: Friday's Strength B did not happen at all, Monday's prescribed easy run became a walk instead, and the long run moved to Saturday (12.03km) rather than Sunday, breaking the plan's own Tuesday/Friday/Sunday spacing rule.
+- Board Room production deploy blocked 4 of the last 5 nights (5, 6, 7, 8 Aug) by dependency security advisories (GHSA-5p4m-2wfm-xmqj, then GHSA-2v37-7h3g-55p8). Nightly backup and commit succeeded every night; the live site itself is stale. Codex's lane per SYSTEM-STATUS.md, unresolved as of this review.
+- Edge Lab G2a gate reached its full 14-day window with a clear no-pass read on crypto (rules -3.99%, fable -6.72% cumulative excess vs a simple buy-and-hold control, both not statistically significant at n=210 but consistently negative) while macro roughly ties control. The "first blood £250-500 on pass" trigger does not fire on this evidence, and no explicit continue/kill decision has been recorded for the crypto arena.
+- Personal content: no evidence of a new post from Harrison's own substance bank in this window, continuing the pattern named across prior reviews.
+
+### Reality check
+
+- **Money:** £7,140 landed this fortnight (Creepers £5,340 + BaW £1,800). Tax reserve £9,200, now in Revolut Savings at ~3% AER. About £7,000 from LOR still expected in August, nothing invoiced yet against it. Cathal wants BaW capped at £1,500 incl. VAT (down from £1,800, roughly a £300/month cut), reply drafted and correctly send-gated pending Harrison's tap. VAT number landed (523 6438 93). Personal investing has drifted three rounds deep into scout buys against a stated watch-only line, decision still open.
+- **Health:** Week 2 of Long + Strong landed 3 of 6 sessions on the prescribed day (Tuesday VO2 run 7.18km, Wednesday Strength A, Thursday easy run 4.33km), with the long run pulled forward to Saturday (12.03km, exceeding the 10km slot) and Friday's Strength B skipped outright. RHR ranged 45-53, HRV stayed BALANCED all week (59-72ms), sleep 6.1-9.1h, training readiness swung MODERATE/LOW/POOR day to day as ACWR climbed from 0.53 to 0.85 with volume returning. Body weight still stale since 29 April (100+ days).
+- **Clients:** LOR is a genuine production wait (Kerri away until 17th) but the A-level results window is live now with no owner locked. Creepers is active but stuck on one unresolved phone call. BaW shipped real content (BM3, BM4) but has two live, unresolved threads with Cathal (the reprice ask and the unshared website) that risk blurring into each other at the worst possible moment, right as he reviews all his podcast suppliers' costs.
+- **Content:** BM3 and BM4 both shipped clean externally. Creepers posted through most of its calendar with one late item (Sandringham stock, 4 Aug not 28 Jul). Personal substance remains silent.
+- **Capture inbox:** 8 items added since the 26 Jul review (27, 29, 30, 31 Jul x2, 3, 6, 7 Aug). 7 processed this pass: four stale discovery-scan batches (17, 20, 22, 24 Jul) archived per the 14-day rule, the Portugal travel item closed out (trip long since concluded), the 30 Jul Telegram reply's claim reconciled against evening-reflection's same-day check, and the 6 Aug BaW to-do batch routed into this-week.md and business/clients/baw.md. 4 remain new (27, 29, 31 Jul discovery-scan batches still inside the 14-day window, and the 7 Aug batch at 2 days), oldest is 27 Jul (13 days).
+- **Attention:** RescueTime's weekly summary landed 9 Aug with an actual number this time: 5h 59m logged under Entertainment for the week.
+- **Maya:** no captured evidence of the Sunday coffee catch-up again this fortnight. This is now a long-running gap in what the system can see, not an assertion that it isn't happening.
+
+### Risks
+
+- **BaW's two Cathal threads are entangled and both stalled.** The website has sat finished-but-unshared for over a week while he's independently asking to cut cost. The longer it sits, the worse the optics get.
+- **LOR A-level results posts have a hard external deadline (Thursday 13 Aug) and no locked sign-off route**, with Kerri unreachable until the 17th. This is exactly the failure mode named in today.md on 7 Aug: the posts die by default without a decision before Thursday.
+- **Personal investing is now a second consecutive naming of the same overdue decision.** Five trades in under a week against a stated watch-only posture is a pattern, not a one-off.
+- **Edge Lab crypto arena closed its first full evidence window with a clear no-pass reading** and no explicit decision recorded on what happens next. Letting it run on inertia is itself a decision.
+- **Weekly-review's own reliability broke for the second time** (12 Jul, now 3 Aug), same auth-outage shape both times. Worth a direct look at whether the Claude CLI session needs a longer-lived auth path before this happens a third time.
+- Board Room production has been stale for 4 of the last 5 nights on unresolved dependency advisories. Not a Harrison miss, but worth a direct check given how long it's been stuck.
+
+### Standards check (codex H17)
+
+- Proactive comms: mostly good this fortnight. Real, timely replies went out (Squiggly, Creepers' rootball flag, Danny's fee confirmation, the Cathal call). One clear miss: the BaW website sat finished for over a week without ever actually being shared, the same "hard work done, simple send doesn't happen" pattern named in past reviews, smaller in scale this time.
+- Self-attack disguised as discipline: not seen.
+- Building systems to avoid obvious work: not seen. Real client deliverables shipped this fortnight (BM3, BM4, Danny's resolution, the BaW site build itself), consistent with genuine progress rather than displacement activity.
+
+---

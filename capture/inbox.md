@@ -24,6 +24,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - Cathal reprice: Harrison's position is the £1,500 incl VAT cap is not on after a full brand refresh and a new website delivered inside the current retainer. The reply holds the line. Draft exists send-gated from 7 August, needs his voice pass before sending.
 - Director's drawings for August: salary done, drawings not. Harrison's action, one tap.
 - Accept the Neil Mullarkey recording invite: Tuesday 15 September 14:00 to 15:30, Podcast House, Kennington. Currently unaccepted. Note the recurring 16:00 Kerri call sits directly after it that day.
+- Mac mini health venv: run `pip install -r agents/health-requirements.txt` to pick up the pypdf 6.15.0 security pin. One command, Codex lane.
 
 **Open decision, routes to Council when Harrison calls it:**
 

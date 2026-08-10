@@ -20,7 +20,7 @@ Reset the week around the Laurence meeting, a secure fibre-connected edit base, 
 
 ### Studio operations
 
-- [ ] Nikki has the Netil House brief. Await viewing options, book the right room, then check the hardwired upload speed, all-in cost, deposit, term and break clause before choosing. <!-- linear:HWL-259 -->
+- [x] Nikki has the Netil House brief. Await viewing options, book the right room, then check the hardwired upload speed, all-in cost, deposit, term and break clause before choosing. <!-- linear:HWL-259 -->
 - [ ] Fable did not pass the client-editing test. After the fibre and proxy-media tests, decide David's editing lane through Council before buying hardware or changing the editor. <!-- linear:HWL-260 -->
 
 ### Creepers
@@ -53,7 +53,7 @@ Reset the week around the Laurence meeting, a secure fibre-connected edit base, 
 ### Client boundaries
 
 - [ ] Get Danny Wicks's £800 plus VAT payment confirmation. The testimonial film and b-roll were delivered Friday 7 August, edited by Harrison. Delivery is closed. <!-- linear:HWL-251 -->
-- [ ] Take the Monday morning Laurence meeting and leave with one explicit testimonial outcome or next step. <!-- linear:HWL-252 -->
+- [x] Take the Monday morning Laurence meeting and leave with one explicit testimonial outcome or next step. <!-- linear:HWL-252 -->
 
 ### Money and admin
 

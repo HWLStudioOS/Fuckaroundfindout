@@ -1,23 +1,25 @@
 # X
 
-**Created 5 July 2026 (new platform doc, X had none before).** Role: reach into the operator/builder crowd, and the queryability layer. X text is the only social content a major LLM (Grok) treats as a first-class citation source. Being durable and quotable here is a cheap bet on how buyers find people from 2027 onward. Research: `content/references/research-2026-07-05.md`.
+**Created 5 July 2026. Rebuilt 10 August 2026 after the May algorithm release and August monetisation change.** Role: discovery, relationships and fast idea testing among operators and builders. It routes attention into YouTube, email and products. It is not the owned centre.
 
 ---
 
 ## The 2026 reality
 
-- **Premium is the price of entry, not a hack.** Buffer's 18.8M-post study: Premium accounts get ~10x the median reach; the median non-Premium account gets zero visible engagement. Do not post here without it. (Subscription needs the over-£40 tap first.)
-- **Replies are the growth engine for small accounts.** Replies weight ~13.5x a like in ranking, and the reply-guy path is still the documented sub-1k route. Reposts weight ~20x.
-- Recency decays fast (~6 hour half-life). X is a daytime-touches platform, not a scheduling platform.
-- Links are penalised 50-90%. First reply, not post body.
-- Long-form single posts and Articles now out-travel fragmented threads. The weekly idea ships as one durable long-form post, not a 12-tweet thread.
+- **Cold discovery is structurally possible.** The current For You system combines posts from followed accounts with out-of-network posts retrieved from a global corpus. A Grok-based model then predicts actions including reply, repost, click, profile click, dwell and follow.
+- **There are no useful fixed multipliers to game.** The current public system removed hand-engineered relevance features. The old claims that a reply is worth a precise multiple of a like are retired here.
+- **Replies still matter as relationships.** Good replies put Harrison in relevant conversations and create profile visits. That is the job. They are not an algorithm ritual.
+- **Premium buys features, not a guaranteed audience.** It enables Articles and is required for X's current creator reward programme. Buy it only as part of a real 90-day commitment, never as a reach hack.
+- **Platform payouts are unstable.** X stopped new enrolments in Creator Revenue Sharing on 7 August 2026 and retires it on 7 September. The replacement requires 500,000 verified Home impressions in 90 days and excludes reply impressions from that threshold. Ignore payouts in the business model.
+- Original work in Harrison's own voice is the right bet for both people and the current product rules. Generic AI posts, copied formats and engagement prompts are not.
 
 ## The play
 
-- **60-70% replies, 30-40% original** while small. Replies go to operator/builder accounts 5-20x his size (the Koe/Shipper orbit, AI-builder accounts, UK business/creator crowd). Substantive, specific, in voice. This is the X twin of the LinkedIn commenting habit, same 10 daily minutes, split between them.
-- **One long-form post per week:** the typewriter idea, compressed hard for X register. Declarative, specific, quotable. The version an LLM would cite.
-- Fragments through the week as they occur naturally: one-liners from captures, a typed-page photo, a build note. No cadence obligation beyond the weekly long-form.
-- Bookmark rate is the quality signal to watch on long-form posts.
+- **Twenty-five good replies a week.** Five on each weekday, aimed at operator, AI-builder, filmmaker and UK business conversations where Harrison has something specific to add. Human and live. No assistant writes them without Harrison's substance.
+- **Three original posts a week.** One operator receipt, one visual artefact or observation, and one developed idea. These come from live work, not a content calendar looking for filler.
+- **One longer post every two weeks.** It carries the same atomic thought as the YouTube video or email note. Use an Article only when the material genuinely needs the space.
+- Product links appear when the post is actually about the problem or build. Do not turn every post into a CTA. Do not hide every useful link because an old growth thread said links were punished.
+- Keep a small private list of 30 relevant people. Repeated intelligent contact matters more than drive-by volume.
 
 ## Register
 
@@ -25,11 +27,22 @@ X is the loosest room he plays. LinkedIn quiet confidence, X gets the drier Kiwi
 
 ## What we measure
 
-Reply-driven follows and bookmarks on the weekly long-form. Nothing else matters under 2k followers.
+- Profile visits and follows that follow real conversations.
+- Replies from people Harrison wants in the world.
+- Email sign-ups and product clicks.
+- Bookmarks and dwell on developed posts where visible.
+- Product sales attributed to X only when the evidence is direct. Do not invent attribution.
 
 ## What kills it
 
-- Posting without Premium (invisible, wasted work).
-- Thread-splitting the weekly idea.
 - Engagement-farming reply behaviour ("Great post!"). Every reply passes the same voice bar as a LinkedIn comment.
-- Treating X as a scheduler target. Buffer can queue the weekly long-form; the replies are live and human or they are nothing.
+- Tool commentary without a business consequence or receipt.
+- Treating X payouts as revenue strategy.
+- Letting X consume the hours meant for YouTube or the product.
+- Treating it as a scheduler target. Original posts can queue. Replies are live and human or they are nothing.
+
+## Current primary sources
+
+- [X For You recommendation system, updated 15 May 2026](https://github.com/xai-org/x-algorithm)
+- [X Original Content Rewards requirements](https://help.x.com/en/using-x/original-content-rewards)
+- [X Articles documentation](https://help.x.com/en/using-x/articles)

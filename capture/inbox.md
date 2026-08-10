@@ -6,9 +6,10 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 
 ## 2026-08-10 08:23 to 08:29 (Monday reset, Harrison direct)
 
+- Eat Work Art replied positively on 10 August. Nikki asked for size, budget and other considerations before arranging a Netil House tour. Reply with roughly 120 to 200 sq ft, £800 to £900 target, £1,000 all-in fixed-cost ceiling before recoverable VAT, private lockable room, 24/7 access, equipment left overnight and reliable hardwired upload speed.
 - Strength session completed 10 August: STNDRD Push. Harrison's first read was that the app and session were pretty nice. Count it as Upper 1 and run STNDRD as a seven-day delivery trial without letting its split displace four weekly runs.
 - Training decision locked: four lifting days and four runs. This week is Monday upper plus easy, Tuesday lower, Wednesday hard run, Thursday upper, Friday lower plus easy, Saturday rest or golf, Sunday long. STNDRD is on a seven-day exercise-selection trial, with MARCHON GAIN as fallback. Garmin records readiness, and Baseline plus 32/20 are frozen.
-- Eat Work Art private-studio application submitted 10 August. Await their response and suitable viewing options. The search action is closed for now.
+- Eat Work Art application received a positive reply from Nikki on 10 August. Reply with the room brief and book a viewing.
 - Fable is working on a basic Creepers edit as a capability test.
 - Laurence meeting first.
 - Verify both Creepers feeds, update the content-calendar site and get the accurate version to Sam.

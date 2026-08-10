@@ -2,8 +2,8 @@
   "title": "The Board Room",
   "week": "10 to 16 August 2026",
   "sourceDate": "2026-08-10",
-  "generatedAt": "2026-08-10T11:57:09.898Z",
-  "sourceCommit": "d6dfbbf",
+  "generatedAt": "2026-08-10T12:00:55.985Z",
+  "sourceCommit": "f03b840",
   "summary": {
     "open": 29,
     "active": 19,
@@ -102,6 +102,18 @@
       "rank": 7
     },
     {
+      "id": "HWL-259",
+      "title": "Reply to Nikki at Eat Work Art with the Netil House brief: roughly 120 to 200 sq ft, £800 to £900 target and £1,000 all-in ceiling before recoverable VAT, private lockable room, 24/7 access, equipment left overnight and reliable hardwired upload speed. Book a viewing, then check the deposit, term and break clause before choosing.",
+      "area": "Studio operations",
+      "state": "todo",
+      "due": null,
+      "baseScore": 84,
+      "score": 84,
+      "reason": "Nikki replied positively about Netil House. Send the specific room, budget and fibre brief, then book the right viewing.",
+      "tier": "High",
+      "rank": 8
+    },
+    {
       "id": "HWL-253",
       "title": "Take £1,800 director's drawings for August. Salary is already done.",
       "area": "Money and admin",
@@ -111,7 +123,7 @@
       "score": 84,
       "reason": "The August amount is set. Complete the £1,800 drawings transfer and record the real payment.",
       "tier": "High",
-      "rank": 8
+      "rank": 9
     },
     {
       "id": "HWL-242",
@@ -123,7 +135,7 @@
       "score": 80,
       "reason": "Dated for Tuesday 11 August at 16:15. Arrive with the production and development position clear.",
       "tier": "High",
-      "rank": 9
+      "rank": 10
     },
     {
       "id": "HWL-241",
@@ -135,7 +147,7 @@
       "score": 78,
       "reason": "The Caroline Webb recording is Thursday 13 August. Finish the brief before the day becomes reactive.",
       "tier": "High",
-      "rank": 10
+      "rank": 11
     },
     {
       "id": "HWL-250",
@@ -147,7 +159,7 @@
       "score": 72,
       "reason": "The commercial position and draft already exist. Close it after the Season 5 launch package has had its final pass.",
       "tier": "Next",
-      "rank": 11
+      "rank": 12
     },
     {
       "id": "HWL-254",
@@ -158,18 +170,6 @@
       "baseScore": 62,
       "score": 62,
       "reason": "G2a has closed without a pass. Record the next paper-only decision without arming capital.",
-      "tier": "Next",
-      "rank": 12
-    },
-    {
-      "id": "HWL-259",
-      "title": "Eat Work Art application submitted 10 August for a private edit studio. When they reply, book the suitable viewings and compare room quality, all-in cost, deposit, term, break clause, security and real wired fibre. Keep fixed premises costs within £1,000 per month before recoverable VAT and do not sign until the live cash check is green.",
-      "area": "Studio operations",
-      "state": "todo",
-      "due": "2026-08-10",
-      "baseScore": 55,
-      "score": 55,
-      "reason": "Eat Work Art application submitted 10 August. Await suitable viewing options, then test the room, fibre and commercial terms before signing.",
       "tier": "Next",
       "rank": 13
     },

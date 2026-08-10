@@ -20,7 +20,7 @@ Reset the week around the Laurence meeting, a secure fibre-connected edit base, 
 
 ### Studio operations
 
-- [ ] Eat Work Art application submitted 10 August for a private edit studio. When they reply, book the suitable viewings and compare room quality, all-in cost, deposit, term, break clause, security and real wired fibre. Keep fixed premises costs within £1,000 per month before recoverable VAT and do not sign until the live cash check is green. <!-- linear:HWL-259 -->
+- [ ] Reply to Nikki at Eat Work Art with the Netil House brief: roughly 120 to 200 sq ft, £800 to £900 target and £1,000 all-in ceiling before recoverable VAT, private lockable room, 24/7 access, equipment left overnight and reliable hardwired upload speed. Book a viewing, then check the deposit, term and break clause before choosing. <!-- linear:HWL-259 -->
 - [ ] After the Fable and fibre tests, decide David's editing lane through Council. Test proxy media plus a fast external NVMe before buying hardware or changing the editor. <!-- linear:HWL-260 -->
 
 ### Creepers

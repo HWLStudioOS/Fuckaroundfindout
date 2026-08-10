@@ -18,5 +18,61 @@
   "HWL-190": {
     "score": 76,
     "reason": "Harrison explicitly reopened the Season 5 brand and website lane. Finish the preview work while keeping production deployment gated."
+  },
+  "HWL-252": {
+    "score": 96,
+    "reason": "First human close for Monday. Reply to Laurence, then film the overdue testimonial while the context is live."
+  },
+  "HWL-249": {
+    "score": 94,
+    "reason": "Second human close. Verify the live Creepers feeds, correct the calendar and send the usable version to Anna and Sam."
+  },
+  "HWL-250": {
+    "score": 92,
+    "reason": "Third human close. The commercial position and draft already exist, so this needs a final voice pass and Harrison's send tap."
+  },
+  "HWL-228": {
+    "score": 86,
+    "reason": "Make the promised 14:30 amend-or-fold decision before any further personal trades."
+  },
+  "HWL-253": {
+    "score": 84,
+    "reason": "The August amount is set. Complete the £1,800 drawings transfer and record the real payment."
+  },
+  "HWL-242": {
+    "score": 80,
+    "reason": "Dated for Tuesday 11 August at 16:15. Arrive with the production and development position clear."
+  },
+  "HWL-241": {
+    "score": 78,
+    "reason": "The Caroline Webb recording is Thursday 13 August. Finish the brief before the day becomes reactive."
+  },
+  "HWL-255": {
+    "score": 70,
+    "reason": "Run the transition week as written and turn Sunday's training pivot into the replacement programme."
+  },
+  "HWL-254": {
+    "score": 62,
+    "reason": "G2a has closed without a pass. Record the next paper-only decision without arming capital."
+  },
+  "HWL-239": {
+    "score": 40,
+    "reason": "The date request is already with Anna and Sarah-Louise. Keep visible, but do not let waiting work outrank Harrison-owned closes."
+  },
+  "HWL-251": {
+    "score": 38,
+    "reason": "Delivery is complete. Keep the payment confirmation visible without treating it as unfinished production."
+  },
+  "HWL-243": {
+    "score": 32,
+    "reason": "This depends on Kerri and Emma's budget and PO route. It is commercially important, but not today's first move."
+  },
+  "HWL-240": {
+    "score": 28,
+    "reason": "Blocked until Cathal reviews the website. Do not start Stripe production work early."
+  },
+  "HWL-245": {
+    "score": 12,
+    "reason": "Background system monitoring. It belongs below Harrison's client, money and health work."
   }
 }

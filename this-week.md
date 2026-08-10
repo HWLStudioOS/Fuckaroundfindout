@@ -57,7 +57,7 @@ Close the human loops already reduced to one tap, Laurence, Creepers and Cathal.
 ### System
 
 - [ ] Watch morning-brief and weekly-review's acceptance streaks restart cleanly after the 3-6 Aug auth outage (weekly-cfo already hit its own 2-consecutive-Friday bar on 31 Jul + 7 Aug). <!-- linear:HWL-245 -->
-- [x] Board Room: dependency advisories and the post-merge state-dependent tests are repaired in merged PRs #12 and #20. Production updates on the next validated deploy. <!-- linear:HWL-246 -->
+- [x] Board Room: dependency advisories and state-dependent tests are repaired in merged PRs #12 and #20. Production was refreshed with the 10 to 16 August board on Monday 10 August. <!-- linear:HWL-246 -->
 
 ## Awaiting or one-tap gates
 

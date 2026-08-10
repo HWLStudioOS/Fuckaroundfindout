@@ -12,7 +12,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - Final-pass the Better at Work Season 5 design system and website.
 - Choose between rebuilding 32/20, updating Baseline or using a proven bodybuilding app, then build for aesthetics plus VO2 max. Do not rebuild two products.
 - Quit Elevate Fitness after the replacement is live. Current recommendation is MuscleWorks Bethnal Green over Third Space.
-- Harrison would love his own space. The target is now a private edit studio for the Mac mini, monitor and drives, not a hot desk or shared dedicated desk. Require 24/7 access, equipment left overnight, lockable security, hardwired symmetric fibre and a short managed licence. View Netil Corner, Netil House and Lockside Studios first. Do not take a conventional commercial lease yet.
+- Harrison would love his own space. The target is now a private edit studio for the Mac mini, monitor and drives, not a hot desk or shared dedicated desk. Working ceiling: £1,000 per month before recoverable VAT, inclusive of rent, service charge, rates, internet and utilities. Require 24/7 access, equipment left overnight, lockable security, hardwired symmetric fibre and a short managed licence. View Netil Corner, Netil House and Lockside Studios first. Do not sign until the live cash check is green.
 - Last night's remaining live setup loop is the editor bottleneck: finish the Fable test, prove the fibre and proxy-media workflow, then route any David replacement decision through Council.
 
 ## 2026-08-09 21:00 (Sunday night check-in, Harrison direct)

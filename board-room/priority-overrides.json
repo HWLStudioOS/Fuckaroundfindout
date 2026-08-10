@@ -20,16 +20,16 @@
     "reason": "Harrison explicitly reopened the Season 5 brand and website lane. Finish the preview work while keeping production deployment gated."
   },
   "HWL-252": {
-    "score": 96,
-    "reason": "First human close for Monday. Reply to Laurence, then film the overdue testimonial while the context is live."
+    "score": 99,
+    "reason": "The Laurence meeting is this morning. Take it first and leave with one explicit testimonial outcome or next step."
   },
   "HWL-249": {
-    "score": 94,
-    "reason": "Second human close. Verify the live Creepers feeds, correct the calendar and send the usable version to Anna and Sam."
+    "score": 97,
+    "reason": "Verify both live Creepers feeds, make the calendar site accurate and get the usable version to Sam."
   },
   "HWL-250": {
-    "score": 92,
-    "reason": "Third human close. The commercial position and draft already exist, so this needs a final voice pass and Harrison's send tap."
+    "score": 72,
+    "reason": "The commercial position and draft already exist. Close it after the Season 5 launch package has had its final pass."
   },
   "HWL-228": {
     "score": 86,
@@ -48,8 +48,8 @@
     "reason": "The Caroline Webb recording is Thursday 13 August. Finish the brief before the day becomes reactive."
   },
   "HWL-255": {
-    "score": 70,
-    "reason": "Run the transition week as written and turn Sunday's training pivot into the replacement programme."
+    "score": 89,
+    "reason": "Choose one delivery layer, then build the bodybuilding-plus-hard-cardio programme. Rebuilding two stale products is not the work."
   },
   "HWL-254": {
     "score": 62,
@@ -74,5 +74,29 @@
   "HWL-245": {
     "score": 12,
     "reason": "Background system monitoring. It belongs below Harrison's client, money and health work."
+  },
+  "HWL-256": {
+    "score": 91,
+    "reason": "The Fable edit test is already moving. Finish it and define the narrow basic-editing lane the output actually earns."
+  },
+  "HWL-257": {
+    "score": 95,
+    "reason": "Final-pass the Season 5 system until every component is ready for real launch use."
+  },
+  "HWL-258": {
+    "score": 93,
+    "reason": "Make the final website adjustments, then review the complete Season 5 package with fresh eyes before calling it done."
+  },
+  "HWL-259": {
+    "score": 98,
+    "reason": "Home broadband is an active production bottleneck. Prove a nearby gigabit desk with a real footage transfer and choose the interim base."
+  },
+  "HWL-260": {
+    "score": 50,
+    "reason": "The editor decision follows the Fable, fibre and proxy-workflow evidence. Do not make a hiring call against a broken setup."
+  },
+  "HWL-261": {
+    "score": 90,
+    "reason": "Choose the bodybuilding gym that matches the new goal, join it first, then cancel Elevate without creating a training gap."
   }
 }

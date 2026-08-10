@@ -4,6 +4,17 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-08-10 08:23 to 08:29 (Monday reset, Harrison direct)
+
+- Fable is working on a basic Creepers edit as a capability test.
+- Laurence meeting first.
+- Verify both Creepers feeds, update the content-calendar site and get the accurate version to Sam.
+- Final-pass the Better at Work Season 5 design system and website.
+- Choose between rebuilding 32/20, updating Baseline or using a proven bodybuilding app, then build for aesthetics plus VO2 max. Do not rebuild two products.
+- Quit Elevate Fitness after the replacement is live. Current recommendation is MuscleWorks Bethnal Green over Third Space.
+- Find an interim nearby workspace with proven full fibre while the building connection is blocked. Techspace Shoreditch is the first day-pass test, with SHED Haggerston and Veda Studios as alternatives.
+- Last night's remaining live setup loop is the editor bottleneck: finish the Fable test, prove the fibre and proxy-media workflow, then route any David replacement decision through Council.
+
 ## 2026-08-09 21:00 (Sunday night check-in, Harrison direct)
 
 **Corrections, live state:**

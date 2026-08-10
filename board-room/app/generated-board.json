@@ -2,56 +2,116 @@
   "title": "The Board Room",
   "week": "10 to 16 August 2026",
   "sourceDate": "2026-08-10",
-  "generatedAt": "2026-08-10T07:21:52.178Z",
-  "sourceCommit": "21faa4b",
+  "generatedAt": "2026-08-10T07:30:33.369Z",
+  "sourceCommit": "8b69074",
   "summary": {
-    "open": 25,
-    "active": 14,
-    "inProgress": 0,
-    "waiting": 4,
+    "open": 30,
+    "active": 20,
+    "inProgress": 1,
+    "waiting": 3,
     "scheduled": 2,
     "parked": 5,
     "closedThisWeek": 6,
-    "completion": 30,
-    "xp": 720,
+    "completion": 23,
+    "xp": 745,
     "level": 2
   },
   "tasks": [
     {
       "id": "HWL-252",
-      "title": "Film the Laurence Year One testimonial. Months overdue, talk-to-camera, catch and cut, no script. Reply to his latest WhatsApp.",
+      "title": "Take the Monday morning Laurence meeting and leave with one explicit testimonial outcome or next step.",
       "area": "Client boundaries",
       "state": "todo",
       "due": null,
-      "baseScore": 96,
-      "score": 96,
-      "reason": "First human close for Monday. Reply to Laurence, then film the overdue testimonial while the context is live.",
+      "baseScore": 99,
+      "score": 99,
+      "reason": "The Laurence meeting is this morning. Take it first and leave with one explicit testimonial outcome or next step.",
       "tier": "Critical",
       "rank": 1
     },
     {
-      "id": "HWL-249",
-      "title": "Update the Creepers content calendar from 1 August, verify it against both live Instagram accounts, then send it to Anna and Sam.",
-      "area": "Creepers",
+      "id": "HWL-259",
+      "title": "Trial Techspace Shoreditch's advertised 1Gbps desk with a real footage transfer, compare SHED Haggerston and Veda Studios, then choose the interim fibre workspace while the building connection is blocked.",
+      "area": "Studio operations",
       "state": "todo",
-      "due": "2026-08-01",
-      "baseScore": 94,
-      "score": 94,
-      "reason": "Second human close. Verify the live Creepers feeds, correct the calendar and send the usable version to Anna and Sam.",
+      "due": null,
+      "baseScore": 98,
+      "score": 98,
+      "reason": "Home broadband is an active production bottleneck. Prove a nearby gigabit desk with a real footage transfer and choose the interim base.",
       "tier": "Critical",
       "rank": 2
     },
     {
-      "id": "HWL-250",
-      "title": "Send Cathal the repricing reply: hold the £1,500 net floor, offer the scope-cut package (keep episode packaging, retire the monthly report for the live dashboard, drop LinkedIn ghostwriting, fold season planning into the fortnightly call), and raise the VAT-reclaim question first. Draft is ready in Gmail.",
+      "id": "HWL-249",
+      "title": "Verify both Creepers Instagram accounts from 1 August, update the content-calendar site to match reality, then get the accurate version to Sam.",
+      "area": "Creepers",
+      "state": "todo",
+      "due": "2026-08-01",
+      "baseScore": 97,
+      "score": 97,
+      "reason": "Verify both live Creepers feeds, make the calendar site accurate and get the usable version to Sam.",
+      "tier": "Critical",
+      "rank": 3
+    },
+    {
+      "id": "HWL-257",
+      "title": "Final-pass the Season 5 design system and make every launch component ready for use.",
       "area": "Better at Work",
       "state": "todo",
       "due": null,
-      "baseScore": 92,
-      "score": 92,
-      "reason": "Third human close. The commercial position and draft already exist, so this needs a final voice pass and Harrison's send tap.",
+      "baseScore": 95,
+      "score": 95,
+      "reason": "Final-pass the Season 5 system until every component is ready for real launch use.",
       "tier": "Critical",
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "id": "HWL-258",
+      "title": "Make the final Season 5 website adjustments, then review the design system and site together with fresh eyes before calling the launch package done.",
+      "area": "Better at Work",
+      "state": "todo",
+      "due": null,
+      "baseScore": 93,
+      "score": 93,
+      "reason": "Make the final website adjustments, then review the complete Season 5 package with fresh eyes before calling it done.",
+      "tier": "Critical",
+      "rank": 5
+    },
+    {
+      "id": "HWL-256",
+      "title": "Fable basic Creepers edit is in edit. Finish the test, assess the output honestly and record the basic editing lane it can own.",
+      "area": "Creepers",
+      "state": "in-progress",
+      "due": null,
+      "baseScore": 91,
+      "score": 91,
+      "reason": "The Fable edit test is already moving. Finish it and define the narrow basic-editing lane the output actually earns.",
+      "tier": "Critical",
+      "rank": 6
+    },
+    {
+      "id": "HWL-261",
+      "title": "Join MuscleWorks Bethnal Green, then cancel Elevate Fitness. Third Space only wins if its pool and recovery layer justify £245 per month plus the £100 joining fee.",
+      "area": "Health",
+      "state": "todo",
+      "due": null,
+      "baseScore": 90,
+      "score": 90,
+      "reason": "Choose the bodybuilding gym that matches the new goal, join it first, then cancel Elevate without creating a training gap.",
+      "tier": "Critical",
+      "rank": 7
+    },
+    {
+      "id": "HWL-255",
+      "title": "Audit the stale 32/20 site and Baseline app against the new goal, compare them with a proven bodybuilding app, choose one delivery layer, then build the bodybuilding-plus-hard-cardio programme for aesthetics and VO2 max. Do not rebuild two products.",
+      "area": "Health",
+      "state": "todo",
+      "due": null,
+      "baseScore": 89,
+      "score": 89,
+      "reason": "Choose one delivery layer, then build the bodybuilding-plus-hard-cardio programme. Rebuilding two stale products is not the work.",
+      "tier": "High",
+      "rank": 8
     },
     {
       "id": "HWL-228",
@@ -63,7 +123,7 @@
       "score": 86,
       "reason": "Make the promised 14:30 amend-or-fold decision before any further personal trades.",
       "tier": "High",
-      "rank": 4
+      "rank": 9
     },
     {
       "id": "HWL-253",
@@ -75,7 +135,7 @@
       "score": 84,
       "reason": "The August amount is set. Complete the £1,800 drawings transfer and record the real payment.",
       "tier": "High",
-      "rank": 5
+      "rank": 10
     },
     {
       "id": "HWL-242",
@@ -87,7 +147,7 @@
       "score": 80,
       "reason": "Dated for Tuesday 11 August at 16:15. Arrive with the production and development position clear.",
       "tier": "High",
-      "rank": 6
+      "rank": 11
     },
     {
       "id": "HWL-241",
@@ -99,19 +159,19 @@
       "score": 78,
       "reason": "The Caroline Webb recording is Thursday 13 August. Finish the brief before the day becomes reactive.",
       "tier": "High",
-      "rank": 7
+      "rank": 12
     },
     {
-      "id": "HWL-255",
-      "title": "Run the transition week: 6km easy plus 6 strides Monday, protected 4x4min VO2 Tuesday, 5km easy Thursday and 12km long Sunday. Train Wednesday and Friday at MuscleWorks in a bodybuilding split. Write the replacement aesthetics-plus-engine program this week.",
-      "area": "Health",
+      "id": "HWL-250",
+      "title": "Send Cathal the repricing reply: hold the £1,500 net floor, offer the scope-cut package (keep episode packaging, retire the monthly report for the live dashboard, drop LinkedIn ghostwriting, fold season planning into the fortnightly call), and raise the VAT-reclaim question first. Draft is ready in Gmail.",
+      "area": "Better at Work",
       "state": "todo",
       "due": null,
-      "baseScore": 70,
-      "score": 70,
-      "reason": "Run the transition week as written and turn Sunday's training pivot into the replacement programme.",
+      "baseScore": 72,
+      "score": 72,
+      "reason": "The commercial position and draft already exist. Close it after the Season 5 launch package has had its final pass.",
       "tier": "Next",
-      "rank": 8
+      "rank": 13
     },
     {
       "id": "HWL-254",
@@ -123,7 +183,19 @@
       "score": 62,
       "reason": "G2a has closed without a pass. Record the next paper-only decision without arming capital.",
       "tier": "Next",
-      "rank": 9
+      "rank": 14
+    },
+    {
+      "id": "HWL-260",
+      "title": "After the Fable and fibre tests, decide David's editing lane through Council. Test proxy media plus a fast external NVMe before buying hardware or changing the editor.",
+      "area": "Studio operations",
+      "state": "todo",
+      "due": null,
+      "baseScore": 50,
+      "score": 50,
+      "reason": "The editor decision follows the Fable, fibre and proxy-workflow evidence. Do not make a hiring call against a broken setup.",
+      "tier": "Later",
+      "rank": 15
     },
     {
       "id": "HWL-239",
@@ -135,7 +207,7 @@
       "score": 40,
       "reason": "The date request is already with Anna and Sarah-Louise. Keep visible, but do not let waiting work outrank Harrison-owned closes.",
       "tier": "Later",
-      "rank": 10
+      "rank": 16
     },
     {
       "id": "HWL-251",
@@ -147,7 +219,7 @@
       "score": 38,
       "reason": "Delivery is complete. Keep the payment confirmation visible without treating it as unfinished production.",
       "tier": "Later",
-      "rank": 11
+      "rank": 17
     },
     {
       "id": "HWL-243",
@@ -159,7 +231,7 @@
       "score": 32,
       "reason": "This depends on Kerri and Emma's budget and PO route. It is commercially important, but not today's first move.",
       "tier": "Later",
-      "rank": 12
+      "rank": 18
     },
     {
       "id": "HWL-240",
@@ -171,7 +243,7 @@
       "score": 28,
       "reason": "Blocked until Cathal reviews the website. Do not start Stripe production work early.",
       "tier": "Later",
-      "rank": 13
+      "rank": 19
     },
     {
       "id": "HWL-245",
@@ -183,7 +255,7 @@
       "score": 12,
       "reason": "Background system monitoring. It belongs below Harrison's client, money and health work.",
       "tier": "Later",
-      "rank": 14
+      "rank": 20
     },
     {
       "id": "waiting-cathal-reprice-reply-is-send-gated-on-harrison-t",
@@ -212,18 +284,6 @@
     {
       "id": "waiting-danny-wicks-written-confirmation-of-the-800-plus",
       "title": "Danny Wicks: written confirmation of the £800 plus VAT fee.",
-      "area": "Awaiting",
-      "state": "waiting",
-      "due": null,
-      "baseScore": 18,
-      "score": 18,
-      "reason": "Visible, but owned by somebody else or blocked by an external response.",
-      "tier": "Later",
-      "rank": null
-    },
-    {
-      "id": "waiting-laurence-testimonial-film-and-whatsapp-reply",
-      "title": "Laurence: testimonial film and WhatsApp reply.",
       "area": "Awaiting",
       "state": "waiting",
       "due": null,

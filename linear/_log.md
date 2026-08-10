@@ -3396,3 +3396,20 @@
 [2026-08-10T06:56:16.862Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
 [2026-08-10T06:56:17.273Z] INFO push ~ HWL-246 → done
 [2026-08-10T06:56:17.647Z] INFO Sync done. push: +0 ~1. pull: ~0.
+[2026-08-10T07:24:59.751Z] INFO Sync start. Last: 2026-08-10T06:56:17.647Z
+[2026-08-10T07:24:59.992Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T07:25:00.357Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-10T07:25:58.019Z] INFO Sync start. Last: 2026-08-10T07:25:00.355Z
+[2026-08-10T07:25:58.023Z] ERROR Sync failed: LINEAR_API_KEY is not set. Generate a Personal API Key at https://linear.app/settings/api and export it: `export LINEAR_API_KEY=lin_api_...`
+[2026-08-10T07:26:13.933Z] INFO Sync start. Last: 2026-08-10T07:25:00.355Z
+[2026-08-10T07:26:14.370Z] INFO push + HWL-256 Fable basic Creepers edit is in edit. Finish the test, asses
+[2026-08-10T07:26:14.515Z] INFO push + HWL-257 Final-pass the Season 5 design system and make every launch
+[2026-08-10T07:26:14.722Z] INFO push + HWL-258 Make the final Season 5 website adjustments, then review the
+[2026-08-10T07:26:14.723Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T07:26:14.800Z] INFO Sync done. push: +3 ~0. pull: ~0.
+[2026-08-10T07:30:04.265Z] INFO Sync start. Last: 2026-08-10T07:26:14.799Z
+[2026-08-10T07:30:05.116Z] INFO push + HWL-259 Trial Techspace Shoreditch's advertised 1Gbps desk with a re
+[2026-08-10T07:30:05.412Z] INFO push + HWL-260 After the Fable and fibre tests, decide David's editing lane
+[2026-08-10T07:30:05.412Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T07:30:05.716Z] INFO push + HWL-261 Join MuscleWorks Bethnal Green, then cancel Elevate Fitness.
+[2026-08-10T07:30:06.359Z] INFO Sync done. push: +3 ~0. pull: ~0.

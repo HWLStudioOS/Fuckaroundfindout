@@ -45,7 +45,7 @@ Money: tax reserve is £9,875 after the completed £675 sweep, assuming no other
 
 Clients: LOR results posts stood down. Creepers' Friday call closed the Pro Landscaper advert selects and originals request, the live task is the verified content-calendar send. Better at Work's website is with Cathal and the reprice boundary is with Harrison. Danny delivery is done, payment confirmation remains.
 
-System: Claude authentication is live and every scheduled agent has completed successfully since 6 August. PR #12 is merged and its dependency audit is clean. The post-merge Board Room check exposed two state-dependent test defects, now in Codex repair. Linear's HWL-191 flap is a duplicate-marker ownership bug, also in repair. The Mac mini health environment still needs the merged pypdf 6.15.0 installed.
+System: Claude authentication is live and every scheduled agent has completed successfully since 6 August. PR #20 repaired the post-merge Board Room tests and Linear marker ownership with every CI check green. A live Linear sync made zero HWL-191 state writes. The Mac mini health environment is on pypdf 6.15.0 and `pip check` is clean. The Board Room remains on its safe 3 August deploy until the next validated production run.
 
 ## Lens
 

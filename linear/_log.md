@@ -3097,10 +3097,10 @@
 [2026-08-04T12:29:19.479Z] INFO Sync start. Last: 2026-08-04T11:29:19.396Z
 [2026-08-04T12:29:21.448Z] INFO push + HWL-221 Publish or schedule the BM4 Instagram and LinkedIn carousels
 [2026-08-04T12:29:21.914Z] INFO push + HWL-222 Finish the Creepers edit due today.
-[2026-08-04T12:29:22.279Z] INFO push + HWL-223 Reply to Kerri confirming tomorrow afternoon's mobile call. 
+[2026-08-04T12:29:22.279Z] INFO push + HWL-223 Reply to Kerri confirming tomorrow afternoon's mobile call.
 [2026-08-04T12:29:22.693Z] INFO push ~ HWL-200 → done
 [2026-08-04T12:29:23.478Z] INFO push + HWL-224 Buffer interactive OAuth: killed by Harrison, 4 August. Remo
-[2026-08-04T12:29:24.305Z] INFO push + HWL-225 Year One eight-page pack: dead. Open question for Harrison: 
+[2026-08-04T12:29:24.305Z] INFO push + HWL-225 Year One eight-page pack: dead. Open question for Harrison:
 [2026-08-04T12:29:24.589Z] INFO Sync done. push: +5 ~1. pull: ~0.
 [2026-08-04T13:29:24.729Z] INFO Sync start. Last: 2026-08-04T12:29:24.588Z
 [2026-08-04T13:29:25.418Z] INFO Sync done. push: +0 ~0. pull: ~0.
@@ -3378,3 +3378,21 @@
 [2026-08-10T06:24:59.270Z] INFO push ~ HWL-191 → todo
 [2026-08-10T06:24:59.595Z] INFO push ~ HWL-191 → done
 [2026-08-10T06:24:59.716Z] INFO Sync done. push: +0 ~2. pull: ~0.
+[2026-08-10T06:55:07.913Z] INFO Sync start. Last: 2026-08-10T06:24:59.713Z
+[2026-08-10T06:55:08.861Z] INFO push + HWL-247 Pro Landscaper advert: Friday's Sam call closed the rootball
+[2026-08-10T06:55:09.915Z] INFO push + HWL-248 Final advert selects confirmed through the Friday call.
+[2026-08-10T06:55:10.947Z] INFO push + HWL-249 Update the Creepers content calendar from 1 August, verify i
+[2026-08-10T06:55:11.106Z] INFO push + HWL-250 Send Cathal the repricing reply: hold the £1,500 net floor,
+[2026-08-10T06:55:11.664Z] INFO push ~ HWL-231 → done
+[2026-08-10T06:55:13.058Z] INFO push + HWL-251 Get Danny Wicks's £800 plus VAT payment confirmation. The te
+[2026-08-10T06:55:13.299Z] INFO push + HWL-252 Film the Laurence Year One testimonial. Months overdue, talk
+[2026-08-10T06:55:13.300Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T06:55:13.560Z] INFO push ~ HWL-244 → done
+[2026-08-10T06:55:13.747Z] INFO push + HWL-253 Take £1,800 director's drawings for August. Salary is alread
+[2026-08-10T06:55:13.940Z] INFO push + HWL-254 Edge Lab: decide what happens to the crypto arena now G2a's
+[2026-08-10T06:55:14.629Z] INFO push + HWL-255 Run the transition week: 6km easy plus 6 strides Monday, pro
+[2026-08-10T06:55:14.799Z] INFO Sync done. push: +9 ~2. pull: ~0.
+[2026-08-10T06:56:15.842Z] INFO Sync start. Last: 2026-08-10T06:55:14.798Z
+[2026-08-10T06:56:16.862Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T06:56:17.273Z] INFO push ~ HWL-246 → done
+[2026-08-10T06:56:17.647Z] INFO Sync done. push: +0 ~1. pull: ~0.

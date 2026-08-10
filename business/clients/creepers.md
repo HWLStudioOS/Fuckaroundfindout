@@ -14,12 +14,16 @@ Active. Sandringham 2026 is the current content centrepiece. Shoot completed 17 
 
 ## Active state, 10 August 2026
 
-- **Pro Landscaper advert loop closed Friday 7 August.** Harrison spoke to Sam. The call closed the rootball question, final selects and originals request for the 19 August advert. Do not resurrect those as tasks.
-- **Calendar verified, deployed and sent 10 August:** the live site reflects the four grid posts that actually ran from 2 to 4 August. Sam has the accurate link: `https://creepers-content-calendar.vercel.app`.
+- **Pro Landscaper client-input loop closed Friday 7 August.** Harrison spoke to Sam. The call closed the rootball question and the client-side image and originals input needed for the 19 August advert. Do not reopen those questions with Sam.
+- **Pro Landscaper selection recovered and production built 10 August:** Claude's completed ranking was recovered from the local session record. `396A9078.JPG` is the production lead, with `470A7600 .jpg`, `image1 (2).jpeg`, `E0156BC6-8533-4D13-A722-0F6B42DB0AAD.JPG` and `396A7952 .jpg` retained as review variants. All five originals are present and print-capable. No new selection request went to Sam.
+- **Pro Landscaper RGB proof ready for Harrison's review:** the approved `38 Years in the Ground` layout was cloned and reskinned in Figma at 220 x 295mm. The service line is supply-only. The lead PDF has full-size MediaBox and BleedBox, a 3mm inset TrimBox, a 508ppi embedded composite, roughly 470ppi source resolution after crop, and a completed 150dpi visual check. Nothing has been sent.
+- **Publication colour profiles remain unconfirmed.** Harrison needs the preferred profile from Pro Landscaper before final press conversion. Garden Design Journal also remains RGB-proof only until its profile is confirmed.
+- **Garden Design Journal remains idle:** Michael and Sam have not named the photograph. Build nothing further until they do. Option B has a 508ppi press proof; Options A and C remain review-only until their originals are located.
+- **Calendar reworked and deployed 10 August:** the live site is now a six-week working runway with three core nursery posts and one optional installation proof slot per week. It does not treat unshot footage as banked. Sam's link remains `https://creepers-content-calendar.vercel.app`.
 - **Verified publication ledger:** 2 August `@ben.beth` Surrey garden collaboration on the nursery grid; 3 August Wentworth Estate Hydrangea Limelight carousel shared by both accounts; 4 August `@landformuk` Royal Legacy Garden collaboration on the nursery grid; 4 August Sandringham stock update on the nursery account. No installation-only August post was live. Nothing newer than 4 August was live at the 10 August check.
 - **Calendar correction:** the four planned hero-film and stock-walk slots for w/c 3 August did not run and were replaced by the four live posts above. The calendar now supports a true `Both accounts` state for shared collaborations.
 - **Fable editing test closed:** a useful and pleasant test, but it did not pass. The technology is not ready to own basic client editing yet. Do not route Creepers delivery through it.
-- **Today:** Harrison manually finishes and publishes one Creepers post. No second Fable rescue pass.
+- **Today:** `Why choose a nursery?` replaces the heavier `A Buyer's Eye` draft. It is a five-slide, photograph-led carousel built entirely from images already in the Creepers Figma file. Five 1080 x 1350px PNGs and the final caption are ready for Harrison's review and one-tap publication on `@creepersnursery`. Nothing has been published or sent.
 
 ## Prior active state, 31 July 2026
 

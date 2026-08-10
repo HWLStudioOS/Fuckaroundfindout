@@ -49,7 +49,7 @@ The Claude CLI session expired again. weekly-review (3 Aug 20:56), morning-brief
 
 | Job | File | Schedule | Status | Notes |
 |---|---|---|---|---|
-| linear-sync | `linear/sync.js` + `sync.sh` | hourly | RUNNING-DEGRADED. API and launchd are live, but duplicate markers made HWL-191 alternate todo and done hourly from 9 to 10 Aug. | Repair prepared 10 Aug: one owning source per issue, non-owner markers fail closed, and unmarked Today tasks no longer create duplicate issues. |
+| linear-sync | `linear/sync.js` + `sync.sh` | hourly | RUNNING-CLEAN. Duplicate markers made HWL-191 alternate todo and done hourly from 9 to 10 Aug. PR #20 deployed the ownership repair. | Live 06:55 proof created fresh issues, closed two completed issues and made zero HWL-191 state writes. Watch the next scheduled hour for the second proof. |
 
 ## Known infrastructure issues to address
 

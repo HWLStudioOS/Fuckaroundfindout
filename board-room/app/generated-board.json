@@ -2,18 +2,18 @@
   "title": "The Board Room",
   "week": "10 to 16 August 2026",
   "sourceDate": "2026-08-10",
-  "generatedAt": "2026-08-10T06:51:16.378Z",
-  "sourceCommit": "2cbee37",
+  "generatedAt": "2026-08-10T06:56:40.366Z",
+  "sourceCommit": "842f7f5",
   "summary": {
-    "open": 26,
-    "active": 15,
+    "open": 25,
+    "active": 14,
     "inProgress": 0,
     "waiting": 4,
     "scheduled": 2,
     "parked": 5,
-    "closedThisWeek": 5,
-    "completion": 25,
-    "xp": 600,
+    "closedThisWeek": 6,
+    "completion": 30,
+    "xp": 720,
     "level": 2
   },
   "tasks": [
@@ -30,7 +30,7 @@
       "rank": 1
     },
     {
-      "id": "active-take-1-800-director-s-drawings-for-august-salary",
+      "id": "HWL-253",
       "title": "Take £1,800 director's drawings for August. Salary is already done.",
       "area": "Money and admin",
       "state": "todo",
@@ -42,7 +42,7 @@
       "rank": 2
     },
     {
-      "id": "active-edge-lab-decide-what-happens-to-the-crypto-arena",
+      "id": "HWL-254",
       "title": "Edge Lab: decide what happens to the crypto arena now G2a's 14-day window has closed with rules/fable underperforming a buy-and-hold control. Continue paper-only, adjust, or stop. Macro book ties control, no action needed there.",
       "area": "Money and admin",
       "state": "todo",
@@ -54,7 +54,7 @@
       "rank": 3
     },
     {
-      "id": "active-send-cathal-the-repricing-reply-hold-the-1-500-n",
+      "id": "HWL-250",
       "title": "Send Cathal the repricing reply: hold the £1,500 net floor, offer the scope-cut package (keep episode packaging, retire the monthly report for the live dashboard, drop LinkedIn ghostwriting, fold season planning into the fortnightly call), and raise the VAT-reclaim question first. Draft is ready in Gmail.",
       "area": "Better at Work",
       "state": "todo",
@@ -66,7 +66,7 @@
       "rank": 4
     },
     {
-      "id": "active-update-the-creepers-content-calendar-from-1-augu",
+      "id": "HWL-249",
       "title": "Update the Creepers content calendar from 1 August, verify it against both live Instagram accounts, then send it to Anna and Sam.",
       "area": "Creepers",
       "state": "todo",
@@ -102,7 +102,7 @@
       "rank": 7
     },
     {
-      "id": "active-get-danny-wicks-s-800-plus-vat-payment-confirmat",
+      "id": "HWL-251",
       "title": "Get Danny Wicks's £800 plus VAT payment confirmation. The testimonial film and b-roll were delivered Friday 7 August, edited by Harrison. Delivery is closed.",
       "area": "Client boundaries",
       "state": "todo",
@@ -114,7 +114,7 @@
       "rank": 8
     },
     {
-      "id": "active-film-the-laurence-year-one-testimonial-months-ov",
+      "id": "HWL-252",
       "title": "Film the Laurence Year One testimonial. Months overdue, talk-to-camera, catch and cut, no script. Reply to his latest WhatsApp.",
       "area": "Client boundaries",
       "state": "todo",
@@ -162,8 +162,8 @@
       "rank": 12
     },
     {
-      "id": "HWL-246",
-      "title": "Board Room: confirm Codex has picked up the dependency-advisory deploy block (GHSA-2v37-7h3g-55p8), stale 4 of the last 5 nights.",
+      "id": "HWL-245",
+      "title": "Watch morning-brief and weekly-review's acceptance streaks restart cleanly after the 3-6 Aug auth outage (weekly-cfo already hit its own 2-consecutive-Friday bar on 31 Jul + 7 Aug).",
       "area": "System",
       "state": "todo",
       "due": null,
@@ -174,19 +174,7 @@
       "rank": 13
     },
     {
-      "id": "HWL-245",
-      "title": "Watch morning-brief and weekly-review's acceptance streaks restart cleanly after the 3-6 Aug auth outage (weekly-cfo already hit its own 2-consecutive-Friday bar on 31 Jul + 7 Aug).",
-      "area": "System",
-      "state": "todo",
-      "due": null,
-      "baseScore": 44,
-      "score": 44,
-      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
-      "tier": "Later",
-      "rank": 14
-    },
-    {
-      "id": "active-run-the-transition-week-6km-easy-plus-6-strides-",
+      "id": "HWL-255",
       "title": "Run the transition week: 6km easy plus 6 strides Monday, protected 4x4min VO2 Tuesday, 5km easy Thursday and 12km long Sunday. Train Wednesday and Friday at MuscleWorks in a bodybuilding split. Write the replacement aesthetics-plus-engine program this week.",
       "area": "Health",
       "state": "todo",
@@ -195,7 +183,7 @@
       "score": 38,
       "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
       "tier": "Later",
-      "rank": 15
+      "rank": 14
     },
     {
       "id": "waiting-cathal-reprice-reply-is-send-gated-on-harrison-t",
@@ -330,7 +318,7 @@
       "rank": null
     },
     {
-      "id": "active-pro-landscaper-advert-friday-s-sam-call-closed-t",
+      "id": "HWL-247",
       "title": "Pro Landscaper advert: Friday's Sam call closed the rootball, final-select and originals-request loop.",
       "area": "Creepers",
       "state": "done",
@@ -342,7 +330,7 @@
       "rank": null
     },
     {
-      "id": "active-final-advert-selects-confirmed-through-the-frida",
+      "id": "HWL-248",
       "title": "Final advert selects confirmed through the Friday call.",
       "area": "Creepers",
       "state": "done",
@@ -384,6 +372,18 @@
       "state": "done",
       "due": "2026-08-09",
       "baseScore": 78,
+      "score": 0,
+      "reason": "Closed in the canonical weekly board.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-246",
+      "title": "Board Room: dependency advisories and the post-merge state-dependent tests are repaired in merged PRs #12 and #20. Production updates on the next validated deploy.",
+      "area": "System",
+      "state": "done",
+      "due": null,
+      "baseScore": 44,
       "score": 0,
       "reason": "Closed in the canonical weekly board.",
       "tier": "Closed",

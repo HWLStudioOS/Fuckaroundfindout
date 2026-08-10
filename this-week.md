@@ -20,14 +20,14 @@ Close the human loops already reduced to one tap, Laurence, Creepers and Cathal.
 
 ### Creepers
 
-- [x] Pro Landscaper advert: Friday's Sam call closed the rootball, final-select and originals-request loop.
-- [x] Final advert selects confirmed through the Friday call.
-- [ ] Update the Creepers content calendar from 1 August, verify it against both live Instagram accounts, then send it to Anna and Sam.
+- [x] Pro Landscaper advert: Friday's Sam call closed the rootball, final-select and originals-request loop. <!-- linear:HWL-247 -->
+- [x] Final advert selects confirmed through the Friday call. <!-- linear:HWL-248 -->
+- [ ] Update the Creepers content calendar from 1 August, verify it against both live Instagram accounts, then send it to Anna and Sam. <!-- linear:HWL-249 -->
 - [ ] Confirm the exact Surrey Season 4 shoot date with Anna and Sarah-Louise. Still pending. <!-- linear:HWL-239 -->
 
 ### Better at Work
 
-- [ ] Send Cathal the repricing reply: hold the £1,500 net floor, offer the scope-cut package (keep episode packaging, retire the monthly report for the live dashboard, drop LinkedIn ghostwriting, fold season planning into the fortnightly call), and raise the VAT-reclaim question first. Draft is ready in Gmail.
+- [ ] Send Cathal the repricing reply: hold the £1,500 net floor, offer the scope-cut package (keep episode packaging, retire the monthly report for the live dashboard, drop LinkedIn ghostwriting, fold season planning into the fortnightly call), and raise the VAT-reclaim question first. Draft is ready in Gmail. <!-- linear:HWL-250 -->
 - [x] Share the finished Better at Work website preview with Cathal for review. It is with him, the ball is his. <!-- linear:HWL-231 -->
 - [ ] Once Cathal reviews: lock the four Stripe decisions (price/currency, refund/support terms, whose account, fulfilment path) and set the production env vars. Don't start this before the review lands. <!-- linear:HWL-240 -->
 - [ ] Prep the Caroline Webb podcast recording, 13 August 16:00 London (Riverside link confirmed on calendar). <!-- linear:HWL-241 -->
@@ -40,24 +40,24 @@ Close the human loops already reduced to one tap, Laurence, Creepers and Cathal.
 
 ### Client boundaries
 
-- [ ] Get Danny Wicks's £800 plus VAT payment confirmation. The testimonial film and b-roll were delivered Friday 7 August, edited by Harrison. Delivery is closed.
-- [ ] Film the Laurence Year One testimonial. Months overdue, talk-to-camera, catch and cut, no script. Reply to his latest WhatsApp.
+- [ ] Get Danny Wicks's £800 plus VAT payment confirmation. The testimonial film and b-roll were delivered Friday 7 August, edited by Harrison. Delivery is closed. <!-- linear:HWL-251 -->
+- [ ] Film the Laurence Year One testimonial. Months overdue, talk-to-camera, catch and cut, no script. Reply to his latest WhatsApp. <!-- linear:HWL-252 -->
 
 ### Money and admin
 
 - [ ] Decide amend-or-fold on the personal scout buys (SPCX, NVDA, SNDK, MU, PLTR, five trades in under a week outside the investment strategy doc). Either write a capped scout sleeve into the plan or stop. <!-- linear:HWL-228 -->
 - [x] Sweep the £675 owed to the tax reserve from the BaW receipt. Harrison confirmed done Sunday 9 August. <!-- linear:HWL-244 -->
-- [ ] Take £1,800 director's drawings for August. Salary is already done.
-- [ ] Edge Lab: decide what happens to the crypto arena now G2a's 14-day window has closed with rules/fable underperforming a buy-and-hold control. Continue paper-only, adjust, or stop. Macro book ties control, no action needed there.
+- [ ] Take £1,800 director's drawings for August. Salary is already done. <!-- linear:HWL-253 -->
+- [ ] Edge Lab: decide what happens to the crypto arena now G2a's 14-day window has closed with rules/fable underperforming a buy-and-hold control. Continue paper-only, adjust, or stop. Macro book ties control, no action needed there. <!-- linear:HWL-254 -->
 
 ### Health
 
-- [ ] Run the transition week: 6km easy plus 6 strides Monday, protected 4x4min VO2 Tuesday, 5km easy Thursday and 12km long Sunday. Train Wednesday and Friday at MuscleWorks in a bodybuilding split. Write the replacement aesthetics-plus-engine program this week.
+- [ ] Run the transition week: 6km easy plus 6 strides Monday, protected 4x4min VO2 Tuesday, 5km easy Thursday and 12km long Sunday. Train Wednesday and Friday at MuscleWorks in a bodybuilding split. Write the replacement aesthetics-plus-engine program this week. <!-- linear:HWL-255 -->
 
 ### System
 
 - [ ] Watch morning-brief and weekly-review's acceptance streaks restart cleanly after the 3-6 Aug auth outage (weekly-cfo already hit its own 2-consecutive-Friday bar on 31 Jul + 7 Aug). <!-- linear:HWL-245 -->
-- [ ] Board Room: confirm Codex has picked up the dependency-advisory deploy block (GHSA-2v37-7h3g-55p8), stale 4 of the last 5 nights. <!-- linear:HWL-246 -->
+- [x] Board Room: dependency advisories and the post-merge state-dependent tests are repaired in merged PRs #12 and #20. Production updates on the next validated deploy. <!-- linear:HWL-246 -->
 
 ## Awaiting or one-tap gates
 

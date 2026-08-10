@@ -9,15 +9,13 @@
 - Resting heart rate: 45.
 - HRV: 60 ms last night, balanced.
 - Weekly load: 203, ACWR 1.0.
-- Latest run: 6.4 km on 26 July.
+- Latest run: 12.03 km on 8 August in 1:18:30, average heart rate 156.
 - Weight and body-fat readings are stale from 29 April. Do not present them as current.
 - Historical VO2 max: 45. Heart-rate recovery: 42 bpm.
 
 ## Training
 
-Race to the Stones 50K was completed on 11 July 2026. Lake Bled is not happening. The active prescription is the eight-week **Long + Strong** hybrid block in `health/training-plan.md`, 27 July to 20 September: four runs, two full-body strength sessions and one rest day. It builds from 24 km to 38 km, with one VO2 session and one long run each week. The old 21.2 km maintenance week and ultra CSV are retired and must not drive briefs or reminders.
-
-Printable wall sheet: `output/pdfs/long-strong-wall-plan-2026-07-27.pdf`.
+Race to the Stones 50K was completed on 11 July 2026. Lake Bled is not happening. The active prescription is the eight-week **Build + Engine** block in `health/training-plan.md`, 10 August to 4 October: four MARCHON GAIN lifting sessions, four runs and Saturday rest or golf. Wednesday owns VO2 work, Sunday owns the long run, and the two easy runs sit beside Monday lower and Friday upper. Baseline, 32/20, Garmin daily suggestions, the old 21.2 km maintenance week and the ultra CSV must not drive briefs or reminders.
 
 ## Strength
 

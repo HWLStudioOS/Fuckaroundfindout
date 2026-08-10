@@ -61,7 +61,7 @@ Reset the week around the Laurence meeting, a secure fibre-connected edit base, 
 ### Health
 
 - [ ] Join MuscleWorks Bethnal Green, then cancel Elevate Fitness. Third Space only wins if its pool and recovery layer justify £245 per month plus the £100 joining fee. <!-- linear:HWL-261 -->
-- [ ] Audit the stale 32/20 site and Baseline app against the new goal, compare them with a proven bodybuilding app, choose one delivery layer, then build the bodybuilding-plus-hard-cardio programme for aesthetics and VO2 max. Do not rebuild two products. <!-- linear:HWL-255 -->
+- [x] Build + Engine programme locked: MARCHON GAIN owns four lifting days, the canonical plan owns four runs, and Garmin records readiness. Baseline and 32/20 are frozen. <!-- linear:HWL-255 -->
 
 ### System
 

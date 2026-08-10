@@ -2,18 +2,18 @@
   "title": "The Board Room",
   "week": "10 to 16 August 2026",
   "sourceDate": "2026-08-10",
-  "generatedAt": "2026-08-10T09:10:15.605Z",
-  "sourceCommit": "b2314e2",
+  "generatedAt": "2026-08-10T09:22:55.873Z",
+  "sourceCommit": "f6b93e9",
   "summary": {
-    "open": 30,
-    "active": 20,
+    "open": 29,
+    "active": 19,
     "inProgress": 1,
     "waiting": 3,
     "scheduled": 2,
     "parked": 5,
-    "closedThisWeek": 6,
-    "completion": 23,
-    "xp": 745,
+    "closedThisWeek": 7,
+    "completion": 27,
+    "xp": 865,
     "level": 2
   },
   "tasks": [
@@ -90,18 +90,6 @@
       "rank": 6
     },
     {
-      "id": "HWL-255",
-      "title": "Audit the stale 32/20 site and Baseline app against the new goal, compare them with a proven bodybuilding app, choose one delivery layer, then build the bodybuilding-plus-hard-cardio programme for aesthetics and VO2 max. Do not rebuild two products.",
-      "area": "Health",
-      "state": "todo",
-      "due": null,
-      "baseScore": 89,
-      "score": 89,
-      "reason": "Choose one delivery layer, then build the bodybuilding-plus-hard-cardio programme. Rebuilding two stale products is not the work.",
-      "tier": "High",
-      "rank": 7
-    },
-    {
       "id": "HWL-228",
       "title": "Decide amend-or-fold on the personal scout buys (SPCX, NVDA, SNDK, MU, PLTR, five trades in under a week outside the investment strategy doc). Either write a capped scout sleeve into the plan or stop.",
       "area": "Money and admin",
@@ -111,7 +99,7 @@
       "score": 86,
       "reason": "Make the promised 14:30 amend-or-fold decision before any further personal trades.",
       "tier": "High",
-      "rank": 8
+      "rank": 7
     },
     {
       "id": "HWL-253",
@@ -123,7 +111,7 @@
       "score": 84,
       "reason": "The August amount is set. Complete the £1,800 drawings transfer and record the real payment.",
       "tier": "High",
-      "rank": 9
+      "rank": 8
     },
     {
       "id": "HWL-242",
@@ -135,7 +123,7 @@
       "score": 80,
       "reason": "Dated for Tuesday 11 August at 16:15. Arrive with the production and development position clear.",
       "tier": "High",
-      "rank": 10
+      "rank": 9
     },
     {
       "id": "HWL-241",
@@ -147,7 +135,7 @@
       "score": 78,
       "reason": "The Caroline Webb recording is Thursday 13 August. Finish the brief before the day becomes reactive.",
       "tier": "High",
-      "rank": 11
+      "rank": 10
     },
     {
       "id": "HWL-250",
@@ -159,7 +147,7 @@
       "score": 72,
       "reason": "The commercial position and draft already exist. Close it after the Season 5 launch package has had its final pass.",
       "tier": "Next",
-      "rank": 12
+      "rank": 11
     },
     {
       "id": "HWL-254",
@@ -171,7 +159,7 @@
       "score": 62,
       "reason": "G2a has closed without a pass. Record the next paper-only decision without arming capital.",
       "tier": "Next",
-      "rank": 13
+      "rank": 12
     },
     {
       "id": "HWL-259",
@@ -183,7 +171,7 @@
       "score": 55,
       "reason": "Eat Work Art application submitted 10 August. Await suitable viewing options, then test the room, fibre and commercial terms before signing.",
       "tier": "Next",
-      "rank": 14
+      "rank": 13
     },
     {
       "id": "HWL-260",
@@ -195,7 +183,7 @@
       "score": 50,
       "reason": "The editor decision follows the Fable, fibre and proxy-workflow evidence. Do not make a hiring call against a broken setup.",
       "tier": "Later",
-      "rank": 15
+      "rank": 14
     },
     {
       "id": "HWL-239",
@@ -207,7 +195,7 @@
       "score": 40,
       "reason": "The date request is already with Anna and Sarah-Louise. Keep visible, but do not let waiting work outrank Harrison-owned closes.",
       "tier": "Later",
-      "rank": 16
+      "rank": 15
     },
     {
       "id": "HWL-251",
@@ -219,7 +207,7 @@
       "score": 38,
       "reason": "Delivery is complete. Keep the payment confirmation visible without treating it as unfinished production.",
       "tier": "Later",
-      "rank": 17
+      "rank": 16
     },
     {
       "id": "HWL-243",
@@ -231,7 +219,7 @@
       "score": 32,
       "reason": "This depends on Kerri and Emma's budget and PO route. It is commercially important, but not today's first move.",
       "tier": "Later",
-      "rank": 18
+      "rank": 17
     },
     {
       "id": "HWL-240",
@@ -243,7 +231,7 @@
       "score": 28,
       "reason": "Blocked until Cathal reviews the website. Do not start Stripe production work early.",
       "tier": "Later",
-      "rank": 19
+      "rank": 18
     },
     {
       "id": "HWL-245",
@@ -255,7 +243,7 @@
       "score": 12,
       "reason": "Background system monitoring. It belongs below Harrison's client, money and health work.",
       "tier": "Later",
-      "rank": 20
+      "rank": 19
     },
     {
       "id": "waiting-cathal-reprice-reply-is-send-gated-on-harrison-t",
@@ -434,6 +422,18 @@
       "baseScore": 78,
       "score": 0,
       "reason": "Closed in the canonical weekly board.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-255",
+      "title": "Build + Engine programme locked: MARCHON GAIN owns four lifting days, the canonical plan owns four runs, and Garmin records readiness. Baseline and 32/20 are frozen.",
+      "area": "Health",
+      "state": "done",
+      "due": null,
+      "baseScore": 20,
+      "score": 0,
+      "reason": "Build + Engine locked 10 August. MARCHON GAIN owns four lifting days, the plan owns four runs, and Baseline plus 32/20 are frozen.",
       "tier": "Closed",
       "rank": null
     },

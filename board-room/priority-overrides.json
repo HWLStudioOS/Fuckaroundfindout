@@ -76,8 +76,8 @@
     "reason": "Background system monitoring. It belongs below Harrison's client, money and health work."
   },
   "HWL-256": {
-    "score": 91,
-    "reason": "The Fable edit test is already moving. Finish it and define the narrow basic-editing lane the output actually earns."
+    "score": 10,
+    "reason": "Closed 10 August. The test did not pass and Fable does not own a client-editing lane."
   },
   "HWL-257": {
     "score": 95,
@@ -93,10 +93,18 @@
   },
   "HWL-260": {
     "score": 50,
-    "reason": "The editor decision follows the Fable, fibre and proxy-workflow evidence. Do not make a hiring call against a broken setup."
+    "reason": "Fable did not pass. Prove fibre and proxy workflow next, then decide David's lane through Council."
   },
   "HWL-261": {
     "score": 90,
     "reason": "Choose the bodybuilding gym that matches the new goal, join it first, then cancel Elevate without creating a training gap."
+  },
+  "active-manually-finish-and-publish-one-creepers-post-to": {
+    "score": 94,
+    "reason": "The Fable edit did not pass. Finish the Creepers post manually and publish it today."
+  },
+  "active-prepare-one-better-at-work-post-today-if-cathal-": {
+    "score": 88,
+    "reason": "Cathal's personal post is unlikely to move. Prepare the brand-channel fallback and avoid a blank Better at Work day."
   }
 }

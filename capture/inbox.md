@@ -10,9 +10,10 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - Strength session completed 10 August: STNDRD Push. Harrison's first read was that the app and session were pretty nice. Count it as Upper 1 and run STNDRD as a seven-day delivery trial without letting its split displace four weekly runs.
 - Training decision locked: four lifting days and four runs. This week is Monday upper plus easy, Tuesday lower, Wednesday hard run, Thursday upper, Friday lower plus easy, Saturday rest or golf, Sunday long. STNDRD is on a seven-day exercise-selection trial, with MARCHON GAIN as fallback. Garmin records readiness, and Baseline plus 32/20 are frozen.
 - Eat Work Art application received a positive reply from Nikki on 10 August. Reply sent. Await viewing options and book the right room.
-- Fable is working on a basic Creepers edit as a capability test.
+- Fable Creepers edit test returned 10 August. Nice test, but it did not pass. The technology is not ready to own basic client editing yet. Close the experiment and finish today's Creepers post manually.
 - Laurence meeting first.
-- Creepers calendar verified against both Instagram grids through 10 August and redeployed. Four actual grid posts from 2 to 4 August replaced the four planned slots that did not run. Send the live link to Sam.
+- Creepers calendar verified against both Instagram grids through 10 August, redeployed and sent to Sam. Four actual grid posts from 2 to 4 August replaced the four planned slots that did not run. Closed.
+- Publishing today: one manually finished Creepers post, plus one Better at Work fallback post if Cathal's personal LinkedIn does not move.
 - Final-pass the Better at Work Season 5 design system and website.
 - Training system closed 10 August. Build + Engine owns four lifting slots and four prescribed runs. STNDRD is the active seven-day delivery test after a positive Push session. Baseline and 32/20 are frozen.
 - Quit Elevate Fitness after the replacement is live. Current recommendation is MuscleWorks Bethnal Green over Third Space.

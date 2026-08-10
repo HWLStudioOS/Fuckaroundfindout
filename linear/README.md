@@ -12,9 +12,11 @@ Mobile-access layer over HWL META. Markdown is the source of truth. Linear is th
 - `sync.js` runs hourly, polls both directions:
   - new `- [ ]` items in tracked markdown → new Linear issues
   - state flips on linked issues → markdown checkbox flips, delta appended to `_deltas.md`
+- Each linked issue has one owning Markdown file, recorded in `.state.json`. A duplicate marker in another file is a display mirror and cannot write issue state. This prevents hourly todo/done flapping.
+- `today.md` does not create new Linear issues. It is a daily presentation layer over the canonical weekly and domain task files. Existing today-owned markers continue to sync until those issues close.
 - `_deltas.md` is read by the morning-brief agent so overnight Linear changes surface in tomorrow's brief.
 
-State lives in `.state.json`. It's safe to delete: re-run `bootstrap.js` then `import.js` and link markers in the markdown prevent duplicate creation.
+State lives in `.state.json`. Preserve it. It records the Linear issue UUID and the single Markdown source allowed to write each marker. If it is lost, restore it from backup before running the sync. Existing markers prevent duplicate imports, but they do not contain enough data to reconstruct ownership on their own.
 
 ## Why polling, not webhooks
 

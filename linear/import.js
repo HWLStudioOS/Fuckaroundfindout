@@ -92,6 +92,7 @@ async function importFile(state, rel, opts) {
 
   for (const t of tasksInSearch) {
     if (t.linear) continue;
+    if (opts.createIssues === false) continue;
     const lineIdx = findLineIdx(t.text, t.checked);
     if (lineIdx === undefined) {
       warn(`  could not locate line for "${t.text.slice(0, 60)}"`);

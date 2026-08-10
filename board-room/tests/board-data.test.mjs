@@ -9,9 +9,16 @@ const firstActive = data.tasks.find((task) => task.state === "todo" || task.stat
 
 test("generates the complete board state", () => {
   assert.equal(data.title, "The Board Room");
+  assert.equal(
+    data.summary.active,
+    data.tasks.filter((task) => task.state === "todo" || task.state === "in-progress").length,
+  );
+  assert.equal(data.summary.open, data.tasks.filter((task) => task.state !== "done").length);
+  assert.equal(
+    data.summary.closedThisWeek,
+    data.tasks.filter((task) => task.state === "done").length,
+  );
   assert.ok(data.summary.active > 0);
-  assert.ok(data.summary.open >= data.summary.active);
-  assert.ok(data.summary.closedThisWeek >= 2);
   assert.ok(firstActive);
   assert.ok(data.tasks.some((task) => task.state === "waiting"));
   assert.ok(data.tasks.some((task) => task.state === "scheduled"));

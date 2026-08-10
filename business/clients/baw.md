@@ -14,6 +14,7 @@ Active. April reset after honest conversation about declining metrics. Hourly tr
 - First check: whether Better at Work can reclaim the VAT (if VAT registered, his real cost is unchanged). Raised in the draft reply. Separately, Harrison to confirm with Fazila which entity is actually being invoiced; if it is an Australian business entity, UK VAT place-of-supply treatment needs checking.
 - Season 5 brand/site work stays a separately priced project. It must not be absorbed into a shrunk retainer.
 - Draft reply sitting in Gmail (send-gated).
+- **Website preview is already with Cathal as of 9 August.** The ball is his on review. Do not carry a website-send task or blur it into the separate reprice response.
 
 ## Invoice address, from August 2026
 

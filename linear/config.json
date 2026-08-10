@@ -41,7 +41,12 @@
     }
   ],
   "taskListSources": [
-    { "path": "today.md", "label": "today", "section": "Today" },
+    {
+      "path": "today.md",
+      "label": "today",
+      "section": "Today",
+      "createIssues": false
+    },
     { "path": "this-week.md", "label": "this-week" }
   ],
   "syncEveryMinutes": 60,

@@ -20,7 +20,7 @@ Reset the week around the Laurence meeting, a secure fibre-connected edit base, 
 
 ### Studio operations
 
-- [ ] Book viewings at Netil Corner, Netil House and Lockside Studios for a private edit studio Harrison can make his own. Require 24/7 access, equipment left overnight, lockable security, hardwired symmetric fibre and a short managed licence. Do not take a conventional lease yet. <!-- linear:HWL-259 -->
+- [ ] Book viewings at Netil Corner, Netil House and Lockside Studios for a private edit studio Harrison can make his own. Cap fixed premises costs at £1,000 per month before recoverable VAT, including rent, service charge, rates, internet and utilities. Require 24/7 access, equipment left overnight, lockable security, hardwired symmetric fibre and a short managed licence. Do not sign until the live cash check is green. <!-- linear:HWL-259 -->
 - [ ] After the Fable and fibre tests, decide David's editing lane through Council. Test proxy media plus a fast external NVMe before buying hardware or changing the editor. <!-- linear:HWL-260 -->
 
 ### Creepers

@@ -2,8 +2,8 @@
   "title": "The Board Room",
   "week": "10 to 16 August 2026",
   "sourceDate": "2026-08-10",
-  "generatedAt": "2026-08-10T08:42:06.806Z",
-  "sourceCommit": "a5747af",
+  "generatedAt": "2026-08-10T08:52:29.249Z",
+  "sourceCommit": "e5b4094",
   "summary": {
     "open": 30,
     "active": 20,
@@ -31,13 +31,13 @@
     },
     {
       "id": "HWL-259",
-      "title": "Book viewings at Netil Corner, Netil House and Lockside Studios for a private edit studio Harrison can make his own. Require 24/7 access, equipment left overnight, lockable security, hardwired symmetric fibre and a short managed licence. Do not take a conventional lease yet.",
+      "title": "Book viewings at Netil Corner, Netil House and Lockside Studios for a private edit studio Harrison can make his own. Cap fixed premises costs at £1,000 per month before recoverable VAT, including rent, service charge, rates, internet and utilities. Require 24/7 access, equipment left overnight, lockable security, hardwired symmetric fibre and a short managed licence. Do not sign until the live cash check is green.",
       "area": "Studio operations",
       "state": "todo",
       "due": null,
       "baseScore": 98,
       "score": 98,
-      "reason": "Harrison wants his own space. Find a private edit studio for the Mac mini and production kit on proven fibre, without taking a conventional lease.",
+      "reason": "Harrison wants his own space. Find a private edit studio on proven fibre within the £1,000 fixed-cost ceiling, then clear the live cash check before signing.",
       "tier": "Critical",
       "rank": 2
     },

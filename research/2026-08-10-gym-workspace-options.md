@@ -19,10 +19,19 @@ Immediate recommendation: get Harrison his own lockable edit studio, but do not 
 
 Do not prioritise Autumn Yard yet. Its unfurnished Hackney Wick studios have 24/7 access and super-fast broadband, but require 12 or 24-month contracts and are 28 to 54 square metres. That is a lease-scale commitment before the operating need has been proved. Source: https://www.autumnyard.uk/
 
+## Affordability guardrail
+
+£1,000 is a reasonable ceiling for the business, but it is not trivial. It is 10% of a £10,000 low-revenue month and 20% of the roughly £5,000 currently locked monthly recurring baseline. The June plan estimated only £2,000 to £2,500 retained each month at £11,200 revenue, so a £1,000 studio would use 40% to 50% of that retained amount before any productivity or revenue benefit.
+
+Use £1,000 per month before recoverable VAT as the all-in fixed-cost ceiling. That must include rent, service charge, business rates, internet and utilities. A wholly business premises cost may reduce taxable company profit, and VAT may be reclaimable when it is charged and supported by a valid business invoice, but those benefits do not remove the monthly cash payment. Sources: https://www.gov.uk/corporation-tax-rates/corporation-tax-expenses and https://www.gov.uk/charge-reclaim-record-vat/reclaim-vat-business-expenses
+
+The current computed operating balance is about £2,614, below the existing £5,000 operating-floor target, while about £7,000 from LOR is expected but not yet invoiced or landed. Before signing, confirm the live operating balance, card liabilities, all-in studio invoice, deposit, minimum term and break clause. Prefer no more than one month's deposit and a rolling or three-month break.
+
 ## Decision rules
 
 - Hard gates: Harrison has his own lockable room, the complete setup can remain overnight, access is 24/7, and the connection can be hardwired.
 - A claimed fibre line is not enough. Test real upload speed, download speed, latency and a representative RAW-footage transfer from the actual desk or studio.
 - Ask whether the connection is symmetric and dedicated or contended, who can access the equipment, what insurance is required, and whether filming or client calls are permitted.
 - Prefer a rolling or one to three-month managed licence. Do not sign a conventional lease until the setup has proved useful and Harrison is confident he wants the same base for at least six months.
+- Clear the live cash check before signing. Revenue affordability alone is not enough while the operating balance and cards remain unreconciled.
 - Keep the building full-fibre request alive in parallel. The edit base is an interim production fix, not a reason to abandon the home connection.

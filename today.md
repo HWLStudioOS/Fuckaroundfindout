@@ -19,7 +19,7 @@ Still open: Danny's £800 plus VAT payment confirmation, the outcome of this mor
 ## Today
 
 - [ ] Take this morning's Laurence meeting. Use the live conversation to reset the relationship and leave with one explicit testimonial outcome or next step. <!-- linear:HWL-235 -->
-- [ ] Private edit studio: book viewings at Netil Corner, Netil House and Lockside Studios for a room Harrison can make his own. Require 24/7 access, equipment left overnight, lockable security, hardwired symmetric fibre and a short managed licence. Do not take a conventional lease yet.
+- [ ] Private edit studio: book viewings at Netil Corner, Netil House and Lockside Studios for a room Harrison can make his own. Cap fixed premises costs at £1,000 per month before recoverable VAT, including rent, service charge, rates, internet and utilities. Require 24/7 access, equipment left overnight, lockable security, hardwired symmetric fibre and a short managed licence. Do not sign until the live cash check is green.
 - [ ] Fable Creepers edit test: finish the basic edit already in motion, assess the output honestly and record the editing lane Fable can actually own.
 - [ ] Creepers: verify what published on both Instagram accounts from 1 August, update the content-calendar site to match reality, then get the accurate version to Sam.
 - [ ] Better at Work Season 5: final-pass the design system, make it launch-ready, make the final website adjustments, then review both with fresh eyes before calling them done.

@@ -8,49 +8,51 @@ financial_truth_updated: 2026-08-07 16:00 BST
 
 ## Theme
 
-Close the two threads that stalled last week (Creepers' rootball call, BaW's two blurred Cathal conversations), lock the LOR results-day sign-off before Thursday's hard deadline, and make the two decisions that have now been named overdue twice: the personal investing amend-or-fold and Edge Lab's crypto no-pass read.
+Close the human loops already reduced to one tap, Laurence, Creepers and Cathal. Make the personal investing decision against the written cash rules, keep Edge Lab paper-only after its no-pass, and turn Sunday's training pivot into an actual program rather than a paragraph over the old one.
 
 ## Top 3 outcomes
 
-1. Creepers Pro Landscaper advert reaches Anna and Sam with real assets. The rootball gap gets resolved (Sam's call happens, or originals are requested from Jason Ingram/Jo Kossak, or new shots get scheduled at the Surrey visit), keeping the 19 August deadline alive.
-2. Both open BaW threads with Cathal get separate, clean answers: the repricing reply sent (scope-cut package, not a rate cut), and the finished website sent to him for review. Stop letting cost and product blur into one stalled conversation.
-3. The two decisions named overdue twice now get made: personal investing (capped scout sleeve into the plan, or stop trading outside it) and LOR's A-level results posts get an actual sign-off route through Emma before Thursday 13 August.
+1. Laurence gets a WhatsApp reply and the Year One testimonial is filmed. Months of ambient obligation end in one morning.
+2. Creepers receives a content calendar verified against what actually published since 1 August. The advert-select loop is already closed.
+3. Cathal gets a clean reprice answer at the current £1,500 net floor, and the five personal scout trades get an explicit amend-or-fold decision at 14:30.
 
 ## Active board
 
 ### Creepers
 
-- [ ] Resolve the rootball gap with Anna, Michael and Sam: take Sam's call, decide whether to request originals from Jason Ingram and Jo Kossak (low-res shortlist picks, Garden Club London credit lines) or shoot rootballs at the Surrey visit. <!-- linear:HWL-221 -->
-- [ ] Choose the final selects from the ranked 15-pick shortlist once the rootball question is settled. <!-- linear:HWL-222 -->
+- [x] Pro Landscaper advert: Friday's Sam call closed the rootball, final-select and originals-request loop.
+- [x] Final advert selects confirmed through the Friday call.
+- [ ] Update the Creepers content calendar from 1 August, verify it against both live Instagram accounts, then send it to Anna and Sam.
 - [ ] Confirm the exact Surrey Season 4 shoot date with Anna and Sarah-Louise. Still pending. <!-- linear:HWL-239 -->
 
 ### Better at Work
 
-- [ ] Send Cathal the repricing reply: hold the £1,500 net floor, offer the scope-cut package (keep episode packaging, retire the monthly report for the live dashboard, drop LinkedIn ghostwriting, fold season planning into the fortnightly call), and raise the VAT-reclaim question first. Draft is ready in Gmail. <!-- linear:HWL-223 -->
-- [ ] Share the finished Better at Work website preview with Cathal for review, separately from the repricing conversation. Grant access on the `better-at-work-frontier` Vercel deployment and send the link. <!-- linear:HWL-231 -->
+- [ ] Send Cathal the repricing reply: hold the £1,500 net floor, offer the scope-cut package (keep episode packaging, retire the monthly report for the live dashboard, drop LinkedIn ghostwriting, fold season planning into the fortnightly call), and raise the VAT-reclaim question first. Draft is ready in Gmail.
+- [x] Share the finished Better at Work website preview with Cathal for review. It is with him, the ball is his. <!-- linear:HWL-231 -->
 - [ ] Once Cathal reviews: lock the four Stripe decisions (price/currency, refund/support terms, whose account, fulfilment path) and set the production env vars. Don't start this before the review lands. <!-- linear:HWL-240 -->
 - [ ] Prep the Caroline Webb podcast recording, 13 August 16:00 London (Riverside link confirmed on calendar). <!-- linear:HWL-241 -->
 - [ ] Squiggly Careers x Harrison podcast production chat, 11 August 16:15. <!-- linear:HWL-242 -->
 
 ### Laing O'Rourke
 
-- [x] Route the A-level results posts to Emma for sign-off before results day, Thursday 13 August. Kerri is away until the 17th; this needs a decision this week or the posts die by default. <!-- linear:HWL-191 -->
+- [x] Stand down the A-level results posts. Harrison closed the trigger on Sunday 9 August. <!-- linear:HWL-191 -->
 - [ ] Confirm PO route and first invoice once Emma's window-one budget lands; Everton date and quote sit outside the £15k ceiling as a separate line. <!-- linear:HWL-243 -->
 
 ### Client boundaries
 
-- [ ] Get Danny Wicks's written "confirmed" on the £800 plus VAT fee before locking the combined testimonial film and wrap reel edit. <!-- linear:HWL-224 -->
-- [ ] Film the Laurence Year One testimonial. Months overdue, talk-to-camera, catch and cut, no script. Reply to his last WhatsApp. <!-- linear:HWL-225 -->
+- [ ] Get Danny Wicks's £800 plus VAT payment confirmation. The testimonial film and b-roll were delivered Friday 7 August, edited by Harrison. Delivery is closed.
+- [ ] Film the Laurence Year One testimonial. Months overdue, talk-to-camera, catch and cut, no script. Reply to his latest WhatsApp.
 
 ### Money and admin
 
 - [ ] Decide amend-or-fold on the personal scout buys (SPCX, NVDA, SNDK, MU, PLTR, five trades in under a week outside the investment strategy doc). Either write a capped scout sleeve into the plan or stop. <!-- linear:HWL-228 -->
-- [ ] Sweep the ~£675 owed to the tax reserve from this week's BaW receipt (per weekly-cfo, 7 Aug). <!-- linear:HWL-244 -->
-- [ ] Edge Lab: decide what happens to the crypto arena now G2a's 14-day window has closed with rules/fable underperforming a buy-and-hold control. Continue paper-only, adjust, or stop. Macro book ties control, no action needed there. <!-- linear:HWL-229 -->
+- [x] Sweep the £675 owed to the tax reserve from the BaW receipt. Harrison confirmed done Sunday 9 August. <!-- linear:HWL-244 -->
+- [ ] Take £1,800 director's drawings for August. Salary is already done.
+- [ ] Edge Lab: decide what happens to the crypto arena now G2a's 14-day window has closed with rules/fable underperforming a buy-and-hold control. Continue paper-only, adjust, or stop. Macro book ties control, no action needed there.
 
 ### Health
 
-- [ ] Run Long + Strong week 3 as prescribed: 6km easy + 6 strides (Mon), 4x4min VO2 (Tue), 5km easy (Thu), 12km long (Sun), Strength A (Wed) and Strength B (Fri) on their actual days, Saturday off. 31km total. Preserve the Tuesday/Friday/Sunday spacing this time; week 2 reshuffled and dropped Friday's session entirely. <!-- linear:HWL-226 -->
+- [ ] Run the transition week: 6km easy plus 6 strides Monday, protected 4x4min VO2 Tuesday, 5km easy Thursday and 12km long Sunday. Train Wednesday and Friday at MuscleWorks in a bodybuilding split. Write the replacement aesthetics-plus-engine program this week.
 
 ### System
 
@@ -59,9 +61,8 @@ Close the two threads that stalled last week (Creepers' rootball call, BaW's two
 
 ## Awaiting or one-tap gates
 
-- Sam (Creepers): call about the rootball gap.
-- Cathal: reprice reply and website preview link, both send-gated on Harrison.
-- Kerri and Emma (LOR): A-level results sign-off route; back properly on the 17th.
+- Cathal: reprice reply is send-gated on Harrison. The website is already with him.
+- Kerri and Emma (LOR): PO route and first invoice after Kerri returns. Results posts are stood down.
 - Danny Wicks: written confirmation of the £800 plus VAT fee.
 - Laurence: testimonial film and WhatsApp reply.
 
@@ -82,10 +83,10 @@ Close the two threads that stalled last week (Creepers' rootball call, BaW's two
 
 - BM4 (Laura Gassner Otting) is live. BM3 (Russell Beck) is fully published and closed.
 - Squiggly Careers is a won client; the £3,600-4,400/month pilot range has been sent, awaiting Helen and Sarah's response.
-- Danny Wicks's fee is agreed at £800 plus VAT; only written confirmation and the film edit remain.
+- Danny Wicks's testimonial film and b-roll were delivered Friday 7 August. Only the £800 plus VAT payment confirmation remains.
 - Year One's eight-page pack and three Looms are dead. The testimonial and WhatsApp reply are the only surviving personal obligations.
 - HMRC VAT number is live: 523 6438 93, effective 30 June.
-- Tax reserve (£9,200) sits in Revolut Savings at ~3% AER.
+- Tax reserve computes to £9,875 after the completed £675 sweep, pending bank verification. August drawings are set at £1,800 and not yet confirmed paid.
 - The Claude CLI auth outage (3-6 Aug) is fixed; every scheduled daemon has run clean since 6 Aug.
 - Golf clubs and the 1-new-client-by-31-July campaigns are both closed (killed, and won via Squiggly, respectively). LOR Retainer stays parked behind Early Talent by choice, not cold.
 - Ship shelf: AI Content Engine still returns HTTP 404 on its Vercel URL, 55 days unshipped (first-seen 15 June). No other items on the shelf.

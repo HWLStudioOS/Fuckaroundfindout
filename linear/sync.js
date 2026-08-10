@@ -19,6 +19,7 @@ import {
   setTaskChecked,
   listMarkdownFiles,
 } from "./lib/markdown.js";
+import { linkedTaskOwnership, shouldCreateIssue } from "./lib/sync-policy.js";
 import { info, warn, err } from "./lib/log.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -63,6 +64,7 @@ async function pushChanges(state) {
   const teamId = state.team.id;
   let created = 0;
   let flipped = 0;
+  const warnedMarkers = new Set();
 
   for (const rel of trackedFiles(state)) {
     const fullPath = resolve(CONFIG.vaultRoot, rel);
@@ -82,6 +84,7 @@ async function pushChanges(state) {
 
     for (const t of tasks) {
       if (!t.linear) {
+        if (!shouldCreateIssue(taskSrc)) continue;
         if (DRY) {
           info(`[DRY] would create "${t.text.slice(0, 60)}"`);
           continue;
@@ -110,6 +113,18 @@ async function pushChanges(state) {
         created++;
       } else {
         const cached = state.issues[t.linear];
+        const ownership = linkedTaskOwnership(cached, rel);
+        if (!ownership.process) {
+          const warningKey = `${t.linear}:${rel}`;
+          if (!warnedMarkers.has(warningKey)) {
+            const detail = ownership.reason === "non-owner"
+              ? `owned by ${ownership.owner}`
+              : "missing from linear/.state.json";
+            warn(`skip ${t.linear} in ${rel}: ${detail}; duplicate or stale markers cannot write issue state`);
+            warnedMarkers.add(warningKey);
+          }
+          continue;
+        }
         if (cached && cached.checked !== t.checked) {
           if (DRY) {
             info(`[DRY] would flip ${t.linear} → ${t.checked ? "done" : "todo"}`);

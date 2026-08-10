@@ -52,7 +52,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 
 - Source: Harrison, Sunday night check-in, 9 August, remote session.
 - Tag: capture, corrections, todo
-- Status: new
+- Status: routed 10 August 2026 to `today.md`, `this-week.md`, client files, money state and system repair
 
 ## 2026-08-07 14:07
 - **Claude Code adds cross-session messaging and quietly removes the subagent spawn cap again**, Anthropic changelog, 1-7 Aug (v2.1.219-224). Sessions can now message each other across machines with SendMessage and discover each other with ListAgents, Claude Opus 5 became the default Opus model in Claude Code, and the 200-subagent-per-session cap added three weeks ago (flagged here 29 Jul) is gone, only concurrency and depth limits remain. MCP itself moved to a new stateless spec (2026-07-28) with stronger OAuth the same week. SendMessage in particular is a direct build note, the Mac Mini daemons could talk to each other instead of only coordinating through shared files. [https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md]

@@ -2,19 +2,19 @@
   "title": "The Board Room",
   "week": "10 to 16 August 2026",
   "sourceDate": "2026-08-10",
-  "generatedAt": "2026-08-10T12:26:05.052Z",
-  "sourceCommit": "e6c9b88",
+  "generatedAt": "2026-08-10T13:02:15.117Z",
+  "sourceCommit": "6956fb3",
   "summary": {
     "open": 29,
     "active": 19,
-    "inProgress": 1,
+    "inProgress": 0,
     "waiting": 3,
     "scheduled": 2,
     "parked": 5,
-    "closedThisWeek": 7,
-    "completion": 27,
-    "xp": 865,
-    "level": 2
+    "closedThisWeek": 9,
+    "completion": 32,
+    "xp": 1080,
+    "level": 3
   },
   "tasks": [
     {
@@ -30,18 +30,6 @@
       "rank": 1
     },
     {
-      "id": "HWL-249",
-      "title": "Calendar verified against both Creepers grids through 10 August and deployed live. Send the accurate version to Sam.",
-      "area": "Creepers",
-      "state": "todo",
-      "due": "2026-08-10",
-      "baseScore": 97,
-      "score": 97,
-      "reason": "The live calendar is now verified and accurate through 10 August. Close the loop by sending the usable version to Sam.",
-      "tier": "Critical",
-      "rank": 2
-    },
-    {
       "id": "HWL-257",
       "title": "Final-pass the Season 5 design system and make every launch component ready for use.",
       "area": "Better at Work",
@@ -50,6 +38,18 @@
       "baseScore": 95,
       "score": 95,
       "reason": "Final-pass the Season 5 system until every component is ready for real launch use.",
+      "tier": "Critical",
+      "rank": 2
+    },
+    {
+      "id": "active-manually-finish-and-publish-one-creepers-post-to",
+      "title": "Manually finish and publish one Creepers post today. The failed Fable test does not get another production pass.",
+      "area": "Creepers",
+      "state": "todo",
+      "due": null,
+      "baseScore": 94,
+      "score": 94,
+      "reason": "The Fable edit did not pass. Finish the Creepers post manually and publish it today.",
       "tier": "Critical",
       "rank": 3
     },
@@ -66,18 +66,6 @@
       "rank": 4
     },
     {
-      "id": "HWL-256",
-      "title": "Fable basic Creepers edit is in edit. Finish the test, assess the output honestly and record the basic editing lane it can own.",
-      "area": "Creepers",
-      "state": "in-progress",
-      "due": null,
-      "baseScore": 91,
-      "score": 91,
-      "reason": "The Fable edit test is already moving. Finish it and define the narrow basic-editing lane the output actually earns.",
-      "tier": "Critical",
-      "rank": 5
-    },
-    {
       "id": "HWL-261",
       "title": "Join MuscleWorks Bethnal Green, then cancel Elevate Fitness. Third Space only wins if its pool and recovery layer justify £245 per month plus the £100 joining fee.",
       "area": "Health",
@@ -87,6 +75,18 @@
       "score": 90,
       "reason": "Choose the bodybuilding gym that matches the new goal, join it first, then cancel Elevate without creating a training gap.",
       "tier": "Critical",
+      "rank": 5
+    },
+    {
+      "id": "active-prepare-one-better-at-work-post-today-if-cathal-",
+      "title": "Prepare one Better at Work post today. If Cathal's personal LinkedIn post is not moving, publish through the brand channel instead of leaving the day blank.",
+      "area": "Better at Work",
+      "state": "todo",
+      "due": null,
+      "baseScore": 88,
+      "score": 88,
+      "reason": "Cathal's personal post is unlikely to move. Prepare the brand-channel fallback and avoid a blank Better at Work day.",
+      "tier": "High",
       "rank": 6
     },
     {
@@ -175,13 +175,13 @@
     },
     {
       "id": "HWL-260",
-      "title": "After the Fable and fibre tests, decide David's editing lane through Council. Test proxy media plus a fast external NVMe before buying hardware or changing the editor.",
+      "title": "Fable did not pass the client-editing test. After the fibre and proxy-media tests, decide David's editing lane through Council before buying hardware or changing the editor.",
       "area": "Studio operations",
       "state": "todo",
       "due": null,
       "baseScore": 50,
       "score": 50,
-      "reason": "The editor decision follows the Fable, fibre and proxy-workflow evidence. Do not make a hiring call against a broken setup.",
+      "reason": "Fable did not pass. Prove fibre and proxy workflow next, then decide David's lane through Council.",
       "tier": "Later",
       "rank": 14
     },
@@ -386,6 +386,30 @@
       "baseScore": 64,
       "score": 0,
       "reason": "Closed in the canonical weekly board.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-256",
+      "title": "Fable basic Creepers edit test closed. Nice experiment, but it did not pass; the technology is not ready to own client editing yet.",
+      "area": "Creepers",
+      "state": "done",
+      "due": null,
+      "baseScore": 10,
+      "score": 0,
+      "reason": "Closed 10 August. The test did not pass and Fable does not own a client-editing lane.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-249",
+      "title": "Calendar verified against both Creepers grids through 10 August, deployed and sent to Sam.",
+      "area": "Creepers",
+      "state": "done",
+      "due": "2026-08-10",
+      "baseScore": 97,
+      "score": 0,
+      "reason": "The live calendar is now verified and accurate through 10 August. Close the loop by sending the usable version to Sam.",
       "tier": "Closed",
       "rank": null
     },

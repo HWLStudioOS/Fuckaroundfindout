@@ -21,6 +21,7 @@ Active. April reset after honest conversation about declining metrics. Hourly tr
 - Final-pass the Season 5 design system and make the launch components ready for real use.
 - Make the final website adjustments, then review the design system and website together with fresh eyes.
 - Launch readiness does not override the existing Stripe gates or Cathal's production approval. The design package can be ready while deployment remains held.
+- Publishing fallback for Monday 10 August: prepare one useful post today. If Cathal's personal LinkedIn post is not moving, use the Better at Work brand channel rather than accepting a blank day.
 
 ## Invoice address, from August 2026
 

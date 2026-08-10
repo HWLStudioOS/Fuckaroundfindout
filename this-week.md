@@ -21,20 +21,22 @@ Reset the week around the Laurence meeting, a secure fibre-connected edit base, 
 ### Studio operations
 
 - [ ] Nikki has the Netil House brief. Await viewing options, book the right room, then check the hardwired upload speed, all-in cost, deposit, term and break clause before choosing. <!-- linear:HWL-259 -->
-- [ ] After the Fable and fibre tests, decide David's editing lane through Council. Test proxy media plus a fast external NVMe before buying hardware or changing the editor. <!-- linear:HWL-260 -->
+- [ ] Fable did not pass the client-editing test. After the fibre and proxy-media tests, decide David's editing lane through Council before buying hardware or changing the editor. <!-- linear:HWL-260 -->
 
 ### Creepers
 
 - [x] Pro Landscaper advert: Friday's Sam call closed the rootball, final-select and originals-request loop. <!-- linear:HWL-247 -->
 - [x] Final advert selects confirmed through the Friday call. <!-- linear:HWL-248 -->
-- [ ] Fable basic Creepers edit is in edit. Finish the test, assess the output honestly and record the basic editing lane it can own. <!-- linear:HWL-256 -->
-- [ ] Calendar verified against both Creepers grids through 10 August and deployed live. Send the accurate version to Sam. <!-- linear:HWL-249 -->
+- [x] Fable basic Creepers edit test closed. Nice experiment, but it did not pass; the technology is not ready to own client editing yet. <!-- linear:HWL-256 -->
+- [x] Calendar verified against both Creepers grids through 10 August, deployed and sent to Sam. <!-- linear:HWL-249 -->
+- [ ] Manually finish and publish one Creepers post today. The failed Fable test does not get another production pass.
 - [ ] Confirm the exact Surrey Season 4 shoot date with Anna and Sarah-Louise. Still pending. <!-- linear:HWL-239 -->
 
 ### Better at Work
 
 - [ ] Final-pass the Season 5 design system and make every launch component ready for use. <!-- linear:HWL-257 -->
 - [ ] Make the final Season 5 website adjustments, then review the design system and site together with fresh eyes before calling the launch package done. <!-- linear:HWL-258 -->
+- [ ] Prepare one Better at Work post today. If Cathal's personal LinkedIn post is not moving, publish through the brand channel instead of leaving the day blank.
 - [ ] Send Cathal the repricing reply: hold the £1,500 net floor, offer the scope-cut package (keep episode packaging, retire the monthly report for the live dashboard, drop LinkedIn ghostwriting, fold season planning into the fortnightly call), and raise the VAT-reclaim question first. Draft is ready in Gmail. <!-- linear:HWL-250 -->
 - [x] Share the finished Better at Work website preview with Cathal for review. It is with him, the ball is his. <!-- linear:HWL-231 -->
 - [ ] Once Cathal reviews: lock the four Stripe decisions (price/currency, refund/support terms, whose account, fulfilment path) and set the production env vars. Don't start this before the review lands. <!-- linear:HWL-240 -->

@@ -155,7 +155,9 @@ tasks.filter((task) => !active.includes(task)).forEach((task) => { task.rank = n
 
 const stateOrder = { "in-progress": 0, todo: 1, waiting: 2, scheduled: 3, parked: 4, done: 5 };
 tasks.sort((a, b) => {
-  if (active.includes(a) && active.includes(b)) return b.score - a.score;
+  if (active.includes(a) && active.includes(b)) {
+    return b.score - a.score || a.title.localeCompare(b.title);
+  }
   if (active.includes(a)) return -1;
   if (active.includes(b)) return 1;
   return stateOrder[a.state] - stateOrder[b.state] || b.score - a.score;

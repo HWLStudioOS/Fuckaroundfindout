@@ -1,53 +1,52 @@
 ---
-date: 2026-08-07
-generated: auto-generated 06:30
-financial_truth_updated: 2026-08-06 (Revolut Savings move + scout-buy pattern, see money/index.md)
+date: 2026-08-10
+generated: corrected from Harrison direct state, 07:26
+financial_truth_updated: 2026-08-09 (£675 tax sweep done, August drawings still due)
 ---
 
-# Today, Friday 7 August 2026
+# Today, Monday 10 August 2026
 
 ## Pulse
 
-Week 2 of Long + Strong, Friday is Strength B. Wednesday and Thursday both landed on plan. Client side is quiet by design, LOR is on hold until Kerri's back on the 17th, but the A-level results window closes before that so one sign-off email can't wait. Creepers has a hard Sunday deadline on the WeTransfer image picks. Cathal's fortnightly check-in is on the calendar at 11:30. The real story of the week is the drift between what Harrison says about the market (watch-only) and what he's actually doing (five personal trades in 48 hours), that decision is overdue.
+Week 3 starts with 6km easy plus 6 strides. RHR is 44, HRV 56 BALANCED, readiness 73 and ACWR 0.95. The generated 06:30 brief was superseded by Harrison's direct Sunday check-in. LOR results posts are stood down, Sam's call happened, Danny's film was delivered, the £675 tax sweep is done and PR #12 merged at 06:44. Today's work is three human closes, Laurence, Creepers and Cathal, followed by the 14:30 investing decision.
 
 ## Yesterday wrap
 
-Landed: BM4 live on Acast and YouTube with the teaser posted, Cathal's combined message sent (invoice, payout ask, photos), Michael/Creepers Surrey follow-up closed after Harrison's call with Anna, Long + Strong week 2 Thursday run done (4.33km at 10:00, close to the 5km prescribed). Board Room's mutation-guard fix from the 6th also shipped, the site was hardened for that specific failure mode, but a new, unrelated blocker (a dependency advisory) then blocked last night's deploy, see System below.
+Landed: Danny Wicks's testimonial plus b-roll was delivered Friday 7 August, edited by Harrison. Harrison spoke to Sam on Friday and closed the callback loop. The LOR A-level results posts were stood down on Sunday. The £675 Better at Work receipt slice was swept to the tax reserve. PR #12 merged this morning with the Board Room dependency patches, the pypdf 6.15.0 pin, Sunday state and the training pivot.
 
-Still open, no positive signal either way since yesterday: logged-out playback proof on Acast/YouTube, the Creepers Sandringham post, Laurence's testimonial film, Laurence's WhatsApp reply, Danny's stall reply, the LOR hold, the market decision, and KiwiSaver verification. None of these are confirmed missed, just unconfirmed, carried below.
+Still open: Danny's £800 plus VAT payment confirmation, Laurence's WhatsApp reply and testimonial, Cathal's reprice response, the Creepers content-calendar send, August drawings and the personal scout-trade decision.
 
 ## Today
 
-- [ ] Creepers: choose selects from the ranked 15-pick shortlist in `business/clients/creepers-prolandscaper-shortlist-2026-08-06.md`. All 431 delivered files were reviewed Thursday night and are downloaded locally, so the Sunday link expiry no longer bites. Rules stand: no houses, minimal buildings, sky edits fine, plants as hero. Two decisions ride along: request originals for the 4 low-res shortlist picks (Jason Ingram and Jo Kossak via Garden Club London, credit lines in their Credits.docx), and the rootball gap, zero rootball shots in the whole transfer, so either ask Anna and Michael for existing ones or shoot them at the Surrey visit. Ideas to Anna and Sam next week, final deadline 19 August. <!-- linear:HWL-239 -->
-- [ ] LOR: route the A-level results posts to Emma for sign-off. Results day is Thursday 13 August and Kerri is away until the 17th, the posts die by default without a decision before then. <!-- linear:HWL-191 -->
-- [ ] Danny Wicks: upload the full Ultimate Founder Day footage to the editor today. Hold the share link until the £800 plus VAT is confirmed. <!-- linear:HWL-200 -->
-- [ ] Film the Laurence Year One testimonial. Months overdue, talk-to-camera, catch and cut, no script. <!-- linear:HWL-235 -->
-- [ ] Investment strategy: decide amend-or-fold on the personal scout buys (SPCX, NVDA, SNDK, then MU, PLTR, five trades in 48 hours outside `money/investment-strategy-2026-08-03.md`). Either write a capped scout sleeve into the plan or stop. <!-- linear:HWL-228 -->
+- [ ] Reply to Laurence's latest WhatsApp, then film the Year One testimonial. Talk to camera, catch and cut, same-day edit if it flows. <!-- linear:HWL-235 -->
+- [ ] Creepers: update the content calendar from 1 August, verify it against what actually published on Instagram, then send it to Anna and Sam. Lower volume this week is accepted. Close the loop.
+- [ ] Better at Work: voice-pass Cathal's reprice reply and hold the current £1,500 net floor. His proposed £1,500 including VAT cap is not on after the brand refresh and website delivered inside the current retainer. Sending remains one-tap gated.
+- [ ] 14:30 market check: decide amend-or-fold on SPCX, NVDA, SNDK, MU and PLTR against `money/investment-strategy-2026-08-03.md`. Do not use a strategy rewrite as retrospective permission for trades already placed. <!-- linear:HWL-228 -->
+- [ ] August admin taps: take £1,800 director's drawings, and accept Neil Mullarkey's Tuesday 15 September 14:00 to 15:30 recording invite. Check the 16:00 Kerri call immediately after it.
 
 ## Awaiting response
 
-- Kerri and Emma (LOR): PO route and first invoice, Everton date and quote, new visit-one date once Kerri's back on the 17th.
-- Anna and Sarah-Louise (Creepers): exact Surrey S4 shoot date, still pending.
-- Cathal: Acast payout account details. Today's 11:30 check-in is a natural point to close this.
+- Danny Wicks: £800 plus VAT payment confirmation only. Delivery is complete.
+- Cathal: the Better at Work website preview is already with him. The ball is his on review.
+- Kerri and Emma: PO route and first invoice once Kerri returns. The A-level results-post trigger is off.
 
 ## In flight
 
-- KiwiSaver withdrawal: verification via Litchfields (Raj) on withdrawal mechanics, the real PIE tax drag, and UK lump-sum tax treatment. Decision recorded, nothing filed yet.
-- Reply to Laurence's last WhatsApp.
-- Logged-out playback proof on Acast and YouTube for BM4, if not already done.
-- Board Room: nightly deploy blocked again, this time by a newly flagged high-severity dependency advisory (GHSA-5p4m-2wfm-xmqj) during deploy-side validation, a different failure from the mutation-guard issue fixed on the 6th. The nightly backup still committed and pushed cleanly, nothing was lost, the live site just didn't update. Codex's lane per SYSTEM-STATUS.md.
-- Squiggly Careers: production chat Tuesday 11 August, 16:15 to 17:00, Teams, with Helen, Sarah Ellis and Sarah Massie.
+- KiwiSaver withdrawal: verification via Litchfields on withdrawal mechanics, the real PIE tax drag and UK lump-sum tax treatment. Nothing filed.
+- Edge Lab: G2a did not pass in either arena. No live capital is armed. Continue paper-only until an explicit evidence decision is recorded.
+- Squiggly Careers: production and development chat Tuesday 11 August, 16:15 to 17:00, with Helen Tupper, Sarah Ellis and Sarah Massie.
+- Training program: Sunday pivot is active, bodybuilding for aesthetics at MuscleWorks and running for VO2 max. The replacement program still needs writing this week.
 
 ## Standing
 
-Health: RHR 53 this morning, up from the 6-day average of 49. Sleep and HRV are still filling in from Garmin's later daily pulls (normal lag, not stale). Training load is ACWR 0.69, Baseline flags it "Detraining." Body weight last recorded 29 April, 100 days stale, re-weigh or re-export if you want a current number.
+Health: RHR 44, HRV 56 BALANCED, readiness 73 MODERATE, sleep 6.1h with score 76. ACWR 0.95 is Good. Body weight was last recorded 29 April, 103 days stale.
 
-Money: tax reserve £9,200 sitting in Revolut Savings at about 3% AER. £1,800 from Better at Work still outstanding. About £7,000 from LOR expected in August, no PO yet. Personal investing has drifted from stated watch-only into five scout trades in 48 hours. KiwiSaver withdrawal decided, verification pending via Litchfields.
+Money: tax reserve is £9,875 after the completed £675 sweep, assuming no other movement since the confirmed £9,200 balance. Keep this as a computed figure until bank-verified. August salary is done, £1,800 drawings are set but not confirmed paid. MU and PLTR were $50 each at the Friday 7 August market open, exact broker fills and GBP basis still need the statement. About £7,000 from LOR remains expected in August with no PO or invoice confirmed. Personal investing remains outside the written plan until 14:30.
 
-Clients: LOR on hold until the 17th but the results-day window is live now. Creepers active, Sunday image-pick deadline, hero film content queued through August. BaW active, Cathal check-in 11:30 today, Season 5 brand and site lane still open.
+Clients: LOR results posts stood down. Creepers' Friday call closed the Pro Landscaper advert selects and originals request, the live task is the verified content-calendar send. Better at Work's website is with Cathal and the reprice boundary is with Harrison. Danny delivery is done, payment confirmation remains.
 
-System: scheduled agents running clean since Thursday's auth fix (auth-proof and evening-reflection both succeeded with no corrections). Board Room deploy blocked again overnight on a fresh dependency advisory, see In flight.
+System: Claude authentication is live and every scheduled agent has completed successfully since 6 August. PR #12 is merged and its dependency audit is clean. The post-merge Board Room check exposed two state-dependent test defects, now in Codex repair. Linear's HWL-191 flap is a duplicate-marker ownership bug, also in repair. The Mac mini health environment still needs the merged pypdf 6.15.0 installed.
 
 ## Lens
 
-You've said watch-only on the market three times this week and traded five times anyway. Either the capped scout sleeve goes into the strategy today or the watch-only line stops being true. Same shape of problem on the Creepers picks, that WeTransfer link is gone Sunday, today decides it, not next week.
+Do the three human closes before touching infrastructure. The hard work is already done on each. The remaining failure mode is the tap.

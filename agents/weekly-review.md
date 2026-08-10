@@ -106,6 +106,8 @@ Replace `this-week.md` entirely with the new week. Structure per the existing sc
 
 Pull next week's top 3 from: the campaigns most overdue for movement, the LOR retainer state, the training plan, the publishing-rules-aware content commitment (if any).
 
+Linear markers are durable identifiers, not sequence numbers. Never invent, recycle or reassign a `<!-- linear:HWL-NN -->` marker. Carry one only when the exact same underlying obligation already has that marker in its owning source file. Leave every genuinely new task unmarked so the Linear sync allocates a fresh issue.
+
 ### Update agents/README.md status table
 
 For each agent:

@@ -12,13 +12,12 @@ Warm prospect and possible channel partner. Not a client yet.
 - Actual capture expanded to more than 1,000 raw photos, three testimonial clips that could become one combined testimonial film, broad padel and networking footage, and enough material for a wrap reel.
 - No payment or edit scope was agreed by the morning of 31 July.
 
-## Delivery state, 7 August 2026
+## Delivery state, 9 August 2026
 
 - The edited photo set is already delivered into the UF Team WhatsApp group (upload stalled once, completed around Monday 3 August, warmly received: "they look unreal").
-- Photos can no longer be held against fee confirmation. Remaining leverage is the combined testimonial film and the wrap reel, both undelivered.
-- Jasper chased the testimonials on 6 August, Danny asked for a timeframe on 7 August at 13:31. Their chase is the natural close point.
-- Plan: neutral timeframe answer in the group, fee confirmation in Danny's DM before the film edit is locked.
-- **Fee: £800 plus VAT, agreed. Confirmed by Harrison 7 August.** Supersedes the £950 anchor and the unsent £1,250 expanded-pilot draft. Scope against it: full photo set (delivered), combined testimonial film, event wrap reel, one round of revisions. Raw footage and paid-ad usage remain outside scope. Get Danny's written "confirmed" in the DM before locking the film edit.
+- **Testimonial film plus b-roll delivered Friday 7 August. Harrison edited it himself.** Do not carry any edit, footage-upload or delivery task.
+- **Fee: £800 plus VAT, agreed. Confirmed by Harrison 7 August.** Supersedes the £950 anchor and the unsent £1,250 expanded-pilot draft.
+- Only open thread: payment confirmation against the invoice. The chase sits with payment, not delivery.
 
 ## Danny's 31 July partnership note
 

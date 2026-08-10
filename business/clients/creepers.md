@@ -12,7 +12,12 @@ Active. Sandringham 2026 is the current content centrepiece. Shoot completed 17 
 - Creepers forms part of about **£7,000 currently owed across Creepers and Better at Work combined**. Harrison did not state the client split.
 - Historical June notes about a held or unraised retainer are not live finance tasks and must not be resurrected.
 
-## Active state, 31 July 2026
+## Active state, 10 August 2026
+
+- **Pro Landscaper advert loop closed Friday 7 August.** Harrison spoke to Sam. The call closed the rootball question, final selects and originals request for the 19 August advert. Do not resurrect those as tasks.
+- **Current delivery:** update the content calendar from 1 August, verify it against what actually published on `@creepersnursery` and `@creepersinstallation`, then send it to Anna and Sam. Lower volume this week is accepted.
+
+## Prior active state, 31 July 2026
 
 - **Creepers is not in dispute.** Harrison confirmed the week's scheduled content has been handled, apart from Michael's Sandringham stock update, which is today's open post.
 - **Carey Garden Design Studio is live.** The Laura Carey Pollywiggle Garden reel was verified on `@creepersnursery`, published 28 July.

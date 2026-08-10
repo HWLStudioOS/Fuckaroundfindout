@@ -6,6 +6,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 
 ## 2026-08-10 08:23 to 08:29 (Monday reset, Harrison direct)
 
+- Eat Work Art private-studio application submitted 10 August. Await their response and suitable viewing options. The search action is closed for now.
 - Fable is working on a basic Creepers edit as a capability test.
 - Laurence meeting first.
 - Verify both Creepers feeds, update the content-calendar site and get the accurate version to Sam.

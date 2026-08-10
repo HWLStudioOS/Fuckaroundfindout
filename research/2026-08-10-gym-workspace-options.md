@@ -12,6 +12,8 @@ Recommendation: choose MuscleWorks Bethnal Green, join it, then cancel Elevate F
 
 Immediate recommendation: get Harrison his own lockable edit studio, but do not take a conventional commercial lease yet. Look for a private managed studio on a short licence, where the Mac mini, monitor, drives and production kit can remain overnight and the room can become a proper HWL Studio base.
 
+Status, 10 August: Harrison has applied to the Eat Work Art spaces. Await their response before doing more search work. When options arrive, compare them against the affordability and decision rules below.
+
 1. Netil Corner, London Fields: the best first viewing. Small private studios are available now from £800 per month plus an 8.5% service charge, with 90 to 248 sq ft, 24/7 access and an independent internet connection. The £350 solo studios are the ideal size and price but currently waitlisted, so join that list while viewing the available small rooms. Source: https://eatworkart.com/netil-corner/studios/small-1
 2. Netil House, London Fields: the local benchmark. Small studios start at £900 per month but are waitlisted. Medium studios start at £1,250 per month and are available now. Residents have 24/7 access and studios have independent internet connections. Source: https://eatworkart.com/netil-house
 3. Lockside Studios, Hackney Wick: the strongest available alternative. Small studios are available now from £1,050 per month for 183 to 335 sq ft, with 24/7 access and an independent internet connection. It offers more room and a modern setting, but the commute and price must earn themselves. Source: https://eatworkart.com/lockside-studios

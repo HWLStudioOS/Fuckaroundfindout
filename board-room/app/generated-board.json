@@ -2,8 +2,8 @@
   "title": "The Board Room",
   "week": "10 to 16 August 2026",
   "sourceDate": "2026-08-10",
-  "generatedAt": "2026-08-10T07:42:32.874Z",
-  "sourceCommit": "22301f7",
+  "generatedAt": "2026-08-10T08:42:06.806Z",
+  "sourceCommit": "a5747af",
   "summary": {
     "open": 30,
     "active": 20,
@@ -31,13 +31,13 @@
     },
     {
       "id": "HWL-259",
-      "title": "Enquire about and tour a secure dedicated desk or one-person managed studio for the Mac mini, monitor and drives. Require 24/7 access, equipment left overnight, lockable security, hardwired symmetric fibre and a short licence. Start with Laundry Studios and Netil House. Do not take a conventional lease yet.",
+      "title": "Book viewings at Netil Corner, Netil House and Lockside Studios for a private edit studio Harrison can make his own. Require 24/7 access, equipment left overnight, lockable security, hardwired symmetric fibre and a short managed licence. Do not take a conventional lease yet.",
       "area": "Studio operations",
       "state": "todo",
       "due": null,
       "baseScore": 98,
       "score": 98,
-      "reason": "Home broadband is an active production bottleneck. Find a secure edit base where the Mac mini and production kit can remain on proven fibre, without taking a conventional lease.",
+      "reason": "Harrison wants his own space. Find a private edit studio for the Mac mini and production kit on proven fibre, without taking a conventional lease.",
       "tier": "Critical",
       "rank": 2
     },

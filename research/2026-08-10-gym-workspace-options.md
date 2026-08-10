@@ -10,17 +10,18 @@ Recommendation: choose MuscleWorks Bethnal Green, join it, then cancel Elevate F
 
 ## Secure edit base
 
-Immediate recommendation: do not take a conventional commercial lease yet. Look for a secure dedicated desk or one-person managed studio on a short licence, where the Mac mini, monitor, drives and production kit can remain overnight. A laptop hot desk does not solve the job.
+Immediate recommendation: get Harrison his own lockable edit studio, but do not take a conventional commercial lease yet. Look for a private managed studio on a short licence, where the Mac mini, monitor, drives and production kit can remain overnight and the room can become a proper HWL Studio base.
 
-1. Laundry Studios, London Fields: the best first tour. It is a well-designed production-minded workspace with dedicated desks, private offices, 24/7 access, meeting rooms and a content studio. Pricing and line speed are not published. Ask whether one dedicated-desk member can leave a full Mac mini setup overnight, whether the desk or room is lockable, and whether hardwired symmetric fibre is available. Source: https://laundrystudios.uk/
-2. Netil House, London Fields: the strongest true private-studio option. Small studios are listed from £900 per month but currently have a waiting list. Medium studios are listed from £1,250 per month and available now. Studios have 24/7 access and an independent internet connection. Tour only if a private room is worth at least £900 per month. Source: https://eatworkart.com/netil-house
-3. Behind the Glitch, Hackney Wick: the low-risk proof. A fixed dedicated desk is £250 per month with 24/7 access, storage and fast internet, and the membership can be paused or cancelled. It solves equipment continuity more directly than a hot desk, but the environment may not meet the desired standard and the line speed is not quantified. Source: https://behind.theglitch.co/membership/
+1. Netil Corner, London Fields: the best first viewing. Small private studios are available now from £800 per month plus an 8.5% service charge, with 90 to 248 sq ft, 24/7 access and an independent internet connection. The £350 solo studios are the ideal size and price but currently waitlisted, so join that list while viewing the available small rooms. Source: https://eatworkart.com/netil-corner/studios/small-1
+2. Netil House, London Fields: the local benchmark. Small studios start at £900 per month but are waitlisted. Medium studios start at £1,250 per month and are available now. Residents have 24/7 access and studios have independent internet connections. Source: https://eatworkart.com/netil-house
+3. Lockside Studios, Hackney Wick: the strongest available alternative. Small studios are available now from £1,050 per month for 183 to 335 sq ft, with 24/7 access and an independent internet connection. It offers more room and a modern setting, but the commute and price must earn themselves. Source: https://eatworkart.com/lockside-studios
+4. Oris Studios, Clapton: the independent fallback. Private studios start at £850 per month from 217 sq ft, with flexible rental options, 24/7 access, CCTV, secure intercom entry and high-speed Wi-Fi. Verify hardwired fibre speed and the actual contract before shortlisting it. Source: https://www.orisstudios.co.uk/
 
 Do not prioritise Autumn Yard yet. Its unfurnished Hackney Wick studios have 24/7 access and super-fast broadband, but require 12 or 24-month contracts and are 28 to 54 square metres. That is a lease-scale commitment before the operating need has been proved. Source: https://www.autumnyard.uk/
 
 ## Decision rules
 
-- Hard gates: the complete setup can remain overnight, access is 24/7, the space is lockable or properly secured, and the connection can be hardwired.
+- Hard gates: Harrison has his own lockable room, the complete setup can remain overnight, access is 24/7, and the connection can be hardwired.
 - A claimed fibre line is not enough. Test real upload speed, download speed, latency and a representative RAW-footage transfer from the actual desk or studio.
 - Ask whether the connection is symmetric and dedicated or contended, who can access the equipment, what insurance is required, and whether filming or client calls are permitted.
 - Prefer a rolling or one to three-month managed licence. Do not sign a conventional lease until the setup has proved useful and Harrison is confident he wants the same base for at least six months.

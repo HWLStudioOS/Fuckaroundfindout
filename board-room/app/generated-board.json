@@ -2,8 +2,8 @@
   "title": "The Board Room",
   "week": "10 to 16 August 2026",
   "sourceDate": "2026-08-10",
-  "generatedAt": "2026-08-10T07:30:33.369Z",
-  "sourceCommit": "8b69074",
+  "generatedAt": "2026-08-10T07:42:32.874Z",
+  "sourceCommit": "22301f7",
   "summary": {
     "open": 30,
     "active": 20,
@@ -31,13 +31,13 @@
     },
     {
       "id": "HWL-259",
-      "title": "Trial Techspace Shoreditch's advertised 1Gbps desk with a real footage transfer, compare SHED Haggerston and Veda Studios, then choose the interim fibre workspace while the building connection is blocked.",
+      "title": "Enquire about and tour a secure dedicated desk or one-person managed studio for the Mac mini, monitor and drives. Require 24/7 access, equipment left overnight, lockable security, hardwired symmetric fibre and a short licence. Start with Laundry Studios and Netil House. Do not take a conventional lease yet.",
       "area": "Studio operations",
       "state": "todo",
       "due": null,
       "baseScore": 98,
       "score": 98,
-      "reason": "Home broadband is an active production bottleneck. Prove a nearby gigabit desk with a real footage transfer and choose the interim base.",
+      "reason": "Home broadband is an active production bottleneck. Find a secure edit base where the Mac mini and production kit can remain on proven fibre, without taking a conventional lease.",
       "tier": "Critical",
       "rank": 2
     },

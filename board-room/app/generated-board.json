@@ -2,8 +2,8 @@
   "title": "The Board Room",
   "week": "10 to 16 August 2026",
   "sourceDate": "2026-08-10",
-  "generatedAt": "2026-08-10T09:22:55.873Z",
-  "sourceCommit": "f6b93e9",
+  "generatedAt": "2026-08-10T11:57:09.898Z",
+  "sourceCommit": "d6dfbbf",
   "summary": {
     "open": 29,
     "active": 19,
@@ -427,13 +427,13 @@
     },
     {
       "id": "HWL-255",
-      "title": "Build + Engine programme locked: MARCHON GAIN owns four lifting days, the canonical plan owns four runs, and Garmin records readiness. Baseline and 32/20 are frozen.",
+      "title": "Build + Engine programme locked: four lifting slots, four runs and Saturday rest or golf. STNDRD is on a seven-day exercise-selection trial after a positive Push session; MARCHON GAIN is the fallback. Baseline and 32/20 are frozen.",
       "area": "Health",
       "state": "done",
       "due": null,
       "baseScore": 20,
       "score": 0,
-      "reason": "Build + Engine locked 10 August. MARCHON GAIN owns four lifting days, the plan owns four runs, and Baseline plus 32/20 are frozen.",
+      "reason": "Build + Engine locked 10 August. Four lifting slots and four runs are fixed; STNDRD is on a seven-day delivery trial after a positive Push session.",
       "tier": "Closed",
       "rank": null
     },

@@ -14,10 +14,10 @@ supersedes: Long + Strong hybrid block
 
 Harrison wants bodybuilding for aesthetics and enough running to improve VO2 max without surrendering the long-run base.
 
-- Four bodybuilding sessions: lower, upper, lower, upper.
+- Four bodybuilding sessions: upper, lower, upper, lower.
 - Four runs: two easy, one hard VO2 session and one long easy run.
 - Saturday is rest or golf.
-- MARCHON GAIN owns the four lifting sessions. Garmin records the runs and readiness but does not rewrite the programme with daily suggestions.
+- The weekly structure owns the four lifting slots. STNDRD is the active seven-day exercise-selection trial after Harrison enjoyed its Push session on 10 August. Garmin records the runs and readiness but does not rewrite the programme with daily suggestions.
 - Baseline and the 32/20 site are frozen. Do not rebuild either as a condition of training.
 - Squat, bench and deadlift numbers are no longer the goal. Muscle stimulus, progression, recovery and visible body composition are the goal.
 
@@ -35,11 +35,11 @@ Harrison wants bodybuilding for aesthetics and enough running to improve VO2 max
 
 | Day | Session | Purpose |
 |---|---|---|
-| Monday | MARCHON GAIN lower plus easy run | Hypertrophy plus low-cost aerobic volume |
-| Tuesday | MARCHON GAIN upper | Hypertrophy |
+| Monday | Upper 1 plus easy run | Hypertrophy plus low-cost aerobic volume |
+| Tuesday | Lower 1 | Hypertrophy |
 | Wednesday | Hard run | Raise VO2 max |
-| Thursday | MARCHON GAIN lower | Hypertrophy |
-| Friday | MARCHON GAIN upper plus easy run | Hypertrophy plus low-cost aerobic volume |
+| Thursday | Upper 2 | Hypertrophy |
+| Friday | Lower 2 plus easy run | Hypertrophy plus low-cost aerobic volume |
 | Saturday | Rest or golf | Recover |
 | Sunday | Long easy run | Aerobic base and durability |
 
@@ -49,9 +49,9 @@ This is the schedule Harrison chose. Do not collapse it back to two runs.
 
 1. On Monday and Friday, lift first and run later where possible. Aim for at least six hours between sessions. If they must be together, lift first and run immediately afterwards.
 2. Monday's easy run and Friday's easy run stay conversational, RPE 2 to 3. They never become hidden tempo sessions.
-3. Sunday's long run stays easy. Monday lower begins at least 24 hours later where the diary allows.
-4. Wednesday's hard run should be in the morning and Thursday lower later in the day where possible, creating roughly 30 hours between them.
-5. For the first two weeks, keep compound lifts at two to three reps in reserve and isolation work at one to two reps in reserve. Do not add sets beyond MARCHON GAIN.
+3. Sunday's long run stays easy. Monday is upper body, which protects lower-body recovery after the long run.
+4. Wednesday's hard run is followed by upper body on Thursday. Lower 2 sits on Friday, leaving Saturday recovery before Sunday's long run.
+5. For the first two weeks, keep compound lifts at two to three reps in reserve and isolation work at one to two reps in reserve. Do not add sets beyond the selected STNDRD session.
 6. No heavy conventional deadlift volume. Use the programme's lower-body work without chasing old powerlifting numbers.
 7. If Thursday lower or Sunday's long run underperforms for two consecutive weeks, remove two lower accessory sets before removing a run.
 8. If average sleep is below 6.5 hours for three nights, drop Friday's easy run first. Preserve lifting, Wednesday VO2 and Sunday long.
@@ -75,9 +75,11 @@ Easy running is conversational, RPE 2 to 3. Hard repetitions are RPE 8, hard and
 
 The long run is capped at 90 minutes in this block. There is no race reason to push it further while hypertrophy is a co-primary goal.
 
-## Lifting progression
+## Lifting delivery and progression
 
-- Follow the four MARCHON GAIN sessions in order: lower, upper, lower, upper.
+- The canonical order is upper, lower, upper, lower. Today’s completed STNDRD Push session counts as Upper 1.
+- Use STNDRD for exercise selection for seven days. It passes only if its sessions can serve two upper and two lower slots without forcing a six-day bodybuilding split or displacing the four runs.
+- MARCHON GAIN remains the fallback because its four-day lower, upper, lower, upper structure already fits the weekly load.
 - Week 1 establishes honest loads. Historical bests are not prescriptions.
 - Keep compound work at two reps in reserve until the final two weeks. Isolation work may reach one rep in reserve when form stays clean.
 - Use double progression. Reach the top of the prescribed rep range across all sets, then add the smallest available load next time.

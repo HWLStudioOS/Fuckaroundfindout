@@ -1,20 +1,20 @@
 {
   "title": "The Board Room",
   "week": "10 to 16 August 2026",
-  "sourceDate": "2026-08-07",
-  "generatedAt": "2026-08-09T21:30:05.484Z",
-  "sourceCommit": "a4c2812",
+  "sourceDate": "2026-08-10",
+  "generatedAt": "2026-08-10T06:51:16.378Z",
+  "sourceCommit": "2cbee37",
   "summary": {
-    "open": 29,
-    "active": 17,
+    "open": 26,
+    "active": 15,
     "inProgress": 0,
-    "waiting": 5,
+    "waiting": 4,
     "scheduled": 2,
     "parked": 5,
-    "closedThisWeek": 1,
-    "completion": 6,
-    "xp": 120,
-    "level": 1
+    "closedThisWeek": 5,
+    "completion": 25,
+    "xp": 600,
+    "level": 2
   },
   "tasks": [
     {
@@ -30,8 +30,8 @@
       "rank": 1
     },
     {
-      "id": "HWL-244",
-      "title": "Sweep the ~£675 owed to the tax reserve from this week's BaW receipt (per weekly-cfo, 7 Aug).",
+      "id": "active-take-1-800-director-s-drawings-for-august-salary",
+      "title": "Take £1,800 director's drawings for August. Salary is already done.",
       "area": "Money and admin",
       "state": "todo",
       "due": null,
@@ -42,7 +42,7 @@
       "rank": 2
     },
     {
-      "id": "HWL-229",
+      "id": "active-edge-lab-decide-what-happens-to-the-crypto-arena",
       "title": "Edge Lab: decide what happens to the crypto arena now G2a's 14-day window has closed with rules/fable underperforming a buy-and-hold control. Continue paper-only, adjust, or stop. Macro book ties control, no action needed there.",
       "area": "Money and admin",
       "state": "todo",
@@ -54,7 +54,7 @@
       "rank": 3
     },
     {
-      "id": "HWL-223",
+      "id": "active-send-cathal-the-repricing-reply-hold-the-1-500-n",
       "title": "Send Cathal the repricing reply: hold the £1,500 net floor, offer the scope-cut package (keep episode packaging, retire the monthly report for the live dashboard, drop LinkedIn ghostwriting, fold season planning into the fortnightly call), and raise the VAT-reclaim question first. Draft is ready in Gmail.",
       "area": "Better at Work",
       "state": "todo",
@@ -66,6 +66,18 @@
       "rank": 4
     },
     {
+      "id": "active-update-the-creepers-content-calendar-from-1-augu",
+      "title": "Update the Creepers content calendar from 1 August, verify it against both live Instagram accounts, then send it to Anna and Sam.",
+      "area": "Creepers",
+      "state": "todo",
+      "due": "2026-08-01",
+      "baseScore": 72,
+      "score": 72,
+      "reason": "Dated for 2026-08-01.",
+      "tier": "Next",
+      "rank": 5
+    },
+    {
       "id": "HWL-228",
       "title": "Decide amend-or-fold on the personal scout buys (SPCX, NVDA, SNDK, MU, PLTR, five trades in under a week outside the investment strategy doc). Either write a capped scout sleeve into the plan or stop.",
       "area": "Money and admin",
@@ -73,30 +85,6 @@
       "due": null,
       "baseScore": 66,
       "score": 66,
-      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
-      "tier": "Next",
-      "rank": 5
-    },
-    {
-      "id": "HWL-221",
-      "title": "Resolve the rootball gap with Anna, Michael and Sam: take Sam's call, decide whether to request originals from Jason Ingram and Jo Kossak (low-res shortlist picks, Garden Club London credit lines) or shoot rootballs at the Surrey visit.",
-      "area": "Creepers",
-      "state": "todo",
-      "due": null,
-      "baseScore": 64,
-      "score": 64,
-      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
-      "tier": "Next",
-      "rank": 8
-    },
-    {
-      "id": "HWL-222",
-      "title": "Choose the final selects from the ranked 15-pick shortlist once the rootball question is settled.",
-      "area": "Creepers",
-      "state": "todo",
-      "due": null,
-      "baseScore": 64,
-      "score": 64,
       "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
       "tier": "Next",
       "rank": 6
@@ -114,28 +102,28 @@
       "rank": 7
     },
     {
-      "id": "HWL-231",
-      "title": "Share the finished Better at Work website preview with Cathal for review, separately from the repricing conversation. Grant access on the `better-at-work-frontier` Vercel deployment and send the link.",
-      "area": "Better at Work",
+      "id": "active-get-danny-wicks-s-800-plus-vat-payment-confirmat",
+      "title": "Get Danny Wicks's £800 plus VAT payment confirmation. The testimonial film and b-roll were delivered Friday 7 August, edited by Harrison. Delivery is closed.",
+      "area": "Client boundaries",
       "state": "todo",
-      "due": null,
-      "baseScore": 60,
-      "score": 60,
-      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
+      "due": "2026-08-07",
+      "baseScore": 56,
+      "score": 56,
+      "reason": "Dated for 2026-08-07.",
       "tier": "Next",
-      "rank": 9
+      "rank": 8
     },
     {
-      "id": "HWL-224",
-      "title": "Get Danny Wicks's written \"confirmed\" on the £800 plus VAT fee before locking the combined testimonial film and wrap reel edit.",
+      "id": "active-film-the-laurence-year-one-testimonial-months-ov",
+      "title": "Film the Laurence Year One testimonial. Months overdue, talk-to-camera, catch and cut, no script. Reply to his latest WhatsApp.",
       "area": "Client boundaries",
       "state": "todo",
       "due": null,
-      "baseScore": 56,
-      "score": 56,
+      "baseScore": 52,
+      "score": 52,
       "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
-      "tier": "Next",
-      "rank": 10
+      "tier": "Later",
+      "rank": 9
     },
     {
       "id": "HWL-240",
@@ -147,7 +135,7 @@
       "score": 52,
       "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
       "tier": "Later",
-      "rank": 12
+      "rank": 10
     },
     {
       "id": "HWL-241",
@@ -159,7 +147,7 @@
       "score": 52,
       "reason": "Dated for 2026-08-13.",
       "tier": "Later",
-      "rank": 13
+      "rank": 11
     },
     {
       "id": "HWL-242",
@@ -171,31 +159,7 @@
       "score": 52,
       "reason": "Dated for 2026-08-11.",
       "tier": "Later",
-      "rank": 14
-    },
-    {
-      "id": "HWL-225",
-      "title": "Film the Laurence Year One testimonial. Months overdue, talk-to-camera, catch and cut, no script. Reply to his last WhatsApp.",
-      "area": "Client boundaries",
-      "state": "todo",
-      "due": null,
-      "baseScore": 52,
-      "score": 52,
-      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
-      "tier": "Later",
-      "rank": 11
-    },
-    {
-      "id": "HWL-245",
-      "title": "Watch morning-brief and weekly-review's acceptance streaks restart cleanly after the 3-6 Aug auth outage (weekly-cfo already hit its own 2-consecutive-Friday bar on 31 Jul + 7 Aug).",
-      "area": "System",
-      "state": "todo",
-      "due": null,
-      "baseScore": 44,
-      "score": 44,
-      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
-      "tier": "Later",
-      "rank": 16
+      "rank": 12
     },
     {
       "id": "HWL-246",
@@ -207,11 +171,23 @@
       "score": 44,
       "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
       "tier": "Later",
-      "rank": 15
+      "rank": 13
     },
     {
-      "id": "HWL-226",
-      "title": "Run Long + Strong week 3 as prescribed: 6km easy + 6 strides (Mon), 4x4min VO2 (Tue), 5km easy (Thu), 12km long (Sun), Strength A (Wed) and Strength B (Fri) on their actual days, Saturday off. 31km total. Preserve the Tuesday/Friday/Sunday spacing this time; week 2 reshuffled and dropped Friday's session entirely.",
+      "id": "HWL-245",
+      "title": "Watch morning-brief and weekly-review's acceptance streaks restart cleanly after the 3-6 Aug auth outage (weekly-cfo already hit its own 2-consecutive-Friday bar on 31 Jul + 7 Aug).",
+      "area": "System",
+      "state": "todo",
+      "due": null,
+      "baseScore": 44,
+      "score": 44,
+      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
+      "tier": "Later",
+      "rank": 14
+    },
+    {
+      "id": "active-run-the-transition-week-6km-easy-plus-6-strides-",
+      "title": "Run the transition week: 6km easy plus 6 strides Monday, protected 4x4min VO2 Tuesday, 5km easy Thursday and 12km long Sunday. Train Wednesday and Friday at MuscleWorks in a bodybuilding split. Write the replacement aesthetics-plus-engine program this week.",
       "area": "Health",
       "state": "todo",
       "due": null,
@@ -219,11 +195,11 @@
       "score": 38,
       "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
       "tier": "Later",
-      "rank": 17
+      "rank": 15
     },
     {
-      "id": "waiting-sam-creepers-call-about-the-rootball-gap",
-      "title": "Sam (Creepers): call about the rootball gap.",
+      "id": "waiting-cathal-reprice-reply-is-send-gated-on-harrison-t",
+      "title": "Cathal: reprice reply is send-gated on Harrison. The website is already with him.",
       "area": "Awaiting",
       "state": "waiting",
       "due": null,
@@ -234,20 +210,8 @@
       "rank": null
     },
     {
-      "id": "waiting-cathal-reprice-reply-and-website-preview-link-bo",
-      "title": "Cathal: reprice reply and website preview link, both send-gated on Harrison.",
-      "area": "Awaiting",
-      "state": "waiting",
-      "due": null,
-      "baseScore": 18,
-      "score": 18,
-      "reason": "Visible, but owned by somebody else or blocked by an external response.",
-      "tier": "Later",
-      "rank": null
-    },
-    {
-      "id": "waiting-kerri-and-emma-lor-a-level-results-sign-off-rout",
-      "title": "Kerri and Emma (LOR): A-level results sign-off route; back properly on the 17th.",
+      "id": "waiting-kerri-and-emma-lor-po-route-and-first-invoice-af",
+      "title": "Kerri and Emma (LOR): PO route and first invoice after Kerri returns. Results posts are stood down.",
       "area": "Awaiting",
       "state": "waiting",
       "due": null,
@@ -366,12 +330,60 @@
       "rank": null
     },
     {
+      "id": "active-pro-landscaper-advert-friday-s-sam-call-closed-t",
+      "title": "Pro Landscaper advert: Friday's Sam call closed the rootball, final-select and originals-request loop.",
+      "area": "Creepers",
+      "state": "done",
+      "due": null,
+      "baseScore": 64,
+      "score": 0,
+      "reason": "Closed in the canonical weekly board.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "active-final-advert-selects-confirmed-through-the-frida",
+      "title": "Final advert selects confirmed through the Friday call.",
+      "area": "Creepers",
+      "state": "done",
+      "due": null,
+      "baseScore": 64,
+      "score": 0,
+      "reason": "Closed in the canonical weekly board.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-231",
+      "title": "Share the finished Better at Work website preview with Cathal for review. It is with him, the ball is his.",
+      "area": "Better at Work",
+      "state": "done",
+      "due": null,
+      "baseScore": 52,
+      "score": 0,
+      "reason": "Closed in the canonical weekly board.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
       "id": "HWL-191",
-      "title": "Route the A-level results posts to Emma for sign-off before results day, Thursday 13 August. Kerri is away until the 17th; this needs a decision this week or the posts die by default.",
+      "title": "Stand down the A-level results posts. Harrison closed the trigger on Sunday 9 August.",
       "area": "Laing O'Rourke",
       "state": "done",
-      "due": "2026-08-13",
+      "due": "2026-08-09",
       "baseScore": 68,
+      "score": 0,
+      "reason": "Closed in the canonical weekly board.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-244",
+      "title": "Sweep the £675 owed to the tax reserve from the BaW receipt. Harrison confirmed done Sunday 9 August.",
+      "area": "Money and admin",
+      "state": "done",
+      "due": "2026-08-09",
+      "baseScore": 78,
       "score": 0,
       "reason": "Closed in the canonical weekly board.",
       "tier": "Closed",

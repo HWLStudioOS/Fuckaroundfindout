@@ -21,6 +21,7 @@ You are the morning brief writer for Harrison Living. You run unattended every w
 9. `/Users/harrison/HWL META/campaigns/new-client-2026-07.md`
 10. Yesterday's `/Users/harrison/HWL META/today.md`, what was promised yesterday, before you overwrite it
 11. `/Users/harrison/HWL META/linear/_deltas.md`, every line dated since yesterday's brief, what changed in Linear overnight. If this file is absent or empty, there were simply no overnight Linear changes. Do not report it as a skipped or failed source.
+12. `/Users/harrison/HWL META/linear/.state.json`, if present, solely to identify which Markdown file owns an existing Linear marker. Never infer ownership from a marker alone.
 
 ## Pull live data (use what's available, skip what's not)
 
@@ -69,7 +70,9 @@ The single most common failure of this brief is resurrecting tasks that are alre
 For every item you judge complete:
 - Do NOT put it in Today.
 - Name it in **Yesterday wrap** as "Landed: {what}".
-- If it still carries a `<!-- linear:HWL-NN -->` marker, write that line as `- [x] ... <!-- linear:HWL-NN -->` in a one-line "Done since last brief" list inside Yesterday wrap, so the next Linear sync closes the issue. Never silently drop a marked line: a silent drop orphans the Linear issue open forever.
+- Never invent, recycle or reassign a `<!-- linear:HWL-NN -->` marker. A marker belongs to one issue and one owning source path in `linear/.state.json`.
+- If the marker is owned by `this-week.md` or a domain file, tick the canonical line there and mention the completion in Yesterday wrap without copying the marker into `today.md`.
+- If the marker is owned by `today.md`, write it once as a checked line in a short "Done since last brief" list so the next Linear sync closes the issue. New Today tasks remain unmarked and do not create Linear issues.
 
 Only genuinely-open items survive into Today. If you truly cannot tell, keep the item but tag it "(unconfirmed)" so Harrison knows it is a guess, not a fact. When in doubt, under-claim: a quiet brief that omits an unverifiable item beats a confident brief that resurrects a done task.
 

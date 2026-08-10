@@ -27,7 +27,7 @@ The Claude CLI session expired again. weekly-review (3 Aug 20:56), morning-brief
 
 | Agent | File | Schedule | Status | Acceptance |
 |---|---|---|---|---|
-| morning-brief | `agents/morning-brief.md` + `.sh` | 06:30 weekdays | RUNNING-CLEAN. Restored 7 Aug after the 3-6 Aug auth outage (4, 5, 6 Aug all AUTH_REQUIRED). 7 Aug ran clean, verifier corrected 2 items, msg_id=598. | 1/14 consecutive clean weekdays since the restart (7 Aug). |
+| morning-brief | `agents/morning-brief.md` + `.sh` | 06:30 weekdays | RUNNING-CLEAN. Restored 7 Aug after the 3-6 Aug auth outage. The 10 Aug run completed, but its task state was superseded by Harrison's direct Sunday corrections after PR #12 merged. Source-precedence and Linear-marker rules were tightened the same morning. | 2/14 consecutive clean weekdays since the restart (7 and 10 Aug). Output accuracy remains watched separately. |
 | weekly-review | `agents/weekly-review.md` | Sun 18:00 | RUNNING-CLEAN. The 3 Aug run failed (AUTH_REQUIRED), leaving a 2-week gap in `agents/_review-log.md`. This 9 Aug run is a retro covering both missed weeks. | 1/2 after this run. Needs one more clean Sunday to hit acceptance. |
 | weekly-cfo | `agents/weekly-cfo.md` | Fri 16:00 | RUNNING-CLEAN. 31 Jul and 7 Aug both completed with Xero unreachable + manual snapshot fully done. | **2/2 consecutive clean Fridays, hits its own acceptance bar.** First of the three v1 agents to do so. v1 itself still needs all three simultaneously. |
 
@@ -39,7 +39,7 @@ The Claude CLI session expired again. weekly-review (3 Aug 20:56), morning-brief
 
 | Agent | File | Schedule | Status | Notes |
 |---|---|---|---|---|
-| content-engine | `agents/content-engine.md` + `.sh` | Mon 07:00 | AUTH-BLOCKED as of its last scheduled run (3 Aug). Not yet reconfirmed clean since the 6 Aug fix (next due Mon 10 Aug). | Publishing evidence remains unchanged by the failed run. |
+| content-engine | `agents/content-engine.md` + `.sh` | Mon 07:00 | RUNNING-CLEAN. The 10 Aug run completed after authentication was restored. | The substance bank was dry for at least the third confirmed Monday. This is an input drought, not a runtime failure. |
 | learning-brief | `agents/learning-brief.md` | Sun 09:00 | RUNNING-CLEAN. 9 Aug ran clean, 8 items, 5 drills. | Earlier clean runs remain historical. |
 | discovery-scan | `agents/discovery-scan.md` | Mon/Wed/Fri 14:07 | RUNNING-CLEAN. 7 Aug ran clean (6 items, 1 buyable queued), first clean run since the outage. | Earlier consecutive clean runs remain historical. |
 | campaign-chaser | `agents/campaign-chaser.md` | Mon/Wed/Fri 10:07 | RUNNING-CLEAN. 7 Aug ran clean, first clean run since the outage. | The content-quality acceptance count remains at zero. |
@@ -49,7 +49,7 @@ The Claude CLI session expired again. weekly-review (3 Aug 20:56), morning-brief
 
 | Job | File | Schedule | Status | Notes |
 |---|---|---|---|---|
-| linear-sync | `linear/sync.js` + `sync.sh` | hourly | RUNNING-CLEAN. API key and launchd job are live. | Bidirectional poll works. Board reconciled from 43 zombie Todos to 27 current issues on 27 Jul. |
+| linear-sync | `linear/sync.js` + `sync.sh` | hourly | RUNNING-DEGRADED. API and launchd are live, but duplicate markers made HWL-191 alternate todo and done hourly from 9 to 10 Aug. | Repair prepared 10 Aug: one owning source per issue, non-owner markers fail closed, and unmarked Today tasks no longer create duplicate issues. |
 
 ## Known infrastructure issues to address
 

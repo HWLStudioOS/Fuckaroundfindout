@@ -2,9 +2,13 @@
 
 HWL Studio Limited. Sole director/shareholder. Started trading 29 August 2025.
 
-## Live commercial position, 4 August 2026
+## Live commercial position, 10 August 2026
 
 Harrison's 4 August morning update is the current source of truth, with dated additions below:
+
+- **10 August, August drawings set:** Harrison set August director's drawings at **£1,800**. Salary is already done. This records the amount, not payment completion. Do not mark paid until the transfer is confirmed.
+
+- **9 August, BaW receipt sweep done:** Harrison confirmed the **£675** sweep from the paid £1,800 BaW invoice is complete, £375 Corporation Tax control plus £300 VAT. Starting from the last confirmed £9,200 reserve, the computed balance is **£9,875** before any other movement. Bank verification still wins over the computed figure.
 
 - **6 August, KiwiSaver decision (verification pending, nothing executed):** Harrison has decided to withdraw his New Zealand KiwiSaver, about 35k (currency to confirm, likely NZD), and bring it to the UK. His stated rationale: stops paying 28% a year in NZ and arrives as a tax-free lump sum in the UK. Three things need professional verification before any instruction is filed, route through Litchfields (Raj for tax advice):
   1. Withdrawal mechanics: permanent-emigration withdrawal generally requires one year after permanently leaving NZ, releases member and employer contributions plus returns, and claws back NZ government contributions. Confirm his scheme's process and what the actual releasable balance is.
@@ -14,7 +18,7 @@ Harrison's 4 August morning update is the current source of truth, with dated ad
 
 - **6 August, tax reserve parked:** Harrison moved the £9,200 combined VAT and Corporation Tax reserve into Revolut Savings at about 3% AER. Done, his call, no pending approval. The Shawbrook Easy Access recommendation (3.86%) is superseded. The reserve remains protected company tax cash; only its location changed.
 
-- **6 August evening, two more scout buys:** Harrison bought $50 of Micron (MU) and $50 of Palantir (PLTR) at about 21:40 BST, after the US close, so the fills are extended-hours or Friday-open prices. Exact fills (shares, price, GBP cost basis) still needed for CGT records. That is now three rounds of orders outside the strategy doc in 48 hours against a stated watch-only stance. The amend-or-fold decision (capped scout sleeve versus fold into the plan) is no longer pending, it is overdue.
+- **7 August market open, two more scout buys, Harrison correction 10 August:** Harrison bought **$50 of Micron (MU)** and **$50 of Palantir (PLTR)** at the Friday 7 August US market open. Exact shares, broker fill prices and GBP cost basis still need the Revolut statement for CGT records. Do not substitute a published opening quote for the actual broker fill. That is now three rounds of orders outside the strategy doc in under a week against a stated watch-only stance. The amend-or-fold decision remains due at 14:30 on 10 August.
 
 - **6 August, personal investing:** Harrison reports additional personal orders placed beyond the 4 August scouts, before the day-one inventory completed. The strategy doc inventory cannot be trued up until he supplies the fills (ticker, size, price, date, GBP cost basis for CGT). Stance from today: watch-only via Perplexity Finance, eyes on SNDK and SPCX, no further orders. Sandisk reported a large Q4 beat on 5 August and sold off anyway; the SpaceX lockup opened 6 August (roughly 911.5m shares eligible, staggered tranches to 8 December).
 

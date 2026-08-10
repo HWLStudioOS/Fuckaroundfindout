@@ -3413,3 +3413,19 @@
 [2026-08-10T07:30:05.412Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
 [2026-08-10T07:30:05.716Z] INFO push + HWL-261 Join MuscleWorks Bethnal Green, then cancel Elevate Fitness.
 [2026-08-10T07:30:06.359Z] INFO Sync done. push: +3 ~0. pull: ~0.
+[2026-08-10T08:25:00.414Z] INFO Sync start. Last: 2026-08-10T07:30:06.358Z
+[2026-08-10T08:25:00.753Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T08:25:00.905Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-10T09:25:01.017Z] INFO Sync start. Last: 2026-08-10T08:25:00.903Z
+[2026-08-10T09:25:01.654Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T09:25:01.798Z] INFO push ~ HWL-255 → done
+[2026-08-10T09:25:01.907Z] INFO Sync done. push: +0 ~1. pull: ~0.
+[2026-08-10T10:25:01.961Z] INFO Sync start. Last: 2026-08-10T09:25:01.904Z
+[2026-08-10T10:25:02.371Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T10:25:02.537Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-10T11:25:02.585Z] INFO Sync start. Last: 2026-08-10T10:25:02.535Z
+[2026-08-10T11:25:02.948Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T11:25:03.024Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-10T12:25:03.094Z] INFO Sync start. Last: 2026-08-10T11:25:03.020Z
+[2026-08-10T12:25:03.380Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T12:25:03.450Z] INFO Sync done. push: +0 ~0. pull: ~0.

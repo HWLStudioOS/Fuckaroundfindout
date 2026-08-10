@@ -15,7 +15,7 @@
 
 ## Training
 
-Race to the Stones 50K was completed on 11 July 2026. Lake Bled is not happening. The active prescription is the eight-week **Build + Engine** block in `health/training-plan.md`, 10 August to 4 October: four MARCHON GAIN lifting sessions, four runs and Saturday rest or golf. Wednesday owns VO2 work, Sunday owns the long run, and the two easy runs sit beside Monday lower and Friday upper. Baseline, 32/20, Garmin daily suggestions, the old 21.2 km maintenance week and the ultra CSV must not drive briefs or reminders.
+Race to the Stones 50K was completed on 11 July 2026. Lake Bled is not happening. The active prescription is the eight-week **Build + Engine** block in `health/training-plan.md`, 10 August to 4 October: four lifting sessions, four runs and Saturday rest or golf. Wednesday owns VO2 work and Sunday owns the long run. STNDRD is on a seven-day exercise-selection trial after a positive Push session, with MARCHON GAIN as fallback. Baseline, 32/20, Garmin daily suggestions, the old 21.2 km maintenance week and the ultra CSV must not drive briefs or reminders.
 
 ## Strength
 

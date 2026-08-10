@@ -6,13 +6,14 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 
 ## 2026-08-10 08:23 to 08:29 (Monday reset, Harrison direct)
 
-- Training decision locked: four lifting days and four runs. Monday lower plus easy, Tuesday upper, Wednesday hard run, Thursday lower, Friday upper plus easy, Saturday rest or golf, Sunday long. MARCHON GAIN owns lifting, Garmin records readiness, and Baseline plus 32/20 are frozen.
+- Strength session completed 10 August: STNDRD Push. Harrison's first read was that the app and session were pretty nice. Count it as Upper 1 and run STNDRD as a seven-day delivery trial without letting its split displace four weekly runs.
+- Training decision locked: four lifting days and four runs. This week is Monday upper plus easy, Tuesday lower, Wednesday hard run, Thursday upper, Friday lower plus easy, Saturday rest or golf, Sunday long. STNDRD is on a seven-day exercise-selection trial, with MARCHON GAIN as fallback. Garmin records readiness, and Baseline plus 32/20 are frozen.
 - Eat Work Art private-studio application submitted 10 August. Await their response and suitable viewing options. The search action is closed for now.
 - Fable is working on a basic Creepers edit as a capability test.
 - Laurence meeting first.
 - Verify both Creepers feeds, update the content-calendar site and get the accurate version to Sam.
 - Final-pass the Better at Work Season 5 design system and website.
-- Training system closed 10 August. Build + Engine now owns the week, with MARCHON GAIN for four lifting sessions and four prescribed runs. Baseline and 32/20 are frozen.
+- Training system closed 10 August. Build + Engine owns four lifting slots and four prescribed runs. STNDRD is the active seven-day delivery test after a positive Push session. Baseline and 32/20 are frozen.
 - Quit Elevate Fitness after the replacement is live. Current recommendation is MuscleWorks Bethnal Green over Third Space.
 - Harrison would love his own space. The target is now a private edit studio for the Mac mini, monitor and drives, not a hot desk or shared dedicated desk. Working ceiling: £1,000 per month before recoverable VAT, inclusive of rent, service charge, rates, internet and utilities. Require 24/7 access, equipment left overnight, lockable security, hardwired symmetric fibre and a short managed licence. View Netil Corner, Netil House and Lockside Studios first. Do not sign until the live cash check is green.
 - Last night's remaining live setup loop is the editor bottleneck: finish the Fable test, prove the fibre and proxy-media workflow, then route any David replacement decision through Council.

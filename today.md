@@ -8,7 +8,7 @@ financial_truth_updated: 2026-08-09 (£675 tax sweep done, August drawings still
 
 ## Pulse
 
-Week 3 starts with 6km easy plus 6 strides. RHR is 44, HRV 56 BALANCED, readiness 73 and ACWR 0.95. Laurence has a meeting this morning and goes first. Harrison has Fable working on a basic Creepers edit as a capability test. The urgent operating fix is an interim gigabit desk while the building fibre request moves. The rest of the day is the Creepers calendar close, a Better at Work Season 5 launch-readiness pass, and the gym plus training-system decision for bodybuilding and hard VO2 work.
+Week 3 starts with 6km easy plus 6 strides. RHR is 44, HRV 56 BALANCED, readiness 73 and ACWR 0.95. Laurence has a meeting this morning and goes first. Harrison has Fable working on a basic Creepers edit as a capability test. The urgent operating fix is a secure edit base for the Mac mini and production kit while the building fibre request moves. The rest of the day is the Creepers calendar close, a Better at Work Season 5 launch-readiness pass, and the gym plus training-system decision for bodybuilding and hard VO2 work.
 
 ## Yesterday wrap
 
@@ -19,7 +19,7 @@ Still open: Danny's £800 plus VAT payment confirmation, the outcome of this mor
 ## Today
 
 - [ ] Take this morning's Laurence meeting. Use the live conversation to reset the relationship and leave with one explicit testimonial outcome or next step. <!-- linear:HWL-235 -->
-- [ ] Fibre workspace: trial a nearby desk with verified gigabit service, run a real footage upload and choose the interim base while the building connection is blocked. Techspace Shoreditch is the first test; SHED Haggerston and Veda Studios are the backups.
+- [ ] Edit base: enquire about and tour a secure dedicated desk or one-person managed studio where the Mac mini, monitor and drives can remain overnight. Require 24/7 access, lockable security, hardwired symmetric fibre and a short licence. Start with Laundry Studios and Netil House. Do not take a conventional lease yet.
 - [ ] Fable Creepers edit test: finish the basic edit already in motion, assess the output honestly and record the editing lane Fable can actually own.
 - [ ] Creepers: verify what published on both Instagram accounts from 1 August, update the content-calendar site to match reality, then get the accurate version to Sam.
 - [ ] Better at Work Season 5: final-pass the design system, make it launch-ready, make the final website adjustments, then review both with fresh eyes before calling them done.
@@ -41,7 +41,7 @@ Still open: Danny's £800 plus VAT payment confirmation, the outcome of this mor
 - Edge Lab: G2a did not pass in either arena. No live capital is armed. Continue paper-only until an explicit evidence decision is recorded.
 - Squiggly Careers: production and development chat Tuesday 11 August, 16:15 to 17:00, with Helen Tupper, Sarah Ellis and Sarah Massie.
 - Training program: Sunday pivot is active, bodybuilding for aesthetics plus hard cardio for VO2 max. Harrison has recently used the Marchon training app and Garmin suggested runs instead of the stale 32/20 site or Baseline app. One delivery layer must be chosen before the replacement programme is built.
-- Studio throughput: 70Mb home broadband and the Mac mini RAW workflow are separate bottlenecks. Trial the gigabit desk first. If the machine still struggles, test proxy media plus a fast external NVMe before any hardware spend. Decide David's editing lane only after the Fable and infrastructure tests.
+- Studio throughput: 70Mb home broadband and the Mac mini RAW workflow are separate bottlenecks. Find a secure edit base, not a laptop hot desk. If the machine still struggles on proven fibre, test proxy media plus a fast external NVMe before any hardware spend. Decide David's editing lane only after the Fable and infrastructure tests.
 
 ## Standing
 
@@ -55,4 +55,4 @@ System: Claude authentication is live and every scheduled agent has completed su
 
 ## Lens
 
-Laurence first. Then prove the fibre workspace, close the Creepers calendar and protect the Better at Work build block. The gym and training system are one decision chain, not two rebuilds.
+Laurence first. Then shortlist the secure edit base, close the Creepers calendar and protect the Better at Work build block. The gym and training system are one decision chain, not two rebuilds.

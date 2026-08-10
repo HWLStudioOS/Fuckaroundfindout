@@ -8,19 +8,19 @@ financial_truth_updated: 2026-08-07 16:00 BST
 
 ## Theme
 
-Reset the week around the Laurence meeting, an interim gigabit workspace, the verified Creepers calendar, the Better at Work Season 5 close, and one training delivery layer for bodybuilding plus VO2 work. Do not rebuild stale products for their own sake.
+Reset the week around the Laurence meeting, a secure fibre-connected edit base, the verified Creepers calendar, the Better at Work Season 5 close, and one training delivery layer for bodybuilding plus VO2 work. Do not rebuild stale products for their own sake.
 
 ## Top 3 outcomes
 
 1. This morning's Laurence meeting ends with one explicit testimonial outcome or next step.
-2. A nearby workspace proves real gigabit throughput while the building fibre request moves separately, then Creepers receives an accurate calendar site.
+2. A secure nearby edit base is shortlisted for the Mac mini and production kit while the building fibre request moves separately, then Creepers receives an accurate calendar site.
 3. Better at Work's Season 5 design system and website reach launch-ready quality, and the gym plus training route is chosen without rebuilding both 32/20 and Baseline.
 
 ## Active board
 
 ### Studio operations
 
-- [ ] Trial Techspace Shoreditch's advertised 1Gbps desk with a real footage transfer, compare SHED Haggerston and Veda Studios, then choose the interim fibre workspace while the building connection is blocked. <!-- linear:HWL-259 -->
+- [ ] Enquire about and tour a secure dedicated desk or one-person managed studio for the Mac mini, monitor and drives. Require 24/7 access, equipment left overnight, lockable security, hardwired symmetric fibre and a short licence. Start with Laundry Studios and Netil House. Do not take a conventional lease yet. <!-- linear:HWL-259 -->
 - [ ] After the Fable and fibre tests, decide David's editing lane through Council. Test proxy media plus a fast external NVMe before buying hardware or changing the editor. <!-- linear:HWL-260 -->
 
 ### Creepers

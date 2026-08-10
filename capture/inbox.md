@@ -12,7 +12,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - Final-pass the Better at Work Season 5 design system and website.
 - Choose between rebuilding 32/20, updating Baseline or using a proven bodybuilding app, then build for aesthetics plus VO2 max. Do not rebuild two products.
 - Quit Elevate Fitness after the replacement is live. Current recommendation is MuscleWorks Bethnal Green over Third Space.
-- Find an interim nearby workspace with proven full fibre while the building connection is blocked. Techspace Shoreditch is the first day-pass test, with SHED Haggerston and Veda Studios as alternatives.
+- Find a secure edit base for the Mac mini, monitor and drives while the building connection is blocked. A laptop hot desk is the wrong product. Require 24/7 access, equipment left overnight, lockable security, hardwired symmetric fibre and a short licence. Enquire with Laundry Studios and Netil House first. Do not take a conventional commercial lease yet.
 - Last night's remaining live setup loop is the editor bottleneck: finish the Fable test, prove the fibre and proxy-media workflow, then route any David replacement decision through Council.
 
 ## 2026-08-09 21:00 (Sunday night check-in, Harrison direct)

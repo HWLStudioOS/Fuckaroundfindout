@@ -20,7 +20,7 @@ Reset the week around the Laurence meeting, a secure fibre-connected edit base, 
 
 ### Studio operations
 
-- [ ] Enquire about and tour a secure dedicated desk or one-person managed studio for the Mac mini, monitor and drives. Require 24/7 access, equipment left overnight, lockable security, hardwired symmetric fibre and a short licence. Start with Laundry Studios and Netil House. Do not take a conventional lease yet. <!-- linear:HWL-259 -->
+- [ ] Book viewings at Netil Corner, Netil House and Lockside Studios for a private edit studio Harrison can make his own. Require 24/7 access, equipment left overnight, lockable security, hardwired symmetric fibre and a short managed licence. Do not take a conventional lease yet. <!-- linear:HWL-259 -->
 - [ ] After the Fable and fibre tests, decide David's editing lane through Council. Test proxy media plus a fast external NVMe before buying hardware or changing the editor. <!-- linear:HWL-260 -->
 
 ### Creepers

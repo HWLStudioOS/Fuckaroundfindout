@@ -15,7 +15,9 @@ Active. Sandringham 2026 is the current content centrepiece. Shoot completed 17 
 ## Active state, 10 August 2026
 
 - **Pro Landscaper advert loop closed Friday 7 August.** Harrison spoke to Sam. The call closed the rootball question, final selects and originals request for the 19 August advert. Do not resurrect those as tasks.
-- **Current delivery:** verify what actually published from 1 August on `@creepersnursery` and `@creepersinstallation`, update the content-calendar site to match reality, then get the accurate version to Sam.
+- **Calendar verified and deployed 10 August:** the live site now reflects the four grid posts that actually ran from 2 to 4 August. Send the accurate link to Sam: `https://creepers-content-calendar.vercel.app`.
+- **Verified publication ledger:** 2 August `@ben.beth` Surrey garden collaboration on the nursery grid; 3 August Wentworth Estate Hydrangea Limelight carousel shared by both accounts; 4 August `@landformuk` Royal Legacy Garden collaboration on the nursery grid; 4 August Sandringham stock update on the nursery account. No installation-only August post was live. Nothing newer than 4 August was live at the 10 August check.
+- **Calendar correction:** the four planned hero-film and stock-walk slots for w/c 3 August did not run and were replaced by the four live posts above. The calendar now supports a true `Both accounts` state for shared collaborations.
 - **Editing test in motion:** Harrison has Fable working on a basic Creepers edit. Finish the test and record the narrow editing lane it can reliably own before treating it as a delivery system.
 
 ## Prior active state, 31 July 2026

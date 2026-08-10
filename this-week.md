@@ -20,7 +20,7 @@ Reset the week around the Laurence meeting, a secure fibre-connected edit base, 
 
 ### Studio operations
 
-- [ ] Reply to Nikki at Eat Work Art with the Netil House brief: roughly 120 to 200 sq ft, £800 to £900 target and £1,000 all-in ceiling before recoverable VAT, private lockable room, 24/7 access, equipment left overnight and reliable hardwired upload speed. Book a viewing, then check the deposit, term and break clause before choosing. <!-- linear:HWL-259 -->
+- [ ] Nikki has the Netil House brief. Await viewing options, book the right room, then check the hardwired upload speed, all-in cost, deposit, term and break clause before choosing. <!-- linear:HWL-259 -->
 - [ ] After the Fable and fibre tests, decide David's editing lane through Council. Test proxy media plus a fast external NVMe before buying hardware or changing the editor. <!-- linear:HWL-260 -->
 
 ### Creepers
@@ -28,7 +28,7 @@ Reset the week around the Laurence meeting, a secure fibre-connected edit base, 
 - [x] Pro Landscaper advert: Friday's Sam call closed the rootball, final-select and originals-request loop. <!-- linear:HWL-247 -->
 - [x] Final advert selects confirmed through the Friday call. <!-- linear:HWL-248 -->
 - [ ] Fable basic Creepers edit is in edit. Finish the test, assess the output honestly and record the basic editing lane it can own. <!-- linear:HWL-256 -->
-- [ ] Verify both Creepers Instagram accounts from 1 August, update the content-calendar site to match reality, then get the accurate version to Sam. <!-- linear:HWL-249 -->
+- [ ] Calendar verified against both Creepers grids through 10 August and deployed live. Send the accurate version to Sam. <!-- linear:HWL-249 -->
 - [ ] Confirm the exact Surrey Season 4 shoot date with Anna and Sarah-Louise. Still pending. <!-- linear:HWL-239 -->
 
 ### Better at Work

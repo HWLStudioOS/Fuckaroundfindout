@@ -2,8 +2,8 @@
   "title": "The Board Room",
   "week": "10 to 16 August 2026",
   "sourceDate": "2026-08-10",
-  "generatedAt": "2026-08-10T12:00:55.985Z",
-  "sourceCommit": "f03b840",
+  "generatedAt": "2026-08-10T12:26:05.052Z",
+  "sourceCommit": "e6c9b88",
   "summary": {
     "open": 29,
     "active": 19,
@@ -31,13 +31,13 @@
     },
     {
       "id": "HWL-249",
-      "title": "Verify both Creepers Instagram accounts from 1 August, update the content-calendar site to match reality, then get the accurate version to Sam.",
+      "title": "Calendar verified against both Creepers grids through 10 August and deployed live. Send the accurate version to Sam.",
       "area": "Creepers",
       "state": "todo",
-      "due": "2026-08-01",
+      "due": "2026-08-10",
       "baseScore": 97,
       "score": 97,
-      "reason": "Verify both live Creepers feeds, make the calendar site accurate and get the usable version to Sam.",
+      "reason": "The live calendar is now verified and accurate through 10 August. Close the loop by sending the usable version to Sam.",
       "tier": "Critical",
       "rank": 2
     },
@@ -102,18 +102,6 @@
       "rank": 7
     },
     {
-      "id": "HWL-259",
-      "title": "Reply to Nikki at Eat Work Art with the Netil House brief: roughly 120 to 200 sq ft, £800 to £900 target and £1,000 all-in ceiling before recoverable VAT, private lockable room, 24/7 access, equipment left overnight and reliable hardwired upload speed. Book a viewing, then check the deposit, term and break clause before choosing.",
-      "area": "Studio operations",
-      "state": "todo",
-      "due": null,
-      "baseScore": 84,
-      "score": 84,
-      "reason": "Nikki replied positively about Netil House. Send the specific room, budget and fibre brief, then book the right viewing.",
-      "tier": "High",
-      "rank": 8
-    },
-    {
       "id": "HWL-253",
       "title": "Take £1,800 director's drawings for August. Salary is already done.",
       "area": "Money and admin",
@@ -123,7 +111,7 @@
       "score": 84,
       "reason": "The August amount is set. Complete the £1,800 drawings transfer and record the real payment.",
       "tier": "High",
-      "rank": 9
+      "rank": 8
     },
     {
       "id": "HWL-242",
@@ -135,7 +123,7 @@
       "score": 80,
       "reason": "Dated for Tuesday 11 August at 16:15. Arrive with the production and development position clear.",
       "tier": "High",
-      "rank": 10
+      "rank": 9
     },
     {
       "id": "HWL-241",
@@ -147,7 +135,7 @@
       "score": 78,
       "reason": "The Caroline Webb recording is Thursday 13 August. Finish the brief before the day becomes reactive.",
       "tier": "High",
-      "rank": 11
+      "rank": 10
     },
     {
       "id": "HWL-250",
@@ -159,7 +147,7 @@
       "score": 72,
       "reason": "The commercial position and draft already exist. Close it after the Season 5 launch package has had its final pass.",
       "tier": "Next",
-      "rank": 12
+      "rank": 11
     },
     {
       "id": "HWL-254",
@@ -170,6 +158,18 @@
       "baseScore": 62,
       "score": 62,
       "reason": "G2a has closed without a pass. Record the next paper-only decision without arming capital.",
+      "tier": "Next",
+      "rank": 12
+    },
+    {
+      "id": "HWL-259",
+      "title": "Nikki has the Netil House brief. Await viewing options, book the right room, then check the hardwired upload speed, all-in cost, deposit, term and break clause before choosing.",
+      "area": "Studio operations",
+      "state": "todo",
+      "due": null,
+      "baseScore": 58,
+      "score": 58,
+      "reason": "Nikki has the room, budget and fibre brief. Await her options, then book the right viewing.",
       "tier": "Next",
       "rank": 13
     },

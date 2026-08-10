@@ -6,13 +6,13 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 
 ## 2026-08-10 08:23 to 08:29 (Monday reset, Harrison direct)
 
-- Eat Work Art replied positively on 10 August. Nikki asked for size, budget and other considerations before arranging a Netil House tour. Reply with roughly 120 to 200 sq ft, £800 to £900 target, £1,000 all-in fixed-cost ceiling before recoverable VAT, private lockable room, 24/7 access, equipment left overnight and reliable hardwired upload speed.
+- Eat Work Art replied positively on 10 August. Harrison sent Nikki the room, budget, access, security and fibre brief. Await viewing options.
 - Strength session completed 10 August: STNDRD Push. Harrison's first read was that the app and session were pretty nice. Count it as Upper 1 and run STNDRD as a seven-day delivery trial without letting its split displace four weekly runs.
 - Training decision locked: four lifting days and four runs. This week is Monday upper plus easy, Tuesday lower, Wednesday hard run, Thursday upper, Friday lower plus easy, Saturday rest or golf, Sunday long. STNDRD is on a seven-day exercise-selection trial, with MARCHON GAIN as fallback. Garmin records readiness, and Baseline plus 32/20 are frozen.
-- Eat Work Art application received a positive reply from Nikki on 10 August. Reply with the room brief and book a viewing.
+- Eat Work Art application received a positive reply from Nikki on 10 August. Reply sent. Await viewing options and book the right room.
 - Fable is working on a basic Creepers edit as a capability test.
 - Laurence meeting first.
-- Verify both Creepers feeds, update the content-calendar site and get the accurate version to Sam.
+- Creepers calendar verified against both Instagram grids through 10 August and redeployed. Four actual grid posts from 2 to 4 August replaced the four planned slots that did not run. Send the live link to Sam.
 - Final-pass the Better at Work Season 5 design system and website.
 - Training system closed 10 August. Build + Engine owns four lifting slots and four prescribed runs. STNDRD is the active seven-day delivery test after a positive Push session. Baseline and 32/20 are frozen.
 - Quit Elevate Fitness after the replacement is live. Current recommendation is MuscleWorks Bethnal Green over Third Space.

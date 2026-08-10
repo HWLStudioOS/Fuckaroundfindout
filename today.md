@@ -8,13 +8,13 @@ financial_truth_updated: 2026-08-09 (£675 tax sweep done, August drawings still
 
 ## Pulse
 
-Week 3 starts with 6km easy plus 6 strides. RHR is 44, HRV 56 BALANCED, readiness 73 and ACWR 0.95. Laurence has a meeting this morning and goes first. Harrison has Fable working on a basic Creepers edit as a capability test. The urgent operating fix is a secure edit base for the Mac mini and production kit while the building fibre request moves. The rest of the day is the Creepers calendar close, a Better at Work Season 5 launch-readiness pass, and the gym plus training-system decision for bodybuilding and hard VO2 work.
+Build + Engine starts with MARCHON GAIN lower plus 30 minutes easy running. RHR is 44, HRV 56 BALANCED, readiness 73 and Garmin ACWR is 0.8 Optimal. Laurence has a meeting this morning and goes first. Harrison has Fable working on a basic Creepers edit as a capability test. The urgent operating fix is a secure edit base for the Mac mini and production kit while the building fibre request moves. The rest of the day is the Creepers calendar close, a Better at Work Season 5 launch-readiness pass, and the gym switch.
 
 ## Yesterday wrap
 
 Landed: Danny Wicks's testimonial plus b-roll was delivered Friday 7 August, edited by Harrison. Harrison spoke to Sam on Friday and closed the callback loop. The LOR A-level results posts were stood down on Sunday. The £675 Better at Work receipt slice was swept to the tax reserve. PR #12 merged this morning with the Board Room dependency patches, the pypdf 6.15.0 pin, Sunday state and the training pivot.
 
-Still open: Danny's £800 plus VAT payment confirmation, the outcome of this morning's Laurence meeting, Cathal's reprice response, the Creepers content-calendar send, the Better at Work Season 5 design and website close, August drawings, the personal scout-trade decision and the replacement training system.
+Still open: Danny's £800 plus VAT payment confirmation, the outcome of this morning's Laurence meeting, Cathal's reprice response, the Creepers content-calendar send, the Better at Work Season 5 design and website close, August drawings, the personal scout-trade decision and the MuscleWorks switch.
 
 ## Today
 
@@ -24,7 +24,7 @@ Still open: Danny's £800 plus VAT payment confirmation, the outcome of this mor
 - [ ] Creepers: verify what published on both Instagram accounts from 1 August, update the content-calendar site to match reality, then get the accurate version to Sam.
 - [ ] Better at Work Season 5: final-pass the design system, make it launch-ready, make the final website adjustments, then review both with fresh eyes before calling them done.
 - [ ] Better at Work commercial: voice-pass Cathal's reprice reply and hold the current £1,500 net floor. Sending remains one-tap gated.
-- [ ] Training system: audit the stale 32/20 site and Baseline app against the new goal, compare that work with buying a proven bodybuilding app, choose one route, then build the aesthetics-plus-VO2 programme. Do not rebuild two products.
+- [x] Training system rebuilt: MARCHON GAIN owns four lifting days and the canonical plan owns four runs. The active Build + Engine week is lower plus easy, upper, hard run, lower, upper plus easy, rest or golf, long run. Baseline and 32/20 are frozen.
 - [ ] Gym switch: choose MuscleWorks Bethnal Green, join it first, then cancel Elevate Fitness. Third Space only wins if the pool, recovery and hospitality layer is worth an extra £206 per month plus the joining fee.
 - [ ] 14:30 market check: decide amend-or-fold on SPCX, NVDA, SNDK, MU and PLTR against `money/investment-strategy-2026-08-03.md`. Do not use a strategy rewrite as retrospective permission for trades already placed. <!-- linear:HWL-228 -->
 - [ ] August admin taps: take £1,800 director's drawings, and accept Neil Mullarkey's Tuesday 15 September 14:00 to 15:30 recording invite. Check the 16:00 Kerri call immediately after it.
@@ -41,7 +41,7 @@ Still open: Danny's £800 plus VAT payment confirmation, the outcome of this mor
 - KiwiSaver withdrawal: verification via Litchfields on withdrawal mechanics, the real PIE tax drag and UK lump-sum tax treatment. Nothing filed.
 - Edge Lab: G2a did not pass in either arena. No live capital is armed. Continue paper-only until an explicit evidence decision is recorded.
 - Squiggly Careers: production and development chat Tuesday 11 August, 16:15 to 17:00, with Helen Tupper, Sarah Ellis and Sarah Massie.
-- Training program: Sunday pivot is active, bodybuilding for aesthetics plus hard cardio for VO2 max. Harrison has recently used the Marchon training app and Garmin suggested runs instead of the stale 32/20 site or Baseline app. One delivery layer must be chosen before the replacement programme is built.
+- Training programme: Build + Engine is active from 10 August. MARCHON GAIN owns four lifting days and the canonical plan owns four runs. Garmin records readiness and training but does not rewrite the week with daily suggestions. Baseline and 32/20 are frozen.
 - Studio throughput: 70Mb home broadband and the Mac mini RAW workflow are separate bottlenecks. Find a secure edit base, not a laptop hot desk. If the machine still struggles on proven fibre, test proxy media plus a fast external NVMe before any hardware spend. Decide David's editing lane only after the Fable and infrastructure tests.
 
 ## Standing
@@ -56,4 +56,4 @@ System: Claude authentication is live and every scheduled agent has completed su
 
 ## Lens
 
-Laurence first. Then shortlist the secure edit base, close the Creepers calendar and protect the Better at Work build block. The gym and training system are one decision chain, not two rebuilds.
+Laurence first. Then close the Creepers calendar and protect the Better at Work build block. The training plan is locked. Join MuscleWorks before cancelling Elevate.

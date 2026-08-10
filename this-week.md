@@ -1,6 +1,6 @@
 ---
 week: 10 to 16 August 2026
-generated: weekly-review 9 August 2026
+generated: corrected from Harrison direct state, 10 August 2026 08:30 BST
 financial_truth_updated: 2026-08-07 16:00 BST
 ---
 
@@ -8,25 +8,33 @@ financial_truth_updated: 2026-08-07 16:00 BST
 
 ## Theme
 
-Close the human loops already reduced to one tap, Laurence, Creepers and Cathal. Make the personal investing decision against the written cash rules, keep Edge Lab paper-only after its no-pass, and turn Sunday's training pivot into an actual program rather than a paragraph over the old one.
+Reset the week around the Laurence meeting, an interim gigabit workspace, the verified Creepers calendar, the Better at Work Season 5 close, and one training delivery layer for bodybuilding plus VO2 work. Do not rebuild stale products for their own sake.
 
 ## Top 3 outcomes
 
-1. Laurence gets a WhatsApp reply and the Year One testimonial is filmed. Months of ambient obligation end in one morning.
-2. Creepers receives a content calendar verified against what actually published since 1 August. The advert-select loop is already closed.
-3. Cathal gets a clean reprice answer at the current £1,500 net floor, and the five personal scout trades get an explicit amend-or-fold decision at 14:30.
+1. This morning's Laurence meeting ends with one explicit testimonial outcome or next step.
+2. A nearby workspace proves real gigabit throughput while the building fibre request moves separately, then Creepers receives an accurate calendar site.
+3. Better at Work's Season 5 design system and website reach launch-ready quality, and the gym plus training route is chosen without rebuilding both 32/20 and Baseline.
 
 ## Active board
+
+### Studio operations
+
+- [ ] Trial Techspace Shoreditch's advertised 1Gbps desk with a real footage transfer, compare SHED Haggerston and Veda Studios, then choose the interim fibre workspace while the building connection is blocked. <!-- linear:HWL-259 -->
+- [ ] After the Fable and fibre tests, decide David's editing lane through Council. Test proxy media plus a fast external NVMe before buying hardware or changing the editor. <!-- linear:HWL-260 -->
 
 ### Creepers
 
 - [x] Pro Landscaper advert: Friday's Sam call closed the rootball, final-select and originals-request loop. <!-- linear:HWL-247 -->
 - [x] Final advert selects confirmed through the Friday call. <!-- linear:HWL-248 -->
-- [ ] Update the Creepers content calendar from 1 August, verify it against both live Instagram accounts, then send it to Anna and Sam. <!-- linear:HWL-249 -->
+- [ ] Fable basic Creepers edit is in edit. Finish the test, assess the output honestly and record the basic editing lane it can own. <!-- linear:HWL-256 -->
+- [ ] Verify both Creepers Instagram accounts from 1 August, update the content-calendar site to match reality, then get the accurate version to Sam. <!-- linear:HWL-249 -->
 - [ ] Confirm the exact Surrey Season 4 shoot date with Anna and Sarah-Louise. Still pending. <!-- linear:HWL-239 -->
 
 ### Better at Work
 
+- [ ] Final-pass the Season 5 design system and make every launch component ready for use. <!-- linear:HWL-257 -->
+- [ ] Make the final Season 5 website adjustments, then review the design system and site together with fresh eyes before calling the launch package done. <!-- linear:HWL-258 -->
 - [ ] Send Cathal the repricing reply: hold the £1,500 net floor, offer the scope-cut package (keep episode packaging, retire the monthly report for the live dashboard, drop LinkedIn ghostwriting, fold season planning into the fortnightly call), and raise the VAT-reclaim question first. Draft is ready in Gmail. <!-- linear:HWL-250 -->
 - [x] Share the finished Better at Work website preview with Cathal for review. It is with him, the ball is his. <!-- linear:HWL-231 -->
 - [ ] Once Cathal reviews: lock the four Stripe decisions (price/currency, refund/support terms, whose account, fulfilment path) and set the production env vars. Don't start this before the review lands. <!-- linear:HWL-240 -->
@@ -41,7 +49,7 @@ Close the human loops already reduced to one tap, Laurence, Creepers and Cathal.
 ### Client boundaries
 
 - [ ] Get Danny Wicks's £800 plus VAT payment confirmation. The testimonial film and b-roll were delivered Friday 7 August, edited by Harrison. Delivery is closed. <!-- linear:HWL-251 -->
-- [ ] Film the Laurence Year One testimonial. Months overdue, talk-to-camera, catch and cut, no script. Reply to his latest WhatsApp. <!-- linear:HWL-252 -->
+- [ ] Take the Monday morning Laurence meeting and leave with one explicit testimonial outcome or next step. <!-- linear:HWL-252 -->
 
 ### Money and admin
 
@@ -52,7 +60,8 @@ Close the human loops already reduced to one tap, Laurence, Creepers and Cathal.
 
 ### Health
 
-- [ ] Run the transition week: 6km easy plus 6 strides Monday, protected 4x4min VO2 Tuesday, 5km easy Thursday and 12km long Sunday. Train Wednesday and Friday at MuscleWorks in a bodybuilding split. Write the replacement aesthetics-plus-engine program this week. <!-- linear:HWL-255 -->
+- [ ] Join MuscleWorks Bethnal Green, then cancel Elevate Fitness. Third Space only wins if its pool and recovery layer justify £245 per month plus the £100 joining fee. <!-- linear:HWL-261 -->
+- [ ] Audit the stale 32/20 site and Baseline app against the new goal, compare them with a proven bodybuilding app, choose one delivery layer, then build the bodybuilding-plus-hard-cardio programme for aesthetics and VO2 max. Do not rebuild two products. <!-- linear:HWL-255 -->
 
 ### System
 
@@ -64,7 +73,6 @@ Close the human loops already reduced to one tap, Laurence, Creepers and Cathal.
 - Cathal: reprice reply is send-gated on Harrison. The website is already with him.
 - Kerri and Emma (LOR): PO route and first invoice after Kerri returns. Results posts are stood down.
 - Danny Wicks: written confirmation of the £800 plus VAT fee.
-- Laurence: testimonial film and WhatsApp reply.
 
 ## Scheduled later
 
@@ -84,7 +92,7 @@ Close the human loops already reduced to one tap, Laurence, Creepers and Cathal.
 - BM4 (Laura Gassner Otting) is live. BM3 (Russell Beck) is fully published and closed.
 - Squiggly Careers is a won client; the £3,600-4,400/month pilot range has been sent, awaiting Helen and Sarah's response.
 - Danny Wicks's testimonial film and b-roll were delivered Friday 7 August. Only the £800 plus VAT payment confirmation remains.
-- Year One's eight-page pack and three Looms are dead. The testimonial and WhatsApp reply are the only surviving personal obligations.
+- Year One's eight-page pack and three Looms are dead. The Monday 10 August Laurence meeting now owns the testimonial outcome and any surviving next step.
 - HMRC VAT number is live: 523 6438 93, effective 30 June.
 - Tax reserve computes to £9,875 after the completed £675 sweep, pending bank verification. August drawings are set at £1,800 and not yet confirmed paid.
 - The Claude CLI auth outage (3-6 Aug) is fixed; every scheduled daemon has run clean since 6 Aug.

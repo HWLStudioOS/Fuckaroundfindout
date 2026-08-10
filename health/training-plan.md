@@ -17,6 +17,8 @@ Harrison's call, journaled Sunday night: change the paradigm if it is not workin
 - Strength training moves to a bodybuilder-type approach for aesthetics, based at MuscleWorks Bethnal Green. Squat, bench and deadlift numbers stop being the goal.
 - Running exists to push VO2 max. Quality over volume.
 - A new program is to be designed around this. Until it ships, keep the run structure below with Tuesday VO2 as the protected session, and train Wednesday and Friday at MuscleWorks in a bodybuilding split instead of Strength A and B as written.
+- The delivery layer is not decided. The 32/20 site and Baseline app have both been stale for several weeks while Harrison has used the Marchon training app and Garmin suggested runs. Audit 32/20, Baseline and a proven bodybuilding subscription route, then choose one. Do not rebuild both stale products.
+- Gym recommendation, pending signup: MuscleWorks Bethnal Green. It matches the bodybuilding goal, is open 24/7 and is £39 per month. Third Space City is £245 per month plus a £100 joining fee and only wins if Harrison values the pool, recovery and hospitality layer enough to pay the difference. Join the replacement before cancelling Elevate Fitness.
 - The weight-loss system, readiness rails and knee rails below stay in force unchanged.
 - Where this section and the older prescription below disagree, this section wins.
 

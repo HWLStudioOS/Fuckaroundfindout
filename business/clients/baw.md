@@ -16,6 +16,12 @@ Active. April reset after honest conversation about declining metrics. Hourly tr
 - Draft reply sitting in Gmail (send-gated).
 - **Website preview is already with Cathal as of 9 August.** The ball is his on review. Do not carry a website-send task or blur it into the separate reprice response.
 
+## Season 5 close, 10 August 2026
+
+- Final-pass the Season 5 design system and make the launch components ready for real use.
+- Make the final website adjustments, then review the design system and website together with fresh eyes.
+- Launch readiness does not override the existing Stripe gates or Cathal's production approval. The design package can be ready while deployment remains held.
+
 ## Invoice address, from August 2026
 
 Per Cathal's 7 August request, invoices go to: Eastwood, Granville Road, Weybridge, KT13 0QJ. Harrison to update in the invoicing tool before the next invoice.

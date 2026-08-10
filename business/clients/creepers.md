@@ -15,7 +15,8 @@ Active. Sandringham 2026 is the current content centrepiece. Shoot completed 17 
 ## Active state, 10 August 2026
 
 - **Pro Landscaper advert loop closed Friday 7 August.** Harrison spoke to Sam. The call closed the rootball question, final selects and originals request for the 19 August advert. Do not resurrect those as tasks.
-- **Current delivery:** update the content calendar from 1 August, verify it against what actually published on `@creepersnursery` and `@creepersinstallation`, then send it to Anna and Sam. Lower volume this week is accepted.
+- **Current delivery:** verify what actually published from 1 August on `@creepersnursery` and `@creepersinstallation`, update the content-calendar site to match reality, then get the accurate version to Sam.
+- **Editing test in motion:** Harrison has Fable working on a basic Creepers edit. Finish the test and record the narrow editing lane it can reliably own before treating it as a delivery system.
 
 ## Prior active state, 31 July 2026
 

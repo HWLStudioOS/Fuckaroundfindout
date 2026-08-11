@@ -6,15 +6,39 @@ Production package for the week beginning Tuesday 11 August 2026.
 
 **Title:** Hope Is a Strategy | Better Moments #5 | Jennifer Moss
 
-**Editorial promise:** Hope is not optimism. Jennifer gives leaders a practical model built from goals, pathways and agency, then shows what layoffs and micromanagement do to each part.
+**Editorial promise:** Hope is not optimism. Jennifer gives leaders a practical model built from goals, pathways and agency, then shows how small wins create momentum and micromanagement destroys it.
 
-**Finished runtime:** 9 minutes 50 seconds.
+**V2 review runtime:** 6 minutes 42 seconds.
+
+The first 9 minute 50 second rough cut remains in the package for comparison. It has not been overwritten. V2 is the current review cut.
 
 The full edit is a fresh cut from Jennifer's 2026 episode. The Wednesday teaser comes from the separate AI-adoption section. It does not reuse the published May "make your bed" short.
 
 ## Source
 
-Primary master:
+Original production sources for V2:
+
+`/Users/harrison/Downloads/riverside_jen_& cathal_cathal_quinlan's st.mp4`
+
+- 3840 x 2160 Riverside split-screen master
+- H.264, 24 fps
+- 55:19.958
+
+`/Users/harrison/Downloads/Assets/Video/riverside_jen_raw-video-cfr_cathal_quinlan's st_0050.mp4`
+
+- 1280 x 720 Jennifer isolated local camera
+- H.264, 24 fps
+- 59:32.294
+
+`/Users/harrison/Downloads/Assets/Audio/riverside_jen_enhanced-audio_cathal_quinlan's st_0050.wav`
+
+- Jennifer isolated enhanced mic
+- PCM mono, 44.1 kHz
+- 59:32.295
+
+The isolated tracks run 00:04:12.309 ahead of the programme master. That offset was verified by audio-envelope correlation across seven points in the episode.
+
+Original V1 source:
 
 `/Users/harrison/Documents/Video/BAW_Pod_Jennifermoss.mp4`
 
@@ -49,17 +73,18 @@ Nothing in this package has been uploaded, sent, scheduled or published.
 
 ## Package map
 
-- `video/`: 16:9 Better Moment rough cut and captioned 9:16 teaser.
+- `video/`: original 16:9 rough cut, replacement V2 review cut and captioned 9:16 teaser.
 - `audio/`: 24-bit WAV and 192 kbps MP3 masters.
 - `assets/`: two native-resolution Jennifer stills from the source master.
-- `transcript/`: timed SRT, VTT, text transcript, teaser captions, public JSON3 source and caption builder.
+- `transcript/`: original and V2 timed SRT, VTT and text transcripts, teaser captions, public JSON3 source and caption builder.
 - `artwork/carousel/`: eight 1080 x 1350 Instagram exports.
 - `artwork/carousel-linkedin/`: eight separately composed 1080 x 1080 LinkedIn exports.
 - `artwork/launch/`: 1080 x 1350 Instagram and LinkedIn exports, plus a 1920 x 1080 YouTube export.
 - `copy.md`: carousel, teaser, launch, Acast and YouTube copy.
 - `carousel.md`: exact slide copy and Figma references.
 - `newsletter.md`: Friday Better Bits draft.
-- `edit-decision-list.md`: source timecodes and editorial rationale.
+- `edit-decision-list.md`: original source timecodes and editorial rationale.
+- `edit-decision-list-v2.md`: Riverside relink, replacement timecodes and V2 rationale.
 - `publish-checklist.md`: approval and release sequence.
 - `qc.md`: measured media and artwork checks.
 

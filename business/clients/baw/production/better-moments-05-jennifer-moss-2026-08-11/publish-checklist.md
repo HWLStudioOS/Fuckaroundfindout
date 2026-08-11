@@ -13,9 +13,12 @@
 - [x] Eight-slide LinkedIn carousel built in Figma and exported.
 - [x] Instagram, LinkedIn and YouTube launch artwork built in Figma and exported.
 - [x] Carousel, teaser, launch, Acast, YouTube and newsletter copy drafted.
+- [x] Replacement 06:42 V2 cut rendered from the Riverside isolated camera, enhanced mic and 4K programme master.
+- [x] V2 decode, boundary, sync, loudness and transcript checks completed.
 
 ## Approval gates
 
+- [ ] Harrison approves the V2 hope cut before the audio masters and publishing copy are replaced.
 - [ ] Cathal and Annette approve the hope angle and picture lock.
 - [ ] Give the long captions one final human listen against the finished master.
 - [ ] Replace `[FULL EPISODE LINK]` in Acast copy.

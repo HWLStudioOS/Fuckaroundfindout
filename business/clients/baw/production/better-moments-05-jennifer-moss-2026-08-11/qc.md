@@ -2,6 +2,22 @@
 
 Checked on Tuesday 11 August 2026. The package is technically ready for creative and producer review. Nothing has been uploaded, sent, scheduled or published.
 
+## V2 review cut
+
+| File | Runtime | Format | Size |
+|---|---:|---|---:|
+| `video/BetterAtWork-BetterMoments-05-JenniferMoss-RoughCut-v2.mp4` | 06:42.500 | H.264, 1920 x 1080, 24 fps, AAC 48 kHz stereo | 357,185,001 bytes |
+
+- Integrated loudness: -16.1 LUFS.
+- True peak: -4.1 dBFS.
+- Loudness range: 4.1 LU.
+- Full-frame decode completed with no reported errors.
+- The only detected black span is the intentional 00:00.125 end fade.
+- Frames immediately before and after all six edit boundaries were inspected. No blank, corrupt or unintended transition frames were found.
+- Jennifer's isolated camera and enhanced mic are aligned to the programme master by a verified constant offset of 00:04:12.309.
+- V2 SRT, VTT and text transcript were generated from the finished file. Names and key terms were spot-corrected.
+- The original 09:50 rough cut and its downstream audio masters remain unchanged pending producer approval of V2.
+
 ## Media masters
 
 | File | Runtime | Format | Size |

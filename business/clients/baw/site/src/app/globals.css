@@ -3078,11 +3078,11 @@ button[aria-disabled="true"]:hover {
 
 @media (max-width: 1080px) {
   .site-header__inner {
-    min-height: 92px;
+    min-height: 84px;
   }
 
   .site-header .brand-logo {
-    width: 160px;
+    width: 128px;
   }
 
   .primary-nav {
@@ -3120,7 +3120,7 @@ button[aria-disabled="true"]:hover {
 
   .primary-nav {
     position: fixed;
-    top: 93px;
+    top: 85px;
     right: 0;
     left: 0;
     display: none;
@@ -3165,14 +3165,41 @@ button[aria-disabled="true"]:hover {
   }
 
   .hero__copy {
-    min-height: 670px;
-    padding-right: 0;
+    min-height: auto;
+    padding: 64px 0 56px;
   }
 
   .hero__visual {
-    min-height: 650px;
+    min-height: clamp(500px, 72vw, 580px);
     border-top: 1px solid var(--ink);
     border-left: 0;
+  }
+
+  .hero__visual img {
+    bottom: -4px;
+    width: auto;
+    height: min(92%, 540px);
+  }
+
+  .hero__sun {
+    top: 10%;
+    left: 21%;
+    width: 58%;
+  }
+
+  .hero__annotation--one {
+    top: 8%;
+    right: 6%;
+  }
+
+  .hero__annotation--two {
+    right: 4%;
+    bottom: 8%;
+  }
+
+  .hero__scribble {
+    bottom: 22px;
+    left: 20px;
   }
 
   .latest-stage__art {
@@ -3334,25 +3361,25 @@ button[aria-disabled="true"]:hover {
   }
 
   .site-header__inner {
-    min-height: 82px;
+    min-height: 72px;
   }
 
   .primary-nav {
-    top: 83px;
+    top: 73px;
   }
 
   .site-header .brand-logo {
-    width: 140px;
+    width: 112px;
   }
 
   .hero__copy {
-    min-height: 650px;
-    padding: 64px 0 52px;
+    min-height: auto;
+    padding: 36px 0 44px;
   }
 
   .hero h1 {
     margin-block: 22px;
-    font-size: clamp(3.7rem, 17vw, 5.8rem);
+    font-size: clamp(3.35rem, 15.5vw, 5rem);
   }
 
   .hero__actions {
@@ -3375,21 +3402,31 @@ button[aria-disabled="true"]:hover {
   }
 
   .hero__visual {
-    min-height: 570px;
+    min-height: clamp(430px, 100vw, 500px);
+  }
+
+  .hero__visual img {
+    height: min(90%, 460px);
   }
 
   .hero__annotation {
-    max-width: 160px;
+    max-width: 150px;
     padding: 10px 12px;
   }
 
   .hero__annotation--one {
     top: 7%;
+    right: 4%;
   }
 
   .hero__annotation--two {
-    right: 3%;
-    bottom: 13%;
+    display: none;
+  }
+
+  .hero__scribble {
+    bottom: 18px;
+    left: 16px;
+    font-size: 0.9rem;
   }
 
   .latest-section,

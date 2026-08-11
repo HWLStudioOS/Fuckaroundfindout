@@ -1,6 +1,6 @@
 # Content Strategy
 
-**Status:** rebuilt from the ground up, 5 July 2026. Supersedes the 18 May plan, the waterfall, and the launch calendar as operating guidance. Those files stay as history. Research receipts: `content/references/research-2026-07-05.md`.
+**Status:** rebuilt from the ground up, 5 July 2026. Amended 10 August 2026 by `content/distribution-product-plan-2026-08-10.md`. Supersedes the 18 May plan, the waterfall, and the launch calendar as operating guidance. Those files stay as history. Research receipts: `content/references/research-2026-07-05.md`.
 
 **Built to answer one question: who is Harrison Living on the internet in 2026?**
 
@@ -41,7 +41,7 @@ Person first. HWL Studio sits behind, surfacing as receipts inside roughly 20% o
 
 YouTube is home. Not gated behind follower counts anymore, the old launch triggers are dead. Subscriber count is decoupled from distribution in 2026, every upload gets tested on its own merits, and unscripted talk-to-camera long-form is the fastest-growing format on the platform. His native mode is the meta.
 
-- **One long-form per week. Fixed slot. A named, repeatable POV format wrapped around work that is already happening** (the studio, the agents, the training, the build). Talk-led, 8-15 minutes, cinematic inserts where the footage exists. The container is fixed so "what do I make" is never a question, only "what happened this week."
+- **One long-form every two weeks for the 10 August to 8 November pilot.** A named, repeatable POV format wrapped around work that is already happening (the studio, the agents, the training, the build). Talk-led, 8-15 minutes, cinematic inserts where the footage exists. Weekly was prescribed in July and nothing shipped. Six videos in twelve weeks is the honest test. Review cadence after video six.
 - IG Reels and TikTok get native re-cuts from the same material. Never a raw dump, never a watermark. Shorts are discovery and idea-testing only, they are not a growth engine and the plan must never lean on them.
 - One genuinely cinematic piece per quarter, Arsenal-calibre, when a real moment earns it. The positioning spike, not the cadence.
 
@@ -50,18 +50,18 @@ YouTube is home. Not gated behind follower counts anymore, the old launch trigge
 One atomic idea per week, written first on the typewriter, then distributed everywhere.
 
 - **The typewriter is the drafting instrument.** The idea gets typed before it gets posted. Sometimes the typed page IS the visual.
-- LinkedIn is the networking layer and the commercial surface: 2-3 posts/week derived from the weekly idea, formats led by documents/carousels and multi-image (the 2026 engagement leaders), plus a daily 10-minute commenting habit on the exact ICP (heads of comms and marketing in legacy industries). That commenting habit is the documented client path: comment, they reply, DM, call. No cold DMs ever.
-- X is the reach and queryability layer: Premium on (without it a small account is invisible, 10x reach gap), 60-70% thoughtful replies to bigger operator accounts, the weekly idea as a single long-form post or article so it is durable and LLM-quotable. Grok cites live X posts. Being queryable is a cheap bet with structural upside.
+- LinkedIn is the networking layer and the commercial surface: two posts a week derived from the weekly idea, plus relevant comments on the exact ICP (heads of comms and marketing in legacy industries). The documented client path is comment, reply, DM, call. No cold DMs ever.
+- X is the discovery, relationship and idea-testing layer: three original posts and 25 good replies a week. The current For You system can retrieve relevant posts outside the follower graph. X routes attention into YouTube, email and products. Premium enables features, not guaranteed reach. Platform payouts are not part of the model.
 
 ### The weekly loop (the whole system in five lines)
 
 1. Harrison talks (camera or voice note) and types (typewriter). That is capture. The bank fills with HIS words only.
-2. One video ships per week in the fixed slot. One written idea ships per week across LinkedIn and X.
+2. One video ships every two weeks in the fixed slot. Writing runs weekly across LinkedIn and X.
 3. Claude and the agents do everything downstream: transcribe, cut captions, adapt per platform, package title/thumbnail variants, schedule via Buffer. Form is the system's job. Substance never is.
 4. Everything passes one tap before going live. Nothing posts autonomously.
 5. The pipeline file is the scoreboard. An empty "Posted" column for 14 days is a named miss.
 
-Time budget: roughly 3-4 hours on the video engine, 2-3 on the writing engine, ~1 on commenting/replies. It fits inside 5-8 hours because the raw material is life that is already being lived. If a week collapses, the floor is the written idea. The video slot skips clean, no debt, no spiral.
+Time budget: roughly three hours on the video engine every second week, two to three hours on writing and visual support, and roughly one hour on commenting and replies. It fits inside five to eight hours because the raw material is life that is already being lived. If a week collapses, the floor is the written idea. The video slot skips cleanly, no debt, no spiral.
 
 ---
 
@@ -74,9 +74,11 @@ Time budget: roughly 3-4 hours on the video engine, 2-3 on the writing engine, ~
 
 Codex H10 is retired with honours: the public voice no longer needs protecting from a forced niche, because the niche is the person. The pillars are not lanes to pick between. They are one man's week.
 
-## The business behind (the Noske shape, later)
+## The business behind
 
-The person builds the audience. The studio converts silently through the 20%: anonymised patterns from real client work, the operator wedge, the warm-intro landing pad for the new-client campaign. Two products already sit built on the shelf (Legibility Diagnosis, AI Content Engine) as the eventual bottom rung. No course talk, no funnel talk in public, until the audience exists. Noske's shape is the destination, not the opening move.
+The person builds the audience. The studio converts silently through the 20%: anonymised patterns from real client work, the operator wedge, the warm-intro landing pad for the new-client campaign.
+
+The product sequence changed on 10 August after researching Oliur's actual history. Product and audience grow together. The AI Content Engine becomes the first public paid product, while the prior Year One promise is honoured free. One product stays in build at a time. No course until at least 25 paid customers and repeated deeper questions. The personal shop stays separate from the HWL Studio buyer surface.
 
 ## Rules carried forward, unchanged
 
@@ -86,18 +88,18 @@ The person builds the audience. The studio converts silently through the 20%: an
 
 ## What we measure (light, quarterly bias)
 
-- **YouTube:** return-viewer rate above 10%, average view duration, and whether the weekly slot held. Subscribers are a vanity metric until 500 (Hype eligibility).
+- **YouTube:** return-viewer rate above 10%, average view duration, and whether the fortnightly slot held. Subscribers are a vanity metric until 500 (Hype eligibility).
 - **LinkedIn:** buyer-shaped conversations started per month (comments to DMs to calls). The only number tied to revenue.
-- **X:** reply-driven follows, bookmark rate on the weekly long-form post.
+- **X:** relevant replies, profile visits, reply-driven follows, email sign-ups and product clicks.
 - **IG/TikTok:** sends per reach. The DM-share is the whole game.
 - **The one that decides things:** did the weekly loop run. Consistency is the input metric everything else is downstream of.
-- **First 90 days: inputs only.** No output number gets judged before October. Small early numbers are structurally meaningless at n=0 and, per the wiring map (Turbulent 73%, Competition 5), psychologically hazardous for Harrison specifically. The scoreboard until then is one column: loops run. Wins get named out loud.
+- **First 90 days: inputs plus paid-customer evidence.** Follower count is still ignored. The distribution scoreboard is loops run. The product scoreboard is visits, conversion, paid customers, refunds and repeated questions. Twenty-five customers by 8 November is a target, not a referendum on Harrison.
 
 ## Decision calendar
 
-- **18 July (block-end):** one question, unchanged from the 2 Jul read: did at least one post of Harrison's own substance ship. Now with a second: is the weekly loop defined and started.
-- **Mid-September:** audience read on real data (which pillar pulls, who shows up in DMs, what the ICP engages). Two of three commit signals or keep ranging.
-- **January 2027:** first look at the Noske question (productise or not). Not before.
+- **23 August:** the AI Content Engine and first YouTube video are live.
+- **10 September:** first distribution and product review. Three paid customers or a written diagnosis of whether reach, offer or conversion failed.
+- **8 November:** six-video and 90-day review. Decide whether to improve product one, build product two, or stop.
 
 ---
 

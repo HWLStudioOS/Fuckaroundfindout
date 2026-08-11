@@ -3429,6 +3429,69 @@
 [2026-08-10T12:25:03.094Z] INFO Sync start. Last: 2026-08-10T11:25:03.020Z
 [2026-08-10T12:25:03.380Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
 [2026-08-10T12:25:03.450Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-10T13:25:03.566Z] INFO Sync start. Last: 2026-08-10T12:25:03.447Z
+[2026-08-10T13:25:04.055Z] INFO push ~ HWL-256 → done
+[2026-08-10T13:25:04.210Z] INFO push ~ HWL-249 → done
+[2026-08-10T13:25:04.589Z] INFO push + HWL-262 Manually finish and publish one Creepers post today. The fai
+[2026-08-10T13:25:04.792Z] INFO push + HWL-263 Prepare one Better at Work post today. If Cathal's personal
+[2026-08-10T13:25:04.793Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T13:25:04.903Z] INFO Sync done. push: +2 ~2. pull: ~0.
+[2026-08-10T14:25:04.866Z] INFO Sync start. Last: 2026-08-10T13:25:04.901Z
+[2026-08-10T14:25:05.677Z] INFO push + HWL-264 Claude records the Pro Landscaper primary and backup image.
+[2026-08-10T14:25:05.678Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T14:25:06.189Z] INFO Sync done. push: +1 ~0. pull: ~0.
+[2026-08-10T15:25:06.484Z] INFO Sync start. Last: 2026-08-10T14:25:06.187Z
+[2026-08-10T15:25:07.602Z] INFO push ~ HWL-264 → done
+[2026-08-10T15:25:07.763Z] INFO push + HWL-265 Harrison reviews the Pro Landscaper lead proof and gets the
+[2026-08-10T15:25:07.763Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T15:25:07.859Z] INFO Sync done. push: +1 ~1. pull: ~0.
+[2026-08-10T16:25:07.930Z] INFO Sync start. Last: 2026-08-10T15:25:07.857Z
+[2026-08-10T16:25:08.277Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T16:25:08.487Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-10T17:25:08.511Z] INFO Sync start. Last: 2026-08-10T16:25:08.485Z
+[2026-08-10T17:25:09.316Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T17:25:09.383Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-10T18:25:09.578Z] INFO Sync start. Last: 2026-08-10T17:25:09.381Z
+[2026-08-10T18:25:09.826Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T18:25:09.892Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-10T19:25:10.021Z] INFO Sync start. Last: 2026-08-10T18:25:09.889Z
+[2026-08-10T19:25:10.521Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T19:25:10.590Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-10T20:25:10.703Z] INFO Sync start. Last: 2026-08-10T19:25:10.585Z
+[2026-08-10T20:25:11.077Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T20:25:11.182Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-10T21:25:11.304Z] INFO Sync start. Last: 2026-08-10T20:25:11.179Z
+[2026-08-10T21:25:11.654Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T21:25:11.769Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-10T22:25:11.935Z] INFO Sync start. Last: 2026-08-10T21:25:11.766Z
+[2026-08-10T22:25:12.733Z] INFO push ~ HWL-259 → done
+[2026-08-10T22:25:12.903Z] INFO push ~ HWL-252 → done
+[2026-08-10T22:25:12.904Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T22:25:12.993Z] INFO Sync done. push: +0 ~2. pull: ~0.
+[2026-08-10T23:25:13.105Z] INFO Sync start. Last: 2026-08-10T22:25:12.991Z
+[2026-08-10T23:25:14.282Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-10T23:25:14.340Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-11T00:25:14.443Z] INFO Sync start. Last: 2026-08-10T23:25:14.335Z
+[2026-08-11T00:25:14.669Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-11T00:25:14.722Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-11T01:25:14.888Z] INFO Sync start. Last: 2026-08-11T00:25:14.721Z
+[2026-08-11T01:25:15.129Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-11T01:25:15.188Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-11T02:25:15.300Z] INFO Sync start. Last: 2026-08-11T01:25:15.186Z
+[2026-08-11T02:25:15.541Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-11T02:25:15.622Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-11T03:25:15.743Z] INFO Sync start. Last: 2026-08-11T02:25:15.621Z
+[2026-08-11T03:25:15.976Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-11T03:25:16.054Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-11T04:25:16.212Z] INFO Sync start. Last: 2026-08-11T03:25:16.052Z
+[2026-08-11T04:25:16.433Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-11T04:25:16.833Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-11T05:25:16.972Z] INFO Sync start. Last: 2026-08-11T04:25:16.830Z
+[2026-08-11T05:25:17.362Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-11T05:25:17.424Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-11T06:25:17.558Z] INFO Sync start. Last: 2026-08-11T05:25:17.422Z
+[2026-08-11T06:25:17.800Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-11T06:25:17.878Z] INFO Sync done. push: +0 ~0. pull: ~0.
 [2026-08-11T07:25:18.001Z] INFO Sync start. Last: 2026-08-11T06:25:17.875Z
 [2026-08-11T07:25:18.431Z] INFO push ~ HWL-259 → todo
 [2026-08-11T07:25:18.625Z] INFO push + HWL-266 Manually finish and publish one Creepers post today. The fai

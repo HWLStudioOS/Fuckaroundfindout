@@ -1,6 +1,6 @@
 # The Content System
 
-**Created 5 July 2026 as part of the ground-up rebuild.** This is the operating loop. Strategy and identity live in `content/strategy.md`. This file is who does what, on which day, with which tool.
+**Created 5 July 2026 as part of the ground-up rebuild. Cadence amended 10 August 2026.** This is the operating loop. Strategy and identity live in `content/strategy.md`. The current 90-day pilot lives in `content/distribution-product-plan-2026-08-10.md`. This file is who does what, on which day, with which tool.
 
 The design principle, learned the hard way: **Harrison creates when the tool has no edit layer.** Typewriter for writing. One-take talk for video. Every version of this system that added ceremony produced zero posts. So the system's job is to catch what he makes and carry it to the platforms, never to hand him a production.
 
@@ -22,10 +22,10 @@ That is the entire ask. Everything below happens downstream of these three.
 |---|---|---|
 | Any day | Capture: talk / type / voice, as life happens | Harrison |
 | Monday 06:30 | content-engine reads the bank. If it holds Harrison-authored material: drafts the week's written distribution (LinkedIn posts, X versions) from HIS words, flags the strongest video thread. If empty: one-line nudge, stops. | content-engine |
-| Tue-Thu | Writing engine ships: 2-3 LinkedIn posts (per platform doc), the weekly X long-form, replies. Each item one tap before live. Buffer handles scheduling. | Harrison taps, Claude/Buffer execute |
-| Shoot day (flexible, taper-aware) | The week's video: one take or a filmed slice of real work. Hand off footage. | Harrison |
+| Tue-Thu | Writing engine ships: two LinkedIn posts, three X originals and relevant replies. Every second week one X post carries the developed long-form idea. Each item gets one tap before live. Buffer handles scheduling. | Harrison taps, Claude/Buffer execute |
+| Shoot day (every second week, flexible) | The fortnight's video: one take or a filmed slice of real work. Hand off footage. | Harrison |
 | Edit window | Cut the long-form. Talk-led, inserts where footage exists. Package: 2-3 title/thumbnail variants for Test & Compare. Cut 1-2 native shorts/reels from offcuts. | Harrison or David or Claude-assisted, whatever the week allows |
-| Fixed slot (recommend Sunday evening UK) | Long-form publishes. Native re-cuts to IG (Trial Reel first when unsure) and TikTok within 48h, staggered. | One tap, then system |
+| Fortnightly fixed slot | Long-form publishes. Native re-cuts to IG (Trial Reel first when unsure) and TikTok within 48h, staggered. | One tap, then system |
 | Daily, ~10 min | LinkedIn ICP commenting + X replies. Phone-sized habit, not a session. | Harrison |
 
 **The floor when a week collapses:** the written idea still ships. The video slot skips clean. No make-up debt, no double-week, no spiral. A skipped slot is logged in the pipeline, not mourned.
@@ -54,17 +54,17 @@ That is the entire ask. Everything below happens downstream of these three.
 - **Capture transport:** Telegram (inbound daemon live since 1 Jul).
 - **Transcription:** whisper via the existing inspo transcribe pipeline, repointed at his own takes.
 - **YouTube:** Test & Compare on every upload (3 packaging variants). YPP + Hype the moment 500 subs clears.
-- **X:** Premium subscription required before the first post. Budget it as platform rent (money rule: over £40 needs the tap, so this waits for one).
+- **X:** Premium enables Articles and creator reward eligibility, but it does not guarantee reach. Subscribe only as part of the active 90-day commitment and keep payouts out of the model.
 
 ## Cadence summary
 
 | Surface | Cadence | Format |
 |---|---|---|
-| YouTube | 1 long-form/week, fixed slot | Named POV wrapper, talk-led, 8-15 min |
-| LinkedIn | 2-3/week + daily comments | Documents/carousels, multi-image, text; video sparingly |
-| X | 1 long-form/week + daily replies | The weekly idea, durable and declarative |
-| IG | 1-2 Reels/week + 1 carousel | Native cuts + "how I shot this" trust layer |
-| TikTok | 1-3/week | Native cuts + photo-mode carousels, search-keyworded |
+| YouTube | 1 long-form every two weeks, fixed slot | Named POV wrapper, talk-led, 8-15 min |
+| LinkedIn | 2/week + relevant comments | Documents/carousels, multi-image, text; video sparingly |
+| X | 3 originals/week + 25 good replies | Receipts, visual observations and developed ideas |
+| IG + TikTok | 2 native pieces/week combined | Native cuts, photo sets and craft trust layer |
+| Email | 1 note every two weeks | The long-form idea, with one relevant product link |
 | Quarterly | 1 cinematic piece | When a real moment earns it, never scheduled |
 
 ## What killed the last three systems (do not rebuild these)

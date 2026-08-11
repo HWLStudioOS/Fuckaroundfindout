@@ -1,34 +1,22 @@
 {
   "title": "The Board Room",
   "week": "10 to 16 August 2026",
-  "sourceDate": "2026-08-10",
-  "generatedAt": "2026-08-10T13:02:15.117Z",
-  "sourceCommit": "6956fb3",
+  "sourceDate": "2026-08-11",
+  "generatedAt": "2026-08-11T07:29:39.784Z",
+  "sourceCommit": "518d9c3",
   "summary": {
-    "open": 29,
-    "active": 19,
+    "open": 28,
+    "active": 18,
     "inProgress": 0,
     "waiting": 3,
     "scheduled": 2,
     "parked": 5,
-    "closedThisWeek": 9,
-    "completion": 32,
-    "xp": 1080,
+    "closedThisWeek": 12,
+    "completion": 40,
+    "xp": 1440,
     "level": 3
   },
   "tasks": [
-    {
-      "id": "HWL-252",
-      "title": "Take the Monday morning Laurence meeting and leave with one explicit testimonial outcome or next step.",
-      "area": "Client boundaries",
-      "state": "todo",
-      "due": null,
-      "baseScore": 99,
-      "score": 99,
-      "reason": "The Laurence meeting is this morning. Take it first and leave with one explicit testimonial outcome or next step.",
-      "tier": "Critical",
-      "rank": 1
-    },
     {
       "id": "HWL-257",
       "title": "Final-pass the Season 5 design system and make every launch component ready for use.",
@@ -39,19 +27,7 @@
       "score": 95,
       "reason": "Final-pass the Season 5 system until every component is ready for real launch use.",
       "tier": "Critical",
-      "rank": 2
-    },
-    {
-      "id": "active-manually-finish-and-publish-one-creepers-post-to",
-      "title": "Manually finish and publish one Creepers post today. The failed Fable test does not get another production pass.",
-      "area": "Creepers",
-      "state": "todo",
-      "due": null,
-      "baseScore": 94,
-      "score": 94,
-      "reason": "The Fable edit did not pass. Finish the Creepers post manually and publish it today.",
-      "tier": "Critical",
-      "rank": 3
+      "rank": 1
     },
     {
       "id": "HWL-258",
@@ -63,7 +39,7 @@
       "score": 93,
       "reason": "Make the final website adjustments, then review the complete Season 5 package with fresh eyes before calling it done.",
       "tier": "Critical",
-      "rank": 4
+      "rank": 2
     },
     {
       "id": "HWL-261",
@@ -75,19 +51,7 @@
       "score": 90,
       "reason": "Choose the bodybuilding gym that matches the new goal, join it first, then cancel Elevate without creating a training gap.",
       "tier": "Critical",
-      "rank": 5
-    },
-    {
-      "id": "active-prepare-one-better-at-work-post-today-if-cathal-",
-      "title": "Prepare one Better at Work post today. If Cathal's personal LinkedIn post is not moving, publish through the brand channel instead of leaving the day blank.",
-      "area": "Better at Work",
-      "state": "todo",
-      "due": null,
-      "baseScore": 88,
-      "score": 88,
-      "reason": "Cathal's personal post is unlikely to move. Prepare the brand-channel fallback and avoid a blank Better at Work day.",
-      "tier": "High",
-      "rank": 6
+      "rank": 3
     },
     {
       "id": "HWL-228",
@@ -99,7 +63,7 @@
       "score": 86,
       "reason": "Make the promised 14:30 amend-or-fold decision before any further personal trades.",
       "tier": "High",
-      "rank": 7
+      "rank": 4
     },
     {
       "id": "HWL-253",
@@ -111,19 +75,19 @@
       "score": 84,
       "reason": "The August amount is set. Complete the £1,800 drawings transfer and record the real payment.",
       "tier": "High",
-      "rank": 8
+      "rank": 5
     },
     {
       "id": "HWL-242",
-      "title": "Squiggly Careers x Harrison podcast production chat, 11 August 16:15.",
+      "title": "Squiggly Careers x Harrison podcast production chat, rescheduled to 18 August 10:00.",
       "area": "Better at Work",
       "state": "todo",
-      "due": "2026-08-11",
+      "due": "2026-08-18",
       "baseScore": 80,
       "score": 80,
       "reason": "Dated for Tuesday 11 August at 16:15. Arrive with the production and development position clear.",
       "tier": "High",
-      "rank": 9
+      "rank": 6
     },
     {
       "id": "HWL-241",
@@ -135,7 +99,7 @@
       "score": 78,
       "reason": "The Caroline Webb recording is Thursday 13 August. Finish the brief before the day becomes reactive.",
       "tier": "High",
-      "rank": 10
+      "rank": 7
     },
     {
       "id": "HWL-250",
@@ -147,7 +111,31 @@
       "score": 72,
       "reason": "The commercial position and draft already exist. Close it after the Season 5 launch package has had its final pass.",
       "tier": "Next",
-      "rank": 11
+      "rank": 8
+    },
+    {
+      "id": "HWL-265",
+      "title": "Harrison reviews the Pro Landscaper lead proof and gets the publication's preferred colour profile before final press conversion or supply. Nothing has been sent.",
+      "area": "Creepers",
+      "state": "todo",
+      "due": null,
+      "baseScore": 64,
+      "score": 64,
+      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
+      "tier": "Next",
+      "rank": 9
+    },
+    {
+      "id": "HWL-262",
+      "title": "Review and publish `Why choose a nursery?` on `@creepersnursery` today. Five photograph-led 1080 x 1350px slides and the final caption are ready. Nothing has been published or sent.",
+      "area": "Creepers",
+      "state": "todo",
+      "due": null,
+      "baseScore": 64,
+      "score": 64,
+      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
+      "tier": "Next",
+      "rank": 10
     },
     {
       "id": "HWL-254",
@@ -159,19 +147,19 @@
       "score": 62,
       "reason": "G2a has closed without a pass. Record the next paper-only decision without arming capital.",
       "tier": "Next",
-      "rank": 12
+      "rank": 11
     },
     {
-      "id": "HWL-259",
-      "title": "Nikki has the Netil House brief. Await viewing options, book the right room, then check the hardwired upload speed, all-in cost, deposit, term and break clause before choosing.",
-      "area": "Studio operations",
+      "id": "HWL-263",
+      "title": "Prepare one Better at Work post today. If Cathal's personal LinkedIn post is not moving, publish through the brand channel instead of leaving the day blank.",
+      "area": "Better at Work",
       "state": "todo",
       "due": null,
-      "baseScore": 58,
-      "score": 58,
-      "reason": "Nikki has the room, budget and fibre brief. Await her options, then book the right viewing.",
-      "tier": "Next",
-      "rank": 13
+      "baseScore": 52,
+      "score": 52,
+      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
+      "tier": "Later",
+      "rank": 12
     },
     {
       "id": "HWL-260",
@@ -183,7 +171,7 @@
       "score": 50,
       "reason": "Fable did not pass. Prove fibre and proxy workflow next, then decide David's lane through Council.",
       "tier": "Later",
-      "rank": 14
+      "rank": 13
     },
     {
       "id": "HWL-239",
@@ -195,7 +183,7 @@
       "score": 40,
       "reason": "The date request is already with Anna and Sarah-Louise. Keep visible, but do not let waiting work outrank Harrison-owned closes.",
       "tier": "Later",
-      "rank": 15
+      "rank": 14
     },
     {
       "id": "HWL-251",
@@ -207,7 +195,7 @@
       "score": 38,
       "reason": "Delivery is complete. Keep the payment confirmation visible without treating it as unfinished production.",
       "tier": "Later",
-      "rank": 16
+      "rank": 15
     },
     {
       "id": "HWL-243",
@@ -219,7 +207,7 @@
       "score": 32,
       "reason": "This depends on Kerri and Emma's budget and PO route. It is commercially important, but not today's first move.",
       "tier": "Later",
-      "rank": 17
+      "rank": 16
     },
     {
       "id": "HWL-240",
@@ -231,7 +219,7 @@
       "score": 28,
       "reason": "Blocked until Cathal reviews the website. Do not start Stripe production work early.",
       "tier": "Later",
-      "rank": 18
+      "rank": 17
     },
     {
       "id": "HWL-245",
@@ -243,7 +231,7 @@
       "score": 12,
       "reason": "Background system monitoring. It belongs below Harrison's client, money and health work.",
       "tier": "Later",
-      "rank": 19
+      "rank": 18
     },
     {
       "id": "waiting-cathal-reprice-reply-is-send-gated-on-harrison-t",
@@ -366,8 +354,20 @@
       "rank": null
     },
     {
+      "id": "HWL-259",
+      "title": "Nikki has the Netil House brief. Await viewing options, book the right room, then check the hardwired upload speed, all-in cost, deposit, term and break clause before choosing.",
+      "area": "Studio operations",
+      "state": "done",
+      "due": null,
+      "baseScore": 58,
+      "score": 0,
+      "reason": "Nikki has the room, budget and fibre brief. Await her options, then book the right viewing.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
       "id": "HWL-247",
-      "title": "Pro Landscaper advert: Friday's Sam call closed the rootball, final-select and originals-request loop.",
+      "title": "Pro Landscaper advert: Friday's Sam call closed the rootball and client-input loop.",
       "area": "Creepers",
       "state": "done",
       "due": null,
@@ -379,7 +379,19 @@
     },
     {
       "id": "HWL-248",
-      "title": "Final advert selects confirmed through the Friday call.",
+      "title": "Friday's call closed the client input needed for Claude's advert selection. Do not reopen the choice with Sam.",
+      "area": "Creepers",
+      "state": "done",
+      "due": null,
+      "baseScore": 64,
+      "score": 0,
+      "reason": "Closed in the canonical weekly board.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-264",
+      "title": "Recover Claude's ranked selects, build the five Pro Landscaper Figma variants and complete the Option A RGB press proof plus contact sheet.",
       "area": "Creepers",
       "state": "done",
       "due": null,
@@ -403,7 +415,7 @@
     },
     {
       "id": "HWL-249",
-      "title": "Calendar verified against both Creepers grids through 10 August, deployed and sent to Sam.",
+      "title": "Calendar verified against both Creepers grids, then reworked into a six-week, three-core-plus-one-optional runway and redeployed on 10 August. Sam's link is unchanged.",
       "area": "Creepers",
       "state": "done",
       "due": "2026-08-10",
@@ -434,6 +446,18 @@
       "baseScore": 68,
       "score": 0,
       "reason": "Closed in the canonical weekly board.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-252",
+      "title": "Take the Monday morning Laurence meeting and leave with one explicit testimonial outcome or next step.",
+      "area": "Client boundaries",
+      "state": "done",
+      "due": null,
+      "baseScore": 99,
+      "score": 0,
+      "reason": "The Laurence meeting is this morning. Take it first and leave with one explicit testimonial outcome or next step.",
       "tier": "Closed",
       "rank": null
     },

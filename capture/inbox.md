@@ -4,6 +4,15 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-08-10 14:07
+- **How much of my boss's job can AI do?**, Platformer / Ella Markianos, 5 Aug. Casey Newton let Claude Fable 5 build "Claudeasey Newton," an agent trained to imitate his own editorial judgment, then tested it against real Platformer journalism. A concrete, named case of an agent standing in for one specific person's judgment rather than just doing tasks, worth reading against how far the HWL agent fleet already stands in for Harrison's own voice and calls. [https://www.platformer.news/replacing-casey-with-claude/]
+- **Notes on the third era of slop**, Platformer / Casey Newton, 3 Aug. LinkedIn just shipped a "seems like slop" flagging button while other platforms lean further into AI content instead of restricting it, platforms are now visibly diverging on how to treat AI-made posts. Direct read on the exact platforms LOR and BaW content gets published into, and on why the no-AI-slop posture in publishing-rules.md is the right call, not overcaution. [https://www.platformer.news/slop-restrictions-linkedin-substack-snap/]
+- **When people think AI did the creative work, task meaning and effort decline**, Brookings, 3 Aug. A controlled experiment (US + Netherlands, N=3,628) found that labelling identical creative work "AI-made" instead of "made by a professional" cuts how meaningful people find the task and makes them 13% less likely to add their own idea, and the same output gets rated less creative and less persuasive purely because of the label. A sharp new BaW pitch mechanism, and a direct mirror on the HWL agent fleet itself, whether being told "AI did it" quietly changes how the work gets valued. [https://www.brookings.edu/articles/when-people-think-ai-did-the-creative-work-task-meaning-and-effort-decline/]
+- **How to influence construction buyers in an AI world**, KHL Group, 7 Aug. Trade piece on AEO/GEO for construction marketers, with real numbers: AI is the fastest-growing discovery channel but search still dwarfs it (3.3bn vs 0.65bn monthly visits), 95% of ChatGPT users still cross-check on Google, and editorial mentions in trusted industry media move AI citations more than on-site AEO tactics do. Dated, numbers-backed material landing directly in the LOR positioning lane, published this week. [https://www.khl.com/news/how-to-influence-construction-buyers-in-an-ai-world/8128645.article]
+- Source: discovery-scan
+- Tag: learning
+- Status: new
+
 ## 2026-08-10 08:23 to 08:29 (Monday reset, Harrison direct)
 
 - Eat Work Art replied positively on 10 August. Harrison sent Nikki the room, budget, access, security and fibre brief. Await viewing options.

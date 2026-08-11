@@ -54,8 +54,8 @@ Nothing in this package has been uploaded, sent, scheduled or published.
 - `assets/`: two native-resolution Jennifer stills from the source master.
 - `transcript/`: timed SRT, VTT, text transcript, teaser captions, public JSON3 source and caption builder.
 - `artwork/carousel/`: eight 1080 x 1350 Instagram exports.
-- `artwork/carousel-linkedin/`: eight separately composed 1200 x 1500 LinkedIn exports.
-- `artwork/launch/`: Instagram, LinkedIn and YouTube launch exports.
+- `artwork/carousel-linkedin/`: eight separately composed 1080 x 1080 LinkedIn exports.
+- `artwork/launch/`: 1080 x 1350 Instagram and LinkedIn exports, plus a 1920 x 1080 YouTube export.
 - `copy.md`: carousel, teaser, launch, Acast and YouTube copy.
 - `carousel.md`: exact slide copy and Figma references.
 - `newsletter.md`: Friday Better Bits draft.
@@ -69,4 +69,4 @@ All 19 artwork frames are live and editable in the Better at Work production fil
 
 https://www.figma.com/file/l5AZW9U1YF0Qe2P7cQdjzJ?type=design&node-id=1120-14
 
-The artwork uses the August 2026 Better at Work system: the original outlined mark, Newsreader, Manrope, IBM Plex Mono, paper, ink, violet, yellow, coral, green and blue.
+The artwork uses the approved Better Moments production template from the Laura Gassner Otting set: the original outlined mark, Montserrat, organic violet fields, alternating cream and ink slides, compact numbered pills and yellow callouts.

@@ -96,6 +96,8 @@ Callout: Better Moments #5 with Jennifer Moss lands Thursday.
 
 ## Figma frames
 
+Visual system: approved Laura Gassner Otting Better Moments template. Instagram is 1080 x 1350. LinkedIn is 1080 x 1080.
+
 Instagram: `1120:14`, `1120:31`, `1120:44`, `1120:57`, `1120:70`, `1120:83`, `1120:96`, `1120:109`.
 
 LinkedIn: `1122:14`, `1122:31`, `1122:44`, `1122:57`, `1122:70`, `1122:83`, `1122:96`, `1122:109`.

@@ -44,11 +44,11 @@ The source is the public episode's timed auto-caption track, included as `transc
 ## Artwork
 
 - Eight Instagram carousel PNGs at 1080 x 1350.
-- Eight separately composed LinkedIn carousel PNGs at 1200 x 1500.
-- Launch PNGs at 1080 x 1350, 1200 x 1500 and 1280 x 720.
+- Eight separately composed LinkedIn carousel PNGs at 1080 x 1080.
+- Launch PNGs at 1080 x 1350 for Instagram and LinkedIn, plus 1920 x 1080 for YouTube.
 - All 19 frames are live and editable in Figma.
 - Figma validation found no missing frames, empty text layers or missing fonts.
-- The artwork uses the original outlined Better at Work mark, Newsreader, Manrope and IBM Plex Mono.
+- The artwork uses the approved Laura Gassner Otting Better Moments template: the original outlined Better at Work mark, Montserrat Bold and Medium, organic violet fields, alternating cream and ink slides, compact numbered pills and yellow callouts.
 - Both carousel contact sheets and all three launch compositions were inspected. No clipped copy, missing metadata or broken imagery was found.
 
 ## Storage and release state

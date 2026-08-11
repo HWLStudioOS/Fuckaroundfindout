@@ -117,6 +117,10 @@ button {
   cursor: pointer;
 }
 
+button:disabled {
+  cursor: not-allowed;
+}
+
 img,
 svg {
   display: block;
@@ -256,6 +260,13 @@ h3 {
 .play-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 7px 0 rgba(23, 24, 23, 0.18);
+}
+
+.button:disabled,
+.button:disabled:hover {
+  opacity: 0.62;
+  box-shadow: none;
+  transform: none;
 }
 
 .button--small {
@@ -2976,8 +2987,8 @@ h3 {
 
 .newsletter-placeholder {
   grid-template-columns: auto minmax(0, 1fr) auto;
-  color: var(--color-text-inverse);
-  background: rgba(255, 255, 255, 0.06);
+  color: var(--color-text-primary);
+  background: rgba(255, 255, 255, 0.18);
 }
 
 .newsletter-placeholder > svg,
@@ -2998,7 +3009,7 @@ h3 {
 }
 
 .newsletter-placeholder span {
-  color: rgba(255, 255, 255, 0.64);
+  color: rgba(23, 24, 23, 0.68);
   font-size: 0.68rem;
 }
 
@@ -3540,7 +3551,6 @@ button[aria-disabled="true"]:hover {
   }
 
   .archive-filter {
-    margin-right: -12px;
     padding-right: 12px;
   }
 

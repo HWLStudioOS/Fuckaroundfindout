@@ -1,7 +1,9 @@
 import Link from "next/link";
+import { isCheckoutConfigured } from "@/lib/checkout";
 import { Logo } from "./Logo";
 
 export function Footer() {
+  const checkoutLive = isCheckoutConfigured();
   return (
     <footer className="site-footer">
       <div className="shell site-footer__grid">
@@ -28,7 +30,11 @@ export function Footer() {
       </div>
       <div className="shell site-footer__bottom">
         <span>© 2026 Better@Work</span>
-        <span>Draft site · Forms and checkout are not yet live</span>
+        <span>
+          {checkoutLive
+            ? "Draft site · Better Bits signup is not yet live"
+            : "Draft site · Forms and checkout are not yet live"}
+        </span>
       </div>
     </footer>
   );

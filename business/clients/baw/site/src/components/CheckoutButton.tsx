@@ -8,9 +8,11 @@ type CheckoutState = "idle" | "pending" | "notice";
 export function CheckoutButton({
   label,
   variant = "yellow",
+  enabled = true,
 }: {
   label: string;
   variant?: "yellow" | "ink";
+  enabled?: boolean;
 }) {
   const [state, setState] = useState<CheckoutState>("idle");
   const [notice, setNotice] = useState("");
@@ -40,7 +42,7 @@ export function CheckoutButton({
         className={`button button--${variant}`}
         type="button"
         onClick={startCheckout}
-        disabled={state === "pending"}
+        disabled={!enabled || state === "pending"}
       >
         {state === "pending" ? "Opening checkout…" : label}{" "}
         <ArrowRight aria-hidden="true" />

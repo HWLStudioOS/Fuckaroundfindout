@@ -41,7 +41,11 @@ export default function CareersPage() {
                   : "Planned one-off price · Checkout is built, not yet switched on"}
               </span>
             </div>
-            <CheckoutButton label="Buy the guide" variant="yellow" />
+            <CheckoutButton
+              enabled={checkoutLive}
+              label={checkoutLive ? "Buy the guide" : "Checkout coming soon"}
+              variant="yellow"
+            />
             <small className="prototype-note">
               {checkoutLive ? (
                 <>
@@ -131,7 +135,11 @@ export default function CareersPage() {
           <div>
             <strong>Ready when you are.</strong>
             <p>One payment. No membership. Keep the guide and return whenever work shifts.</p>
-            <CheckoutButton label="Buy Better Careers" variant="ink" />
+            <CheckoutButton
+              enabled={checkoutLive}
+              label={checkoutLive ? "Buy Better Careers" : "Checkout coming soon"}
+              variant="ink"
+            />
           </div>
         </div>
       </section>

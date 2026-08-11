@@ -547,3 +547,5 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 2026-08-11T06:49:16+01:00 | morning-brief-verify | sent msg_id=610, checked=24, corrected=3: (1) Yesterday wrap Squiggly call reworded from unconfirmed to confirmed 18 Aug 10:00 (Google Calendar shows accepted event, brief had stated unconfirmed despite the reschedule having gone through); (2) Awaiting response Sarah Davey/Squiggly line corrected from awaiting-confirmation to confirmed, removed from open-waits; (3) Today #2 Surrey shoot mislabeled S4, corrected to S5 per live content calendar (SHOOT S5 pencilled today, sources Wednesday's Fresh In #5 post; S4 was a separate earlier shoot).
 2026-08-11T06:49:44+0100 | morning-brief | SUCCEEDED | exit=0; run=20260811T063004+0100-92088; draft verified and send sentinel recorded; logs=agents/logs/morning-brief.stdout.log,agents/logs/morning-brief.stderr.log
 - 2026-08-11 09:06 BST | board-room | validation passed before backup and deploy
+- 2026-08-11 09:06 BST | nightly-backup | committed + pushed to origin
+- 2026-08-11 09:06 BST | board-room | deployed production and verified unauthenticated access returns 401

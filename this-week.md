@@ -1,6 +1,6 @@
 ---
 week: 10 to 16 August 2026
-generated: corrected from Harrison direct state, 10 August 2026 08:30 BST
+generated: reconciled from Harrison direct state, 11 August 2026
 financial_truth_updated: 2026-08-07 16:00 BST
 ---
 
@@ -8,11 +8,11 @@ financial_truth_updated: 2026-08-07 16:00 BST
 
 ## Theme
 
-Reset the week around the Laurence meeting, a secure fibre-connected edit base, the verified Creepers calendar, the Better at Work Season 5 close, and one training delivery layer for bodybuilding plus VO2 work. Do not rebuild stale products for their own sake.
+Reset the week around a secure fibre-connected edit base, the verified Creepers calendar, the Better at Work Season 5 close, one training delivery layer for bodybuilding plus VO2 work, and turning Harrison Living from a finished website into a working distribution loop. Do not rebuild the strategy again before the 10 September review.
 
 ## Top 3 outcomes
 
-1. This morning's Laurence meeting ends with one explicit testimonial outcome or next step.
+1. Harrison Living has real launch footage, an owned email path and a reviewed first cut of Film 001, without waiting for the office.
 2. A secure nearby edit base is shortlisted for the Mac mini and production kit while the building fibre request moves separately, then Creepers receives an accurate calendar site.
 3. Better at Work's Season 5 design system and website reach launch-ready quality, and the gym plus training route is chosen without rebuilding both 32/20 and Baseline.
 
@@ -22,6 +22,18 @@ Reset the week around the Laurence meeting, a secure fibre-connected edit base, 
 
 - [x] Nikki has the Netil House brief. Await viewing options, book the right room, then check the hardwired upload speed, all-in cost, deposit, term and break clause before choosing. <!-- linear:HWL-259 -->
 - [ ] Fable did not pass the client-editing test. After the fibre and proxy-media tests, decide David's editing lane through Council before buying hardware or changing the editor. <!-- linear:HWL-260 -->
+
+### Harrison Living
+
+- [x] Rebuild and deploy `hlivs.com` as the Harrison Living front door, with the live AI Content Engine preview, new identity, mobile QA, social card and working Vercel domain. Completed 10 August. <!-- linear:HWL-268 -->
+- [ ] Recover the missed launch capture on 11 August: record one twenty-minute unscripted conversation plus five locked proof shots from the current room, then take one clean portrait. Cap the whole block at 60 minutes and do not edit it today. <!-- linear:HWL-269 -->
+- [ ] Turn on the X layer on 11 August: update the name, bio, link and header from the approved profile copy, publish X01 after Harrison's one tap, and write five proper replies in the creator-operator, filmmaking or one-person-business lane. <!-- linear:HWL-270 -->
+- [ ] Build Film 001 to a reviewed first cut by 16 August: clean A-roll on 12 August, silent story spine on 13 August, an eight-to-twelve-minute cut plus three title and thumbnail packages on 14 August, London and distance texture on 15 August, then television and phone review plus factual pickups on 16 August. <!-- linear:HWL-271 -->
+- [ ] Ship the first written distribution cycle by 16 August: X02 on 12 August, LinkedIn 01 on 13 August, X03 on 14 August and a Harrison-edited draft of Chase 001 on 16 August. Every public post stays one-tap gated. <!-- linear:HWL-272 -->
+- [ ] Make The Chase an owned email system by 14 August: choose the sending platform and public sender address, authenticate the domain, replace the temporary `chatgpt.site` relay, find and export any existing subscribers, test signup and welcome delivery, provide unsubscribe, and publish a privacy notice for the live capture form. <!-- linear:HWL-273 -->
+- [ ] Freeze Product 001's scope and commercial owner by 16 August: inventory the actual customer files, reconcile the current four-versus-five-file copy, decide whether Harrison or HWL Studio is the seller, confirm VAT treatment and the Stripe account, and lock the walkthrough, licence, support and refund position before checkout is built. <!-- linear:HWL-274 -->
+- [ ] Instrument `hlivs.com` by 16 August with privacy-safe measurement for homepage views, product-page views, successful signups, outbound clicks and checkout once live, then record the pre-launch baseline. <!-- linear:HWL-275 -->
+- [ ] Decide STAHK's v1 job by 16 August: keep it as the shelf label on `hlivs.com` or point `stahk.com` directly to Product 001. Do not build a second website before demand exists. <!-- linear:HWL-266 -->
 
 ### Creepers
 
@@ -82,10 +94,19 @@ Reset the week around the Laurence meeting, a secure fibre-connected edit base, 
 
 - Better at Work production deployment: after Cathal's website review and the Stripe decisions.
 - Edge Lab G2b eight-week evidence review: 31 August. Paper only until then.
+- 17 August: lock Film 001 picture and sound, export the 4K master and 1080p review copy, then publish X04 after approval.
+- 18 August: upload Film 001 unlisted, finish the YouTube name, description and banner, add description, chapters, end screen and `hlivs.com`, load all three Test and Compare packages, then cut one native vertical piece.
+- 19 August: finish the LinkedIn and Instagram profile surfaces, publish LinkedIn 02 and the first Instagram carousel after approval, then publish X05.
+- 20 August: finish the customer ZIP and twenty-minute walkthrough, connect the £19 founding checkout with automated fulfilment, cap the first price at 25 customers, add savable terms, seller and VAT details, instant-download consent, confirmation email, receipt, refund and support routes, complete a full test purchase, then deliver the identical pack free to Year One.
+- 21 August: hold or schedule Film 001 for Sunday, publish the native Instagram vertical after approval, use TikTok only if the cut works there without explanation, then publish X06.
+- 22 August: send Chase 001 to a test address and verify subject, mobile layout, links, sender identity, spelling and unsubscribe. Leave the film edit alone.
+- 23 August: publish Film 001, send Chase 001, put the AI Content Engine founding edition live, pin X01 and answer real replies. No launch-day victory lap.
+- 10 September: review the distribution and product evidence. Target three paid customers and two films, or write a specific diagnosis of reach, offer or conversion before changing the strategy.
+- Six-film pilot after Film 001: the room decision on 6 September, the studio machines on 20 September, the 50K reflection on 4 October, Product 001 evidence on 18 October, then the full 90-day distribution review on 8 November. Titles stay provisional until the footage exists.
 
 ## Parked
 
-- Personal content lane.
+- Field Grade 01, The Index and every Product 002 or 003 build. Keep the LUTs internal until Product 001 is live, the seven-frame test passes and unprompted demand exists.
 - OnlineJobs.ph card.
 - ISA, camera, SSD and old float allocations.
 - Old golf-club outreach.
@@ -101,4 +122,4 @@ Reset the week around the Laurence meeting, a secure fibre-connected edit base, 
 - Tax reserve computes to £9,875 after the completed £675 sweep, pending bank verification. August drawings are set at £1,800 and not yet confirmed paid.
 - The Claude CLI auth outage (3-6 Aug) is fixed; every scheduled daemon has run clean since 6 Aug.
 - Golf clubs and the 1-new-client-by-31-July campaigns are both closed (killed, and won via Squiggly, respectively). LOR Retainer stays parked behind Early Talent by choice, not cold.
-- Ship shelf: AI Content Engine still returns HTTP 404 on its Vercel URL, 55 days unshipped (first-seen 15 June). No other items on the shelf.
+- Harrison Living: `hlivs.com` and `/content-engine` both returned HTTP 200 on 11 August. The page is a truthful pre-launch waitlist, not a finished product. Checkout, fulfilment, the owned email stack, legal terms and measurement remain open.

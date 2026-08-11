@@ -26,6 +26,7 @@ const areaWeights = {
   Creepers: 64,
   "Better at Work": 52,
   "Laing O'Rourke": 68,
+  "Harrison Living": 60,
   "Money and admin": 66,
   Health: 38,
 };

@@ -3499,3 +3499,20 @@
 [2026-08-11T07:25:19.127Z] INFO push ~ HWL-252 → todo
 [2026-08-11T07:25:19.127Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
 [2026-08-11T07:25:19.317Z] INFO Sync done. push: +2 ~2. pull: ~0.
+[2026-08-11T08:02:58.512Z] INFO Sync start. Last: 2026-08-11T07:25:19.315Z
+[2026-08-11T08:02:59.027Z] INFO push ~ HWL-259 → done
+[2026-08-11T08:02:59.241Z] INFO push + HWL-268 Rebuild and deploy `hlivs.com` as the Harrison Living front
+[2026-08-11T08:02:59.425Z] INFO push + HWL-269 Recover the missed launch capture on 11 August: record one t
+[2026-08-11T08:02:59.583Z] INFO push + HWL-270 Turn on the X layer on 11 August: update the name, bio, link
+[2026-08-11T08:02:59.771Z] INFO push + HWL-271 Build Film 001 to a reviewed first cut by 16 August: clean A
+[2026-08-11T08:02:59.913Z] INFO push + HWL-272 Ship the first written distribution cycle by 16 August: X02
+[2026-08-11T08:03:00.424Z] INFO push + HWL-273 Make The Chase an owned email system by 14 August: choose th
+[2026-08-11T08:03:00.635Z] INFO push + HWL-274 Freeze Product 001's scope and commercial owner by 16 August
+[2026-08-11T08:03:00.884Z] INFO push + HWL-275 Instrument `hlivs.com` by 16 August with privacy-safe measur
+[2026-08-11T08:03:00.979Z] ERROR Sync failed: Linear API errors: [{"message":"usage limit exceeded","path":["issueCreate"],"locations":[{"line":2,"column":7}],"extensions":{"type":"usage limit exceeded","code":"USAGE_LIMIT_EXCEEDED","statusCode":400,"userError":true,"userPresentableMessage":"You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.","meta":{"usageMetric":"activeIssueCount"}}}]
+[2026-08-11T08:04:43.282Z] INFO Sync start. Last: 2026-08-11T07:25:19.315Z
+[2026-08-11T08:04:43.792Z] ERROR Sync failed: Linear API errors: [{"message":"usage limit exceeded","path":["issueCreate"],"locations":[{"line":2,"column":7}],"extensions":{"type":"usage limit exceeded","code":"USAGE_LIMIT_EXCEEDED","statusCode":400,"userError":true,"userPresentableMessage":"You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.","meta":{"usageMetric":"activeIssueCount"}}}]
+[2026-08-11T08:05:13.357Z] INFO Sync start. Last: 2026-08-11T07:25:19.315Z
+[2026-08-11T08:05:14.098Z] INFO push ~ HWL-252 → done
+[2026-08-11T08:05:14.098Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-11T08:05:14.180Z] INFO Sync done. push: +0 ~1. pull: ~0.

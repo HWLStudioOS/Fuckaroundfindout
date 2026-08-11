@@ -2,19 +2,19 @@
   "title": "The Board Room",
   "week": "10 to 16 August 2026",
   "sourceDate": "2026-08-11",
-  "generatedAt": "2026-08-11T07:29:39.784Z",
-  "sourceCommit": "518d9c3",
+  "generatedAt": "2026-08-11T08:06:50.117Z",
+  "sourceCommit": "7f42c41",
   "summary": {
-    "open": 28,
-    "active": 18,
+    "open": 45,
+    "active": 26,
     "inProgress": 0,
     "waiting": 3,
-    "scheduled": 2,
+    "scheduled": 11,
     "parked": 5,
-    "closedThisWeek": 12,
-    "completion": 40,
-    "xp": 1440,
-    "level": 3
+    "closedThisWeek": 13,
+    "completion": 33,
+    "xp": 1560,
+    "level": 4
   },
   "tasks": [
     {
@@ -78,6 +78,18 @@
       "rank": 5
     },
     {
+      "id": "HWL-269",
+      "title": "Recover the missed launch capture on 11 August: record one twenty-minute unscripted conversation plus five locked proof shots from the current room, then take one clean portrait. Cap the whole block at 60 minutes and do not edit it today.",
+      "area": "Harrison Living",
+      "state": "todo",
+      "due": "2026-08-11",
+      "baseScore": 83,
+      "score": 83,
+      "reason": "The first capture was due yesterday and did not happen. Recover one bounded raw-material block today before polishing the system again.",
+      "tier": "High",
+      "rank": 6
+    },
+    {
       "id": "HWL-242",
       "title": "Squiggly Careers x Harrison podcast production chat, rescheduled to 18 August 10:00.",
       "area": "Better at Work",
@@ -87,7 +99,19 @@
       "score": 80,
       "reason": "Dated for Tuesday 11 August at 16:15. Arrive with the production and development position clear.",
       "tier": "High",
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "id": "HWL-273",
+      "title": "Make The Chase an owned email system by 14 August: choose the sending platform and public sender address, authenticate the domain, replace the temporary `chatgpt.site` relay, find and export any existing subscribers, test signup and welcome delivery, provide unsubscribe, and publish a privacy notice for the live capture form.",
+      "area": "Harrison Living",
+      "state": "todo",
+      "due": "2026-08-14",
+      "baseScore": 78,
+      "score": 78,
+      "reason": "The live form currently depends on a temporary relay. Own the list, sender identity, consent and unsubscribe before directing traffic at it.",
+      "tier": "High",
+      "rank": 8
     },
     {
       "id": "HWL-241",
@@ -99,7 +123,31 @@
       "score": 78,
       "reason": "The Caroline Webb recording is Thursday 13 August. Finish the brief before the day becomes reactive.",
       "tier": "High",
-      "rank": 7
+      "rank": 9
+    },
+    {
+      "id": "HWL-270",
+      "title": "Turn on the X layer on 11 August: update the name, bio, link and header from the approved profile copy, publish X01 after Harrison's one tap, and write five proper replies in the creator-operator, filmmaking or one-person-business lane.",
+      "area": "Harrison Living",
+      "state": "todo",
+      "due": "2026-08-11",
+      "baseScore": 76,
+      "score": 76,
+      "reason": "The site is live but distribution is still off. Complete the X surface and first approved post today, then stop at five real replies.",
+      "tier": "High",
+      "rank": 10
+    },
+    {
+      "id": "HWL-271",
+      "title": "Build Film 001 to a reviewed first cut by 16 August: clean A-roll on 12 August, silent story spine on 13 August, an eight-to-twelve-minute cut plus three title and thumbnail packages on 14 August, London and distance texture on 15 August, then television and phone review plus factual pickups on 16 August.",
+      "area": "Harrison Living",
+      "state": "todo",
+      "due": "2026-08-16",
+      "baseScore": 74,
+      "score": 74,
+      "reason": "Film 001 is the trust asset for the 23 August launch. The dated first-cut sequence prevents another unshipped video plan.",
+      "tier": "Next",
+      "rank": 11
     },
     {
       "id": "HWL-250",
@@ -111,7 +159,31 @@
       "score": 72,
       "reason": "The commercial position and draft already exist. Close it after the Season 5 launch package has had its final pass.",
       "tier": "Next",
-      "rank": 8
+      "rank": 12
+    },
+    {
+      "id": "HWL-274",
+      "title": "Freeze Product 001's scope and commercial owner by 16 August: inventory the actual customer files, reconcile the current four-versus-five-file copy, decide whether Harrison or HWL Studio is the seller, confirm VAT treatment and the Stripe account, and lock the walkthrough, licence, support and refund position before checkout is built.",
+      "area": "Harrison Living",
+      "state": "todo",
+      "due": "2026-08-16",
+      "baseScore": 70,
+      "score": 70,
+      "reason": "Checkout should not be built around contradictory product copy or an undecided seller. Freeze the offer and commercial route this week.",
+      "tier": "Next",
+      "rank": 13
+    },
+    {
+      "id": "HWL-272",
+      "title": "Ship the first written distribution cycle by 16 August: X02 on 12 August, LinkedIn 01 on 13 August, X03 on 14 August and a Harrison-edited draft of Chase 001 on 16 August. Every public post stays one-tap gated.",
+      "area": "Harrison Living",
+      "state": "todo",
+      "due": "2026-08-16",
+      "baseScore": 66,
+      "score": 66,
+      "reason": "This is the first repeatable writing cycle. Keep it behind client deadlines, but do not let the week finish with another empty public surface.",
+      "tier": "Next",
+      "rank": 14
     },
     {
       "id": "HWL-265",
@@ -123,7 +195,7 @@
       "score": 64,
       "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
       "tier": "Next",
-      "rank": 9
+      "rank": 15
     },
     {
       "id": "HWL-262",
@@ -135,7 +207,7 @@
       "score": 64,
       "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
       "tier": "Next",
-      "rank": 10
+      "rank": 16
     },
     {
       "id": "HWL-254",
@@ -147,7 +219,19 @@
       "score": 62,
       "reason": "G2a has closed without a pass. Record the next paper-only decision without arming capital.",
       "tier": "Next",
-      "rank": 11
+      "rank": 17
+    },
+    {
+      "id": "HWL-275",
+      "title": "Instrument `hlivs.com` by 16 August with privacy-safe measurement for homepage views, product-page views, successful signups, outbound clicks and checkout once live, then record the pre-launch baseline.",
+      "area": "Harrison Living",
+      "state": "todo",
+      "due": "2026-08-16",
+      "baseScore": 56,
+      "score": 56,
+      "reason": "Install measurement before launch traffic arrives. It matters, but it should not displace capture, client delivery or the owned email path.",
+      "tier": "Next",
+      "rank": 18
     },
     {
       "id": "HWL-263",
@@ -159,7 +243,7 @@
       "score": 52,
       "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
       "tier": "Later",
-      "rank": 12
+      "rank": 19
     },
     {
       "id": "HWL-260",
@@ -171,7 +255,19 @@
       "score": 50,
       "reason": "Fable did not pass. Prove fibre and proxy workflow next, then decide David's lane through Council.",
       "tier": "Later",
-      "rank": 13
+      "rank": 20
+    },
+    {
+      "id": "HWL-266",
+      "title": "Decide STAHK's v1 job by 16 August: keep it as the shelf label on `hlivs.com` or point `stahk.com` directly to Product 001. Do not build a second website before demand exists.",
+      "area": "Harrison Living",
+      "state": "todo",
+      "due": "2026-08-16",
+      "baseScore": 42,
+      "score": 42,
+      "reason": "STAHK only needs a v1 routing decision. It must not turn into a second website build before Product 001 has evidence.",
+      "tier": "Later",
+      "rank": 21
     },
     {
       "id": "HWL-239",
@@ -183,7 +279,7 @@
       "score": 40,
       "reason": "The date request is already with Anna and Sarah-Louise. Keep visible, but do not let waiting work outrank Harrison-owned closes.",
       "tier": "Later",
-      "rank": 14
+      "rank": 22
     },
     {
       "id": "HWL-251",
@@ -195,7 +291,7 @@
       "score": 38,
       "reason": "Delivery is complete. Keep the payment confirmation visible without treating it as unfinished production.",
       "tier": "Later",
-      "rank": 15
+      "rank": 23
     },
     {
       "id": "HWL-243",
@@ -207,7 +303,7 @@
       "score": 32,
       "reason": "This depends on Kerri and Emma's budget and PO route. It is commercially important, but not today's first move.",
       "tier": "Later",
-      "rank": 16
+      "rank": 24
     },
     {
       "id": "HWL-240",
@@ -219,7 +315,7 @@
       "score": 28,
       "reason": "Blocked until Cathal reviews the website. Do not start Stripe production work early.",
       "tier": "Later",
-      "rank": 17
+      "rank": 25
     },
     {
       "id": "HWL-245",
@@ -231,7 +327,7 @@
       "score": 12,
       "reason": "Background system monitoring. It belongs below Harrison's client, money and health work.",
       "tier": "Later",
-      "rank": 18
+      "rank": 26
     },
     {
       "id": "waiting-cathal-reprice-reply-is-send-gated-on-harrison-t",
@@ -294,8 +390,116 @@
       "rank": null
     },
     {
-      "id": "parked-personal-content-lane",
-      "title": "Personal content lane.",
+      "id": "scheduled-17-august-lock-film-001-picture-and-sound-export",
+      "title": "17 August: lock Film 001 picture and sound, export the 4K master and 1080p review copy, then publish X04 after approval.",
+      "area": "Later",
+      "state": "scheduled",
+      "due": "2026-08-17",
+      "baseScore": 24,
+      "score": 24,
+      "reason": "Deliberately dated. It should not steal attention from the active room.",
+      "tier": "Later",
+      "rank": null
+    },
+    {
+      "id": "scheduled-18-august-upload-film-001-unlisted-finish-the-yo",
+      "title": "18 August: upload Film 001 unlisted, finish the YouTube name, description and banner, add description, chapters, end screen and `hlivs.com`, load all three Test and Compare packages, then cut one native vertical piece.",
+      "area": "Later",
+      "state": "scheduled",
+      "due": "2026-08-18",
+      "baseScore": 24,
+      "score": 24,
+      "reason": "Deliberately dated. It should not steal attention from the active room.",
+      "tier": "Later",
+      "rank": null
+    },
+    {
+      "id": "scheduled-19-august-finish-the-linkedin-and-instagram-prof",
+      "title": "19 August: finish the LinkedIn and Instagram profile surfaces, publish LinkedIn 02 and the first Instagram carousel after approval, then publish X05.",
+      "area": "Later",
+      "state": "scheduled",
+      "due": "2026-08-19",
+      "baseScore": 24,
+      "score": 24,
+      "reason": "Deliberately dated. It should not steal attention from the active room.",
+      "tier": "Later",
+      "rank": null
+    },
+    {
+      "id": "scheduled-20-august-finish-the-customer-zip-and-twenty-min",
+      "title": "20 August: finish the customer ZIP and twenty-minute walkthrough, connect the £19 founding checkout with automated fulfilment, cap the first price at 25 customers, add savable terms, seller and VAT details, instant-download consent, confirmation email, receipt, refund and support routes, complete a full test purchase, then deliver the identical pack free to Year One.",
+      "area": "Later",
+      "state": "scheduled",
+      "due": "2026-08-20",
+      "baseScore": 24,
+      "score": 24,
+      "reason": "Deliberately dated. It should not steal attention from the active room.",
+      "tier": "Later",
+      "rank": null
+    },
+    {
+      "id": "scheduled-21-august-hold-or-schedule-film-001-for-sunday-p",
+      "title": "21 August: hold or schedule Film 001 for Sunday, publish the native Instagram vertical after approval, use TikTok only if the cut works there without explanation, then publish X06.",
+      "area": "Later",
+      "state": "scheduled",
+      "due": "2026-08-21",
+      "baseScore": 24,
+      "score": 24,
+      "reason": "Deliberately dated. It should not steal attention from the active room.",
+      "tier": "Later",
+      "rank": null
+    },
+    {
+      "id": "scheduled-22-august-send-chase-001-to-a-test-address-and-v",
+      "title": "22 August: send Chase 001 to a test address and verify subject, mobile layout, links, sender identity, spelling and unsubscribe. Leave the film edit alone.",
+      "area": "Later",
+      "state": "scheduled",
+      "due": "2026-08-22",
+      "baseScore": 24,
+      "score": 24,
+      "reason": "Deliberately dated. It should not steal attention from the active room.",
+      "tier": "Later",
+      "rank": null
+    },
+    {
+      "id": "scheduled-23-august-publish-film-001-send-chase-001-put-th",
+      "title": "23 August: publish Film 001, send Chase 001, put the AI Content Engine founding edition live, pin X01 and answer real replies. No launch-day victory lap.",
+      "area": "Later",
+      "state": "scheduled",
+      "due": "2026-08-23",
+      "baseScore": 24,
+      "score": 24,
+      "reason": "Deliberately dated. It should not steal attention from the active room.",
+      "tier": "Later",
+      "rank": null
+    },
+    {
+      "id": "scheduled-10-september-review-the-distribution-and-product",
+      "title": "10 September: review the distribution and product evidence. Target three paid customers and two films, or write a specific diagnosis of reach, offer or conversion before changing the strategy.",
+      "area": "Later",
+      "state": "scheduled",
+      "due": "2026-09-10",
+      "baseScore": 24,
+      "score": 24,
+      "reason": "Deliberately dated. It should not steal attention from the active room.",
+      "tier": "Later",
+      "rank": null
+    },
+    {
+      "id": "scheduled-six-film-pilot-after-film-001-the-room-decision-",
+      "title": "Six-film pilot after Film 001: the room decision on 6 September, the studio machines on 20 September, the 50K reflection on 4 October, Product 001 evidence on 18 October, then the full 90-day distribution review on 8 November. Titles stay provisional until the footage exists.",
+      "area": "Later",
+      "state": "scheduled",
+      "due": "2026-09-06",
+      "baseScore": 24,
+      "score": 24,
+      "reason": "Deliberately dated. It should not steal attention from the active room.",
+      "tier": "Later",
+      "rank": null
+    },
+    {
+      "id": "parked-field-grade-01-the-index-and-every-product-002-o",
+      "title": "Field Grade 01, The Index and every Product 002 or 003 build. Keep the LUTs internal until Product 001 is live, the seven-frame test passes and unprompted demand exists.",
       "area": "Parked",
       "state": "parked",
       "due": null,
@@ -362,6 +566,18 @@
       "baseScore": 58,
       "score": 0,
       "reason": "Nikki has the room, budget and fibre brief. Await her options, then book the right viewing.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-268",
+      "title": "Rebuild and deploy `hlivs.com` as the Harrison Living front door, with the live AI Content Engine preview, new identity, mobile QA, social card and working Vercel domain. Completed 10 August.",
+      "area": "Harrison Living",
+      "state": "done",
+      "due": "2026-08-10",
+      "baseScore": 60,
+      "score": 0,
+      "reason": "Closed in the canonical weekly board.",
       "tier": "Closed",
       "rank": null
     },

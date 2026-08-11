@@ -158,7 +158,7 @@ export function ProblemFinder({ compact = false }: { compact?: boolean }) {
           Find an answer <ArrowRight aria-hidden="true" />
         </button>
       </form>
-      <div className="finder-prompts" aria-label="Example searches">
+      <div className="finder-prompts" role="group" aria-label="Example searches">
         {prompts.map((prompt) => (
           <button
             key={prompt}

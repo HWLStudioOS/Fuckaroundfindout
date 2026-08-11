@@ -52,7 +52,7 @@ export default function Home() {
               <span>AU · UK · US</span>
             </div>
           </div>
-          <div className="hero__visual" aria-label="Cathal Quinlan and Annette Sloan">
+          <div className="hero__visual">
             <div className="hero__sun" />
             <div className="hero__annotation hero__annotation--one">
               <span>Guest idea</span>

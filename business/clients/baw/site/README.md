@@ -6,7 +6,7 @@ A clean-room Next.js redesign for Better at Work. This is the Season 5 public-si
 
 - Responsive homepage using the approved original Better@Work outlined logo
 - Persistent Acast-backed audio player
-- Normalised snapshot of all 84 episodes in the canonical public Acast RSS feed
+- Normalised snapshot of all 85 episodes in the canonical public Acast RSS feed
 - Static episode routes for the full archive
 - Working archive topic filters and four real topic collections
 - Timestamp links that start the persistent player at the selected moment

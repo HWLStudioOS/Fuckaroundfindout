@@ -1357,6 +1357,7 @@ h3 {
   min-height: 450px;
   padding: 24px;
   overflow: hidden;
+  color: var(--ink);
   border: 1.5px solid var(--ink);
   border-radius: var(--radius-md);
   flex-direction: column;
@@ -1874,7 +1875,7 @@ h3 {
   display: flex;
   align-items: center;
   gap: 6px;
-  opacity: 0.68;
+  opacity: 0.75;
 }
 
 .episode-hero__byline svg {

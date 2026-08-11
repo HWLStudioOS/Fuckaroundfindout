@@ -78,6 +78,7 @@ reconcile_board_room_events() {
 
 deploy_board_room() {
   local pushed_sha="$1"
+  local board_api_http_code
   local board_http_code
   local deploy_root
   local deploy_worktree
@@ -147,13 +148,25 @@ deploy_board_room() {
   rmdir "$deploy_root" 2>/dev/null || true
 
   : > "$ERR_FILE"
-  board_http_code="$($CURL_BIN --silent --show-error --output /dev/null --write-out '%{http_code}' "$BOARD_ROOM_URL/" 2>"$ERR_FILE" || true)"
-  if [[ "$board_http_code" != "401" ]]; then
-    echo "- $STAMP | board-room | SECURITY SMOKE FAILED after deploy, unauthenticated page returned ${board_http_code:-no status}: $(error_tail_summary)" >> "$LOG"
+  board_http_code="$($CURL_BIN --silent --show-error --dump-header "$ERR_FILE" --output /dev/null --write-out '%{http_code}' "$BOARD_ROOM_URL/" 2>>"$ERR_FILE" || true)"
+  if [[ "$board_http_code" != "200" ]]; then
+    echo "- $STAMP | board-room | PUBLIC READ SMOKE FAILED after deploy, page returned ${board_http_code:-no status}: $(error_tail_summary)" >> "$LOG"
     return 1
   fi
 
-  echo "- $STAMP | board-room | deployed production and verified unauthenticated access returns 401" >> "$LOG"
+  if ! grep -qi '^x-robots-tag: .*noindex' "$ERR_FILE"; then
+    echo "- $STAMP | board-room | SECURITY SMOKE FAILED after deploy, public page is missing the noindex header" >> "$LOG"
+    return 1
+  fi
+
+  : > "$ERR_FILE"
+  board_api_http_code="$($CURL_BIN --silent --show-error --output /dev/null --write-out '%{http_code}' "$BOARD_ROOM_URL/api/board" 2>"$ERR_FILE" || true)"
+  if [[ "$board_api_http_code" != "200" ]]; then
+    echo "- $STAMP | board-room | PUBLIC READ SMOKE FAILED after deploy, API returned ${board_api_http_code:-no status}: $(error_tail_summary)" >> "$LOG"
+    return 1
+  fi
+
+  echo "- $STAMP | board-room | deployed production and verified passwordless page and API reads return 200 with noindex retained" >> "$LOG"
   return 0
 }
 

@@ -54,8 +54,8 @@ Reset the week around a secure fibre-connected edit base, the verified Creepers 
 - [ ] Send Cathal the repricing reply: hold the £1,500 net floor, offer the scope-cut package (keep episode packaging, retire the monthly report for the live dashboard, drop LinkedIn ghostwriting, fold season planning into the fortnightly call), and raise the VAT-reclaim question first. Draft is ready in Gmail. <!-- linear:HWL-250 -->
 - [x] Share the finished Better at Work website preview with Cathal for review. It is with him, the ball is his. <!-- linear:HWL-231 -->
 - [ ] Once Cathal reviews: lock the four Stripe decisions (price/currency, refund/support terms, whose account, fulfilment path) and set the production env vars. Don't start this before the review lands. <!-- linear:HWL-240 -->
-- [ ] Prep the Caroline Webb podcast recording, 13 August 16:00 London (Riverside link confirmed on calendar). <!-- linear:HWL-241 -->
-- [ ] Squiggly Careers x Harrison podcast production chat, rescheduled to 18 August 10:00. <!-- linear:HWL-242 -->
+- [x] Prep the Caroline Webb podcast recording, 13 August 16:00 London (Riverside link confirmed on calendar). <!-- linear:HWL-241 -->
+- [x] Squiggly Careers x Harrison podcast production chat, rescheduled to 18 August 10:00. <!-- linear:HWL-242 -->
 
 ### Laing O'Rourke
 
@@ -69,14 +69,14 @@ Reset the week around a secure fibre-connected edit base, the verified Creepers 
 
 ### Money and admin
 
-- [ ] Decide amend-or-fold on the personal scout buys (SPCX, NVDA, SNDK, MU, PLTR, five trades in under a week outside the investment strategy doc). Either write a capped scout sleeve into the plan or stop. <!-- linear:HWL-228 -->
+- [x] Decide amend-or-fold on the personal scout buys (SPCX, NVDA, SNDK, MU, PLTR, five trades in under a week outside the investment strategy doc). Either write a capped scout sleeve into the plan or stop. <!-- linear:HWL-228 -->
 - [x] Sweep the £675 owed to the tax reserve from the BaW receipt. Harrison confirmed done Sunday 9 August. <!-- linear:HWL-244 -->
-- [ ] Take £1,800 director's drawings for August. Salary is already done. <!-- linear:HWL-253 -->
+- [x] Take £1,800 director's drawings for August. Salary is already done. <!-- linear:HWL-253 -->
 - [ ] Edge Lab: decide what happens to the crypto arena now G2a's 14-day window has closed with rules/fable underperforming a buy-and-hold control. Continue paper-only, adjust, or stop. Macro book ties control, no action needed there. <!-- linear:HWL-254 -->
 
 ### Health
 
-- [ ] Join MuscleWorks Bethnal Green, then cancel Elevate Fitness. Third Space only wins if its pool and recovery layer justify £245 per month plus the £100 joining fee. <!-- linear:HWL-261 -->
+- [x] Join MuscleWorks Bethnal Green, then cancel Elevate Fitness. Third Space only wins if its pool and recovery layer justify £245 per month plus the £100 joining fee. <!-- linear:HWL-261 -->
 - [x] Build + Engine programme locked: four lifting slots, four runs and Saturday rest or golf. STNDRD is on a seven-day exercise-selection trial after a positive Push session; MARCHON GAIN is the fallback. Baseline and 32/20 are frozen. <!-- linear:HWL-255 -->
 
 ### System

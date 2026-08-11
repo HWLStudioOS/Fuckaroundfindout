@@ -4,7 +4,6 @@ import { readBoardEvents, writeBoardEvent } from "../../board-events.ts";
 import { isEditableTask, mergeBoardEvents } from "../../board-state.ts";
 import {
   applyBoardSecurityHeaders,
-  authenticationFailureResponse,
   isTrustedMutationOrigin,
 } from "../../../security.ts";
 import type { BoardData, BoardEvent } from "../../types.ts";
@@ -48,9 +47,6 @@ function privateJson(request: NextRequest, value: unknown, status = 200) {
 }
 
 export async function GET(request: NextRequest) {
-  const denial = authenticationFailureResponse(request);
-  if (denial) return denial;
-
   try {
     const events = await readBoardEvents();
     return privateJson(request, mergeBoardEvents(source, events));
@@ -61,9 +57,6 @@ export async function GET(request: NextRequest) {
 }
 
 export async function PATCH(request: NextRequest) {
-  const denial = authenticationFailureResponse(request);
-  if (denial) return denial;
-
   if (!isTrustedMutationOrigin(request)) {
     return privateJson(request, { error: "A valid same-origin request is required." }, 403);
   }

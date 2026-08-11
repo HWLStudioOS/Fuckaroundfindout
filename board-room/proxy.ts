@@ -1,14 +1,10 @@
 import { NextRequest, NextResponse } from "next/server.js";
 import {
   applyBoardSecurityHeaders,
-  authenticationFailureResponse,
   boardContentSecurityPolicy,
 } from "./security.ts";
 
 export function proxy(request: NextRequest) {
-  const denial = authenticationFailureResponse(request);
-  if (denial) return denial;
-
   const nonce = Buffer.from(crypto.randomUUID(), "utf8").toString("base64");
   const contentSecurityPolicy = boardContentSecurityPolicy(nonce);
   const requestHeaders = new Headers(request.headers);

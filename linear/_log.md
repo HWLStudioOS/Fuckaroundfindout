@@ -3516,3 +3516,12 @@
 [2026-08-11T08:05:14.098Z] INFO push ~ HWL-252 → done
 [2026-08-11T08:05:14.098Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
 [2026-08-11T08:05:14.180Z] INFO Sync done. push: +0 ~1. pull: ~0.
+[2026-08-11T08:25:19.407Z] INFO Sync start. Last: 2026-08-11T08:05:14.179Z
+[2026-08-11T08:25:19.630Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-11T08:25:19.697Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-11T09:25:19.764Z] INFO Sync start. Last: 2026-08-11T08:25:19.695Z
+[2026-08-11T09:25:20.048Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-11T09:25:20.130Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-11T10:25:20.285Z] INFO Sync start. Last: 2026-08-11T09:25:20.126Z
+[2026-08-11T10:25:20.518Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-11T10:25:20.586Z] INFO Sync done. push: +0 ~0. pull: ~0.

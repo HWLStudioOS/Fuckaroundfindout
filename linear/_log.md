@@ -3429,3 +3429,10 @@
 [2026-08-10T12:25:03.094Z] INFO Sync start. Last: 2026-08-10T11:25:03.020Z
 [2026-08-10T12:25:03.380Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
 [2026-08-10T12:25:03.450Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-11T07:25:18.001Z] INFO Sync start. Last: 2026-08-11T06:25:17.875Z
+[2026-08-11T07:25:18.431Z] INFO push ~ HWL-259 → todo
+[2026-08-11T07:25:18.625Z] INFO push + HWL-266 Manually finish and publish one Creepers post today. The fai
+[2026-08-11T07:25:18.881Z] INFO push + HWL-267 Prepare one Better at Work post today. If Cathal's personal 
+[2026-08-11T07:25:19.127Z] INFO push ~ HWL-252 → todo
+[2026-08-11T07:25:19.127Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-11T07:25:19.317Z] INFO Sync done. push: +2 ~2. pull: ~0.

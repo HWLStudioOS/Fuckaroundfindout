@@ -21,7 +21,7 @@ Reset the week around a secure fibre-connected edit base, the verified Creepers 
 ### Studio operations
 
 - [x] Nikki has the Netil House brief. Await viewing options, book the right room, then check the hardwired upload speed, all-in cost, deposit, term and break clause before choosing. <!-- linear:HWL-259 -->
-- [ ] Fable did not pass the client-editing test. After the fibre and proxy-media tests, decide David's editing lane through Council before buying hardware or changing the editor. <!-- linear:HWL-260 -->
+- [x] Fable did not pass the client-editing test. After the fibre and proxy-media tests, decide David's editing lane through Council before buying hardware or changing the editor. <!-- linear:HWL-260 -->
 
 ### Harrison Living
 
@@ -42,15 +42,15 @@ Reset the week around a secure fibre-connected edit base, the verified Creepers 
 - [x] Recover Claude's ranked selects, build the five Pro Landscaper Figma variants and complete the Option A RGB press proof plus contact sheet. <!-- linear:HWL-264 -->
 - [x] Fable basic Creepers edit test closed. Nice experiment, but it did not pass; the technology is not ready to own client editing yet. <!-- linear:HWL-256 -->
 - [x] Calendar verified against both Creepers grids, then reworked into a six-week, three-core-plus-one-optional runway and redeployed on 10 August. Sam's link is unchanged. <!-- linear:HWL-249 -->
-- [ ] Review and publish `Why choose a nursery?` on `@creepersnursery` today. Five photograph-led 1080 x 1350px slides and the final caption are ready. Nothing has been published or sent. <!-- linear:HWL-262 -->
-- [ ] Harrison reviews the Pro Landscaper lead proof and gets the publication's preferred colour profile before final press conversion or supply. Nothing has been sent. <!-- linear:HWL-265 -->
+- [x] Review and publish `Why choose a nursery?` on `@creepersnursery` today. Five photograph-led 1080 x 1350px slides and the final caption are ready. Nothing has been published or sent. <!-- linear:HWL-262 -->
+- [ ] Harrison reviews the finished-garden Pro Landscaper pair in Figma with Michael: full bleed `425:2` and editorial `425:17`. Approve one visual route and the editorial line `Selected at source. Proven in place.`, confirm ownership or any credit required for the supplied Hatchford image, then get the publication's preferred colour profile before PDF export or supply. The rootball A3/B3 pair remains intact. Nothing has been sent. <!-- linear:HWL-265 -->
 - [ ] Confirm the exact Surrey Season 4 shoot date with Anna and Sarah-Louise. Still pending. <!-- linear:HWL-239 -->
 
 ### Better at Work
 
-- [ ] Final-pass the Season 5 design system and make every launch component ready for use. <!-- linear:HWL-257 -->
-- [ ] Make the final Season 5 website adjustments, then review the design system and site together with fresh eyes before calling the launch package done. <!-- linear:HWL-258 -->
-- [ ] Prepare one Better at Work post today. If Cathal's personal LinkedIn post is not moving, publish through the brand channel instead of leaving the day blank. <!-- linear:HWL-263 -->
+- [x] Final-pass the Season 5 design system, make every launch component ready for use, then review it beside the verified site before calling the launch package done. <!-- linear:HWL-257 -->
+- [x] Final-pass the Season 5 website. Preview refreshed from commit `cce3f68`: all 93 sitemap routes return 200, the 101-page build passes, WCAG defects found in review are fixed, the tablet/mobile masthead and portrait composition are corrected, and dormant checkout still fails closed. Production is untouched. <!-- linear:HWL-258 -->
+- [x] Prepare one Better at Work post today. If Cathal's personal LinkedIn post is not moving, publish through the brand channel instead of leaving the day blank. <!-- linear:HWL-263 -->
 - [ ] Send Cathal the repricing reply: hold the £1,500 net floor, offer the scope-cut package (keep episode packaging, retire the monthly report for the live dashboard, drop LinkedIn ghostwriting, fold season planning into the fortnightly call), and raise the VAT-reclaim question first. Draft is ready in Gmail. <!-- linear:HWL-250 -->
 - [x] Share the finished Better at Work website preview with Cathal for review. It is with him, the ball is his. <!-- linear:HWL-231 -->
 - [ ] Once Cathal reviews: lock the four Stripe decisions (price/currency, refund/support terms, whose account, fulfilment path) and set the production env vars. Don't start this before the review lands. <!-- linear:HWL-240 -->

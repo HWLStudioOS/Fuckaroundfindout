@@ -2,45 +2,21 @@
   "title": "The Board Room",
   "week": "10 to 16 August 2026",
   "sourceDate": "2026-08-11",
-  "generatedAt": "2026-08-11T10:31:33.433Z",
-  "sourceCommit": "cd8326d",
+  "generatedAt": "2026-08-11T21:30:12.960Z",
+  "sourceCommit": "acf40c3",
   "summary": {
-    "open": 40,
-    "active": 21,
+    "open": 35,
+    "active": 16,
     "inProgress": 0,
     "waiting": 3,
     "scheduled": 11,
     "parked": 5,
-    "closedThisWeek": 18,
-    "completion": 46,
-    "xp": 2160,
-    "level": 5
+    "closedThisWeek": 23,
+    "completion": 59,
+    "xp": 2760,
+    "level": 6
   },
   "tasks": [
-    {
-      "id": "HWL-257",
-      "title": "Final-pass the Season 5 design system and make every launch component ready for use.",
-      "area": "Better at Work",
-      "state": "todo",
-      "due": null,
-      "baseScore": 95,
-      "score": 95,
-      "reason": "Final-pass the Season 5 system until every component is ready for real launch use.",
-      "tier": "Critical",
-      "rank": 1
-    },
-    {
-      "id": "HWL-258",
-      "title": "Make the final Season 5 website adjustments, then review the design system and site together with fresh eyes before calling the launch package done.",
-      "area": "Better at Work",
-      "state": "todo",
-      "due": null,
-      "baseScore": 93,
-      "score": 93,
-      "reason": "Make the final website adjustments, then review the complete Season 5 package with fresh eyes before calling it done.",
-      "tier": "Critical",
-      "rank": 2
-    },
     {
       "id": "HWL-269",
       "title": "Recover the missed launch capture on 11 August: record one twenty-minute unscripted conversation plus five locked proof shots from the current room, then take one clean portrait. Cap the whole block at 60 minutes and do not edit it today.",
@@ -51,7 +27,7 @@
       "score": 83,
       "reason": "The first capture was due yesterday and did not happen. Recover one bounded raw-material block today before polishing the system again.",
       "tier": "High",
-      "rank": 3
+      "rank": 1
     },
     {
       "id": "HWL-273",
@@ -63,7 +39,7 @@
       "score": 78,
       "reason": "The live form currently depends on a temporary relay. Own the list, sender identity, consent and unsubscribe before directing traffic at it.",
       "tier": "High",
-      "rank": 4
+      "rank": 2
     },
     {
       "id": "HWL-270",
@@ -75,7 +51,7 @@
       "score": 76,
       "reason": "The site is live but distribution is still off. Complete the X surface and first approved post today, then stop at five real replies.",
       "tier": "High",
-      "rank": 5
+      "rank": 3
     },
     {
       "id": "HWL-271",
@@ -87,7 +63,7 @@
       "score": 74,
       "reason": "Film 001 is the trust asset for the 23 August launch. The dated first-cut sequence prevents another unshipped video plan.",
       "tier": "Next",
-      "rank": 6
+      "rank": 4
     },
     {
       "id": "HWL-250",
@@ -99,7 +75,7 @@
       "score": 72,
       "reason": "The commercial position and draft already exist. Close it after the Season 5 launch package has had its final pass.",
       "tier": "Next",
-      "rank": 7
+      "rank": 5
     },
     {
       "id": "HWL-274",
@@ -111,7 +87,7 @@
       "score": 70,
       "reason": "Checkout should not be built around contradictory product copy or an undecided seller. Freeze the offer and commercial route this week.",
       "tier": "Next",
-      "rank": 8
+      "rank": 6
     },
     {
       "id": "HWL-272",
@@ -123,11 +99,11 @@
       "score": 66,
       "reason": "This is the first repeatable writing cycle. Keep it behind client deadlines, but do not let the week finish with another empty public surface.",
       "tier": "Next",
-      "rank": 9
+      "rank": 7
     },
     {
       "id": "HWL-265",
-      "title": "Harrison reviews the Pro Landscaper lead proof and gets the publication's preferred colour profile before final press conversion or supply. Nothing has been sent.",
+      "title": "Harrison reviews the finished-garden Pro Landscaper pair in Figma with Michael: full bleed `425:2` and editorial `425:17`. Approve one visual route and the editorial line `Selected at source. Proven in place.`, confirm ownership or any credit required for the supplied Hatchford image, then get the publication's preferred colour profile before PDF export or supply. The rootball A3/B3 pair remains intact. Nothing has been sent.",
       "area": "Creepers",
       "state": "todo",
       "due": null,
@@ -135,19 +111,7 @@
       "score": 64,
       "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
       "tier": "Next",
-      "rank": 10
-    },
-    {
-      "id": "HWL-262",
-      "title": "Review and publish `Why choose a nursery?` on `@creepersnursery` today. Five photograph-led 1080 x 1350px slides and the final caption are ready. Nothing has been published or sent.",
-      "area": "Creepers",
-      "state": "todo",
-      "due": null,
-      "baseScore": 64,
-      "score": 64,
-      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
-      "tier": "Next",
-      "rank": 11
+      "rank": 8
     },
     {
       "id": "HWL-254",
@@ -159,7 +123,7 @@
       "score": 62,
       "reason": "G2a has closed without a pass. Record the next paper-only decision without arming capital.",
       "tier": "Next",
-      "rank": 12
+      "rank": 9
     },
     {
       "id": "HWL-275",
@@ -171,31 +135,7 @@
       "score": 56,
       "reason": "Install measurement before launch traffic arrives. It matters, but it should not displace capture, client delivery or the owned email path.",
       "tier": "Next",
-      "rank": 13
-    },
-    {
-      "id": "HWL-263",
-      "title": "Prepare one Better at Work post today. If Cathal's personal LinkedIn post is not moving, publish through the brand channel instead of leaving the day blank.",
-      "area": "Better at Work",
-      "state": "todo",
-      "due": null,
-      "baseScore": 52,
-      "score": 52,
-      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
-      "tier": "Later",
-      "rank": 14
-    },
-    {
-      "id": "HWL-260",
-      "title": "Fable did not pass the client-editing test. After the fibre and proxy-media tests, decide David's editing lane through Council before buying hardware or changing the editor.",
-      "area": "Studio operations",
-      "state": "todo",
-      "due": null,
-      "baseScore": 50,
-      "score": 50,
-      "reason": "Fable did not pass. Prove fibre and proxy workflow next, then decide David's lane through Council.",
-      "tier": "Later",
-      "rank": 15
+      "rank": 10
     },
     {
       "id": "HWL-266",
@@ -207,7 +147,7 @@
       "score": 42,
       "reason": "STAHK only needs a v1 routing decision. It must not turn into a second website build before Product 001 has evidence.",
       "tier": "Later",
-      "rank": 16
+      "rank": 11
     },
     {
       "id": "HWL-239",
@@ -219,7 +159,7 @@
       "score": 40,
       "reason": "The date request is already with Anna and Sarah-Louise. Keep visible, but do not let waiting work outrank Harrison-owned closes.",
       "tier": "Later",
-      "rank": 17
+      "rank": 12
     },
     {
       "id": "HWL-251",
@@ -231,7 +171,7 @@
       "score": 38,
       "reason": "Delivery is complete. Keep the payment confirmation visible without treating it as unfinished production.",
       "tier": "Later",
-      "rank": 18
+      "rank": 13
     },
     {
       "id": "HWL-243",
@@ -243,7 +183,7 @@
       "score": 32,
       "reason": "This depends on Kerri and Emma's budget and PO route. It is commercially important, but not today's first move.",
       "tier": "Later",
-      "rank": 19
+      "rank": 14
     },
     {
       "id": "HWL-240",
@@ -255,7 +195,7 @@
       "score": 28,
       "reason": "Blocked until Cathal reviews the website. Do not start Stripe production work early.",
       "tier": "Later",
-      "rank": 20
+      "rank": 15
     },
     {
       "id": "HWL-245",
@@ -267,7 +207,7 @@
       "score": 12,
       "reason": "Background system monitoring. It belongs below Harrison's client, money and health work.",
       "tier": "Later",
-      "rank": 21
+      "rank": 16
     },
     {
       "id": "waiting-cathal-reprice-reply-is-send-gated-on-harrison-t",
@@ -510,6 +450,18 @@
       "rank": null
     },
     {
+      "id": "HWL-260",
+      "title": "Fable did not pass the client-editing test. After the fibre and proxy-media tests, decide David's editing lane through Council before buying hardware or changing the editor.",
+      "area": "Studio operations",
+      "state": "done",
+      "due": null,
+      "baseScore": 50,
+      "score": 0,
+      "reason": "Fable did not pass. Prove fibre and proxy workflow next, then decide David's lane through Council.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
       "id": "HWL-268",
       "title": "Rebuild and deploy `hlivs.com` as the Harrison Living front door, with the live AI Content Engine preview, new identity, mobile QA, social card and working Vercel domain. Completed 10 August.",
       "area": "Harrison Living",
@@ -578,6 +530,54 @@
       "baseScore": 97,
       "score": 0,
       "reason": "The live calendar is now verified and accurate through 10 August. Close the loop by sending the usable version to Sam.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-262",
+      "title": "Review and publish `Why choose a nursery?` on `@creepersnursery` today. Five photograph-led 1080 x 1350px slides and the final caption are ready. Nothing has been published or sent.",
+      "area": "Creepers",
+      "state": "done",
+      "due": null,
+      "baseScore": 64,
+      "score": 0,
+      "reason": "Closed in the canonical weekly board.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-257",
+      "title": "Final-pass the Season 5 design system, make every launch component ready for use, then review it beside the verified site before calling the launch package done.",
+      "area": "Better at Work",
+      "state": "done",
+      "due": null,
+      "baseScore": 95,
+      "score": 0,
+      "reason": "Final-pass the Season 5 system until every component is ready for real launch use.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-258",
+      "title": "Final-pass the Season 5 website. Preview refreshed from commit `cce3f68`: all 93 sitemap routes return 200, the 101-page build passes, WCAG defects found in review are fixed, the tablet/mobile masthead and portrait composition are corrected, and dormant checkout still fails closed. Production is untouched.",
+      "area": "Better at Work",
+      "state": "done",
+      "due": null,
+      "baseScore": 93,
+      "score": 0,
+      "reason": "Make the final website adjustments, then review the complete Season 5 package with fresh eyes before calling it done.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-263",
+      "title": "Prepare one Better at Work post today. If Cathal's personal LinkedIn post is not moving, publish through the brand channel instead of leaving the day blank.",
+      "area": "Better at Work",
+      "state": "done",
+      "due": null,
+      "baseScore": 52,
+      "score": 0,
+      "reason": "Closed in the canonical weekly board.",
       "tier": "Closed",
       "rank": null
     },

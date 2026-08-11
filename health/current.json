@@ -1,10 +1,10 @@
 {
   "date": "2026-08-11",
-  "pulled_at": "2026-08-11T11:00:09.173725",
+  "pulled_at": "2026-08-11T14:00:08.585889",
   "source": "garmin-forerunner-265",
   "resting_hr": 49,
-  "steps": 8031,
-  "stress_avg": 12,
+  "steps": 8788,
+  "stress_avg": 21,
   "body_battery_high": 94,
   "body_battery_low": 28,
   "sleep_hours": 7.1,

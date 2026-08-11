@@ -305,3 +305,10 @@
 - Training: Upper 1 done (Garmin-confirmed weight training, 53.6 min). Easy run not logged. Not a race or taper week (training-plan.md status ACTIVE BIBLE, no race anchor), so no push threshold applies.
 - Campaigns moved: 1 (Creepers: six-week content runway plus Pro Landscaper press proofs and nursery carousel production finished today).
 - Tomorrow's first action: Publish the Creepers post that was finished and closed out today (six-week runway, Pro Landscaper proof, nursery carousel) but never went out.
+
+## 2026-08-11 evening
+- Shipped: Creepers Pro Landscaper advert reworked into a new finished-garden direction (Hatchford lead retouched, three V2-system routes built in Figma, V1 explicitly rejected, nothing sent yet, per business/clients/creepers.md and this-week.md HWL-265), Better at Work Season 5 website final-pass completed and verified on codex/baw-frontier-site (93 sitemap routes return 200, 101-page build passes, WCAG defects fixed, commit cce3f68, this-week.md HWL-258 marked done), Netil House studio search advanced with an in-person viewing (Gmail thread with Nikki plus calendar event 14:00-14:30 plus Harrison's own capture, a strong second-room lead found at £1,404/month, £404 over the £1,000 ceiling, no decision made), KiwiSaver withdrawal moved forward with Fazila, in-person witnessing confirmed for tomorrow in Shoreditch (Gmail confirmed).
+- Missed: today's prescribed Lower 1 hypertrophy session, confirmed via a live Strava check as of 19:07, no strength activity logged today, only an unprescribed 5.48km morning run at 06:37.
+- Training: Lower 1 missed per Strava (live-checked, not the stale 14:00 Garmin pull). A run happened instead, not what was prescribed for a lifting day. Not a race or taper week (training-plan.md status ACTIVE BIBLE, no race anchor), so no push threshold applies.
+- Campaigns moved: 2 (Creepers Pro Landscaper advert creative development, Better at Work Season 5 website final-pass and verification).
+- Tomorrow's first action: Publish the finished Creepers carousel, "Why choose a nursery?", on @creepersnursery. Ready since 10 August, now two days overdue.

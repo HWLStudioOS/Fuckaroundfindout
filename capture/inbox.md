@@ -4,6 +4,16 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-08-11 14:48 (Netil House viewing, Harrison direct)
+
+- Office hunt continued with two Netil House viewings. The first room was an immediate no. The second was the first strong emotional yes, Harrison: "oh yea baby" and "man would it be good."
+- The second room blows the current £1,000 per month all-in working ceiling. Rent is £1,300 plus an 8% service fee, £1,404 per month before Wi-Fi and any VAT treatment. That is £404 over the ceiling and £4,848 extra per year before Wi-Fi. Attraction recorded, decision not made. Do not let future audience or creator revenue justify it.
+- Visual and in-person read: long private room, strong natural light, large window, high exposed-concrete ceiling, white walls, track lighting, good acoustics and enough depth for a proper edit station plus a small shooting setup. The serviced-office package includes rooftop saunas, showers and community events. Still unproven: Wi-Fi or hardwired fibre cost and upload speed, VAT treatment, deposit, licence term, break clause, overnight equipment security and summer heat.
+- Photographs, all taken 11 August at approximately 14:25 BST and treated as the second room: `/Users/harrison/Downloads/IMG_3071.jpg`, `/Users/harrison/Downloads/IMG_3072.jpg`, `/Users/harrison/Downloads/IMG_3074.jpg`, `/Users/harrison/Downloads/IMG_3076.jpg`.
+- Source: Harrison, direct capture, 11 August 2026.
+- Tag: office, studio, money, decision
+- Status: routed to `today.md`; final decision stays open pending facts and live cash check
+
 ## 2026-08-10 14:07
 - **How much of my boss's job can AI do?**, Platformer / Ella Markianos, 5 Aug. Casey Newton let Claude Fable 5 build "Claudeasey Newton," an agent trained to imitate his own editorial judgment, then tested it against real Platformer journalism. A concrete, named case of an agent standing in for one specific person's judgment rather than just doing tasks, worth reading against how far the HWL agent fleet already stands in for Harrison's own voice and calls. [https://www.platformer.news/replacing-casey-with-claude/]
 - **Notes on the third era of slop**, Platformer / Casey Newton, 3 Aug. LinkedIn just shipped a "seems like slop" flagging button while other platforms lean further into AI content instead of restricting it, platforms are now visibly diverging on how to treat AI-made posts. Direct read on the exact platforms LOR and BaW content gets published into, and on why the no-AI-slop posture in publishing-rules.md is the right call, not overcaution. [https://www.platformer.news/slop-restrictions-linkedin-substack-snap/]

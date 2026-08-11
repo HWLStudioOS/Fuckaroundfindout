@@ -27,7 +27,9 @@ Active. April reset after honest conversation about declining metrics. Hourly tr
 ## Season 5 close, 10 August 2026
 
 - Final-pass the Season 5 design system and make the launch components ready for real use.
-- Make the final website adjustments, then review the design system and website together with fresh eyes.
+- Website final pass completed 11 August on `codex/baw-frontier-site` at commit `cce3f68`. The protected Vercel preview was refreshed and verified. All 93 sitemap routes return 200, the 101-page production build passes, the 85-episode content check and low-threshold dependency audit pass, browser checks cover desktop, tablet and mobile, the accessibility defects found in review are fixed, and the tablet/mobile masthead and portrait composition were corrected after Harrison's landing-page review.
+- Stable review URL: `https://better-at-work-frontier.vercel.app`. Manual Vercel preview deployments create immutable URLs, so this alias must be moved to the new deployment after each refresh. On 11 August it had remained pinned to an eight-day-old build; both existing preview aliases now point to deployment `dpl_7Z5nzFdHgA3thQGUXjXJLB12KvKv`.
+- Review the finished website alongside the Season 5 design system once the design-system pass is complete.
 - Launch readiness does not override the existing Stripe gates or Cathal's production approval. The design package can be ready while deployment remains held.
 - Publishing fallback for Monday 10 August: prepare one useful post today. If Cathal's personal LinkedIn post is not moving, use the Better at Work brand channel rather than accepting a blank day.
 

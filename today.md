@@ -37,7 +37,7 @@ Still open: the Creepers carousel is built but not published, the 30-minute easy
 
 - Better at Work Season 5: design system final-pass and remaining website adjustments still open, the four Stripe decisions stay gated behind Cathal's review.
 - Edge Lab: the crypto arena's G2a 14-day window has closed with the buy-and-hold control ahead of both the fable and rules books (control £9,733 vs fable £9,200 and rules £9,485). Continue paper-only, adjust, or stop is still an open decision. Macro book ties its control, no action needed there.
-- Private edit studio: Netil House application is in with Eat Work Art, awaiting viewing options from Nikki. The David editing-lane decision stays blocked behind proving fibre and proxy media.
+- Private edit studio: viewed two rooms at Netil House on 11 August. The first was an immediate no. The second has the daylight, proportions and feel Harrison wants, and the acoustics were good in person. Rent is £1,300 plus an 8% service fee, £1,404 per month before Wi-Fi and any VAT treatment. That is £404 above the £1,000 working ceiling and £4,848 extra per year before Wi-Fi. The serviced-office package includes rooftop saunas, showers and community events. Still verify the Wi-Fi or hardwired fibre cost and upload speed, deposit, term, break clause, overnight security and summer heat before the live cash check. No signing decision yet. The David editing-lane decision stays blocked behind proving fibre and proxy media.
 - Gym switch: join MuscleWorks Bethnal Green before cancelling Elevate Fitness, still open.
 - Training: Build + Engine week 1 (10-16 August). Today is Lower 1.
 

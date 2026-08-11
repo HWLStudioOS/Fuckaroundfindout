@@ -1,0 +1,49 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Manrope,82,&H00FFFFFF,&H000000FF,&H80000000,&H50000000,-1,0,0,0,100,100,-1.0,0,1,2.8,1.2,2,80,80,735,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.01,0:00:01.45,Default,,0,0,0,,There is so much
+Dialogue: 0,0:00:01.77,0:00:02.77,Default,,0,0,0,,you know, conversation
+Dialogue: 0,0:00:03.01,0:00:03.73,Default,,0,0,0,,around
+Dialogue: 0,0:00:04.37,0:00:06.33,Default,,0,0,0,,people being replaced with
+Dialogue: 0,0:00:06.37,0:00:07.41,Default,,0,0,0,,AI, which I think we
+Dialogue: 0,0:00:07.45,0:00:08.61,Default,,0,0,0,,have to be really careful
+Dialogue: 0,0:00:08.65,0:00:10.49,Default,,0,0,0,,about this conversation.
+Dialogue: 0,0:00:10.65,0:00:11.25,Default,,0,0,0,,I was just at the
+Dialogue: 0,0:00:11.29,0:00:12.81,Default,,0,0,0,,World Economic Forum summit
+Dialogue: 0,0:00:13.45,0:00:14.45,Default,,0,0,0,,and everyone was just
+Dialogue: 0,0:00:14.49,0:00:15.77,Default,,0,0,0,,talking about automating
+Dialogue: 0,0:00:15.81,0:00:16.85,Default,,0,0,0,,people out of the jobs
+Dialogue: 0,0:00:16.89,0:00:18.29,Default,,0,0,0,,and, you know,
+Dialogue: 0,0:00:18.33,0:00:20.17,Default,,0,0,0,,replacing people with AI
+Dialogue: 0,0:00:20.21,0:00:21.17,Default,,0,0,0,,and I just feel
+Dialogue: 0,0:00:21.21,0:00:23.81,Default,,0,0,0,,like we're actually
+Dialogue: 0,0:00:24.49,0:00:25.85,Default,,0,0,0,,harming ourselves more than
+Dialogue: 0,0:00:25.89,0:00:26.77,Default,,0,0,0,,helping ourselves as
+Dialogue: 0,0:00:26.81,0:00:28.49,Default,,0,0,0,,leaders because people will
+Dialogue: 0,0:00:28.53,0:00:30.09,Default,,0,0,0,,be much more resistant
+Dialogue: 0,0:00:30.45,0:00:32.25,Default,,0,0,0,,to engaging with AI or
+Dialogue: 0,0:00:32.29,0:00:34.25,Default,,0,0,0,,or building AI or you
+Dialogue: 0,0:00:34.29,0:00:35.29,Default,,0,0,0,,know, any kind of
+Dialogue: 0,0:00:35.33,0:00:36.85,Default,,0,0,0,,relationship with it.
+Dialogue: 0,0:00:36.89,0:00:38.17,Default,,0,0,0,,They're going to actively
+Dialogue: 0,0:00:38.21,0:00:39.29,Default,,0,0,0,,try to make it not
+Dialogue: 0,0:00:39.33,0:00:40.37,Default,,0,0,0,,part of their lives.
+Dialogue: 0,0:00:40.41,0:00:41.93,Default,,0,0,0,,They're going to actively
+Dialogue: 0,0:00:41.97,0:00:43.41,Default,,0,0,0,,not innovate for it.
+Dialogue: 0,0:00:43.45,0:00:44.77,Default,,0,0,0,,We need to be compassionate
+Dialogue: 0,0:00:44.81,0:00:45.85,Default,,0,0,0,,about this. This is a real
+Dialogue: 0,0:00:45.89,0:00:47.49,Default,,0,0,0,,threat that people feel.
+Dialogue: 0,0:00:47.53,0:00:48.45,Default,,0,0,0,,It's a psychological
+Dialogue: 0,0:00:48.49,0:00:50.37,Default,,0,0,0,,barrier to motivation
+Dialogue: 0,0:00:51.01,0:00:51.81,Default,,0,0,0,,and engagement and
+Dialogue: 0,0:00:51.85,0:00:52.12,Default,,0,0,0,,productivity.

@@ -6,6 +6,14 @@ Workplace podcast. Hosts: **Cathal Quinlan** (primary contact) + **Annette Sloan
 
 Active. April reset after honest conversation about declining metrics. Hourly trial in place. April skipped by mutual agreement (March deliverables didn't meet standard).
 
+## Better Moments #5, 11 August 2026
+
+- Jennifer Moss is the editorial choice for this week's Better Moment.
+- The production angle is **hope as goals, pathways and agency**, not a rerun of the April yoga-and-burnout launch.
+- Full 9:50 picture and audio masters, a fresh 52-second AI-adoption reel, native Instagram and LinkedIn carousels, three launch graphics, captions, platform copy and Friday's Better Bits draft are complete.
+- The Figma frames and delivery exports live in `production/better-moments-05-jennifer-moss-2026-08-11/`.
+- Nothing has been posted, sent or scheduled. Cathal and Annette approval, a final human caption listen and live-link replacement remain the release gates.
+
 ## Repricing request, 7 August 2026
 
 - Cathal's email (7 Aug, on the INV-0399 thread): invoice paid, but VAT tips him over his podcast budget. He asks for a **max £1,500/month including VAT**, which is **£1,250 net**, down from the current £1,500 net. He wants a scope-cut review and is open to discussing impacts.

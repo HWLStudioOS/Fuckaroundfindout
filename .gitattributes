@@ -7,4 +7,7 @@
 /business/clients/baw/production/better-moments-04-laura-gassner-otting-2026-08-03/audio/BetterAtWork-BetterMoments-04-LauraGassnerOtting.mp3 filter=lfs diff=lfs merge=lfs -text
 /business/clients/baw/production/better-moments-04-laura-gassner-otting-2026-08-03/video/BetterAtWork-BetterMoments-04-LauraGassnerOtting-RoughCut.mp4 filter=lfs diff=lfs merge=lfs -text
 /business/clients/baw/production/better-moments-04-laura-gassner-otting-2026-08-03/video/BetterAtWork-Laura-HowAreYou-Teaser.mp4 filter=lfs diff=lfs merge=lfs -text
+/business/clients/baw/production/better-moments-05-jennifer-moss-2026-08-11/audio/BetterAtWork-BetterMoments-05-JenniferMoss-Master.wav filter=lfs diff=lfs merge=lfs -text
+/business/clients/baw/production/better-moments-05-jennifer-moss-2026-08-11/video/BetterAtWork-BetterMoments-05-JenniferMoss-RoughCut.mp4 filter=lfs diff=lfs merge=lfs -text
+/business/clients/baw/production/better-moments-05-jennifer-moss-2026-08-11/video/BetterAtWork-Jennifer-AI-Adoption-Teaser.mp4 filter=lfs diff=lfs merge=lfs -text
 *.pdf binary

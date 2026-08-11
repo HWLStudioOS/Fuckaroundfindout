@@ -1,62 +1,55 @@
 ---
-date: 2026-08-10
-generated: corrected from Harrison direct state, 08:30
-financial_truth_updated: 2026-08-09 (£675 tax sweep done, August drawings still due)
+date: 2026-08-11
+generated: auto-generated 06:30
+financial_truth_updated: 2026-08-10 (August drawings set at £1,800, not yet confirmed paid)
 ---
 
-# Today, Monday 10 August 2026
+# Today, Tuesday 11 August 2026
 
 ## Pulse
 
-Build + Engine is moving. Harrison completed a STNDRD Push session and liked the first experience; 30 minutes easy running remains for later. RHR is 44, HRV 56 BALANCED, readiness 73 and Garmin ACWR is 0.8 Optimal. The Laurence meeting window has passed and its outcome needs capturing. The Creepers calendar is verified, live and sent. The Fable edit was a useful test but did not pass; the technology is not ready to own client editing. Today now needs one manually finished Creepers post and a Better at Work publishing fallback if Cathal's personal post does not land.
+Build + Engine week 1, today is Lower 1 (hypertrophy), no run prescribed. RHR is up to 52 this morning against a 44-48 recent range, HRV 56 is down from the 7-day average of 60, sleep was 6.1h, readiness hasn't synced yet. The Creepers nursery carousel built and finished yesterday is still unpublished. BaW's Season 5 build continues with the website already in Cathal's hands. LOR stays quiet, no Kerri or Sarah Garside email in 10 days, and today's 16:00 Kerri catch-up currently shows Harrison as declined on the calendar. The Squiggly Careers call originally booked for today has moved to 18 August. Yesterday's 14:30 amend-or-fold call on the personal scout trades didn't happen and is now a day overdue.
 
 ## Yesterday wrap
 
-Landed: Danny Wicks's testimonial plus b-roll was delivered Friday 7 August, edited by Harrison. Harrison spoke to Sam on Friday and closed the callback loop. The LOR A-level results posts were stood down on Sunday. The £675 Better at Work receipt slice was swept to the tax reserve. PR #12 merged this morning with the Board Room dependency patches, the pypdf 6.15.0 pin, Sunday state and the training pivot.
+Landed: the Creepers content session closed (six-week content runway deployed, Pro Landscaper advert variants plus a verified RGB press proof built, five-slide nursery carousel and final caption finished), a content distribution and product plan drafted, Upper 1 strength done (Garmin/Strava confirm Lunch Weight Training, 53.6 min), three replies sent (Fazila re: KiwiSaver witness request, Nikki re: Netil House studio brief, Sarah Davey re: the Squiggly call). The Monday Laurence meeting shows as done in this-week.md (HWL-252), but no explicit outcome or next step is captured anywhere in today's sources, worth confirming what came out of it. The Squiggly Careers call booked for today at 16:15 has moved: Sarah Davey asked to reschedule (10 Aug 13:32) and Harrison offered 10am or 11:30-12 on 18 August (13:39), now confirmed on the calendar for 18 August 10:00.
 
-Still open: Danny's £800 plus VAT payment confirmation, the outcome of this morning's Laurence meeting, Cathal's reprice response, today's Creepers and Better at Work posts, the Better at Work Season 5 design and website close, August drawings, the personal scout-trade decision and the MuscleWorks switch.
+Still open: the Creepers carousel is built but not published, the 30-minute easy run from Monday's prescription didn't happen (no Garmin/Strava match), the amend-or-fold decision on the scout trades, August drawings not yet paid, Cathal's reprice reply still send-gated, Danny Wicks's £800 plus VAT confirmation, and the Surrey S4 shoot date still isn't locked with Anna and Sarah-Louise.
 
 ## Today
 
-- [ ] Take this morning's Laurence meeting. Use the live conversation to reset the relationship and leave with one explicit testimonial outcome or next step. <!-- linear:HWL-235 -->
-- [ ] Private edit studio: reply sent to Nikki with the Netil House brief. Await viewing options, then verify the room size, all-in cost, 24/7 access, overnight equipment security and hardwired upload speed.
-- [x] Fable Creepers edit test closed: a nice test, but it did not pass. The technology is not ready to own basic client editing yet.
-- [x] Creepers: calendar verified, deployed and sent to Sam.
-- [ ] Creepers: manually finish and publish one post today. Do not spend more time trying to rescue the Fable workflow.
-- [ ] Better at Work: prepare one useful post for today. If Cathal's personal LinkedIn post is not moving, use the Better at Work brand channel as the fallback rather than accepting a blank day.
-- [ ] Better at Work Season 5: final-pass the design system, make it launch-ready, make the final website adjustments, then review both with fresh eyes before calling them done.
-- [ ] Better at Work commercial: voice-pass Cathal's reprice reply and hold the current £1,500 net floor. Sending remains one-tap gated.
-- [x] Training system rebuilt: the active Build + Engine week is upper plus easy, lower, hard run, upper, lower plus easy, rest or golf, long run. STNDRD is on a seven-day exercise-selection trial, with MARCHON GAIN as fallback. Baseline and 32/20 are frozen.
-- [x] Complete the first strength session: STNDRD Push finished and the first app experience was positive. It counts as Upper 1.
-- [ ] Complete 30 minutes genuinely easy running later today.
-- [ ] Gym switch: choose MuscleWorks Bethnal Green, join it first, then cancel Elevate Fitness. Third Space only wins if the pool, recovery and hospitality layer is worth an extra £206 per month plus the joining fee.
-- [ ] 14:30 market check: decide amend-or-fold on SPCX, NVDA, SNDK, MU and PLTR against `money/investment-strategy-2026-08-03.md`. Do not use a strategy rewrite as retrospective permission for trades already placed. <!-- linear:HWL-228 -->
-- [ ] August admin taps: take £1,800 director's drawings, and accept Neil Mullarkey's Tuesday 15 September 14:00 to 15:30 recording invite. Check the 16:00 Kerri call immediately after it.
+- [ ] Publish the finished Creepers carousel, "Why choose a nursery?", on @creepersnursery. Five slides and the caption have been ready since yesterday, this is a day overdue.
+- [ ] Confirm the Surrey S5 shoot date with Anna and Sarah-Louise. The live content calendar has today pencilled as the Surrey shoot sourcing Wednesday's reel, but this-week.md still shows the date unconfirmed.
+- [ ] Decide amend-or-fold on the personal scout trades (SPCX, NVDA, SNDK, MU, PLTR) against `money/investment-strategy-2026-08-03.md`. This was due 14:30 yesterday and is now a day overdue.
+- [ ] Take £1,800 August director's drawings. Salary is already done, this is the one-tap action still outstanding.
+- [ ] Check today's 16:00 Kerri/LOR catch-up. The calendar currently shows Harrison declined the recurring invite, confirm that's intentional before the slot is missed.
 
 ## Awaiting response
 
-- Danny Wicks: £800 plus VAT payment confirmation only. Delivery is complete.
-- Cathal: the Better at Work website preview is already with him. The ball is his on review.
-- Kerri and Emma: PO route and first invoice once Kerri returns. The A-level results-post trigger is off.
+- Sarah Davey (Squiggly): rescheduled call confirmed on the calendar for 18 August 10:00, no further action needed.
+- Cathal: the repricing reply draft is ready in Gmail, still send-gated on Harrison.
+- Danny Wicks: £800 plus VAT payment confirmation only, delivery is complete.
+- Kerri and Emma: PO route and first invoice once Kerri returns.
+- Fazila: KiwiSaver witness request sent yesterday, awaiting whether Litchfields can witness the declaration and certify the passport.
 
 ## In flight
 
-- KiwiSaver withdrawal: witness request sent to Fazila at Litchfields with the Milford form attached. Await whether Litchfields can witness the declaration and certify the passport. Tax verification via Raj is still separate and nothing has been filed.
-- Edge Lab: G2a did not pass in either arena. No live capital is armed. Continue paper-only until an explicit evidence decision is recorded.
-- Squiggly Careers: production and development chat Tuesday 11 August, 16:15 to 17:00, with Helen Tupper, Sarah Ellis and Sarah Massie.
-- Training programme: Build + Engine is active from 10 August. STNDRD is on a seven-day exercise-selection trial after a positive Push session. The canonical week still owns four lifting slots and four runs. Garmin records readiness but does not rewrite the week. Baseline and 32/20 are frozen.
-- Studio throughput: 70Mb home broadband and the Mac mini RAW workflow are separate bottlenecks. The Fable edit test failed, so there is no AI editing lane to plan around yet. Find a secure edit base, prove fibre and proxy media, then decide David's lane through Council.
+- Better at Work Season 5: design system final-pass and remaining website adjustments still open, the four Stripe decisions stay gated behind Cathal's review.
+- Edge Lab: the crypto arena's G2a 14-day window has closed with the buy-and-hold control ahead of both the fable and rules books (control £9,733 vs fable £9,200 and rules £9,485). Continue paper-only, adjust, or stop is still an open decision. Macro book ties its control, no action needed there.
+- Private edit studio: Netil House application is in with Eat Work Art, awaiting viewing options from Nikki. The David editing-lane decision stays blocked behind proving fibre and proxy media.
+- Gym switch: join MuscleWorks Bethnal Green before cancelling Elevate Fitness, still open.
+- Training: Build + Engine week 1 (10-16 August). Today is Lower 1.
 
 ## Standing
 
-Health: RHR 44, HRV 56 BALANCED, readiness 73 MODERATE, sleep 6.1h with score 76. ACWR 0.95 is Good. Body weight was last recorded 29 April, 103 days stale.
+Health: RHR 52 (up from a 44-48 recent range), HRV 56 BALANCED (down from a 7-day average of 60), sleep 6.1h with score 76, readiness not yet synced this morning. Body weight was last recorded 29 April, 104 days stale.
 
-Money: tax reserve is £9,875 after the completed £675 sweep, assuming no other movement since the confirmed £9,200 balance. Keep this as a computed figure until bank-verified. August salary is done, £1,800 drawings are set but not confirmed paid. MU and PLTR were $50 each at the Friday 7 August market open, exact broker fills and GBP basis still need the statement. About £7,000 from LOR remains expected in August with no PO or invoice confirmed. Personal investing remains outside the written plan until 14:30.
+Money: tax reserve computes to £9,875 after the completed £675 sweep, still bank-unverified. August drawings are set at £1,800 but not yet confirmed paid. About £7,000 from LOR remains expected in August with no PO or invoice raised. The amend-or-fold decision on the personal scout trades is a day overdue.
 
-Clients: LOR results posts stood down. Creepers' accurate calendar is with Sam; today's live client task is one manually finished post. Better at Work's website is with Cathal and the reprice boundary is with Harrison; add a brand-channel fallback if his personal post does not land. Danny delivery is done, payment confirmation remains.
+Clients: Creepers's carousel is built and ready but unpublished. Better at Work's website sits with Cathal, Season 5 build continues, and the reprice reply is send-gated. LOR has been silent for 10+ days by Gmail, and today's Kerri call shows as declined on the calendar. Squiggly Careers moved its production chat from today to 18 August.
 
-System: Claude authentication is live and every scheduled agent has completed successfully since 6 August. PR #20 repaired the post-merge Board Room tests and Linear marker ownership with every CI check green. A live Linear sync made zero HWL-191 state writes. The Mac mini health environment is on pypdf 6.15.0 and `pip check` is clean. The Board Room production site now serves the 10 to 16 August board from the validated 10 August deployment.
+System: every scheduled daemon ran clean overnight, health-sync at 06:15, board-room validation passed and nightly-backup committed. The nightly-backup deploy step was blocked because local HEAD didn't match origin/main, worth a look when there's engineering time. Gmail connector confirmed live on harrison@hwlstudio.com throughout this run.
 
 ## Lens
 
-Capture the Laurence outcome. Publish the Creepers post and prepare the Better at Work fallback before the 14:30 market check, then protect the Season 5 build block. Join MuscleWorks before cancelling Elevate.
+Publish the Creepers post before anything else, it's been finished and sitting for two days now. Then clear the two one-tap decisions you're sitting on: today's Kerri call and the scout trades.

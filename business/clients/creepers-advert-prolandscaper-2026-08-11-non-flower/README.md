@@ -89,23 +89,40 @@ The earlier V2A and V2B frames remain intact for comparison. Both refined frames
 
 The pair shares an exact measured rhythm on the 2200px-wide working artboard: 27px image-to-kicker, 27px kicker-to-headline, 25px headline-to-service, 32px service-to-campaign, 79px campaign-to-footer and 28px lens-to-annotation. Both frames retain the hidden 5mm bleed and safe guides and the document-profile PDF export setting.
 
-### Finished-garden review pair, current client direction
+### Finished-garden review pair, superseded by the 12 August client choice
 
 | Route | Treatment | Frame | State |
 |---|---|---|---|
-| 14 | Full-bleed campaign treatment using Michael's selected Hatchford garden and the established `38 Years in the Ground` line | [425:2](https://www.figma.com/design/WGdYv8RFPgduHJyuu8WJni/Creepers?node-id=425-2) | Current client lead |
-| 15 | `Proven` editorial treatment using the same finished garden, a tighter planting detail and `Selected at source. Proven in place.` | [425:17](https://www.figma.com/design/WGdYv8RFPgduHJyuu8WJni/Creepers?node-id=425-17) | Current editorial alternate, copy approval required |
+| 14 | Full-bleed campaign treatment using Michael's selected Hatchford garden and the established `38 Years in the Ground` line | [425:2](https://www.figma.com/design/WGdYv8RFPgduHJyuu8WJni/Creepers?node-id=425-2) | Selected for revision |
+| 15 | `Proven` editorial treatment using the same finished garden, a tighter planting detail and `Selected at source. Proven in place.` | [425:17](https://www.figma.com/design/WGdYv8RFPgduHJyuu8WJni/Creepers?node-id=425-17) | Rejected for this publication |
 
 The supplied Hatchford photograph `image1 (2).jpeg` remains the strongest finished-garden composition in the 339-image source library. The two Oxshott options have natural blue sky but are only 900 x 1600px and read as documentation. Other high-resolution candidates are detail photographs rather than complete gardens. `IMG_7067.jpg`, from the same Hatchford set, is retained as a natural-blue-sky fallback but is not a stronger campaign image.
 
 The lead image has a new sky and restrained colour grade. The final composite, `assets/hatchford-finished-garden-blue-sky-print-final.jpg`, is 4032 x 3024px. The AI-generated output is used only as the replacement sky layer. The original planting, paths, buildings, branches and crop geometry remain at source resolution. The full-bleed portrait crop resolves at roughly 270ppi at trim size, suitable for review and close to the normal 300ppi press target.
+
+### Client feedback revision, 12 August
+
+Sam, Anna and Michael selected the light, full-bleed garden route. Michael rejected the dark editorial option for this magazine audience. Sam said Ad 1 is closer to the adverts they had flagged together. The editorial route remains intact as an archive, but it is closed as a live recommendation.
+
+| Route | Treatment | Frame | State |
+|---|---|---|---|
+| 16 | Full-bleed client-feedback revision with larger product copy, larger footer information and website QR | [435:2](https://www.figma.com/design/WGdYv8RFPgduHJyuu8WJni/Creepers?node-id=435-2) | Current review lead |
+
+Feedback applied:
+
+- The small line beneath the logo is now the explicit product range: `PERENNIALS · SHRUBS · HEDGING · SPECIMEN TREES`, larger and in a turquoise accent.
+- Bottom service, location, phone and website information is materially larger.
+- A working QR code points directly to `https://www.creepersnursery.co.uk/wholesale-plants` with the label `EXPLORE THE RANGE`. That verified page contains trees, perennials, hedges, shrubs and topiary, so the destination matches the product copy.
+- The anniversary line is set to the working copy `40 Years in the Ground.` Creepers' own About page says the nursery was founded in 1986, so 2026 is the fortieth year. An SGLD profile separately says the family business dates to 1981, while the existing campaign used 38. Creepers must therefore confirm the intended founding year and anniversary wording before press.
+- `And we’re just getting started.` remains as the positive resolution to the line. Sam raised the possible negative reading of `in the ground`, but Michael and Anna both supported the established horticultural meaning.
+- The designer credit is not guessed. Anna's 6 August email says the team would work out credit or collaboration after picture selection. The source metadata contains no artist or copyright entry, and the email trail does not identify the Hatchford designer. The review frame therefore carries `GARDEN DESIGN CREDIT · AWAITING CLIENT CONFIRMATION` until Creepers supplies the exact name and preferred wording.
 
 The brief and route rationale also live beside the frames in Figma at `370:2` and `372:56`.
 
 ## Production state
 
 - Figma is the source of truth.
-- Frames `425:2` and `425:17` are the current finished-garden review pair. The A3/B3 rootball pair remains intact for comparison.
+- Frame `435:2` is the current client-feedback review lead. Its frame name explicitly marks the anniversary and designer credit as pending. Frames `425:2` and `425:17` remain intact as the prior finished-garden pair, and the A3/B3 rootball pair remains intact for comparison.
 - Every live frame is 2200 x 2950px and has a hidden 2100 x 2850px trim guide inset 50px on all sides, representing 5mm bleed.
 - The live frames use Playfair Display and Inter, Creepers green `#324F4A`, the Creepers lockup and the Plant Healthy mark.
 - PDF export is already configured on the frames using the Figma document colour profile.

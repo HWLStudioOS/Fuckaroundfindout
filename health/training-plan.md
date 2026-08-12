@@ -45,6 +45,20 @@ Harrison wants bodybuilding for aesthetics and enough running to improve VO2 max
 
 This is the schedule Harrison chose. Do not collapse it back to two runs.
 
+## Week-one adjustment, 12 August
+
+Harrison chose the following recovery of the opening week after Monday Push and Tuesday's easy run displaced the planned Lower 1 session:
+
+| Day | Session |
+|---|---|
+| Wednesday 12 August | STNDRD Legs |
+| Thursday 13 August | 4 x 4 min VO2 session, 3 min jog recoveries |
+| Friday 14 August | STNDRD Pull |
+| Saturday 15 August | 18 holes of golf |
+| Sunday 16 August | 75 min easy long run |
+
+This is a deliberate one-week exception. Thursday's warm-up is the gate after the unfamiliar Legs session. Mild heaviness with normal mechanics is acceptable. Soreness that changes stride, sharp pain or altered gait means the VO2 work becomes easy running. Golf is active load rather than full rest, so Sunday's long run remains easy with no pace target.
+
 ## Interference controls
 
 1. On Monday and Friday, lift first and run later where possible. Aim for at least six hours between sessions. If they must be together, lift first and run immediately afterwards.

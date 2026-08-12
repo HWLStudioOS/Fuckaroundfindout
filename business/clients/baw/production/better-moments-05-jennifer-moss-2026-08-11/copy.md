@@ -2,37 +2,21 @@
 
 Nothing below has been uploaded, sent, scheduled or published.
 
-## Tuesday Instagram carousel
+## Carousel caption, Instagram and LinkedIn
 
-Hope is not a feeling.
+Hope at work is not optimism.
 
-Jennifer Moss uses a more useful definition: a goal worth reaching, more than one route to it, and enough agency to make a move.
+Jennifer Moss uses a more useful definition: a goal worth reaching, more than one credible route forward and enough agency to make a move.
 
-Take one part away and hope becomes fragile.
+Goals. Pathways. Agency.
 
-That matters at work. Layoffs make the people who remain less willing to take risks. Micromanagement gives people a destination but no room to choose the route.
+Take one away and hope becomes fragile.
 
-The eight slides turn Jennifer's model into three things to try this week.
+That model explains why small wins matter, why annual targets are not enough and why micromanagement can drain the energy from someone who still cares about the work.
 
-Better Moments #5 lands Thursday.
+These eight slides turn the framework into three things a leader can do this week: make progress visible, create more than one route and give people something real to own.
 
-## Tuesday Cathal LinkedIn carousel
-
-Hope at work is not a poster on the wall.
-
-Jennifer Moss gave me a far more practical definition: goals, pathways and agency.
-
-A goal worth reaching. More than one credible route. Enough room to choose the next move.
-
-It also explains why some management decisions do damage long after the meeting ends.
-
-When people expect the next layoff, they stop taking risks. When every decision is controlled by a micromanager, they lose the sense of accomplishment that keeps them moving.
-
-I pulled Jennifer's model into eight slides, including three things a leader can do this week.
-
-The question I am taking into my own work is simple: where have we set a goal without giving people the route or the room to reach it?
-
-A new Better Moment with Jennifer Moss lands Thursday.
+Better Moments #5 with Jennifer Moss lands tomorrow.
 
 ## Wednesday teaser caption, Better at Work Instagram
 
@@ -62,7 +46,7 @@ Hope is not optimism.
 
 It is a goal worth reaching, more than one path forward and enough agency to make a move.
 
-In this ten-minute Better Moment, Jennifer Moss explains why that model matters for younger workers, the people left after layoffs and anyone working under a micromanager.
+In this seven-minute Better Moment, Jennifer Moss explains why that model matters for younger workers, why small wins build momentum and what micromanagement takes away.
 
 Goals. Pathways. Agency.
 
@@ -78,9 +62,9 @@ A goal worth reaching. More than one credible pathway. Enough agency to move.
 
 That model changed how I thought about several parts of our conversation.
 
-It explains why people stop offering ideas after a round of layoffs. It explains why a micromanager can drain the energy from someone who still cares about the work. It also explains why a small, completed goal can matter when the annual target feels impossible.
+It explains why a micromanager can drain the energy from someone who still cares about the work. It also explains why a small, completed goal can matter when the annual target feels impossible.
 
-We cut the strongest 9 minutes 50 seconds into Better Moments #5.
+We cut the strongest seven minutes into Better Moments #5.
 
 Jennifer's point is not that leaders should ask people to feel hopeful. It is that we should build conditions in which hope is rational.
 
@@ -96,15 +80,17 @@ Hope Is a Strategy | Better Moments #5 | Jennifer Moss
 
 ### Description
 
-Hope at work is not optimism. It is a goal, more than one route forward and enough agency to make a move.
+Hope at work is not optimism. It is a goal worth reaching, more than one credible route forward and enough agency to move.
 
-Burnout researcher and author Jennifer Moss uses Charles Snyder's hope theory to explain why those three parts matter at work.
+In this seven-minute Better Moment, burnout researcher and workplace culture strategist Jennifer Moss draws on Charles Snyder's hope theory to explain why hope is a practical leadership strategy.
 
-In this ten-minute Better Moment, Jennifer connects the model to the Gen Z hope gap, the effect of layoffs on the people who stay, the case for reskilling and the way micromanagement removes intrinsic motivation.
+Jennifer looks at the growing hope gap among younger workers, why small completed goals build momentum and what micromanagement takes away: accomplishment, autonomy and intrinsic motivation.
 
-The practical lesson is simple. Make progress visible, create more than one credible path and give people something real to own.
+Her warning is blunt. Leaders cannot ask people to invest in the future while telling them they may not have a place in it.
 
-Listen to the full conversation: [FULL EPISODE LINK]
+Listen to the full conversation: https://shows.acast.com/betteratworkpodcast/episodes/we-cant-yoga-our-way-out-of-bad-culture-the-newest-burnout-r
+
+Jennifer Moss is the author of *Why Are We Here? Creating a Work Culture Everybody Wants*.
 
 Follow Better at Work so season five lands in your feed when we return in September.
 
@@ -112,30 +98,30 @@ Follow Better at Work so season five lands in your feed when we return in Septem
 
 ### Title
 
-Jennifer Moss: Hope Is a Strategy, Not a Feeling
+Jennifer Moss: Why Hope Is a Strategy at Work
 
 ### Description
 
-Hope at work needs three things: a goal, more than one route forward and enough agency to move.
+Hope at work needs three things: a goal worth reaching, more than one credible pathway and enough agency to move.
 
-Jennifer Moss uses that model to explain why layoffs change the behaviour of the people who stay, why reskilling is a bet on a human future and why compliance cannot produce hopeful teams.
+Jennifer Moss explains why hope is a practical leadership strategy, not wishful thinking. Drawing on Charles Snyder's hope theory, she shows why young workers struggle to see a future at work, how small goals rebuild momentum and why micromanagement strips away accomplishment and intrinsic motivation.
 
-Jennifer is a burnout researcher, workplace culture strategist and author.
+Jennifer is a burnout researcher, workplace culture strategist and author of *Why Are We Here? Creating a Work Culture Everybody Wants*.
 
 Watch the full conversation: https://www.youtube.com/watch?v=ePWxmi2TI5g
 
+Listen to the full episode: https://shows.acast.com/betteratworkpodcast/episodes/we-cant-yoga-our-way-out-of-bad-culture-the-newest-burnout-r
+
 Chapters:
 
-00:00 Compliance cannot create hope
-00:07 Why hope is collapsing
-00:15 Hope as a strategy
-00:52 Goals, pathways and agency
-01:24 The Gen Z hope gap
-03:06 What layoffs do to the people who stay
-03:59 Reskilling as a bet on humans
-06:05 Why layoffs kill hope
-07:02 Small goals restart momentum
-08:14 Micromanagement removes agency
+00:00 You cannot have it both ways
+00:20 Why hope matters at work
+01:04 Hope is a strategy
+01:40 Goals, pathways and agency
+02:13 The Gen Z hope gap
+03:44 Why small wins matter
+04:57 Micromanagement removes agency
+06:33 Hope cannot be compliance-based
 
 Better Moments brings the strongest ideas from Better at Work into one short, useful listen.
 

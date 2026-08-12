@@ -43,7 +43,7 @@ Reset the week around a secure fibre-connected edit base, the verified Creepers 
 - [x] Fable basic Creepers edit test closed. Nice experiment, but it did not pass; the technology is not ready to own client editing yet. <!-- linear:HWL-256 -->
 - [x] Calendar verified against both Creepers grids, then reworked into a six-week, three-core-plus-one-optional runway and redeployed on 10 August. Sam's link is unchanged. <!-- linear:HWL-249 -->
 - [x] Review and publish `Why choose a nursery?` on `@creepersnursery` today. Five photograph-led 1080 x 1350px slides and the final caption are ready. Nothing has been published or sent. <!-- linear:HWL-262 -->
-- [ ] Harrison reviews the finished-garden Pro Landscaper pair in Figma with Michael: full bleed `425:2` and editorial `425:17`. Approve one visual route and the editorial line `Selected at source. Proven in place.`, confirm ownership or any credit required for the supplied Hatchford image, then get the publication's preferred colour profile before PDF export or supply. The rootball A3/B3 pair remains intact. Nothing has been sent. <!-- linear:HWL-265 -->
+- [ ] Finalise the selected Creepers Pro Landscaper advert in Figma. Full bleed won and the dark editorial route is closed. Review client-feedback revision `435:2`, confirm Creepers' intended founding year and anniversary number, get the exact Hatchford garden-designer credit, replace the visible internal credit placeholder, then get Pro Landscaper's preferred colour profile before PDF export or supply. Nothing has been sent. <!-- linear:HWL-265 -->
 - [ ] Confirm the exact Surrey Season 4 shoot date with Anna and Sarah-Louise. Still pending. <!-- linear:HWL-239 -->
 
 ### Better at Work

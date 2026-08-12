@@ -3621,3 +3621,21 @@
 [2026-08-12T15:25:45.224Z] INFO Sync start. Last: 2026-08-12T14:25:45.076Z
 [2026-08-12T15:25:47.008Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
 [2026-08-12T15:25:47.107Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-12T16:25:47.166Z] INFO Sync start. Last: 2026-08-12T15:25:47.104Z
+[2026-08-12T16:25:47.454Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-12T16:25:47.526Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-12T17:25:47.601Z] INFO Sync start. Last: 2026-08-12T16:25:47.524Z
+[2026-08-12T17:25:54.109Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-12T17:25:55.349Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-12T18:25:55.484Z] INFO Sync start. Last: 2026-08-12T17:25:55.346Z
+[2026-08-12T18:25:56.271Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-12T18:25:56.336Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-12T19:25:56.519Z] INFO Sync start. Last: 2026-08-12T18:25:56.335Z
+[2026-08-12T19:25:56.746Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-12T19:25:56.815Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-12T20:25:56.880Z] INFO Sync start. Last: 2026-08-12T19:25:56.813Z
+[2026-08-12T20:25:57.175Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-12T20:25:57.246Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-12T21:25:57.335Z] INFO Sync start. Last: 2026-08-12T20:25:57.244Z
+[2026-08-12T21:25:57.636Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-12T21:25:57.697Z] INFO Sync done. push: +0 ~0. pull: ~0.

@@ -306,6 +306,13 @@
 - Campaigns moved: 1 (Creepers: six-week content runway plus Pro Landscaper press proofs and nursery carousel production finished today).
 - Tomorrow's first action: Publish the Creepers post that was finished and closed out today (six-week runway, Pro Landscaper proof, nursery carousel) but never went out.
 
+## 2026-08-12 evening
+- Shipped: today's STNDRD Legs session (Garmin/Strava confirmed, Lunch Weight Training 11:50-12:44, 54 minutes, relative effort 7), KiwiSaver witnessing with Fazila completed in person at Litchfields (Gmail confirms she sent the scanned, certified documents at 11:23, straight after the 11:00 appointment).
+- Missed: the scout-trades amend-or-fold decision (SPCX, NVDA, SNDK, MU, PLTR) against money/investment-strategy-2026-08-03.md. Due Monday 14:30, now two days overdue, the file itself is unedited since 4 August and no decision appears anywhere else (Linear, inbox, logs).
+- Training: STNDRD Legs delivered as planned. Garmin/Strava confirm a 54-minute weight-training session at lunch, matching today's prescription. Not a race or taper week, so no push threshold applies regardless.
+- Campaigns moved: 0 confirmed today. No campaign file carries a positive today-dated signal; Creepers's "Why choose a nursery?" publish status and the Surrey shoot/Fresh In #5 lock remain unconfirmed either way, not scored.
+- Tomorrow's first action: Decide amend-or-fold on the scout trades against money/investment-strategy-2026-08-03.md, now two days overdue and about to run into a third.
+
 ## 2026-08-11 evening
 - Shipped: Creepers Pro Landscaper advert reworked into a new finished-garden direction (Hatchford lead retouched, three V2-system routes built in Figma, V1 explicitly rejected, nothing sent yet, per business/clients/creepers.md and this-week.md HWL-265), Better at Work Season 5 website final-pass completed and verified on codex/baw-frontier-site (93 sitemap routes return 200, 101-page build passes, WCAG defects fixed, commit cce3f68, this-week.md HWL-258 marked done), Netil House studio search advanced with an in-person viewing (Gmail thread with Nikki plus calendar event 14:00-14:30 plus Harrison's own capture, a strong second-room lead found at £1,404/month, £404 over the £1,000 ceiling, no decision made), KiwiSaver withdrawal moved forward with Fazila, in-person witnessing confirmed for tomorrow in Shoreditch (Gmail confirmed).
 - Missed: today's prescribed Lower 1 hypertrophy session, confirmed via a live Strava check as of 19:07, no strength activity logged today, only an unprescribed 5.48km morning run at 06:37.

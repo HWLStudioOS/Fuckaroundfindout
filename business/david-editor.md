@@ -19,6 +19,7 @@ Hired June 2026. First contract sent 8 June, intro call 10 June. Unblocks delive
 
 ## Current jobs
 
+- **Ultimate Founder padel wrap reel, handed over 12 August.** Capability test from selected and graded footage in `/Volumes/UGREEN/UF PADEL FOOTAGE`. David has the creative brief. Target is a 20 to 30-second, action-first campaign trailer. Codex's rejected 36-second test is reference for what not to do.
 - **BaW podcast: DONE 10 June.** Episode edit + 2 reels, custom CEO-style open. Uploading to Frame.io by tonight UK time.
 - **Creepers**: next up. Photo-led simple b-roll style, "easier than the podcast". 2-3 posts/week cadence. Hero film briefed over coming weeks.
 - This week: podcast only, rest of week free.

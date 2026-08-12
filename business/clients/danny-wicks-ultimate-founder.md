@@ -19,6 +19,14 @@ Warm prospect and possible channel partner. Not a client yet.
 - **Fee: £800 plus VAT, agreed. Confirmed by Harrison 7 August.** Supersedes the £950 anchor and the unsent £1,250 expanded-pilot draft.
 - Only open thread: payment confirmation against the invoice. The chase sits with payment, not delivery.
 
+## Wrap-reel test, 12 August 2026
+
+- Harrison exported the selected and graded event footage, including a stabilised signage re-export, to `/Volumes/UGREEN/UF PADEL FOOTAGE`.
+- Codex produced a 36-second automated hype-reel test. Harrison rejected it as below the required editorial standard. Do not treat that export as approved or post-ready.
+- The supplied Ultimate Founder and Willu logos, edit notes, rejected test and reproducible render files remain in `/Volumes/UGREEN/UF PADEL FOOTAGE/DANNY_EDIT` for reference.
+- David now owns the next edit as a capability test. He has a brief calling for a 20 to 30-second, action-first campaign trailer with restrained branding, real court sound, minimal copy and no corporate-recap pacing.
+- Session closed with no further Codex editing action. Payment confirmation remains the only commercial thread with Danny.
+
 ## Danny's 31 July partnership note
 
 Danny proposed four broad lanes, all framed around AI automation:

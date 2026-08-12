@@ -1,9 +1,9 @@
 {
   "title": "The Board Room",
   "week": "10 to 16 August 2026",
-  "sourceDate": "2026-08-11",
-  "generatedAt": "2026-08-11T21:30:12.960Z",
-  "sourceCommit": "acf40c3",
+  "sourceDate": "2026-08-12",
+  "generatedAt": "2026-08-12T21:30:09.309Z",
+  "sourceCommit": "d7e044b",
   "summary": {
     "open": 35,
     "active": 16,
@@ -103,7 +103,7 @@
     },
     {
       "id": "HWL-265",
-      "title": "Harrison reviews the finished-garden Pro Landscaper pair in Figma with Michael: full bleed `425:2` and editorial `425:17`. Approve one visual route and the editorial line `Selected at source. Proven in place.`, confirm ownership or any credit required for the supplied Hatchford image, then get the publication's preferred colour profile before PDF export or supply. The rootball A3/B3 pair remains intact. Nothing has been sent.",
+      "title": "Finalise the selected Creepers Pro Landscaper advert in Figma. Full bleed won and the dark editorial route is closed. Review client-feedback revision `435:2`, confirm Creepers' intended founding year and anniversary number, get the exact Hatchford garden-designer credit, replace the visible internal credit placeholder, then get Pro Landscaper's preferred colour profile before PDF export or supply. Nothing has been sent.",
       "area": "Creepers",
       "state": "todo",
       "due": null,

@@ -10,6 +10,9 @@ Format per entry:
 
 ---
 
+## 2026-08-12
+- **The Insider You Built: How Organizations Stay in Control of Autonomous AI Agents** (~£25), Camille Stewart Gloster, Wiley. Governance framework for enterprises running AI agents with delegated authority, the Agent-Centered Enforcement and Attribution model for tracing decisions and assigning responsibility. Direct reference for the Jarvis Foundation action-ledger work. Releases 15 Sep 2026. [https://www.amazon.com/Insider-You-Built-Organizations-Autonomous/dp/1394430892]. Status: auto-approved.
+
 ## 2026-08-07
 - **The Agentic Enterprise: A Leader's Guide to Orchestrating, Governing, and Scaling AI Agent Systems** (~£47), Babak Hodjat (Cognizant) / Antoine Blondeau (Sentient), O'Reilly. CxO-level playbook for multi-agent orchestration: readiness evaluation, avoiding vendor lock-in, build-versus-buy calls, guardrails for scaling agentic AI. HWL is already living several chapters ahead of most of the intended reader, worth a skim for the governance and risk framing rather than the basics. Publishes 29 Sep 2026. [https://www.oreilly.com/library/view/the-agentic-enterprise/0642572274566/]. Status: queued.
 

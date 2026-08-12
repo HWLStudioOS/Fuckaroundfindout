@@ -2128,12 +2128,12 @@
     "restingHR": 48,
     "sleepHours": 6.3,
     "sleepScore": 78,
-    "stressAvg": 11,
+    "stressAvg": 21,
     "bodyBattery": 92,
     "trainingReadiness": 79,
     "readinessLevel": "HIGH",
-    "acwr": 0.98,
-    "acuteLoad": 350.0,
+    "acwr": 0.95,
+    "acuteLoad": 386.0,
     "vo2Max": 45.0
   }
 ]

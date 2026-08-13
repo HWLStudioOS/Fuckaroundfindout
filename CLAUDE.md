@@ -49,7 +49,8 @@ That's the whole startup. The rest is data, read on-demand.
 - Codex owns engineering, testing, diagnostics, and reviewed changes. Do not create a second schedule for an existing Claude or launchd workflow.
 - `SYSTEM-STATUS.md` is the current engineering handoff between Claude, Codex, and Harrison. Read it before changing agents, permissions, schedules, or runtime state.
 - The Jarvis action ledger is not yet an enforcement boundary around legacy Claude runners. Do not claim an email, message, calendar, or file action was approval-gated unless that exact adapter has been migrated.
-- Before editing the repository, inspect Git status. Preserve unrelated working changes. Use a separate worktree or branch for substantial engineering changes, then merge a tested commit.
+- Before editing the repository, inspect Git status. Preserve unrelated working changes. Use a separate worktree or branch for substantial engineering changes, then merge a tested commit. Remove the worktree with `git worktree remove` as soon as its branch merges. Each one costs 2 to 4 GB because the Git LFS podcast masters materialise per worktree, and five stale ones took the Mac mini to 98% full on 13 August 2026.
+- Never commit financial or identity documents. Bank statements, payslips, passports and completed forms like the Milford KiwiSaver pack go in `private/`, which is gitignored. `tmp/` is disposable scratch and is also gitignored, so nothing that matters may live there. `gitleaks` cannot see inside a scanned PNG, so `agents/nightly-backup.sh` blocks these by path instead.
 
 ## Failure modes the system is designed against
 

@@ -30,6 +30,30 @@ error_tail_summary() {
   tail -c 2000 "$ERR_FILE" | tr '\n' ' ' | tail -c 500
 }
 
+# Financial and identity documents must never be committed. gitleaks matches
+# credential patterns in text, so it cannot see inside a scanned bank statement
+# or a filled identity form. On 12 August 2026 that blind spot let ASB bank
+# statements and completed Milford KiwiSaver forms reach origin/main. This guard
+# closes it by blocking on path instead of content.
+#
+# Scoped to document and image extensions on purpose: a Markdown note that
+# mentions the Companies House confirmation statement is fine, a scanned PNG of
+# a bank statement is not. Anything under private/ is blocked outright.
+SENSITIVE_NAME_PATTERN='(bank|asb|starling|revolut|monzo|amex)[^/]*statement|statement[^/]*(bank|asb|starling|revolut|monzo|amex)|passport|payslip|kiwisaver|milford|driving[-_]?licence|drivers?[-_]?licen[cs]e|birth[-_]?cert|p60|p45'
+SENSITIVE_EXTENSION_PATTERN='\.(png|jpe?g|pdf|heic|tiff?|webp|zip)$'
+
+staged_sensitive_paths() {
+  local staged
+  staged="$(git diff --cached --name-only --diff-filter=ACMR)"
+  [[ -z "$staged" ]] && return 0
+  {
+    printf '%s\n' "$staged" | grep -E '^private/'
+    printf '%s\n' "$staged" \
+      | grep -iE "$SENSITIVE_NAME_PATTERN" \
+      | grep -iE "$SENSITIVE_EXTENSION_PATTERN"
+  } | sort -u
+}
+
 refresh_board_room_snapshot() {
   if [[ ! -x "$NODE_BIN" || ! -f "$BOARD_ROOM_DIR/scripts/generate-board-data.mjs" ]]; then
     echo "- $STAMP | board-room | snapshot skipped, generator or Node runtime missing" >> "$LOG"
@@ -184,6 +208,13 @@ fi
 
 git add -A
 if [[ -n "$(git diff --cached --name-only)" ]]; then
+  SENSITIVE_HITS="$(staged_sensitive_paths)"
+  if [[ -n "$SENSITIVE_HITS" ]]; then
+    git reset -q
+    echo "- $STAMP | nightly-backup | BACKUP BLOCKED, financial or identity document staged: $(printf '%s' "$SENSITIVE_HITS" | tr '\n' ' ' | cut -c1-300)" >> "$LOG"
+    exit 1
+  fi
+
   if [[ ! -x "$GITLEAKS_BIN" ]]; then
     git reset -q
     echo "- $STAMP | nightly-backup | BACKUP BLOCKED, gitleaks is unavailable" >> "$LOG"

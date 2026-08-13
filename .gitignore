@@ -6,6 +6,16 @@
 *.env.*
 !*.env.example
 
+# Private financial and identity documents. Never commit these.
+# gitleaks scans for credential patterns in text, so it cannot see inside a
+# scanned bank statement or a filled identity form. Those are blocked by path
+# instead, here and by the sensitive-path guard in agents/nightly-backup.sh.
+private/
+
+# Scratch working directory. Anything here is disposable by definition.
+# Real documents belong in a named directory, not in tmp/.
+tmp/
+
 # OS junk
 .DS_Store
 Thumbs.db

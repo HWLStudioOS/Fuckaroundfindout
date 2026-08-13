@@ -154,3 +154,131 @@ reel slot, which follows the NF3 shoot on 19 Aug, is the natural re-target.
 
 **Result:** rejected, targeting error. Kept in the ledger rather than deleted,
 because the failure is the useful part.
+
+---
+
+### 2026-08-13 (17:00 run), @creepersinstallation, slot Sun 23 Aug 2026
+
+**Status:** proposed
+
+**Slot source caveat, read this first:** `scripts/client-calendar.mjs` could not
+be executed this run. The unattended session's permission mode blocked `node`,
+`curl`, WebFetch and Playwright, so the live endpoint was unreachable from
+inside the run. The runner (`agents/creative-lab.sh`, `--permission-mode
+acceptEdits`) cannot currently run its own mandatory slot script; that needs an
+allowlist entry for `node scripts/client-calendar.mjs` before the next run.
+The slot below is NOT from the CSVs, which were not opened. It comes from the
+deployed plan `2026-08-10-r2` as read live and recorded in this ledger earlier
+today, 13 August: `@creepersinstallation` runs Sundays, 16 Aug single image and
+23 Aug reel, with the NF3 New Forest shoot on Wed 19 Aug. Cross-checked against
+`business/clients/creepers.md` (13 Aug correction: no installation-only post
+since 30 July, installation bank empty) and `today.md`. The residual risk is
+that the deployed calendar changed between this morning's read and 17:00.
+
+**Client and slot rationale:** Creepers is the only client with a deployed
+calendar (Better at Work and LOR are inactive in `calendars.json`). Installation
+chosen again rather than rotated because the entry above was rejected on a
+targeting error, never tested, and itself names the 23 Aug reel as the natural
+re-target. The 16 Aug single image slot is not honestly actionable: it precedes
+NF3, the installation bank is empty (Ferndale burned, Rootball rejected), and
+the runway rule says an empty optional slot beats filler. The nursery account's
+three weekly slots are committed material per the 10 Aug runway decision, not
+open test slots. The 23 Aug reel is capturable on a shoot already scheduled,
+which is the cheap kind of test.
+
+**Hypothesis:** Because heritage-nursery and luxury-garden channels are
+currently running single-specimen process and provenance films (Easy Big Trees'
+"journey of a 30 year old Ulmus horizontalis" from its Heritage Collection,
+LinkedIn, 30 Mar 2026; Luxury Gardens Magazine on Crescente's
+stone-and-specimen selection craft, LinkedIn, 16 Jun 2026; The Modern House and
+Inigo's Great Dixter behind-the-scenes process film, May 2026; Boomkwekerij Jef
+Cools' specimen-preparation reels aimed at garden architects, Instagram), and
+because Socialinsider's June 2026 reels benchmark of 140k reels shows reels are
+the top reach format for 1 to 5k follower accounts at 9.78 percent reach rate,
+with 30 to 60 seconds the strongest length band and a 65.5 percent average
+3 second skip rate for small accounts, I expect a 30 to 45 second
+single-specimen selection reel on `@creepersinstallation`, opening on hands and
+material in motion inside the first second with ambient sound only, to beat the
+median reach of the account's last five posts and keep at least 35 of every 100
+viewers past the first 3 seconds (the small-account average is 34.5). I will
+know within 7 days of posting, by Sunday 30 August, via reach and retention in
+account insights.
+
+**Evidence honesty:** The platform numbers are cross-category benchmarks
+(Socialinsider Jun 2026; Metricool's Jun 2026 study of 24.3m posts shows reel
+watch time doubled year on year and shares up 67 percent, so the format is
+rising, not fading). The in-category sightings are real but imperfect: the two
+most recent are LinkedIn executions, the Jef Cools Instagram reels are the
+exact format on the exact audience but predate the 60 day window, and the
+Dixter film is YouTube. I found no UK luxury-horticulture Instagram account
+running this format inside 60 days. That gap is what makes this a test rather
+than a copy. No performance figures exist for those accounts and none are
+claimed. Counter-evidence stated plainly: domestic-trades data says face plus
+voiceover beats pure b-roll 2 to 3x, and this variant deliberately ignores that
+because it is the trades execution and the luxury lane runs restraint. That
+choice is part of what the test decides.
+
+**Variant: "How a tree gets chosen", cut structure, target 35 seconds:**
+
+1. 0:00 to 0:03. Open mid-action, no logo, no title card. Close on a grower's
+   hand running up the trunk from root flare to first branch, camera tilting
+   with it. Ambient sound: wind, birdsong, footsteps on the row.
+2. 0:03 to 0:08. Wide. Michael walks the row, eyes up in the canopies, one
+   tree among hundreds.
+3. 0:08 to 0:16. Three checks, close: root flare, graft union, canopy balance
+   against the sky. These are the NF3 install macros, cut as beats.
+4. 0:16 to 0:22. The decision. A tag or ribbon tied on. The only event in the
+   film.
+5. 0:22 to 0:29. The chosen specimen in full, locked off, wind moving the
+   canopy.
+6. 0:29 to 0:35. Closer. The rows in depth, late summer light. Text, small,
+   lower third: "Chosen in the New Forest."
+
+**Opening three seconds, written out:** A hand enters frame already moving,
+palm brushing bark upward from the root flare, camera tilts up the stem with
+it. No text until second 2, then one small line, lower third: "How a tree gets
+chosen." The scroll-stop is contact between hand and tree in the first half
+second, motion from frame one, per the skip-rate evidence.
+
+**Caption, Creepers voice, installation account:**
+
+The choosing takes longer than the planting.
+
+Root flare first, then the graft, then the canopy against the sky. Michael
+walks the row twice before anything gets a tag.
+
+Grown in the New Forest. Ready for the right garden.
+
+(If Michael is not on the NF3 shoot, the grower on site stands in, hands only,
+and the caption drops the name.)
+
+**Footage:** Entirely from NF3 on Wed 19 Aug, which already banks install
+macros. Adds to the shot list: the continuous hand-up-trunk opening move, the
+row-walk wide, the tag moment, one locked-off full-specimen shot with wind.
+Roughly 15 minutes added on the day, ambient audio kept rolling on everything.
+If NF3 slips, the test slips with it. Do not force the slot from the bank.
+
+**Cost:** About 15 minutes added to the NF3 shoot day and 1.5 to 2 hours in
+edit (cut to ambient, grade, minimal type). No new shoot, no gear, no music
+licence.
+
+**Risk:** Underperformance, not embarrassment: this is the same DP-grade
+documentary work the account already runs, and ambient audio is safe sound-on.
+Honest secondary risks: on 2,337 followers the signal may be too small to read,
+in which case this closes inconclusive, not as a free retry; and the whole test
+inherits NF3's schedule risk.
+
+**Replaces:** The planned execution of the 23 Aug reel slot, against which
+nothing is banked per the deployed plan as read this morning. Same slot, same
+shoot day, same subject family. If the deployed calendar has since committed
+material to this slot, this proposal dies on that fact and that is the correct
+outcome.
+
+**Note, delivery failure 13 Aug 17:00:** The Telegram send did not go out. The
+session's permission mode blocked `curl`, and the fallback push reached the
+desktop only (mobile inactive). The full message text is in the run's stdout
+log. Next run: if this entry is still unacknowledged, retry the Telegram send
+first; that retry is not a new proposal and does not breach the
+one-at-a-time guard.
+
+**Result:** (window closes Sun 30 Aug)

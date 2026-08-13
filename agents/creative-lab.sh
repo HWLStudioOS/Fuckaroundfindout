@@ -1,6 +1,6 @@
 #!/bin/bash
 # creative-lab.sh, daemon entry point
-# Runs Sundays at 17:00 via launchd (com.hwl.creative-lab.plist)
+# Runs daily at 17:00 via launchd (com.hwl.creative-lab.plist)
 # Manually invokable: ./creative-lab.sh
 
 set -Eeuo pipefail
@@ -40,7 +40,7 @@ NOW=$(date '+%A %d %B %Y at %H:%M %Z')
 
 PROMPT="It is now ${NOW}. You are the creative-lab agent running unattended on Harrison's Mac Mini. Execute the workflow in agents/creative-lab.md in full.
 
-Order matters. First read content/creative-tests.md and close any test whose signal window has passed, by checking what actually happened on the live grid and recording the verdict. Results before proposals, always.
+Order matters. FIRST check content/creative-tests.md for any test with status proposed. If one exists it is awaiting Harrison's tap and you must NOT propose another; close any due results, note anything notable under the waiting entry, and stay silent unless you closed a result or the waiting test is over three days old. Then read the ledger and close any test whose signal window has passed, by checking what actually happened on the live grid and recording the verdict. Results before proposals, always.
 
 Then pick ONE upcoming unfilled slot from the active client calendar, find current organic format-level evidence for that client's category, form one falsifiable hypothesis, and BUILD the actual variant for that slot: format spec, opening three seconds, caption in the client's voice, and what footage it can be built from.
 

@@ -34,7 +34,9 @@ A doer and its verifier count as one owner. `morning-brief` and
 | `money/index.md` | Harrison | none | Money state follows Harrison's latest dated correction. Agents propose, they do not rewrite. |
 | `content/pipeline.md` | `content-engine` | none | `weekly-review` reads it. |
 | `content/creative-tests.md` | `creative-lab` | none | The client creative test ledger. Every entry ends in a verdict; a test never resolved is a guess with extra steps. |
-| `health/training-plan.md` | Harrison | none | Canonical training plan. Agents read it; none may rewrite it. |
+| `health/training-plan.md` | Harrison | none | Canonical training plan. Agents read it; none may rewrite it. `pattern-lab` observes against it and is explicitly forbidden from editing it or prescribing training. |
+| `health/observations.md` | `pattern-lab` | none | Cross-week observations from Harrison's own Garmin data. Observations with falsifiable predictions, never advice. |
+| `content/form-watchlist.md` | Harrison | none | His named form references. `form-lab` reads it; only Harrison changes who is on it. |
 | `SYSTEM-STATUS.md` | whoever makes a system change | none | Engineering handoff. Updated deliberately, never by a scheduled agent. |
 | `board-room/app/generated-board.json` | generated | none | Built by the nightly backup and verified in frozen-snapshot mode. Never hand-edited. |
 

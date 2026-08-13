@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.hwl.creative-lab</string>
+    <string>com.hwl.pattern-lab</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/harrison/HWL META/agents/creative-lab.sh</string>
+        <string>/Users/harrison/HWL META/agents/pattern-lab.sh</string>
     </array>
     <key>RunAtLoad</key>
     <false/>
@@ -15,11 +15,9 @@
     <key>StandardOutPath</key>
     <string>/Users/harrison/HWL META/agents/_launchd-stdout.log</string>
     <key>StartCalendarInterval</key>
-    <dict>
-        <key>Hour</key>
-        <integer>17</integer>
-        <key>Minute</key>
-        <integer>0</integer>
-    </dict>
+    <array>
+        <dict><key>Hour</key><integer>19</integer><key>Minute</key><integer>30</integer><key>Weekday</key><integer>3</integer></dict>
+        <dict><key>Hour</key><integer>19</integer><key>Minute</key><integer>30</integer><key>Weekday</key><integer>6</integer></dict>
+    </array>
 </dict>
 </plist>

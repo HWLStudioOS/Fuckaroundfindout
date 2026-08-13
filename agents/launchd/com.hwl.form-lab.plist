@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.hwl.creative-lab</string>
+    <string>com.hwl.form-lab</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/harrison/HWL META/agents/creative-lab.sh</string>
+        <string>/Users/harrison/HWL META/agents/form-lab.sh</string>
     </array>
     <key>RunAtLoad</key>
     <false/>
@@ -19,7 +19,7 @@
         <key>Hour</key>
         <integer>17</integer>
         <key>Minute</key>
-        <integer>0</integer>
+        <integer>30</integer>
     </dict>
 </dict>
 </plist>

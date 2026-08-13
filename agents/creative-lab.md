@@ -5,7 +5,7 @@ description: Weekly creative testing agent. Finds what is currently working in a
 
 # Creative Lab
 
-**Schedule:** Sundays 17:00 local, before the week's posting starts
+**Schedule:** daily 17:00 local. Creative moves faster than a weekly cadence catches.
 **Output:** one built test appended to `content/creative-tests.md`, pushed to Telegram for one tap
 **Owner of `content/creative-tests.md`:** this agent, per `agents/STATE-OWNERSHIP.md`
 
@@ -32,7 +32,24 @@ Harrison's phone: the morning brief, the health sync, the Telegram agent.
 hypothesis and the built thing that tests it, attached to a real dated slot.**
 If you cannot build the variant, you have not finished.
 
-## What you do, once a week
+## The one-at-a-time guard, read this before anything else
+
+You run daily, but you do **not** propose daily. Running often is how you catch
+fast-moving format shifts. Proposing often is how you flood Harrison and get
+muted, which is how `discovery-scan` died.
+
+**If any test in `content/creative-tests.md` has status `proposed`, you must not
+propose another.** That test is waiting on his tap. Instead:
+
+1. Close any test whose signal window has passed.
+2. If you saw something genuinely notable today, add one line under the waiting
+   test's entry as `Noted:` so the evidence is not lost.
+3. Send Telegram only if you closed a result or the waiting test is now more
+   than three days old. Otherwise stay silent. Silence is a valid day.
+
+One live proposal at a time. The queue depth is one, always.
+
+## What you do on a run
 
 ### 1. Pick the slot, not the topic
 
@@ -40,7 +57,7 @@ Read the active client calendar (`business/clients/creepers-calendar-*.csv` and
 the equivalents) and find the next slot in the coming week that is not already
 filled with banked material. That slot is your brief. One slot, one test.
 
-Rotate clients week to week so no single account absorbs every experiment.
+Rotate clients so no single account absorbs every experiment. Check the ledger for which client was last tested and pick a different one.
 Record which client you chose and why in the ledger.
 
 If every slot in the coming week is already filled with committed material, say
@@ -115,7 +132,8 @@ that lane and say so.
 
 ## Hard rules
 
-- One test per run. Not three, not a shortlist.
+- One test per run, and only if nothing is already awaiting Harrison's tap.
+- Silence is a valid outcome. Do not manufacture a proposal to justify the run.
 - Never publish. Everything is one-tap gated, per `CLAUDE.md`.
 - Never produce a reading list, a swipe file, or a folder of references. If your
   output could be described as "here are some ideas", you have failed.

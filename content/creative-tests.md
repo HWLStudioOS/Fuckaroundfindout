@@ -53,4 +53,4 @@ future run does not rediscover the same dead end.
 
 ## Tests
 
-_No tests yet. The first runs Sunday 17:00._
+_No tests yet. First run at 17:00.

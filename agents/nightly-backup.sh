@@ -206,6 +206,19 @@ if [[ -z "$(git status --porcelain)" ]] && git diff --quiet origin/main 2>/dev/n
   exit 0
 fi
 
+# Restructure Phase 2. today.md and this-week.md must not contradict each other.
+# The HWL-191 flap on 9-10 August was one Linear marker in two files with
+# opposite checkbox states, and the hourly sync flapped between them for a day.
+# linear/lib/sync-policy.js stops that reaching Linear; this stops it reaching
+# Harrison, who reads the Markdown every morning. Warn only: a contradiction is
+# bad state, not a secret, so it must not block the backup of everything else.
+if [[ -x "$NODE_BIN" && -f "$HWL_META_DIR/scripts/check-state-consistency.mjs" ]]; then
+  : > "$ERR_FILE"
+  if ! "$NODE_BIN" "$HWL_META_DIR/scripts/check-state-consistency.mjs" --quiet >"$ERR_FILE" 2>&1; then
+    echo "- $STAMP | nightly-backup | STATE CONTRADICTION between today.md and this-week.md, backup continued: $(error_tail_summary)" >> "$LOG"
+  fi
+fi
+
 git add -A
 if [[ -n "$(git diff --cached --name-only)" ]]; then
   SENSITIVE_HITS="$(staged_sensitive_paths)"

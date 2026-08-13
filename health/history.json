@@ -2145,8 +2145,8 @@
     "sleepScore": 82,
     "stressAvg": 18,
     "bodyBattery": 82,
-    "trainingReadiness": 44,
-    "readinessLevel": "LOW",
+    "trainingReadiness": 50,
+    "readinessLevel": "MODERATE",
     "acwr": 0.72,
     "acuteLoad": 694.0,
     "vo2Max": 45.0

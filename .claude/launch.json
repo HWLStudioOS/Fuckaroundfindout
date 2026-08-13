@@ -4,8 +4,24 @@
     {
       "name": "hwl-logo-motion",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["--prefix", "/Users/harrison/hwl-logo-motion", "run", "dev"],
+      "runtimeArgs": [
+        "--prefix",
+        "/Users/harrison/hwl-logo-motion",
+        "run",
+        "dev"
+      ],
       "port": 5199
+    },
+    {
+      "name": "baw-site",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--prefix",
+        "business/clients/baw/site"
+      ],
+      "port": 3000
     }
   ]
 }

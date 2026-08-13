@@ -2,9 +2,9 @@
 
 ## Status
 
-The six-slide V2 is complete and ready for Harrison's review on 13 August 2026. Nothing from this package has been posted or sent.
+Rejected by Harrison on 13 August 2026. The six-slide V2 is retained as an archived design test only. Nothing from this package was posted or sent.
 
-The nursery commitment is already closed by Harrison's New Forest bee-pollination static. This is the remaining Creepers post for today.
+Do not publish, schedule or revive this as today's Installation route. The active replacement is the Ferndale plant-supply case study in `business/clients/creepers-ferndale-installation-post-2026-08-13/`.
 
 ## Current format
 
@@ -40,9 +40,5 @@ No fixed litre claim is used. Requirements vary by specimen, soil and site. Foll
 
 ## Publish checklist
 
-- Review the six-slide V2 in Figma or `exports-v2/contact-sheet.png`.
-- Publish as a six-slide carousel on `@creepersinstallation` once approved.
-- Use the caption in `copy.md`.
-- Do not tag `@landformuk`. No Landform work appears in V2.
-- Do not cross-post to the nursery grid today. Its commitment is already closed.
-- Once live, record the Instagram URL in `business/clients/creepers.md`, `today.md` and the live calendar.
+- Archive only. Do not publish or schedule.
+- Retain the Figma and local exports as a record of the rejected test.

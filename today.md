@@ -1,7 +1,7 @@
 ---
 date: 2026-08-13
 generated: auto-generated 06:30
-refreshed: Creepers Rootball Check redesign 10:49
+refreshed: Creepers Ferndale Installation route 12:05
 financial_truth_updated: 2026-08-10 (August drawings set at £1,800, not yet confirmed paid)
 ---
 
@@ -9,7 +9,7 @@ financial_truth_updated: 2026-08-10 (August drawings set at £1,800, not yet con
 
 ## Pulse
 
-Up at 05:30, coffee and one SAP 40G gel, then the VO2 session. Garmin now has the full run: 7.89 km in 48:19, average heart rate 165, maximum 197, training effect 4.1 aerobic and 3.7 anaerobic. Garmin recorded three work reps because Harrison did not lap the first one. He confirmed on 13 August that all four were run. The three lapped reps were 896m at 4:29/km, 939m at 4:16/km and 921m at 4:23/km. This was a completed 4 x 4 VO2 session. Pre-session readiness was 81 HIGH; the refreshed 44 LOW reading is the expected post-session load response, not a reason to reinterpret the morning gate. Jennifer Moss's 48-second Better at Work clip is now live. Harrison has also published a New Forest bee-pollination static on the Creepers nursery grid, closing today's nursery commitment. Creepers Installation has had no installation-only post since 30 July; the current 37°C route is now a six-slide `The Rootball Check` carousel using only Creepers Surrey imagery. Caroline Webb records at 16:00. David's first Danny wrap-reel draft was good and is back with him for tweaks.
+Up at 05:30, coffee and one SAP 40G gel, then the VO2 session. Garmin now has the full run: 7.89 km in 48:19, average heart rate 165, maximum 197, training effect 4.1 aerobic and 3.7 anaerobic. Garmin recorded three work reps because Harrison did not lap the first one. He confirmed on 13 August that all four were run. The three lapped reps were 896m at 4:29/km, 939m at 4:16/km and 921m at 4:23/km. This was a completed 4 x 4 VO2 session. Pre-session readiness was 81 HIGH; the refreshed 44 LOW reading is the expected post-session load response, not a reason to reinterpret the morning gate. Jennifer Moss's 48-second Better at Work clip is now live. Harrison has also published a New Forest bee-pollination static on the Creepers nursery grid, closing today's nursery commitment. Creepers Installation has had no installation-only post since 30 July. `The Rootball Check` was rejected and archived. The live candidate is a four-photo Ferndale plant-supply case study using non-aerial professional photography explicitly cleared for social use. Caroline Webb records at 16:00. David's first Danny wrap-reel draft was good and is back with him for tweaks.
 
 ## Yesterday wrap
 
@@ -21,7 +21,7 @@ Still open, carried from yesterday: the scout-trades amend-or-fold decision is n
 
 - [x] Jennifer Moss AI-adoption reel captioned and published on `@betteratworkpod`. Harrison confirmed it live on 13 August.
 - [x] Creepers nursery post published: a static photograph of a bee pollinating a flower at New Forest. Harrison confirmed it live on 13 August. `A Buyer's Eye` is held, not today's active post.
-- [ ] Review and publish the six-slide `The Rootball Check` 37°C aftercare carousel on `@creepersinstallation`. The editable Figma V2, final PNGs and caption are in `business/clients/creepers-heat-aftercare-post-2026-08-13/`. V2 uses only Creepers Surrey imagery. Do not tag `@landformuk`.
+- [ ] Review the four-photo Ferndale plant-supply carousel for `@creepersinstallation`. The exact 1080 x 1350 JPGs, contact sheet, caption and permission record are in `business/clients/creepers-ferndale-installation-post-2026-08-13/`; the Figma review section is node `468:2`. Credit `@ben.beth` for the design and `@skyshotglobal` for photography. Creepers supplied the plants. Do not describe Creepers as the designer or installer. Nothing is posted.
 - [x] Morning VO2 session delivered as a full 4 x 4. Garmin only captured three reps because the first was not lapped. Prescription met, nothing owed.
 - [x] David's £550 August salary is paid. Harrison confirmed on 13 August. It ran five days past the stated 8 August date and took two chases from David before it cleared.
 - [ ] Clear the admin block before Caroline Webb at 16:00: complete Companies House director ID verification and send the code to Fazila; decide amend-or-fold on SPCX, NVDA, SNDK, MU and PLTR against `money/investment-strategy-2026-08-03.md`; confirm the £1,800 August drawings landed in the bank.
@@ -46,10 +46,10 @@ Health: RHR 49, HRV 56 BALANCED, sleep 7.1h at score 82. Readiness was 81 HIGH b
 
 Money: tax reserve computes to £9,875, still bank-unverified. August drawings are set at £1,800 but not yet confirmed paid. David's £550 August salary is paid, five days after the stated date and after two chases. About £7,000 from LOR remains expected in August with no PO or invoice raised. The scout-trades amend-or-fold decision is now three days overdue. Companies House requires director ID verification before the 2 September confirmation statement deadline.
 
-Clients: Jennifer Moss's Better at Work reel is live. Today's Creepers nursery commitment is closed by the New Forest bee static. The six-slide Creepers `The Rootball Check` carousel is ready for review and the installation post is the only Creepers publish still open. Caroline Webb records today, and the Season 5 site waits on Cathal. LOR has been silent 15+ days by Gmail, bar one routine Fazila admin email. Danny Wicks payment confirmation is outstanding while David finishes small wrap-reel revisions. Squiggly Careers call locked for 18 August.
+Clients: Jennifer Moss's Better at Work reel is live. Today's Creepers nursery commitment is closed by the New Forest bee static. Rootball Check was rejected. The four-photo Ferndale plant-supply case study is the only live Installation candidate and is ready for Harrison's review, not publication. Caroline Webb records today, and the Season 5 site waits on Cathal. LOR has been silent 15+ days by Gmail, bar one routine Fazila admin email. Danny Wicks payment confirmation is outstanding while David finishes small wrap-reel revisions. Squiggly Careers call locked for 18 August.
 
 System: every scheduled daemon ran clean overnight through 06:15. Garmin was manually refreshed at 08:15 after the run synced. Board Room validation passed and nightly-backup committed and deployed at 22:30. No actionable unread Gmail beyond the new Fazila Companies House note, zero Gmail drafts. Edge Lab figures independently verified via direct sqlite query against both paper.sqlite and paper-macro.sqlite.
 
 ## Lens
 
-Jennifer and the Creepers nursery post are live. Review and put the six-slide Rootball Check carousel on `@creepersinstallation`, then clear Companies House ID, the scout-sleeve decision and the drawings confirmation before Caroline Webb at 16:00. Danny's reel stays with David until the tweaks land. No founder edit block.
+Jennifer and the Creepers nursery post are live. Review the four-photo Ferndale plant-supply case study for `@creepersinstallation`, then clear Companies House ID, the scout-sleeve decision and the drawings confirmation before Caroline Webb at 16:00. Danny's reel stays with David until the tweaks land. No founder edit block.

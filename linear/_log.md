@@ -3663,3 +3663,7 @@
 [2026-08-13T06:51:52.951Z] INFO Sync start. Last: 2026-08-13T05:44:16.478Z
 [2026-08-13T06:51:53.290Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
 [2026-08-13T06:51:53.356Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-13T07:51:53.408Z] INFO Sync start. Last: 2026-08-13T06:51:53.355Z
+[2026-08-13T07:51:53.799Z] ERROR Sync failed: Linear API errors: [{"message":"usage limit exceeded","path":["issueCreate"],"locations":[{"line":2,"column":7}],"extensions":{"type":"usage limit exceeded","code":"USAGE_LIMIT_EXCEEDED","statusCode":400,"userError":true,"userPresentableMessage":"You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.","meta":{"usageMetric":"activeIssueCount"}}}]
+[2026-08-13T08:51:53.985Z] INFO Sync start. Last: 2026-08-13T06:51:53.355Z
+[2026-08-13T08:51:54.633Z] ERROR Sync failed: Linear API errors: [{"message":"usage limit exceeded","path":["issueCreate"],"locations":[{"line":2,"column":7}],"extensions":{"type":"usage limit exceeded","code":"USAGE_LIMIT_EXCEEDED","statusCode":400,"userError":true,"userPresentableMessage":"You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.","meta":{"usageMetric":"activeIssueCount"}}}]

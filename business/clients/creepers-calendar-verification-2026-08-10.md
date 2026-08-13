@@ -12,3 +12,11 @@ Checked both public Instagram grids from 1 August through Monday 10 August. The 
 No installation-only August post was live. Nothing newer than 4 August was live at the time of verification. Stories were outside this grid audit.
 
 The calendar's four planned slots for w/c 3 August did not run. They were replaced by the four live items above, all marked `Posted`. The shared Wentworth post uses the new `Both accounts` channel state and appears under both account filters.
+
+## Follow-up verification, 13 August 2026
+
+| Date | Grid | Published item | Evidence |
+|---|---|---|---|
+| 10 Aug | Nursery | `Why choose a nursery?` carousel | https://www.instagram.com/creepersnursery/p/Db3hnvbjMsm/ |
+
+`Fresh In #5` was not live at the 13 August morning check. The installation grid still had no installation-only post newer than the 30 July hedge before-and-after. The 3 August Wentworth carousel remained the newest item visible there, shared from the nursery account.

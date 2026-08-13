@@ -2,6 +2,24 @@
 
 Checked on Tuesday 11 August 2026. The package is technically ready for creative and producer review. Nothing has been uploaded, sent, scheduled or published.
 
+## Current clean teaser revision, 13 August
+
+| File | Runtime | Format | Size |
+|---|---:|---|---:|
+| `video/BetterAtWork-Jennifer-AI-Adoption-Clean-NoCaptions-v3.mp4` | 00:48.000 | H.264, 1080 x 1920, 24 fps, AAC 48 kHz stereo | 62,998,096 bytes |
+
+- Rebuilt from Jennifer's continuous isolated camera and enhanced mic using the verified 00:04:12.309 source offset.
+- One stable portrait crop for the full excerpt. No programme-camera switches, picture edits or burned captions.
+- Full-frame decode completed with no reported errors.
+- No black span of 0.08 seconds or longer and no subtitle stream detected.
+- Five evenly spaced frames were inspected. Jennifer remains consistently framed throughout.
+- Large-v3 transcription confirms the file opens on the complete clause “People will be much more resistant to engaging with AI” and finishes the complete answer on “all of that happens when you have empathy.”
+- There is 0.163 seconds of clean lead-in before the first word and 0.357 seconds of tail after the final word.
+- Integrated loudness is -16.5 LUFS, true peak -3.9 dBFS and loudness range 3.6 LU.
+- Video and audio both start at 00:00.000 and end at 00:48.000.
+
+The first captioned teaser and first clean export are creatively rejected and remain in the package for comparison only.
+
 ## V2 review cut
 
 | File | Runtime | Format | Size |
@@ -23,7 +41,7 @@ Checked on Tuesday 11 August 2026. The package is technically ready for creative
 | File | Runtime | Format | Size |
 |---|---:|---|---:|
 | `video/BetterAtWork-BetterMoments-05-JenniferMoss-RoughCut.mp4` | 09:50.292 | H.264, 1280 x 720, 24 fps, AAC 48 kHz stereo | 252,244,065 bytes |
-| `video/BetterAtWork-Jennifer-AI-Adoption-Teaser.mp4` | 00:52.125 | H.264, 1080 x 1920, 24 fps, AAC 48 kHz stereo | 51,259,404 bytes |
+| `video/BetterAtWork-Jennifer-AI-Adoption-Teaser.mp4` (rejected) | 00:52.125 | H.264, 1080 x 1920, 24 fps, AAC 48 kHz stereo | 51,259,404 bytes |
 | `audio/BetterAtWork-BetterMoments-05-JenniferMoss-Master.wav` | 09:50.292 | 24-bit PCM, 48 kHz stereo | 170,004,198 bytes |
 | `audio/BetterAtWork-BetterMoments-05-JenniferMoss.mp3` | 09:50.292 | MP3, 192 kbps, 44.1 kHz stereo | 14,168,974 bytes |
 

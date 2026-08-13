@@ -18,7 +18,7 @@ These eight slides turn the framework into three things a leader can do this wee
 
 Better Moments #5 with Jennifer Moss lands tomorrow.
 
-## Wednesday teaser caption, Better at Work Instagram
+## Current teaser caption, Better at Work Instagram
 
 People will not adopt AI while they believe the plan is to replace them with it.
 
@@ -26,7 +26,7 @@ Jennifer Moss says that fear is not a communication problem to dismiss. It is a 
 
 Compassionate leadership starts by treating the threat people feel as real.
 
-Better Moments #5 lands tomorrow.
+This is the leadership conversation that has to come before adoption.
 
 ## Wednesday teaser caption, Cathal LinkedIn
 

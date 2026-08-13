@@ -1,6 +1,6 @@
 ---
 week: 10 to 16 August 2026
-generated: reconciled from Harrison direct state, 11 August 2026
+generated: reconciled from Harrison direct state and live grids, 13 August 2026
 financial_truth_updated: 2026-08-07 16:00 BST
 ---
 
@@ -42,7 +42,9 @@ Reset the week around a secure fibre-connected edit base, the verified Creepers 
 - [x] Recover Claude's ranked selects, build the five Pro Landscaper Figma variants and complete the Option A RGB press proof plus contact sheet. <!-- linear:HWL-264 -->
 - [x] Fable basic Creepers edit test closed. Nice experiment, but it did not pass; the technology is not ready to own client editing yet. <!-- linear:HWL-256 -->
 - [x] Calendar verified against both Creepers grids, then reworked into a six-week, three-core-plus-one-optional runway and redeployed on 10 August. Sam's link is unchanged. <!-- linear:HWL-249 -->
-- [x] Review and publish `Why choose a nursery?` on `@creepersnursery` today. Five photograph-led 1080 x 1350px slides and the final caption are ready. Nothing has been published or sent. <!-- linear:HWL-262 -->
+- [x] `Why choose a nursery?` published on `@creepersnursery` on 10 August. Live post: https://www.instagram.com/creepersnursery/p/Db3hnvbjMsm/ <!-- linear:HWL-262 -->
+- [x] New nursery post published on 13 August: Harrison posted a static photograph of a bee pollinating a flower at New Forest. `A Buyer's Eye` remains banked after Harrison rejected it as today's route.
+- [ ] Publish the finished three-slide 37°C aftercare carousel on `@creepersinstallation` on 13 August. Final PNGs and caption are in `business/clients/creepers-heat-aftercare-post-2026-08-13/`. The last installation-only post was 30 July; the 3 August Wentworth item was shared from the nursery account.
 - [ ] Finalise the selected Creepers Pro Landscaper advert in Figma. Full bleed won and the dark editorial route is closed. Review client-feedback revision `435:2`, confirm Creepers' intended founding year and anniversary number, get the exact Hatchford garden-designer credit, replace the visible internal credit placeholder, then get Pro Landscaper's preferred colour profile before PDF export or supply. Nothing has been sent. <!-- linear:HWL-265 -->
 - [ ] Confirm the exact Surrey Season 4 shoot date with Anna and Sarah-Louise. Still pending. <!-- linear:HWL-239 -->
 
@@ -50,12 +52,12 @@ Reset the week around a secure fibre-connected edit base, the verified Creepers 
 
 - [x] Final-pass the Season 5 design system, make every launch component ready for use, then review it beside the verified site before calling the launch package done. <!-- linear:HWL-257 -->
 - [x] Final-pass the Season 5 website. Preview refreshed from commit `cce3f68`: all 93 sitemap routes return 200, the 101-page build passes, WCAG defects found in review are fixed, the tablet/mobile masthead and portrait composition are corrected, and dormant checkout still fails closed. Production is untouched. <!-- linear:HWL-258 -->
-- [x] Prepare one Better at Work post today. If Cathal's personal LinkedIn post is not moving, publish through the brand channel instead of leaving the day blank. <!-- linear:HWL-263 -->
+- [x] Jennifer Moss AI-adoption reel captioned and published through `@betteratworkpod` on 13 August. Two earlier exports were rejected; the final 48-second cut opened directly on AI resistance and completed the empathy thought. <!-- linear:HWL-263 -->
 - [ ] Send Cathal the repricing reply: hold the £1,500 net floor, offer the scope-cut package (keep episode packaging, retire the monthly report for the live dashboard, drop LinkedIn ghostwriting, fold season planning into the fortnightly call), and raise the VAT-reclaim question first. Draft is ready in Gmail. <!-- linear:HWL-250 -->
 - [x] Share the finished Better at Work website preview with Cathal for review. It is with him, the ball is his. <!-- linear:HWL-231 -->
 - [ ] Once Cathal reviews: lock the four Stripe decisions (price/currency, refund/support terms, whose account, fulfilment path) and set the production env vars. Don't start this before the review lands. <!-- linear:HWL-240 -->
 - [x] Prep the Caroline Webb podcast recording, 13 August 16:00 London (Riverside link confirmed on calendar). <!-- linear:HWL-241 -->
-- [x] Squiggly Careers x Harrison podcast production chat, rescheduled to 18 August 10:00. <!-- linear:HWL-242 -->
+- [x] Squiggly Careers x Harrison podcast production chat, 18 August 10:15 to 11:00 on Teams. Helen reissued the invite on 12 August and the start moved from 10:00 to 10:15. <!-- linear:HWL-242 -->
 
 ### Laing O'Rourke
 
@@ -69,9 +71,11 @@ Reset the week around a secure fibre-connected edit base, the verified Creepers 
 
 ### Money and admin
 
-- [x] Decide amend-or-fold on the personal scout buys (SPCX, NVDA, SNDK, MU, PLTR, five trades in under a week outside the investment strategy doc). Either write a capped scout sleeve into the plan or stop. <!-- linear:HWL-228 -->
+- [ ] Complete Companies House director ID verification for HWL Studio Limited and send the personal code to Fazila. The confirmation statement is due 2 September and cannot be filed until this is done.
+- [ ] Decide amend-or-fold on the personal scout buys (SPCX, NVDA, SNDK, MU, PLTR, five trades in under a week outside the investment strategy doc). Either write a capped scout sleeve into the plan or stop. This was incorrectly marked complete; no written decision exists as of 13 August. <!-- linear:HWL-228 -->
 - [x] Sweep the £675 owed to the tax reserve from the BaW receipt. Harrison confirmed done Sunday 9 August. <!-- linear:HWL-244 -->
-- [x] Take £1,800 director's drawings for August. Salary is already done. <!-- linear:HWL-253 -->
+- [ ] Confirm the £1,800 August director's drawings landed in the personal bank. The amount was set, but payment is not verified. Salary is already done. <!-- linear:HWL-253 -->
+- [x] David's £550 August salary paid. Harrison confirmed it on 13 August. It cleared five days after the stated 8 August date and after two chases; the Danny Wicks wrap reel remains in a small revision pass.
 - [ ] Edge Lab: decide what happens to the crypto arena now G2a's 14-day window has closed with rules/fable underperforming a buy-and-hold control. Continue paper-only, adjust, or stop. Macro book ties control, no action needed there. <!-- linear:HWL-254 -->
 
 ### Health
@@ -115,8 +119,10 @@ Reset the week around a secure fibre-connected edit base, the verified Creepers 
 ## Ground truth
 
 - BM4 (Laura Gassner Otting) is live. BM3 (Russell Beck) is fully published and closed.
+- Better Moments #5 with Jennifer Moss is fully produced. After two rejected teaser exports, Harrison captioned and published the clean 48-second final cut on 13 August.
+- `Why choose a nursery?` is live on `@creepersnursery` from 10 August. `Fresh In #5` is not live. `@creepersinstallation` has no installation-only post newer than 30 July.
 - Squiggly Careers is a won client; the £3,600-4,400/month pilot range has been sent, awaiting Helen and Sarah's response.
-- Danny Wicks's testimonial film and b-roll were delivered Friday 7 August. Only the £800 plus VAT payment confirmation remains.
+- Danny Wicks's testimonial film and b-roll were delivered Friday 7 August. David's first wrap-reel draft was strong and is in a small revision pass. The £800 plus VAT payment confirmation remains open.
 - Year One's eight-page pack and three Looms are dead. The Monday 10 August Laurence meeting now owns the testimonial outcome and any surviving next step.
 - HMRC VAT number is live: 523 6438 93, effective 30 June.
 - Tax reserve computes to £9,875 after the completed £675 sweep, pending bank verification. August drawings are set at £1,800 and not yet confirmed paid.

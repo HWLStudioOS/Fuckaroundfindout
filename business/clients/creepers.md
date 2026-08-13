@@ -12,6 +12,14 @@ Active. Sandringham 2026 is the current content centrepiece. Shoot completed 17 
 - Creepers forms part of about **£7,000 currently owed across Creepers and Better at Work combined**. Harrison did not state the client split.
 - Historical June notes about a held or unraised retainer are not live finance tasks and must not be resurrected.
 
+## Publication correction, 13 August 2026
+
+- `Why choose a nursery?` published on `@creepersnursery` on 10 August: https://www.instagram.com/creepersnursery/p/Db3hnvbjMsm/
+- The local file and weekly board were stale when they said it remained unpublished. The live post wins.
+- Harrison published a static photograph of a bee pollinating a flower at New Forest on `@creepersnursery` on 13 August. His direct confirmation closes today's nursery commitment; the live URL has not yet been recorded.
+- `A Buyer's Eye` was reviewed and rejected as today's route. It remains banked, not active. `Fresh In #5` is not live and still needs the office's three plant names, sizes and honest counts.
+- `@creepersinstallation` has no installation-only post newer than the 30 July hedge before-and-after. The 3 August Wentworth carousel appears on both grids but was published by the nursery account. Today's active post is the finished three-slide 37°C aftercare carousel in `business/clients/creepers-heat-aftercare-post-2026-08-13/`. Its canonical editable source is [section 09 in the Creepers Figma file](https://www.figma.com/design/WGdYv8RFPgduHJyuu8WJni/Creepers?node-id=449-2) (`449:2`). It uses approved Sandringham installation images plus Harrison's Surrey rootball photograph. Tag `@landformuk`. No Hatchford material is used.
+
 ## Active state, 11 August 2026
 
 - **Anna's Pro Landscaper email trail is reconciled:** `2nd Advert Details` on 31 July set 210 x 285mm trim plus 5mm bleed and an artwork deadline of 19 August. `Adverts` on 3 and 4 August said to reuse the campaign basis, send several ideas and concentrate on rootball. `Prolandscaping Advert` on 6 August said the plants supplied are the hero, not design or installation, with no houses and minimal buildings. Third-party work may need credit or designer collaboration.
@@ -36,7 +44,7 @@ Active. Sandringham 2026 is the current content centrepiece. Shoot completed 17 
 - **Verified publication ledger:** 2 August `@ben.beth` Surrey garden collaboration on the nursery grid; 3 August Wentworth Estate Hydrangea Limelight carousel shared by both accounts; 4 August `@landformuk` Royal Legacy Garden collaboration on the nursery grid; 4 August Sandringham stock update on the nursery account. No installation-only August post was live. Nothing newer than 4 August was live at the 10 August check.
 - **Calendar correction:** the four planned hero-film and stock-walk slots for w/c 3 August did not run and were replaced by the four live posts above. The calendar now supports a true `Both accounts` state for shared collaborations.
 - **Fable editing test closed:** a useful and pleasant test, but it did not pass. The technology is not ready to own basic client editing yet. Do not route Creepers delivery through it.
-- **Today:** `Why choose a nursery?` replaces the heavier `A Buyer's Eye` draft. It is a five-slide, photograph-led carousel built entirely from images already in the Creepers Figma file. Five 1080 x 1350px PNGs and the final caption are ready for Harrison's review and one-tap publication on `@creepersnursery`. Nothing has been published or sent.
+- **Superseded publication state:** `Why choose a nursery?` replaced the heavier `A Buyer's Eye` draft and published on 10 August. See the 13 August correction above.
 
 ## Prior active state, 31 July 2026
 

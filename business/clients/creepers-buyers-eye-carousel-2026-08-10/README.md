@@ -1,9 +1,9 @@
 # Creepers, A Buyer's Eye carousel
 
-## Status, 10 August 2026
+## Status, 13 August 2026
 
-- Superseded on 10 August by the simpler five-slide `Why choose a nursery?` carousel.
-- Retained as an internal archive. Nothing has been published or sent.
+- Held. Harrison reviewed this route on 13 August and said it was not good enough for today's post. Do not treat it as an active publishing task.
+- The eight-slide carousel and caption remain banked. Nothing from this package has been published or sent.
 - Figma source: [Creepers, Summer Series page, 10 August refresh](https://www.figma.com/design/WGdYv8RFPgduHJyuu8WJni/Creepers?node-id=335-2)
 - Figma section: `07 · A Buyer's Eye · 10 August refresh · @creepersnursery · 8 slides`
 - Eight production PNGs are in `exports/`, each 1080 x 1350 px.

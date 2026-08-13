@@ -14,6 +14,10 @@ The first 9 minute 50 second rough cut remains in the package for comparison. It
 
 The full edit is a fresh cut from Jennifer's 2026 episode. The Wednesday teaser comes from the separate AI-adoption section. It does not reuse the published May "make your bed" short.
 
+## Teaser revision, 13 August
+
+Harrison rejected the first captioned teaser because the switches between programme crops felt jumpy. He rejected the first clean export because its opening felt awkward and the final thought was cut off. The current handoff is `video/BetterAtWork-Jennifer-AI-Adoption-Clean-NoCaptions-v3.mp4`: a 48-second excerpt starting directly on “People will be much more resistant to engaging with AI” and ending after “all of that happens when you have empathy.” It uses Jennifer's continuous isolated camera and enhanced mic, one stable 9:16 crop, no picture cuts and no burned captions. Harrison will add captions. Earlier teaser exports remain for comparison only and must not be handed off as current.
+
 ## Source
 
 Original production sources for V2:
@@ -69,11 +73,11 @@ Public episode: https://www.youtube.com/watch?v=ePWxmi2TI5g
 | Fri 14 Aug | The Better Bits | Practical hope exercise and episode link |
 | Sat 15 Aug, optional | Compliance quote cut | Second life after launch |
 
-Nothing in this package has been uploaded, sent, scheduled or published.
+The final AI-adoption reel was published on Better at Work Instagram on 13 August, confirmed by Harrison. No other item in this package has been confirmed uploaded, sent, scheduled or published.
 
 ## Package map
 
-- `video/`: original 16:9 rough cut, replacement V2 review cut and captioned 9:16 teaser.
+- `video/`: original 16:9 rough cut, replacement V2 review cut, rejected captioned teaser and current clean 9:16 teaser without captions.
 - `audio/`: 24-bit WAV and 192 kbps MP3 masters.
 - `assets/`: two native-resolution Jennifer stills from the source master.
 - `transcript/`: original and V2 timed SRT, VTT and text transcripts, teaser captions, public JSON3 source and caption builder.

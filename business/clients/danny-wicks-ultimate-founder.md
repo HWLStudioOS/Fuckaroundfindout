@@ -25,7 +25,8 @@ Warm prospect and possible channel partner. Not a client yet.
 - Codex produced a 36-second automated hype-reel test. Harrison rejected it as below the required editorial standard. Do not treat that export as approved or post-ready.
 - The supplied Ultimate Founder and Willu logos, edit notes, rejected test and reproducible render files remain in `/Volumes/UGREEN/UF PADEL FOOTAGE/DANNY_EDIT` for reference.
 - David now owns the next edit as a capability test. He has a brief calling for a 20 to 30-second, action-first campaign trailer with restrained branding, real court sound, minimal copy and no corporate-recap pacing.
-- Session closed with no further Codex editing action. Payment confirmation remains the only commercial thread with Danny.
+- **13 August update:** David's first draft was good and passed the basic creative test. Harrison sent back a small set of tweaks. The reel is in revision, not yet approved or delivered.
+- Session closed with no further Codex editing action. Payment confirmation remains the open commercial thread with Danny.
 
 ## Danny's 31 July partnership note
 

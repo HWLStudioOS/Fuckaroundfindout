@@ -19,10 +19,16 @@ Hired June 2026. First contract sent 8 June, intro call 10 June. Unblocks delive
 
 ## Current jobs
 
-- **Ultimate Founder padel wrap reel, handed over 12 August.** Capability test from selected and graded footage in `/Volumes/UGREEN/UF PADEL FOOTAGE`. David has the creative brief. Target is a 20 to 30-second, action-first campaign trailer. Codex's rejected 36-second test is reference for what not to do.
+- **Ultimate Founder padel wrap reel, revision pass 13 August.** David's first draft was good and needed only a small set of tweaks. Target remains a 20 to 30-second, action-first campaign trailer. It is not yet approved or delivered. Codex's rejected 36-second test remains reference for what not to do.
 - **BaW podcast: DONE 10 June.** Episode edit + 2 reels, custom CEO-style open. Uploading to Frame.io by tonight UK time.
 - **Creepers**: next up. Photo-led simple b-roll style, "easier than the podcast". 2-3 posts/week cadence. Hero film briefed over coming weeks.
 - This week: podcast only, rest of week free.
+
+## Payment state, 13 August 2026
+
+- **£550 August salary is overdue and unanswered.** David emailed 10 August 07:23 stating Harrison had told him the payment date was 8 August, then again 12 August 16:56: "Do you have updates regarding the salary sir?" No reply exists in sent mail for either. Five days late as of 13 August.
+- Prior payments on record: an initial payment received 26 June, then an invoice for the remaining £275 balance sent 10 July.
+- He is actively working the Danny Wicks wrap-reel revision pass while unpaid. Do not chase the tweaks before answering the money.
 
 ## Harrison owes (from 10 June call)
 

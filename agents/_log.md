@@ -571,3 +571,9 @@ Format: `YYYY-MM-DD HH:MM | agent-name | one-line summary`
 2026-08-12T14:11:12+0100 | discovery-scan | SUCCEEDED | exit=0; run=20260812T140705+0100-17872; Claude completed and output post-processing finished; logs=agents/logs/discovery-scan.stdout.log,agents/logs/discovery-scan.stderr.log
 2026-08-12T19:10:04+0100 | evening-reflection | SUCCEEDED | exit=0; run=20260812T190705+0100-44558; Claude completed and output post-processing finished; logs=agents/logs/evening-reflection.stdout.log,agents/logs/evening-reflection.stderr.log
 - 2026-08-12 22:30 BST | board-room | validation passed before backup and deploy
+- 2026-08-12 22:30 BST | nightly-backup | committed + pushed to origin
+- 2026-08-12 22:30 BST | board-room | deployed production and verified passwordless page and API reads return 200 with noindex retained
+- 2026-08-13 06:15  | health-sync | OK 2026-08-13: RHR 49, sleep 7.1h (score 82), HRV 56 BALANCED, readiness 81
+2026-08-13T05:35:03+0000 | morning-brief | drafted today.md + candidate, handed to verifier, sources=20/21 (skipped: Buffer MCP needs re-auth)
+2026-08-13T06:41:27+01:00 | morning-brief-verify | sent msg_id=615, checked=24, corrected=1: Pulse + Awaiting response both misdated the Fazila Companies House ID-verification email as arriving overnight, Gmail confirms it was sent 12 Aug 16:33 BST (yesterday afternoon), corrected to 'yesterday afternoon' in both locations
+2026-08-13T06:41:44+0100 | morning-brief | SUCCEEDED | exit=0; run=20260813T063005+0100-60903; draft verified and send sentinel recorded; logs=agents/logs/morning-brief.stdout.log,agents/logs/morning-brief.stderr.log

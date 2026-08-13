@@ -33,6 +33,7 @@ A doer and its verifier count as one owner. `morning-brief` and
 | `money/weekly.md` | `weekly-cfo` | none | |
 | `money/index.md` | Harrison | none | Money state follows Harrison's latest dated correction. Agents propose, they do not rewrite. |
 | `content/pipeline.md` | `content-engine` | none | `weekly-review` reads it. |
+| `content/creative-tests.md` | `creative-lab` | none | The client creative test ledger. Every entry ends in a verdict; a test never resolved is a guess with extra steps. |
 | `health/training-plan.md` | Harrison | none | Canonical training plan. Agents read it; none may rewrite it. |
 | `SYSTEM-STATUS.md` | whoever makes a system change | none | Engineering handoff. Updated deliberately, never by a scheduled agent. |
 | `board-room/app/generated-board.json` | generated | none | Built by the nightly backup and verified in frozen-snapshot mode. Never hand-edited. |

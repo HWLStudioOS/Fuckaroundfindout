@@ -90,6 +90,32 @@ The scheduled half of his model already exists here. What is missing is the inte
 - Sends, money, client-facing comms: one tap, always.
 - Before scaling the fleet: revoke the old Kraken and Telegram credentials (SYSTEM-STATUS item 1) and diagnose the OAuth expiry pattern.
 
+## Day one, run live: what actually happened (added 13 August, evening)
+
+The playbook got its first full day the same day it was written. Shipped between morning and evening: allowlist, Opus 5 repin, sub-agent stable, lanes, the loop, night-shift, plus the entire four-phase OS restructure from `spec/os-restructure-2026-08-13.md`, executed by the parallel Full Boot Up session and cross-verified here.
+
+The error ledger matters more than the ship list. Two sessions, both wrong repeatedly, every error caught by the other before it reached Harrison or production:
+
+| Error | Made by | Caught by |
+|---|---|---|
+| "Leases already exist, just wire them" framing | This session | Boot Up, by reading the code |
+| content-engine listed as a today.md writer | Boot Up | This session, by reading the prompt |
+| "Masters exist in exactly one place" | This session | Boot Up, two copies existed |
+| Dependabot branches called stale | Boot Up | Itself, on second look |
+| Telegram queue called lease-based | This session | Boot Up, restart recovery is not leasing |
+| Deleted a branch before preserving its unique commit | Boot Up | Itself, confessed and recovered |
+| Flaky test in the new safety layer | Boot Up | This session caught it failing, Boot Up root-caused it |
+
+Lessons now standing policy:
+
+1. Verify a peer's claim before absorbing it, both directions, even mid-collaboration. Cheapest insurance that exists.
+2. Green is not evidence of correct. The lease tests passed for hours while writing garbage-named databases into the repo root, 48 of which got committed. A passing suite with a wrong fixture looks identical to success.
+3. Measurement can mutate the system. `du` over iCloud-managed directories materialises files and consumed the disk we were measuring. Watch `df` only on this Mac.
+4. Taste work needs a stop-loss. Fifty minutes of carousel rebuilds happened because nothing told the agent to stop iterating on a judgment that was Harrison's. Now hard-coded into night-shift.
+5. A live failure specimen beats two postmortems. The third auth outage got forensics because someone was watching while it was still broken; the first two got nothing.
+
+The multiplier in Boris's model is not the agent count. It is that verification is structural: agents check agents, and nobody's claim survives on confidence alone.
+
 ## Flagged during inventory, for Codex or Full Boot Up
 
 - Repo plist copies of weekly-cfo and weekly-review have drifted from the installed versions and would break if reinstalled.

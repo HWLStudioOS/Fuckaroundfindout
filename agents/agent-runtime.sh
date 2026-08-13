@@ -171,6 +171,72 @@ hwl_resolve_claude() {
   return 0
 }
 
+# Restructure Phase 3. The preflight below already detects a dead Claude
+# session and exits 78 correctly. Nothing listened, so a dead fleet stayed
+# silent until Harrison noticed a missing brief. The 2 to 6 August outage ran
+# for four days that way, and the session dropped again on 13 August mid-session.
+#
+# De-duplicated on purpose: 17 scheduled jobs share one auth session, so a naive
+# alert would fire 17 times per outage and be muted within a day. One message
+# per HWL_AUTH_ALERT_INTERVAL, and the sentinel is cleared the moment auth
+# recovers so the next outage alerts promptly rather than waiting out a window.
+# Resolved lazily: HWL_META_DIR is only set by hwl_runtime_init, which runs
+# after this file is sourced. Reading it at source time would put the sentinel
+# at filesystem root.
+HWL_AUTH_ALERT_INTERVAL="${HWL_AUTH_ALERT_INTERVAL:-21600}"   # 6 hours
+
+hwl_auth_alert_sentinel_path() {
+  if [ -n "${HWL_AUTH_ALERT_SENTINEL:-}" ]; then
+    printf '%s' "$HWL_AUTH_ALERT_SENTINEL"
+  else
+    printf '%s' "${HWL_META_DIR}/.jarvis-runtime/auth-alert-last-sent"
+  fi
+}
+
+hwl_auth_alert_due() {
+  local sentinel
+  sentinel="$(hwl_auth_alert_sentinel_path)"
+  [ -f "$sentinel" ] || return 0
+  local last now
+  last=$(cat "$sentinel" 2>/dev/null || echo 0)
+  case "$last" in ''|*[!0-9]*) return 0 ;; esac
+  now=$(date +%s)
+  [ $((now - last)) -ge "$HWL_AUTH_ALERT_INTERVAL" ]
+}
+
+hwl_auth_alert_clear() {
+  rm -f "$(hwl_auth_alert_sentinel_path)" 2>/dev/null || true
+}
+
+hwl_alert_auth_required() {
+  local config token chat_id body
+  hwl_auth_alert_due || return 0
+
+  config="$HWL_META_DIR/.config/telegram.config.json"
+  [ -r "$config" ] || return 0
+  [ -x /usr/bin/jq ] || return 0
+
+  token=$(/usr/bin/jq -r '.telegram.botToken' "$config" 2>/dev/null || true)
+  chat_id=$(/usr/bin/jq -r '.telegram.chatId' "$config" 2>/dev/null || true)
+  [ -n "$token" ] && [ "$token" != "null" ] || return 0
+  [ -n "$chat_id" ] && [ "$chat_id" != "null" ] || return 0
+
+  body="Claude CLI is logged out on the Mac mini, so ${HWL_AGENT_NAME:-a scheduled agent} exited without doing any work. Every scheduled agent shares this session, so the whole fleet is down until you run 'claude auth login' in a terminal and check 'claude auth status --text'. No further auth alerts for 6 hours."
+
+  local sentinel
+  sentinel="$(hwl_auth_alert_sentinel_path)"
+  mkdir -p "$(dirname "$sentinel")" 2>/dev/null || true
+  if curl --fail --show-error --silent --max-time 20 \
+      -X POST "https://api.telegram.org/bot${token}/sendMessage" \
+      -d "chat_id=${chat_id}" \
+      --data-urlencode "text=${body}" >/dev/null 2>&1; then
+    date +%s > "$sentinel" 2>/dev/null || true
+    hwl_runtime_note "AUTH_ALERT_SENT" "Telegram notified that the Claude session is logged out"
+  else
+    hwl_runtime_note "AUTH_ALERT_FAILED" "Claude session is logged out and the Telegram alert could not be sent"
+  fi
+}
+
 hwl_claude_auth_preflight() {
   local auth_output
   local auth_command_exit
@@ -211,6 +277,7 @@ raise SystemExit(0 if payload["loggedIn"] else 3)
   if [ "$auth_parse_exit" -eq 3 ]; then
     hwl_runtime_set_result "auth_required" "Claude CLI is not authenticated. Harrison must run 'claude auth login' interactively, then verify 'claude auth status --text'."
     hwl_runtime_note "AUTH_REQUIRED" "$HWL_RUN_DETAIL"
+    hwl_alert_auth_required
     return "$HWL_EXIT_AUTH_REQUIRED"
   fi
 
@@ -220,6 +287,7 @@ raise SystemExit(0 if payload["loggedIn"] else 3)
     return "$HWL_EXIT_SOFTWARE"
   fi
 
+  hwl_auth_alert_clear
   hwl_runtime_note "AUTH_OK" "Claude authentication available via ${auth_method}"
   return 0
 }
@@ -301,6 +369,7 @@ hwl_run_claude() {
     if printf '%s' "$failure_text" | grep -Eiq \
       'failed to authenticate|oauth session expired|could not be refreshed|not logged in|authentication required'; then
       hwl_runtime_set_result "auth_required" "Claude authentication expired after preflight during ${stage}. Harrison must run 'claude auth login' interactively."
+      hwl_alert_auth_required
       hwl_runtime_note "AUTH_REQUIRED" "$HWL_RUN_DETAIL"
       rm -f "$stdout_file" "$stderr_file"
       return "$HWL_EXIT_AUTH_REQUIRED"

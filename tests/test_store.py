@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from jarvis_core import IdempotencyConflict, InvalidStateTransition, RuntimeStore
+from jarvis_core.database import SCHEMA_VERSION
 
 
 NOW = datetime(2026, 7, 12, 12, 0, tzinfo=timezone.utc)
@@ -41,7 +42,12 @@ class RuntimeStoreTests(unittest.TestCase):
                 "work_queue",
             }.issubset(tables)
         )
-        self.assertEqual(1, self.store.connection.execute("PRAGMA user_version").fetchone()[0])
+        # Assert against the constant, not a literal, so adding a migration does not
+        # break this test. Migration 2 added resource-scoped leases.
+        self.assertEqual(
+            SCHEMA_VERSION,
+            self.store.connection.execute("PRAGMA user_version").fetchone()[0],
+        )
         self.assertEqual("wal", self.store.connection.execute("PRAGMA journal_mode").fetchone()[0])
         self.assertEqual(1, self.store.connection.execute("PRAGMA foreign_keys").fetchone()[0])
         self.assertEqual(0o600, stat.S_IMODE(os.stat(self.path).st_mode))

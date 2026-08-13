@@ -226,6 +226,22 @@ MIGRATIONS = (
             """,
         ),
     ),
+    Migration(
+        2,
+        "resource-scoped leases so a claim can mean I am writing this file",
+        (
+            # Restructure Phase 4. Before this, a lease covered a queue item and
+            # nothing more, so two workers could hold valid leases on different
+            # items and write the same file. A resource is an arbitrary label,
+            # normally a repository-relative path, and at most one running lease
+            # may hold a given resource at a time.
+            "ALTER TABLE work_queue ADD COLUMN resource TEXT",
+            """
+            CREATE INDEX work_queue_resource_idx
+                ON work_queue(queue_name, resource, state)
+            """,
+        ),
+    ),
 )
 
 SCHEMA_VERSION = MIGRATIONS[-1].version

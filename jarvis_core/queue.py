@@ -31,6 +31,7 @@ def _queue_item_from_row(row: sqlite3.Row) -> QueueItem:
         max_attempts=row["max_attempts"],
         lease_owner=row["lease_owner"],
         lease_expires_at=row["lease_expires_at"],
+        resource=row["resource"],
         result=None if row["result_json"] is None else json.loads(row["result_json"]),
         error=row["error"],
         created_at=row["created_at"],
@@ -84,6 +85,7 @@ class WorkQueue:
         available_at: Optional[datetime] = None,
         max_attempts: int = 3,
         job_id: Optional[str] = None,
+        resource: Optional[str] = None,
     ) -> QueueItem:
         """Insert work once and return the existing item on a safe replay.
 
@@ -147,8 +149,8 @@ class WorkQueue:
                 INSERT INTO work_queue(
                     job_id, queue_name, kind, payload_json, payload_hash, state,
                     idempotency_key, priority, available_at, attempts,
-                    max_attempts, created_at, updated_at
-                ) VALUES (?, ?, ?, ?, ?, 'pending', ?, ?, ?, 0, ?, ?, ?)
+                    max_attempts, created_at, updated_at, resource
+                ) VALUES (?, ?, ?, ?, ?, 'pending', ?, ?, ?, 0, ?, ?, ?, ?)
                 """,
                 (
                     desired_id,
@@ -162,6 +164,7 @@ class WorkQueue:
                     int(max_attempts),
                     now_text,
                     now_text,
+                    resource,
                 ),
             )
             return self._get(connection, desired_id)
@@ -231,15 +234,31 @@ class WorkQueue:
         lease_text = as_utc_text(instant + timedelta(seconds=lease_seconds))
         with self._database.transaction() as connection:
             self._recover_expired(connection, queue_name, now_text)
+            # Resource-scoped exclusion. An item naming a resource is only
+            # claimable when no other running lease already holds it. Without
+            # this, two workers hold valid leases on different items and write
+            # the same file, which is the failure Phase 4 exists to stop.
             row = connection.execute(
                 """
-                SELECT * FROM work_queue
+                SELECT * FROM work_queue AS candidate
                 WHERE queue_name = ? AND state = 'pending'
                     AND available_at <= ? AND attempts < max_attempts
+                    AND (
+                        candidate.resource IS NULL
+                        OR NOT EXISTS (
+                            SELECT 1 FROM work_queue AS held
+                            WHERE held.queue_name = candidate.queue_name
+                                AND held.resource = candidate.resource
+                                AND held.state = 'running'
+                                AND held.job_id <> candidate.job_id
+                                AND (held.lease_expires_at IS NULL
+                                     OR held.lease_expires_at > ?)
+                        )
+                    )
                 ORDER BY priority DESC, available_at ASC, created_at ASC
                 LIMIT 1
                 """,
-                (queue_name, now_text),
+                (queue_name, now_text, now_text),
             ).fetchone()
             if row is None:
                 return None

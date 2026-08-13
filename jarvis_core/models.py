@@ -107,6 +107,7 @@ class QueueItem:
     max_attempts: int
     lease_owner: Optional[str]
     lease_expires_at: Optional[str]
+    resource: Optional[str]
     result: Any
     error: Optional[str]
     created_at: str

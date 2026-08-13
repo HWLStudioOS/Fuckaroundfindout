@@ -1,7 +1,9 @@
 # Agent, Evening Reflection
 
 **Schedule:** weekdays 19:00 local
-**Output:** append to `/Users/harrison/HWL META/agents/_evening-log.md`. Optionally write a one-line digest to today.md "what shipped" section.
+**Output:** append to `/Users/harrison/HWL META/agents/_evening-log.md`. That file is this agent's own, and it is the only file this agent writes.
+
+**Do not write `today.md`.** It has one owner, the morning brief, which reads `_evening-log.md` when it builds the next day's "Yesterday wrap". Writing a digest line into `today.md` from here made three agents writers of one file and is the shape of failure that produced the HWL-191 flap. See `agents/STATE-OWNERSHIP.md`.
 **Notify:** Telegram push only if there's a clear miss to surface
 
 ---

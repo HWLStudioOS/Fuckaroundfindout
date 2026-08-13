@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude_ai_Gmail__search_threads",
+      "mcp__53f862dd-1a3a-4b5c-ae1a-2789eae4e887__search_threads",
+      "mcp__exa__web_search_exa",
+      "mcp__claude_ai_Google_Calendar__list_events",
+      "mcp__82509358-6a28-47fc-b64e-0d08478dadf4__list_events",
+      "mcp__claude_ai_Strava__list_activities",
+      "mcp__claude_ai_Gmail__get_thread",
+      "mcp__53f862dd-1a3a-4b5c-ae1a-2789eae4e887__get_thread",
+      "mcp__claude_ai_Gmail__list_drafts",
+      "mcp__claude_ai_Granola__list_meetings",
+      "mcp__claude_ai_Google_Calendar__search_events",
+      "Bash(sqlite3 -readonly *)"
+    ]
+  }
+}

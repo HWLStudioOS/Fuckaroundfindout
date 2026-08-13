@@ -16,6 +16,21 @@ private/
 # Real documents belong in a named directory, not in tmp/.
 tmp/
 
+# Client production media lives on the external store, not in Git (restructure
+# Phase 1, 13 August 2026). The bytes made every clone and worktree cost 2 to
+# 4 GB, which is why parallel agent worktrees were unaffordable.
+# business/clients/baw/production/MEDIA-MANIFEST.json stays tracked and records
+# every file with its checksum and store location. Restore on demand with
+# scripts/fetch-media.sh. Working notes (README, copy, qc, publish-checklist)
+# remain tracked; only the media itself is excluded.
+business/clients/baw/production/**/*.wav
+business/clients/baw/production/**/*.mp4
+business/clients/baw/production/**/*.mov
+business/clients/baw/production/**/*.mp3
+business/clients/baw/production/**/*.m4a
+business/clients/baw/production/**/*.aif
+business/clients/baw/production/**/*.zip
+
 # OS junk
 .DS_Store
 Thumbs.db

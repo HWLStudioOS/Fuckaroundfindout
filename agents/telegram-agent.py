@@ -59,7 +59,7 @@ SETTINGS = META / "agents/telegram-agent-settings.json"
 LOG_FILE = META / "agents/_telegram-agent.log"
 FLEET_LOG = META / "agents/_log.md"
 
-MODEL = "claude-opus-4-8"
+MODEL = "claude-opus-5"
 TASK_TIMEOUT = 30 * 60
 SESSION_IDLE_RESET = 12 * 3600
 CHUNK = 3500

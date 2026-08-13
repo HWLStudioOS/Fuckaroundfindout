@@ -1,0 +1,209 @@
+{
+  "generated": "2026-08-13",
+  "store": {
+    "label": "UGREEN",
+    "mount": "/Volumes/UGREEN",
+    "root": "/Volumes/UGREEN/HWL-Media/baw-production"
+  },
+  "note": "Media moved out of Git in restructure Phase 1. Text files (README, copy, qc, publish-checklist) stay tracked. Restore with scripts/fetch-media.sh.",
+  "file_count": 28,
+  "total_bytes": 3704826173,
+  "files": [
+    {
+      "repo_path": "business/clients/baw/production/better-moments-04-laura-gassner-otting-2026-08-03/video/BetterAtWork-BetterMoments-04-LauraGassnerOtting-RoughCut.mp4",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-04-laura-gassner-otting-2026-08-03/video/BetterAtWork-BetterMoments-04-LauraGassnerOtting-RoughCut.mp4",
+      "bytes": 687916340,
+      "sha256": "4d497db48427d2458496a9a060ccd1837a18a27dbabcca0c8ebee87f420431eb",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-05-jennifer-moss-2026-08-11/video/BetterAtWork-BetterMoments-05-JenniferMoss-RoughCut-v2.mp4",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-05-jennifer-moss-2026-08-11/video/BetterAtWork-BetterMoments-05-JenniferMoss-RoughCut-v2.mp4",
+      "bytes": 357185001,
+      "sha256": "d3a1af6981265a2ce791b9a33be019c1144428318c21cfe5d656a9356febb121",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-02-roger-martin-2026-07-23/BetterAtWork-BetterMoments-02-RogerMartin-Handoff.zip",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-02-roger-martin-2026-07-23/BetterAtWork-BetterMoments-02-RogerMartin-Handoff.zip",
+      "bytes": 350279164,
+      "sha256": "f6ed03fd02da0633c45dfd9262bf3597a301ae0a51c67cc8d541a12c5e3bde0c",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-02-roger-martin-2026-07-23/BetterAtWork-BetterMoments-02-RogerMartin-Handoff-v2.zip",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-02-roger-martin-2026-07-23/BetterAtWork-BetterMoments-02-RogerMartin-Handoff-v2.zip",
+      "bytes": 349235666,
+      "sha256": "c1dda39a98c3465ad0b5b0b5a0f643d2c4c13f65c95b554f08d06669e9e8cd04",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-02-roger-martin-2026-07-23/video/BetterAtWork-BetterMoments-02-RogerMartin-YouTube.mp4",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-02-roger-martin-2026-07-23/video/BetterAtWork-BetterMoments-02-RogerMartin-YouTube.mp4",
+      "bytes": 300177212,
+      "sha256": "c2d7c065b3fa311ca4ad7e45ce83675f69572793d26dcce775a00a57692e08d5",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-05-jennifer-moss-2026-08-11/video/BetterAtWork-BetterMoments-05-JenniferMoss-RoughCut.mp4",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-05-jennifer-moss-2026-08-11/video/BetterAtWork-BetterMoments-05-JenniferMoss-RoughCut.mp4",
+      "bytes": 252244065,
+      "sha256": "8eaf7318b68087e16f488a71c91400804dd919ffbf03c8c0af2fcefbd20977d1",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-02-roger-martin-2026-07-23/audio/roger-better-moments-02-premaster.wav",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-02-roger-martin-2026-07-23/audio/roger-better-moments-02-premaster.wav",
+      "bytes": 217932794,
+      "sha256": "c7903626651d460f2c26c20be0cdda266e84e8436b39c9a22f1bb2f0f6355283",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-02-roger-martin-2026-07-23/audio/roger-better-moments-02-master.wav",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-02-roger-martin-2026-07-23/audio/roger-better-moments-02-master.wav",
+      "bytes": 217932768,
+      "sha256": "1f5502cad3a7dfd524bbe06264414cb430b139a5f6214fe872497e1974a7c644",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-04-laura-gassner-otting-2026-08-03/audio/BetterAtWork-BetterMoments-04-LauraGassnerOtting-Master.wav",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-04-laura-gassner-otting-2026-08-03/audio/BetterAtWork-BetterMoments-04-LauraGassnerOtting-Master.wav",
+      "bytes": 171864678,
+      "sha256": "2bf6216288572d18aff0fcbcf592110af0a44f4c9c77fd74dc9a0eb977b5cfb4",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-05-jennifer-moss-2026-08-11/audio/BetterAtWork-BetterMoments-05-JenniferMoss-Master.wav",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-05-jennifer-moss-2026-08-11/audio/BetterAtWork-BetterMoments-05-JenniferMoss-Master.wav",
+      "bytes": 170004198,
+      "sha256": "5bc4b912bd58e3138cb26a623c3075ac9fb7a05fbd7896a9825a66f500e4994c",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-05-jennifer-moss-2026-08-11/video/BetterAtWork-Jennifer-AI-Adoption-Clean-NoCaptions.mp4",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-05-jennifer-moss-2026-08-11/video/BetterAtWork-Jennifer-AI-Adoption-Clean-NoCaptions.mp4",
+      "bytes": 67301297,
+      "sha256": "9b87cefcb3857ff744779be94a61b0cc70d85b4a7562372efa3e924158fc5de0",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-04-laura-gassner-otting-2026-08-03/video/BetterAtWork-Laura-HowAreYou-Teaser.mp4",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-04-laura-gassner-otting-2026-08-03/video/BetterAtWork-Laura-HowAreYou-Teaser.mp4",
+      "bytes": 64905125,
+      "sha256": "1ff734ff37430961e0bcfc2cbf4c7e57c680b2a5dad67c538309b3e99d317f9f",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-05-jennifer-moss-2026-08-11/video/BetterAtWork-Jennifer-AI-Adoption-Clean-NoCaptions-v2.mp4",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-05-jennifer-moss-2026-08-11/video/BetterAtWork-Jennifer-AI-Adoption-Clean-NoCaptions-v2.mp4",
+      "bytes": 63371503,
+      "sha256": "f9b3360558b4d92f6d5db97a08318d27ded517166e054133ddbcbdf3286cdb65",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-05-jennifer-moss-2026-08-11/video/BetterAtWork-Jennifer-AI-Adoption-Clean-NoCaptions-v3.mp4",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-05-jennifer-moss-2026-08-11/video/BetterAtWork-Jennifer-AI-Adoption-Clean-NoCaptions-v3.mp4",
+      "bytes": 62998096,
+      "sha256": "5ad07b1df4f3d8790e194c93c52fc82b5e199dcd7ae25010b4f1a4d3943e7c5d",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-05-jennifer-moss-2026-08-11/video/BetterAtWork-Jennifer-AI-Adoption-Teaser.mp4",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-05-jennifer-moss-2026-08-11/video/BetterAtWork-Jennifer-AI-Adoption-Teaser.mp4",
+      "bytes": 51259404,
+      "sha256": "a0ca00d1666d0172b1376a486822085e16e4ba28480727df3b48e06718119273",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-02-roger-martin-2026-07-23/BetterAtWork-BetterMoments-02-RogerMartin-Phone-Handoff.zip",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-02-roger-martin-2026-07-23/BetterAtWork-BetterMoments-02-RogerMartin-Phone-Handoff.zip",
+      "bytes": 50099183,
+      "sha256": "70ebc189a39206043a00983c89a951f2b6387ce92d1f4920a5f7f00accd29590",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-02-roger-martin-2026-07-23/BetterAtWork-BetterMoments-02-RogerMartin-Phone-Handoff-v2.zip",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-02-roger-martin-2026-07-23/BetterAtWork-BetterMoments-02-RogerMartin-Phone-Handoff-v2.zip",
+      "bytes": 49055700,
+      "sha256": "38938cc4a623c3ede5e4a35a278c1f88047d33d82fbfaf6b1e34c700198916ae",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-02-roger-martin-2026-07-23/source/roger-part-2.mp3",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-02-roger-martin-2026-07-23/source/roger-part-2.mp3",
+      "bytes": 45824219,
+      "sha256": "ece32a8fe944b68e3b381e2726d0553145e426972fc0eed9f2801916e6ebbf3d",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-02-roger-martin-2026-07-23/source/roger-part-1.mp3",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-02-roger-martin-2026-07-23/source/roger-part-1.mp3",
+      "bytes": 45329755,
+      "sha256": "7370097b5bc707e103cb35a8c180afcbc0d67af2c3ababa6dba5f771469e800e",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-02-roger-martin-2026-07-23/video/superseded/BetterAtWork-RogerMartin-AI-Short.mp4",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-02-roger-martin-2026-07-23/video/superseded/BetterAtWork-RogerMartin-AI-Short.mp4",
+      "bytes": 27884834,
+      "sha256": "503c45ec795022d8e18df65109065126e0973cc7a41ac8c0e6c46c42a45a1279",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-02-roger-martin-2026-07-23/video/BetterAtWork-RogerMartin-Micromanaging-Short.mp4",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-02-roger-martin-2026-07-23/video/BetterAtWork-RogerMartin-Micromanaging-Short.mp4",
+      "bytes": 23135260,
+      "sha256": "ffd50519b91fbd7b136c99ba9b06203e9ba71dbfe5c9fb32e8d106718fdfa334",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-02-roger-martin-2026-07-23/audio/roger-better-moments-02-final.mp3",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-02-roger-martin-2026-07-23/audio/roger-better-moments-02-final.mp3",
+      "bytes": 19768893,
+      "sha256": "d73e82745ed75231dd037c120f96c9336c56628daee741257ab208a644b4d98d",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-02-roger-martin-2026-07-23/video/superseded/BetterAtWork-RogerMartin-Micromanaging-Short-v1.mp4",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-02-roger-martin-2026-07-23/video/superseded/BetterAtWork-RogerMartin-Micromanaging-Short-v1.mp4",
+      "bytes": 18732400,
+      "sha256": "971d2de1c4fa0173496b46d266cb5376d6a4f4872b38c712e9c309a50eba00c2",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-04-laura-gassner-otting-2026-08-03/audio/BetterAtWork-BetterMoments-04-LauraGassnerOtting.mp3",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-04-laura-gassner-otting-2026-08-03/audio/BetterAtWork-BetterMoments-04-LauraGassnerOtting.mp3",
+      "bytes": 14323853,
+      "sha256": "e7dc18a8faf7f6a9d56ec569072d9b998e618e1530f69e3035fc7c1e1dcbd824",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-05-jennifer-moss-2026-08-11/audio/BetterAtWork-BetterMoments-05-JenniferMoss.mp3",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-05-jennifer-moss-2026-08-11/audio/BetterAtWork-BetterMoments-05-JenniferMoss.mp3",
+      "bytes": 14168974,
+      "sha256": "23cea463978e2986025470d06c43e2c6dd7a6942b9f8bafd7434cbeb63a27b88",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-02-roger-martin-2026-07-23/source/better-moments-01-helen.mp3",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-02-roger-martin-2026-07-23/source/better-moments-01-helen.mp3",
+      "bytes": 10941747,
+      "sha256": "1e868f58e3704fb40add6d2f50f6fe325a617141d02c8cc3fff6e8d2cab7d0b8",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-03-russell-beck-2026-07-27/artwork/BetterAtWork-RussellBeck-AI-Carousel.zip",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-03-russell-beck-2026-07-27/artwork/BetterAtWork-RussellBeck-AI-Carousel.zip",
+      "bytes": 483956,
+      "sha256": "0fe80fda2c3a7101399600c60b0d3add77ef1a7725ccceaeb0d8b4e54869c773",
+      "verified_on_store": true
+    },
+    {
+      "repo_path": "business/clients/baw/production/better-moments-03-russell-beck-2026-07-27/artwork/BetterAtWork-RussellBeck-AI-LinkedIn-Carousel.zip",
+      "store_path": "/Volumes/UGREEN/HWL-Media/baw-production/better-moments-03-russell-beck-2026-07-27/artwork/BetterAtWork-RussellBeck-AI-LinkedIn-Carousel.zip",
+      "bytes": 470088,
+      "sha256": "e6cd5d0bc662af731156cd0ba7d18dc48d44186ab13ba3d41430819bb080ac1b",
+      "verified_on_store": true
+    }
+  ]
+}

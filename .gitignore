@@ -108,3 +108,9 @@ codex/**/*.env
 codex/**/token*.json
 codex/**/credential*.json
 codex/**/client_secret*.json
+
+# Guard against a test constructing WorkQueue with a Database object instead of
+# a path. That stringifies the object into a filename and litters the working
+# directory. Fixed in tests/test_queue_resource_leases.py on 13 August; this is
+# the backstop.
+<jarvis_core.database.Database object at *

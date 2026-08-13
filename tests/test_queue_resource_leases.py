@@ -17,15 +17,18 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 
 from jarvis_core._time import utc_now
-from jarvis_core.database import Database, SCHEMA_VERSION
+from jarvis_core.database import SCHEMA_VERSION
 from jarvis_core.queue import WorkQueue
 
 
 class ResourceLeaseTests(unittest.TestCase):
     def setUp(self):
         self._tmp = TemporaryDirectory()
-        self.db = Database(Path(self._tmp.name) / "queue.sqlite3")
-        self.q = WorkQueue(self.db)
+        # WorkQueue takes a PATH and builds its own Database. Passing a Database
+        # object stringifies it into a filename and silently creates
+        # "<jarvis_core.database.Database object at 0x...>" in the working
+        # directory. The tests still pass; the repo gets littered.
+        self.q = WorkQueue(Path(self._tmp.name) / "queue.sqlite3")
 
     def tearDown(self):
         self._tmp.cleanup()

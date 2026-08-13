@@ -1,0 +1,29 @@
+{
+  "note": "Live content-calendar sources per client. The deployed calendar is authoritative over any CSV or planning document in the repo, because it is what the client is shown and what Harrison keeps current. Add a client here and scripts/client-calendar.mjs picks it up; no code change needed.",
+  "precedence": "Harrison's explicit correction, then the live Instagram grid or Buffer record, then the live calendar below, then dated verification documents, then CSVs. Planning files govern intent and queue order only, never whether something shipped.",
+  "clients": {
+    "creepers": {
+      "label": "Creepers Nursery",
+      "url": "https://creepers-content-calendar.vercel.app/api/data",
+      "channels": { "N": "@creepersnursery", "I": "@creepersinstallation" },
+      "toneFile": "business/clients/creepers.md",
+      "active": true
+    },
+    "baw": {
+      "label": "Better at Work",
+      "url": null,
+      "channels": { "B": "@betteratworkpod" },
+      "toneFile": "business/clients/baw.md",
+      "active": false,
+      "note": "No deployed calendar yet. Clone the template at ~/hwl-content-calendar-template, deploy, then set url and active true."
+    },
+    "lor": {
+      "label": "Laing O'Rourke",
+      "url": null,
+      "channels": {},
+      "toneFile": "business/clients/lor.md",
+      "active": false,
+      "note": "No deployed calendar yet. Early Talent campaign work runs through campaigns/ for now."
+    }
+  }
+}

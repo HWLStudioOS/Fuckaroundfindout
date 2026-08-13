@@ -53,15 +53,34 @@ One live proposal at a time. The queue depth is one, always.
 
 ### 1. Pick the slot, not the topic
 
-Read the active client calendar (`business/clients/creepers-calendar-*.csv` and
-the equivalents) and find the next slot in the coming week that is not already
-filled with banked material. That slot is your brief. One slot, one test.
+**Run `node scripts/client-calendar.mjs` first. It is the only slot source you
+may use.** It reads each client's deployed calendar, the one the client is
+actually shown and Harrison keeps current, and returns only slots that are both
+open and in the future.
 
-Rotate clients so no single account absorbs every experiment. Check the ledger for which client was last tested and pick a different one.
-Record which client you chose and why in the ledger.
+Do not read the calendar CSVs. `business/clients/creepers-calendar-2026-jun-sep.csv`
+has 65 rows of which 50 carry no status, including July dates long past. An
+empty status there means nobody went back and marked it, not that the slot is
+free. A dry run on 13 August did exactly this and proposed a test for
+"Thu 20 Aug", a slot that does not exist in the live plan, which runs
+installation posts on Sundays. A well-built test against an imaginary slot is a
+wasted run.
 
-If every slot in the coming week is already filled with committed material, say
-so in one line and stop. Do not invent a slot. A quiet week is a real answer.
+Take the earliest actionable slot, unless the ledger shows the same client and
+channel was tested last time, in which case rotate. Record which you chose and
+why.
+
+The script also reports upcoming shoots. A test that can be captured on a shoot
+already scheduled costs a fraction of one that needs its own. Prefer those, and
+name the dependency: if the shoot slips, the test slips with it.
+
+If the script returns no actionable slots, say so in one line and stop. Do not
+invent a slot. A quiet week is a real answer.
+
+Adding a client is config, not code: `business/clients/calendars.json`. Better
+at Work and Laing O'Rourke are listed but inactive until their calendars are
+deployed. If the script reports "no deployed calendar" for a client, that client
+is simply not testable yet; say so rather than falling back to a CSV.
 
 ### 2. Find what is actually working, in form terms
 

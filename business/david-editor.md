@@ -26,9 +26,9 @@ Hired June 2026. First contract sent 8 June, intro call 10 June. Unblocks delive
 
 ## Payment state, 13 August 2026
 
-- **£550 August salary is overdue and unanswered.** David emailed 10 August 07:23 stating Harrison had told him the payment date was 8 August, then again 12 August 16:56: "Do you have updates regarding the salary sir?" No reply exists in sent mail for either. Five days late as of 13 August.
+- **£550 August salary paid.** Harrison confirmed it landed on 13 August, five days after the stated 8 August date and after David chased twice.
 - Prior payments on record: an initial payment received 26 June, then an invoice for the remaining £275 balance sent 10 July.
-- He is actively working the Danny Wicks wrap-reel revision pass while unpaid. Do not chase the tweaks before answering the money.
+- He is actively working the Danny Wicks wrap-reel revision pass. Review it when he sends the next draft.
 
 ## Harrison owes (from 10 June call)
 

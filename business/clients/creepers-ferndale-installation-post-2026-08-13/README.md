@@ -1,8 +1,8 @@
 # Creepers Installation, Ferndale plant supply carousel
 
-Prepared 13 August 2026 for `@creepersinstallation`. Review-ready, not posted or sent.
+Prepared 13 August 2026 for `@creepersinstallation`, then rejected because the project photographs had already been posted. Archive only. Nothing was posted or sent from this package.
 
-## Final route
+## Rejected route
 
 Four clean photographs, no graphics. The edit is deliberately plant-led so it is distinct from [Ben Beth's aerial Ferndale reel](https://www.instagram.com/ben.beth/reel/Dbh4ZDHxm3h/) accepted by `@creepersnursery` on 2 August.
 
@@ -36,4 +36,4 @@ Photography: @skyshotglobal.
 
 ## Publication state
 
-Nothing has been posted or sent from this package. Harrison approval is still required before publication.
+Rejected by Harrison on 13 August 2026. Do not publish or revive this package. The optional Installation slot was left empty.

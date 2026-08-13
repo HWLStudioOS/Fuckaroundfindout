@@ -44,7 +44,7 @@ Reset the week around a secure fibre-connected edit base, the verified Creepers 
 - [x] Calendar verified against both Creepers grids, then reworked into a six-week, three-core-plus-one-optional runway and redeployed on 10 August. Sam's link is unchanged. <!-- linear:HWL-249 -->
 - [x] `Why choose a nursery?` published on `@creepersnursery` on 10 August. Live post: https://www.instagram.com/creepersnursery/p/Db3hnvbjMsm/ <!-- linear:HWL-262 -->
 - [x] New nursery post published on 13 August: Harrison posted a static photograph of a bee pollinating a flower at New Forest. `A Buyer's Eye` remains banked after Harrison rejected it as today's route.
-- [ ] Publish the finished three-slide 37°C aftercare carousel on `@creepersinstallation` on 13 August. Final PNGs and caption are in `business/clients/creepers-heat-aftercare-post-2026-08-13/`. The last installation-only post was 30 July; the 3 August Wentworth item was shared from the nursery account.
+- [x] Leave the optional 13 August `@creepersinstallation` slot empty. Rootball Check did not pass, and the Ferndale replacement reused previously posted material. Do not force a filler post.
 - [ ] Finalise the selected Creepers Pro Landscaper advert in Figma. Full bleed won and the dark editorial route is closed. Review client-feedback revision `435:2`, confirm Creepers' intended founding year and anniversary number, get the exact Hatchford garden-designer credit, replace the visible internal credit placeholder, then get Pro Landscaper's preferred colour profile before PDF export or supply. Nothing has been sent. <!-- linear:HWL-265 -->
 - [ ] Confirm the exact Surrey Season 4 shoot date with Anna and Sarah-Louise. Still pending. <!-- linear:HWL-239 -->
 
@@ -72,9 +72,9 @@ Reset the week around a secure fibre-connected edit base, the verified Creepers 
 ### Money and admin
 
 - [ ] Complete Companies House director ID verification for HWL Studio Limited and send the personal code to Fazila. The confirmation statement is due 2 September and cannot be filed until this is done.
-- [ ] Decide amend-or-fold on the personal scout buys (SPCX, NVDA, SNDK, MU, PLTR, five trades in under a week outside the investment strategy doc). Either write a capped scout sleeve into the plan or stop. This was incorrectly marked complete; no written decision exists as of 13 August. <!-- linear:HWL-228 -->
+- [x] Pause new personal scout trades. Harrison has no spare personal cash after roughly £500 of buys last week and reports the portfolio up about 20%, broker-unverified. Monitor only; do not amend the strategy or place further orders. <!-- linear:HWL-228 -->
 - [x] Sweep the £675 owed to the tax reserve from the BaW receipt. Harrison confirmed done Sunday 9 August. <!-- linear:HWL-244 -->
-- [ ] Confirm the £1,800 August director's drawings landed in the personal bank. The amount was set, but payment is not verified. Salary is already done. <!-- linear:HWL-253 -->
+- [x] £1,800 August director's drawings landed in the personal bank, confirmed by Harrison on 13 August. <!-- linear:HWL-253 -->
 - [x] David's £550 August salary paid. Harrison confirmed it on 13 August. It cleared five days after the stated 8 August date and after two chases; the Danny Wicks wrap reel remains in a small revision pass.
 - [ ] Edge Lab: decide what happens to the crypto arena now G2a's 14-day window has closed with rules/fable underperforming a buy-and-hold control. Continue paper-only, adjust, or stop. Macro book ties control, no action needed there. <!-- linear:HWL-254 -->
 
@@ -125,7 +125,7 @@ Reset the week around a secure fibre-connected edit base, the verified Creepers 
 - Danny Wicks's testimonial film and b-roll were delivered Friday 7 August. David's first wrap-reel draft was strong and is in a small revision pass. The £800 plus VAT payment confirmation remains open.
 - Year One's eight-page pack and three Looms are dead. The Monday 10 August Laurence meeting now owns the testimonial outcome and any surviving next step.
 - HMRC VAT number is live: 523 6438 93, effective 30 June.
-- Tax reserve computes to £9,875 after the completed £675 sweep, pending bank verification. August drawings are set at £1,800 and not yet confirmed paid.
+- Tax reserve computes to £9,875 after the completed £675 sweep, pending bank verification. The £1,800 August drawings landed, confirmed 13 August.
 - The Claude CLI auth outage (3-6 Aug) is fixed; every scheduled daemon has run clean since 6 Aug.
 - Golf clubs and the 1-new-client-by-31-July campaigns are both closed (killed, and won via Squiggly, respectively). LOR Retainer stays parked behind Early Talent by choice, not cold.
 - Harrison Living: `hlivs.com` and `/content-engine` both returned HTTP 200 on 11 August. The page is a truthful pre-launch waitlist, not a finished product. Checkout, fulfilment, the owned email stack, legal terms and measurement remain open.

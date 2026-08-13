@@ -2,11 +2,13 @@
 
 HWL Studio Limited. Sole director/shareholder. Started trading 29 August 2025.
 
-## Live commercial position, 10 August 2026
+## Live commercial position, 13 August 2026
 
 Harrison's 4 August morning update is the current source of truth, with dated additions below:
 
-- **10 August, August drawings set:** Harrison set August director's drawings at **£1,800**. Salary is already done. This records the amount, not payment completion. Do not mark paid until the transfer is confirmed.
+- **13 August, August drawings landed:** Harrison confirmed the **£1,800** August director's drawings landed in his personal account. Salary is also done.
+
+- **13 August, personal investments paused:** Harrison reports roughly **£500** deployed across last week's scout trades and the personal portfolio up about **20%**. The return is broker-unverified and the exact GBP cost basis remains incomplete. There is no spare personal cash for new orders. Monitor the market only; do not place further trades or treat paper gains as available cash.
 
 - **9 August, BaW receipt sweep done:** Harrison confirmed the **£675** sweep from the paid £1,800 BaW invoice is complete, £375 Corporation Tax control plus £300 VAT. Starting from the last confirmed £9,200 reserve, the computed balance is **£9,875** before any other movement. Bank verification still wins over the computed figure.
 
@@ -18,7 +20,7 @@ Harrison's 4 August morning update is the current source of truth, with dated ad
 
 - **6 August, tax reserve parked:** Harrison moved the £9,200 combined VAT and Corporation Tax reserve into Revolut Savings at about 3% AER. Done, his call, no pending approval. The Shawbrook Easy Access recommendation (3.86%) is superseded. The reserve remains protected company tax cash; only its location changed.
 
-- **7 August market open, two more scout buys, Harrison correction 10 August:** Harrison bought **$50 of Micron (MU)** and **$50 of Palantir (PLTR)** at the Friday 7 August US market open. Exact shares, broker fill prices and GBP cost basis still need the Revolut statement for CGT records. Do not substitute a published opening quote for the actual broker fill. That is now three rounds of orders outside the strategy doc in under a week against a stated watch-only stance. The amend-or-fold decision remains due at 14:30 on 10 August.
+- **7 August market open, two more scout buys, Harrison correction 10 August:** Harrison bought **$50 of Micron (MU)** and **$50 of Palantir (PLTR)** at the Friday 7 August US market open. Exact shares, broker fill prices and GBP cost basis still need the Revolut statement for CGT records. Do not substitute a published opening quote for the actual broker fill. Further buying is paused from 13 August because no spare personal cash is available.
 
 - **6 August, personal investing:** Harrison reports additional personal orders placed beyond the 4 August scouts, before the day-one inventory completed. The strategy doc inventory cannot be trued up until he supplies the fills (ticker, size, price, date, GBP cost basis for CGT). Stance from today: watch-only via Perplexity Finance, eyes on SNDK and SPCX, no further orders. Sandisk reported a large Q4 beat on 5 August and sold off anyway; the SpaceX lockup opened 6 August (roughly 911.5m shares eligible, staggered tranches to 8 December).
 

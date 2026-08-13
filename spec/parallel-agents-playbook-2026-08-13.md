@@ -86,7 +86,7 @@ The scheduled half of his model already exists here. What is missing is the inte
 
 - Launchd stays the only production scheduler for existing workflows. Nothing in this playbook duplicates a launchd job.
 - No schedule, permission, or runtime change without a tap and a SYSTEM-STATUS note.
-- Worktrees removed as soon as branches merge. Prefer no-worktree sub-agents or cloud sessions for parallel work in this repo. Conditional, not permanent: once restructure Phase 1 (`spec/os-restructure-2026-08-13.md`) moves media out of Git, worktrees drop to roughly 200 MB and become a normal tool for code jobs. State-file jobs stay out of worktrees regardless, one writer per live file.
+- Worktrees removed as soon as branches merge. Prefer no-worktree sub-agents or cloud sessions for parallel work in this repo. Met on 13 August: restructure Phase 1 landed, LFS is gone, and worktrees are now cheap, a normal tool for code jobs. State-file jobs stay out of worktrees regardless, one writer per live file. Fetch discipline while pre-rewrite history remains on GitHub dependabot branches: `git fetch origin main`, never a bare fetch, which drags old media packs back into `.git`.
 - Sends, money, client-facing comms: one tap, always.
 - Before scaling the fleet: revoke the old Kraken and Telegram credentials (SYSTEM-STATUS item 1) and diagnose the OAuth expiry pattern.
 

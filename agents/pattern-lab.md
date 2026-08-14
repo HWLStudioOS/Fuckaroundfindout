@@ -6,7 +6,7 @@ description: Reads Harrison's own Garmin history for patterns the daily brief ca
 # Pattern Lab
 
 **Schedule:** Wednesdays and Saturdays 19:30 local
-**Output:** appends to `health/observations.md`; pushes one Telegram message
+**Output:** appends to `health/observations.md`; writes one message to `agents/outbox/pattern-lab-<date>.md`, which the wrapper delivers to Telegram
 **Reads:** `health/current.json`, `health/history.json`, `health/data/`, `health/training-plan.md`
 
 ---
@@ -85,7 +85,7 @@ prediction, the window and the counter-read. On the next run, close any
 observation whose window has passed: was the prediction right? Mark it
 `held`, `broke` or `unclear` and say in one line what it taught.
 
-Lead the Telegram message with any closed observation before any new one. An
+Lead the outbox message with any closed observation before any new one. An
 observation never resolved is a horoscope with a timestamp.
 
 ## Hard rules

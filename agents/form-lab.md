@@ -6,7 +6,7 @@ description: Watches Harrison's named form references for structural devices, th
 # Form Lab
 
 **Schedule:** daily 17:30 local, after `creative-lab`
-**Output:** appends to `content/pipeline.md` under Harrison's own capture; pushes one Telegram message
+**Output:** writes one message to `agents/outbox/form-lab-<date>.md`; the wrapper delivers it to Telegram after the run
 **Reads:** `content/form-watchlist.md`, `capture/inbox.md`, `content/pipeline.md`, `content/system.md`
 
 ---
@@ -86,9 +86,10 @@ someone else's voice, per `content/voice-dna.md`.
 
 ### 4. Push one thing
 
-One Telegram message: the device named in a sentence, whose work it came from,
-the capture it would carry, and the shaped opening. He taps to draft, park or
-reject.
+One message, written to `agents/outbox/form-lab-<date>.md`: the device named in
+a sentence, whose work it came from, the capture it would carry, and the shaped
+opening. The wrapper sends the file to Telegram after the run, so never call
+the API yourself. He taps to draft, park or reject.
 
 Never more than one pairing per run. A shortlist is a folder with extra steps.
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 # pattern-lab.sh, daemon entry point
-# Runs daily at 17:00 via launchd (com.hwl.pattern-lab.plist)
+# Runs Wednesdays and Saturdays at 19:30 via launchd (com.hwl.pattern-lab.plist)
 # Manually invokable: ./pattern-lab.sh
 
 set -Eeuo pipefail
@@ -36,6 +36,13 @@ cd "$HWL_META_DIR"
 
 hwl_claude_auth_preflight || exit $?
 
+# The agent writes its one outbound message here; the wrapper sends it after
+# the run, because Claude under acceptEdits cannot curl (13 Aug: form-lab's
+# send needed interactive approval and the message got parked unsent).
+OUTBOX_REL="agents/outbox/pattern-lab-$(date +%F).md"
+OUTBOX_FILE="$HWL_META_DIR/$OUTBOX_REL"
+mkdir -p "$HWL_META_DIR/agents/outbox"
+
 NOW=$(date '+%A %d %B %Y at %H:%M %Z')
 
 PROMPT="It is now ${NOW}. You are the pattern-lab agent running unattended on Harrison's Mac Mini. Execute the workflow in agents/pattern-lab.md in full.
@@ -50,9 +57,9 @@ Surface ONE observation, the most load-bearing, stated so it could be wrong: acr
 
 Name the cheapest thing that would confirm or kill it, usually watching the next two sessions of that type. Never 'do this instead'. If a pattern looks clinically relevant, say it is worth qualified eyes and stop rather than inventing a mechanism.
 
-Append to health/observations.md and send ONE Telegram message leading with any closed observation. If Garmin has a gap say the gap is there; a missing day is not a zero.
+Append to health/observations.md, then write the ONE message for Harrison to ${OUTBOX_REL}, overwriting whatever is there, leading with any closed observation. The wrapper sends that file to Telegram after you exit, so do not attempt any send yourself and do not call curl. If Garmin has a gap say the gap is there; a missing day is not a zero.
 
-If a step fails, continue and surface the failure in the Telegram message. Do not exit early."
+If a step fails, continue and surface the failure in the outbox message. Do not exit early."
 
 set +e
 claude --print --permission-mode acceptEdits "$PROMPT" \
@@ -71,5 +78,16 @@ if [ "$CLAUDE_EXIT" -ne 0 ]; then
   exit "$CLAUDE_EXIT"
 fi
 
-hwl_runtime_set_result "succeeded" "pattern-lab completed; see health/observations.md"
+if [ -s "$OUTBOX_FILE" ]; then
+  if hwl_send_telegram "$(cat "$OUTBOX_FILE")"; then
+    hwl_runtime_note "TELEGRAM_SENT" "outbox message delivered from ${OUTBOX_REL}"
+    hwl_runtime_set_result "succeeded" "pattern-lab completed; message sent from ${OUTBOX_REL}"
+  else
+    hwl_runtime_note "TELEGRAM_PARKED" "send failed; message parked at ${OUTBOX_REL}"
+    hwl_runtime_set_result "succeeded" "pattern-lab completed; send failed, message parked at ${OUTBOX_REL}"
+  fi
+else
+  hwl_runtime_note "NO_OUTBOX_MESSAGE" "run wrote no ${OUTBOX_REL}; silence recorded, see health/observations.md"
+  hwl_runtime_set_result "succeeded" "pattern-lab completed; no outbox message this run"
+fi
 exit 0

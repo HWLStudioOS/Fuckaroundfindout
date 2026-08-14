@@ -1,6 +1,6 @@
 #!/bin/bash
 # form-lab.sh, daemon entry point
-# Runs daily at 17:00 via launchd (com.hwl.form-lab.plist)
+# Runs daily at 17:30 via launchd (com.hwl.form-lab.plist)
 # Manually invokable: ./form-lab.sh
 
 set -Eeuo pipefail
@@ -36,6 +36,13 @@ cd "$HWL_META_DIR"
 
 hwl_claude_auth_preflight || exit $?
 
+# The agent writes its one outbound message here; the wrapper sends it after
+# the run, because Claude under acceptEdits cannot curl (13 Aug: every send
+# needed interactive approval and the message got parked unsent).
+OUTBOX_REL="agents/outbox/form-lab-$(date +%F).md"
+OUTBOX_FILE="$HWL_META_DIR/$OUTBOX_REL"
+mkdir -p "$HWL_META_DIR/agents/outbox"
+
 NOW=$(date '+%A %d %B %Y at %H:%M %Z')
 
 PROMPT="It is now ${NOW}. You are the form-lab agent running unattended on Harrison's Mac Mini. Execute the workflow in agents/form-lab.md in full.
@@ -48,9 +55,9 @@ Then check content/form-watchlist.md and look at recent PUBLIC output from those
 
 Then honestly test whether the best device fits the strongest capture. Most pairings will not fit. Say so rather than forcing one. When one fits, build the shape in HIS phrasing: the opening, the beat structure, what he needs to film or type and how long, and the target surface.
 
-Send ONE Telegram message: the device named in a sentence, whose work it came from, the capture it would carry, the shaped opening. One pairing only, never a shortlist. Never publish. Do not touch content/creative-tests.md, that is creative-lab client work.
+Write ONE message for Harrison to ${OUTBOX_REL}, overwriting whatever is there: the device named in a sentence, whose work it came from, the capture it would carry, the shaped opening. One pairing only, never a shortlist. The wrapper sends that file to Telegram after you exit, so do not attempt any send yourself and do not call curl. Never publish. Do not touch content/creative-tests.md, that is creative-lab client work.
 
-If a step fails, continue and surface the failure in the Telegram message. Do not exit early."
+If a step fails, continue and surface the failure in the outbox message. Do not exit early."
 
 set +e
 claude --print --permission-mode acceptEdits "$PROMPT" \
@@ -69,5 +76,16 @@ if [ "$CLAUDE_EXIT" -ne 0 ]; then
   exit "$CLAUDE_EXIT"
 fi
 
-hwl_runtime_set_result "succeeded" "form-lab completed; see content/pipeline.md"
+if [ -s "$OUTBOX_FILE" ]; then
+  if hwl_send_telegram "$(cat "$OUTBOX_FILE")"; then
+    hwl_runtime_note "TELEGRAM_SENT" "outbox message delivered from ${OUTBOX_REL}"
+    hwl_runtime_set_result "succeeded" "form-lab completed; message sent from ${OUTBOX_REL}"
+  else
+    hwl_runtime_note "TELEGRAM_PARKED" "send failed; message parked at ${OUTBOX_REL}"
+    hwl_runtime_set_result "succeeded" "form-lab completed; send failed, message parked at ${OUTBOX_REL}"
+  fi
+else
+  hwl_runtime_note "NO_OUTBOX_MESSAGE" "run wrote no ${OUTBOX_REL}; form-lab owes one message every run"
+  hwl_runtime_set_result "succeeded" "form-lab completed; no outbox message was written"
+fi
 exit 0

@@ -37,6 +37,7 @@ A doer and its verifier count as one owner. `morning-brief` and
 | `health/training-plan.md` | Harrison | none | Canonical training plan. Agents read it; none may rewrite it. `pattern-lab` observes against it and is explicitly forbidden from editing it or prescribing training. |
 | `health/observations.md` | `pattern-lab` | none | Cross-week observations from Harrison's own Garmin data. Observations with falsifiable predictions, never advice. |
 | `content/form-watchlist.md` | Harrison | none | His named form references. `form-lab` reads it; only Harrison changes who is on it. |
+| `agents/outbox/*.md` | the lab agent named in the filename | none | One dated message file per run. The wrapper delivers it to Telegram; the file stays as the record either way. |
 | `SYSTEM-STATUS.md` | whoever makes a system change | none | Engineering handoff. Updated deliberately, never by a scheduled agent. |
 | `board-room/app/generated-board.json` | generated | none | Built by the nightly backup and verified in frozen-snapshot mode. Never hand-edited. |
 

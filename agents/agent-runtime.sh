@@ -208,6 +208,30 @@ hwl_auth_alert_clear() {
   rm -f "$(hwl_auth_alert_sentinel_path)" 2>/dev/null || true
 }
 
+# One message to Harrison's Telegram, wrapper-side. Agent Claude runs under
+# acceptEdits and cannot curl, so an agent writes its outbound message to a
+# file and the wrapper delivers it after the run. Returns 0 only on a
+# confirmed send; the caller decides whether a failure parks the message.
+hwl_send_telegram() {
+  local message config token chat_id
+  message="$1"
+  [ -n "$message" ] || return 1
+
+  config="$HWL_META_DIR/.config/telegram.config.json"
+  [ -r "$config" ] || return 1
+  [ -x /usr/bin/jq ] || return 1
+
+  token=$(/usr/bin/jq -r '.telegram.botToken' "$config" 2>/dev/null || true)
+  chat_id=$(/usr/bin/jq -r '.telegram.chatId' "$config" 2>/dev/null || true)
+  [ -n "$token" ] && [ "$token" != "null" ] || return 1
+  [ -n "$chat_id" ] && [ "$chat_id" != "null" ] || return 1
+
+  curl --fail --show-error --silent --max-time 20 \
+    -X POST "https://api.telegram.org/bot${token}/sendMessage" \
+    -d "chat_id=${chat_id}" \
+    --data-urlencode "text=${message}" >/dev/null 2>&1
+}
+
 hwl_alert_auth_required() {
   local config token chat_id body
   hwl_auth_alert_due || return 0

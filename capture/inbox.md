@@ -4,6 +4,28 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-08-14 17:58 (Telegram reply)
+- Quick thoughts on that? First test of the system
+- Source: telegram reply (authoritative, Harrison's own words)
+- Tag: capture
+- Status: new
+
+## 2026-08-14 17:53 (Telegram reply)
+- [voice message received, not transcribed. Re-send as text if it matters.]
+- Source: telegram reply (authoritative, Harrison's own words)
+- Tag: capture
+- Status: new
+
+## 2026-08-14 10:30 (Harrison direct, mid-session)
+
+- Harrison shared an Instagram reel as "Interesting option?": instagram.com/reel/Dac9NfPRKFA, creator ethanjcoyne (videographer, verified), posted 6 July, 3.9K likes. On-video header: "Personal brand content hack". Caption: "Week in the life otw". Comments call it a cheat code ("that's actually goated, never thought of that", "what are you shooting on?!").
+- Mechanism resolved 14 August from Harrison's downloaded copy, transcript read frame-by-frame: "I'm bouta batch film a bunch of content for my personal brand, like iPhone videos. One thing I've been doing recently is just having Claude ask me a bunch of questions, about life, about videography, about whatever it is. Then I'll just answer it, then make the answer the video. It's usually something of value, my story, something important that actually makes a good video. So I'm about to go film a bunch of these and get them scheduled for the whole week, so I automatically have a post for every day this week."
+- The device, isolated: AI-interview elicitation. Claude supplies QUESTIONS (containers), the creator supplies every word of substance on camera, one answer per post, batch-filmed in one sitting, scheduled across the week. iPhone, no edit layer.
+- Fit notes: compliant with the substance rule (a question is not a topic assignment, it pulls Harrison's own words, same mechanic as the codex interviews); native to his talk-to-camera catch-and-cut mode; each answer fits the ~90s constraint; the launch plan's own capture is already "one twenty-minute unscripted conversation", this names the interviewer.
+- Source: Harrison
+- Tag: form-reference
+- Status: resolved, proposed as the capture engine for the w/c 7 September restart
+
 ## 2026-08-12 14:07
 - **The Insider You Built: How Organizations Stay in Control of Autonomous AI Agents**, Camille Stewart Gloster, Wiley, 15 Sep. Former White House Deputy National Cyber Director's governance framework for enterprises running agents with delegated authority, an Agent-Centered Enforcement and Attribution model for tracing decisions and assigning responsibility when an agent acts on your behalf. Different lens than the orchestration-and-scaling framing already queued from The Agentic Enterprise, this one is about what happens when something goes wrong, a direct read against the Jarvis action ledger. [https://www.amazon.com/Insider-You-Built-Organizations-Autonomous/dp/1394430892]
 - **#581 The 100 Year Life with Lynda Gratton**, Squiggly Careers, 4 Aug. First of a four-part summer series built around Gratton's new book Living the Hundred-Year Life, on designing a career that lasts decades without burning out, and what your own balance of productivity versus nurture reveals about how you're actually running your working life right now. [https://podfollow.com/squiggly-careers/episode/b2f26d75fd14fa6c3d50dcb1a2d42b1d50b6e06a/view]

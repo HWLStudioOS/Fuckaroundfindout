@@ -56,6 +56,12 @@ Nikki and Eat Work Art already offered a viewing route to cheaper options inside
 
 Nikki already has the brief, already replied positively, and already ran one viewing. The efficient next step is to keep working that relationship rather than restart the search elsewhere: ask her for the five terms on the second room, and ask to see a Netil Corner small studio in the same visit as a live comparison.
 
+## Update, 14 August 2026
+
+- Archer Street Studios (Soho, Stage Real Estate, James Guyer, brochure received 13 August): declined by Harrison on 14 August, too expensive. A polite decline that keeps the door open for smaller stock is staged in Gmail; sending is Harrison's tap. Never reached term-gathering, so it is not added to the comparison set.
+- Priority change: the Harrison Living launch re-anchored to w/c 7 September with "studio signed and settled sooner" as the pull-forward lever (see `content/distribution-product-plan-2026-08-10.md`, 14 August amendment). This hunt is now the launch's critical path, not a parallel comfort project.
+- Live next step: Harrison reports he sent the five-terms ask to Nikki himself on 14 August (channel unverified in Gmail sent at time of writing; his dated word governs). Awaiting Nikki's answers on deposit, term, break clause, VAT and internet speed. The in-ceiling routes stay untouched (Netil Corner small ~£868, Oris ~£850, Lockside ~£1,050, and the £350 Netil Corner solo waitlist worth joining regardless). The draft text below is retained as the reference of what was asked.
+
 ## Draft email to Nikki
 
 DRAFT, DO NOT SEND, for Harrison

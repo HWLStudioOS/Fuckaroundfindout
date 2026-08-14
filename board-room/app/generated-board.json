@@ -1,9 +1,9 @@
 {
   "title": "The Board Room",
   "week": "10 to 16 August 2026",
-  "sourceDate": "2026-08-13",
-  "generatedAt": "2026-08-13T21:30:01.909Z",
-  "sourceCommit": "597652c",
+  "sourceDate": "2026-08-14",
+  "generatedAt": "2026-08-14T21:30:09.191Z",
+  "sourceCommit": "cf340e8",
   "summary": {
     "open": 36,
     "active": 17,
@@ -18,59 +18,59 @@
   },
   "tasks": [
     {
-      "id": "active-complete-companies-house-director-id-verificatio",
-      "title": "Complete Companies House director ID verification for HWL Studio Limited and send the personal code to Fazila. The confirmation statement is due 2 September and cannot be filed until this is done.",
-      "area": "Money and admin",
-      "state": "todo",
-      "due": "2026-09-02",
-      "baseScore": 95,
-      "score": 95,
-      "reason": "The 2 September filing is blocked until Harrison completes identity verification and sends Fazila the personal code.",
-      "tier": "Critical",
-      "rank": 1
-    },
-    {
       "id": "HWL-269",
-      "title": "Recover the missed launch capture on 11 August: record one twenty-minute unscripted conversation plus five locked proof shots from the current room, then take one clean portrait. Cap the whole block at 60 minutes and do not edit it today.",
+      "title": "Launch capture, re-dated to the w/c 7 September restart: record one twenty-minute unscripted conversation plus five locked proof shots from the room, then one clean portrait. Cap the block at 60 minutes and do not edit same-day. Captures that arrive naturally before then still bank via the inbox.",
       "area": "Harrison Living",
       "state": "todo",
-      "due": "2026-08-11",
+      "due": "2026-09-07",
       "baseScore": 83,
       "score": 83,
       "reason": "The first capture was due yesterday and did not happen. Recover one bounded raw-material block today before polishing the system again.",
       "tier": "High",
-      "rank": 2
+      "rank": 1
     },
     {
       "id": "HWL-273",
-      "title": "Make The Chase an owned email system by 14 August: choose the sending platform and public sender address, authenticate the domain, replace the temporary `chatgpt.site` relay, find and export any existing subscribers, test signup and welcome delivery, provide unsubscribe, and publish a privacy notice for the live capture form.",
+      "title": "The Chase email system, due before the restart: choose the sending platform and public sender address, authenticate the domain, replace the temporary `chatgpt.site` relay, find and export any existing subscribers, test signup and welcome delivery, provide unsubscribe, and publish a privacy notice for the live capture form. Platform decision lands with Harrison in the week before restart.",
       "area": "Harrison Living",
       "state": "todo",
-      "due": "2026-08-14",
+      "due": null,
       "baseScore": 78,
       "score": 78,
       "reason": "The live form currently depends on a temporary relay. Own the list, sender identity, consent and unsubscribe before directing traffic at it.",
       "tier": "High",
-      "rank": 3
+      "rank": 2
     },
     {
       "id": "HWL-270",
-      "title": "Turn on the X layer on 11 August: update the name, bio, link and header from the approved profile copy, publish X01 after Harrison's one tap, and write five proper replies in the creator-operator, filmmaking or one-person-business lane.",
+      "title": "Turn on the X layer at the w/c 7 September restart: update the name, bio, link and header from the approved profile copy, publish X01 after Harrison's one tap, and write five proper replies in the creator-operator, filmmaking or one-person-business lane.",
       "area": "Harrison Living",
       "state": "todo",
-      "due": "2026-08-11",
+      "due": "2026-09-07",
       "baseScore": 76,
       "score": 76,
       "reason": "The site is live but distribution is still off. Complete the X surface and first approved post today, then stop at five real replies.",
       "tier": "High",
+      "rank": 3
+    },
+    {
+      "id": "HWL-278",
+      "title": "Complete Companies House director ID verification for HWL Studio Limited and send the personal code to Fazila. The confirmation statement is due 2 September and cannot be filed until this is done.",
+      "area": "Money and admin",
+      "state": "todo",
+      "due": "2026-09-02",
+      "baseScore": 74,
+      "score": 74,
+      "reason": "Dated for 2026-09-02.",
+      "tier": "Next",
       "rank": 4
     },
     {
       "id": "HWL-271",
-      "title": "Build Film 001 to a reviewed first cut by 16 August: clean A-roll on 12 August, silent story spine on 13 August, an eight-to-twelve-minute cut plus three title and thumbnail packages on 14 August, London and distance texture on 15 August, then television and phone review plus factual pickups on 16 August.",
+      "title": "Film 001 is PARKED in full, Harrison's call 14 August. No build, no cut, no owed hours until the restart. Existing A-roll and captures stay banked. Re-plan the build week at restart.",
       "area": "Harrison Living",
       "state": "todo",
-      "due": "2026-08-16",
+      "due": "2026-08-14",
       "baseScore": 74,
       "score": 74,
       "reason": "Film 001 is the trust asset for the 23 August launch. The dated first-cut sequence prevents another unshipped video plan.",
@@ -91,10 +91,10 @@
     },
     {
       "id": "HWL-274",
-      "title": "Freeze Product 001's scope and commercial owner by 16 August: inventory the actual customer files, reconcile the current four-versus-five-file copy, decide whether Harrison or HWL Studio is the seller, confirm VAT treatment and the Stripe account, and lock the walkthrough, licence, support and refund position before checkout is built.",
+      "title": "Freeze Product 001's scope and commercial owner before the restart (by 4 September): inventory the actual customer files, reconcile the current four-versus-five-file copy, decide whether Harrison or HWL Studio is the seller, confirm VAT treatment and the Stripe account, and lock the walkthrough, licence, support and refund position before checkout is built.",
       "area": "Harrison Living",
       "state": "todo",
-      "due": "2026-08-16",
+      "due": "2026-09-04",
       "baseScore": 70,
       "score": 70,
       "reason": "Checkout should not be built around contradictory product copy or an undecided seller. Freeze the offer and commercial route this week.",
@@ -103,10 +103,10 @@
     },
     {
       "id": "HWL-272",
-      "title": "Ship the first written distribution cycle by 16 August: X02 on 12 August, LinkedIn 01 on 13 August, X03 on 14 August and a Harrison-edited draft of Chase 001 on 16 August. Every public post stays one-tap gated.",
+      "title": "First written distribution cycle moves to the restart week: X02, LinkedIn 01, X03 and a Harrison-edited draft of Chase 001 across w/c 7 September. Every public post stays one-tap gated.",
       "area": "Harrison Living",
       "state": "todo",
-      "due": "2026-08-16",
+      "due": "2026-09-07",
       "baseScore": 66,
       "score": 66,
       "reason": "This is the first repeatable writing cycle. Keep it behind client deadlines, but do not let the week finish with another empty public surface.",
@@ -138,27 +138,27 @@
       "rank": 10
     },
     {
-      "id": "HWL-275",
-      "title": "Instrument `hlivs.com` by 16 August with privacy-safe measurement for homepage views, product-page views, successful signups, outbound clicks and checkout once live, then record the pre-launch baseline.",
+      "id": "HWL-280",
+      "title": "Decide STAHK's v1 job before the restart (by 4 September): keep it as the shelf label on `hlivs.com` or point `stahk.com` directly to Product 001. Do not build a second website before demand exists. (Marker removed 14 August: the original HWL-266 ID was minted during the Linear outage and belongs to an unrelated Creepers issue; the next sync will create a fresh issue for this line.)",
       "area": "Harrison Living",
       "state": "todo",
-      "due": "2026-08-16",
-      "baseScore": 56,
-      "score": 56,
-      "reason": "Install measurement before launch traffic arrives. It matters, but it should not displace capture, client delivery or the owned email path.",
+      "due": "2026-09-04",
+      "baseScore": 60,
+      "score": 60,
+      "reason": "Dated for 2026-09-04.",
       "tier": "Next",
       "rank": 11
     },
     {
-      "id": "HWL-266",
-      "title": "Decide STAHK's v1 job by 16 August: keep it as the shelf label on `hlivs.com` or point `stahk.com` directly to Product 001. Do not build a second website before demand exists.",
+      "id": "HWL-275",
+      "title": "Instrument `hlivs.com` before the restart (by 4 September) with privacy-safe measurement for homepage views, product-page views, successful signups, outbound clicks and checkout once live, then record the pre-launch baseline.",
       "area": "Harrison Living",
       "state": "todo",
-      "due": "2026-08-16",
-      "baseScore": 42,
-      "score": 42,
-      "reason": "STAHK only needs a v1 routing decision. It must not turn into a second website build before Product 001 has evidence.",
-      "tier": "Later",
+      "due": "2026-09-04",
+      "baseScore": 56,
+      "score": 56,
+      "reason": "Install measurement before launch traffic arrives. It matters, but it should not displace capture, client delivery or the owned email path.",
+      "tier": "Next",
       "rank": 12
     },
     {
@@ -558,7 +558,7 @@
       "rank": null
     },
     {
-      "id": "active-new-nursery-post-published-on-13-august-harrison",
+      "id": "HWL-276",
       "title": "New nursery post published on 13 August: Harrison posted a static photograph of a bee pollinating a flower at New Forest. `A Buyer's Eye` remains banked after Harrison rejected it as today's route.",
       "area": "Creepers",
       "state": "done",
@@ -570,7 +570,7 @@
       "rank": null
     },
     {
-      "id": "active-leave-the-optional-13-august-creepersinstallatio",
+      "id": "HWL-277",
       "title": "Leave the optional 13 August `@creepersinstallation` slot empty. Rootball Check did not pass, and the Ferndale replacement reused previously posted material. Do not force a filler post.",
       "area": "Creepers",
       "state": "done",
@@ -714,7 +714,7 @@
       "rank": null
     },
     {
-      "id": "active-david-s-550-august-salary-paid-harrison-confirme",
+      "id": "HWL-279",
       "title": "David's £550 August salary paid. Harrison confirmed it on 13 August. It cleared five days after the stated 8 August date and after two chases; the Danny Wicks wrap reel remains in a small revision pass.",
       "area": "Money and admin",
       "state": "done",

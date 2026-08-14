@@ -1,13 +1,25 @@
 ---
 date: 2026-08-10
-status: active 90-day pilot
+status: active 90-day pilot, re-anchored 14 August
 owner: Harrison
-review_date: 2026-09-10
-end_date: 2026-11-08
+review_date: 2026-10-08
+end_date: 2026-12-06
 amends: content/strategy.md, spec/portfolio-thesis-2026-06-15.md
 ---
 
 # Distribution and product plan
+
+## Amendment, 14 August 2026: pilot re-anchored to w/c 7 September
+
+Harrison's direct call, recorded same day. The public start of the pilot moves from 10 August to **w/c 7 September, provisional**: pulled forward if a studio space is signed and settled sooner, and it is a date, not an open-ended condition. His reasoning, in his words: he did not actually want to start this quickly, he wants to start from a cool space, and ideas and creativity are coming back.
+
+This overrides two of the original hard rules below, knowingly: "No waiting for the office" and "Record video one from the current desk. Do not wait for the office." The plan said momentum beats the room; Harrison chose the room. That trade is his to make and it is recorded rather than smoothed over. This is a re-anchor of dates, not a strategy rebuild; the identity, the shelf, the loop and every other rule stand unchanged.
+
+What moves: every date below shifts about four weeks. Phase one ("turn the system on") runs w/c 7 September. First-transaction phase follows to early October. The scoreboard gates move with it: product one and video one live by ~20 September, the three-paid-customers checkpoint at the ~8 October review, cadence verdict ~1 November, final pilot decision ~6 December. Film 001 is parked in full until the restart, no owed hours. The Chase platform decision, Product 001 scope freeze, `hlivs.com` instrumentation and the STAHK call land in the week before restart (by 4 September) so the restart week is execution, not decisions.
+
+What does not move: ingest. The capture bank, form-lab, pattern-lab and the watchlist keep running on schedule, and captures that arrive naturally still bank via `capture/inbox.md`. Nothing goes public before the restart. The studio hunt is now the pull-forward lever on this whole plan, which raises its priority: current state in `business/edit-studio-netil-2026-08-13.md`.
+
+**Capture engine, added 14 August.** The ingest mechanism before and after the restart is interview elicitation: Claude asks, Harrison answers on camera or by voice note, and one answer is one post's substance. Two layers. A 30-minute weekly-ish sitting, phone propped, one take per answer (Interview 001 held in the calendar for 16 August with its six questions in the invite). And form-lab's daily 17:30 message, which on empty-bank days asks one question about something Harrison lived that week instead of proposing a device; rules in `agents/form-lab.md`, interview mode. Questions elicit his account and never assign topics, silence is always a valid answer with no backlog, and everything banks until the restart so w/c 7 September starts with a shelf of made material rather than a blank page. Origin: the ethanjcoyne reel, recorded in `capture/inbox.md`, 14 August.
 
 ## The decision
 

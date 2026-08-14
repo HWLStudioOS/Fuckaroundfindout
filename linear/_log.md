@@ -3691,3 +3691,66 @@
 [2026-08-13T19:52:16.320Z] ERROR Sync failed: Linear API errors: [{"message":"usage limit exceeded","path":["issueCreate"],"locations":[{"line":2,"column":7}],"extensions":{"type":"usage limit exceeded","code":"USAGE_LIMIT_EXCEEDED","statusCode":400,"userError":true,"userPresentableMessage":"You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.","meta":{"usageMetric":"activeIssueCount"}}}]
 [2026-08-13T20:52:16.471Z] INFO Sync start. Last: 2026-08-13T06:51:53.355Z
 [2026-08-13T20:52:16.979Z] ERROR Sync failed: Linear API errors: [{"message":"usage limit exceeded","path":["issueCreate"],"locations":[{"line":2,"column":7}],"extensions":{"type":"usage limit exceeded","code":"USAGE_LIMIT_EXCEEDED","statusCode":400,"userError":true,"userPresentableMessage":"You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.","meta":{"usageMetric":"activeIssueCount"}}}]
+[2026-08-13T21:52:17.085Z] INFO Sync start. Last: 2026-08-13T06:51:53.355Z
+[2026-08-13T21:52:17.671Z] ERROR Sync failed: Linear API errors: [{"message":"usage limit exceeded","path":["issueCreate"],"locations":[{"line":2,"column":7}],"extensions":{"type":"usage limit exceeded","code":"USAGE_LIMIT_EXCEEDED","statusCode":400,"userError":true,"userPresentableMessage":"You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.","meta":{"usageMetric":"activeIssueCount"}}}]
+[2026-08-13T22:52:17.737Z] INFO Sync start. Last: 2026-08-13T06:51:53.355Z
+[2026-08-13T22:52:18.142Z] ERROR Sync failed: Linear API errors: [{"message":"usage limit exceeded","path":["issueCreate"],"locations":[{"line":2,"column":7}],"extensions":{"type":"usage limit exceeded","code":"USAGE_LIMIT_EXCEEDED","statusCode":400,"userError":true,"userPresentableMessage":"You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.","meta":{"usageMetric":"activeIssueCount"}}}]
+[2026-08-13T23:52:18.330Z] INFO Sync start. Last: 2026-08-13T06:51:53.355Z
+[2026-08-13T23:52:18.665Z] ERROR Sync failed: Linear API errors: [{"message":"usage limit exceeded","path":["issueCreate"],"locations":[{"line":2,"column":7}],"extensions":{"type":"usage limit exceeded","code":"USAGE_LIMIT_EXCEEDED","statusCode":400,"userError":true,"userPresentableMessage":"You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.","meta":{"usageMetric":"activeIssueCount"}}}]
+[2026-08-14T00:52:18.754Z] INFO Sync start. Last: 2026-08-13T06:51:53.355Z
+[2026-08-14T00:52:19.184Z] ERROR Sync failed: Linear API errors: [{"message":"usage limit exceeded","path":["issueCreate"],"locations":[{"line":2,"column":7}],"extensions":{"type":"usage limit exceeded","code":"USAGE_LIMIT_EXCEEDED","statusCode":400,"userError":true,"userPresentableMessage":"You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.","meta":{"usageMetric":"activeIssueCount"}}}]
+[2026-08-14T01:52:19.336Z] INFO Sync start. Last: 2026-08-13T06:51:53.355Z
+[2026-08-14T01:52:19.653Z] ERROR Sync failed: Linear API errors: [{"message":"usage limit exceeded","path":["issueCreate"],"locations":[{"line":2,"column":7}],"extensions":{"type":"usage limit exceeded","code":"USAGE_LIMIT_EXCEEDED","statusCode":400,"userError":true,"userPresentableMessage":"You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.","meta":{"usageMetric":"activeIssueCount"}}}]
+[2026-08-14T02:52:19.770Z] INFO Sync start. Last: 2026-08-13T06:51:53.355Z
+[2026-08-14T02:52:20.307Z] ERROR Sync failed: Linear API errors: [{"message":"usage limit exceeded","path":["issueCreate"],"locations":[{"line":2,"column":7}],"extensions":{"type":"usage limit exceeded","code":"USAGE_LIMIT_EXCEEDED","statusCode":400,"userError":true,"userPresentableMessage":"You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.","meta":{"usageMetric":"activeIssueCount"}}}]
+[2026-08-14T03:52:20.395Z] INFO Sync start. Last: 2026-08-13T06:51:53.355Z
+[2026-08-14T03:52:20.922Z] ERROR Sync failed: Linear API errors: [{"message":"usage limit exceeded","path":["issueCreate"],"locations":[{"line":2,"column":7}],"extensions":{"type":"usage limit exceeded","code":"USAGE_LIMIT_EXCEEDED","statusCode":400,"userError":true,"userPresentableMessage":"You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.","meta":{"usageMetric":"activeIssueCount"}}}]
+[2026-08-14T04:52:21.038Z] INFO Sync start. Last: 2026-08-13T06:51:53.355Z
+[2026-08-14T04:52:21.678Z] ERROR Sync failed: Linear API errors: [{"message":"usage limit exceeded","path":["issueCreate"],"locations":[{"line":2,"column":7}],"extensions":{"type":"usage limit exceeded","code":"USAGE_LIMIT_EXCEEDED","statusCode":400,"userError":true,"userPresentableMessage":"You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.","meta":{"usageMetric":"activeIssueCount"}}}]
+[2026-08-14T05:52:21.820Z] INFO Sync start. Last: 2026-08-13T06:51:53.355Z
+[2026-08-14T05:52:22.153Z] ERROR Sync failed: Linear API errors: [{"message":"usage limit exceeded","path":["issueCreate"],"locations":[{"line":2,"column":7}],"extensions":{"type":"usage limit exceeded","code":"USAGE_LIMIT_EXCEEDED","statusCode":400,"userError":true,"userPresentableMessage":"You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.","meta":{"usageMetric":"activeIssueCount"}}}]
+[2026-08-14T06:52:22.266Z] INFO Sync start. Last: 2026-08-13T06:51:53.355Z
+[2026-08-14T06:52:22.768Z] ERROR Sync failed: Linear API errors: [{"message":"usage limit exceeded","path":["issueCreate"],"locations":[{"line":2,"column":7}],"extensions":{"type":"usage limit exceeded","code":"USAGE_LIMIT_EXCEEDED","statusCode":400,"userError":true,"userPresentableMessage":"You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.","meta":{"usageMetric":"activeIssueCount"}}}]
+[2026-08-14T07:52:22.842Z] INFO Sync start. Last: 2026-08-13T06:51:53.355Z
+[2026-08-14T07:52:23.182Z] ERROR Sync failed: Linear API errors: [{"message":"usage limit exceeded","path":["issueCreate"],"locations":[{"line":2,"column":7}],"extensions":{"type":"usage limit exceeded","code":"USAGE_LIMIT_EXCEEDED","statusCode":400,"userError":true,"userPresentableMessage":"You've exceeded the free issue limit for this workspace. Please upgrade or contact sales@linear.app for a free trial.","meta":{"usageMetric":"activeIssueCount"}}}]
+[2026-08-14T08:47:56.304Z] INFO Sync start. Last: 2026-08-13T06:51:53.355Z
+[2026-08-14T08:47:56.691Z] INFO push + HWL-276 New nursery post published on 13 August: Harrison posted a s
+[2026-08-14T08:47:56.918Z] INFO push + HWL-277 Leave the optional 13 August `@creepersinstallation` slot em
+[2026-08-14T08:47:57.107Z] INFO push + HWL-278 Complete Companies House director ID verification for HWL St
+[2026-08-14T08:47:57.108Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-14T08:47:57.491Z] INFO push + HWL-279 David's £550 August salary paid. Harrison confirmed it on 13
+[2026-08-14T08:47:57.725Z] INFO Sync done. push: +4 ~0. pull: ~0.
+[2026-08-14T09:47:57.866Z] INFO Sync start. Last: 2026-08-14T08:47:57.721Z
+[2026-08-14T09:47:58.289Z] INFO push + HWL-280 Decide STAHK's v1 job before the restart (by 4 September): k
+[2026-08-14T09:47:58.290Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-14T09:47:58.406Z] INFO Sync done. push: +1 ~0. pull: ~0.
+[2026-08-14T10:47:58.516Z] INFO Sync start. Last: 2026-08-14T09:47:58.403Z
+[2026-08-14T10:47:59.152Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-14T10:47:59.248Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-14T11:47:59.350Z] INFO Sync start. Last: 2026-08-14T10:47:59.246Z
+[2026-08-14T11:47:59.737Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-14T11:47:59.815Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-14T12:47:59.922Z] INFO Sync start. Last: 2026-08-14T11:47:59.812Z
+[2026-08-14T12:48:00.311Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-14T12:48:00.385Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-14T13:48:00.494Z] INFO Sync start. Last: 2026-08-14T12:48:00.383Z
+[2026-08-14T13:48:00.822Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-14T13:48:00.898Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-14T15:00:02.546Z] INFO Sync start. Last: 2026-08-14T13:48:00.896Z
+[2026-08-14T15:00:04.086Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-14T15:00:04.166Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-14T16:30:15.892Z] INFO Sync start. Last: 2026-08-14T15:00:04.164Z
+[2026-08-14T16:30:16.667Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-14T16:30:16.775Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-14T17:55:24.659Z] INFO Sync start. Last: 2026-08-14T16:30:16.769Z
+[2026-08-14T17:55:24.886Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-14T17:55:24.945Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-14T19:15:24.309Z] INFO Sync start. Last: 2026-08-14T17:55:24.943Z
+[2026-08-14T19:15:24.528Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-14T19:15:24.611Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-14T20:15:24.768Z] INFO Sync start. Last: 2026-08-14T19:15:24.609Z
+[2026-08-14T20:15:25.158Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-14T20:15:25.247Z] INFO Sync done. push: +0 ~0. pull: ~0.
+[2026-08-14T21:15:25.356Z] INFO Sync start. Last: 2026-08-14T20:15:25.244Z
+[2026-08-14T21:15:25.752Z] WARN skip HWL-228 in this-week.md: owned by today.md; duplicate or stale markers cannot write issue state
+[2026-08-14T21:15:25.856Z] INFO Sync done. push: +0 ~0. pull: ~0.

@@ -1,5 +1,6 @@
 # Scout trades amend-or-fold decision pack
 
+- **RESOLVED 14 August 2026:** Harrison closed this verbally the same morning: positions stay as they are, no amendment filed, no new capital until next month, eyes on the market via existing digests. Recorded as the dated correction in `money/index.md`. The pack below stands as the reference read.
 - **Prepared:** night-shift job, dated 14 August 2026, against live repo state as of 13 August 2026
 - **Status:** internal admin document, not advice. No recommendation, no market opinion, no price commentary is given below. All decisions are Harrison's, untouched.
 - **Scope:** the five scout positions bought outside `money/investment-strategy-2026-08-03.md` between 4 and 7 August 2026: SPCX, NVDA, SNDK, MU, PLTR.

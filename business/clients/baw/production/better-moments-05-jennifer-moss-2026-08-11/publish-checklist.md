@@ -34,11 +34,11 @@
 - [ ] Tue 11 Aug: publish the carousel on Better at Work Instagram.
 - [ ] Tue 11 Aug: publish the LinkedIn carousel from Cathal's account.
 - [x] Thu 13 Aug: AI-adoption reel published on Better at Work Instagram, confirmed by Harrison.
-- [ ] Wed 12 Aug: publish the AI-adoption reel from Cathal's LinkedIn.
+- [x] Fri 14 Aug: AI-adoption reel published from Cathal's LinkedIn. Confirmed by Harrison, 14 Aug (originally slotted Wed 12 Aug).
 - [x] Thu 13 Aug, 12:30 BST: publish Better Moments #5 to Acast. Confirmed by Harrison, 13 Aug.
 - [x] Thu 13 Aug, 12:30 BST: publish Better Moments #5 to YouTube. Confirmed by Harrison, 13 Aug.
 - [x] Thu 13 Aug: publish the Instagram launch graphic and caption. Confirmed by Harrison, 13 Aug afternoon.
 - [x] Thu 13 Aug: publish Cathal's LinkedIn launch graphic and caption. Confirmed by Harrison, 13 Aug.
-- [ ] Fri 14 Aug: send The Better Bits.
+- [x] Fri 14 Aug: The Better Bits draft with Cathal, confirmed by Harrison 14 Aug (sent outside Gmail). Cathal owns the actual newsletter send.
 
 Confirmed by Harrison on 13 August: the AI-adoption reel on Better at Work Instagram, Better Moments #5 on Acast and YouTube, the Instagram launch graphic, and Cathal's LinkedIn launch graphic. Not yet confirmed: the Tuesday carousels, Wednesday's reel from Cathal's LinkedIn and Friday's Better Bits (due tomorrow).

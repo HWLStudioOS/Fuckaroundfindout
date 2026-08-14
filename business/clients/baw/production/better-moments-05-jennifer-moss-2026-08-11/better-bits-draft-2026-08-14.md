@@ -1,4 +1,5 @@
-# DRAFT for Harrison review, sends Friday 14 August
+# DONE. Harrison confirmed on 14 August this went to Cathal outside Gmail. No further action; kept as the record.
+# Original header: DRAFT for Harrison review, sends Friday 14 August
 
 ## The Better Bits: Better Moments #5, Jennifer Moss
 

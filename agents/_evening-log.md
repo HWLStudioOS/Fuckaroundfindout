@@ -1,3 +1,10 @@
+## 2026-08-14 evening
+- Shipped: STNDRD Pull lifting session delivered (Strava confirms Lunch Weight Training, 62 min, plus a 23 min follow-on workout), Better at Work Season 5 brand and website deck finalised (both a FINAL PPTX and a PDF export landed in business/clients/baw/ today), Better Moments 05 (Jennifer Moss) LinkedIn clip cut for Cathal and its publish-checklist updated.
+- Missed: none confirmed. Companies House director ID verification and David's revised Danny wrap-reel review both remain open with no signal either way today, not scored.
+- Training: STNDRD Pull done, matches the week-one adjustment table's Friday prescription exactly (Strava, 11:50 and 13:05 entries). No run activity logged today; the adjustment table lists Friday as STNDRD Pull only and doesn't explicitly pair a run this exception week, so not scored as a miss. Not a race or taper week regardless (training-plan.md: race_anchor none), so no push threshold would apply either way.
+- Campaigns moved: 0 by campaign-chaser's own tracked-file check (10:07, 8 files, none moved). The BaW production work above is real but sits outside the tracked campaign files, credited under Shipped instead.
+- Tomorrow's first action: Review David's revised Danny wrap-reel the moment it lands, still the one thread blocking Danny's £800 plus VAT payment confirmation.
+
 ## 2026-08-13 evening
 - Shipped: Jennifer Moss AI-adoption reel published on Better at Work Instagram (confirmed via today's 09:35 session log and Harrison's own confirmation in today.md), Creepers nursery New Forest bee-pollination post published with the optional Installation slot correctly left empty after Rootball Check and the repeated Ferndale material were both rejected (12:05 and 12:34 session logs), the full 4 x 4 VO2 session delivered as prescribed (Strava confirms 7.89km in 48:18 this morning, matching Garmin's own read in today.md), £1,800 August drawings and David's £550 August salary both confirmed landed.
 - Missed: none confirmed. Danny Wicks's payment confirmation and David's revised wrap-reel review remain open with no signal either way, not scored.

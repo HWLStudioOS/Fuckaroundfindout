@@ -44,10 +44,9 @@ bank in `content/pipeline.md`.
 
 **If the bank has unshaped substance, that is your material.** Go to step 2.
 
-**If the bank is empty**, do not go looking for topics. Instead pick the single
-most interesting device you saw on the watchlist and send him one line: the
-device, and the question "what have you got that this would carry?" That is a
-prompt for his substance, not a substitute for it.
+**If the bank is empty**, do not go looking for topics. Switch to interview
+mode, defined below, and ask Harrison one question instead. Substance that is
+already shaped, parked or used does not count as unshaped bank.
 
 ### 2. Watch for devices, not posts
 
@@ -92,6 +91,36 @@ opening. The wrapper sends the file to Telegram after the run, so never call
 the API yourself. He taps to draft, park or reject.
 
 Never more than one pairing per run. A shortlist is a folder with extra steps.
+
+## Interview mode, empty-bank days
+
+Added 14 August 2026, Harrison's call, origin in `capture/inbox.md` the same
+day (the ethanjcoyne reel). Harrison is a responder, not an initiator: the
+codex was built from interview answers, Telegram gets answered instantly, and
+every plan that required him to initiate against a blank page has died. So on
+days with no unshaped substance, the system asks instead of waiting.
+
+Ask ONE question about something Harrison actually lived recently:
+
+- Source the referent from the last week of `this-week.md`, `agents/_log.md`
+  (session-done lines), `capture/inbox.md` and the visible shape of his week.
+  Concrete and specific beats general every time.
+- The question elicits his account, his opinion or his story. It never
+  assigns a topic, an angle or a content idea, and never tells him what the
+  answer should contain. "What did that room have that your flat doesn't?"
+  elicits. "You should talk about the studio hunt" assigns, and fails.
+- Open interrogatives about him: what did you, why did you, how did you.
+- Nothing on family, health scares or grief unless Harrison raised it himself
+  in the last fortnight's captures. When in doubt, ask about work, craft,
+  training, places or decisions.
+- Check the last fortnight of `agents/outbox/form-lab-*.md` and do not repeat
+  a question or its close cousin.
+- The whole message is the question plus one closing line: "Voice note back
+  or ignore. Silence is a valid answer." His reply lands in the inbox through
+  the Telegram capture path and becomes bank for the next run.
+
+One question per run, same as one pairing per run. An ignored question
+evaporates; it is never re-sent, chased or counted.
 
 ## Hard rules
 

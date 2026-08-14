@@ -6,6 +6,8 @@ HWL Studio Limited. Sole director/shareholder. Started trading 29 August 2025.
 
 Harrison's 4 August morning update is the current source of truth, with dated additions below:
 
+- **14 August, scout decision closed (Harrison, verbal, scribed same day):** The overdue 10 August amend-or-fold review is resolved by Harrison's direct statement this morning: the five scout positions stay as they are, no fold-in and no strategy amendment filed now. Roughly £500 deployed, reported up about 20%, still broker-unverified. No further capital until next month at the earliest; the next review happens when new personal cash actually exists, not on a calendar date. Eyes stay on the market through the existing digests only. This supersedes the "open decision" line under 5 August below. Full context in `money/scout-trades-decision-pack-2026-08-14.md`.
+
 - **13 August, August drawings landed:** Harrison confirmed the **£1,800** August director's drawings landed in his personal account. Salary is also done.
 
 - **13 August, personal investments paused:** Harrison reports roughly **£500** deployed across last week's scout trades and the personal portfolio up about **20%**. The return is broker-unverified and the exact GBP cost basis remains incomplete. There is no spare personal cash for new orders. Monitor the market only; do not place further trades or treat paper gains as available cash.

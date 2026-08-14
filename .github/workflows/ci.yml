@@ -36,6 +36,7 @@ jobs:
             **/*.json
             **/*.plist
             pyproject.toml
+            /.gitignore
             /today.md
             /this-week.md
             /agents/STATE-OWNERSHIP.md

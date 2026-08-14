@@ -36,6 +36,10 @@ jobs:
             **/*.json
             **/*.plist
             pyproject.toml
+            /today.md
+            /this-week.md
+            /agents/STATE-OWNERSHIP.md
+            /agents/evening-reflection.md
 
       - name: Set up Python
         uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6

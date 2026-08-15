@@ -1,0 +1,9 @@
+Creative lab, Sat 15 Aug.
+
+No results to close. One test is waiting on your tap and the message never reached you, so this is the delivery, not a nag.
+
+The test, proposed Thursday 13 Aug: the Sun 23 Aug reel slot on @creepersinstallation, built entirely on the NF3 New Forest shoot this Wednesday 19 Aug. Hypothesis: heritage nurseries and luxury garden media are running single-specimen process films right now (Easy Big Trees, Crescente, Great Dixter), and June 2026 benchmarks put reels top for reach on sub-5k accounts, with the first 3 seconds deciding it. The variant: 35 seconds, "How a tree gets chosen". Opens on a hand running up a trunk in the first second, ambient sound only. Michael walks the rows, three checks close up, one tag tied on. Caption written, full cut structure in content/creative-tests.md. Cost: 15 minutes added to NF3 plus 1.5 to 2 hours edit. No new shoot. Risk: underperformance only, it cannot embarrass the grid; on 2,337 followers it may close inconclusive. Replaces nothing banked, the slot was open on the deployed plan. Signal: beats median reach of the last five posts and holds 3-second retention above 34.5 percent, read by 30 Aug. If NF3 slips, the test slips.
+
+The part that needs you this weekend: NF3 is Wednesday. If you want this tested, the two extra setups go on the NF3 shot list before then.
+
+Why you are only getting this now, three failed runs: 13 Aug the send was blocked by permissions. 14 Aug the run crashed before retrying. Today every network path is still blocked. Two small fixes end this for good. One, allowlist "node scripts/client-calendar.mjs" in .claude/settings.json so the lab can read the live calendar. Two, creative-lab.sh is missing the ten-line outbox delivery block that form-lab.sh and pattern-lab.sh already carry from commit 840e634. This message sits at agents/outbox/creative-lab-2026-08-15.md until one of those lands.

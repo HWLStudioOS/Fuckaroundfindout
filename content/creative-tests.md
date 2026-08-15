@@ -281,4 +281,23 @@ log. Next run: if this entry is still unacknowledged, retry the Telegram send
 first; that retry is not a new proposal and does not breach the
 one-at-a-time guard.
 
+**Noted, 15 Aug 17:00 run:** Still undelivered. The 14 Aug run crashed before
+doing anything (claude exited 1 per `agents/_log.md`), so the retry above
+never happened. Today's retry hit the same wall as 13 Aug: `node`, `curl`,
+`git` and web fetch are all denied, and `.claude/settings.json` still has no
+allowlist entry for `node scripts/client-calendar.mjs`. The slot could not be
+re-verified from inside this session for the same reason; the residual risk
+stands, though nothing can be banked against 23 Aug before NF3 shoots on
+19 Aug. Root cause of the send failures found: commit 840e634 routes lab
+Telegram sends through the wrapper via `agents/outbox/<agent>-<date>.md`, but
+only `form-lab.sh` and `pattern-lab.sh` carry the delivery block.
+`creative-lab.sh` does not, so this agent currently has no working send path
+at all. This run wrote the full message to
+`agents/outbox/creative-lab-2026-08-15.md` per the ownership table (the file
+is the record either way) and sent a desktop push pointing at it. Fixes
+needed, engineering-side rather than by this scheduled agent: the allowlist
+entry, and the delivery block copied into `creative-lab.sh`. No
+acknowledgment found in `capture/inbox.md`. This entry crosses the three-day
+staleness line at 17:00 on 16 Aug.
+
 **Result:** (window closes Sun 30 Aug)

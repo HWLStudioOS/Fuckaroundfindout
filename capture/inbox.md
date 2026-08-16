@@ -33,13 +33,13 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - Quick thoughts on that? First test of the system
 - Source: telegram reply (authoritative, Harrison's own words)
 - Tag: capture
-- Status: new
+- Status: actioned 16 Aug (weekly review). No extractable done/shipped/kill claim, no live-state edit warranted. Reads as Harrison referring to the voice note below, not a standalone answer. No transcription capability in this session either, so the note stays untranscribed. form-lab already surfaced the re-send ask twice (15 and 16 Aug runs); not a third repeat here.
 
 ## 2026-08-14 17:53 (Telegram reply)
 - [voice message received, not transcribed. Re-send as text if it matters.]
 - Source: telegram reply (authoritative, Harrison's own words)
 - Tag: capture
-- Status: new
+- Status: actioned 16 Aug (weekly review). Cannot transcribe audio from this session. Left open at the form-lab layer, which already asked Harrison to re-send as text (15, 16 Aug); no further chase added here to avoid a third ask.
 
 ## 2026-08-14 10:30 (Harrison direct, mid-session)
 
@@ -214,7 +214,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - **The $1.4bn fake startup that fooled Temasek, SoftBank and two Big Four auditors for six years**, The ASEAN Angle, 26 Jul. Indonesian aquaculture firm eFishery told investors it had 400,000 smart feeders in the field, investigators found roughly 24,000, and reported revenue was overstated nearly five times, confirmed by two credentialled international audit firms every year since 2018. A clean, well-told case study in how audited paper can beat verified physical reality even for the most sophisticated institutional capital in the world. [https://theasianangle.substack.com/p/the-14b-fake-startup-that-hooked]
 - Source: discovery-scan
 - Tag: learning
-- Status: new
+- Status: archived 16 Aug (weekly review), 18 days, discovery-scan batch, nobody promoted any item. Reference only, per rule.
 
 ## 2026-07-27 14:07
 - **Claude Opus 5 ships**, Anthropic, 24 Jul. Confirms the "Honeycomb" rumour flagged 22 Jul: same price as Opus 4.8, close to Fable 5 capability in many domains, more than double Opus 4.8's coding benchmark score, an effort dial for trading cost against depth, and mid-task model switching that survives the prompt cache. This is the model layer the whole agent fleet runs on, worth a look at what changes for the daemons. [https://www.anthropic.com/news/claude-opus-5]
@@ -223,7 +223,7 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - **The Renegade Bank Robbers Who Stole Back Their Own Money**, Narratively, 24 Jul. When Lebanon's banks froze depositors out of their own savings after the 2019 collapse, ordinary people, a father, a cancer patient's daughter, started robbing their own bank branches to get their money back and became folk heroes for it. Genuinely wild, well-reported story about what people do when the system meant to protect them turns on them instead. [https://www.narratively.com/p/the-renegade-bank-robbers-who-stole]
 - Source: discovery-scan
 - Tag: learning
-- Status: new
+- Status: archived 16 Aug (weekly review), 20 days, discovery-scan batch, nobody promoted any item. Reference only, per rule.
 
 ## 2026-07-24 14:07
 - **Suffolk Construction CEO on the Job Site of the Future**, Engineering News-Record, 23 Jul. John Fish on the 293-terabyte "clean data lake," on-site AI engineers embedded across design, schedule and process, and a $2bn Dana Farber job where requisitions dropped from three and a half weeks to two. A named tier-one CEO articulating the embedded-intelligence thesis LOR's positioning work keeps reaching for, in his own words with real numbers behind it. [https://www.enr.com/articles/63348-suffolk-ceo-john-fish-on-ai-and-the-jobsite-of-the-future]
@@ -388,12 +388,18 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - **Building the most AI-pilled engineering team in the world**, Lenny's Podcast with Fiona Fung (Anthropic), 21 Jun. 80% of Anthropic's Claude Code team output is now AI-written. The team started feeling isolated. Anthropic added hackathons and pair programming lunches to restore social glue. The sharpest live BaW data point this month on what happens to teams when AI absorbs the work, plus practical framing for Harrison's own agentic OS pipeline. [https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering]
 - **Claude support for Apple's Foundation Models framework**, Anthropic, 28 Jun. Swift package makes Claude a drop-in model for any iOS 27 Foundation Models session. Harrison's Baseline app (SwiftUI + HealthKit) could add Claude-powered recovery analysis without leaving the Apple API surface. [https://claude.com/blog/claude-for-foundation-models]
 - **The Must-Read Articles of the Month**, Adam Grant / Substack, 22 Jun. Lead finding: higher-IQ women are less liked and more undermined by coworkers. Men pay no social cost for being smart. Holds across US and China. BaW pitch-opener material with clean citable methodology behind it. [https://adamgrant.substack.com/p/the-must-read-articles-of-the-month]
+- Source: discovery-scan
+- Tag: learning
+- Status: archived 16 Aug (weekly review), 48 days, discovery-scan batch, orphaned without a status line, nobody promoted any item. Reference only, per rule.
 
 ## 2026-06-26 14:07
 - **Leaving The Times (and Hard Fork)**, Kevin Roose / Substack, 18 Jun. Roose and Newton exit the NYT and Hard Fork in August to build an independent AI media company. Quote: "takes AI progress seriously." The founding moment of creator-owned AI journalism. If Newton is where Harrison goes for platform-era analysis, this is where Newton goes next. [https://kevinroose.substack.com/p/leaving-the-times]
 - **Costless Sacrifice**, Not Boring / Packy McCormick. If effort costs nothing, the signal collapses. McCormick's frame: AI-generated output is the "going off the gold standard for information." Claude Code projected at 20%+ of all daily commits by year-end. The case for why human-cost content, field notes, lived experience, real stakes, is the only remaining moat. Validates Harrison's publishing posture directly. [https://www.notboring.co/p/costless-sacrifice]
 - **(Ultra-)inflammation or adaptation? Comparison of different ultramarathon distances and their effect on the immune system**, Frontiers in Immunology, 2026. 100km runners show a sharper, faster leukocyte and IL-6 spike than 230km runners, a different immune signature at a different pace. Maps immune response by distance bucket, useful for planning recovery windows around the RTTS 50K build. [https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1799887/full]
 - **Mark Pincus: Why being less ambitious is the path to your most ambitious ideas**, Lenny's Podcast, ~23 Jun. Zynga founder on "Proven, Better, New" as a framework for sizing the next move. Constrained ambition compounds faster than unconstrained swings. Practical for studio-building stage where each move needs to fit the container. Timed to his book release. [https://www.lennysnewsletter.com/podcast/archive]
+- Source: discovery-scan
+- Tag: learning
+- Status: archived 16 Aug (weekly review), 51 days, discovery-scan batch, orphaned without a status line, nobody promoted any item. Reference only, per rule.
 
 ## 2026-06-24 14:07
 - **My Vibe Coding Adventure, The App and the Experience, Ten Takeaways**, Stratechery / Ben Thompson, 24 Jun. Thompson built an app he plans to use daily, then wrote ten takeaways. He is not a developer. That is what makes it worth reading: the sceptic-gone-hands-on account, the friction points, what surprised him. Directly relevant to Harrison's own OS-building posture and the Year One workshop case for non-technical builders. [https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/]
@@ -401,12 +407,18 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - **Escaping the Fate of the Wage Slave**, Dan Koe, 22 Jun. Five skills framework: Agency, Taste, Persuasion, Persistence, Iteration. The core argument: content mastery is more durable than code mastery as the AI-resistant moat, because content demands human perspective and subjective taste that AI cannot replicate. 3.4M views on X in 48 hours. The one-person studio thesis, said plainly. [https://letters.thedankoe.com/archive]
 - **Generative AI and the Knowledge Behavior Paradox**, Frontiers in Psychology, 22 Jun. AI adoption simultaneously increases knowledge sharing AND knowledge hiding in the same workers (dual-pathway mediation, 428 knowledge workers, China). Competitive climate amplifies both effects in opposite directions. Counter-intuitive and methodologically clean. Sharp BaW source: the same AI tools that empower also threaten, and the two responses intensify together. [https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1847724/full]
 - **Chelsea Best in Show 2026 permanently relocated to Sheffield**, BBC News, 22 Jun. Sarah Eberle's "On the Edge" (triple Best in Show, naturalistic edgelands, native British species, no showy florals, Gaia sculpture from a fallen tree) has been moved to Park Hill estate. The 2026 winning Chelsea aesthetic is restraint, ecology, and permanence over seasonal spectacle. Useful anchor for Creepers Q3 content positioning as they rebuild post-peat-policy. [https://www.bbc.co.uk/news/articles/c98277zgkpko]
+- Source: discovery-scan
+- Tag: learning
+- Status: archived 16 Aug (weekly review), 53 days, discovery-scan batch, orphaned without a status line, nobody promoted any item. Reference only, per rule. (The Sheffield relocation story resurfaced independently via the RHS's own 11 Aug follow-up, already banked fresh in the 12 Aug batch, so nothing here needed promoting.)
 
 ## 2026-06-22 14:07
 - **Self-hosted sandboxes and MCP tunnels in Claude Managed Agents**, Anthropic, June 2026. Self-hosted sandboxes are in public beta, MCP tunnels in research preview. Agents can now run tool calls on your own infrastructure and reach private MCP servers without exposing them to the internet. Directly upgrades what you can do with the Mac Mini agent pipeline. [https://claude.com/blog/claude-managed-agents-updates]
 - **Rethinking organizational design in the age of agentic AI**, MIT Technology Review, 26 May. 85% of organisations say they want to be agentic within three years, 76% say their infrastructure can't support the change. The gap is a BaW story: trust, psychological safety, and status dynamics in hybrid workforces are the real blockers, not the technology. [https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/]
 - **Ultra-endurance running accelerates red blood cell aging and breakdown**, American Society of Hematology / Blood Red Cells and Iron, Feb 2026. RBCs become less flexible and oxygen delivery impairs after 171km races, with elevated IL-6, kynurenine, and oxidative stress markers. Published February but not previously captured. Practical for recovery and nutrition protocol decisions in long-distance training. [https://www.hematology.org/newsroom/press-releases/2026/ultra-endurance-running-may-accelerate-aging-and-breakdown-of-rbcs]
 - **2026 Engineering and Construction Industry Outlook**, Deloitte Insights. 499,000-worker shortfall by 2026, 41% of the current workforce retiring by 2031, AI data centre construction as the only structural growth segment. The labour and narrative context LOR is operating in, compressed into one authoritative source. [https://www.deloitte.com/us/en/insights/industry/engineering-and-construction/engineering-and-construction-industry-outlook.html]
+- Source: discovery-scan
+- Tag: learning
+- Status: archived 16 Aug (weekly review), 55 days, discovery-scan batch, orphaned without a status line, nobody promoted any item. Reference only, per rule.
 
 ## 2026-06-22 (Dublin, laptop)
 - **Sync mini's `~/creepers-content-calendar/` source with the new prod deploy.** The live site at creepers-content-calendar.vercel.app was redeployed from the laptop on 22 June with a new 4-posts-a-week calendar (52 grid posts, down from 73). The mini's source folder still has the old 73-post version. On return Thursday, either copy the new `index.html` from the Vercel deployment back into `~/creepers-content-calendar/`, or rebuild from `business/clients/creepers-calendar-2026-jun-sep.csv` (now updated to match) so the mini stays canonical. New strategy lives at `business/clients/creepers-content-strategy-2026-06-22.md`.

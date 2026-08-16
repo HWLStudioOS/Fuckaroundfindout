@@ -422,3 +422,51 @@ No formal plan existed. Top 3 inferred from active state at week start (22 June)
 - Building systems to avoid obvious work: not seen. Real client deliverables shipped this fortnight (BM3, BM4, Danny's resolution, the BaW site build itself), consistent with genuine progress rather than displacement activity.
 
 ---
+
+## 2026-08-16 Sunday review (week W31 ending 2026-08-16)
+
+### Shipped
+
+- Better at Work: website final pass held (already with Cathal since 9 Aug, ball stays his) and MuscleWorks Bethnal Green joined with the Build + Engine training programme locked. Both closed the week's third top-3 outcome.
+- Jennifer Moss AI-adoption reel published on `@betteratworkpod` (13 Aug) after two earlier exports were rejected for jumpy crops and a weak open.
+- Creepers nursery commitment held: New Forest bee-pollination static published 13 Aug on `@creepersnursery`, closing the day's post after `A Buyer's Eye` was reviewed and deliberately held back and `The Rootball Check` was rejected and archived.
+- Netil House second room viewed 11 Aug, real emotional read ("oh yea baby"), but correctly not signed given it sits £404/month over the £1,000 ceiling. Attraction recorded, no premature commitment made.
+- Money housekeeping confirmed: £1,800 August director's drawings landed, David's £550 August salary paid, personal scout-trade decision closed (hold steady, no new capital until real surplus exists).
+- STNDRD's 7-day exercise-selection trial ran to completion: Push (10 Aug), Legs (12 Aug), Pull (14 Aug), all confirmed via Strava. The Thursday 4x4 VO2 session came in as a genuine full session (7.89km, 48:18, 83 relative effort, matches Wednesday's plan target).
+- Golf Saturday happened as scheduled (Richmond Park, tee 11:01), matching the week-one adjustment's active-recovery slot.
+
+### Missed
+
+- Cathal's repricing reply (HWL-250) is now 9 days unsent since his 7 Aug ask, and worse than last tracked: the "draft ready in Gmail" this-week.md has carried for two weeks does not exist, Gmail drafts came back empty this pass. Either it was sent from elsewhere (no evidence in sent mail) or deleted. This needs a fresh draft, not a resend.
+- Companies House director ID verification: flagged by Fazila 12 Aug, pencilled into today.md for 14 Aug, still not done. No gov.uk confirmation or code-sent-to-Fazila evidence anywhere in Gmail. The 2 Sept confirmation statement stays blocked, and Litchfields' own HMRC agent-authorisation deadline lands tomorrow, 17 Aug.
+- Danny Wicks's £800 plus VAT payment confirmation: zero Gmail activity in 21 days. Still open, still unchased by email (may be moving over WhatsApp, not visible here).
+- LOR: total silence this week. Zero Kerri, Sarah Garside or Emma email in the last 7 days, and Harrison declined the 11 Aug recurring catch-up outright. Half of August's ~£7,000 expected receivable is gone with no PO or invoice raised. Tomorrow's 18 Aug Kerri call is now the only remaining venue this month.
+- Sunday's prescribed 75-minute easy long run came in at 34 minutes moving time (5.2km), well short of the plan. Every other session in the week-one adjustment table was delivered in full; this is the one clear shortfall.
+- creative-lab's Telegram delivery failed for the third consecutive run (13, 15, 16 Aug). Root cause is now diagnosed and named: `creative-lab.sh` never got the outbox delivery block that `form-lab.sh` and `pattern-lab.sh` carry, and no allowlist entry exists for `node scripts/client-calendar.mjs`. This is a system gap, not a Harrison miss, engineering-track per SYSTEM-STATUS.md.
+- Four discovery-scan learning batches (22, 24, 26, 29 Jun) were found sitting with no Status line at all, 48 to 55 days old, never archived by any prior review pass. Archived this pass. Process gap: the 14-day archive rule was not being swept reliably before this run.
+
+### Reality check
+
+- **Money:** Computed Starling ~£139 per Friday's weekly-cfo run, thin and unconfirmed. Tax reserve £9,875, still unverified against the bank and not split between VAT and CT. No new client cash confirmed landed this week. LOR's ~£7,000 August receivable is fully unraised at the week's midpoint. First VAT return corrected to 7 Sept (was misreported as 7 Oct). Companies House block unresolved, see Missed.
+- **Health:** Strong week against the deliberate one-week adjustment. STNDRD's three sessions (Push, Legs, Pull) and the Thursday VO2 4x4 all landed on the day prescribed, confirmed via Strava. HRV stayed BALANCED all seven days (55-69ms), sleep ranged 6.1-8.2h with several 85+ scores, training readiness swung MODERATE to HIGH day to day as ACWR held 0.72-0.95. The one shortfall is Sunday's long run at under half the prescribed 75 minutes. Body weight remains stale since 29 April, now 109 days.
+- **Clients:** LOR is the sharpest risk, total silence against a live receivable and a real deadline (August closing). Creepers has a hard external deadline in 3 days (Pro Landscaper advert, 19 Aug) with three dependencies still open (anniversary year, designer credit, colour profile), and its own live calendar has drifted from reality again (the 13 Aug bee post isn't on it, Wednesday's "Fresh In #5" depends on a Shoot S5 with no evidence it happened). BaW's Cathal thread is stalled on the repricing reply. Squiggly Careers' precall brief is ready for tomorrow's 10:15 call, a real close on the "1 new client" goal already won in principle.
+- **Content:** The AI-interview elicitation format (Harrison's own 14 Aug capture) is the proposed answer for the September restart; its first live session ("Interview 001", 6 questions) sat on today's calendar 16:00-16:30, too recent to confirm either way from this run. form-lab's drip continues on an empty substance bank; Harrison's 14 Aug voice-note answer remains untranscribed, no capability to fix that from this session. creative-lab has a real, costed test proposal (Creepers specimen-selection reel) stuck for 3 days purely on a broken send path, not a Harrison decision.
+- **Capture inbox:** 8 items added since the 9 Aug review, 8 processed this pass, 0 remaining that need a decision. Processed: both 14 Aug Telegram replies (no extractable claim, marked actioned), plus 6 discovery-scan batches archived (29 and 27 Jul at 18-20 days old, and the four orphaned 22-29 Jun batches at 48-55 days old that had never been swept). The 10 and 12 Aug discovery-scan batches stay open, both inside the 14-day window.
+- **Attention:** Not independently measured this pass; an unread RescueTime weekly summary in the inbox reports 9h 49m under Reference & Learning for the week, not verified further.
+- **Maya:** A warm personal note went out 11 Aug (forwarded to both her personal and work addresses). No evidence of the usual Sunday coffee ritual, consistent with the long-running gap the system still can't see rather than a new absence.
+
+### Risks
+
+- **LOR is now the sharpest live risk.** Zero contact all week, a declined recurring call, and half of August's ~£7,000 gone with nothing invoiced. Tomorrow's 18 Aug call is the only remaining shot this month.
+- **Cathal's repricing reply is 9 days unsent and the supposed draft doesn't exist.** He is actively reviewing all podcast suppliers' costs; the longer this sits, the worse it reads regardless of the eventual answer.
+- **Companies House block compounds two deadlines at once**: the 2 Sept confirmation statement and Litchfields' own HMRC agent-authorisation, which lands tomorrow, 17 Aug.
+- **Creepers Pro Landscaper has a hard 19 Aug deadline** with three unresolved dependencies and only 3 days of runway left.
+- **creative-lab cannot deliver at all right now.** Three consecutive failed runs on the same root cause. Worth a direct engineering fix before another cycle burns on the same diagnosis.
+
+### Standards check (codex H17)
+
+- Proactive comms: mixed. Real, warm comms went out where the system had full information (Netil House, Fazila/KiwiSaver, Maya). But the two highest-leverage sends, Cathal's reply and any LOR contact, both sat completely untouched, the same pattern named in five of the last six reviews (5 Jul, 26 Jul, 9 Aug, now this). This has stopped being a one-off miss and is a standing behaviour worth naming plainly rather than re-flagging as new each time.
+- Self-attack disguised as discipline: not seen.
+- Building systems to avoid obvious work: not seen in Harrison's own choices this week. Worth noting separately that creative-lab has now spent three scheduled runs re-diagnosing the same broken send path instead of it being fixed, which is a system failing to close its own loop, not evidence of avoidance.
+
+---

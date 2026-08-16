@@ -1,25 +1,25 @@
 {
   "title": "The Board Room",
-  "week": "10 to 16 August 2026",
+  "week": "17 to 23 August 2026",
   "sourceDate": "2026-08-14",
-  "generatedAt": "2026-08-15T21:30:08.846Z",
-  "sourceCommit": "d7c959c",
+  "generatedAt": "2026-08-16T21:30:10.363Z",
+  "sourceCommit": "28462e4",
   "summary": {
-    "open": 36,
-    "active": 17,
+    "open": 40,
+    "active": 28,
     "inProgress": 0,
-    "waiting": 3,
-    "scheduled": 11,
+    "waiting": 4,
+    "scheduled": 3,
     "parked": 5,
-    "closedThisWeek": 26,
-    "completion": 60,
-    "xp": 3120,
-    "level": 7
+    "closedThisWeek": 0,
+    "completion": 0,
+    "xp": 0,
+    "level": 1
   },
   "tasks": [
     {
       "id": "HWL-269",
-      "title": "Launch capture, re-dated to the w/c 7 September restart: record one twenty-minute unscripted conversation plus five locked proof shots from the room, then one clean portrait. Cap the block at 60 minutes and do not edit same-day. Captures that arrive naturally before then still bank via the inbox.",
+      "title": "Launch capture, dated to the w/c 7 September restart: one twenty-minute unscripted conversation plus five locked proof shots, then one clean portrait.",
       "area": "Harrison Living",
       "state": "todo",
       "due": "2026-09-07",
@@ -30,8 +30,32 @@
       "rank": 1
     },
     {
+      "id": "HWL-242",
+      "title": "Take the Squiggly Careers x Harrison podcast production chat, 18 August 10:15 to 11:00 on Teams. This is the decision call on the £3,600-4,400/month pilot range sent 27 July; pre-call brief is ready at `business/clients/squiggly-careers-precall-2026-08-18.md`.",
+      "area": "Squiggly Careers",
+      "state": "todo",
+      "due": "2026-08-18",
+      "baseScore": 80,
+      "score": 80,
+      "reason": "Dated for Tuesday 11 August at 16:15. Arrive with the production and development position clear.",
+      "tier": "High",
+      "rank": 2
+    },
+    {
+      "id": "HWL-281",
+      "title": "Confirm Litchfields' HMRC agent-authorisation status. Weekly-cfo's 14 Aug run flagged the deadline landing 17 August, unconfirmed since 27 July.",
+      "area": "Money and admin",
+      "state": "todo",
+      "due": "2026-08-17",
+      "baseScore": 78,
+      "score": 78,
+      "reason": "Dated for 2026-08-17.",
+      "tier": "High",
+      "rank": 3
+    },
+    {
       "id": "HWL-273",
-      "title": "The Chase email system, due before the restart: choose the sending platform and public sender address, authenticate the domain, replace the temporary `chatgpt.site` relay, find and export any existing subscribers, test signup and welcome delivery, provide unsubscribe, and publish a privacy notice for the live capture form. Platform decision lands with Harrison in the week before restart.",
+      "title": "The Chase email system, due before the restart: platform decision, domain auth, subscriber export, signup test, unsubscribe, privacy notice.",
       "area": "Harrison Living",
       "state": "todo",
       "due": null,
@@ -39,11 +63,11 @@
       "score": 78,
       "reason": "The live form currently depends on a temporary relay. Own the list, sender identity, consent and unsubscribe before directing traffic at it.",
       "tier": "High",
-      "rank": 2
+      "rank": 4
     },
     {
       "id": "HWL-270",
-      "title": "Turn on the X layer at the w/c 7 September restart: update the name, bio, link and header from the approved profile copy, publish X01 after Harrison's one tap, and write five proper replies in the creator-operator, filmmaking or one-person-business lane.",
+      "title": "Turn on the X layer at the w/c 7 September restart.",
       "area": "Harrison Living",
       "state": "todo",
       "due": "2026-09-07",
@@ -51,11 +75,11 @@
       "score": 76,
       "reason": "The site is live but distribution is still off. Complete the X surface and first approved post today, then stop at five real replies.",
       "tier": "High",
-      "rank": 3
+      "rank": 5
     },
     {
       "id": "HWL-278",
-      "title": "Complete Companies House director ID verification for HWL Studio Limited and send the personal code to Fazila. The confirmation statement is due 2 September and cannot be filed until this is done.",
+      "title": "Complete Companies House director ID verification for HWL Studio Limited via the gov.uk link (passport or driving licence) and send the resulting code to Fazila. Flagged 12 Aug, pencilled for 14 Aug, still not done. The confirmation statement is due 2 September and cannot be filed until this clears.",
       "area": "Money and admin",
       "state": "todo",
       "due": "2026-09-02",
@@ -63,35 +87,35 @@
       "score": 74,
       "reason": "Dated for 2026-09-02.",
       "tier": "Next",
-      "rank": 4
+      "rank": 6
     },
     {
       "id": "HWL-271",
-      "title": "Film 001 is PARKED in full, Harrison's call 14 August. No build, no cut, no owed hours until the restart. Existing A-roll and captures stay banked. Re-plan the build week at restart.",
+      "title": "Film 001 stays PARKED in full until the restart.",
       "area": "Harrison Living",
       "state": "todo",
-      "due": "2026-08-14",
+      "due": null,
       "baseScore": 74,
       "score": 74,
       "reason": "Film 001 is the trust asset for the 23 August launch. The dated first-cut sequence prevents another unshipped video plan.",
       "tier": "Next",
-      "rank": 5
+      "rank": 7
     },
     {
       "id": "HWL-250",
-      "title": "Send Cathal the repricing reply: hold the £1,500 net floor, offer the scope-cut package (keep episode packaging, retire the monthly report for the live dashboard, drop LinkedIn ghostwriting, fold season planning into the fortnightly call), and raise the VAT-reclaim question first. Draft is ready in Gmail.",
-      "area": "Better at Work",
+      "title": "Send Cathal an actual repricing reply. His 7 Aug ask (£1,500 incl. VAT cap, scope-cut route already worked out) has sat 9 days unanswered, and the \"draft ready in Gmail\" this-week.md has carried for two weeks does not exist in Gmail drafts. Redraft, don't assume it's there.",
+      "area": "Client boundaries",
       "state": "todo",
       "due": null,
       "baseScore": 72,
       "score": 72,
       "reason": "The commercial position and draft already exist. Close it after the Season 5 launch package has had its final pass.",
       "tier": "Next",
-      "rank": 6
+      "rank": 8
     },
     {
       "id": "HWL-274",
-      "title": "Freeze Product 001's scope and commercial owner before the restart (by 4 September): inventory the actual customer files, reconcile the current four-versus-five-file copy, decide whether Harrison or HWL Studio is the seller, confirm VAT treatment and the Stripe account, and lock the walkthrough, licence, support and refund position before checkout is built.",
+      "title": "Freeze Product 001's scope and commercial owner before the restart (by 4 September).",
       "area": "Harrison Living",
       "state": "todo",
       "due": "2026-09-04",
@@ -99,23 +123,23 @@
       "score": 70,
       "reason": "Checkout should not be built around contradictory product copy or an undecided seller. Freeze the offer and commercial route this week.",
       "tier": "Next",
-      "rank": 7
+      "rank": 9
     },
     {
       "id": "HWL-272",
-      "title": "First written distribution cycle moves to the restart week: X02, LinkedIn 01, X03 and a Harrison-edited draft of Chase 001 across w/c 7 September. Every public post stays one-tap gated.",
+      "title": "First written distribution cycle moves to the restart week.",
       "area": "Harrison Living",
       "state": "todo",
-      "due": "2026-09-07",
+      "due": null,
       "baseScore": 66,
       "score": 66,
       "reason": "This is the first repeatable writing cycle. Keep it behind client deadlines, but do not let the week finish with another empty public surface.",
       "tier": "Next",
-      "rank": 8
+      "rank": 10
     },
     {
-      "id": "HWL-265",
-      "title": "Finalise the selected Creepers Pro Landscaper advert in Figma. Full bleed won and the dark editorial route is closed. Review client-feedback revision `435:2`, confirm Creepers' intended founding year and anniversary number, get the exact Hatchford garden-designer credit, replace the visible internal credit placeholder, then get Pro Landscaper's preferred colour profile before PDF export or supply. Nothing has been sent.",
+      "id": "HWL-283",
+      "title": "Check whether Shoot S5 (referenced by the live content calendar as the source for Wednesday's \"Fresh In #5\") actually happened. No evidence found this week that it did; the live calendar has drifted from what actually published before (the 13 Aug bee post isn't reflected on it at all).",
       "area": "Creepers",
       "state": "todo",
       "due": null,
@@ -123,11 +147,35 @@
       "score": 64,
       "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
       "tier": "Next",
-      "rank": 9
+      "rank": 11
+    },
+    {
+      "id": "HWL-282",
+      "title": "Confirm whether the NF3 New Forest shoot is still on for Wed 19 Aug. It is not on Google Calendar anywhere in the 16-24 Aug window and does not appear in today.md or this-week.md; creative-lab's specimen-selection reel test depends on it and cannot confirm the date from here.",
+      "area": "Creepers",
+      "state": "todo",
+      "due": null,
+      "baseScore": 64,
+      "score": 64,
+      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
+      "tier": "Next",
+      "rank": 12
+    },
+    {
+      "id": "HWL-265",
+      "title": "Finalise the selected Pro Landscaper advert in Figma before the 19 August deadline. Confirm Creepers' intended founding year and anniversary number, get the exact Hatchford garden-designer credit, replace the internal credit placeholder, then get Pro Landscaper's preferred colour profile before PDF export or supply.",
+      "area": "Creepers",
+      "state": "todo",
+      "due": "2026-08-19",
+      "baseScore": 64,
+      "score": 64,
+      "reason": "Dated for 2026-08-19.",
+      "tier": "Next",
+      "rank": 13
     },
     {
       "id": "HWL-254",
-      "title": "Edge Lab: decide what happens to the crypto arena now G2a's 14-day window has closed with rules/fable underperforming a buy-and-hold control. Continue paper-only, adjust, or stop. Macro book ties control, no action needed there.",
+      "title": "Edge Lab: decide what happens to the crypto arena now G2a's 14-day window closed with rules/fable underperforming a buy-and-hold control. Continue paper-only, adjust, or stop. Macro book ties control, no action needed there.",
       "area": "Money and admin",
       "state": "todo",
       "due": null,
@@ -135,11 +183,23 @@
       "score": 62,
       "reason": "G2a has closed without a pass. Record the next paper-only decision without arming capital.",
       "tier": "Next",
-      "rank": 10
+      "rank": 14
+    },
+    {
+      "id": "HWL-284",
+      "title": "Confirm whether today's \"Interview 001\" session (16:00-16:30, 6 questions, camera-on capture for the interview-elicitation format) actually happened, and route any answers into the substance bank. Too recent to confirm from this run.",
+      "area": "Harrison Living",
+      "state": "todo",
+      "due": null,
+      "baseScore": 60,
+      "score": 60,
+      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
+      "tier": "Next",
+      "rank": 15
     },
     {
       "id": "HWL-280",
-      "title": "Decide STAHK's v1 job before the restart (by 4 September): keep it as the shelf label on `hlivs.com` or point `stahk.com` directly to Product 001. Do not build a second website before demand exists. (Marker removed 14 August: the original HWL-266 ID was minted during the Linear outage and belongs to an unrelated Creepers issue; the next sync will create a fresh issue for this line.)",
+      "title": "Decide STAHK's v1 job before the restart (by 4 September): shelf label on `hlivs.com` or point `stahk.com` at Product 001.",
       "area": "Harrison Living",
       "state": "todo",
       "due": "2026-09-04",
@@ -147,11 +207,23 @@
       "score": 60,
       "reason": "Dated for 2026-09-04.",
       "tier": "Next",
-      "rank": 11
+      "rank": 16
+    },
+    {
+      "id": "HWL-285",
+      "title": "Decide on the Netil House second room: get Wi-Fi speed and VAT treatment in writing, then weigh the £404/month overage against the £1,000 ceiling before signing anything. The viewing itself (11 Aug) was a strong emotional yes; the number still doesn't fit.",
+      "area": "Studio operations",
+      "state": "todo",
+      "due": null,
+      "baseScore": 56,
+      "score": 56,
+      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
+      "tier": "Next",
+      "rank": 17
     },
     {
       "id": "HWL-275",
-      "title": "Instrument `hlivs.com` before the restart (by 4 September) with privacy-safe measurement for homepage views, product-page views, successful signups, outbound clicks and checkout once live, then record the pre-launch baseline.",
+      "title": "Instrument `hlivs.com` before the restart (by 4 September).",
       "area": "Harrison Living",
       "state": "todo",
       "due": "2026-09-04",
@@ -159,7 +231,31 @@
       "score": 56,
       "reason": "Install measurement before launch traffic arrives. It matters, but it should not displace capture, client delivery or the owned email path.",
       "tier": "Next",
-      "rank": 12
+      "rank": 18
+    },
+    {
+      "id": "HWL-289",
+      "title": "Fix creative-lab's Telegram delivery. Three consecutive failed runs (13, 15, 16 Aug) on the same diagnosed root cause: `creative-lab.sh` has no outbox delivery block (form-lab and pattern-lab both do) and no allowlist entry exists for `node scripts/client-calendar.mjs`. Engineering fix, not another scheduled retry. Flag for Codex.",
+      "area": "System",
+      "state": "todo",
+      "due": null,
+      "baseScore": 44,
+      "score": 44,
+      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
+      "tier": "Later",
+      "rank": 19
+    },
+    {
+      "id": "HWL-290",
+      "title": "Sweep `capture/inbox.md` discovery-scan batches for orphaned entries without a Status line going forward. Four batches (22-29 Jun) sat unarchived for 48-55 days before this run caught them; the 14-day rule needs to actually run each week, not just when remembered.",
+      "area": "System",
+      "state": "todo",
+      "due": null,
+      "baseScore": 44,
+      "score": 44,
+      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
+      "tier": "Later",
+      "rank": 20
     },
     {
       "id": "HWL-239",
@@ -171,11 +267,23 @@
       "score": 40,
       "reason": "The date request is already with Anna and Sarah-Louise. Keep visible, but do not let waiting work outrank Harrison-owned closes.",
       "tier": "Later",
-      "rank": 13
+      "rank": 21
+    },
+    {
+      "id": "HWL-286",
+      "title": "Decide STNDRD vs MARCHON GAIN for week two onward. STNDRD's 7-day trial (Push, Legs, Pull, 10-14 Aug) ran clean, but only delivered 2 upper and 1 lower session inside that window, not the full two-and-two split the trial was meant to prove out. Harrison's call whether it continues or MARCHON GAIN takes over per `health/training-plan.md`.",
+      "area": "Health",
+      "state": "todo",
+      "due": null,
+      "baseScore": 38,
+      "score": 38,
+      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
+      "tier": "Later",
+      "rank": 22
     },
     {
       "id": "HWL-251",
-      "title": "Get Danny Wicks's £800 plus VAT payment confirmation. The testimonial film and b-roll were delivered Friday 7 August, edited by Harrison. Delivery is closed.",
+      "title": "Get Danny Wicks's £800 plus VAT payment confirmation. Delivery has been closed since 7 August; zero Gmail activity on this in 21 days.",
       "area": "Client boundaries",
       "state": "todo",
       "due": "2026-08-07",
@@ -183,11 +291,35 @@
       "score": 38,
       "reason": "Delivery is complete. Keep the payment confirmation visible without treating it as unfinished production.",
       "tier": "Later",
-      "rank": 14
+      "rank": 23
+    },
+    {
+      "id": "HWL-287",
+      "title": "Record a fresh body-weight reading. Still stale since 29 April, now 109 days.",
+      "area": "Health",
+      "state": "todo",
+      "due": "2026-04-29",
+      "baseScore": 38,
+      "score": 38,
+      "reason": "Dated for 2026-04-29.",
+      "tier": "Later",
+      "rank": 24
+    },
+    {
+      "id": "HWL-288",
+      "title": "Week two per the eight-week plan (17-23 Aug): Monday 35 min easy, Wednesday 5x3min hard (2min jog), Friday 30 min easy, Sunday 80 min long. Last week's long run came in at 34 minutes against a 75-minute target, the one shortfall in an otherwise clean week, worth a deliberate correction rather than a repeat.",
+      "area": "Health",
+      "state": "todo",
+      "due": null,
+      "baseScore": 38,
+      "score": 38,
+      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
+      "tier": "Later",
+      "rank": 25
     },
     {
       "id": "HWL-243",
-      "title": "Confirm PO route and first invoice once Emma's window-one budget lands; Everton date and quote sit outside the £15k ceiling as a separate line.",
+      "title": "Use Monday 18 Aug's 16:00 Kerri catch-up to lock the PO route and raise the first invoice against the ~£7,000 expected in August. Zero Kerri, Sarah Garside or Emma contact all of last week, and the previous recurring catch-up was declined. Half the month is gone with nothing invoiced.",
       "area": "Laing O'Rourke",
       "state": "todo",
       "due": null,
@@ -195,11 +327,11 @@
       "score": 32,
       "reason": "This depends on Kerri and Emma's budget and PO route. It is commercially important, but not today's first move.",
       "tier": "Later",
-      "rank": 15
+      "rank": 26
     },
     {
       "id": "HWL-240",
-      "title": "Once Cathal reviews: lock the four Stripe decisions (price/currency, refund/support terms, whose account, fulfilment path) and set the production env vars. Don't start this before the review lands.",
+      "title": "Once Cathal reviews the website and the repricing reply lands: lock the four Stripe decisions (price/currency, refund/support terms, whose account, fulfilment path) and set the production env vars. Don't start before both land.",
       "area": "Better at Work",
       "state": "todo",
       "due": null,
@@ -207,11 +339,11 @@
       "score": 28,
       "reason": "Blocked until Cathal reviews the website. Do not start Stripe production work early.",
       "tier": "Later",
-      "rank": 16
+      "rank": 27
     },
     {
       "id": "HWL-245",
-      "title": "Watch morning-brief and weekly-review's acceptance streaks restart cleanly after the 3-6 Aug auth outage (weekly-cfo already hit its own 2-consecutive-Friday bar on 31 Jul + 7 Aug).",
+      "title": "Watch morning-brief's acceptance streak: 6/14 consecutive clean weekdays since the 7 Aug restart. weekly-review hit its own 2-consecutive-Sunday bar with this run (9 and 16 Aug). weekly-cfo remains ahead of its own bar (three consecutive clean Fridays: 31 Jul, 7 Aug, 14 Aug). v1 still needs all three simultaneously; morning-brief is now the long pole.",
       "area": "System",
       "state": "todo",
       "due": null,
@@ -219,11 +351,11 @@
       "score": 12,
       "reason": "Background system monitoring. It belongs below Harrison's client, money and health work.",
       "tier": "Later",
-      "rank": 17
+      "rank": 28
     },
     {
-      "id": "waiting-cathal-reprice-reply-is-send-gated-on-harrison-t",
-      "title": "Cathal: reprice reply is send-gated on Harrison. The website is already with him.",
+      "id": "waiting-cathal-needs-a-fresh-repricing-reply-the-old-dra",
+      "title": "Cathal: needs a fresh repricing reply, the old draft no longer exists.",
       "area": "Awaiting",
       "state": "waiting",
       "due": null,
@@ -234,8 +366,8 @@
       "rank": null
     },
     {
-      "id": "waiting-kerri-and-emma-lor-po-route-and-first-invoice-af",
-      "title": "Kerri and Emma (LOR): PO route and first invoice after Kerri returns. Results posts are stood down.",
+      "id": "waiting-kerri-and-lor-needs-real-contact-monday-s-call-i",
+      "title": "Kerri and LOR: needs real contact. Monday's call is the venue.",
       "area": "Awaiting",
       "state": "waiting",
       "due": null,
@@ -247,7 +379,7 @@
     },
     {
       "id": "waiting-danny-wicks-written-confirmation-of-the-800-plus",
-      "title": "Danny Wicks: written confirmation of the £800 plus VAT fee.",
+      "title": "Danny Wicks: written confirmation of the £800 plus VAT fee, 21 days silent.",
       "area": "Awaiting",
       "state": "waiting",
       "due": null,
@@ -258,14 +390,14 @@
       "rank": null
     },
     {
-      "id": "scheduled-better-at-work-production-deployment-after-catha",
-      "title": "Better at Work production deployment: after Cathal's website review and the Stripe decisions.",
-      "area": "Later",
-      "state": "scheduled",
+      "id": "waiting-companies-house-gov-uk-verification-then-the-cod",
+      "title": "Companies House: gov.uk verification, then the code to Fazila.",
+      "area": "Awaiting",
+      "state": "waiting",
       "due": null,
-      "baseScore": 24,
-      "score": 24,
-      "reason": "Deliberately dated. It should not steal attention from the active room.",
+      "baseScore": 18,
+      "score": 18,
+      "reason": "Visible, but owned by somebody else or blocked by an external response.",
       "tier": "Later",
       "rank": null
     },
@@ -282,92 +414,8 @@
       "rank": null
     },
     {
-      "id": "scheduled-17-august-lock-film-001-picture-and-sound-export",
-      "title": "17 August: lock Film 001 picture and sound, export the 4K master and 1080p review copy, then publish X04 after approval.",
-      "area": "Later",
-      "state": "scheduled",
-      "due": "2026-08-17",
-      "baseScore": 24,
-      "score": 24,
-      "reason": "Deliberately dated. It should not steal attention from the active room.",
-      "tier": "Later",
-      "rank": null
-    },
-    {
-      "id": "scheduled-18-august-upload-film-001-unlisted-finish-the-yo",
-      "title": "18 August: upload Film 001 unlisted, finish the YouTube name, description and banner, add description, chapters, end screen and `hlivs.com`, load all three Test and Compare packages, then cut one native vertical piece.",
-      "area": "Later",
-      "state": "scheduled",
-      "due": "2026-08-18",
-      "baseScore": 24,
-      "score": 24,
-      "reason": "Deliberately dated. It should not steal attention from the active room.",
-      "tier": "Later",
-      "rank": null
-    },
-    {
-      "id": "scheduled-19-august-finish-the-linkedin-and-instagram-prof",
-      "title": "19 August: finish the LinkedIn and Instagram profile surfaces, publish LinkedIn 02 and the first Instagram carousel after approval, then publish X05.",
-      "area": "Later",
-      "state": "scheduled",
-      "due": "2026-08-19",
-      "baseScore": 24,
-      "score": 24,
-      "reason": "Deliberately dated. It should not steal attention from the active room.",
-      "tier": "Later",
-      "rank": null
-    },
-    {
-      "id": "scheduled-20-august-finish-the-customer-zip-and-twenty-min",
-      "title": "20 August: finish the customer ZIP and twenty-minute walkthrough, connect the £19 founding checkout with automated fulfilment, cap the first price at 25 customers, add savable terms, seller and VAT details, instant-download consent, confirmation email, receipt, refund and support routes, complete a full test purchase, then deliver the identical pack free to Year One.",
-      "area": "Later",
-      "state": "scheduled",
-      "due": "2026-08-20",
-      "baseScore": 24,
-      "score": 24,
-      "reason": "Deliberately dated. It should not steal attention from the active room.",
-      "tier": "Later",
-      "rank": null
-    },
-    {
-      "id": "scheduled-21-august-hold-or-schedule-film-001-for-sunday-p",
-      "title": "21 August: hold or schedule Film 001 for Sunday, publish the native Instagram vertical after approval, use TikTok only if the cut works there without explanation, then publish X06.",
-      "area": "Later",
-      "state": "scheduled",
-      "due": "2026-08-21",
-      "baseScore": 24,
-      "score": 24,
-      "reason": "Deliberately dated. It should not steal attention from the active room.",
-      "tier": "Later",
-      "rank": null
-    },
-    {
-      "id": "scheduled-22-august-send-chase-001-to-a-test-address-and-v",
-      "title": "22 August: send Chase 001 to a test address and verify subject, mobile layout, links, sender identity, spelling and unsubscribe. Leave the film edit alone.",
-      "area": "Later",
-      "state": "scheduled",
-      "due": "2026-08-22",
-      "baseScore": 24,
-      "score": 24,
-      "reason": "Deliberately dated. It should not steal attention from the active room.",
-      "tier": "Later",
-      "rank": null
-    },
-    {
-      "id": "scheduled-23-august-publish-film-001-send-chase-001-put-th",
-      "title": "23 August: publish Film 001, send Chase 001, put the AI Content Engine founding edition live, pin X01 and answer real replies. No launch-day victory lap.",
-      "area": "Later",
-      "state": "scheduled",
-      "due": "2026-08-23",
-      "baseScore": 24,
-      "score": 24,
-      "reason": "Deliberately dated. It should not steal attention from the active room.",
-      "tier": "Later",
-      "rank": null
-    },
-    {
-      "id": "scheduled-10-september-review-the-distribution-and-product",
-      "title": "10 September: review the distribution and product evidence. Target three paid customers and two films, or write a specific diagnosis of reach, offer or conversion before changing the strategy.",
+      "id": "scheduled-10-september-review-harrison-living-s-distributi",
+      "title": "10 September: review Harrison Living's distribution and product evidence. Target three paid customers and two films, or write a specific diagnosis of reach, offer or conversion before changing the strategy.",
       "area": "Later",
       "state": "scheduled",
       "due": "2026-09-10",
@@ -378,8 +426,8 @@
       "rank": null
     },
     {
-      "id": "scheduled-six-film-pilot-after-film-001-the-room-decision-",
-      "title": "Six-film pilot after Film 001: the room decision on 6 September, the studio machines on 20 September, the 50K reflection on 4 October, Product 001 evidence on 18 October, then the full 90-day distribution review on 8 November. Titles stay provisional until the footage exists.",
+      "id": "scheduled-six-film-pilot-after-film-001-room-decision-6-se",
+      "title": "Six-film pilot after Film 001: room decision 6 September, studio machines 20 September, 50K reflection 4 October, Product 001 evidence 18 October, full 90-day distribution review 8 November. Titles stay provisional until the footage exists.",
       "area": "Later",
       "state": "scheduled",
       "due": "2026-09-06",
@@ -391,7 +439,7 @@
     },
     {
       "id": "parked-field-grade-01-the-index-and-every-product-002-o",
-      "title": "Field Grade 01, The Index and every Product 002 or 003 build. Keep the LUTs internal until Product 001 is live, the seven-frame test passes and unprompted demand exists.",
+      "title": "Field Grade 01, The Index and every Product 002 or 003 build.",
       "area": "Parked",
       "state": "parked",
       "due": null,
@@ -447,318 +495,6 @@
       "score": 8,
       "reason": "Explicitly parked. No guilt, no daily resurfacing.",
       "tier": "Later",
-      "rank": null
-    },
-    {
-      "id": "HWL-259",
-      "title": "Nikki has the Netil House brief. Await viewing options, book the right room, then check the hardwired upload speed, all-in cost, deposit, term and break clause before choosing.",
-      "area": "Studio operations",
-      "state": "done",
-      "due": null,
-      "baseScore": 58,
-      "score": 0,
-      "reason": "Nikki has the room, budget and fibre brief. Await her options, then book the right viewing.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-260",
-      "title": "Fable did not pass the client-editing test. After the fibre and proxy-media tests, decide David's editing lane through Council before buying hardware or changing the editor.",
-      "area": "Studio operations",
-      "state": "done",
-      "due": null,
-      "baseScore": 50,
-      "score": 0,
-      "reason": "Fable did not pass. Prove fibre and proxy workflow next, then decide David's lane through Council.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-268",
-      "title": "Rebuild and deploy `hlivs.com` as the Harrison Living front door, with the live AI Content Engine preview, new identity, mobile QA, social card and working Vercel domain. Completed 10 August.",
-      "area": "Harrison Living",
-      "state": "done",
-      "due": "2026-08-10",
-      "baseScore": 60,
-      "score": 0,
-      "reason": "Closed in the canonical weekly board.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-247",
-      "title": "Pro Landscaper advert: Friday's Sam call closed the rootball and client-input loop.",
-      "area": "Creepers",
-      "state": "done",
-      "due": null,
-      "baseScore": 64,
-      "score": 0,
-      "reason": "Closed in the canonical weekly board.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-248",
-      "title": "Friday's call closed the client input needed for Claude's advert selection. Do not reopen the choice with Sam.",
-      "area": "Creepers",
-      "state": "done",
-      "due": null,
-      "baseScore": 64,
-      "score": 0,
-      "reason": "Closed in the canonical weekly board.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-264",
-      "title": "Recover Claude's ranked selects, build the five Pro Landscaper Figma variants and complete the Option A RGB press proof plus contact sheet.",
-      "area": "Creepers",
-      "state": "done",
-      "due": null,
-      "baseScore": 64,
-      "score": 0,
-      "reason": "Closed in the canonical weekly board.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-256",
-      "title": "Fable basic Creepers edit test closed. Nice experiment, but it did not pass; the technology is not ready to own client editing yet.",
-      "area": "Creepers",
-      "state": "done",
-      "due": null,
-      "baseScore": 10,
-      "score": 0,
-      "reason": "Closed 10 August. The test did not pass and Fable does not own a client-editing lane.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-249",
-      "title": "Calendar verified against both Creepers grids, then reworked into a six-week, three-core-plus-one-optional runway and redeployed on 10 August. Sam's link is unchanged.",
-      "area": "Creepers",
-      "state": "done",
-      "due": "2026-08-10",
-      "baseScore": 97,
-      "score": 0,
-      "reason": "The live calendar is now verified and accurate through 10 August. Close the loop by sending the usable version to Sam.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-262",
-      "title": "`Why choose a nursery?` published on `@creepersnursery` on 10 August. Live post: https://www.instagram.com/creepersnursery/p/Db3hnvbjMsm/",
-      "area": "Creepers",
-      "state": "done",
-      "due": "2026-08-10",
-      "baseScore": 64,
-      "score": 0,
-      "reason": "Closed in the canonical weekly board.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-276",
-      "title": "New nursery post published on 13 August: Harrison posted a static photograph of a bee pollinating a flower at New Forest. `A Buyer's Eye` remains banked after Harrison rejected it as today's route.",
-      "area": "Creepers",
-      "state": "done",
-      "due": "2026-08-13",
-      "baseScore": 64,
-      "score": 0,
-      "reason": "Closed in the canonical weekly board.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-277",
-      "title": "Leave the optional 13 August `@creepersinstallation` slot empty. Rootball Check did not pass, and the Ferndale replacement reused previously posted material. Do not force a filler post.",
-      "area": "Creepers",
-      "state": "done",
-      "due": "2026-08-13",
-      "baseScore": 64,
-      "score": 0,
-      "reason": "Closed in the canonical weekly board.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-257",
-      "title": "Final-pass the Season 5 design system, make every launch component ready for use, then review it beside the verified site before calling the launch package done.",
-      "area": "Better at Work",
-      "state": "done",
-      "due": null,
-      "baseScore": 95,
-      "score": 0,
-      "reason": "Final-pass the Season 5 system until every component is ready for real launch use.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-258",
-      "title": "Final-pass the Season 5 website. Preview refreshed from commit `cce3f68`: all 93 sitemap routes return 200, the 101-page build passes, WCAG defects found in review are fixed, the tablet/mobile masthead and portrait composition are corrected, and dormant checkout still fails closed. Production is untouched.",
-      "area": "Better at Work",
-      "state": "done",
-      "due": null,
-      "baseScore": 93,
-      "score": 0,
-      "reason": "Make the final website adjustments, then review the complete Season 5 package with fresh eyes before calling it done.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-263",
-      "title": "Jennifer Moss AI-adoption reel captioned and published through `@betteratworkpod` on 13 August. Two earlier exports were rejected; the final 48-second cut opened directly on AI resistance and completed the empathy thought.",
-      "area": "Better at Work",
-      "state": "done",
-      "due": "2026-08-13",
-      "baseScore": 99,
-      "score": 0,
-      "reason": "The Jennifer reel is finished and the brand grid has been blank since 6 August. Publish this first today.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-231",
-      "title": "Share the finished Better at Work website preview with Cathal for review. It is with him, the ball is his.",
-      "area": "Better at Work",
-      "state": "done",
-      "due": null,
-      "baseScore": 52,
-      "score": 0,
-      "reason": "Closed in the canonical weekly board.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-241",
-      "title": "Prep the Caroline Webb podcast recording, 13 August 16:00 London (Riverside link confirmed on calendar).",
-      "area": "Better at Work",
-      "state": "done",
-      "due": "2026-08-13",
-      "baseScore": 78,
-      "score": 0,
-      "reason": "The Caroline Webb recording is Thursday 13 August. Finish the brief before the day becomes reactive.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-242",
-      "title": "Squiggly Careers x Harrison podcast production chat, 18 August 10:15 to 11:00 on Teams. Helen reissued the invite on 12 August and the start moved from 10:00 to 10:15.",
-      "area": "Better at Work",
-      "state": "done",
-      "due": "2026-08-18",
-      "baseScore": 80,
-      "score": 0,
-      "reason": "Dated for Tuesday 11 August at 16:15. Arrive with the production and development position clear.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-191",
-      "title": "Stand down the A-level results posts. Harrison closed the trigger on Sunday 9 August.",
-      "area": "Laing O'Rourke",
-      "state": "done",
-      "due": "2026-08-09",
-      "baseScore": 68,
-      "score": 0,
-      "reason": "Closed in the canonical weekly board.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-252",
-      "title": "Take the Monday morning Laurence meeting and leave with one explicit testimonial outcome or next step.",
-      "area": "Client boundaries",
-      "state": "done",
-      "due": null,
-      "baseScore": 99,
-      "score": 0,
-      "reason": "The Laurence meeting is this morning. Take it first and leave with one explicit testimonial outcome or next step.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-228",
-      "title": "Pause new personal scout trades. Harrison has no spare personal cash after roughly £500 of buys last week and reports the portfolio up about 20%, broker-unverified. Monitor only; do not amend the strategy or place further orders.",
-      "area": "Money and admin",
-      "state": "done",
-      "due": null,
-      "baseScore": 86,
-      "score": 0,
-      "reason": "Make the promised 14:30 amend-or-fold decision before any further personal trades.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-244",
-      "title": "Sweep the £675 owed to the tax reserve from the BaW receipt. Harrison confirmed done Sunday 9 August.",
-      "area": "Money and admin",
-      "state": "done",
-      "due": "2026-08-09",
-      "baseScore": 78,
-      "score": 0,
-      "reason": "Closed in the canonical weekly board.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-253",
-      "title": "£1,800 August director's drawings landed in the personal bank, confirmed by Harrison on 13 August.",
-      "area": "Money and admin",
-      "state": "done",
-      "due": "2026-08-00",
-      "baseScore": 84,
-      "score": 0,
-      "reason": "The August amount is set. Complete the £1,800 drawings transfer and record the real payment.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-279",
-      "title": "David's £550 August salary paid. Harrison confirmed it on 13 August. It cleared five days after the stated 8 August date and after two chases; the Danny Wicks wrap reel remains in a small revision pass.",
-      "area": "Money and admin",
-      "state": "done",
-      "due": "2026-08-50",
-      "baseScore": 78,
-      "score": 0,
-      "reason": "Closed in the canonical weekly board.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-261",
-      "title": "Join MuscleWorks Bethnal Green, then cancel Elevate Fitness. Third Space only wins if its pool and recovery layer justify £245 per month plus the £100 joining fee.",
-      "area": "Health",
-      "state": "done",
-      "due": null,
-      "baseScore": 90,
-      "score": 0,
-      "reason": "Choose the bodybuilding gym that matches the new goal, join it first, then cancel Elevate without creating a training gap.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-255",
-      "title": "Build + Engine programme locked: four lifting slots, four runs and Saturday rest or golf. STNDRD is on a seven-day exercise-selection trial after a positive Push session; MARCHON GAIN is the fallback. Baseline and 32/20 are frozen.",
-      "area": "Health",
-      "state": "done",
-      "due": null,
-      "baseScore": 20,
-      "score": 0,
-      "reason": "Build + Engine locked 10 August. Four lifting slots and four runs are fixed; STNDRD is on a seven-day delivery trial after a positive Push session.",
-      "tier": "Closed",
-      "rank": null
-    },
-    {
-      "id": "HWL-246",
-      "title": "Board Room: dependency advisories and state-dependent tests are repaired in merged PRs #12 and #20. Production was refreshed with the 10 to 16 August board on Monday 10 August.",
-      "area": "System",
-      "state": "done",
-      "due": "2026-08-16",
-      "baseScore": 44,
-      "score": 0,
-      "reason": "Closed in the canonical weekly board.",
-      "tier": "Closed",
       "rank": null
     }
   ]

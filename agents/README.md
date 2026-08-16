@@ -27,13 +27,13 @@ The Claude CLI session expired again. weekly-review (3 Aug 20:56), morning-brief
 
 | Agent | File | Schedule | Status | Acceptance |
 |---|---|---|---|---|
-| morning-brief | `agents/morning-brief.md` + `.sh` | 06:30 weekdays | RUNNING-CLEAN. Restored 7 Aug after the 3-6 Aug auth outage. The 10 Aug run completed, but its task state was superseded by Harrison's direct Sunday corrections after PR #12 merged. Source-precedence and Linear-marker rules were tightened the same morning. | 2/14 consecutive clean weekdays since the restart (7 and 10 Aug). Output accuracy remains watched separately. |
-| weekly-review | `agents/weekly-review.md` | Sun 18:00 | RUNNING-CLEAN. The 3 Aug run failed (AUTH_REQUIRED), leaving a 2-week gap in `agents/_review-log.md`. This 9 Aug run is a retro covering both missed weeks. | 1/2 after this run. Needs one more clean Sunday to hit acceptance. |
-| weekly-cfo | `agents/weekly-cfo.md` | Fri 16:00 | RUNNING-CLEAN. 31 Jul and 7 Aug both completed with Xero unreachable + manual snapshot fully done. | **2/2 consecutive clean Fridays, hits its own acceptance bar.** First of the three v1 agents to do so. v1 itself still needs all three simultaneously. |
+| morning-brief | `agents/morning-brief.md` + `.sh` | 06:30 weekdays | RUNNING-CLEAN. Clean weekday runs on 7, 10, 11, 12, 13 and 14 Aug, all with a verifier correction pass. | 6/14 consecutive clean weekdays since the 7 Aug restart. The long pole for v1. |
+| weekly-review | `agents/weekly-review.md` | Sun 18:00 | RUNNING-CLEAN. This 16 Aug run is the second consecutive clean Sunday after the 9 Aug retro run. | **2/2 consecutive clean Sundays, hits its own acceptance bar** as of this run. Second of the three v1 agents to do so. |
+| weekly-cfo | `agents/weekly-cfo.md` | Fri 16:00 | RUNNING-CLEAN. 31 Jul, 7 Aug and 14 Aug all completed with Xero unreachable + manual snapshot fully done. | **3/2 consecutive clean Fridays, ahead of its own acceptance bar.** First of the three v1 agents to reach it, still holding. |
 
 **v1 ships when all three hit acceptance simultaneously.**
 
-> As of 9 August 2026: weekly-cfo has reached its own acceptance criterion (2 consecutive clean Fridays, 31 Jul + 7 Aug). morning-brief and weekly-review both had their streaks reset to zero by the 3-6 Aug auth outage and are rebuilding from 7 and 9 Aug respectively. v1 is not close until all three read acceptance on the same day.
+> As of 16 August 2026: weekly-cfo and weekly-review have both reached their own acceptance criteria. morning-brief is the remaining gap, 6/14 consecutive clean weekdays since its 7 Aug restart, needs 8 more clean weekdays with no auth or source-accuracy break to bring v1 home.
 
 ## Secondary queue (post-v1)
 

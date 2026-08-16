@@ -1,118 +1,99 @@
 ---
-week: 10 to 16 August 2026
-generated: reconciled from Harrison direct state and live grids, 13 August 2026
-financial_truth_updated: 2026-08-07 16:00 BST
+week: 17 to 23 August 2026
+generated: weekly-review, 16 August 2026
+financial_truth_updated: 2026-08-14 16:00 BST
 ---
 
-# This week, 10 to 16 August 2026
+# This week, 17 to 23 August 2026
 
 ## Theme
 
-Reset the week around a secure fibre-connected edit base, the verified Creepers calendar, the Better at Work Season 5 close, one training delivery layer for bodybuilding plus VO2 work, and turning Harrison Living from a finished website into a working distribution loop. Do not rebuild the strategy again before the 10 September review.
+Close the two sends that have sat untouched the longest, Cathal's repricing reply and any real contact with LOR, before either one gets more expensive to leave silent. Clear the Companies House block before it compounds. Hit the two hard external deadlines that land mid-week: Creepers' Pro Landscaper advert (19 Aug) and the Squiggly Careers close (18 Aug). Training and the edit-base search continue in the background, not as this week's headline.
 
 ## Top 3 outcomes
 
-1. Harrison Living has real launch footage, an owned email path and a reviewed first cut of Film 001, without waiting for the office.
-2. A secure nearby edit base is shortlisted for the Mac mini and production kit while the building fibre request moves separately, then Creepers receives an accurate calendar site.
-3. Better at Work's Season 5 design system and website reach launch-ready quality, and the gym plus training route is chosen without rebuilding both 32/20 and Baseline.
+1. LOR's PO route and first August invoice are locked off Monday's Kerri call, and Cathal gets an actual reply on the repricing ask, closing both of the system's longest-standing unsent comms.
+2. Companies House director ID verification is done via gov.uk and the resulting code sent to Fazila, unblocking the 2 September confirmation statement, and Litchfields' HMRC agent-authorisation status is confirmed.
+3. Creepers' Pro Landscaper advert is finalised (anniversary year, designer credit, colour profile) and supplied before its 19 August deadline.
 
 ## Active board
 
-### Studio operations
+### Money and admin
 
-- [x] Nikki has the Netil House brief. Await viewing options, book the right room, then check the hardwired upload speed, all-in cost, deposit, term and break clause before choosing. <!-- linear:HWL-259 -->
-- [x] Fable did not pass the client-editing test. After the fibre and proxy-media tests, decide David's editing lane through Council before buying hardware or changing the editor. <!-- linear:HWL-260 -->
-
-### Harrison Living
-
-Re-anchored 14 August on Harrison's direct call: the public launch starts w/c 7 September, provisionally, pulled forward if a studio space lands sooner. He wants to start from the space, and ideas are coming back. Ingest continues untouched (capture bank, form-lab, pattern-lab, watchlist). Nothing public before the restart.
-
-- [x] Rebuild and deploy `hlivs.com` as the Harrison Living front door, with the live AI Content Engine preview, new identity, mobile QA, social card and working Vercel domain. Completed 10 August. <!-- linear:HWL-268 -->
-- [ ] Launch capture, re-dated to the w/c 7 September restart: record one twenty-minute unscripted conversation plus five locked proof shots from the room, then one clean portrait. Cap the block at 60 minutes and do not edit same-day. Captures that arrive naturally before then still bank via the inbox. <!-- linear:HWL-269 -->
-- [ ] Turn on the X layer at the w/c 7 September restart: update the name, bio, link and header from the approved profile copy, publish X01 after Harrison's one tap, and write five proper replies in the creator-operator, filmmaking or one-person-business lane. <!-- linear:HWL-270 -->
-- [ ] Film 001 is PARKED in full, Harrison's call 14 August. No build, no cut, no owed hours until the restart. Existing A-roll and captures stay banked. Re-plan the build week at restart. <!-- linear:HWL-271 -->
-- [ ] First written distribution cycle moves to the restart week: X02, LinkedIn 01, X03 and a Harrison-edited draft of Chase 001 across w/c 7 September. Every public post stays one-tap gated. <!-- linear:HWL-272 -->
-- [ ] The Chase email system, due before the restart: choose the sending platform and public sender address, authenticate the domain, replace the temporary `chatgpt.site` relay, find and export any existing subscribers, test signup and welcome delivery, provide unsubscribe, and publish a privacy notice for the live capture form. Platform decision lands with Harrison in the week before restart. <!-- linear:HWL-273 -->
-- [ ] Freeze Product 001's scope and commercial owner before the restart (by 4 September): inventory the actual customer files, reconcile the current four-versus-five-file copy, decide whether Harrison or HWL Studio is the seller, confirm VAT treatment and the Stripe account, and lock the walkthrough, licence, support and refund position before checkout is built. <!-- linear:HWL-274 -->
-- [ ] Instrument `hlivs.com` before the restart (by 4 September) with privacy-safe measurement for homepage views, product-page views, successful signups, outbound clicks and checkout once live, then record the pre-launch baseline. <!-- linear:HWL-275 -->
-- [ ] Decide STAHK's v1 job before the restart (by 4 September): keep it as the shelf label on `hlivs.com` or point `stahk.com` directly to Product 001. Do not build a second website before demand exists. (Marker removed 14 August: the original HWL-266 ID was minted during the Linear outage and belongs to an unrelated Creepers issue; the next sync will create a fresh issue for this line.) <!-- linear:HWL-280 -->
-
-### Creepers
-
-- [x] Pro Landscaper advert: Friday's Sam call closed the rootball and client-input loop. <!-- linear:HWL-247 -->
-- [x] Friday's call closed the client input needed for Claude's advert selection. Do not reopen the choice with Sam. <!-- linear:HWL-248 -->
-- [x] Recover Claude's ranked selects, build the five Pro Landscaper Figma variants and complete the Option A RGB press proof plus contact sheet. <!-- linear:HWL-264 -->
-- [x] Fable basic Creepers edit test closed. Nice experiment, but it did not pass; the technology is not ready to own client editing yet. <!-- linear:HWL-256 -->
-- [x] Calendar verified against both Creepers grids, then reworked into a six-week, three-core-plus-one-optional runway and redeployed on 10 August. Sam's link is unchanged. <!-- linear:HWL-249 -->
-- [x] `Why choose a nursery?` published on `@creepersnursery` on 10 August. Live post: https://www.instagram.com/creepersnursery/p/Db3hnvbjMsm/ <!-- linear:HWL-262 -->
-- [x] New nursery post published on 13 August: Harrison posted a static photograph of a bee pollinating a flower at New Forest. `A Buyer's Eye` remains banked after Harrison rejected it as today's route. <!-- linear:HWL-276 -->
-- [x] Leave the optional 13 August `@creepersinstallation` slot empty. Rootball Check did not pass, and the Ferndale replacement reused previously posted material. Do not force a filler post. <!-- linear:HWL-277 -->
-- [ ] Finalise the selected Creepers Pro Landscaper advert in Figma. Full bleed won and the dark editorial route is closed. Review client-feedback revision `435:2`, confirm Creepers' intended founding year and anniversary number, get the exact Hatchford garden-designer credit, replace the visible internal credit placeholder, then get Pro Landscaper's preferred colour profile before PDF export or supply. Nothing has been sent. <!-- linear:HWL-265 -->
-- [ ] Confirm the exact Surrey Season 4 shoot date with Anna and Sarah-Louise. Still pending. <!-- linear:HWL-239 -->
-
-### Better at Work
-
-- [x] Final-pass the Season 5 design system, make every launch component ready for use, then review it beside the verified site before calling the launch package done. <!-- linear:HWL-257 -->
-- [x] Final-pass the Season 5 website. Preview refreshed from commit `cce3f68`: all 93 sitemap routes return 200, the 101-page build passes, WCAG defects found in review are fixed, the tablet/mobile masthead and portrait composition are corrected, and dormant checkout still fails closed. Production is untouched. <!-- linear:HWL-258 -->
-- [x] Jennifer Moss AI-adoption reel captioned and published through `@betteratworkpod` on 13 August. Two earlier exports were rejected; the final 48-second cut opened directly on AI resistance and completed the empathy thought. <!-- linear:HWL-263 -->
-- [ ] Send Cathal the repricing reply: hold the £1,500 net floor, offer the scope-cut package (keep episode packaging, retire the monthly report for the live dashboard, drop LinkedIn ghostwriting, fold season planning into the fortnightly call), and raise the VAT-reclaim question first. Draft is ready in Gmail. <!-- linear:HWL-250 -->
-- [x] Share the finished Better at Work website preview with Cathal for review. It is with him, the ball is his. <!-- linear:HWL-231 -->
-- [ ] Once Cathal reviews: lock the four Stripe decisions (price/currency, refund/support terms, whose account, fulfilment path) and set the production env vars. Don't start this before the review lands. <!-- linear:HWL-240 -->
-- [x] Prep the Caroline Webb podcast recording, 13 August 16:00 London (Riverside link confirmed on calendar). <!-- linear:HWL-241 -->
-- [x] Squiggly Careers x Harrison podcast production chat, 18 August 10:15 to 11:00 on Teams. Helen reissued the invite on 12 August and the start moved from 10:00 to 10:15. <!-- linear:HWL-242 -->
-
-### Laing O'Rourke
-
-- [x] Stand down the A-level results posts. Harrison closed the trigger on Sunday 9 August. <!-- linear:HWL-191 -->
-- [ ] Confirm PO route and first invoice once Emma's window-one budget lands; Everton date and quote sit outside the £15k ceiling as a separate line. <!-- linear:HWL-243 -->
+- [ ] Complete Companies House director ID verification for HWL Studio Limited via the gov.uk link (passport or driving licence) and send the resulting code to Fazila. Flagged 12 Aug, pencilled for 14 Aug, still not done. The confirmation statement is due 2 September and cannot be filed until this clears. <!-- linear:HWL-278 -->
+- [ ] Confirm Litchfields' HMRC agent-authorisation status. Weekly-cfo's 14 Aug run flagged the deadline landing 17 August, unconfirmed since 27 July. <!-- linear:HWL-281 -->
+- [ ] Edge Lab: decide what happens to the crypto arena now G2a's 14-day window closed with rules/fable underperforming a buy-and-hold control. Continue paper-only, adjust, or stop. Macro book ties control, no action needed there. <!-- linear:HWL-254 -->
 
 ### Client boundaries
 
-- [ ] Get Danny Wicks's £800 plus VAT payment confirmation. The testimonial film and b-roll were delivered Friday 7 August, edited by Harrison. Delivery is closed. <!-- linear:HWL-251 -->
-- [x] Take the Monday morning Laurence meeting and leave with one explicit testimonial outcome or next step. <!-- linear:HWL-252 -->
+- [ ] Send Cathal an actual repricing reply. His 7 Aug ask (£1,500 incl. VAT cap, scope-cut route already worked out) has sat 9 days unanswered, and the "draft ready in Gmail" this-week.md has carried for two weeks does not exist in Gmail drafts. Redraft, don't assume it's there. <!-- linear:HWL-250 -->
+- [ ] Get Danny Wicks's £800 plus VAT payment confirmation. Delivery has been closed since 7 August; zero Gmail activity on this in 21 days. <!-- linear:HWL-251 -->
 
-### Money and admin
+### Laing O'Rourke
 
-- [ ] Complete Companies House director ID verification for HWL Studio Limited and send the personal code to Fazila. The confirmation statement is due 2 September and cannot be filed until this is done. <!-- linear:HWL-278 -->
-- [x] Pause new personal scout trades. Harrison has no spare personal cash after roughly £500 of buys last week and reports the portfolio up about 20%, broker-unverified. Monitor only; do not amend the strategy or place further orders. <!-- linear:HWL-228 -->
-- [x] Sweep the £675 owed to the tax reserve from the BaW receipt. Harrison confirmed done Sunday 9 August. <!-- linear:HWL-244 -->
-- [x] £1,800 August director's drawings landed in the personal bank, confirmed by Harrison on 13 August. <!-- linear:HWL-253 -->
-- [x] David's £550 August salary paid. Harrison confirmed it on 13 August. It cleared five days after the stated 8 August date and after two chases; the Danny Wicks wrap reel remains in a small revision pass. <!-- linear:HWL-279 -->
-- [ ] Edge Lab: decide what happens to the crypto arena now G2a's 14-day window has closed with rules/fable underperforming a buy-and-hold control. Continue paper-only, adjust, or stop. Macro book ties control, no action needed there. <!-- linear:HWL-254 -->
+- [ ] Use Monday 18 Aug's 16:00 Kerri catch-up to lock the PO route and raise the first invoice against the ~£7,000 expected in August. Zero Kerri, Sarah Garside or Emma contact all of last week, and the previous recurring catch-up was declined. Half the month is gone with nothing invoiced. <!-- linear:HWL-243 -->
+
+### Squiggly Careers
+
+- [ ] Take the Squiggly Careers x Harrison podcast production chat, 18 August 10:15 to 11:00 on Teams. This is the decision call on the £3,600-4,400/month pilot range sent 27 July; pre-call brief is ready at `business/clients/squiggly-careers-precall-2026-08-18.md`. <!-- linear:HWL-242 -->
+
+### Creepers
+
+- [ ] Finalise the selected Pro Landscaper advert in Figma before the 19 August deadline. Confirm Creepers' intended founding year and anniversary number, get the exact Hatchford garden-designer credit, replace the internal credit placeholder, then get Pro Landscaper's preferred colour profile before PDF export or supply. <!-- linear:HWL-265 -->
+- [ ] Confirm whether the NF3 New Forest shoot is still on for Wed 19 Aug. It is not on Google Calendar anywhere in the 16-24 Aug window and does not appear in today.md or this-week.md; creative-lab's specimen-selection reel test depends on it and cannot confirm the date from here. <!-- linear:HWL-282 -->
+- [ ] Confirm the exact Surrey Season 4 shoot date with Anna and Sarah-Louise. Still pending. <!-- linear:HWL-239 -->
+- [ ] Check whether Shoot S5 (referenced by the live content calendar as the source for Wednesday's "Fresh In #5") actually happened. No evidence found this week that it did; the live calendar has drifted from what actually published before (the 13 Aug bee post isn't reflected on it at all). <!-- linear:HWL-283 -->
+
+### Better at Work
+
+- [ ] Once Cathal reviews the website and the repricing reply lands: lock the four Stripe decisions (price/currency, refund/support terms, whose account, fulfilment path) and set the production env vars. Don't start before both land. <!-- linear:HWL-240 -->
+
+### Harrison Living
+
+Still re-anchored to the w/c 7 September restart per Harrison's 14 August call. Nothing here is due this week except the item below.
+
+- [ ] Confirm whether today's "Interview 001" session (16:00-16:30, 6 questions, camera-on capture for the interview-elicitation format) actually happened, and route any answers into the substance bank. Too recent to confirm from this run. <!-- linear:HWL-284 -->
+- [ ] Launch capture, dated to the w/c 7 September restart: one twenty-minute unscripted conversation plus five locked proof shots, then one clean portrait. <!-- linear:HWL-269 -->
+- [ ] Turn on the X layer at the w/c 7 September restart. <!-- linear:HWL-270 -->
+- [ ] Film 001 stays PARKED in full until the restart. <!-- linear:HWL-271 -->
+- [ ] First written distribution cycle moves to the restart week. <!-- linear:HWL-272 -->
+- [ ] The Chase email system, due before the restart: platform decision, domain auth, subscriber export, signup test, unsubscribe, privacy notice. <!-- linear:HWL-273 -->
+- [ ] Freeze Product 001's scope and commercial owner before the restart (by 4 September). <!-- linear:HWL-274 -->
+- [ ] Instrument `hlivs.com` before the restart (by 4 September). <!-- linear:HWL-275 -->
+- [ ] Decide STAHK's v1 job before the restart (by 4 September): shelf label on `hlivs.com` or point `stahk.com` at Product 001. <!-- linear:HWL-280 -->
+
+### Studio operations
+
+- [ ] Decide on the Netil House second room: get Wi-Fi speed and VAT treatment in writing, then weigh the £404/month overage against the £1,000 ceiling before signing anything. The viewing itself (11 Aug) was a strong emotional yes; the number still doesn't fit. <!-- linear:HWL-285 -->
 
 ### Health
 
-- [x] Join MuscleWorks Bethnal Green, then cancel Elevate Fitness. Third Space only wins if its pool and recovery layer justify £245 per month plus the £100 joining fee. <!-- linear:HWL-261 -->
-- [x] Build + Engine programme locked: four lifting slots, four runs and Saturday rest or golf. STNDRD is on a seven-day exercise-selection trial after a positive Push session; MARCHON GAIN is the fallback. Baseline and 32/20 are frozen. <!-- linear:HWL-255 -->
+- [ ] Decide STNDRD vs MARCHON GAIN for week two onward. STNDRD's 7-day trial (Push, Legs, Pull, 10-14 Aug) ran clean, but only delivered 2 upper and 1 lower session inside that window, not the full two-and-two split the trial was meant to prove out. Harrison's call whether it continues or MARCHON GAIN takes over per `health/training-plan.md`. <!-- linear:HWL-286 -->
+- [ ] Record a fresh body-weight reading. Still stale since 29 April, now 109 days. <!-- linear:HWL-287 -->
+- [ ] Week two per the eight-week plan (17-23 Aug): Monday 35 min easy, Wednesday 5x3min hard (2min jog), Friday 30 min easy, Sunday 80 min long. Last week's long run came in at 34 minutes against a 75-minute target, the one shortfall in an otherwise clean week, worth a deliberate correction rather than a repeat. <!-- linear:HWL-288 -->
 
 ### System
 
-- [ ] Watch morning-brief and weekly-review's acceptance streaks restart cleanly after the 3-6 Aug auth outage (weekly-cfo already hit its own 2-consecutive-Friday bar on 31 Jul + 7 Aug). <!-- linear:HWL-245 -->
-- [x] Board Room: dependency advisories and state-dependent tests are repaired in merged PRs #12 and #20. Production was refreshed with the 10 to 16 August board on Monday 10 August. <!-- linear:HWL-246 -->
+- [ ] Fix creative-lab's Telegram delivery. Three consecutive failed runs (13, 15, 16 Aug) on the same diagnosed root cause: `creative-lab.sh` has no outbox delivery block (form-lab and pattern-lab both do) and no allowlist entry exists for `node scripts/client-calendar.mjs`. Engineering fix, not another scheduled retry. Flag for Codex. <!-- linear:HWL-289 -->
+- [ ] Watch morning-brief's acceptance streak: 6/14 consecutive clean weekdays since the 7 Aug restart. weekly-review hit its own 2-consecutive-Sunday bar with this run (9 and 16 Aug). weekly-cfo remains ahead of its own bar (three consecutive clean Fridays: 31 Jul, 7 Aug, 14 Aug). v1 still needs all three simultaneously; morning-brief is now the long pole. <!-- linear:HWL-245 -->
+- [ ] Sweep `capture/inbox.md` discovery-scan batches for orphaned entries without a Status line going forward. Four batches (22-29 Jun) sat unarchived for 48-55 days before this run caught them; the 14-day rule needs to actually run each week, not just when remembered. <!-- linear:HWL-290 -->
 
 ## Awaiting or one-tap gates
 
-- Cathal: reprice reply is send-gated on Harrison. The website is already with him.
-- Kerri and Emma (LOR): PO route and first invoice after Kerri returns. Results posts are stood down.
-- Danny Wicks: written confirmation of the £800 plus VAT fee.
+- Cathal: needs a fresh repricing reply, the old draft no longer exists.
+- Kerri and LOR: needs real contact. Monday's call is the venue.
+- Danny Wicks: written confirmation of the £800 plus VAT fee, 21 days silent.
+- Companies House: gov.uk verification, then the code to Fazila.
 
 ## Scheduled later
 
-- Better at Work production deployment: after Cathal's website review and the Stripe decisions.
 - Edge Lab G2b eight-week evidence review: 31 August. Paper only until then.
-- 17 August: lock Film 001 picture and sound, export the 4K master and 1080p review copy, then publish X04 after approval.
-- 18 August: upload Film 001 unlisted, finish the YouTube name, description and banner, add description, chapters, end screen and `hlivs.com`, load all three Test and Compare packages, then cut one native vertical piece.
-- 19 August: finish the LinkedIn and Instagram profile surfaces, publish LinkedIn 02 and the first Instagram carousel after approval, then publish X05.
-- 20 August: finish the customer ZIP and twenty-minute walkthrough, connect the £19 founding checkout with automated fulfilment, cap the first price at 25 customers, add savable terms, seller and VAT details, instant-download consent, confirmation email, receipt, refund and support routes, complete a full test purchase, then deliver the identical pack free to Year One.
-- 21 August: hold or schedule Film 001 for Sunday, publish the native Instagram vertical after approval, use TikTok only if the cut works there without explanation, then publish X06.
-- 22 August: send Chase 001 to a test address and verify subject, mobile layout, links, sender identity, spelling and unsubscribe. Leave the film edit alone.
-- 23 August: publish Film 001, send Chase 001, put the AI Content Engine founding edition live, pin X01 and answer real replies. No launch-day victory lap.
-- 10 September: review the distribution and product evidence. Target three paid customers and two films, or write a specific diagnosis of reach, offer or conversion before changing the strategy.
-- Six-film pilot after Film 001: the room decision on 6 September, the studio machines on 20 September, the 50K reflection on 4 October, Product 001 evidence on 18 October, then the full 90-day distribution review on 8 November. Titles stay provisional until the footage exists.
+- 10 September: review Harrison Living's distribution and product evidence. Target three paid customers and two films, or write a specific diagnosis of reach, offer or conversion before changing the strategy.
+- Six-film pilot after Film 001: room decision 6 September, studio machines 20 September, 50K reflection 4 October, Product 001 evidence 18 October, full 90-day distribution review 8 November. Titles stay provisional until the footage exists.
 
 ## Parked
 
-- Field Grade 01, The Index and every Product 002 or 003 build. Keep the LUTs internal until Product 001 is live, the seven-frame test passes and unprompted demand exists.
+- Field Grade 01, The Index and every Product 002 or 003 build.
 - OnlineJobs.ph card.
 - ISA, camera, SSD and old float allocations.
 - Old golf-club outreach.
@@ -120,14 +101,10 @@ Re-anchored 14 August on Harrison's direct call: the public launch starts w/c 7 
 
 ## Ground truth
 
-- BM4 (Laura Gassner Otting) is live. BM3 (Russell Beck) is fully published and closed.
-- Better Moments #5 with Jennifer Moss is fully produced. After two rejected teaser exports, Harrison captioned and published the clean 48-second final cut on 13 August.
-- `Why choose a nursery?` is live on `@creepersnursery` from 10 August. `Fresh In #5` is not live. `@creepersinstallation` has no installation-only post newer than 30 July.
-- Squiggly Careers is a won client; the £3,600-4,400/month pilot range has been sent, awaiting Helen and Sarah's response.
-- Danny Wicks's testimonial film and b-roll were delivered Friday 7 August. David's first wrap-reel draft was strong and is in a small revision pass. The £800 plus VAT payment confirmation remains open.
-- Year One's eight-page pack and three Looms are dead. The Monday 10 August Laurence meeting now owns the testimonial outcome and any surviving next step.
-- HMRC VAT number is live: 523 6438 93, effective 30 June.
-- Tax reserve computes to £9,875 after the completed £675 sweep, pending bank verification. The £1,800 August drawings landed, confirmed 13 August.
-- The Claude CLI auth outage (3-6 Aug) is fixed; every scheduled daemon has run clean since 6 Aug.
-- Golf clubs and the 1-new-client-by-31-July campaigns are both closed (killed, and won via Squiggly, respectively). LOR Retainer stays parked behind Early Talent by choice, not cold.
-- Harrison Living: `hlivs.com` and `/content-engine` both returned HTTP 200 on 11 August. The page is a truthful pre-launch waitlist, not a finished product. Checkout, fulfilment, the owned email stack, legal terms and measurement remain open.
+- Better at Work: website final-passed and with Cathal for review since 9 Aug, ball is his. Jennifer Moss AI-adoption reel published 13 Aug on `@betteratworkpod`. MuscleWorks Bethnal Green joined; Build + Engine training programme locked.
+- Creepers: New Forest bee-pollination static published 13 Aug on `@creepersnursery`, closing that day's commitment. `A Buyer's Eye` held, `The Rootball Check` rejected and archived. Pro Landscaper advert at `435:2` (full bleed) is the client-selected lead, final approval still open, see Active board.
+- Money: £1,800 August director's drawings and David's £550 August salary both confirmed landed 13 Aug. Personal scout-trade decision closed 14 Aug (hold steady, no new capital). Computed Starling ~£139 per the 14 Aug weekly-cfo run, thin and unconfirmed. Tax reserve £9,875, unverified against the bank. First VAT return due 7 September (corrected from an earlier 7 October report).
+- Harrison Living: re-anchored to the w/c 7 September restart per Harrison's 14 August call. `hlivs.com` and `/content-engine` both return 200, truthful pre-launch waitlist only.
+- Squiggly Careers is a won client; the £3,600-4,400/month pilot range was sent 27 July, decision call is 18 August.
+- The Claude CLI auth outage (3-6 Aug) stays fixed; every scheduled daemon has run clean since.
+- The AI Content Engine ship-shelf item remains unshipped, `hwl-content-engine.vercel.app` still returns 404, 62 days on the shelf (first-seen 15 June). Cap stays at 3, no new item added this pass.

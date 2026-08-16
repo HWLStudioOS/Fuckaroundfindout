@@ -300,4 +300,25 @@ entry, and the delivery block copied into `creative-lab.sh`. No
 acknowledgment found in `capture/inbox.md`. This entry crosses the three-day
 staleness line at 17:00 on 16 Aug.
 
+**Noted, 16 Aug 17:00 run:** Staleness line crossed: three days proposed, never
+delivered. Third delivery attempt, still no working send path. `creative-lab.sh`
+still has no outbox delivery block (the 15 Aug outbox file was never sent; per
+`agents/_log.md` the wrapper delivered form-lab and pattern-lab messages on
+15 Aug but creative-lab's run line carries no send), and this session denied
+`node`, `curl`, WebFetch, exa fetch and Playwright, so both the mandatory slot
+script and every direct send path were closed again. `.claude/settings.json`
+still has no allowlist entry for `node scripts/client-calendar.mjs`. New
+information this run, via the allowlisted Calendar tools: the NF3 shoot is not
+on Harrison's Google Calendar anywhere in the 16 to 24 Aug window (no NF3,
+New Forest, Creepers or shoot events), and it appears in neither `today.md` nor
+`this-week.md`. That is not proof it slipped; the deployed calendar, which is
+where the shoot was recorded on 13 Aug, could not be re-verified from this
+session. But the test's only dependency now rests on a shoot no reachable
+source can see, and the tap window closes when NF3 shoots on Wed 19 Aug. If
+NF3 is off, this proposal should be re-targeted, not tapped. Full message
+written to `agents/outbox/creative-lab-2026-08-16.md`, desktop push sent
+pointing at it. No acknowledgment in `capture/inbox.md`; Harrison's 14 Aug
+replies were to the form-lab question, not this. Nothing in the ledger is
+`running`, so there were no results to close.
+
 **Result:** (window closes Sun 30 Aug)

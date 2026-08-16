@@ -76,14 +76,33 @@ is non-refundable so it is a real decision rather than an option to hold.
 | --- | --- | --- |
 | Tier | Red | 2026-08-16, Harrison |
 | Account email | `hazza.living@gmail.com` | 2026-08-16, Harrison |
-| Renewal date | **UNKNOWN, fill this in** | not verified |
+| First joined | November 2025 | 2026-08-16, Harrison |
+| **Lapsed** | **yes, renewal missed** | 2026-08-16, Harrison |
+| Re-joined | 16 August 2026 | 2026-08-16, Harrison |
+| Silver list position | **reset to 2026-08-16** | inferred, confirm with Arsenal |
+| Renewal date | confirm. Memberships are commonly season-bound rather than 12 months from purchase, so do not assume 16 Aug 2027 | not verified |
 | Auto-renew on | **UNKNOWN, confirm** | not verified |
 | Card on file valid | **UNKNOWN, confirm** | not verified |
-| Silver list position | unknown, held since first joined | not verified |
 | Season Ticket Waiting List | not joined | 2026-08-16, Harrison |
 
-Three unknowns above are the whole job. A dead card at allocation time loses a won
-ballot, because registration pre-authorises and charges automatically on success.
+### The lapse, recorded 16 August 2026
+
+Harrison first joined in November 2025, missed the renewal, and re-signed today. The
+Silver waiting list position holds only across unbroken membership, so the November 2025
+seniority is gone and the clock restarts from today. Roughly nine months lost.
+
+Nine months against a 15 to 20 year queue is survivable, and it is the cheapest possible
+version of this lesson. The same lapse in 2038 would cost thirteen years. This is no
+longer a hypothetical risk the renewal guard defends against, it is a thing that has
+already happened once.
+
+**Confirm with Arsenal whether the position genuinely reset**, or whether a re-join
+inside the same season preserves seniority. The published rule says no breaks, but the
+downside of asking is nothing and the upside is nine months.
+
+Three unknowns remain and they are the whole job: renewal date, auto-renew state, card
+validity. A dead card at allocation time loses a won ballot silently, because
+registration pre-authorises and charges automatically on success.
 
 ## Signal sources
 

@@ -34,9 +34,15 @@ So this agent has two jobs, and the second one matters more:
 
 Check the membership state table in `life/arsenal.md`.
 
+**This has already failed once.** Harrison joined in November 2025, missed the renewal,
+and re-joined on 16 August 2026, resetting roughly nine months of Silver seniority. Treat
+the renewal date as the highest-severity field in this system, not as admin.
+
 - If the renewal date is unknown, or is within 45 days, or auto-renew and card validity
   are unconfirmed, that is the message. Lead with it, above any ballot news. Say plainly
   what a lapse costs: the Silver queue position, not the £38.
+- Escalate the tone as the date approaches, and keep saying it until the table shows the
+  renewal confirmed. An unanswered renewal warning is not a delivered warning.
 - Search `hazza.living@gmail.com` via the `better-email` MCP server for renewal notices,
   failed payment notices and card expiry warnings from Arsenal. A failed renewal payment
   is the single highest-severity thing this agent can find.

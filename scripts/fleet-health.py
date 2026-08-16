@@ -125,6 +125,40 @@ def assess(now, runs):
     return rows
 
 
+def config_checks():
+    """Non-cadence checks. Things that are silently off rather than overdue."""
+    rows = []
+    if not CONFIG.is_file():
+        return [("telegram-config", "ERROR", f"no config at {CONFIG}", True)]
+    try:
+        cfg = json.loads(CONFIG.read_text())
+    except Exception as exc:
+        return [("telegram-config", "ERROR", f"config unreadable: {exc}", True)]
+
+    capture = ((cfg.get("telegram") or {}).get("botToken") or "").strip()
+    agent = ((cfg.get("agentBot") or {}).get("botToken") or "").strip()
+    if not agent:
+        rows.append(("telegram-agent", "NEVER",
+                     "agentBot.botToken is not set, so telegram-agent.py idles and has "
+                     "never run. Only the capture bot is live, which by design just "
+                     "acknowledges. Create a second bot with @BotFather.", True))
+    elif agent == capture:
+        rows.append(("telegram-agent", "ERROR",
+                     "agentBot.botToken equals the capture bot token. telegram-agent.py "
+                     "refuses to start, correctly: two pollers on one token fight over "
+                     "getUpdates. Use a distinct bot.", True))
+
+    voice = cfg.get("voice") or {}
+    if voice.get("enabled", True):
+        model = Path(voice.get("model") or (META / ".config/whisper/ggml-base.en.bin"))
+        if not model.expanduser().is_file():
+            rows.append(("voice-transcription", "MISSED",
+                         f"whisper model missing at {model}, so voice notes fall back "
+                         "to the placeholder. brew install whisper-cpp ffmpeg, then "
+                         "download a ggml model.", True))
+    return rows
+
+
 def render(now, rows):
     order = {"ERROR": 0, "NEVER": 1, "MISSED": 2, "PENDING": 3, "OK": 4}
     rows = sorted(rows, key=lambda r: (order.get(r[1], 9), r[0]))
@@ -201,7 +235,7 @@ def main():
         print(f"fleet-health: no log at {LOG}", file=sys.stderr)
         return 2
     now = datetime.now()
-    rows = assess(now, last_runs(LOG.read_text(errors="replace")))
+    rows = assess(now, last_runs(LOG.read_text(errors="replace"))) + config_checks()
     report, bad = render(now, rows)
     STATUS.write_text(report)
     os.chmod(STATUS, 0o600)

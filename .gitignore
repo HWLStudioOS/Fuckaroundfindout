@@ -114,3 +114,6 @@ codex/**/client_secret*.json
 # directory. Fixed in tests/test_queue_resource_leases.py on 13 August; this is
 # the backstop.
 <jarvis_core.database.Database object at *
+
+# Generated twice daily by scripts/fleet-health.py; the next run discards it.
+agents/_fleet-status.md

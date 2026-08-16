@@ -4,6 +4,31 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-08-16 13:30 (Sunday check-in, Harrison direct)
+
+- **Family, new and unmodelled.** Harrison's oldest brother had his niece this week. It was not a straightforward or safe birth. They went home and are now back in hospital. Harrison expects there may be significant support work next week. This is the largest unplanned variable in w/c 17 August and it is not on any board yet.
+- **Training incident this morning.** Near-syncope roughly 3.5 km into the prescribed 75-minute Sunday long run. He stopped, did not black out, and finished at 5.2 km. Strava confirms the event: activity 19763102521, lap 4 shows 620 s elapsed against 420 s moving, so 200 seconds stationary mid-lap, with the two Pavilion Cafe segments showing the same 199 s stop. Contributing factors, all named by Harrison: 18 holes at Richmond Park Saturday (tee 11:01), two beers, insufficient fluid, five 5:30 starts, seven consecutive training days.
+- **The heart-rate signature is the useful part.** Average HR 140, max 157 at roughly 6:37/km. On 11 August, same park and effectively the same easy pace, he averaged 155 with a max of 169. Same pace, 15 bpm lower today. That is not the dehydration signature people expect, which pushes HR up. Low blood volume with a blunted rate response fits presyncope better than overreaching does.
+- **The fuelling rail was skipped, and the plan already predicted this.** `health/training-plan.md` body-composition item 6 prescribes 30 to 60 g carbohydrate before Sunday's long run. The run started 09:45; every food Harrison listed (egg wraps, smoothie, chocolate almonds) was eaten afterwards. The week-one adjustment note already states golf is active load rather than full rest.
+- **Proposed rail, for Harrison's decision only.** The plan has knee rails and readiness rails and nothing covering presyncope or a failed fuelling day. Suggested addition: any lightheadedness or near-faint ends the session that day, no exceptions; a long run is not started within 18 hours of alcohol or 4+ hours on foot without carbohydrate and electrolytes beforehand; a second episode on a normally fuelled, hydrated, rested day is a GP conversation, not a training adjustment. `health/training-plan.md` is Harrison-owned per `agents/STATE-OWNERSHIP.md`, so this is a proposal and nothing has been written to that file.
+- **Body weight still stale since 29 April**, now 109 days. Body-composition item 1 says start a fresh seven-day average "this week" and it has not started. No calorie or protein target is valid until it does.
+- **State, his words.** Exhausted, frustrated, house to himself, day slipping, wants to stop working and cannot settle until he has confirmed nothing is being missed. Asked directly whether frustration at Maya's washing request was an overreaction.
+- Source: Harrison direct, Sunday afternoon check-in
+- Tag: health, family, capture
+- Status: new
+
+## 2026-08-16 13:30 (Sunday check-in scan, dated items not on the board)
+
+- **HMRC, first VAT return due 7 September 2026** (email 14 August). VAT must be added to the Business Tax Account before a return can be filed through third-party software. Not currently tracked in `this-week.md`. Note this stacks with the Companies House confirmation statement due 2 September, which is itself blocked behind the still-open director ID verification (HWL-278). Two statutory deadlines in the first week of September, both with prerequisites, both currently untracked as a sequence.
+- **Manus account deletion, back up by 23 August 2026.** Account name "Harrison Living". Two notices, 14 and 15 August. One week out. Decide whether anything in it is worth exporting or let it go deliberately rather than by default.
+- **STNDRD seven-day trial verdict is due Monday 17 August.** Trial began 10 August, expiry notice received 14 August. The training plan's pass test is explicit: it passes only if its sessions can serve two upper and two lower slots without forcing a six-day split or displacing the four runs. Evidence from the week: Push 10 Aug, Legs 12 Aug, Pull 14 Aug. Three lifting sessions delivered against four slots.
+- **Marchon subscription payment failing** (14 August, second notice). MARCHON GAIN is the named fallback if STNDRD fails, so this decision follows the STNDRD verdict rather than preceding it. Fix the payment or cancel, but not before Monday's call.
+- **Squarespace WHOIS contact message re `stahk.studio`** (15 August). Someone verified went through the domain contact form. Possibly an acquisition approach. Relevant to HWL-280, the open decision on STAHK's v1 job.
+- **`discovery-scan` still failing AUTH_REQUIRED** as of its 14 August 14:07 run, exit 78, needs an interactive `claude auth login`. Every other scheduled agent ran clean across 15 and 16 August. Note `morning-brief` not running on 15 or 16 August is expected weekday-only behaviour, not a fault, which is why `today.md` is correctly dated 14 August.
+- Source: Sunday check-in scan of Gmail, Calendar, Strava, `agents/_log.md`
+- Tag: admin, system
+- Status: new
+
 ## 2026-08-14 17:58 (Telegram reply)
 - Quick thoughts on that? First test of the system
 - Source: telegram reply (authoritative, Harrison's own words)

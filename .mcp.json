@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "better-email": {
+      "command": "npx",
+      "args": ["--yes", "@n24q02m/better-email-mcp@latest"],
+      "env": {
+        "EMAIL_CREDENTIALS": "${HWL_EMAIL_CREDENTIALS}"
+      }
+    }
+  }
+}

@@ -333,3 +333,10 @@
 - Training: Lower 1 missed per Strava (live-checked, not the stale 14:00 Garmin pull). A run happened instead, not what was prescribed for a lifting day. Not a race or taper week (training-plan.md status ACTIVE BIBLE, no race anchor), so no push threshold applies.
 - Campaigns moved: 2 (Creepers Pro Landscaper advert creative development, Better at Work Season 5 website final-pass and verification).
 - Tomorrow's first action: Publish the finished Creepers carousel, "Why choose a nursery?", on @creepersnursery. Ready since 10 August, now two days overdue.
+
+## 2026-08-17 evening
+- Shipped: Companies House director ID verification submitted and code sent to Fazila (Gmail confirmed 09:27, unblocks the 2 September confirmation statement), Cathal reprice call held (Granola "CQ x HL" plus calendar confirm the 11:00-12:00 slot, retainer held at £1,500 net, Season 5 launch confirmed for 15 September), STNDRD's seven-day exercise-selection trial passed its verdict and stays as the lifting programme, Creepers advert inputs and the NF3 shoot question sent to Anna via WhatsApp.
+- Missed: none confirmed, today's Arsenal call and the Marchon cancel/fix decision have no channel that can confirm or disprove them from here.
+- Training: Lower 1 lift done (Strava confirms "Afternoon Weight Training", 13:32-14:38, 69 min, 393 cal). No run logged, matching today's own calendar note ("Build + Engine week 2, Lower 1. No run today"), which explicitly overrode the plan's default Monday row of Upper 1 plus an easy run. Not a race or taper week (training-plan.md status ACTIVE BIBLE, no race anchor), so no push threshold applies regardless.
+- Campaigns moved: 0 confirmed today. campaign-chaser's own 10:07 run found every campaigns/*.md file either authoritative, parked or closed, no live outbound loop open to move.
+- Tomorrow's first action: Read the Squiggly precall close note before the 10:15 Teams call and anchor on £4,100, not the £4,400 this-week.md and the offer doc still carry.

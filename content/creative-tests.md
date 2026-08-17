@@ -321,4 +321,23 @@ pointing at it. No acknowledgment in `capture/inbox.md`; Harrison's 14 Aug
 replies were to the form-lab question, not this. Nothing in the ledger is
 `running`, so there were no results to close.
 
+**Noted, 17 Aug 17:00 run:** Fourth day proposed, guard active, nothing new
+proposed. No results to close, nothing is running. The slot script was denied
+again, `.claude/settings.json` still has no allowlist entry for
+`node scripts/client-calendar.mjs`, and `creative-lab.sh` still has no outbox
+delivery block, so the Telegram path stayed shut for a fourth run. Real
+movement on the dependency, all on Harrison's side: the 16 Aug weekly review
+logged the NF3 confirmation question as HWL-282 in `this-week.md`, a 10:10
+calendar hold this morning bundled it into the Anna send, and per
+`capture/inbox.md` Harrison asked Anna by WhatsApp at midday, the advert
+inputs plus whether NF3 still shoots Wed 19 Aug. Her answer is pending on
+WhatsApp, which no reachable source can see. Gmail carries zero Creepers or
+NF3 threads in the last 3 days and Google Calendar still has no shoot event,
+only Harrison's own send hold. Practical tap deadline is Tuesday 18 Aug
+evening: the two extra shot-list items need approving before NF3 shoots
+Wednesday. If Anna kills or moves NF3, this proposal retargets with the shoot
+rather than dying quietly. Message written to
+`agents/outbox/creative-lab-2026-08-17.md`; send attempted from inside the
+session, desktop push as fallback.
+
 **Result:** (window closes Sun 30 Aug)

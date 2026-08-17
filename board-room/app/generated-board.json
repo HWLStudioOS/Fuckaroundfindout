@@ -1,9 +1,9 @@
 {
   "title": "The Board Room",
   "week": "17 to 23 August 2026",
-  "sourceDate": "2026-08-14",
-  "generatedAt": "2026-08-16T21:30:10.363Z",
-  "sourceCommit": "28462e4",
+  "sourceDate": "2026-08-17",
+  "generatedAt": "2026-08-17T21:30:10.335Z",
+  "sourceCommit": "5660df7",
   "summary": {
     "open": 40,
     "active": 28,

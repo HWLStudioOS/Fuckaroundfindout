@@ -4,6 +4,34 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-08-17 14:07
+- **Anthropic's Watermarking, How It (Probably) Works, Worse Than It Seems**, Stratechery, 12 Aug. Ben Thompson on why Anthropic's EU-law-driven watermarking is a bad idea for philosophical reasons before it's even a technical one. A direct read against how the Jarvis action ledger should think about AI accountability and disclosure, from the writer whose framing HWL leans on most. [https://stratechery.com/2026/anthropics-watermarking-how-it-probably-works-worse-than-it-seems/]
+- **Claude Code Week 32 digest**, Anthropic, 14 Aug. Self-hosted cloud environments hit public beta, auto mode became the default permission mode for new sessions on 14 Aug, and TaskCreate/TodoWrite are now off by default on Sonnet 5, Opus 4.8 and Fable 5 unless `CLAUDE_CODE_ENABLE_TODO_TOOLS=1` is set. That last one is a live operational note, this exact session got a task-tool reminder mid-run. [https://code.claude.com/docs/en/whats-new/2026-w32]
+- **I Thought I'd Lost the Plot. I Was Writing It.**, Joe Black, 10 Aug. Two years building agent scaffolding (a 14-mode multi-agent failure taxonomy, memory consolidation, verification layers) before autonomy actually held, then nine PRs merged unattended overnight while he slept, one agent fixing the bug the other one caused. A close mirror of where the Mac Mini daemon fleet is trying to get to, written by someone a few steps further down the same road. [https://joeblackwaslike.substack.com/p/i-thought-id-lost-the-plot-i-was]
+- **The Bots Always Find Something**, Avy Faingezicht, 14 Aug. A solo founder building a money-handling product entirely with AI agents on why automated code review bots always surface findings, because they're built to, not because the finding is worth the fix, and why that quietly p-hacks your own codebase. Sharp, short, and lands directly on how to read output from `/code-review` and the Board Room review gate rather than trusting the finding count. [https://faingezicht.com/articles/2026/08/14/the-bots-always-find-something/]
+- **The ripple effects of leader humor on follower thriving at work**, Humanities and Social Sciences Communications, 12 Aug. 307 employees across five South China real estate firms: leader humor predicts thriving through two separate social paths, follower humor and coworker humor, both raising team-member exchange, not just one direct effect. Sharper mechanism than the RTO and cynicism studies already banked, same BaW pitch lane. [https://www.nature.com/articles/s41599-026-08713-8]
+- Source: discovery-scan
+- Tag: learning
+- Status: new
+
+## 2026-08-17 12:00 (Monday session, Harrison direct + call pulls)
+
+- **Cathal reprice call, 11:00, ran an hour.** No cut agreed, no cap agreed, retainer stays £1,500 net plus VAT. Cathal to confirm BaW's VAT registration timeline with his accountant; if registered soon nothing changes, if months away scope (not rate) gets looked at. Entity and separate brand/site pricing not discussed on the call, both go in the written follow-up. Full outcome in `business/clients/baw.md`. Season 5 launches Tue 15 Sept, filming day targeting Wed 2 Sept at Squiggly's studio.
+- **Squiggly correction:** the range actually sent on 27 July is £3,400 to £4,100 plus VAT (verified from the sent email), not £3,600 to £4,400 as `this-week.md`, `money/weekly.md`, the offer doc and the pre-call brief say. Anchor on £4,100 tomorrow. Close note appended to `business/clients/squiggly-careers-precall-2026-08-18.md`.
+- **LOR correction:** the ET campaign is a £15,000 fixed ceiling per the 5 Aug call notes; first invoice on 50%-on-PO terms is £7,500, not ~£7,000. No PO exists. Harrison owes LOR the £15k allocation sheet, Everton quote and reflowed plan since 5 Aug, blocked Thu 20 Aug 14:00. Prep in `business/clients/lor-kerri-prep-2026-08-18.md`.
+- **Money proposal (Harrison-owned file):** `money/index.md` logs INV-0397 (29 Jun) as £1,500; the invoice was £1,900 (retainer £1,500 + £400 studio support), paid 7 Jul. Harrison to confirm the correction.
+- **Litchfields:** Companies House director ID verification done 17 Aug, code sent to Fazila. HMRC agent authorisation was accepted by Harrison on 27 July (his own email), so that loop is closed; open question sent to Fazila is the first VAT return date, HMRC email says 7 Sept, Fazila said 7 Oct.
+- **Danny Wicks:** the £800 plus VAT chase is parked by Harrison until David's second wrap-reel revision lands. David's revision has no date.
+- **Creepers:** advert inputs (anniversary number, Hatchford credit, colour profile) and NF3 confirmation asked of Anna by WhatsApp 17 Aug, not email.
+- **Training:** STNDRD passes the seven-day trial, stays. Marchon subscription to be cancelled (payment already failing).
+- **Starlink:** rental kit never returned, 30-day window closed 9 Aug, no charge email seen, Harrison to check starlink.com/account billing and drop the kit at DHL regardless.
+- **Disk:** 32 GB free, 97%. Cause is the 13 Aug iCloud materialisation, not new growth; `bird` is idle and will not evict on its own. Report and reclaim list in `research/2026-08-17-disk-delta.md`, awaiting Harrison's go.
+- **Squarespace WHOIS message re stahk.studio (15 Aug):** spam, a web-design solicitation. Closed.
+- **discovery-scan:** not stuck. Auth is live, the 14 Aug fail was a transient gap, next run 17 Aug 14:07 self-heals.
+- Source: Harrison direct, Granola `CQ x HL`, Gmail sent items, session research files (`research/2026-08-17-*.md`, `money/mac-mini-dad-2026-08-17.md`, `business/clients/baw-value-ledger-2026-08-17.md`)
+- Tag: client, money, admin, health, system
+- Status: new
+
 ## 2026-08-16 13:30 (Sunday check-in, Harrison direct)
 
 - **Family, new and unmodelled.** Harrison's oldest brother had his niece this week. It was not a straightforward or safe birth. They went home and are now back in hospital. Harrison expects there may be significant support work next week. This is the largest unplanned variable in w/c 17 August and it is not on any board yet.

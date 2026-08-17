@@ -2,6 +2,6 @@
   "name": "betteratwork-summer",
   "private": true,
   "dependencies": {
-    "redis": "^4.7.0"
+    "redis": "^6.2.1"
   }
 }

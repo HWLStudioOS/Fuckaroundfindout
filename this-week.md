@@ -26,7 +26,7 @@ Close the two sends that have sat untouched the longest, Cathal's repricing repl
 
 ### Client boundaries
 
-- [ ] Send Cathal an actual repricing reply. His 7 Aug ask (£1,500 incl. VAT cap, scope-cut route already worked out) has sat 9 days unanswered, and the "draft ready in Gmail" this-week.md has carried for two weeks does not exist in Gmail drafts. Redraft, don't assume it's there. <!-- linear:HWL-250 -->
+- [x] Send Cathal an actual repricing reply. His 7 Aug ask (£1,500 incl. VAT cap, scope-cut route already worked out) has sat 9 days unanswered, and the "draft ready in Gmail" this-week.md has carried for two weeks does not exist in Gmail drafts. Redraft, don't assume it's there. (closed 17 Aug call, hold current rate, no send) <!-- linear:HWL-250 -->
 - [ ] Get Danny Wicks's £800 plus VAT payment confirmation. Delivery has been closed since 7 August; zero Gmail activity on this in 21 days. <!-- linear:HWL-251 -->
 
 ### Laing O'Rourke
@@ -80,7 +80,7 @@ Still re-anchored to the w/c 7 September restart per Harrison's 14 August call. 
 
 ## Awaiting or one-tap gates
 
-- Cathal: needs a fresh repricing reply, the old draft no longer exists.
+- Cathal: closed 17 Aug call, hold current rate, no send.
 - Kerri and LOR: needs real contact. Monday's call is the venue.
 - Danny Wicks: written confirmation of the £800 plus VAT fee, 21 days silent.
 - Companies House: gov.uk verification, then the code to Fazila.

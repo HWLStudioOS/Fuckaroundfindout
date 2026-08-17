@@ -1,13 +1,13 @@
 ---
 date: 2026-08-17
-generated: Gmail reconcile, 13:20 London
+generated: Cathal outcome, 14:05 London
 ---
 
 # Today, Monday 17 August 2026
 
 ## Pulse
 
-Companies House is done. Code XH3-NNML-2223 went to Fazila at 10:27. Cathal's 11:00 call has no written outcome and no send after it. Anna and Danny were not emailed this morning. Marchon failed payment again last night. Squiggly is tomorrow 10:15. Creepers advert is Wednesday.
+Companies House is done. Cathal is closed: great call, every loop shut, hold the current rate. No send. Anna and Danny were not emailed this morning. Marchon failed payment again last night. Squiggly is tomorrow 10:15. Creepers advert is Wednesday.
 
 ## Yesterday wrap
 
@@ -16,13 +16,12 @@ Last written board was Friday 14 August. Weekend wrap from Sunday check-in still
 ## Today
 
 - [x] Complete Companies House director ID verification and send the code to Fazila. Sent 17 Aug 10:27 BST. Code XH3-NNML-2223. Follow-up 10:29 with a business-account screenshot. No reply from Fazila yet.
-- [ ] Get one line on the Cathal 11:00 call (hold / cap / VAT registered / entity). No confirmation email. The 7 Aug reprice reply was not sent. Calendar said the call replaces the send.
+- [x] Cathal 11:00 call. Harrison: great call, every loop is closed, holding rate as it is for now. No Gmail send. The call replaced the 7 Aug reprice reply.
 - [ ] Call STNDRD versus MARCHON. Trial notice 14 Aug. Marchon mailed 16 Aug 21:20 that the subscription will be cancelled after another failed payment. Verdict is not in mail.
 
 ## Awaiting response
 
 - Fazila: VAT already on the business tax account or not, and what she needs for the 7 September return. Also HMRC agent-authorisation, still unconfirmed.
-- Cathal: website review since 9 Aug. Reprice outcome unknown until Harrison writes it down.
 - Kerri, Sarah Garside, Emma (LOR): zero mail since a cancelled catch-up on 21 July. Tuesday 18 Aug 16:00 is still the venue. First invoice is £7,500 (50% of the £15,000 ET ceiling), not ~£7,000. No PO.
 - Helen Tupper (Squiggly): Tuesday 18 Aug 10:15-11:00 Teams. Range actually sent 27 July was £3,400 to £4,100 plus VAT. Anchor on £4,100.
 - Danny Wicks: £800 plus VAT confirmation. Zero Gmail threads in 30 days.
@@ -33,21 +32,21 @@ Last written board was Friday 14 August. Weekend wrap from Sunday check-in still
 
 - Creepers Pro Landscaper advert, deadline 19 Aug. Last Anna/Sam thread 6-7 Aug. No send this morning. NF3 New Forest 19 Aug still unconfirmed in mail and not on calendar.
 - Family: oldest brother's niece back in hospital.
-- Better at Work W7-8 started today on the live tracker. Stripe stays gated on Cathal.
+- Better at Work W7-8 started today on the live tracker. Rate holds. Stripe is no longer waiting on a reprice unknown. Do not start Stripe from here.
 - Netil House: Nikki 11 Aug offered a viewing that afternoon or Thursday 1-3. Wi-Fi and VAT still not in writing.
 - Harrison Living: parked until w/c 7 September. Film 001 PARKED.
 - Manus account "Harrison Living": deletion backup by 23 August.
 
 ## Standing
 
-Health: near-syncope Sunday. Body weight stale since 29 April, 110 days. Week two is Upper 1 plus 35 min easy. No Garmin or Strava pull.
+Health: Garmin live 17 Aug 13:25. Readiness 81 High. Sleep 6h 47m, score 84. RHR 47. HRV 59 ms Balanced. No activity synced today. Sunday on Garmin: Hackney Running 5.20 km, 34:28, avg HR 140. Weight last 86.0 kg, week of 31 March, goal 80.0. Week two still Upper 1 plus 35 min easy.
 
-Money: tax reserve £9,875, bank-unverified. LOR first invoice £7,500, no PO. VAT return 7 September. Confirmation statement 2 September, ID code now with Fazila. Starling last computed ~£139 on 14 August.
+Money: tax reserve £9,875, bank-unverified. LOR first invoice £7,500, no PO. VAT return 7 September. Confirmation statement 2 September, ID code now with Fazila. Starling last computed ~£139 on 14 August. BaW rate holds.
 
-Clients: LOR silent. Cathal outcome unwritten. Squiggly tomorrow. Creepers advert Wednesday. Danny still open.
+Clients: LOR silent. Cathal closed, rate holds. Squiggly tomorrow. Creepers advert Wednesday. Danny still open.
 
-System: Gmail is harrison@hwlstudio.com. Drafts empty. Calendar connected. Garmin not connected. No this-week ticks except Companies House, which is now proven.
+System: Gmail is harrison@hwlstudio.com. Drafts empty. Calendar connected. Garmin signed in on my computer. This-week ticks: Companies House, and Cathal reprice loop closed by the 17 Aug call.
 
 ## Lens
 
-The Companies House block is gone. The Cathal call already happened and still has no sentence on paper. That is now the hole, not the unsent draft. Creepers at 14:15 is the only hard external left today.
+Companies House and Cathal are both shut. Creepers 14:15 is the hard external. STNDRD versus Marchon is still sitting, and Marchon is already cancelling.

@@ -95,9 +95,18 @@ make that work. Which of these do you actually want to keep?"*
 
 ## The one-tap gate
 
-The draft reply is still sitting in Gmail, send-gated. **Do not send it before the call.**
-The call replaces it. Rewrite it afterwards to confirm whatever you both land on, then
-send.
+**Correction, 17 August 08:40. There is no draft.** `weekly-review` checked Gmail drafts
+on Sunday evening and found nothing. `this-week.md` had carried "draft ready in Gmail"
+for two weeks and it was never true. Do not go looking for it at 10:45.
+
+That makes this document the only prepared material you have, so read it rather than
+skimming it. Nothing needs sending before the call anyway; the call replaces the email.
+Write the confirmation afterwards, against whatever you actually land on.
+
+Also worth carrying into the room: his ask has now sat **ten days** unanswered. Do not
+open with an apology for that, but do not pretend it has not happened either. If he
+raises it, "I wanted to come back with an answer rather than a holding email" is true
+and sufficient.
 
 ## What good looks like
 

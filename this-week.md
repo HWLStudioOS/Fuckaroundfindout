@@ -20,7 +20,7 @@ Close the two sends that have sat untouched the longest, Cathal's repricing repl
 
 ### Money and admin
 
-- [ ] Complete Companies House director ID verification for HWL Studio Limited via the gov.uk link (passport or driving licence) and send the resulting code to Fazila. Flagged 12 Aug, pencilled for 14 Aug, still not done. The confirmation statement is due 2 September and cannot be filed until this clears. <!-- linear:HWL-278 -->
+- [x] Complete Companies House director ID verification for HWL Studio Limited via the gov.uk link (passport or driving licence) and send the resulting code to Fazila. Flagged 12 Aug, pencilled for 14 Aug, still not done. The confirmation statement is due 2 September and cannot be filed until this clears. <!-- linear:HWL-278 -->
 - [ ] Confirm Litchfields' HMRC agent-authorisation status. Weekly-cfo's 14 Aug run flagged the deadline landing 17 August, unconfirmed since 27 July. <!-- linear:HWL-281 -->
 - [ ] Edge Lab: decide what happens to the crypto arena now G2a's 14-day window closed with rules/fable underperforming a buy-and-hold control. Continue paper-only, adjust, or stop. Macro book ties control, no action needed there. <!-- linear:HWL-254 -->
 

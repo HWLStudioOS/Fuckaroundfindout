@@ -2,7 +2,7 @@
 
 Draft, 18 August 2026. Sits outside the £15,000 campaign ceiling per the 5 August call. Do not fold this into the campaign number under any pressure, that is the margin-erosion pattern the reprice exists to stop.
 
-**Status:** unpriced with the client. Kerri's intro email connecting Harrison to the induction lead (5 Aug) went to spam and is being answered 18 Aug. Date, numbers and run of the day are the open inputs. Quote goes over once those land, or with placeholders if the 16:00 call demands a number.
+**Status:** unpriced with the client. Kerri's 5 Aug email (spam, found 18 Aug) forwards Emma Simpson's "Induction Photographer/ Videographer brief" with the brief attached. **Emma is managing the event herself** (ESimpson@laingorourke.com, 07345 745 780), liaise direct. The induction is in September. Reconcile the skeleton below against the attached brief in the Thu 20 Aug 14:00 block, then the quote goes to Emma. Cc'd on her internal email: Eve Cartwright, Jenni Butterfield, Jaime Raggett, Jamel Alleyne.
 
 ## Internal pricing rationale
 
@@ -34,7 +34,6 @@ Travel at cost, London to Liverpool, overnight included if the day starts before
 
 ## Open inputs before this goes over
 
-1. Date of the induction day.
-2. The contact running it (from Kerri's 5 Aug intro email).
-3. Expected numbers and the run of the day.
-4. What they actually want from the internal assets, a welcome film, a recap, LMS material, or comms cuts. The edit line moves with the answer.
+1. Read Emma's attached brief. Every line below gets checked against it before anything is priced to her.
+2. Exact date in September, expected numbers and the run of the day, if the brief does not carry them.
+3. What they actually want from the internal assets, a welcome film, a recap, LMS material, or comms cuts. The edit line moves with the answer.

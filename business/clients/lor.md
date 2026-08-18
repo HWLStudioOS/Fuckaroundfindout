@@ -40,6 +40,7 @@ McKinsey-grade. Boardroom-ready. "Quiet Confidence" framework (Harrison built th
 | Name | Email | Role |
 |---|---|---|
 | **Kerri Warner** | kwarner@laingorourke.com | Day-to-day project lead. Content review, film logistics, invoices. Regular H/K/S catch-up. |
+| **Emma Simpson** | ESimpson@laingorourke.com | Early Talent Lead. ET budget holder, £15k sign-off. Managing the Everton induction day herself (her 5 Aug email, Kerri's instruction: liaise direct). Mobile 07345 745 780. |
 | **Sarah Garside** | sgarside@laingorourke.com | Brief originator. Coordinates filming, runs global comms catch-up. |
 | **Adam Harvey** | AdamHarvey@laingorourke.com | Comms Manager. Podcast files. 07956501413. |
 
@@ -60,6 +61,10 @@ McKinsey-grade. Boardroom-ready. "Quiet Confidence" framework (Harrison built th
 | Mel Merrett | mmerrett@laingorourke.com | Design/brand. 4K outros. |
 | Jessica Slade | JSlade@laingorourke.com.au | Global comms AU. |
 | Aleisha Young | AleishaYoung@laingorourke.com.au | Corporate Affairs AU. |
+| Eve Cartwright | ECartwright@laingorourke.com | On the ET induction thread (5 Aug). Likely the Eve from general recruitment in the 9 June notes, unconfirmed. |
+| Jenni Butterfield | JButterfield@laingorourke.com | Early Talent team, cc on the induction brief (5 Aug). |
+| Jaime Raggett | JRaggett@laingorourke.com | Early Talent team, cc on the induction brief (5 Aug). |
+| Jamel Alleyne | JAlleyne@laingorourke.com | Early Talent team, cc on the induction brief (5 Aug). |
 
 ### Externals (working on LOR projects)
 

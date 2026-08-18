@@ -28,7 +28,7 @@ IDs match the doc Kerri and Emma have. Owners unchanged: Amy builds from HWL bri
 |---|---|---|---|---|
 | P02 | Thu 20 Aug | Thu 3 Sep | The decision at 16. Route map carousel. Post-results enrolment decisions are being made right now, content still lands. | Amy from HWL brief |
 | P03 | Thu 27 Aug | Tue 8 Sep | The apprenticeship maths. Pushed a bit later, per Emma. | Amy from HWL brief |
-| P01 | Thu 13 Aug | Thu 10 Sep | Results, the look-back. "Results day was four weeks ago. [Name] already has a job." Reframed as the campaign tease, filmed on visit one. | HWL |
+| P01 | Thu 13 Aug | Thu 10 Sep | Results, the look-back. "Results week came and went. Here are the routes people actually took." Reframed as the campaign tease, carousel format held from the original, no shoot dependency. | HWL |
 
 ### Mid September, per Emma
 

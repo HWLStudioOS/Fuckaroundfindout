@@ -38,7 +38,7 @@ The envelope maths:
 
 ## Phase one scope (what the £3,650 buys)
 
-- Producer at the Farringdon recording day each month: timestamps, retakes, intro and outro checks in the room. Joseph keeps the desk.
+- Producer at the Farringdon recording day each month: Harrison runs the day, timestamps, retakes, intro and outro checks in the room. Podcast House is studio hire only; whatever desk support comes bundled with the room is PH's arrangement.
 - All eight episodes edited by Harrison personally with the usefulness filter (the Conor standard, named by them as the benchmark). This is the line that gives Sarah M her hours back; she is currently flagging stumbles and repeats herself.
 - Publishing and distribution across Megaphone, Apple, Spotify, YouTube. Titles, descriptions, scheduling. Squiggly Careers as headline brand throughout (they have moved all handles to Squiggly Careers over Amazing If).
 - Editorial input on formats, openings, pacing. One consolidated feedback round per episode, routed through Sarah M.
@@ -50,7 +50,7 @@ The envelope maths:
 
 ## Transition and dates
 
-- **Route one, recommended:** PH keeps the 14 September filming day as booked, Harrison attends as producer, HWL takes everything after the cameras stop. If those episodes go live from roughly mid-October (a month ahead, Sarah M confirming today) that preserves the month of lead and the first HWL episode lands mid-October, matching the 17 Aug close-note intent. Notice to Jack then covers only the editing and publishing lines; he keeps studio, filming and the room. Cleanest possible unwind of a vendor Helen visibly respects.
+- **Route one, recommended:** the 14 September studio booking stands, Harrison runs the day as producer, and HWL takes everything else, all post and publishing included. Podcast House's go-forward role is the room only. If those episodes go live from roughly mid-October (a month ahead, Sarah M confirming today) that preserves the month of lead and the first HWL episode lands mid-October, matching the 17 Aug close-note intent. Notice to Jack covers every PH service line (editing and publishing, the whole £2,600); he keeps the room booking. Cleanest possible unwind of a vendor Helen visibly respects.
 - **Route two:** full start from the 12 October day, PH edits the 14 September batch as normal, first HWL episodes ~mid-November. Fall back to this if Sarah M's dates are tighter than a month or if September collapses.
 - Harrison said on the call he can work with two weeks of lead if needed. Treat that as the exception he offered, not the new standard; the proposal re-anchors the month.
 - Access needed by 5 September if route one: brand guidelines and assets, current templates, Megaphone and YouTube access, Acast export, current music files, Airtable view.
@@ -63,7 +63,7 @@ The envelope maths:
 - **Three Sarahs, do not conflate:** Sarah Ellis (co-founder, on the call), Sarah Massie (production/content ops, on the call), Sarah Davey (coordinator, scheduling only, not on the call).
 - **Jen**, in-house graphic designer, "squiggly squad", beloved. The benchmark for what an external person feeling internal looks like. Design is hers; never scope against her.
 - **Conor** (spelling from audio), a past editor who cared and edited with a usefulness filter. The standard they are buying back.
-- **Joseph** runs the desk at Podcast House on recording days. Stays.
+- **Joseph** runs the desk at Podcast House on recording days, as part of what the room provides. PH's role going forward is studio hire only.
 - Vendor history: earlier agency (name garbled in transcript), then Amber (got them into video, "very expensive"), then Podcast House (cost-effective, batching works, care missing). They nearly killed the podcast on cost at one point, then rediscovered it. They think in a couple-of-years horizon now.
 - Hosting moved Acast to Megaphone on stacked vendor advice; nobody can name a benefit. Historical data saved but no longer visible in one place. Losing the climbing lifetime number genuinely bothers Helen.
 - Audio-first audience, the commute is the moment (insight they credit to Jack). Sarah E is wary of over-investing in video; Harrison's line that video is kept for flexibility landed fine.
@@ -120,6 +120,14 @@ Sarah Massie's email arrived 11:49, subject "Squiggly Careers recorded episode d
 - **Discrepancy:** seven release dates against eight recorded episodes. Thursday 29 October is the missing slot. Flagged lightly in the reply draft; either an omission or a deliberate gap week.
 - **Edit pinch:** the first two episodes want review delivery around 26 to 29 September, which is LOR Early Talent go-live week. Plan those two edits for w/c 21 September, before the collision.
 - The staged Gmail reply was updated the same hour to use the real dates (route one stated as the plan, 12 October kept as the fallback line, the seven-vs-eight flag added). Still unsent, still awaiting Harrison's number confirmation and tap.
+
+## Correction, 18 Aug afternoon: Podcast House goes to studio hire only
+
+Harrison's correction after the route-one write-up: the go-forward PH relationship is studio time only. Amazing If pays Jack for the room, nothing else. HWL takes on everything else, running the recording day included. Rippled through this file and the Gmail draft:
+
+- The draft's PH line now reads "Podcast House goes to studio hire only. You pay Jack for the room time, everything else is me", and route one has Harrison running the 14 September day rather than PH keeping a filming service.
+- The envelope maths improves. The £14-19k inferred earlier was historical studio plus extras; a bare room-only line runs less. At a realistic room rate the £50k end of their envelope leaves roughly £38-42k for HWL, so **£3,400 fits inside the top of their envelope and £3,650 sits just over it**. The straight-answer paragraph still holds, it just got easier for them to say yes.
+- Number unchanged at £3,650. Still awaiting Harrison's tap.
 
 ## Next actions
 

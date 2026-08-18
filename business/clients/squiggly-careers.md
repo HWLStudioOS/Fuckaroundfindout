@@ -154,8 +154,8 @@ Helen guested on Better at Work S4E1 (25 Sept 2025), became BaW's all-time #1 ep
 ## Next actions
 
 - [ ] Harrison taps send on the staged proposal (£3,400; £3,600 is the stretch edit if he wants it). Same-day-ish send keeps the speed reputation with a client who apologised for their own delay.
-- [ ] On acceptance: one-page agreement (scope, £3,400 plus VAT, twelve months, quarterly review, one feedback round, payment terms), Helen gives Jack notice on all PH service lines.
-- [ ] Diary: hold Monday 14 September (Farringdon, full day). Pencil first two edits w/c 21 September.
+- [ ] On acceptance: send the one-page agreement, draft staged at `squiggly-careers-agreement-draft-2026-08.md` (two `[H:]` items to confirm first: invoicing entity, payment and notice terms). Helen gives Jack notice on all PH service lines.
+- [x] Diary: 14 September Farringdon hold (09:00-17:00) and w/c 21 September edit pencil are on the calendar, 18 Aug.
 - [ ] Access checklist chase due by 5 September if not volunteered.
 - [ ] Build the monthly report from month one with the December phase-two conversation in mind.
 

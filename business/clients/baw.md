@@ -6,6 +6,13 @@ Workplace podcast. Hosts: **Cathal Quinlan** (primary contact) + **Annette Sloan
 
 Active. April reset after honest conversation about declining metrics. Hourly trial in place. April skipped by mutual agreement (March deliverables didn't meet standard).
 
+## Better Moments #6, started 18 August 2026
+
+- Editorial pick: **Tasha Eurich**, S4 E3 resilience episode (`MJ_rqzhEmts`). She was the original Best-of #2 recommendation, displaced by Roger on 20 July for that week's join-up reasons only. Backup pick if Harrison overrides: Smart Conflict. Pick still needs Harrison's yes and Cathal's WhatsApp thumbs-up from Spain.
+- Full remote package built 18 Aug while Harrison was on family duties: README with rationale, editorial spine, moment map, both carousels (8 + 8) and three launch graphics rendered on the approved #5 template via a new code generator, all platform copy, Better Bits draft, publish checklist with slip rule. `production/better-moments-06-tasha-eurich-2026-08-18/`.
+- Not done remotely, needs the studio machine: transcript pull and claim verification (two flagged claims), timed EDL, the cut, masters, chapters, Acast link. YouTube and Acast are unreachable from the remote container.
+- Target: carousels Wed 19 Aug, episode Thu 20 Aug 12:30 BST, Better Bits Fri 21 Aug. Slip rule in the checklist keeps slide 8's day-promise honest.
+
 ## Better Moments #5, updated 13 August 2026
 
 - Jennifer Moss is the editorial choice for this week's Better Moment.

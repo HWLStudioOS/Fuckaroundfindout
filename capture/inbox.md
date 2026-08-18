@@ -4,6 +4,16 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-08-18 11:20 (Squiggly call debrief, MacBook session)
+
+- **Squiggly call, 10:15, ran 45 min.** No number agreed and none asked for. Helen reframed the deal around an annual budget: £45-50k all-in including studio, which is what the current setup costs them. Ball is with Harrison: send a phase-one proposal against that budget, they decide "really quickly". Phases agreed in principle: 1 production quality and ways of working, 2 growth after 3-6 months of data, 3 brand/funnel/web as separate commercial arrangements. Full debrief, envelope maths and ready reply draft in `business/clients/squiggly-careers-call-2026-08-18.md`. Recommended anchor £3,650 plus VAT with a £3,400 lighter-Shortcuts retreat; their envelope minus studio leaves only £2,200-3,000 a month, below floor, so the proposal says so straight.
+- **Squiggly dates:** next Podcast House recording day Mon 14 Sept (4 long, 4 Shortcuts), the one after Mon 12 Oct. Notice to Jack not yet given. Sarah Massie emailing today with recorded episodes and release dates; that email picks route one (attend 14 Sept, HWL takes post, first episode live mid-Oct) or route two (full start 12 Oct).
+- **Squiggly intel highlights:** hosting moved Acast to Megaphone, historical 5.75M view lost, nobody can name a benefit. Clips underperform carousels after a year of testing, trailers stopped. Music unchanged since 2017, open to careful refresh. Squiggly Careers becoming the headline brand over Amazing If. Sarah Massie owns the Airtable calendar and is personally eating the editing-quality gap. Web support is weak and Sarah Ellis flagged interest in HWL web/brand work, phase-three revenue parked warm.
+- **Family:** Harrison met his niece this morning, six days old, at his brother's place. Mum and baby still in hospital; he's taking lunch in after the lift.
+- Source: Harrison direct, call transcript paste, Gmail thread "Squiggly Careers Production"
+- Tag: client, money, family
+- Status: new
+
 ## 2026-08-17 14:07
 - **Anthropic's Watermarking, How It (Probably) Works, Worse Than It Seems**, Stratechery, 12 Aug. Ben Thompson on why Anthropic's EU-law-driven watermarking is a bad idea for philosophical reasons before it's even a technical one. A direct read against how the Jarvis action ledger should think about AI accountability and disclosure, from the writer whose framing HWL leans on most. [https://stratechery.com/2026/anthropics-watermarking-how-it-probably-works-worse-than-it-seems/]
 - **Claude Code Week 32 digest**, Anthropic, 14 Aug. Self-hosted cloud environments hit public beta, auto mode became the default permission mode for new sessions on 14 Aug, and TaskCreate/TodoWrite are now off by default on Sonnet 5, Opus 4.8 and Fable 5 unless `CLAUDE_CODE_ENABLE_TODO_TOOLS=1` is set. That last one is a live operational note, this exact session got a task-tool reminder mid-run. [https://code.claude.com/docs/en/whats-new/2026-w32]

@@ -20,7 +20,7 @@ Chronic pressure without recovery does not build people. It drains them. Resilie
 
 The workplace version is the praise trap. When coping gets rewarded, people learn to hide what it costs. "She's so resilient" quietly becomes a reason to keep loading the same person.
 
-Tasha adds the reason we miss it. Almost all of us believe we are self-aware. Her research puts the real number at roughly one in ten. You cannot manage a cost you refuse to see, and the outside view catches what reflection misses.
+Tasha adds the reason we miss it. Almost all of us believe we are self-aware. Her research puts the real number at 10 to 15 percent. You cannot manage a cost you refuse to see, and the outside view catches what reflection misses.
 
 Her advice to leaders is structural, not motivational. Fix the load, not the person.
 

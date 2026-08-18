@@ -42,7 +42,7 @@ Who checks on the person on your team who always seems fine?
 
 Posting note: put the episode link in the first comment. Tag Tasha Eurich and Better at Work.
 
-## Saturday teaser caption, optional, Better at Work Instagram
+## Saturday clip caption, optional, post-launch, Better at Work Instagram
 
 The people praised for coping are often the ones closest to the edge.
 
@@ -82,7 +82,7 @@ Tasha Eurich: Why Resilience Has a Ceiling
 
 Toughing it out is not resilience. Tasha Eurich explains why "what doesn't kill you makes you stronger" is backwards: chronic pressure without recovery drains people rather than building them, resilience behaves like a budget rather than a trait, and the praise we give endurance teaches people to hide what it costs.
 
-Tasha is an organisational psychologist and the author of *Insight* and *Shatterproof*. Her research on self-awareness found that while 95 percent of people believe they are self-aware, only around 10 to 15 percent actually are, which is exactly why the resilience bill so often arrives unseen.
+Tasha is an organisational psychologist and the author of *Insight* and *Shatterproof*. Her research on self-awareness found that while 95 percent of people believe they are self-aware, only around 10 to 15 percent actually are. That gap is why the cost so often goes unseen.
 
 Watch the full conversation: https://www.youtube.com/watch?v=MJ_rqzhEmts
 

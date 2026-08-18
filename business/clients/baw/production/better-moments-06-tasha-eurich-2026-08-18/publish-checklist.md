@@ -14,7 +14,7 @@
 
 - [ ] Harrison approves the Tasha Eurich pick, or calls Smart Conflict and this package's copy is rebuilt before anything ships.
 - [ ] Cathal thumbs-up by WhatsApp from Spain. Best-of picks are WhatsApp-approvable per the 6 July agreement.
-- [ ] Transcript pulled on the studio machine and the two flagged claims verified: the self-awareness figures on slide 5 and the ceiling metaphor on slide 3. Regenerate artwork if either moves.
+- [ ] Transcript pulled on the studio machine and the flagged claims verified: the self-awareness figures on slide 5, the ceiling metaphor on slide 3, and the TASHA'S POINT callouts on slides 2 and 7, which put her name on synthesised lines. Regenerate artwork if anything moves.
 - [ ] Harrison approves the cut before masters are rendered.
 - [ ] Replace `[FULL EPISODE LINK]` in Acast and YouTube copy.
 - [ ] Fill YouTube chapters and the newsletter `[RUNTIME]` from the final cut.

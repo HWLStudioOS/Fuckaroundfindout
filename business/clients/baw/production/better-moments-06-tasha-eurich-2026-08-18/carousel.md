@@ -6,7 +6,7 @@
 
 The carousel dismantles the bounce-back myth before the audience knows an episode is coming. It moves from the myth through the ceiling and the praise trap into the self-awareness gap, then hands leaders the structural move: fix the load, not the person.
 
-Verification flags: slide 5 carries research figures and slide 3 carries the ceiling metaphor. Both must be checked against the episode transcript before final sign-off. If either moves, edit `design/generate-artwork.mjs` and regenerate; the exports are one command.
+Verification flags: slide 5 carries research figures and slide 3 carries the ceiling metaphor. Both must be checked against the episode transcript before final sign-off. Slides 2 and 7 carry TASHA'S POINT labels on synthesised callouts; confirm the transcript supports each claim under her name before sign-off. The label convention itself matches the shipped #5 renders, which use JENNIFER'S POINT the same way. If anything moves, edit `design/generate-artwork.mjs` and regenerate; the exports are one command.
 
 ## Slide copy, as rendered
 

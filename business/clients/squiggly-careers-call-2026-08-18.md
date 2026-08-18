@@ -110,12 +110,23 @@ Send as a reply on the existing "Squiggly Careers Production" Gmail thread, to H
 >
 > Thanks H
 
+## Update, 18 Aug 12:30: dates landed, route one confirmed
+
+Sarah Massie's email arrived 11:49, subject "Squiggly Careers recorded episode dates".
+
+- Already-recorded episodes carry them to **1 October**: releases 25 and 27 Aug, 1, 3, 8, 10, 15, 17, 22, 24, 29 Sept, 1 Oct. Twelve episodes of runway.
+- The 14 September Podcast House batch releases: **6, 8, 13, 15, 20, 22, 27 October**.
+- **Route one confirmed.** First HWL episode live Tuesday 6 October, 22 days after filming. Under the month ideal but comfortably inside the two-week minimum Harrison offered on the call, and only the first two episodes (6 and 8 Oct) sit in that window; the rest have four to six weeks of lead.
+- **Discrepancy:** seven release dates against eight recorded episodes. Thursday 29 October is the missing slot. Flagged lightly in the reply draft; either an omission or a deliberate gap week.
+- **Edit pinch:** the first two episodes want review delivery around 26 to 29 September, which is LOR Early Talent go-live week. Plan those two edits for w/c 21 September, before the collision.
+- The staged Gmail reply was updated the same hour to use the real dates (route one stated as the plan, 12 October kept as the fallback line, the seven-vs-eight flag added). Still unsent, still awaiting Harrison's number confirmation and tap.
+
 ## Next actions
 
-- [ ] Sarah M's email with recorded episodes and release dates lands today. Confirms route one vs route two.
-- [ ] Harrison confirms the number (£3,650 recommended) and taps send on the reply. Same-day send is the speed reputation working for a client who said they will decide quickly.
+- [x] Sarah M's dates email: landed 18 Aug 11:49, route one confirmed, detail above.
+- [ ] Harrison confirms the number (£3,650 recommended) and taps send on the updated reply. Same-day send is the speed reputation working for a client who said they will decide quickly.
 - [ ] After acceptance: one-page agreement (scope, £, twelve months, quarterly review, one feedback round, payment terms), and Helen gives Jack notice on the editing and publishing lines.
-- [ ] Diary: hold Monday 14 September for Farringdon if route one.
+- [ ] Diary: hold Monday 14 September for Farringdon; pencil the first two edits for w/c 21 September.
 
 ## Open questions
 

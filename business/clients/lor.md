@@ -1,5 +1,7 @@
 # Laing O'Rourke
 
+**Early Talent 2026: agents start at `campaigns/lor-early-talent-2026-agent-brief.md`.** Single consolidated entry point, kept current by hand.
+
 ~£5bn global construction. UK + Australia. HQ Dartford. Email domains @laingorourke.com (UK) / @laingorourke.com.au (AU).
 
 Harrison is **strategic communications advisor**, not content producer. In the room for 2032 transformation strategy. Operating at a level "most people don't reach at 35" (Korena's words, internalised).

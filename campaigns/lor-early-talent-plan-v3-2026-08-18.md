@@ -1,5 +1,7 @@
 # LOR Early Talent 2026: plan v3, repriced to the £15k ceiling
 
+Agents wanting the whole account state in one page: `lor-early-talent-2026-agent-brief.md`. This file is the detail behind it.
+
 Source of truth for the client doc refresh. Supersedes `lor-early-talent-campaign-rebuild-2026-07-14.md` on price, calendar and production shape. Built from the 5 August Kerri call (`business/clients/lor-et-call-notes-2026-08-05.md`) and Emma's feedback relayed on that call.
 
 **The commercial rule this doc exists to enforce:** £15,000 is the whole campaign, all three windows. Not window one. The Everton induction day sits outside it with its own quote (`lor-everton-induction-quote-2026-08-18.md`). Anything else beyond the lines below is chargeable at £950 a filming day, £550 an edit day.

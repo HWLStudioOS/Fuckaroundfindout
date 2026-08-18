@@ -62,7 +62,8 @@ From Sarah Massie's email, 18 Aug 11:49 ("Squiggly Careers recorded episode date
 - The **14 September** Podcast House batch releases **6, 8, 13, 15, 20, 22, 27 October**. Seven dates against eight recordings; Thursday 29 October is the missing slot, flagged lightly in the draft.
 - **Route one (the plan):** the 14 September studio booking stands, Harrison runs the day, HWL takes everything else. First HWL episode live **Tuesday 6 October**, 22 days after filming; only the first two episodes sit inside a month of lead, the rest have four to six weeks.
 - Route two fallback: full start from the **12 October** recording day, first HWL episodes ~mid-November.
-- **Notice to Jack is Helen's action**, covers every PH service line (the whole £2,600); he keeps the room booking. Not yet given.
+- **Handover boundary confirmed clean (Sarah M, 18 Aug 15:02):** every episode releasing up to 1 October is already edited and ready, and the 14 September batch is untouched. PH has no edit work in flight beyond 1 October, so HWL taking the new batch overlaps with nothing.
+- **Notice to Jack is Helen's action**, covers every PH service line (the whole £2,600); he keeps the room booking. Not yet given. Wants doing comfortably before 14 September so PH doesn't schedule edits on the new batch.
 - **Access needed by 5 September:** brand guidelines and assets, current templates, Megaphone and YouTube access, Acast export, current music files, Airtable view.
 - **Edit pinch:** first two episodes want review delivery ~26-29 September, LOR Early Talent week. Plan those edits for w/c 21 September. September context: BaW S5 filming 2 Sept, confirmation statement 2 Sept, VAT return 7 Sept, S5 launch 15 Sept, LOR ET live w/c 28 Sept, family variable. Nothing ships publicly in September; only edits.
 - Sarah E invited Harrison to design ways of working around his own schedule ("you might say I'd be doing it on a Monday and a Friday each week"). Batch Squiggly days to protect LOR and BaW.
@@ -74,6 +75,8 @@ From Sarah Massie's email, 18 Aug 11:49 ("Squiggly Careers recorded episode date
 - **28 July, Helen.** "Thanks so much... I'm going to chat with Sarah on Friday and come back to you with thoughts." The thoughts became the 18 August call. No price pushback in writing, ever.
 - **12 August.** Helen personally reissued the Teams invite, moved start 10:00 to 10:15.
 - **18 August 11:49, Sarah Massie** (new thread, "Squiggly Careers recorded episode dates"). Release dates as above, warm note, "great to properly meet you".
+- **18 August 14:11, Harrison to Sarah M (sent).** Asked which recorded episodes are already edited.
+- **18 August 15:02, Sarah Massie.** "All the recorded episodes (those up to the 1st October) have already been edited and are ready to go."
 - **Staged, unsent:** Harrison's proposal reply on the production thread, to Helen, cc Sarah Ellis and Sarah Massie. Canonical text below.
 
 ## Proposal draft, staged in Gmail (canonical copy)

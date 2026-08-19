@@ -4,6 +4,12 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-08-19 17:38 (Telegram reply)
+- [voice message received, not transcribed. Re-send as text if it matters.]
+- Source: telegram reply (authoritative, Harrison's own words)
+- Tag: capture
+- Status: new
+
 ## 2026-08-19 15:55 (LOR Kerri and Sarah call debrief)
 
 - **Headline:** useful creative alignment, not a production close. Three weeks on, Emma approval, the new £15,000 PO, sites, filming dates, named people and access are still open. Exact application dates are also unresolved. The client state did not materially advance.

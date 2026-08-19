@@ -81,11 +81,15 @@ From Sarah Massie's email, 18 Aug 11:49 ("Squiggly Careers recorded episode date
 
 ## Proposal draft, staged in Gmail (canonical copy)
 
+**Harrison's own edit, 18 Aug ~21:55:** timing reframed from "14 September recommended" to two equal start options, his call. "Two clean starts. Same work, same number, you pick": 14 September (first episodes 6 October) or a full start from 12 October (first episodes mid-November, more notice for Jack). Text below reflects his version.
+
+**Draft consolidation, 19 Aug morning:** his edits had landed in a duplicate draft that Gmail never attached to the production thread, while an empty reply shell sat on the real thread. The final text (plus one fix, "this morning" became "yesterday") now lives in the properly threaded draft. The orphan duplicate is still in Drafts and wants discarding, one tap, do not send that one.
+
 > Subject: Re: Squiggly Careers Production
 >
 > Hey Team,
 >
-> Great to chat this morning. Loved how open you all were about where it's at and where you want it to go. Here's phase one, built for the budget you gave me.
+> Great to chat yesterday. Loved how open you all were about where it's at and where you want it to go. Here's phase one, built for the budget you gave me.
 >
 > The number first: £3,400 a month plus VAT. With the room hire staying direct with Podcast House, that keeps the podcast at what it already costs you today. Same budget, redeployed into the care you said has been missing.
 >
@@ -102,11 +106,17 @@ From Sarah Massie's email, 18 Aug 11:49 ("Squiggly Careers recorded episode date
 >
 > Podcast House goes to studio hire only. You pay Jack for the room, everything else is me.
 >
-> On timing, Sarah M's dates make this clean (thanks Sarah, super helpful). We keep the 14 September studio booking exactly as it is, I run the day as your producer, and everything from there is mine. Your recorded episodes carry you to 1 October and the new batch starts going out Tuesday 6 October, which gives me the lead I need. Jack keeps the room, so the handover stays clean. If you'd rather give him longer, we do a full start from the 12 October day instead, but I don't think we need it.
+> On timing, two clean starts. Same work, same number, you pick.
+>
+> We can keep the 14 September studio booking exactly as it is. I run the day as your producer, everything from there is mine. Your recorded episodes carry you to 1 October and the new batch starts going out Tuesday 6 October.
+>
+> Or we do a full start from the 12 October day, first episodes from mid-November. Same handover, just more notice for Jack.
+>
+> Jack keeps the room either way, so both stay clean.
 >
 > One small thing, Sarah M: I count seven release dates against the eight episodes we'd record on the 14th. Guessing Thursday the 29th just fell off the list, shout if that's deliberate.
 >
-> For the 14 September start, by 5 September I'd need: brand guidelines and assets, current templates, Megaphone and YouTube access, the Acast export, current music files, and a view on the Airtable calendar.
+> If we take 14 September, by 5 September I'd need: brand guidelines and assets, current templates, Megaphone and YouTube access, the Acast export, current music files, and a view on the Airtable calendar. If we take October, same list, just later.
 >
 > We'd run it for twelve months with a proper review at the end of the first quarter. That review is also where phase two starts taking shape: once we've got three months of clean data, we build the growth plan that fits your brand rather than fights it. And when you're ready to talk about the wider brand and web side, that's phase three, exactly as Helen framed it. The Better at Work relaunch lands mid-September if you want a look at what we do there.
 >

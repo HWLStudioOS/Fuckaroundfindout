@@ -4,6 +4,14 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-08-19 13:40 (Squiggly proposal sent, session watch)
+
+- **Squiggly proposal SENT, 19 Aug 12:16**, on the production thread. Harrison rewrote before sending: £3,400 plus VAT anchored to their £45-50k envelope, £800 step-up over the current fee named head-on, editing as "lead all eight edits and personally sign off every final cut", rush protection restored, initial three-month commitment with first month up front and a month-three review, two start options (14 Sept, first episode 6 Oct, access by Fri 4 Sept; or 12 Oct, first episodes mid-Nov, access by Fri 2 Oct). Close: pick a start and the short agreement follows. Both stale Gmail drafts deleted at send. Full as-sent text and deltas in `business/clients/squiggly-careers.md`; agreement one-pager realigned to the sent terms same hour.
+- **Watch:** renewal decision now lands ~November (three-month pilot, not twelve months), so month-one and month-two reports carry the renewal. Room-only PH rate still unconfirmed, flagged as such in the sent email.
+- Source: Gmail sent items, session watch
+- Tag: client, money
+- Status: new
+
 ## 2026-08-18 11:20 (Squiggly call debrief, MacBook session)
 
 - **Squiggly call, 10:15, ran 45 min.** No number agreed and none asked for. Helen reframed the deal around an annual budget: £45-50k all-in including studio, which is what the current setup costs them. Ball is with Harrison: send a phase-one proposal against that budget, they decide "really quickly". Phases agreed in principle: 1 production quality and ways of working, 2 growth after 3-6 months of data, 3 brand/funnel/web as separate commercial arrangements. Full debrief, envelope maths and ready reply draft in `business/clients/squiggly-careers-call-2026-08-18.md`. Recommended anchor £3,650 plus VAT with a £3,400 lighter-Shortcuts retreat; their envelope minus studio leaves only £2,200-3,000 a month, below floor, so the proposal says so straight.

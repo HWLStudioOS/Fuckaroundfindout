@@ -1,6 +1,6 @@
 # Squiggly Careers phase-one agreement (internal draft, not sent)
 
-One-pager to send the moment Helen accepts, so yes-to-signed happens same day. Plain English on purpose. `[H:]` marks Harrison's calls before it goes anywhere.
+One-pager to send the moment Helen accepts, so yes-to-signed happens same day. Plain English on purpose. `[H:]` marks Harrison's calls before it goes anywhere. Aligned 19 August to the proposal as actually sent (12:16): three-month initial commitment, first month up front, led-and-signed-off editing wording, rush protection, two start options.
 
 ---
 
@@ -9,30 +9,30 @@ One-pager to send the moment Helen accepts, so yes-to-signed happens same day. P
 **The work, each month**
 
 - HWL produces the monthly recording day at Podcast House, Farringdon: run of day, timestamps, retakes, intro and outro checks in the room. Studio room hire is booked and paid by Amazing If directly with Podcast House.
-- HWL edits all eight episodes (four Borrowed Brilliance, four Squiggly Shortcuts), full audio and video post-production, edited personally by Harrison Living.
+- HWL leads all eight edits (four Borrowed Brilliance, four Squiggly Shortcuts), full audio and video post-production, with every final cut personally signed off by Harrison Living.
 - HWL publishes and distributes across Megaphone, Apple Podcasts, Spotify and YouTube: titles, descriptions, scheduling, Squiggly Careers as the headline brand.
 - Editorial input on formats, openings and pacing.
 - One consolidated feedback round per episode, routed through Sarah Massie. Amazing If retains final sign-off on every episode.
-- A monthly performance report (plays vs downloads, watch time and drop-off, listener locations), including reconciling Acast historical data with Megaphone.
+- A monthly performance report covering plays, downloads, watch time, drop-off and listener locations.
 - A music refresh proposal within month one; any change ships only with Amazing If's approval.
 - Weekly timestamped hooks and pull-quotes to Sarah Massie for social planning. All design and graphics remain with Amazing If.
 - Production runs a month ahead of release, with topical episode swaps accommodated without charge.
 
-**Not included, quoted separately if wanted:** social clips and trailers, thumbnails and other design assets, extra filming or photography on recording days, more than one feedback round per episode, rush work caused by late source delivery, paid promotion.
+**Not included, quoted separately if wanted:** social clips and trailers, thumbnails and other design assets, extra filming or photography on recording days, more than one feedback round per episode, work needing compressed turnaround because source files or approvals land late, paid promotion.
 
 **The number**
 
-£3,400 a month plus VAT, invoiced monthly in advance, payable within 14 days. `[H: confirm payment terms match your other retainers]`
+£3,400 a month plus VAT, invoiced monthly, first month payable up front on signature, then payable within 14 days of invoice. `[H: confirm payment mechanics match your other retainers]`
 
 **Term and review**
 
-Twelve months from the first invoice. A proper review at the end of the first quarter (December 2026): what's working, what isn't, and where phase two (growth) starts taking shape. After the first quarter, either side can end the agreement with one month's written notice. `[H: confirm notice terms]`
+An initial three-month commitment from the first invoice. During month three, both sides review the data, workload and ways of working, then agree whether phase one continues, on what term, and where phase two (growth) starts taking shape. `[H: decide whether to state what happens if no decision lands in month three, e.g. rolls monthly until either side gives two weeks' notice]`
 
-**Getting started**
+**Getting started** (keep whichever start Amazing If picked, delete the other)
 
-- First produced recording day: Monday 14 September 2026, using the existing Podcast House booking.
-- First HWL-published episode: Tuesday 6 October 2026.
-- By Friday 5 September, Amazing If provides: brand guidelines and assets, current templates, Megaphone and YouTube access, the Acast export, current music files, and view access to the content calendar.
+- Option one: first produced recording day Monday 14 September 2026 using the existing Podcast House booking; first HWL-published episode Tuesday 6 October 2026; access list due Friday 4 September.
+- Option two: first produced recording day Monday 12 October 2026; first episodes from mid-November; access list due Friday 2 October.
+- Access list: brand guidelines and assets, current templates, Megaphone and YouTube access, the Acast export, current music files, and view access to the content calendar.
 - Amazing If handles notice to Podcast House on editing and publishing services; the room-hire relationship continues unchanged.
 
 Signed for Amazing If: ____________________ Date: ________

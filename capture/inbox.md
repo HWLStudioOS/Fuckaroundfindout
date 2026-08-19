@@ -29,6 +29,14 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - Tag: learning
 - Status: new
 
+## 2026-08-19 13:40 (Squiggly proposal sent, session watch)
+
+- **Squiggly proposal SENT, 19 Aug 12:16**, on the production thread. Harrison rewrote before sending: £3,400 plus VAT anchored to their £45-50k envelope, £800 step-up over the current fee named head-on, editing as "lead all eight edits and personally sign off every final cut", rush protection restored, initial three-month commitment with first month up front and a month-three review, two start options (14 Sept, first episode 6 Oct, access by Fri 4 Sept; or 12 Oct, first episodes mid-Nov, access by Fri 2 Oct). Close: pick a start and the short agreement follows. Both stale Gmail drafts deleted at send. Full as-sent text and deltas in `business/clients/squiggly-careers.md`; agreement one-pager realigned to the sent terms same hour.
+- **Watch:** renewal decision now lands ~November (three-month pilot, not twelve months), so month-one and month-two reports carry the renewal. Room-only PH rate still unconfirmed, flagged as such in the sent email.
+- Source: Gmail sent items, session watch
+- Tag: client, money
+- Status: new
+
 ## 2026-08-18 22:35 (Tuesday night session, Mac mini back online, Claude Fable 5)
 
 - **Family:** Harrison spent the whole day at his brother's. Niece is six days old; her mum had blood-pressure complications and was in hospital six days, cleared 18 Aug. Harrison worked the Squiggly call and LOR prep from the MacBook (11 commits, PRs #32 to #34, merged and pulled onto the mini at 21:45). Expect more family support days this week; nothing is scheduled for it.

@@ -63,3 +63,12 @@ None built. `artwork/` is empty. Figma frames to clone are listed in `README.md`
 ## Storage and release state
 
 The proxy, rough cut and audio masters live on the internal disk inside the package (38 GB free after the render). Render scratch was deleted. Nothing was written to `/Volumes/UGREEN`. `MEDIA-MANIFEST.json` was not changed. No external platform state was changed. Harrison's tooling was not modified: the working yt-dlp build ran in an isolated `uvx` environment and the offset maths ran under `uv run --with numpy`; nothing was installed into the system Python or Homebrew.
+
+## 9:16 teaser (added 18 Aug 22:35, Claude)
+
+- File: `video/BetterAtWork-Klotz-20-Minutes-Early-Teaser-9x16-IsolatedCam-NoCaptions-v1.mp4`
+- Picture: Klotz isolated Riverside camera `~/Downloads/Assets/Video/riverside_leidy_klotz_raw-video-cfr_cathal_quinlan's st_0055.mp4`, in-point 2229.142 s (programme 2029.2 s + 199.942 s), crop 405 x 720 at x=418, scaled 1080 x 1920 lanczos, light unsharp, 24 fps, H.264 crf 18.
+- Offset check: isolated frame at 37:36.342 matches programme frame at 34:16.4 (pose, mouth, hand), so the +3:19.942 offset holds across this window.
+- Audio: copied from the 16:9 reference teaser (programme audio, both voices), 58.813 s, LRA 6.1 LU, true peak -1.8 dBFS.
+- Duration 58.75 s video / 58.81 s audio.
+- Not reviewed by Harrison. No captions.

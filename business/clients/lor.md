@@ -10,12 +10,32 @@ Harrison is **strategic communications advisor**, not content producer. In the r
 
 Largest client. ~£7-10k/month run rate. Multiple active streams. Largest single project: Assembly Specialist Recruitment Campaign (37 assets, 5 months, May/June cohort).
 
-## Finance correction, 3 August 2026
+## Finance correction, 3 August 2026, superseded for Early Talent by 19 August
 
 - Harrison confirms invoicing and finance administration are current.
 - About **£7,000 from LOR is expected during August**.
-- There is no live LOR invoice, PO or finance-admin chase in Harrison's current state.
+- At that snapshot there was no live LOR invoice, PO or finance-admin chase. The 19 August Early Talent state below is now current for the new £15,000 PO and first invoice.
 - Older sections describing unbilled Global Comms work, an Early Talent first-invoice action or a £6,000 receivable are historical and superseded for finance truth. Production timing and site decisions remain separate client-delivery questions only if independently current.
+
+## Early Talent 2026, current state after 19 August call
+
+Full debrief: `business/clients/lor-kerri-call-2026-08-19.md`.
+
+The 19 August Kerri and Sarah call produced creative alignment, not a production close. The scoped two-day shape, four role contributors, two day-in-the-life subjects and graduate plus professional-apprentice mix were discussed. No site, filming date or contributor was confirmed.
+
+Harrison's immediate read was that the campaign is still where it was three weeks ago. The same client-side blockers remain.
+
+Oxford is preferred. A possible piggyback on an existing data-centre visit on Tuesday 8 September and a two-day Oxford fallback were discussed, subject to project progress and filming permission. Dartford resurfaced in the discussion but remains out under the 5 August decision and current client deck.
+
+Still blocked after the call:
+
+- Emma's written approval of the £15,000 plan.
+- The new £15,000 PO and timing for the first £7,500 invoice.
+- Named project sites and two filming dates.
+- Named contributors and all access routes.
+- Exact application opening and closing dates.
+
+Kerri's Early Talent meeting at 14:00 Thursday 20 August is now the hard gate. If it does not return those decisions, the 28 September launch is no longer credible. No crew, travel, spend, invoice or production date is authorised. Everton remains outside the £15,000.
 
 ## Active state, 31 July 2026
 

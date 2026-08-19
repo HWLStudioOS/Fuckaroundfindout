@@ -1,6 +1,8 @@
-# Better Moments #6: Tasha Eurich
+# Better Moments: Tasha Eurich (held, #7 candidate)
 
-Production package for the week beginning Monday 17 August 2026. Started remotely on 18 August while Harrison was on family duties. This README states what is decided, what is built, and what still needs the studio machine.
+**Status, 19 August 2026: not this week's drop.** Harrison went with the Codex-built Smart Conflict package for Better Moments #6. This package holds as the leading candidate for #7, w/c 24 August. Everything below was built for the #6 slot; on confirmation of #7, edit the series strings in `design/generate-artwork.mjs` (BETTER MOMENTS 06, the footers, the folio and the "lands Thursday" callout day) and regenerate all 19 frames in one command, then update the numbering in `copy.md` and `newsletter.md`. The approval gates transfer unchanged.
+
+Originally built remotely on 18 August for the week beginning Monday 17 August while Harrison was on family duties. This README states what is decided, what is built, and what still needs the studio machine.
 
 ## The call
 

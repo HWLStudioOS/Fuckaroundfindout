@@ -6,12 +6,12 @@ Workplace podcast. Hosts: **Cathal Quinlan** (primary contact) + **Annette Sloan
 
 Active. April reset after honest conversation about declining metrics. Hourly trial in place. April skipped by mutual agreement (March deliverables didn't meet standard).
 
-## Better Moments #6, started 18 August 2026
+## Better Moments #6, decided 19 August 2026
 
-- Editorial pick: **Tasha Eurich**, S4 E3 resilience episode (`MJ_rqzhEmts`). She was the original Best-of #2 recommendation, displaced by Roger on 20 July for that week's join-up reasons only. Backup pick if Harrison overrides: Smart Conflict. Pick still needs Harrison's yes and Cathal's WhatsApp thumbs-up from Spain.
-- Full remote package built 18 Aug while Harrison was on family duties: README with rationale, editorial spine, moment map, both carousels (8 + 8) and three launch graphics rendered on the approved #5 template via a new code generator, all platform copy, Better Bits draft, publish checklist with slip rule. `production/better-moments-06-tasha-eurich-2026-08-18/`.
-- Not done remotely, needs the studio machine: transcript pull and claim verification (two flagged claims), timed EDL, the cut, masters, chapters, Acast link. YouTube and Acast are unreachable from the remote container.
-- Target: carousels Wed 19 Aug, episode Thu 20 Aug 12:30 BST, Better Bits Fri 21 Aug. Slip rule in the checklist keeps slide 8's day-promise honest.
+- **Harrison went with Smart Conflict for #6**, using the package Codex built. The all-time #2 episode, and it was the tracker's original Best-of #3 suggestion. Tasha Eurich was the remote session's recommendation; Harrison overrode per his call on 19 Aug.
+- **The Codex Smart Conflict package is not in this repo.** No branch carries it and main has no folder for it as of 19 Aug afternoon. It lives on the studio machine. It should land under `production/` on the next push or nightly backup so the delivery record stays honest, same standard the value ledger holds everything else to.
+- The full Tasha Eurich package remains built, QC-passed and merged at `production/better-moments-06-tasha-eurich-2026-08-18/`. It is **held as the leading #7 candidate** for w/c 24 August. Its artwork and copy carry "06" and "lands Thursday"; both regenerate in one command (`node design/generate-artwork.mjs` after editing the series strings) once the #7 slot is confirmed. Its approval gates (Cathal thumbs-up, transcript verification of the flagged claims) transfer unchanged.
+- Roadmap check: W7 to W8 calls for Best-ofs #6 and #7 plus Webb packaging and the trailer, and the trailer is due to the feed the last week of August.
 
 ## Better Moments #5, updated 13 August 2026
 

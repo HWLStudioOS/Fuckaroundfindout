@@ -362,4 +362,22 @@ delivery block (HWL-289): full message at
 agents/outbox/creative-lab-2026-08-19.md, desktop notification sent, mobile
 push inactive.
 
+**Noted, 20 Aug 17:00 run:** Day 7 proposed, guard active, no results to close.
+The 23 Aug slot is gone in practice: NF3 still has no date, Anna's out of
+office runs to Fri 21 Aug (today.md, verified brief chain), and even an
+immediate Friday reconfirmation cannot put footage in the bank before Sunday.
+Do not tap for 23 Aug; an empty Sunday beats filler. The variant needs no
+rebuild and re-targets unchanged to the first installation slot after a
+rescheduled NF3, so Anna's Friday WhatsApp reply is the only tap that matters.
+Harrison's 19 Aug 17:38 Telegram reply was a voice message, captured
+untranscribed in capture/inbox.md; if it answered this proposal it is
+unreadable from here, re-send as text. Slot script denied a sixth consecutive
+run, and exa fetch, WebFetch, curl and osascript were all denied too, so the
+deployed calendar could not be re-read; NF3 state comes from today.md.
+HWL-289 (delivery block plus allowlist) and HWL-282 (NF3 confirmation) remain
+open in this-week.md, and the Codex parallel-run prompts from 18 and 19 Aug
+produced no report files, so the engineering fix has not landed. Full message
+at agents/outbox/creative-lab-2026-08-20.md, desktop notification sent, mobile
+push inactive.
+
 **Result:** (window closes Sun 30 Aug)

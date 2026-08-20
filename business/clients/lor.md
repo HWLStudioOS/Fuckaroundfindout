@@ -37,6 +37,8 @@ Still blocked after the call:
 
 Kerri's Early Talent meeting at 14:00 Thursday 20 August is now the hard gate. If it does not return those decisions, the 28 September launch is no longer credible. No crew, travel, spend, invoice or production date is authorised. Everton remains outside the £15,000.
 
+**20 August evening update:** Kerri has not returned an outcome from the Early Talent meeting. The client-owned blockers above remain open. Do not fill the silence with another deck. The separate £2,600 Everton induction quote goes to Emma first thing Friday 21 August; it is still unsent at this update.
+
 ## Active state, 31 July 2026
 
 - Kerri has not come back on the current Laing O'Rourke lane. Early Talent themes and production decisions remain slow.

@@ -6,6 +6,8 @@ Career development company and podcast, Helen Tupper and Sarah Ellis. The campai
 
 **Proposal sent, 19 August 12:16**, on the production thread. £3,400 a month plus VAT, initial three-month commitment, two start options for them to pick (14 September or 12 October). They said they will decide "really quickly". Awaiting their yes and start-date pick; on yes, Harrison sends the short agreement (`squiggly-careers-agreement-draft-2026-08.md`, aligned to the sent terms).
 
+**20 August update:** Helen replied with some price sensitivity. Harrison's current read remains green. The £3,400 plus VAT proposal still holds. Do not discount, narrow scope or send a defensive follow-up before Helen makes the next move.
+
 ## Proposal as sent, 19 August 12:16 (the live terms)
 
 Harrison rewrote the staged draft before sending. Sent to Helen on the "Squiggly Careers Production" thread (opens "Hey Team"; cc to the Sarahs not visible in the thread view). Full text:

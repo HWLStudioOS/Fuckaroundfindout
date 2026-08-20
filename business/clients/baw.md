@@ -6,6 +6,12 @@ Workplace podcast. Hosts: **Cathal Quinlan** (primary contact) + **Annette Sloan
 
 Active. April reset after honest conversation about declining metrics. Hourly trial in place. April skipped by mutual agreement (March deliverables didn't meet standard).
 
+## Evening correction, 20 August 2026
+
+- Better Moments #6 went out. The Smart Conflict clip is also live on LinkedIn. The open approval and export language in the earlier morning snapshot is superseded.
+- Cathal is happy with the current arrangement. Harrison killed the repricing work rather than forcing a new package or another scope conversation. The staged INV-0399 repricing draft is obsolete and must not be sent.
+- This does not fold the separate Season 5 brand and website work into the retainer. Existing scope boundaries remain.
+
 ## Better Moments #6, updated 20 August 2026
 
 - Current editorial pick: **Smart Conflict**, Alice Driscoll and Louise van Haarst. Harrison approved the continuous 00:04:25:18 picture lock after reviewing and dropping the earlier Leidy Klotz and Tasha Eurich options.

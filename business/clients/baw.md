@@ -6,10 +6,10 @@ Workplace podcast. Hosts: **Cathal Quinlan** (primary contact) + **Annette Sloan
 
 Active. April reset after honest conversation about declining metrics. Hourly trial in place. April skipped by mutual agreement (March deliverables didn't meet standard).
 
-## Better Moments #6, updated 19 August 2026
+## Better Moments #6, updated 20 August 2026
 
 - Current editorial pick: **Smart Conflict**, Alice Driscoll and Louise van Haarst. Harrison approved the continuous 00:04:25:18 picture lock after reviewing and dropping the earlier Leidy Klotz and Tasha Eurich options.
-- Active package: `production/better-moments-06-smart-conflict-2026-08-19/`. Copy, captions, the aligned YouTube thumbnail and the separate curiosity teaser are prepared. The final Premiere export, technical QC, Cathal and Annette sign-off, destination URLs and aligned social artwork remain open.
+- Active package: `production/better-moments-06-smart-conflict-2026-08-19/`. Copy, captions, the curiosity teaser and all 19 Figma artwork frames are aligned to the approved 04:25 excerpt. Local delivery exports and contact sheets were refreshed on 20 August. The final Premiere export, technical QC, Cathal and Annette sign-off, destination URLs and Harrison's visual approval of the revised social artwork remain open.
 - The remote-built Tasha Eurich package is retained at `production/better-moments-06-tasha-eurich-2026-08-18/` as superseded reference material only. Do not use or publish it as Better Moments #6.
 - Target remains Thursday 20 August at 12:30 BST, subject to the remaining approval and export gates in the Smart Conflict publish checklist.
 

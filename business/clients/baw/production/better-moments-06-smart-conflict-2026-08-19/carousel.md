@@ -1,86 +1,82 @@
-# Wednesday carousel, HOLD
+# Social carousel, DRAFT
 
-**Do not publish the complete carousel in its current form.** It was built around the rejected feedback and silence angle. Slides 6 and 7 match Harrison's final 04:25 cut. Slides 1 to 5 and 8 use wider full-conversation material and need a new editorial decision before publication.
+The eight-slide Instagram and LinkedIn carousel now follows Harrison's approved 00:04:25:18 Smart Conflict excerpt. The Figma source and local exports were realigned on Thursday 20 August 2026. Nothing has been posted, scheduled or sent.
 
 ## Campaign idea
 
-**Superseded route: Nice is not always kind.**
+**Get curious, not furious.**
 
-The existing carousel starts with the false choice between care and clarity, then turns the wider conversation into seven practical moves. That is no longer the argument made by the approved Better Moment.
+The route explains the two forces in the conversation: conflict confidence, and whether someone is trying to get it right or prove that they are right. It then moves from enforced harmony to the singles-versus-doubles model and closes on one prepared question.
 
-Everything remains DRAFT. Nothing has been posted. Keep the frames for possible full-episode companion use, but do not treat them as launch artwork for the final cut.
+All frames remain DRAFT pending Harrison's visual approval.
 
 ## Slide copy
 
 ### 1. Cover
 
-Eyebrow: HARD CONVERSATIONS, BETTER
+Eyebrow: HEALTHY CONFLICT, BETTER
 
-Headline: NICE ISN'T ALWAYS KIND.
+Headline: GET CURIOUS, NOT FURIOUS.
 
-Subhead: Why delayed feedback gets harder, and what to do next.
+Subhead: How to move from being right to solving the problem.
 
 Footer: SMART CONFLICT / BETTER MOMENTS 06
 
-### 2. When care blocks clarity
+### 2. The two forces
 
 Number: 01
 
-Eyebrow: WHEN CARE BLOCKS CLARITY
+Eyebrow: THE TWO FORCES
 
-Headline: Silence can feel kind.
+Headline: Conflict has two axes.
 
-Body: Avoiding the conversation protects the moment. It can also deny someone the chance to understand, improve and grow.
+Body: How confident are you around conflict? And are you trying to get it right, or prove that you are right?
 
-Callout label: THE POINT
+Callout label: START HERE
 
-Callout: Kindness can include respect, honesty and compassion.
+Callout: Confidence is only half the story.
 
-### 3. Permission
+### 3. Conflict confidence
 
 Number: 02
 
-Eyebrow: BEFORE THE FEEDBACK
+Eyebrow: THE FIRST AXIS
 
-Headline: Ask before you tell.
+Headline: Do you charge in or avoid?
 
-Body: Unexpected criticism can send people into fight, flight or freeze. A simple invitation gives them a moment to prepare.
+Body: Some people tolerate the discomfort. Others will do almost anything to avoid even a slightly edgy conversation.
 
-Callout label: TRY THIS
+Callout label: NOTICE
 
-Callout: "Are you happy for me to give you some feedback?"
+Callout: Your default shapes how you enter the conversation.
 
-### 4. The threat
+### 4. Solve or win
 
 Number: 03
 
-Eyebrow: WHY IT FEELS SO BIG
+Eyebrow: THE SECOND AXIS
 
-Headline: Feedback hits three places.
+Headline: Are you solving, or winning?
 
-Body:
+Body: A strong desire to be right can push you into an inflexible response, even if you usually avoid conflict.
 
-- PERFORMANCE: Am I making the grade?
-- RELATIONSHIP: Do you still respect me?
-- SELF: Is this who I am?
+Callout label: THE SHIFT
 
-Callout label: REMEMBER
+Callout: Solve the problem. Do not score the point.
 
-Callout: The reaction is not only about the task.
-
-### 5. The cost
+### 5. Enforced harmony
 
 Number: 04
 
-Eyebrow: THE COST OF WAITING
+Eyebrow: THE CULTURE TRAP
 
-Headline: "Why did nobody tell me?"
+Headline: Harmony can hide disagreement.
 
-Body: Delayed feedback creates missed performance. When it finally arrives, the person also has to reckon with how long others have known.
+Body: A nice culture is not always a healthy one. Enforced harmony can crowd out the disagreement a team needs.
 
-Callout label: THE COST
+Callout label: WATCH FOR
 
-Callout: The later it lands, the harder it can be to accept.
+Callout: No tension can still hide a real problem.
 
 ### 6. Doubles
 
@@ -110,15 +106,15 @@ Callout label: TRY THIS
 
 Callout: Prepare one question before the conversation.
 
-### 8. The ripcord
+### 8. One question
 
 Number: 07
 
-Eyebrow: KEEP THIS PHRASE READY
+Eyebrow: ONE QUESTION CHANGES THE ROOM
 
-Headline: Buy time without avoiding.
+Headline: Start with one real question.
 
-Body: "I wasn't expecting to have this conversation. I need some time to reflect so I can give you a considered response."
+Body: If you go from nought to 100, a prepared question interrupts the heat. If you avoid, curiosity gives you a way in.
 
 Callout label: BETTER MOMENTS 06
 
@@ -130,29 +126,29 @@ All 19 frames are live in the Better at Work production file:
 
 https://www.figma.com/file/l5AZW9U1YF0Qe2P7cQdjzJ
 
-They remain named `DRAFT / Better Moments 06 / Smart Conflict / ...`. They use the approved Better Moments production system: Montserrat Bold and Medium, the outlined Better at Work mark, violet organic fields, alternating cream and ink interiors, compact numbered pills and yellow callouts.
+They remain named `DRAFT / Better Moments 06 / Smart Conflict / ...`. They use the Better Moments production system: Montserrat Bold and Medium, the outlined Better at Work mark, violet organic fields, alternating cream and ink interiors, compact numbered pills and yellow callouts.
 
 Instagram carousel, 1080 x 1350, y = 60300:
 
 - `1170:14` cover
-- `1170:28` silence can feel kind
-- `1170:39` ask before you tell
-- `1170:50` feedback hits three places
-- `1170:61` why did nobody tell me
+- `1170:28` two axes
+- `1170:39` conflict confidence
+- `1170:50` solve or win
+- `1170:61` enforced harmony
 - `1170:72` move to doubles
 - `1170:83` get curious, not furious
-- `1170:94` buy time without avoiding
+- `1170:94` one question
 
 LinkedIn carousel, 1080 x 1080, y = 61900:
 
 - `1171:14` cover
-- `1171:28` silence can feel kind
-- `1171:39` ask before you tell
-- `1171:50` feedback hits three places
-- `1171:61` why did nobody tell me
+- `1171:28` two axes
+- `1171:39` conflict confidence
+- `1171:50` solve or win
+- `1171:61` enforced harmony
 - `1171:72` move to doubles
 - `1171:83` get curious, not furious
-- `1171:94` buy time without avoiding
+- `1171:94` one question
 
 Launch row, y = 63300:
 
@@ -164,15 +160,15 @@ Rename `DRAFT` to `FINAL` only after Harrison approves the package.
 
 ## Launch artwork copy and gate
 
-The existing Instagram and LinkedIn launch graphics are on hold because the cost-of-silence angle is outside the final cut. The YouTube graphic remains aligned and can be used.
+The Instagram and LinkedIn launch graphics now follow the approved Smart Conflict excerpt. The YouTube graphic remains aligned. All three remain DRAFT until Harrison approves the revised social route.
 
 Instagram and LinkedIn:
 
 - Eyebrow: BETTER MOMENTS 06
-- Headline: THE COST OF / SILENCE.
-- Support: Feedback gets harder the longer it waits.
+- Headline: GET CURIOUS, / NOT FURIOUS.
+- Support: From singles to doubles. Both against the problem.
 - Guests: ALICE DRISCOLL + LOUISE VAN HAARST
-- Promise: Ask permission. Get on the same side. Keep a ripcord ready.
+- Promise: Get it right, not be right. Get curious, not furious.
 - Button: OUT NOW
 - Footer: BEST BITS FROM BETTER AT WORK / SEASON 4
 
@@ -183,20 +179,20 @@ YouTube:
 - Guests: ALICE DRISCOLL + LOUISE VAN HAARST
 - Promise: Get on the same side of the problem.
 
-The YouTube headline is fitted at 124 px. All three launch frames use the split Alice and Louise portrait from `assets/alice-driscoll-louise-van-haarst-dual-portrait.jpg`.
+All three launch frames use the split Alice and Louise portrait from `assets/alice-driscoll-louise-van-haarst-dual-portrait.jpg`.
 
 ## Exports
 
 Instagram carousel:
 
 - `artwork/carousel/01-cover.png`
-- `artwork/carousel/02-silence-can-feel-kind.png`
-- `artwork/carousel/03-ask-before-you-tell.png`
-- `artwork/carousel/04-feedback-hits-three-places.png`
-- `artwork/carousel/05-why-did-nobody-tell-me.png`
+- `artwork/carousel/02-two-axes.png`
+- `artwork/carousel/03-conflict-confidence.png`
+- `artwork/carousel/04-solve-or-win.png`
+- `artwork/carousel/05-enforced-harmony.png`
 - `artwork/carousel/06-move-to-doubles.png`
 - `artwork/carousel/07-get-curious-not-furious.png`
-- `artwork/carousel/08-buy-time-without-avoiding.png`
+- `artwork/carousel/08-one-question.png`
 
 LinkedIn carousel uses the same filenames under `artwork/carousel-linkedin/`.
 
@@ -208,9 +204,9 @@ Launch:
 
 ## Sources
 
-- Slides 1 to 5: wider full programme material around 16:58 to 24:38. This is outside the approved Better Moment.
+- Slides 2 to 4: approved Better Moment from 00:00 to 01:10, conflict confidence and getting it right versus being right.
+- Slide 5: approved Better Moment around 01:43, enforced harmony versus healthy disagreement.
 - Slide 6: approved Better Moment around 02:10 to 03:01, relational conflict versus task conflict and singles versus doubles.
-- Slide 7: approved Better Moment around 03:21 to 04:25, getting curious at both ends of the conflict scale.
-- Slide 8: wider full programme material after 44:09. The ripcord phrase begins just outside the approved out point.
+- Slides 7 and 8: approved Better Moment around 03:21 to 04:25, getting curious at both ends of the conflict scale.
 
-Only slides 6 and 7 directly describe the final cut. The complete carousel remains on hold.
+The complete carousel now describes the approved 04:25 cut. It remains a draft until Harrison gives the visual go.

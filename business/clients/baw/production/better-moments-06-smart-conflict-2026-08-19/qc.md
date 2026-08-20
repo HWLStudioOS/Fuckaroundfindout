@@ -54,7 +54,16 @@ The separate curiosity teaser remains technically valid and unchanged:
 
 The YouTube thumbnail with **GET CURIOUS, NOT FURIOUS** matches the final cut.
 
-Hold the Instagram and LinkedIn launch graphics and the full carousel. They were built around the rejected feedback and silence angle and do not faithfully describe the approved 04:25 excerpt.
+The Instagram and LinkedIn launch graphics and both carousel formats were realigned to the approved 04:25 excerpt on 20 August.
+
+- Instagram carousel: eight PNGs at 1080 x 1350.
+- LinkedIn carousel: eight PNGs at 1080 x 1080.
+- Instagram and LinkedIn launch graphics: 1080 x 1350.
+- YouTube thumbnail: 1920 x 1080.
+- Figma reports no missing fonts.
+- Contact-sheet review passed for clipping, overlap, order, naming and message alignment.
+
+All frames remain named DRAFT pending Harrison's visual approval. Nothing has been posted, scheduled or sent.
 
 ## Remaining gates
 

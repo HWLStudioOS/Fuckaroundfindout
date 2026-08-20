@@ -1,6 +1,6 @@
 # Publish checklist
 
-Updated Wednesday 19 August 2026. Nothing has been uploaded, sent, scheduled or published from this package.
+Updated Thursday 20 August 2026. Nothing has been uploaded, sent, scheduled or published from this package.
 
 ## Package prepared
 
@@ -15,7 +15,8 @@ Updated Wednesday 19 August 2026. Nothing has been uploaded, sent, scheduled or 
 - [x] Teaser SRT, VTT and ASS sidecars retained. No captions are burned into the video.
 - [x] Acast, Spotify, YouTube, social and newsletter copy rewritten around conflict confidence, singles versus doubles, and curiosity.
 - [x] Existing YouTube thumbnail confirmed as aligned with the final cut.
-- [x] Mismatched Instagram, LinkedIn and carousel artwork placed on hold in the handoff notes.
+- [x] Instagram, LinkedIn and carousel draft artwork realigned to the approved 04:25 excerpt in Figma.
+- [x] Revised artwork exported at the correct delivery dimensions and checked in contact sheets.
 
 ## Final export and QC
 
@@ -38,12 +39,12 @@ Updated Wednesday 19 August 2026. Nothing has been uploaded, sent, scheduled or 
 - [ ] Confirm the final YouTube and Acast destination URLs.
 - [ ] Replace the newsletter's bracketed CTA with the tested Better Moments #6 URL.
 - [ ] Confirm Alice Driscoll and Louise van Haarst social handles before tagging.
-- [ ] Keep the Instagram, LinkedIn and carousel artwork on hold until it is aligned to the approved excerpt.
+- [ ] Harrison approves the revised Instagram, LinkedIn and carousel artwork.
 
 ## Release sequence
 
-- [ ] Wed 19 Aug: upload the final 04:25 master and aligned thumbnail to YouTube as private or unlisted.
-- [ ] Wed 19 Aug: verify the full upload, chapters, description, end screen and links before scheduling.
+- [ ] Thu 20 Aug: upload the final 04:25 master and aligned thumbnail to YouTube as private or unlisted.
+- [ ] Thu 20 Aug: verify the full upload, chapters, description, end screen and links before scheduling.
 - [ ] Thu 20 Aug, 12:30 BST: publish Better Moments #6 to YouTube.
 - [ ] Thu 20 Aug, 12:30 BST: publish to Acast if the audio release is approved.
 - [ ] Thu 20 Aug: use only social assets that match the final excerpt.

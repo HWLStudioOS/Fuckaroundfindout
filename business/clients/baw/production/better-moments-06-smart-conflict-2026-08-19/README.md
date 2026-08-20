@@ -1,6 +1,6 @@
 # Better Moments #6: Smart Conflict
 
-Production package updated Wednesday 19 August 2026 for the Thursday 20 August release. Harrison has approved the 00:04:25:18 editorial selection. The final Premiere export, copy and publishing destinations remain pending. Nothing in this package has been uploaded, sent, scheduled or published.
+Production package updated Thursday 20 August 2026 for today's release. Harrison has approved the 00:04:25:18 editorial selection. The final Premiere export, external signoff and publishing destinations remain pending. Nothing in this package has been uploaded, sent, scheduled or published.
 
 ## The call
 
@@ -79,17 +79,17 @@ The regenerated main SRT, VTT and readable transcript are based on the final 04:
 
 ## Artwork gate
 
-The existing YouTube thumbnail is aligned and can be used:
+The YouTube thumbnail remains aligned:
 
 `artwork/launch/BetterAtWork-BetterMoments-06-SmartConflict-YouTube.png`
 
-Hold the current Instagram and LinkedIn launch graphics and the eight-slide carousel. They were built around the rejected feedback and silence angle. Slides about singles versus doubles and curiosity remain valid, but the complete sets do not match this cut.
+The Instagram and LinkedIn launch graphics and both eight-slide carousel formats were realigned to the approved 04:25 excerpt on 20 August. Refreshed local exports and contact sheets are in the package.
 
 All 19 source frames remain live and editable in the Better at Work production file:
 
 https://www.figma.com/file/l5AZW9U1YF0Qe2P7cQdjzJ?type=design&node-id=1170-14
 
-The frames remain named DRAFT. Do not rename them until the mismatched social artwork is resolved.
+The frames remain named DRAFT pending Harrison's visual approval. Do not rename them or publish the exports until that approval is recorded.
 
 ## Package map
 

@@ -6,13 +6,13 @@ Naming note: the correct guest name is **Louise van Haarst**. Some legacy Better
 
 ## Current artwork gate
 
-The YouTube thumbnail line **GET CURIOUS, NOT FURIOUS** matches the final cut and can be used.
+The YouTube thumbnail line **GET CURIOUS, NOT FURIOUS** matches the final cut.
 
-Hold the existing Instagram and LinkedIn launch graphics and the eight-slide carousel. They were built around the rejected feedback and silence angle. Slides about singles versus doubles and curiosity are accurate, but the full set does not faithfully describe this Better Moment.
+The Instagram and LinkedIn launch graphics and both eight-slide carousel formats were realigned to the approved excerpt on 20 August. They remain DRAFT pending Harrison's visual approval. Nothing has been posted, scheduled or sent.
 
 ## Revised carousel caption
 
-Use this only after the carousel artwork is aligned to the final cut.
+Use this only after Harrison approves the revised carousel artwork.
 
 Conflict confidence is only half the story.
 

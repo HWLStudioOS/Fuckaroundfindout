@@ -1,0 +1,53 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Montserrat,76,&H00FFFFFF,&H000000FF,&H80000000,&H50000000,-1,0,0,0,100,100,-1.0,0,1,2.8,1.2,2,80,80,710,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.24,0:00:01.72,Default,,0,0,0,,It's get curious not
+Dialogue: 0,0:00:01.76,0:00:03.32,Default,,0,0,0,,furious. And I think what's
+Dialogue: 0,0:00:03.36,0:00:04.28,Default,,0,0,0,,interesting about this,
+Dialogue: 0,0:00:04.32,0:00:05.08,Default,,0,0,0,,which is, you know, how
+Dialogue: 0,0:00:05.12,0:00:06.12,Default,,0,0,0,,do you stay in that
+Dialogue: 0,0:00:06.16,0:00:07.80,Default,,0,0,0,,curiosity space is that
+Dialogue: 0,0:00:07.84,0:00:09.08,Default,,0,0,0,,that applies whether you're
+Dialogue: 0,0:00:09.12,0:00:10.68,Default,,0,0,0,,avoidant or whether you
+Dialogue: 0,0:00:10.72,0:00:11.80,Default,,0,0,0,,tend to kind of go
+Dialogue: 0,0:00:11.84,0:00:12.68,Default,,0,0,0,,nought to 100.
+Dialogue: 0,0:00:12.72,0:00:13.40,Default,,0,0,0,,Because if you're someone
+Dialogue: 0,0:00:13.44,0:00:14.60,Default,,0,0,0,,that goes nought to 100,
+Dialogue: 0,0:00:14.64,0:00:16.20,Default,,0,0,0,,we're saying notice that
+Dialogue: 0,0:00:16.24,0:00:17.00,Default,,0,0,0,,you've got that you're
+Dialogue: 0,0:00:17.04,0:00:18.00,Default,,0,0,0,,getting furious.
+Dialogue: 0,0:00:18.32,0:00:19.84,Default,,0,0,0,,Just suspend judgement.
+Dialogue: 0,0:00:20.24,0:00:20.92,Default,,0,0,0,,You know, if you need
+Dialogue: 0,0:00:20.96,0:00:21.88,Default,,0,0,0,,to, if that means
+Dialogue: 0,0:00:21.92,0:00:22.68,Default,,0,0,0,,you need to walk away
+Dialogue: 0,0:00:22.72,0:00:23.40,Default,,0,0,0,,from this conversation
+Dialogue: 0,0:00:23.44,0:00:24.52,Default,,0,0,0,,until you're in a better
+Dialogue: 0,0:00:24.56,0:00:25.96,Default,,0,0,0,,place, fine, do that.
+Dialogue: 0,0:00:26.00,0:00:27.88,Default,,0,0,0,,Prioritise that. Or can you
+Dialogue: 0,0:00:27.92,0:00:29.00,Default,,0,0,0,,just go, I've noticed I'm
+Dialogue: 0,0:00:29.04,0:00:30.12,Default,,0,0,0,,getting furious to kind of
+Dialogue: 0,0:00:30.16,0:00:31.40,Default,,0,0,0,,start to own the feelings
+Dialogue: 0,0:00:31.44,0:00:32.28,Default,,0,0,0,,and sort of get out
+Dialogue: 0,0:00:32.32,0:00:33.80,Default,,0,0,0,,of that amygdala hijack in
+Dialogue: 0,0:00:33.84,0:00:35.80,Default,,0,0,0,,that moment and then go,
+Dialogue: 0,0:00:35.84,0:00:37.08,Default,,0,0,0,,what's my prepared question
+Dialogue: 0,0:00:37.12,0:00:39.00,Default,,0,0,0,,that will just at least
+Dialogue: 0,0:00:39.04,0:00:40.20,Default,,0,0,0,,announce that I'm curious
+Dialogue: 0,0:00:40.24,0:00:41.72,Default,,0,0,0,,and get into this thing.
+Dialogue: 0,0:00:41.76,0:00:43.08,Default,,0,0,0,,So, but also if we're
+Dialogue: 0,0:00:43.12,0:00:44.20,Default,,0,0,0,,avoidant and we're
+Dialogue: 0,0:00:44.24,0:00:44.96,Default,,0,0,0,,thinking,
+Dialogue: 0,0:00:45.44,0:00:46.52,Default,,0,0,0,,what will they say if
+Dialogue: 0,0:00:46.56,0:00:47.88,Default,,0,0,0,,I share my true thoughts
+Dialogue: 0,0:00:47.92,0:00:49.64,Default,,0,0,0,,right now? What if you
+Dialogue: 0,0:00:49.68,0:00:51.12,Default,,0,0,0,,were just getting curious?

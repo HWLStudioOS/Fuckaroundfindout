@@ -71,7 +71,8 @@ Tuesday 18 August has gone (Harrison offline). The Thursday slot holds.
 ## Package map
 
 - `video/BetterAtWork-BetterMoments-06-LeidyKlotz-RoughCut-v1.mp4`: 16:9 rough cut, 1920 x 1080, 08:01.873, public-source proxy.
-- `video/BetterAtWork-Klotz-20-Minutes-Early-Teaser-16x9-Reference.mp4`: 58.8 s teaser reference in 16:9. The 9:16 build is tomorrow's job.
+- `video/BetterAtWork-Klotz-20-Minutes-Early-Teaser-16x9-Reference.mp4`: 58.8 s teaser reference in 16:9.
+- `video/BetterAtWork-Klotz-20-Minutes-Early-Teaser-9x16-IsolatedCam-NoCaptions-v1.mp4`: the 9:16 reel, built 18 Aug 22:35 from Klotz's isolated camera (one stable crop, offset verified) with the programme audio, no captions, unreviewed. Details in `qc.md`.
 - `video/source/`: the public 1080p proxy.
 - `audio/`: 24-bit WAV and 192 kbps MP3 masters of the rough cut.
 - `transcript/`: public JSON3 source, caption builder, long SRT/VTT/text and teaser SRT/text (auto-caption remap, needs a human listen).

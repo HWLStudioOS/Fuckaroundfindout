@@ -18,7 +18,7 @@ Prepared Tuesday 18 August 2026, late. Every box below is unchecked. Nothing has
 - [ ] Harrison confirms the guest, or switches to Mercurio (evaluated spine in the summary) and reruns the package.
 - [ ] Harrison reviews the v1 cut and trims. First candidates: segment 12's closing furniture, then segment 1 if the cold-open jump cut jars.
 - [ ] Decide whether to relink Klotz's isolated camera and enhanced mic under his speech (offsets in `edit-decision-list.md`) or ship the proxy picture.
-- [ ] Decide the 9:16 teaser build: single stable crop of the programme, or isolated camera for Klotz plus programme for Cathal's line.
+- [x] 9:16 teaser built 18 Aug 22:35 (Claude): `video/BetterAtWork-Klotz-20-Minutes-Early-Teaser-9x16-IsolatedCam-NoCaptions-v1.mp4`, 58.8 s, 1080 x 1920, one stable crop of Klotz's isolated Riverside camera (offset +3:19.942 verified frame-for-frame against the programme at 34:16.4) with the programme audio so Cathal's opening line and interjection stay in. No burned captions, Harrison adds them, same handoff as the BM#5 reel. Softness: 720p source upscaled 2.67x, same as BM#5's reel. Unreviewed.
 - [x] Clone the BM#5 Figma frames and reskin the eight-slide carousel (Instagram 1080 x 1350, LinkedIn 1080 x 1080) plus the three launch graphics. Export into `artwork/`. Done 18 Aug 22:35 by Claude, DRAFT frames, unreviewed; four headlines were fitted to the frame widths (see `carousel.md`).
 - [x] Pull a Klotz still for the launch graphics. Used a crop of the episode's YouTube thumbnail (`assets/`), swap if a press photo exists.
 - [ ] Rebuild captions if any segment moves (`python3 transcript/build-captions.py` after editing `MAIN_SEGMENTS`).

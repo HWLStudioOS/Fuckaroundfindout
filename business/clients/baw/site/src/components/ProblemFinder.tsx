@@ -1,0 +1,228 @@
+"use client";
+
+import { ArrowRight, Check, Copy, Search, Sparkles } from "lucide-react";
+import Link from "next/link";
+import { type FormEvent, useMemo, useState } from "react";
+import { episodes, type Episode } from "@/lib/content";
+import { PlayButton } from "./AudioPlayer";
+
+const prompts = [
+  "I have too many priorities",
+  "My boss is micromanaging me",
+  "I am thinking about changing career",
+  "Our team is burning out",
+];
+
+const groups: Record<string, string[]> = {
+  leadership: ["boss", "manager", "leader", "micromanaging", "control", "direction"],
+  burnout: ["burnout", "burning", "tired", "exhausted", "energy", "overwork", "stress"],
+  career: ["career", "job", "interview", "stuck", "change", "promotion", "purpose"],
+  priorities: ["priority", "priorities", "busy", "everything", "finish", "focus"],
+  strategy: ["strategy", "plan", "choice", "decision", "ai", "average"],
+  culture: ["culture", "team", "office", "workplace", "hot desk", "connection"],
+  conflict: ["conflict", "difficult", "conversation", "disagree", "tension", "polarised"],
+};
+
+const stopWords = new Set([
+  "and",
+  "are",
+  "about",
+  "for",
+  "had",
+  "has",
+  "have",
+  "its",
+  "not",
+  "our",
+  "out",
+  "that",
+  "the",
+  "this",
+  "was",
+  "with",
+  "you",
+  "your",
+]);
+
+const normalise = (value: string) =>
+  value
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, " ")
+    .split(/\s+/)
+    .filter((word) => word.length > 2 && !stopWords.has(word));
+
+// The visitor's own words outrank group synonyms, so a specific phrase like
+// "micromanaging" beats the generic leadership cluster it also activates.
+const queryTerms = (query: string) => {
+  const direct = new Set(normalise(query));
+  const expanded = new Set<string>();
+  Object.entries(groups).forEach(([label, words]) => {
+    if (words.some((word) => query.toLowerCase().includes(word))) {
+      expanded.add(label);
+      words.forEach((word) => normalise(word).forEach((term) => expanded.add(term)));
+    }
+  });
+  direct.forEach((term) => expanded.delete(term));
+  return { direct: [...direct], expanded: [...expanded] };
+};
+
+const scoreEpisode = (episode: Episode, query: string) => {
+  const { direct, expanded } = queryTerms(query);
+  const problemText = episode.problems.join(" ").toLowerCase();
+  const titleText = `${episode.title} ${episode.shortTitle}`.toLowerCase();
+  const bodyText = [
+    episode.summary,
+    ...episode.topics,
+    ...episode.takeaways,
+    ...episode.problems,
+  ]
+    .join(" ")
+    .toLowerCase();
+
+  const scoreTerm = (term: string, weight: number) => {
+    let score = 0;
+    if (problemText.includes(term)) score += 5 * weight;
+    if (titleText.includes(term)) score += 4 * weight;
+    if (bodyText.includes(term)) score += 2 * weight;
+    return score;
+  };
+
+  return (
+    direct.reduce((score, term) => score + scoreTerm(term, 3), 0) +
+    expanded.reduce((score, term) => score + scoreTerm(term, 0.5), 0)
+  );
+};
+
+export function ProblemFinder({ compact = false }: { compact?: boolean }) {
+  const [query, setQuery] = useState("");
+  const [searched, setSearched] = useState(false);
+  const [copyState, setCopyState] = useState<"idle" | "copied" | "unavailable">("idle");
+
+  const results = useMemo(() => {
+    if (!query.trim()) return [];
+    return episodes
+      .map((episode) => ({ episode, score: scoreEpisode(episode, query) }))
+      .filter((result) => result.score > 0)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 3);
+  }, [query]);
+
+  const search = (event?: FormEvent) => {
+    event?.preventDefault();
+    if (query.trim()) {
+      setSearched(true);
+      setCopyState("idle");
+    }
+  };
+
+  const copyPlaylist = async () => {
+    const playlist = results
+      .map(
+        ({ episode }, index) =>
+          `${index + 1}. ${episode.shortTitle}\n${window.location.origin}/episodes/${episode.slug}`,
+      )
+      .join("\n\n");
+
+    try {
+      await navigator.clipboard.writeText(playlist);
+      setCopyState("copied");
+    } catch {
+      setCopyState("unavailable");
+    }
+  };
+
+  return (
+    <div className={`problem-finder${compact ? " problem-finder--compact" : ""}`}>
+      <div className="problem-finder__intro">
+        <span className="note-label">
+          <Sparkles aria-hidden="true" /> Work Problem Finder
+        </span>
+        <h2>What are you working through?</h2>
+        <p>
+          Describe the problem in your own words. We will find useful ideas from real
+          Better@Work conversations, with every source attached.
+        </p>
+      </div>
+      <form className="finder-search" onSubmit={search}>
+        <Search aria-hidden="true" />
+        <input
+          value={query}
+          onChange={(event) => {
+            setQuery(event.target.value);
+            setSearched(false);
+          }}
+          placeholder="My team has too many priorities and nothing gets finished..."
+          aria-label="Describe a work problem"
+        />
+        <button type="submit">
+          Find an answer <ArrowRight aria-hidden="true" />
+        </button>
+      </form>
+      <div className="finder-prompts" role="group" aria-label="Example searches">
+        {prompts.map((prompt) => (
+          <button
+            key={prompt}
+            type="button"
+            onClick={() => {
+              setQuery(prompt);
+              setSearched(true);
+            }}
+          >
+            {prompt}
+          </button>
+        ))}
+      </div>
+      {searched ? (
+        <div className="finder-results" aria-live="polite">
+          <div className="finder-results__head">
+            <div>
+              <span className="eyebrow">Grounded in the archive</span>
+              <h3>
+                {results.length ? `${results.length} useful places to start` : "Try another angle"}
+              </h3>
+            </div>
+            {results.length ? (
+              <button className="text-button" type="button" onClick={copyPlaylist}>
+                <Copy aria-hidden="true" />
+                {copyState === "copied" ? "Playlist links copied" : "Copy playlist links"}
+              </button>
+            ) : null}
+          </div>
+          {results.length ? (
+            <div className="finder-result-list">
+              {results.map(({ episode }, index) => (
+                <article className="finder-result" key={episode.slug}>
+                  <span className="finder-result__rank">0{index + 1}</span>
+                  <div>
+                    <span className="eyebrow">
+                      {episode.series} · {episode.duration}
+                    </span>
+                    <h4>
+                      <Link href={`/episodes/${episode.slug}`}>{episode.shortTitle}</Link>
+                    </h4>
+                    <p>{episode.takeaways[0] ?? episode.excerpt}</p>
+                    <div className="finder-result__source">
+                      <Check aria-hidden="true" /> Source attached · {episode.guest}
+                    </div>
+                  </div>
+                  <PlayButton episode={episode} compact />
+                </article>
+              ))}
+            </div>
+          ) : (
+            <p>
+              Try naming the tension, person or outcome. For example, “I am exhausted but
+              the work cannot stop” or “our strategy has too many priorities”.
+            </p>
+          )}
+          {copyState === "unavailable" ? (
+            <p className="finder-copy-status" role="status">
+              Clipboard access is unavailable in this browser. Open each episode and copy
+              its address instead.
+            </p>
+          ) : null}
+        </div>
+      ) : null}
+    </div>
+  );
+}

@@ -6,12 +6,12 @@ Workplace podcast. Hosts: **Cathal Quinlan** (primary contact) + **Annette Sloan
 
 Active. April reset after honest conversation about declining metrics. Hourly trial in place. April skipped by mutual agreement (March deliverables didn't meet standard).
 
-## Better Moments #6, decided 19 August 2026
+## Better Moments #6, updated 20 August 2026
 
-- **Harrison went with Smart Conflict for #6**, using the package Codex built. The all-time #2 episode, and it was the tracker's original Best-of #3 suggestion. Tasha Eurich was the remote session's recommendation; Harrison overrode per his call on 19 Aug.
-- **The Codex Smart Conflict package is not in this repo.** No branch carries it and main has no folder for it as of 19 Aug afternoon. It lives on the studio machine. It should land under `production/` on the next push or nightly backup so the delivery record stays honest, same standard the value ledger holds everything else to.
-- The full Tasha Eurich package remains built, QC-passed and merged at `production/better-moments-06-tasha-eurich-2026-08-18/`. It is **held as the leading #7 candidate** for w/c 24 August. Its artwork and copy carry "06" and "lands Thursday"; both regenerate in one command (`node design/generate-artwork.mjs` after editing the series strings) once the #7 slot is confirmed. Its approval gates (Cathal thumbs-up, transcript verification of the flagged claims) transfer unchanged.
-- Roadmap check: W7 to W8 calls for Best-ofs #6 and #7 plus Webb packaging and the trailer, and the trailer is due to the feed the last week of August.
+- Current editorial pick: **Smart Conflict**, Alice Driscoll and Louise van Haarst. Harrison approved the continuous 00:04:25:18 picture lock after reviewing and dropping the earlier Leidy Klotz and Tasha Eurich options.
+- Active package: `production/better-moments-06-smart-conflict-2026-08-19/`. Copy, captions, the curiosity teaser and all 19 Figma artwork frames are aligned to the approved 04:25 excerpt. Local delivery exports and contact sheets were refreshed on 20 August. The final Premiere export, technical QC, Cathal and Annette sign-off, destination URLs and Harrison's visual approval of the revised social artwork remain open.
+- The remote-built Tasha Eurich package is retained at `production/better-moments-06-tasha-eurich-2026-08-18/` as superseded reference material only. Do not use or publish it as Better Moments #6.
+- Target remains Thursday 20 August at 12:30 BST, subject to the remaining approval and export gates in the Smart Conflict publish checklist.
 
 ## Better Moments #5, updated 13 August 2026
 

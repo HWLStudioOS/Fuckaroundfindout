@@ -1,0 +1,31 @@
+{
+  "note": "Sampled from the approved Better Moments #5 Jennifer Moss exports on 18 Aug 2026. The #5 set is the visual source of truth until the Season 5 system takes over.",
+  "color": {
+    "violetCover": "#6D2AEF",
+    "violetBlobLight": "#7B47F5",
+    "violetBlobDark": "#5D1FD6",
+    "violetInterior": "#6847D8",
+    "cream": "#FFF8EE",
+    "ink": "#171817",
+    "yellow": "#F4DE46",
+    "footerOnCream": "#7B5EDA",
+    "footerOnDark": "#CBC5E6"
+  },
+  "type": {
+    "family": "Montserrat",
+    "eyebrow": { "weight": 700, "size": 24, "letterSpacing": 3 },
+    "pill": { "weight": 700, "size": 24, "letterSpacing": 2 },
+    "headline": { "weight": 800, "size": 84, "lineHeight": 96 },
+    "body": { "weight": 500, "size": 40, "lineHeight": 58 },
+    "calloutLabel": { "weight": 700, "size": 22, "letterSpacing": 2.5 },
+    "calloutText": { "weight": 500, "size": 36 },
+    "footer": { "weight": 700, "size": 22, "letterSpacing": 2.5 }
+  },
+  "layout": {
+    "margin": 72,
+    "instagram": { "w": 1080, "h": 1350 },
+    "linkedin": { "w": 1080, "h": 1080 },
+    "launch": { "w": 1080, "h": 1350 },
+    "youtube": { "w": 1920, "h": 1080 }
+  }
+}

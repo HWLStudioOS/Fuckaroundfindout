@@ -19,7 +19,7 @@ Hired June 2026. First contract sent 8 June, intro call 10 June. Unblocks delive
 
 ## Current jobs
 
-- **Ultimate Founder padel wrap reel, revision pass 13 August.** David's first draft was good and needed only a small set of tweaks. Target remains a 20 to 30-second, action-first campaign trailer. It is not yet approved or delivered. Codex's rejected 36-second test remains reference for what not to do.
+- **Ultimate Founder padel wrap reel, source recovery required.** David's first draft passed the basic creative test, but the revision and editable timeline have not landed. Harrison decided on 20 August to end the editing arrangement. No new work goes to David. Recover the latest export, timeline XML, native project archive, linked-asset list and any edit-specific assets before revoking access.
 - **BaW podcast: DONE 10 June.** Episode edit + 2 reels, custom CEO-style open. Uploading to Frame.io by tonight UK time.
 - **Creepers**: next up. Photo-led simple b-roll style, "easier than the podcast". 2-3 posts/week cadence. Hero film briefed over coming weeks.
 - This week: podcast only, rest of week free.
@@ -28,7 +28,14 @@ Hired June 2026. First contract sent 8 June, intro call 10 June. Unblocks delive
 
 - **£550 August salary paid.** Harrison confirmed it landed on 13 August, five days after the stated 8 August date and after David chased twice.
 - Prior payments on record: an initial payment received 26 June, then an invoice for the remaining £275 balance sent 10 July.
-- He is actively working the Danny Wicks wrap-reel revision pass. Review it when he sends the next draft.
+- The August payment landed. Do not promise any refund, final payment or notice date until the signed agreement is checked. The termination message can close the working arrangement while leaving contractual reconciliation subject to the agreement.
+
+## Exit decision, 20 August 2026
+
+- Harrison's decision is to end the arrangement. The working failure is not merely taste: David has not supplied the revision or a usable source timeline, and cannot currently provide the XML Harrison needs to recover the job.
+- This decision is internal until the message is sent. Do not describe David as terminated externally before that send.
+- Recovery order: latest review export, timeline XML, native Premiere or Resolve project archive, fonts/plugins/LUT notes, edit-specific graphics and music references, then confirmation that all current HWL material is in the shared surfaces.
+- Remove access only after the recovered package opens and relinks, unless a security issue requires immediate revocation.
 
 ## Harrison owes (from 10 June call)
 

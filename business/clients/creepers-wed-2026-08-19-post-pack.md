@@ -40,6 +40,17 @@ Crop: all three are 2:3 portrait. Take Instagram's 4:5 crop. On slide 1 keep the
 
 If you want zero fuss, slide 1 alone with the same caption is a complete post.
 
+### Ready-to-post files (added 22:35, Claude)
+
+The three stills are already cut to Instagram's 4:5 at 1080 x 1350 and sit next to this pack in `business/clients/creepers-wed-2026-08-19-post-pack/`:
+
+- `01-specimen-rootball-DSC_1674-4x5.jpg` (rootball kept at the bottom, crown top cropped)
+- `02-rootball-pair-DSC_1612-4x5.jpg` (sky trimmed, pair and rootballs kept)
+- `03-polytunnel-DSC_1605-4x5.jpg` (centred)
+- `caption.txt` (the caption above, verbatim, with the single #CREEPERS tag)
+
+AirDrop the three JPGs and caption.txt to the phone, post in that order on @creepersnursery, add the alt text from above. UGREEN not required in the morning.
+
 **Caption (exact text):**
 
 Chosen on the things a photograph does not show.
@@ -87,6 +98,12 @@ Is New Forest still on for today?
 - **The live Figma frame differs from the repo notes.** `435:2` is named `16 · Pro Landscaper · SELECTED FULL BLEED · CLIENT FEEDBACK V2 · ANNIVERSARY + CREDIT PENDING`, 2200 x 2950 px, hidden trim guide 2100 x 2850 at 50 px inset. Tonight it reads: lockup, `HELPING YOUR DESIGNS BECOME A REALITY`, headline **`38 Years in the Ground.`**, `And we're just getting started.`, `TRADE PLANT SUPPLY · FAMILY OWNED · EXPERTLY SOURCED · UK & EUROPEAN SOURCING`, footer `SURREY | LONDON | NEW FOREST`, `CREEPERSNURSERY.CO.UK`, `01932 821 626`, Plant Healthy mark, QR. **There is no designer-credit text layer in the frame at all** (checked at full resolution). `creepers.md` and the 11 Aug README still describe a `40 Years` working line, a product-range line under the logo and a credit placeholder. No log entry records the change. Whether 38-and-no-credit reflects Anna's answer or is your own interim edit is **unverified**. Practical reading: if Anna says 38 and no credit, the frame is export-ready with zero edits.
 - The three anniversary candidates on file: 38 (frame tonight, and the existing campaign), 40 (Creepers' About page, founded 1986), 45 (SGLD profile, 1981). Anna decides, not us.
 - QR destination `https://www.creepersnursery.co.uk/wholesale-plants` returned HTTP 200 at 21:56.
+
+### Draft PDF already exported (added 22:50, Claude)
+
+`business/clients/creepers-wed-2026-08-19-post-pack/Creepers_ProLandscaper_Sept2026_FullPage_220x295_bleed5-DRAFT-38years-nocredit.pdf`
+
+Exported from frame `435:2` exactly as it stood tonight (38 Years, no credit line), then boxed with the pypdf step below: page 623.6 x 836.2 pt (220 x 295 mm), TrimBox at 5 mm inset, the photograph embeds at 260 ppi at final size, RGB, 7.7 MB. **The DRAFT suffix is deliberate.** If Anna confirms 38 and no credit, rename it (drop `-DRAFT-38years-nocredit`) and send. If she says 40, or wants a credit, edit the frame in Figma and re-run Route A; two minutes.
 
 ### Export and supply checklist
 

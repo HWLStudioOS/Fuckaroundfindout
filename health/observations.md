@@ -33,3 +33,21 @@ horoscope with a timestamp.
 **Sample.** Six runs across three weeks, five matching. Inside the block itself, one easy run, so n=1 in-block. Logged as a suspicion with a test, not a finding.
 
 **What settles it.** Watch the next three easy or long sessions. Nothing needs changing for the test to run.
+
+**Interim, 19 August.** Window still open, closes as scheduled. Sunday 16 August came in genuinely easy, 0 of 34 minutes in zone 3, average HR 140, but at 34 of the prescribed 75 minutes. Monday 17 August has no run in the data at all. The strict all-three prediction can no longer hold, so Saturday's close will be broke or unclear depending on Friday 21 and on how much weight a half-length long run can carry as a test.
+
+---
+
+## 2026-08-19 | open | Easy and long slots underrunning while hard runs and lifting complete
+
+**Observation.** Ten days into Build + Engine (10 to 19 August), the two prescribed hard runs are 2 for 2 at full length: 13 August 4x4 VO2, 48 min, average HR 165, 14 min in zone 5; 19 August session named Threshold against the week-two 5x3 prescription, 44 min, average HR 170, 20 min in zone 5. Lifting shows four sessions of 54 to 69 minutes on 10, 12, 14 and 17 August. The easy and long slots have delivered 69 of 140 prescribed minutes, 49 per cent: Tuesday 11 August 35 of 30 (met), Sunday 16 August long run 34 of 75 (46 per cent), Monday 17 August easy run 0 of 35 (no run recorded; a 69-minute strength session happened that day at 13:32). The block's stated intent is to improve VO2 max without surrendering the long-run base, and the plan's own 10 August baseline records Garmin load balance as high-aerobic shortage. The component slipping is the one the block promised to protect.
+
+**Prediction.** Five aerobic slots remain through Sunday 30 August: Friday 21 (30 min), Sunday 23 (80), Monday 24 (35), Friday 28 (35), Sunday 30 (85), 265 prescribed minutes. If this is a structural bias rather than a messy opening week, those five slots deliver under 200 logged minutes. If 200 or more arrive, including both Sunday long runs at 80 per cent or more of prescribed duration (64 and 68 min), week one was transition noise and this breaks.
+
+**Window.** Closes end of Sunday 30 August. Scored on the Wednesday 2 September run, since the Saturday 29 August run lands before the final Sunday slot.
+
+**Counter-read.** Week one carried a recorded, deliberate adjustment, so it is the noisiest possible sample. The short Sunday followed 18 holes of golf on the 15th, which the plan itself counts as active load, so cutting it may have been a sensible call rather than drift. Monday's miss sits next to a 4.9-hour night into the 18th, so that whole 48 hours may have a life explanation, not a training one. And plan rule 8 explicitly drops the Friday easy run first when sleep averages under 6.5 hours for three nights, so a missing Friday run can be the plan working rather than the pattern; only Harrison knows which applied.
+
+**Sample.** Three aerobic slots so far: one met, one at 46 per cent, one missed. n=3. Three data points is a coincidence with ambition. Logged as a count to watch, not a finding.
+
+**What settles it.** The five slots through 30 August are the test. Count the minutes. Nothing needs changing for the test to run.

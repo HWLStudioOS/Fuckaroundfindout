@@ -10,6 +10,9 @@ Format per entry:
 
 ---
 
+## 2026-08-19
+- **Fatal Abstraction: Revolutionizing Strategy and Innovation for the Age of AI** (£19.99), Michael G. Nichols, Emerald Publishing. Argues management never adopted the probabilistic, Bayesian reasoning every other serious discipline uses, and that AI's stochastic nature makes that gap existential for organisations still run on deterministic planning cycles. Philosophy-applied-to-strategy lane. Releases 25 Aug 2026. [https://bookstore.emerald.com/fatal-abstraction-pb-9781806868803.html]. Status: auto-approved.
+
 ## 2026-08-12
 - **The Insider You Built: How Organizations Stay in Control of Autonomous AI Agents** (~£25), Camille Stewart Gloster, Wiley. Governance framework for enterprises running AI agents with delegated authority, the Agent-Centered Enforcement and Attribution model for tracing decisions and assigning responsibility. Direct reference for the Jarvis Foundation action-ledger work. Releases 15 Sep 2026. [https://www.amazon.com/Insider-You-Built-Organizations-Autonomous/dp/1394430892]. Status: auto-approved.
 

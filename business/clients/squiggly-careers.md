@@ -6,6 +6,8 @@ Career development company and podcast, Helen Tupper and Sarah Ellis. The campai
 
 **Proposal sent 19 August 12:16; Helen replied 20 August 17:44, warm, no pushback on the number.** Their Finance Manager is back Monday 24 August to check "the impact of the increased cost on our cash flow across the year"; Helen commits to next steps "very early next week". Her one operational question: with Sarah Massie away 22-29 September, can first drafts reach her in time under a 14 September start? Answer is yes and a reply is staged on the thread for Harrison's tap (drafts of the 6 and 8 October episodes to Sarah M by Thursday 18 September, feedback Friday 19th; the rest reviewed on her return from the 30th with days to spare). On their yes: the short agreement (`squiggly-careers-agreement-draft-2026-08.md`).
 
+**20 August update:** Helen replied with some price sensitivity. Harrison's current read remains green. The £3,400 plus VAT proposal still holds. Do not discount, narrow scope or send a defensive follow-up before Helen makes the next move.
+
 ## Proposal as sent, 19 August 12:16 (the live terms)
 
 Harrison rewrote the staged draft before sending. Sent to Helen on the "Squiggly Careers Production" thread (opens "Hey Team"; cc to the Sarahs not visible in the thread view). Full text:

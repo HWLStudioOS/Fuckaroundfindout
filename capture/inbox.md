@@ -127,6 +127,42 @@ Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client o
 - Tag: idea, content, business
 - Status: new. Nothing committed. Move (1) is the cheap one and the only one with a decision this week.
 
+## 2026-08-16 19:00 (Harrison direct, Sunday evening decisions)
+
+- **Body weight recorded: 86 kg at 18.5 per cent body fat.** First reading since 29 April,
+  ending a 109-day gap. This unblocks the body-composition system in
+  `health/training-plan.md`, which could not set any target without it.
+- **Computed against the plan's own rules**, for Harrison to accept into the training plan.
+  That file is Harrison-owned under `agents/STATE-OWNERSHIP.md`, so this is arithmetic
+  offered, not a prescription written:
+  - Lean mass roughly **70.1 kg**, fat mass roughly **15.9 kg**.
+  - Protein at 1.8 to 2.2 g per kg body weight: **155 to 189 g per day**, across three to
+    five meals.
+  - Target loss 0.25 to 0.5 per cent of body weight per week: **215 to 430 g per week**.
+  - Opening deficit 300 to 400 kcal per day. Do not deepen it until two complete weekly
+    averages exist.
+  - For scale: moving from 18.5 to about 13 per cent means shedding roughly 5 kg of fat,
+    which at the prescribed rate is **12 to 28 weeks**. That is a Christmas timeline, not
+    an October one, and the block ends 4 October.
+  - Still outstanding from the plan: a seven-day weight average rather than a single
+    reading, and front, side and back photos in consistent light every four weeks.
+- **Training week delivered, Harrison's account:** Push, Pull and Legs all hit, remainder
+  of the sessions were runs. He is happy with it. **STNDRD stays**, the seven-day trial
+  passes on his call.
+- **Marchon subscription: killed.** Harrison's decision, direct. Consequence worth naming:
+  `health/training-plan.md` lists MARCHON GAIN as the fallback if STNDRD fails, so after
+  this there is no fallback. Acceptable while STNDRD is working, but the plan now
+  overstates the safety net and that line should be corrected when he next touches it.
+- **Manus account: killed.** Not in use, let it delete on 23 August. No export.
+- **Companies House director ID verification:** Harrison doing it first thing Monday.
+- **HMRC VAT return notice:** Harrison believes VAT is already added to the Business Tax
+  Account and is unsure why the 14 August email arrived. Worth thirty seconds inside the
+  BTA to confirm, because the first return is due 7 September and the notice may simply
+  be the standard automated prompt. Do not assume either way.
+- Source: Harrison direct, Sunday evening
+- Tag: health, admin
+- Status: new
+
 ## 2026-08-16 13:30 (Sunday check-in, Harrison direct)
 
 - **Family, new and unmodelled.** Harrison's oldest brother had his niece this week. It was not a straightforward or safe birth. They went home and are now back in hospital. Harrison expects there may be significant support work next week. This is the largest unplanned variable in w/c 17 August and it is not on any board yet.

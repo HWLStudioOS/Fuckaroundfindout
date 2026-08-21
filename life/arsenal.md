@@ -80,10 +80,22 @@ is non-refundable so it is a real decision rather than an option to hold.
 | **Lapsed** | **yes, renewal missed** | 2026-08-16, Harrison |
 | Re-joined | 16 August 2026 | 2026-08-16, Harrison |
 | Silver list position | **reset to 2026-08-16** | inferred, confirm with Arsenal |
-| Renewal date | confirm. Memberships are commonly season-bound rather than 12 months from purchase, so do not assume 16 Aug 2027 | not verified |
-| Auto-renew on | **UNKNOWN, confirm** | not verified |
-| Card on file valid | **UNKNOWN, confirm** | not verified |
-| Season Ticket Waiting List | not joined | 2026-08-16, Harrison |
+| Renewal date | 16 August 2026 anniversary, so **next renewal ~16 August 2027** | 2026-08-16, Harrison. See caveat below |
+| Auto-renew on | **yes** | 2026-08-16, Harrison |
+| Card on file valid | **yes** | 2026-08-16, Harrison |
+| Season Ticket Waiting List | not joined, blocked | see below |
+
+**Renewal date caveat.** Harrison reports the anniversary as today. Arsenal memberships
+are commonly season-bound rather than running twelve months from purchase, and he has
+already missed one renewal, so the stated date is his recollection rather than a checked
+fact. `arsenal-watch` treats it as provisional and keeps asking until a dated Arsenal
+email or Box Office screen confirms it. Auto-renew being on is good, and it is also
+exactly what someone would have believed last time.
+
+**Season Ticket Waiting List, blocked 16 August 2026.** Harrison attempted to join and
+the Arsenal website errored. £50 adult, redeemable against a first season ticket. Retry
+this; the queue only accrues while you are in it, so a website fault is currently costing
+seniority. `arsenal-watch` should surface this until the table says joined.
 
 ### The lapse, recorded 16 August 2026
 

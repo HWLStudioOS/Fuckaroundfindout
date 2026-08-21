@@ -80,3 +80,24 @@ External:
 1. A written reply to the offer DOES exist. Helen, 28 July 19:45: "Thanks so much for sending all this through! I'm going to chat with Sarah on Friday and come back to you with thoughts." The thoughts never arrived by email; the 18 August call is that conversation. Read: warm receipt, decision deferred to Helen plus Sarah, the call is the decision venue. Price has not been pushed back on in writing.
 2. Sarah Massie is internal Amazing If (sarahmassie@amazingif.com), on every version of Helen's meeting invite alongside Sarah Ellis. Exact role not stated in email; likely the day-to-day production contact. Sarah Davey (sarahdavey@amazingif.com) is the coordinator who scheduled and moved the call, a third Sarah, do not conflate.
 3. Bonus: Helen's 24 July email in the "Squiggly Careers Production" thread contains the incumbent Podcast House deliverables AND the costs they currently pay (starts "Episode Editing 4 x Borrowed Brilliance episodes..."). Reread that thread before the call; it is the anchor for the price conversation.
+
+## Close note, 17 Aug
+
+Call is Tuesday, not Monday.
+
+**(a) What changed.** Nothing from Amazing If since the 12 Aug invite reissue. Helen accepted, both Sarahs still needsAction. The "11 Aug chat" never happened, moved to the 18th. First live contact since Helen's 28 July "I'll chat with Sarah on Friday." No pushback in writing.
+
+**Correction:** the range actually sent on 27 July is **£3,400 to £4,100 plus VAT**, not £3,600 to £4,400. Internal files are wrong. Do not say £4,400, it reads as a price rise. Podcast House costs them £2,600 a month plus studio hire (Helen, 24 July). They pulled thumbnails and clips in-house and stopped trailers: cost, and the creative landed off-brand. Confidential. Do not mention Jack.
+
+**(b) Opener.** "I'm treating today as shaping the pilot rather than deciding whether to do one, so tell me what's landed since the 27th and what hasn't."
+
+**(c) The close.** Anchor on **£4,100 a month plus VAT**: three-month pilot, eight episodes, publishing, editorial, one feedback round, agreed packaging, Farringdon separate. Ask: "Can we call it today at £4,100, three months, source files by 7 September, first HWL episode live first week of October? If yes I'll confirm in writing this afternoon." If Sarah Ellis is absent, ask Helen if she can say yes without her. If not, get her date.
+
+**(d) Objections.**
+- Price ("we pay £2,600"): "£2,600 buys edits and uploads. £4,100 buys production, editorial and on-brand packaging you had to pull in-house, and I've produced Helen once already, BaW S4E1, your top episode."
+- Scope ("can clips or trailers come back?"): "Yes, priced on top. The pilot rate is eight episodes, publishing, one round, agreed packaging."
+- Who does what (Sarah Massie produces): "Sarah keeps calendar, guests and sign-off. I take source files to published episode and packaging, one handover standard, one round through her."
+
+**(e) Do not.** Discount unprompted or drop below £3,400. Fold clips, trailers or Farringdon into the monthly. Promise a September start or Farringdon dates: LOR Early Talent goes live w/c 28 Sept, two shoot days unbooked, family variable this week. Agree more than one feedback round.
+
+**(f) If "not yet".** "Send me the trial episode by Friday 21 August at the pilot rate, cut back within a week, and give me yes or no by Friday 28 August. I hold the October start until then." Confirm in writing within the hour.

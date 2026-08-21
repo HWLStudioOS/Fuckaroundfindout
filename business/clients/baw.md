@@ -6,6 +6,19 @@ Workplace podcast. Hosts: **Cathal Quinlan** (primary contact) + **Annette Sloan
 
 Active. April reset after honest conversation about declining metrics. Hourly trial in place. April skipped by mutual agreement (March deliverables didn't meet standard).
 
+## Evening correction, 20 August 2026
+
+- Better Moments #6 went out. The Smart Conflict clip is also live on LinkedIn. The open approval and export language in the earlier morning snapshot is superseded.
+- Cathal is happy with the current arrangement. Harrison killed the repricing work rather than forcing a new package or another scope conversation. The staged INV-0399 repricing draft is obsolete and must not be sent.
+- This does not fold the separate Season 5 brand and website work into the retainer. Existing scope boundaries remain.
+
+## Better Moments #6, updated 20 August 2026
+
+- Current editorial pick: **Smart Conflict**, Alice Driscoll and Louise van Haarst. Harrison approved the continuous 00:04:25:18 picture lock after reviewing and dropping the earlier Leidy Klotz and Tasha Eurich options.
+- Active package: `production/better-moments-06-smart-conflict-2026-08-19/`. Copy, captions, the curiosity teaser and all 19 Figma artwork frames are aligned to the approved 04:25 excerpt. Local delivery exports and contact sheets were refreshed on 20 August. The final Premiere export, technical QC, Cathal and Annette sign-off, destination URLs and Harrison's visual approval of the revised social artwork remain open.
+- The remote-built Tasha Eurich package is retained at `production/better-moments-06-tasha-eurich-2026-08-18/` as superseded reference material only. Do not use or publish it as Better Moments #6.
+- Target remains Thursday 20 August at 12:30 BST, subject to the remaining approval and export gates in the Smart Conflict publish checklist.
+
 ## Better Moments #5, updated 13 August 2026
 
 - Jennifer Moss is the editorial choice for this week's Better Moment.
@@ -13,6 +26,17 @@ Active. April reset after honest conversation about declining metrics. Hourly tr
 - Full 9:50 picture and audio masters, native Instagram and LinkedIn carousels, three launch graphics, platform copy and Friday's Better Bits draft are complete.
 - The Figma frames and delivery exports live in `production/better-moments-05-jennifer-moss-2026-08-11/`.
 - Harrison captioned and published the final 48-second AI-adoption reel on `@betteratworkpod` on 13 August. Two earlier exports were rejected for jumpy crop switches, an awkward opening and a cut-off ending. The final cut starts directly on “People will be much more resistant to engaging with AI” and carries the uninterrupted answer through “when you have empathy.” The long Better Moment still retains Cathal and Annette approval, final human caption listen and live-link gates.
+
+## Reprice call outcome, 17 August 2026 (Granola `CQ x HL`, 11:00, ran an hour)
+
+- **No cut agreed. No cap agreed. Retainer stays £1,500 net plus VAT for now.** The only money exchange: Harrison said if BaW is VAT registered the VAT costs Cathal nothing, and if registration is months away "we can figure something out", if a month away "doesn't really change much". Cathal: "leave that with me", he will confirm the registration timeline with his accountant (he is in France, owes the accountant signed documents). Ball is his.
+- Not discussed on the call: which entity is invoiced (UK vs Australian), and whether the Season 5 brand system and website are priced separately. Both go in the written follow-up. The website must not drift into the retainer by silence.
+- Cathal's website feedback: his face front and centre on the landing hero (PR advisor said the same, TV ambitions), Annette lower; touch up lighting and sheen on the studio shots; lighten the coral on the career-change page. He liked the brand system ("fun teacher" feel).
+- Season 5: launch **Tuesday 15 September**, release day moves Thursday to Tuesday. Filming day targeting **Wednesday 2 September** at Squiggly's studio, 10:00 (Cathal has a 14:00 dentist), Cathal checking availability. Teleprompter intro/outro assets needed for Riverside episodes. Caroline Webb recorded, Annette to record, Neil Mullarkey booked mid-September (calendar invite says Tue 15 Sept 14:00, still unaccepted). Leadership miniseries meeting is Wednesday this week.
+- Also agreed: Harrison sets up Better Careers checkout; reviews LinkedIn newsletter restrictions and recommends LinkedIn vs Mailchimp vs Substack; refreshes Spotify/Apple artwork; preps the S5 launch plan; looks into the wrap episode vanishing from Spotify (Anchor/RSS).
+- Stats Cathal shared: Acast 1,200 downloads last 30 days, 300 last 7, YouTube Roger episode 6,000+ views, channel 412 subs.
+- Value ledger for the reprice conversation, built the same morning: `baw-value-ledger-2026-08-17.md`. Retainer scope ran £2.4k (June), £4.2k to £5.6k (July), £4k+ tracking (August) at studio rates against £1,500 paid; brand + site is roughly £6k more, unbilled.
+- Correction to the 7 August section below: the "draft reply sitting in Gmail" never existed as a Gmail draft (checked 17 Aug, zero drafts). Superseded by the call anyway.
 
 ## Repricing request, 7 August 2026
 

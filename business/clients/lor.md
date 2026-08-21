@@ -1,5 +1,7 @@
 # Laing O'Rourke
 
+**Early Talent 2026: agents start at `campaigns/lor-early-talent-2026-agent-brief.md`.** Single consolidated entry point, kept current by hand.
+
 ~£5bn global construction. UK + Australia. HQ Dartford. Email domains @laingorourke.com (UK) / @laingorourke.com.au (AU).
 
 Harrison is **strategic communications advisor**, not content producer. In the room for 2032 transformation strategy. Operating at a level "most people don't reach at 35" (Korena's words, internalised).
@@ -8,12 +10,34 @@ Harrison is **strategic communications advisor**, not content producer. In the r
 
 Largest client. ~£7-10k/month run rate. Multiple active streams. Largest single project: Assembly Specialist Recruitment Campaign (37 assets, 5 months, May/June cohort).
 
-## Finance correction, 3 August 2026
+## Finance correction, 3 August 2026, superseded for Early Talent by 19 August
 
 - Harrison confirms invoicing and finance administration are current.
 - About **£7,000 from LOR is expected during August**.
-- There is no live LOR invoice, PO or finance-admin chase in Harrison's current state.
+- At that snapshot there was no live LOR invoice, PO or finance-admin chase. The 19 August Early Talent state below is now current for the new £15,000 PO and first invoice.
 - Older sections describing unbilled Global Comms work, an Early Talent first-invoice action or a £6,000 receivable are historical and superseded for finance truth. Production timing and site decisions remain separate client-delivery questions only if independently current.
+
+## Early Talent 2026, current state after 19 August call
+
+Full debrief: `business/clients/lor-kerri-call-2026-08-19.md`.
+
+The 19 August Kerri and Sarah call produced creative alignment, not a production close. The scoped two-day shape, four role contributors, two day-in-the-life subjects and graduate plus professional-apprentice mix were discussed. No site, filming date or contributor was confirmed.
+
+Harrison's immediate read was that the campaign is still where it was three weeks ago. The same client-side blockers remain.
+
+Oxford is preferred. A possible piggyback on an existing data-centre visit on Tuesday 8 September and a two-day Oxford fallback were discussed, subject to project progress and filming permission. Dartford resurfaced in the discussion but remains out under the 5 August decision and current client deck.
+
+Still blocked after the call:
+
+- Emma's written approval of the £15,000 plan.
+- The new £15,000 PO and timing for the first £7,500 invoice.
+- Named project sites and two filming dates.
+- Named contributors and all access routes.
+- Exact application opening and closing dates.
+
+Kerri's Early Talent meeting at 14:00 Thursday 20 August is now the hard gate. If it does not return those decisions, the 28 September launch is no longer credible. No crew, travel, spend, invoice or production date is authorised. Everton remains outside the £15,000.
+
+**20 August evening update:** Kerri has not returned an outcome from the Early Talent meeting. The client-owned blockers above remain open. Do not fill the silence with another deck. The separate £2,600 Everton induction quote goes to Emma first thing Friday 21 August; it is still unsent at this update.
 
 ## Active state, 31 July 2026
 
@@ -40,6 +64,7 @@ McKinsey-grade. Boardroom-ready. "Quiet Confidence" framework (Harrison built th
 | Name | Email | Role |
 |---|---|---|
 | **Kerri Warner** | kwarner@laingorourke.com | Day-to-day project lead. Content review, film logistics, invoices. Regular H/K/S catch-up. |
+| **Emma Simpson** | ESimpson@laingorourke.com | Early Talent Lead. ET budget holder, £15k sign-off. Managing the Everton induction day herself (her 5 Aug email, Kerri's instruction: liaise direct). Mobile 07345 745 780. |
 | **Sarah Garside** | sgarside@laingorourke.com | Brief originator. Coordinates filming, runs global comms catch-up. |
 | **Adam Harvey** | AdamHarvey@laingorourke.com | Comms Manager. Podcast files. 07956501413. |
 
@@ -60,6 +85,10 @@ McKinsey-grade. Boardroom-ready. "Quiet Confidence" framework (Harrison built th
 | Mel Merrett | mmerrett@laingorourke.com | Design/brand. 4K outros. |
 | Jessica Slade | JSlade@laingorourke.com.au | Global comms AU. |
 | Aleisha Young | AleishaYoung@laingorourke.com.au | Corporate Affairs AU. |
+| Eve Cartwright | ECartwright@laingorourke.com | On the ET induction thread (5 Aug). Likely the Eve from general recruitment in the 9 June notes, unconfirmed. |
+| Jenni Butterfield | JButterfield@laingorourke.com | Early Talent team, cc on the induction brief (5 Aug). |
+| Jaime Raggett | JRaggett@laingorourke.com | Early Talent team, cc on the induction brief (5 Aug). |
+| Jamel Alleyne | JAlleyne@laingorourke.com | Early Talent team, cc on the induction brief (5 Aug). |
 
 ### Externals (working on LOR projects)
 

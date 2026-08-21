@@ -6,6 +6,16 @@
 
 Active. Sandringham 2026 is the current content centrepiece. Shoot completed 17 July, public show 22-26 July.
 
+## Capture and planning update, 20 August 2026
+
+- Garden Design Journal showcase requirement completed: current nursery photographs, earlier-summer drone stills and headshots of Sam, Michael and Anna.
+- Video banked: Michael's combined August and September nursery update, plus Abby staging the unwrap and movement of a large new specimen tree. The latter is a clean standalone reel.
+- Rob declined an interview and does not want to be on camera. Treat that as a standing boundary. Do not build future plans around Rob-led pieces unless he reverses it himself.
+- No stock update was forced. After the heatwave and drought there was no honest breadth-of-stock story worth filming.
+- Footage and photographs are backed up.
+- NF3 is dead. The replacement opportunity is an installation next week: Tuesday delivery and layout, Thursday planting. Thursday is the stronger filming day. Confirm Stew's timings before travel.
+- Granola's `Creepers Socials` meeting also sets the next operating layer: a concise social strategy deck, clearer monthly overview, casual Stories for arrivals and behind the scenes, London content only after Harrison visits, and a short bi-weekly Teams check-in. Rob's role is light sign-off, not on-camera participation.
+
 ## Finance correction, 3 August 2026
 
 - Harrison confirms invoicing and finance administration are current.

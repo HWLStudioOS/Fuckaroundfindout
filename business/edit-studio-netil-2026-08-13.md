@@ -1,12 +1,18 @@
 ---
 date: 2026-08-13
 subject: Private edit studio, Netil House second room
-status: front-runner, no signing authorised
+status: killed by Harrison 20 August 2026
 ---
 
 # Edit studio decision pack: Netil House, 13 August 2026
 
-Netil House second room is the front-runner. It is £404 a month over the working ceiling. No signing has happened and none is authorised by this document. This pack exists to get the five missing terms from Nikki before Harrison decides.
+Harrison killed the Netil House second-room option on 20 August 2026. No signing happened. The £404 monthly overage, before Wi-Fi and VAT, did not fit the working ceiling. This pack is retained as decision evidence, not an active comparison or follow-up route.
+
+## Decision, 20 August 2026
+
+- Netil House is closed. Do not keep the room, Nikki's reply or the five-term check as an open task.
+- No replacement studio search is implied by this decision. Start another search only if Harrison asks.
+- The earlier emotional yes remains useful evidence about the kind of room Harrison wants, but it does not override the commercial no.
 
 ## Knowns, with sources
 

@@ -277,3 +277,58 @@ Estimated v1 acceptance window: 14 days after install. If install happens Wed 13
 - Telegram bot token is currently at `.config/telegram.config.json` in plain text. Rotate it in BotFather and update the file when you have a quiet 5 minutes.
 
 When v1 acceptance hits, the next phase is the web Command Center (v1.1) per `spec/mvp-roadmap.md` Phase 3.
+
+---
+
+## Step 5: the 16 August additions (10 min)
+
+Added in PR #23 and merged 21 August. **Merging did not start them.** Both agents were
+still showing zero runs in `agents/_log.md` on 21 August because the plists had never been
+copied to `~/Library/LaunchAgents`. Code on `main` is dormant code until this runs.
+
+```bash
+cd "/Users/harrison/HWL META"
+git checkout main && git pull
+chmod +x agents/*.sh
+
+# arsenal-watch, daily 08:15. Ballot windows and the membership renewal guard.
+cp agents/launchd/com.hwl.arsenal-watch.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.hwl.arsenal-watch.plist
+
+# fleet-health, 09:00 and 23:00. Tells you when an agent stops running.
+cp agents/launchd/com.hwl.fleet-health.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.hwl.fleet-health.plist
+
+# Confirm both are loaded, and see everything else that is
+launchctl list | grep hwl
+
+# Run the watchdog once by hand. It prints the real picture and needs no Claude.
+python3 scripts/fleet-health.py
+```
+
+### Voice-note transcription
+
+`telegram-inbound.py` transcribes voice notes locally, but only once whisper.cpp and a
+model exist. Until then it silently falls back to the old placeholder. Two voice notes
+were already lost that way, on 14 and 19 August.
+
+```bash
+brew install whisper-cpp ffmpeg
+mkdir -p "/Users/harrison/HWL META/.config/whisper"
+curl -L -o "/Users/harrison/HWL META/.config/whisper/ggml-base.en.bin" \
+  https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.en.bin
+```
+
+Verify by sending a voice note. A working transcription replies with your own opening
+words quoted back. The old "Logged to inbox" reply means it fell back.
+
+### The conversational bot
+
+`telegram-agent.py` has never run. It refuses to start unless `agentBot.botToken` is a
+**different** bot from the capture bot, which is correct: two pollers on one token fight
+over `getUpdates`. Create a second bot with @BotFather and add its token under
+`agentBot.botToken` in `.config/telegram.config.json`.
+
+Until then, messaging the bot only ever reaches the capture bot, which by design just
+acknowledges. `scripts/fleet-health.py` reports this state directly, so once the watchdog
+is loaded you will not have to remember it.

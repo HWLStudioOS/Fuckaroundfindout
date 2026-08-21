@@ -23,13 +23,18 @@
     "react-dom": "19.2.8"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@tailwindcss/postcss": "4.2.1",
     "@types/node": "26.2.0",
+=======
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "22.19.19",
+>>>>>>> origin/main
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.4",
     "eslint": "9.39.5",
-    "eslint-config-next": "16.2.12",
-    "tailwindcss": "4.2.1",
+    "eslint-config-next": "16.3.1",
+    "tailwindcss": "4.3.3",
     "typescript": "5.9.3",
     "vercel": "58.4.4"
   },

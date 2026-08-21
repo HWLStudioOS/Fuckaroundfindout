@@ -1,53 +1,56 @@
 ---
-date: 2026-08-14
+date: 2026-08-20
 generated: auto-generated 06:30
 ---
 
-# Today, Friday 14 August 2026
+# Today, Thursday 20 August 2026
 
 ## Pulse
 
-Week 1 of Build + Engine (10-16 August) closes out. Yesterday shut down clean: Jennifer Moss's reel and the Creepers New Forest bee static both landed, the VO2 session came in as a genuine full 4x4, £1,800 August drawings and David's £550 salary both cleared. Today is Friday's STNDRD Pull plus an easy run, and Companies House director ID verification, a short self-serve task with a 2 September deadline it isn't close to. No calendar meetings today. LOR remains silent by Gmail for 16+ days with about £7,000 still expected this month and no PO or invoice raised. Two unrelated CI faults surfaced overnight, both diagnosed below and both Codex-track, not Harrison's job today.
+Two live tensions today. Better Moments #6 is scheduled to release to Acast and YouTube at 12:30, guest and cut swapped from Leidy Klotz to Smart Conflict (Alice Driscoll and Louise van Haarst) after Harrison's own review yesterday, and Harrison's guest pick and picture-lock are already signed off. Still open: Cathal and Annette's picture-lock approval, the final Premiere export and QC, and Harrison's visual approval of the revised social artwork. The 19 Figma frames and local exports now match the approved 04:25 cut. Separately, Kerri takes the Early Talent shape to LOR's internal team at 14:00 today, lor.md's own hard gate for the 28 September launch, and Harrison's afternoon work block sits right behind it waiting to hear what comes back. Yesterday was a big send day (Squiggly, Creepers advert, LOR deck all out), so today is about two live gates rather than more drafting. Training is light, Upper 2 lift only, no run (Wednesday's hard 7.5km session is already banked). Last night's backup divergence has been repaired and local `main` now matches `origin/main`.
 
 ## Yesterday wrap
 
-Landed: Jennifer Moss's AI-adoption reel published on `@betteratworkpod`, the Creepers New Forest bee-pollination static published on `@creepersnursery` closing the nursery commitment, the optional Installation slot deliberately left empty after Rootball Check was rejected and Ferndale was archived as repeated material, the VO2 session delivered as a full 4 x 4 (Garmin logged three laps because the first wasn't lapped, Strava confirms 7.89km in 48:18), David's £550 August salary paid, and the £1,800 August drawings confirmed landed.
+Landed: Squiggly's £3,400 plus VAT phase-one proposal sent 12:16 on the canonical thread, the duplicate draft deleted. Creepers Pro Landscaper advert exported and sent to Sam (cc Anna) at 10:14, Sam replied "thanks mate", closing that hard deadline. LOR Early Talent plan v3 (£15,000 all-in, 19-page deck) sent to Kerri at 10:31 ahead of the 15:00 call. The 15:00 Kerri and Sarah call happened, useful creative alignment on the two-visit shape and four roles, but not a production close, sites and dates and the PO are all still open per Harrison's own read ("still where we were three weeks ago"). Of the seven Gmail drafts staged overnight, six sent or cleared, one remains (Cathal reprice follow-up, ready to tap).
 
-Not confirmed: whether David's revised Danny wrap-reel has landed. No Gmail evidence either way (this runs over WhatsApp), so it carries forward as the one live review rather than being marked done or missed.
+Not landed or unconfirmed: Better Moments #6's final approval and export, see Pulse (guest changed from Leidy Klotz to Smart Conflict after Harrison's 19 August review; the Wednesday carousel and LinkedIn artwork were deliberately held for the new cut, not missed). The Everton induction quote reconciliation with Emma slipped to today's 14:00 block. NF3 New Forest shoot slipped again, Anna's auto-reply shows her OOO until Friday 21 August.
 
 No Linear deltas since yesterday's brief.
 
 ## Today
 
-- [ ] Companies House director ID verification: complete via the gov.uk link with passport or driving licence, then send the resulting code to Fazila. Confirmation statement is due 2 September, so there's runway, but this is the day it was pencilled for.
-- [ ] STNDRD Pull session plus easy run (Build + Engine week 1 adjustment). Lift first, run later where possible, aim for six hours between.
-- [ ] Review David's revised Danny wrap-reel when it lands. Only live production review outstanding, and it's what's blocking Danny's £800 plus VAT payment confirmation.
+- [ ] Better Moments #6, urgent: get Cathal and Annette's picture-lock sign-off, export and QC the final master, before the 12:30 Acast and YouTube release. Package is at `business/clients/baw/production/better-moments-06-smart-conflict-2026-08-19/` (guest pick and picture-lock approved; revised social artwork aligned and awaiting Harrison's visual go; final export, QC and Cathal/Annette's sign-off are not done).
+- [ ] LOR ET pre-production part 2 plus Everton quote, 14:00-15:30: pick up whatever Kerri's 14:00 Early Talent team meeting returns (sites, dates, roles, the £15,000 PO), fill in the call sheets and casting one-pager in the pack, then reconcile the £2,600 Everton draft against Emma's brief and send it to her this week.
+- [ ] Cathal reply: tap-send the one remaining staged draft on the INV-0399 thread (retainer holds at £1,500 plus VAT, entity question, Weybridge invoice address, Season 5 pricing noted separately).
+- [ ] Upper 2 lift, 12:00-13:00, MuscleWorks Bethnal Green. No run today.
+- [ ] Weigh-in, 07:30: start the fresh seven-day average. Stale 113 days now, still blocking any calorie or protein target in the training plan.
 
 ## Awaiting response
 
-- Danny Wicks: £800 plus VAT payment confirmation, blocked behind David's wrap-reel revision.
-- Kerri and Emma (LOR): PO route and first invoice. No Kerri, Sarah Garside or Korena email in 5+ days checked, LOR silent 16+ days overall.
-- Helen Tupper (Squiggly Careers): call confirmed 18 August, 10:15-11:00 Teams. Nothing needed before then.
+- Fazila (Litchfields): forwarded the HMRC "VAT return due 7 September" screenshot and confirmed yes to VAT prep plus Xero bookkeeping (£250-350) on 19 August 11:07. No reply since, still need her to confirm the actual return period.
+- Kerri/LOR: Early Talent team meeting outcome, 14:00 today. Per lor.md this is the hard gate for sites, dates, named people, the PO and application dates.
+- Anna (Creepers): OOO until Friday 21 August per auto-reply, NF3 New Forest reconfirmation waits till then.
 
 ## In flight
 
-- Better at Work Season 5: website has sat with Cathal for review since 9 August, Stripe decisions stay gated behind his sign-off.
-- Edge Lab: paper only, no live capital armed. Crypto control still leads (about £9,684) ahead of rules (£9,450) and fable (£9,164), all three down slightly overnight. Macro: rules (£10,226) leads control (£10,205), as it has for almost the whole book's history bar one brief day, fable trails (£10,046). Continue/adjust/stop is still an open call.
-- Private edit studio: Netil House second room remains the front-runner against a £1,000 ceiling (£1,404/month all-in). Eat Work Art's Nikki offered viewing slots 11 and 13 August. Still no decision, still need Wi-Fi speed confirmed in writing, deposit, term, break clause and VAT treatment before signing.
-- KiwiSaver: witnessing and ID certification done with Fazila. Tax verification via Raj at Litchfields remains separate and outstanding. No withdrawal initiated.
-- Training: Build + Engine week 1 continues, golf Saturday at Richmond Park, tee 11:01, then a 75-minute easy long run Sunday.
-- Two overnight CI faults, diagnosed and handed to Codex, see System below.
+- Family: niece six days old as of the 18-19 August captures, more support days possible this week, nothing scheduled for it.
+- Edge Lab, paper only: crypto book, control ~$10,888 (broad breakout day, all four assets near cap), fable ~$9,845, rules ~$9,729. Macro book, control ~$10,205, rules ~$10,150, fable ~$10,031, all three now above the $10,000 start. No live capital armed.
+- Nightly backup: the 19 August 22:30 push failed against a stale remote Better Moments package. Reconciled and pushed on 20 August at `15da27b`; local `main` and `origin/main` now match. Tonight's job still needs its normal live run to confirm runtime health.
+- Danny Wicks: £800 plus VAT parked until David's second wrap-reel revision lands, no date.
+- Netil House: decision still open, ball with Harrison, no email since 11 August.
+- Companies House confirmation statement (due 2 September): unblocked, ID verification code sent to Fazila 17 August.
+- Squiggly: renewal decision lands around November (three-month pilot, not twelve), room-only Podcast House rate still unconfirmed in the sent proposal.
 
 ## Standing
 
-Health: RHR 48, HRV 56 balanced, sleep 7.1h at score 82, all still yesterday's readings since the watch hadn't synced today's by 06:15 and today's readiness score isn't in yet. Weekly training load 603 with ACWR reading 0.72, Detraining, down from the block's 10 August Optimal 0.8 baseline after a lighter start to the week. Body weight is still last recorded 29 April, over 100 days stale.
+Health: RHR 51, HRV 68 BALANCED, sleep 8.1h at score 84 (both dated 19 August, watch not synced this morning). Weekly load 311, ACWR 0.87 Good, VO2max 45. Body weight stale 113 days since 29 April, today's weigh-in starts the fix. No run today, Upper 2 lift is the only session.
 
-Money: tax reserve computes to £9,875, still bank-unverified. About £7,000 from LOR remains expected in August with no PO or invoice raised, and LOR has gone quiet for 16+ days now bar one routine Fazila admin note. No spare personal cash, so the investing stance stays monitor-only. Companies House confirmation statement is due 2 September, today's ID verification keeps that on track well ahead of the deadline.
+Money: one Gmail draft outstanding (Cathal). Squiggly's £3,400 plus VAT proposal sent and that campaign closed. LOR Early Talent still has nothing raised against the £15,000 ceiling. Everton £2,600 draft not yet sent. Tax reserve computes to £9,875, still bank-unverified. VAT return date awaiting Fazila's confirmation.
 
-Clients: Creepers and BaW both closed their live commitments yesterday, nothing owed on either today. LOR is quiet, no chase forced today given the pattern of Kerri not reading notifications regularly. Squiggly Careers call is locked for 18 August.
+Clients: LOR's 14:00 Early Talent team meeting is today's hard gate. BaW Better Moments #6 has aligned social drafts, but still needs Cathal/Annette sign-off, Harrison's visual artwork approval and the final export before its 12:30 release. Creepers NF3 stalled till Anna's back Friday, Pro Landscaper advert delivered to Sam.
 
-System: health-sync ran clean through 06:15, though today's Garmin readiness hadn't synced yet at pull time. Nightly-backup committed and pushed at 22:30, but the Board Room production deploy was skipped. Diagnosis: `pnpm audit` inside `board-room/` finds one high-severity transitive vulnerability, nanoid below 3.3.18 pulled in via `@tailwindcss/postcss > postcss > nanoid` (GHSA-2v37-7h3g-55p8), which is what actually blocked the gate, not a code regression. Separately, the root CI workflow is also failing on its own fault: its checkout only sparse-checks `*.py`, `*.sh`, `*.js`, `*.mjs`, `*.json` and `pyproject.toml`, so `today.md` and `this-week.md` never land on the runner and the state-ownership contract tests can't find them, confirmed via the last three failed runs going back to the Restructure Phase 1 commit. Both are diagnosed, neither touched here. Both are Codex-track: bump or override nanoid to 3.3.18+ in the board-room pnpm lockfile, and add `today.md` and `this-week.md` to the CI checkout's sparse-checkout list. Gmail identity confirmed live as harrison@hwlstudio.com. 200+ unread mailbox-wide, a persistent backlog not a today problem; the recent batch is mostly newsletters, the golf tee-time confirmation, a Linear changelog and two GitHub CI-failure notices already diagnosed above, plus one real item: a 13 August Archer Street Studios viewing follow-up (James Guyer, stage-re.co.uk), relevant to the private edit studio search above. Zero Gmail drafts. No Granola meetings since yesterday. No calendar events today, one tee time tomorrow.
+System: the nightly-backup Git divergence is repaired at `15da27b`, with local `main` matching `origin/main`. Gmail confirmed live as harrison@hwlstudio.com, 0 unread in inbox, 1 draft. No Linear deltas. Disk remains tight at 98% used with about 24 GiB free.
 
 ## Lens
 
-Two genuine system faults surfaced overnight for the first time in a while. Neither is yours to fix, hand both to Codex rather than losing today's energy to them. The actual open work today is thin: a ten-minute ID check with weeks of runway, a prescribed training session, and one client thread with real teeth, Danny's payment sitting behind David's reel revision. If there's clean energy left after training, that's real space for the Harrison Living launch capture or the Film 001 story spine, both of which keep getting bumped for obligated work that, today, barely exists.
+Better Moments #6 is the sharpest miss risk on the board today. The social route is now aligned, but the final export, QC and Cathal/Annette's sign-off remain open against a 12:30 release. The source drive is not mounted, so the package render script cannot produce a local review master. That is a bigger live risk than anything on the LOR side, where you are waiting on Kerri's room.

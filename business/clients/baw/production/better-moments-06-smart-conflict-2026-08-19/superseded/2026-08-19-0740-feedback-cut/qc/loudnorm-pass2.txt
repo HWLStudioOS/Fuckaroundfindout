@@ -1,0 +1,29 @@
+Input #0, wav, from '/Users/harrison/HWL META/business/clients/baw/production/better-moments-06-smart-conflict-2026-08-19/audio/BetterAtWork-BetterMoments-06-SmartConflict-Premaster.wav':
+  Metadata:
+    encoder         : Lavf62.12.102
+  Duration: 00:07:40.52, bitrate: 2304 kb/s
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s24le (native) -> pcm_s24le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/Users/harrison/HWL META/business/clients/baw/production/better-moments-06-smart-conflict-2026-08-19/audio/BetterAtWork-BetterMoments-06-SmartConflict-Master.wav':
+  Metadata:
+    ISFT            : Lavf62.12.102
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+    Metadata:
+      encoder         : Lavc62.28.102 pcm_s24le
+size=    5632KiB time=00:00:20.39 bitrate=2261.7kbits/s speed=  40x elapsed=0:00:00.51    size=   11520KiB time=00:00:41.09 bitrate=2296.2kbits/s speed=40.5x elapsed=0:00:01.01    size=   17408KiB time=00:01:02.09 bitrate=2296.4kbits/s speed=40.7x elapsed=0:00:01.52    size=   23296KiB time=00:01:22.99 bitrate=2299.3kbits/s speed=40.8x elapsed=0:00:02.03    size=   29184KiB time=00:01:43.99 bitrate=2298.8kbits/s speed=40.9x elapsed=0:00:02.54    size=   35072KiB time=00:02:04.99 bitrate=2298.5kbits/s speed=  41x elapsed=0:00:03.05    size=   40960KiB time=00:02:25.99 bitrate=2298.3kbits/s speed=  41x elapsed=0:00:03.56    size=   46848KiB time=00:02:46.79 bitrate=2300.8kbits/s speed=  41x elapsed=0:00:04.06    size=   52736KiB time=00:03:07.89 bitrate=2299.2kbits/s speed=  41x elapsed=0:00:04.57    size=   58624KiB time=00:03:28.89 bitrate=2298.9kbits/s speed=41.1x elapsed=0:00:05.08    size=   64512KiB time=00:03:49.89 bitrate=2298.8kbits/s speed=41.1x elapsed=0:00:05.59    size=   70400KiB time=00:04:10.79 bitrate=2299.5kbits/s speed=41.1x elapsed=0:00:06.10    size=   76288KiB time=00:04:31.69 bitrate=2300.2kbits/s speed=41.1x elapsed=0:00:06.61    size=   82176KiB time=00:04:52.59 bitrate=2300.7kbits/s speed=41.1x elapsed=0:00:07.12    size=   88064KiB time=00:05:13.59 bitrate=2300.4kbits/s speed=41.1x elapsed=0:00:07.63    size=   93952KiB time=00:05:34.59 bitrate=2300.2kbits/s speed=41.1x elapsed=0:00:08.14    size=   99840KiB time=00:05:55.59 bitrate=2300.0kbits/s speed=41.1x elapsed=0:00:08.65    size=  105728KiB time=00:06:16.59 bitrate=2299.9kbits/s speed=41.1x elapsed=0:00:09.16    size=  111616KiB time=00:06:37.49 bitrate=2300.3kbits/s speed=41.1x elapsed=0:00:09.67    size=  117504KiB time=00:06:58.09 bitrate=2302.3kbits/s speed=  41x elapsed=0:00:10.18    size=  123392KiB time=00:07:18.99 bitrate=2302.6kbits/s speed=  41x elapsed=0:00:10.69    [Parsed_loudnorm_0 @ 0xbd904c900]
+Input Integrated:    -24.4 LUFS
+Input True Peak:      -8.6 dBTP
+Input LRA:             5.0 LU
+Input Threshold:     -34.6 LUFS
+
+Output Integrated:   -16.0 LUFS
+Output True Peak:     -1.5 dBTP
+Output LRA:            4.9 LU
+Output Threshold:    -26.2 LUFS
+
+Normalization Type:   Dynamic
+Target Offset:        -0.0 LU
+[out#0/wav @ 0xbd904c180] video:0KiB audio:129521KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000077%
+size=  129521KiB time=00:07:40.60 bitrate=2303.6kbits/s speed=41.2x elapsed=0:00:11.18

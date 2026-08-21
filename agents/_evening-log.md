@@ -1,3 +1,10 @@
+## 2026-08-19 evening
+- Shipped: Squiggly Careers phase-one proposal sent (£3,400/month plus VAT, Gmail confirms 12:16, the stale competing draft deleted at send, campaign win closed), LOR Kerri and Sarah Teams call held 15:00 with a full debrief captured (Granola meeting `385cb02f` plus Harrison direct, roles/project/PO ask taken to LOR's internal team tomorrow), a 90-minute LOR Early Talent pre-production session produced a casting one-pager and two visit call sheets in `campaigns/lor-et-preproduction/`, BaW Better Moments #6 pivoted and Harrison approved a new edit (Klotz office angle rejected, "Smart Conflict" with Alice Driscoll and Louise van Haarst locked at 00:04:25:18) though the final Premiere export, artwork and send are still outstanding ahead of tomorrow's release.
+- Missed: none confirmed. Creepers's Wednesday post and Pro Landscaper advert have no positive or negative signal from here, Anna's WhatsApp channel isn't visible from the mini and creative-lab's own note that the advert "closed through Sam instead" is an inference from her OOO auto-reply, not a confirmed send, so left unscored.
+- Training: Wednesday VO2 hard run prescribed (Build + Engine, 5 x 3 min hard with 2 min jog recoveries). Strava confirms a Morning Run at 08:35, 7.54km in 44:09, relative effort 96, 15 PRs, a genuinely hard effort matching the prescription's shape.
+- Campaigns moved: 3 (Squiggly Careers proposal sent and campaign closed, LOR Early Talent call plus pre-production pack, BaW Better Moments #6 creative pivot approved).
+- Tomorrow's first action: Export the final Premiere cut for BM#6 "Smart Conflict" (00:04:25:18) so QC and artwork can close before Thursday's release.
+
 ## 2026-08-14 evening
 - Shipped: STNDRD Pull lifting session delivered (Strava confirms Lunch Weight Training, 62 min, plus a 23 min follow-on workout), Better at Work Season 5 brand and website deck finalised (both a FINAL PPTX and a PDF export landed in business/clients/baw/ today), Better Moments 05 (Jennifer Moss) LinkedIn clip cut for Cathal and its publish-checklist updated.
 - Missed: none confirmed. Companies House director ID verification and David's revised Danny wrap-reel review both remain open with no signal either way today, not scored.
@@ -333,3 +340,17 @@
 - Training: Lower 1 missed per Strava (live-checked, not the stale 14:00 Garmin pull). A run happened instead, not what was prescribed for a lifting day. Not a race or taper week (training-plan.md status ACTIVE BIBLE, no race anchor), so no push threshold applies.
 - Campaigns moved: 2 (Creepers Pro Landscaper advert creative development, Better at Work Season 5 website final-pass and verification).
 - Tomorrow's first action: Publish the finished Creepers carousel, "Why choose a nursery?", on @creepersnursery. Ready since 10 August, now two days overdue.
+
+## 2026-08-17 evening
+- Shipped: Companies House director ID verification submitted and code sent to Fazila (Gmail confirmed 09:27, unblocks the 2 September confirmation statement), Cathal reprice call held (Granola "CQ x HL" plus calendar confirm the 11:00-12:00 slot, retainer held at £1,500 net, Season 5 launch confirmed for 15 September), STNDRD's seven-day exercise-selection trial passed its verdict and stays as the lifting programme, Creepers advert inputs and the NF3 shoot question sent to Anna via WhatsApp.
+- Missed: none confirmed, today's Arsenal call and the Marchon cancel/fix decision have no channel that can confirm or disprove them from here.
+- Training: Lower 1 lift done (Strava confirms "Afternoon Weight Training", 13:32-14:38, 69 min, 393 cal). No run logged, matching today's own calendar note ("Build + Engine week 2, Lower 1. No run today"), which explicitly overrode the plan's default Monday row of Upper 1 plus an easy run. Not a race or taper week (training-plan.md status ACTIVE BIBLE, no race anchor), so no push threshold applies regardless.
+- Campaigns moved: 0 confirmed today. campaign-chaser's own 10:07 run found every campaigns/*.md file either authoritative, parked or closed, no live outbound loop open to move.
+- Tomorrow's first action: Read the Squiggly precall close note before the 10:15 Teams call and anchor on £4,100, not the £4,400 this-week.md and the offer doc still carry.
+
+## 2026-08-20 evening
+- Shipped: Upper 2 lift done (Strava confirms "Afternoon Weight Training" 15:33-16:33, 60 min, 345 cal), Creepers Socials meeting held and captured in Granola (11:49, transcript gated behind a paid tier so content unread), Better Moments #6 artwork realignment committed this morning (9c84a97, Instagram/LinkedIn carousels and launch graphics matched to the approved 04:25 excerpt).
+- Missed: Better Moments #6's 12:30 Acast/YouTube release, confirmed against the package itself: no master export file exists in `video/` (only the 19 August teaser), `qc.md` still reads "PENDING FINAL PREMIERE EXPORT" untouched since 07:46, `publish-checklist.md`'s export/QC and Cathal/Annette sign-off boxes remain unchecked, and no commit or log entry records any progress on the package after this morning's artwork work. Cathal's staged reply on the INV-0399 thread, the one draft in Gmail is still sitting unsent as of this evening.
+- Training: Upper 2 lift done, matching today's prescription (Build + Engine week 2, Thursday Upper 2, no run scheduled). Not a race or taper week, so no push threshold applies regardless.
+- Campaigns moved: 2 (Creepers Socials meeting captured today, Better Moments #6 artwork realignment committed, though the release itself built on that work still missed its window).
+- Tomorrow's first action: Finish Better Moments #6's final Premiere export and get Cathal and Annette's sign-off, it's now a day late against the Thursday 12:30 release.

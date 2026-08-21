@@ -20,8 +20,8 @@ Close the two sends that have sat untouched the longest, Cathal's repricing repl
 
 ### Money and admin
 
-- [ ] Complete Companies House director ID verification for HWL Studio Limited via the gov.uk link (passport or driving licence) and send the resulting code to Fazila. Flagged 12 Aug, pencilled for 14 Aug, still not done. The confirmation statement is due 2 September and cannot be filed until this clears. <!-- linear:HWL-278 -->
-- [ ] Confirm Litchfields' HMRC agent-authorisation status. Weekly-cfo's 14 Aug run flagged the deadline landing 17 August, unconfirmed since 27 July. <!-- linear:HWL-281 -->
+- [x] Complete Companies House director ID verification for HWL Studio Limited via the gov.uk link (passport or driving licence) and send the resulting code to Fazila. Done 17 Aug 09:27, code XH3-NNML-2223 sent, Fazila confirmed receipt. Unblocks the 2 September confirmation statement. <!-- linear:HWL-278 -->
+- [x] Confirm Litchfields' HMRC agent-authorisation status. Turns out this was never actually open: Harrison accepted the agent authorisation himself on 27 July. The 17 Aug deadline flag was stale. Remaining open point is a minor VAT return date discrepancy (HMRC says 7 Sept, Fazila said 7 Oct), not an authorisation gap. <!-- linear:HWL-281 -->
 - [ ] Edge Lab: decide what happens to the crypto arena now G2a's 14-day window closed with rules/fable underperforming a buy-and-hold control. Continue paper-only, adjust, or stop. Macro book ties control, no action needed there. <!-- linear:HWL-254 -->
 
 ### Client boundaries
@@ -68,7 +68,7 @@ Still re-anchored to the w/c 7 September restart per Harrison's 14 August call. 
 
 ### Health
 
-- [ ] Decide STNDRD vs MARCHON GAIN for week two onward. STNDRD's 7-day trial (Push, Legs, Pull, 10-14 Aug) ran clean, but only delivered 2 upper and 1 lower session inside that window, not the full two-and-two split the trial was meant to prove out. Harrison's call whether it continues or MARCHON GAIN takes over per `health/training-plan.md`. <!-- linear:HWL-286 -->
+- [x] Decide STNDRD vs MARCHON GAIN for week two onward. Harrison's call, 17 Aug: STNDRD passes and stays as the lifting programme. <!-- linear:HWL-286 -->
 - [ ] Record a fresh body-weight reading. Still stale since 29 April, now 109 days. <!-- linear:HWL-287 -->
 - [ ] Week two per the eight-week plan (17-23 Aug): Monday 35 min easy, Wednesday 5x3min hard (2min jog), Friday 30 min easy, Sunday 80 min long. Last week's long run came in at 34 minutes against a 75-minute target, the one shortfall in an otherwise clean week, worth a deliberate correction rather than a repeat. <!-- linear:HWL-288 -->
 

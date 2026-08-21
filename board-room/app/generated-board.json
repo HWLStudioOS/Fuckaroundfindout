@@ -1,19 +1,19 @@
 {
   "title": "The Board Room",
   "week": "17 to 23 August 2026",
-  "sourceDate": "2026-08-14",
-  "generatedAt": "2026-08-16T21:30:10.363Z",
-  "sourceCommit": "28462e4",
+  "sourceDate": "2026-08-20",
+  "generatedAt": "2026-08-20T21:33:06.935Z",
+  "sourceCommit": "e948858",
   "summary": {
-    "open": 40,
-    "active": 28,
+    "open": 37,
+    "active": 25,
     "inProgress": 0,
     "waiting": 4,
     "scheduled": 3,
     "parked": 5,
-    "closedThisWeek": 0,
-    "completion": 0,
-    "xp": 0,
+    "closedThisWeek": 3,
+    "completion": 11,
+    "xp": 360,
     "level": 1
   },
   "tasks": [
@@ -42,18 +42,6 @@
       "rank": 2
     },
     {
-      "id": "HWL-281",
-      "title": "Confirm Litchfields' HMRC agent-authorisation status. Weekly-cfo's 14 Aug run flagged the deadline landing 17 August, unconfirmed since 27 July.",
-      "area": "Money and admin",
-      "state": "todo",
-      "due": "2026-08-17",
-      "baseScore": 78,
-      "score": 78,
-      "reason": "Dated for 2026-08-17.",
-      "tier": "High",
-      "rank": 3
-    },
-    {
       "id": "HWL-273",
       "title": "The Chase email system, due before the restart: platform decision, domain auth, subscriber export, signup test, unsubscribe, privacy notice.",
       "area": "Harrison Living",
@@ -63,7 +51,7 @@
       "score": 78,
       "reason": "The live form currently depends on a temporary relay. Own the list, sender identity, consent and unsubscribe before directing traffic at it.",
       "tier": "High",
-      "rank": 4
+      "rank": 3
     },
     {
       "id": "HWL-270",
@@ -75,19 +63,7 @@
       "score": 76,
       "reason": "The site is live but distribution is still off. Complete the X surface and first approved post today, then stop at five real replies.",
       "tier": "High",
-      "rank": 5
-    },
-    {
-      "id": "HWL-278",
-      "title": "Complete Companies House director ID verification for HWL Studio Limited via the gov.uk link (passport or driving licence) and send the resulting code to Fazila. Flagged 12 Aug, pencilled for 14 Aug, still not done. The confirmation statement is due 2 September and cannot be filed until this clears.",
-      "area": "Money and admin",
-      "state": "todo",
-      "due": "2026-09-02",
-      "baseScore": 74,
-      "score": 74,
-      "reason": "Dated for 2026-09-02.",
-      "tier": "Next",
-      "rank": 6
+      "rank": 4
     },
     {
       "id": "HWL-271",
@@ -99,7 +75,7 @@
       "score": 74,
       "reason": "Film 001 is the trust asset for the 23 August launch. The dated first-cut sequence prevents another unshipped video plan.",
       "tier": "Next",
-      "rank": 7
+      "rank": 5
     },
     {
       "id": "HWL-250",
@@ -111,7 +87,7 @@
       "score": 72,
       "reason": "The commercial position and draft already exist. Close it after the Season 5 launch package has had its final pass.",
       "tier": "Next",
-      "rank": 8
+      "rank": 6
     },
     {
       "id": "HWL-274",
@@ -123,7 +99,7 @@
       "score": 70,
       "reason": "Checkout should not be built around contradictory product copy or an undecided seller. Freeze the offer and commercial route this week.",
       "tier": "Next",
-      "rank": 9
+      "rank": 7
     },
     {
       "id": "HWL-272",
@@ -135,7 +111,7 @@
       "score": 66,
       "reason": "This is the first repeatable writing cycle. Keep it behind client deadlines, but do not let the week finish with another empty public surface.",
       "tier": "Next",
-      "rank": 10
+      "rank": 8
     },
     {
       "id": "HWL-283",
@@ -147,7 +123,7 @@
       "score": 64,
       "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
       "tier": "Next",
-      "rank": 11
+      "rank": 9
     },
     {
       "id": "HWL-282",
@@ -159,7 +135,7 @@
       "score": 64,
       "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
       "tier": "Next",
-      "rank": 12
+      "rank": 10
     },
     {
       "id": "HWL-265",
@@ -171,7 +147,7 @@
       "score": 64,
       "reason": "Dated for 2026-08-19.",
       "tier": "Next",
-      "rank": 13
+      "rank": 11
     },
     {
       "id": "HWL-254",
@@ -183,7 +159,7 @@
       "score": 62,
       "reason": "G2a has closed without a pass. Record the next paper-only decision without arming capital.",
       "tier": "Next",
-      "rank": 14
+      "rank": 12
     },
     {
       "id": "HWL-284",
@@ -195,7 +171,7 @@
       "score": 60,
       "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
       "tier": "Next",
-      "rank": 15
+      "rank": 13
     },
     {
       "id": "HWL-280",
@@ -207,7 +183,7 @@
       "score": 60,
       "reason": "Dated for 2026-09-04.",
       "tier": "Next",
-      "rank": 16
+      "rank": 14
     },
     {
       "id": "HWL-285",
@@ -219,7 +195,7 @@
       "score": 56,
       "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
       "tier": "Next",
-      "rank": 17
+      "rank": 15
     },
     {
       "id": "HWL-275",
@@ -231,7 +207,7 @@
       "score": 56,
       "reason": "Install measurement before launch traffic arrives. It matters, but it should not displace capture, client delivery or the owned email path.",
       "tier": "Next",
-      "rank": 18
+      "rank": 16
     },
     {
       "id": "HWL-289",
@@ -243,7 +219,7 @@
       "score": 44,
       "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
       "tier": "Later",
-      "rank": 19
+      "rank": 17
     },
     {
       "id": "HWL-290",
@@ -255,7 +231,7 @@
       "score": 44,
       "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
       "tier": "Later",
-      "rank": 20
+      "rank": 18
     },
     {
       "id": "HWL-239",
@@ -267,19 +243,7 @@
       "score": 40,
       "reason": "The date request is already with Anna and Sarah-Louise. Keep visible, but do not let waiting work outrank Harrison-owned closes.",
       "tier": "Later",
-      "rank": 21
-    },
-    {
-      "id": "HWL-286",
-      "title": "Decide STNDRD vs MARCHON GAIN for week two onward. STNDRD's 7-day trial (Push, Legs, Pull, 10-14 Aug) ran clean, but only delivered 2 upper and 1 lower session inside that window, not the full two-and-two split the trial was meant to prove out. Harrison's call whether it continues or MARCHON GAIN takes over per `health/training-plan.md`.",
-      "area": "Health",
-      "state": "todo",
-      "due": null,
-      "baseScore": 38,
-      "score": 38,
-      "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
-      "tier": "Later",
-      "rank": 22
+      "rank": 19
     },
     {
       "id": "HWL-251",
@@ -291,7 +255,7 @@
       "score": 38,
       "reason": "Delivery is complete. Keep the payment confirmation visible without treating it as unfinished production.",
       "tier": "Later",
-      "rank": 23
+      "rank": 20
     },
     {
       "id": "HWL-287",
@@ -303,7 +267,7 @@
       "score": 38,
       "reason": "Dated for 2026-04-29.",
       "tier": "Later",
-      "rank": 24
+      "rank": 21
     },
     {
       "id": "HWL-288",
@@ -315,7 +279,7 @@
       "score": 38,
       "reason": "Ranked from client consequence, cash impact, dependency and effort already invested.",
       "tier": "Later",
-      "rank": 25
+      "rank": 22
     },
     {
       "id": "HWL-243",
@@ -327,7 +291,7 @@
       "score": 32,
       "reason": "This depends on Kerri and Emma's budget and PO route. It is commercially important, but not today's first move.",
       "tier": "Later",
-      "rank": 26
+      "rank": 23
     },
     {
       "id": "HWL-240",
@@ -339,7 +303,7 @@
       "score": 28,
       "reason": "Blocked until Cathal reviews the website. Do not start Stripe production work early.",
       "tier": "Later",
-      "rank": 27
+      "rank": 24
     },
     {
       "id": "HWL-245",
@@ -351,7 +315,7 @@
       "score": 12,
       "reason": "Background system monitoring. It belongs below Harrison's client, money and health work.",
       "tier": "Later",
-      "rank": 28
+      "rank": 25
     },
     {
       "id": "waiting-cathal-needs-a-fresh-repricing-reply-the-old-dra",
@@ -495,6 +459,42 @@
       "score": 8,
       "reason": "Explicitly parked. No guilt, no daily resurfacing.",
       "tier": "Later",
+      "rank": null
+    },
+    {
+      "id": "HWL-278",
+      "title": "Complete Companies House director ID verification for HWL Studio Limited via the gov.uk link (passport or driving licence) and send the resulting code to Fazila. Done 17 Aug 09:27, code XH3-NNML-2223 sent, Fazila confirmed receipt. Unblocks the 2 September confirmation statement.",
+      "area": "Money and admin",
+      "state": "done",
+      "due": "2026-09-02",
+      "baseScore": 74,
+      "score": 0,
+      "reason": "Closed in the canonical weekly board.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-281",
+      "title": "Confirm Litchfields' HMRC agent-authorisation status. Turns out this was never actually open: Harrison accepted the agent authorisation himself on 27 July. The 17 Aug deadline flag was stale. Remaining open point is a minor VAT return date discrepancy (HMRC says 7 Sept, Fazila said 7 Oct), not an authorisation gap.",
+      "area": "Money and admin",
+      "state": "done",
+      "due": "2026-07-27",
+      "baseScore": 78,
+      "score": 0,
+      "reason": "Closed in the canonical weekly board.",
+      "tier": "Closed",
+      "rank": null
+    },
+    {
+      "id": "HWL-286",
+      "title": "Decide STNDRD vs MARCHON GAIN for week two onward. Harrison's call, 17 Aug: STNDRD passes and stays as the lifting programme.",
+      "area": "Health",
+      "state": "done",
+      "due": null,
+      "baseScore": 38,
+      "score": 0,
+      "reason": "Closed in the canonical weekly board.",
+      "tier": "Closed",
       "rank": null
     }
   ]

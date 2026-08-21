@@ -321,4 +321,63 @@ pointing at it. No acknowledgment in `capture/inbox.md`; Harrison's 14 Aug
 replies were to the form-lab question, not this. Nothing in the ledger is
 `running`, so there were no results to close.
 
+**Noted, 17 Aug 17:00 run:** Fourth day proposed, guard active, nothing new
+proposed. No results to close, nothing is running. The slot script was denied
+again, `.claude/settings.json` still has no allowlist entry for
+`node scripts/client-calendar.mjs`, and `creative-lab.sh` still has no outbox
+delivery block, so the Telegram path stayed shut for a fourth run. Real
+movement on the dependency, all on Harrison's side: the 16 Aug weekly review
+logged the NF3 confirmation question as HWL-282 in `this-week.md`, a 10:10
+calendar hold this morning bundled it into the Anna send, and per
+`capture/inbox.md` Harrison asked Anna by WhatsApp at midday, the advert
+inputs plus whether NF3 still shoots Wed 19 Aug. Her answer is pending on
+WhatsApp, which no reachable source can see. Gmail carries zero Creepers or
+NF3 threads in the last 3 days and Google Calendar still has no shoot event,
+only Harrison's own send hold. Practical tap deadline is Tuesday 18 Aug
+evening: the two extra shot-list items need approving before NF3 shoots
+Wednesday. If Anna kills or moves NF3, this proposal retargets with the shoot
+rather than dying quietly. Message written to
+`agents/outbox/creative-lab-2026-08-17.md`; send attempted from inside the
+session, desktop push as fallback.
+
+**Noted, 19 Aug 17:00 run:** Day 6 proposed, guard active, no results to close.
+The dependency has slipped: NF3 was listed on the live calendar for today
+("SHOOT NF3 · Wed 19" per the 07:10 calendar hold, recorded from the deployed
+calendar by the 18 Aug overnight session) and did not shoot. Harrison's day
+verifiably ran in London end to end: 07:45 VO2 run marked done, Better Moments
+block to 13:30, the 15:00 Kerri Teams call with a 15:55 debrief in
+capture/inbox.md, the 16:10 LOR pre-production session. And Anna cannot
+reconfirm before Friday: her 09:18 auto-reply (Gmail, "Automatic reply: Pro
+Landscaper Ad") says she is out of office until Fri 21 Aug; the advert
+deadline was closed through Sam instead. Consequence per this test's own rule:
+the test slips with the shoot. The 23 Aug reel slot has no footage source and
+must not be forced from the bank; an empty Sunday beats filler. When NF3 gets
+a new date, this proposal re-targets to the first installation slot after it,
+same variant, no rebuild. Caveat stated honestly: the deployed calendar could
+not be re-read from this session (node, curl, exa fetch and script execution
+all denied again, the fifth consecutive run for the slot script), so
+NF3-did-not-shoot is an inference from Harrison's verified London day, not a
+grid read. Telegram send failed again, creative-lab.sh still has no outbox
+delivery block (HWL-289): full message at
+agents/outbox/creative-lab-2026-08-19.md, desktop notification sent, mobile
+push inactive.
+
+**Noted, 20 Aug 17:00 run:** Day 7 proposed, guard active, no results to close.
+The 23 Aug slot is gone in practice: NF3 still has no date, Anna's out of
+office runs to Fri 21 Aug (today.md, verified brief chain), and even an
+immediate Friday reconfirmation cannot put footage in the bank before Sunday.
+Do not tap for 23 Aug; an empty Sunday beats filler. The variant needs no
+rebuild and re-targets unchanged to the first installation slot after a
+rescheduled NF3, so Anna's Friday WhatsApp reply is the only tap that matters.
+Harrison's 19 Aug 17:38 Telegram reply was a voice message, captured
+untranscribed in capture/inbox.md; if it answered this proposal it is
+unreadable from here, re-send as text. Slot script denied a sixth consecutive
+run, and exa fetch, WebFetch, curl and osascript were all denied too, so the
+deployed calendar could not be re-read; NF3 state comes from today.md.
+HWL-289 (delivery block plus allowlist) and HWL-282 (NF3 confirmation) remain
+open in this-week.md, and the Codex parallel-run prompts from 18 and 19 Aug
+produced no report files, so the engineering fix has not landed. Full message
+at agents/outbox/creative-lab-2026-08-20.md, desktop notification sent, mobile
+push inactive.
+
 **Result:** (window closes Sun 30 Aug)

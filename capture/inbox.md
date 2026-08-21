@@ -4,6 +4,14 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-08-21 08:35 (Squiggly: Helen replied, session watch)
+
+- **Helen replied Thu 20 Aug 17:44, warm, no pushback on £3,400.** Finance Manager back Monday to check cash-flow impact across the year; next steps "very early next week" (w/c 24 Aug). One operational question: Sarah Massie is away 22-29 Sept, can first drafts reach her before she goes under a 14 Sept start, "might affect when we change over".
+- **Answer staged on the thread for Harrison's tap:** yes, comfortably. The 6 and 8 Oct episodes get cut 16-17 Sept, drafts to Sarah M by Thu 18 Sept, her feedback Fri 19th; the rest reviewed on her return from the 30th with days to spare. Edit pencil moved from w/c 21 Sept to Wed 16 Sept on the calendar. Send Friday so Helen has it before Monday's finance chat. Full record in `business/clients/squiggly-careers.md`.
+- Source: Gmail thread "Squiggly Careers Production", session watch
+- Tag: client
+- Status: new
+
 ## 2026-08-19 13:40 (Squiggly proposal sent, session watch)
 
 - **Squiggly proposal SENT, 19 Aug 12:16**, on the production thread. Harrison rewrote before sending: £3,400 plus VAT anchored to their £45-50k envelope, £800 step-up over the current fee named head-on, editing as "lead all eight edits and personally sign off every final cut", rush protection restored, initial three-month commitment with first month up front and a month-three review, two start options (14 Sept, first episode 6 Oct, access by Fri 4 Sept; or 12 Oct, first episodes mid-Nov, access by Fri 2 Oct). Close: pick a start and the short agreement follows. Both stale Gmail drafts deleted at send. Full as-sent text and deltas in `business/clients/squiggly-careers.md`; agreement one-pager realigned to the sent terms same hour.

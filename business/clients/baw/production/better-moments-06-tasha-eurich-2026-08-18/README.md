@@ -1,6 +1,8 @@
-# Better Moments #6: Tasha Eurich
+# Better Moments: Tasha Eurich (superseded)
 
 **SUPERSEDED 19 AUGUST 2026.** Harrison selected Smart Conflict after reviewing the editorial options. The active Better Moments #6 package is `../better-moments-06-smart-conflict-2026-08-19/`. Retain this Tasha Eurich package as reference material only. Do not upload, schedule, send or publish any of its assets as Better Moments #6.
+
+If this material is ever revived for a future slot, the series strings (BETTER MOMENTS 06, footers, folios, the "lands Thursday" callout day) live in `design/generate-artwork.mjs` and all 19 frames regenerate in one command; `copy.md` and `newsletter.md` renumber by hand. The transcript-verification gates in `carousel.md` and `publish-checklist.md` would still apply.
 
 This proposal package was started remotely on 18 August while Harrison was on family duties. The notes below record what was built before the editorial choice changed.
 

@@ -1,5 +1,7 @@
 # Publish checklist
 
+**Superseded for w/c 17 Aug, 19 August 2026.** Harrison chose the Codex Smart Conflict package for #6, so this sequence did not run. If this package takes the #7 slot, shift every date one week (carousels Wed 26 Aug, drop Thu 27 Aug 12:30 BST, Better Bits Fri 28 Aug), renumber 06 to 07 throughout, and regenerate the artwork first. The approval gates below stand as written.
+
 ## Complete
 
 - [x] Editorial pick made with rationale and named backup (Tasha Eurich; Smart Conflict).

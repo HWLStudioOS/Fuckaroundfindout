@@ -4,6 +4,14 @@ The one trusted intake. Codex H11: "Harrison's problem is not lack of tools, it 
 
 Anything that's not yet sorted goes here. Tasks, ideas, learning notes, client obligations, voice memo transcripts, things to follow up on, things to ask Lich Fields, things to bring up with Maya. All start here.
 
+## 2026-08-21 08:35 (Squiggly: Helen replied, session watch)
+
+- **Helen replied Thu 20 Aug 17:44, warm, no pushback on £3,400.** Finance Manager back Monday to check cash-flow impact across the year; next steps "very early next week" (w/c 24 Aug). One operational question: Sarah Massie is away 22-29 Sept, can first drafts reach her before she goes under a 14 Sept start, "might affect when we change over".
+- **Answer staged on the thread for Harrison's tap:** yes, comfortably. The 6 and 8 Oct episodes get cut 16-17 Sept, drafts to Sarah M by Thu 18 Sept, her feedback Fri 19th; the rest reviewed on her return from the 30th with days to spare. Edit pencil moved from w/c 21 Sept to Wed 16 Sept on the calendar. Send Friday so Helen has it before Monday's finance chat. Full record in `business/clients/squiggly-careers.md`.
+- Source: Gmail thread "Squiggly Careers Production", session watch
+- Tag: client
+- Status: new
+
 ## 2026-08-19 17:38 (Telegram reply)
 - [voice message received, not transcribed. Re-send as text if it matters.]
 - Source: telegram reply (authoritative, Harrison's own words)

@@ -4,7 +4,7 @@ Career development company and podcast, Helen Tupper and Sarah Ellis. The campai
 
 ## Status
 
-**Proposal sent, 19 August 12:16**, on the production thread. £3,400 a month plus VAT, initial three-month commitment, two start options for them to pick (14 September or 12 October). They said they will decide "really quickly". Awaiting their yes and start-date pick; on yes, Harrison sends the short agreement (`squiggly-careers-agreement-draft-2026-08.md`, aligned to the sent terms).
+**Proposal sent 19 August 12:16; Helen replied 20 August 17:44, warm, no pushback on the number.** Their Finance Manager is back Monday 24 August to check "the impact of the increased cost on our cash flow across the year"; Helen commits to next steps "very early next week". Her one operational question: with Sarah Massie away 22-29 September, can first drafts reach her in time under a 14 September start? Answer is yes and a reply is staged on the thread for Harrison's tap (drafts of the 6 and 8 October episodes to Sarah M by Thursday 18 September, feedback Friday 19th; the rest reviewed on her return from the 30th with days to spare). On their yes: the short agreement (`squiggly-careers-agreement-draft-2026-08.md`).
 
 **20 August update:** Helen replied with some price sensitivity. Harrison's current read remains green. The £3,400 plus VAT proposal still holds. Do not discount, narrow scope or send a defensive follow-up before Helen makes the next move.
 
@@ -95,7 +95,8 @@ Helen Tupper, Sarah Ellis, Sarah Massie. Corrected read (first debrief wrongly t
 - Seven release dates against eight recordings; Thursday 29 October missing, flagged in the sent email.
 - **Notice to Jack is Helen's action**, covers every PH service line (the whole £2,600); he keeps the room. If option one, it wants giving comfortably before 14 September.
 - Access checklist: brand files, templates, Megaphone and YouTube access, Acast export, music files, Airtable view.
-- **Edit pinch under option one:** first two episodes want review delivery ~26-29 September, LOR Early Talent week. Diary already holds 14 Sept (Farringdon, 09:00-17:00) and a w/c 21 Sept edit pencil. September context: BaW S5 filming 2 Sept, confirmation statement 2 Sept, VAT return 7 Sept, S5 launch 15 Sept, LOR ET live w/c 28 Sept, family variable.
+- **Sarah Massie is away 22-29 September** (Helen, 20 Aug). Delivery plan under option one, committed in the staged reply: cut the 6 and 8 October episodes Wed 16 and Thu 17 September, drafts to Sarah M by Thursday 18th, her feedback Friday 19th before she goes; remaining six episodes cut w/c 21 September and reviewed on her return from the 30th, still four-plus days ahead of their releases. Diary updated: 14 Sept Farringdon hold stands, edit pencil moved to Wed 16 Sept.
+- **Edit load context:** the first-two crunch now lands 16-18 September (BaW S5 launch week, 15th) instead of LOR ET week. September stack: BaW S5 filming 2 Sept, confirmation statement 2 Sept, VAT return 7 Sept, S5 launch 15 Sept, LOR ET live w/c 28 Sept, family variable.
 
 ## Email record (thread "Squiggly Careers Production" unless noted)
 
@@ -107,6 +108,8 @@ Helen Tupper, Sarah Ellis, Sarah Massie. Corrected read (first debrief wrongly t
 - **18 August 14:11, Harrison (sent, dates thread).** Asked which recorded episodes are already edited.
 - **18 August 15:02, Sarah Massie.** All recorded episodes to 1 October are edited and ready.
 - **19 August 12:16, Harrison (sent).** The phase-one proposal, full text and deltas above.
+- **20 August 17:44, Helen.** "Really helpful... reviewing everything our side." Finance Manager back Monday to check cash-flow impact of the increased cost across the year; next steps "very early next week". Operational question: Sarah M is away 22-29 September, can first drafts reach her in time before she goes under a 14 September start, "as it might affect when we change over". No pushback on the number. To Harrison alone, no cc.
+- **Staged, unsent (21 August morning):** reply to Helen on the thread answering the Sarah M question with the exact delivery plan and a no-rush close on the finance check. Awaiting Harrison's tap; a Friday-morning answer lands before her Monday finance conversation.
 
 ## Intel
 
@@ -148,7 +151,9 @@ Helen guested on Better at Work S4E1 (25 Sept 2025), became BaW's all-time #1 ep
 ## Next actions
 
 - [x] Proposal sent 19 August 12:16. Both stale Gmail drafts deleted at send.
-- [ ] Await their yes and start-date pick. On yes: send the short agreement (`squiggly-careers-agreement-draft-2026-08.md`, aligned to sent terms; confirm the two `[H:]` items first, invoicing entity and payment mechanics).
+- [x] Helen's 20 Aug reply captured; Sarah M holiday maths done; reply staged on the thread 21 Aug morning.
+- [ ] Harrison taps send on the staged reply, ideally Friday so Helen has the answer before Monday's finance conversation.
+- [ ] Await their decision "very early next week" (w/c 24 August) after the Finance Manager's cash-flow check. On yes: send the short agreement (`squiggly-careers-agreement-draft-2026-08.md`, aligned to sent terms; confirm the two `[H:]` items first, invoicing entity and payment mechanics).
 - [ ] On a 14 September pick: confirm the Farringdon hold, chase the access checklist for Friday 4 September, Helen gives Jack notice.
 - [ ] Raise the first invoice (month one up front) on signature.
 - [ ] Build the month-one and month-two performance reports with the month-three renewal in mind; that review is also the phase-two conversation.

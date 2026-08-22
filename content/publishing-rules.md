@@ -1,5 +1,7 @@
 # Publishing Rules
 
+Live surfaces for the current pilot: `BET.md`. Do not treat LinkedIn, Instagram or TikTok as required cadence.
+
 Hard rules for anything Harrison's name (or HWL Studio's name) goes on publicly.
 
 ## Hard nos

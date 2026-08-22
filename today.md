@@ -3,6 +3,10 @@ date: 2026-08-20
 generated: auto-generated 06:30
 ---
 
+# The bet (locked 22 August 2026)
+
+One face (hlivs, not HWL). Camera. One product a stranger can buy and that people open weekly, not a PDF, not a waitlist. HWL Studio is a capped paid lab. Closed to new retainers. Squiggly Careers is the last one. Public start w/c 7 September 2026 does not move. The office does not get a vote. Interview 001 is Sunday 23 August 16:00, phone, one take. Full text: `BET.md`.
+
 # Today, Thursday 20 August 2026
 
 ## Pulse

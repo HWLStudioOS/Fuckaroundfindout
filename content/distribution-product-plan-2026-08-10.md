@@ -1,6 +1,6 @@
 ---
 date: 2026-08-10
-status: active 90-day pilot, re-anchored 14 August
+status: active 90-day pilot, re-anchored 14 August, bet locked 22 August
 owner: Harrison
 review_date: 2026-10-08
 end_date: 2026-12-06
@@ -8,6 +8,22 @@ amends: content/strategy.md, spec/portfolio-thesis-2026-06-15.md
 ---
 
 # Distribution and product plan
+
+## Amendment, 22 August 2026: company bet locked, pilot thinned
+
+Harrison locked the company bet on 22 August. Full text in `BET.md`. This is a cut, not a rebuild. The 10 August spine stands: Oliur and Dalen economics, audience and one paid product together, X as discovery, fortnightly YouTube, interview capture, one channel.
+
+What this cuts for the pilot:
+
+- LinkedIn-for-HWL-buyers cadence.
+- Instagram and TikTok as required surfaces.
+- 25 X replies a week. Until the habit exists: 3 originals and 10 honest replies.
+- The 14 August office gate. The office does not get a vote. Hard rule restored: no waiting for the office, a new camera, or a final brand name.
+- Product 001 as a waitlist. It may stay on the shelf only if a stranger can check out before 7 September. The buy button is the only material hole.
+
+What does not move: public start w/c 7 September 2026. Interview 001 sits Sunday 23 August at 16:00, phone, one take.
+
+The architecture table, weekly loop and scoreboard below still name LinkedIn, Instagram, TikTok and the 25-reply X load. Those lines are superseded for this pilot by the cuts above. Do not treat them as owed work.
 
 ## Amendment, 14 August 2026: pilot re-anchored to w/c 7 September
 

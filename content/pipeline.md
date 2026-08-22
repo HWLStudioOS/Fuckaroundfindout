@@ -1,5 +1,7 @@
 # Content Pipeline
 
+Pilot surfaces are thinner than the drafts below. Live rule: `BET.md`. LinkedIn, Instagram and TikTok are not owed cadence.
+
 The scoreboard. Ideas → drafting → ready → posted. Rebuilt 5 July 2026 to match the two-engine system (`content/system.md`). Rules at the bottom. If "Posted" is empty for 14 days, that is a named miss in the weekly review.
 
 ## Substance bank (Harrison's captures, the only drafting source)

@@ -6,8 +6,19 @@ For the static schema and folder map, see [[README]].
 
 ---
 
+## The bet (locked 22 August 2026)
+
+One face (hlivs, not HWL). Camera. One product a stranger can buy and that people open weekly, not a PDF, not a waitlist. HWL Studio is a capped paid lab. Closed to new retainers. Squiggly Careers is the last one. Public start w/c 7 September 2026 does not move. The office does not get a vote. Interview 001 is Sunday 23 August 16:00, phone, one take.
+
+Full text and the flinch list: [[BET]].
+
+The May GTM list below is not the current owed stack.
+
+---
+
 ## Read first (every session)
 
+- [[BET]], company bet, locked 22 August 2026
 - [[today]], auto-refreshed 06:30 BST
 - [[this-week]], Sunday refresh
 - [[CLAUDE]], session schema
